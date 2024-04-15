@@ -1,0 +1,25 @@
+name: Scrape latest A5 data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0,15,30,45 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v4
+    - name: Fetch latest data
+      run: |-
+       curl -X 'GET' 'https://verkehr.autobahn.de/o/autobahn/A5/services/warning' -H 'accept: application/json' | jq . > A5-warnings.json
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
