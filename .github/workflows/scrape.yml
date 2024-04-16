@@ -18,6 +18,9 @@ jobs:
     - name: Fetch latest A5 data
       run: |-
        curl -X 'GET' 'https://verkehr.autobahn.de/o/autobahn/A5/services/warning' -H 'accept: application/json' | jq . > A5-warnings.json
+    - name: Fetch latest A45 data
+      run: |-
+       curl -X 'GET' 'https://verkehr.autobahn.de/o/autobahn/A45/services/warning' -H 'accept: application/json' | jq . > A45-warnings.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
