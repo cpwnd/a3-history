@@ -1,28 +1,28 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2024-04-26_08-34-55-000_002.f.de0",
+      "identifier": "undefined--vi-zus.2024-04-26_08-34-55-000_003.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.12413221806684,7.783603724304268,48.187064338588414,7.747188005117354",
-      "point": "48.12413221806684,7.783603724304268",
+      "extent": "48.117368895935876,7.786894668212928,48.21479026541481,7.746698036261551",
+      "point": "48.117368895935876,7.786894668212928",
       "startLcPosition": "30",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Teningen - Herbolzheim",
       "startTimestamp": "2024-04-26T08:34:55+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 48.12413221806684,
-        "long": 7.783603724304268
+        "lat": 48.117368895935876,
+        "long": 7.786894668212928
       },
       "description": [
         "Beginn: 26.04.24 um 08:34 Uhr",
-        "Ende: 26.04.24 um 09:56 Uhr",
+        "Ende: 26.04.24 um 11:19 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 26.04.2024, 08:34, bis 26.04.2024, 09:56",
-        "A5: Basel -> Karlsruhe, zwischen 1.0 km hinter AS Teningen und 4.6 km vor AS Herbolzheim"
+        "Zusammengesetzte Verkehrsinformation, von 26.04.2024, 08:34, bis 26.04.2024, 11:19",
+        "A5: Basel -> Karlsruhe, zwischen 0.2 km hinter AS Teningen und 1.5 km vor AS Herbolzheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.783603724,
-            48.124132218
+            7.786894668,
+            48.117368896
+          ],
+          [
+            7.7867788,
+            48.117638901
+          ],
+          [
+            7.7861391,
+            48.119066501
+          ],
+          [
+            7.785167,
+            48.121170801
+          ],
+          [
+            7.7842811,
+            48.122869901
+          ],
+          [
+            7.7837814,
+            48.123813701
           ],
           [
             7.7822978,
@@ -223,45 +243,20 @@
             48.185934301
           ],
           [
-            7.747188005,
-            48.187064339
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2024-04-26_08-34-55-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.19524362077349,7.746100012327079,48.21690057493661,7.747044885632514",
-      "point": "48.19524362077349,7.746100012327079",
-      "startLcPosition": "31",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Riegel - Herbolzheim",
-      "startTimestamp": "2024-04-26T08:34:55+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "coordinate": {
-        "lat": 48.19524362077349,
-        "long": 7.746100012327079
-      },
-      "description": [
-        "Beginn: 26.04.24 um 08:34 Uhr",
-        "Ende: 26.04.24 um 11:27 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, von 26.04.2024, 08:34, bis 26.04.2024, 11:27",
-        "A5: Basel -> Karlsruhe, zwischen 4.7 km hinter AS Riegel und 1.2 km vor AS Herbolzheim"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+            7.746968,
+            48.188284801
+          ],
           [
-            7.746100012,
-            48.195243621
+            7.7467446,
+            48.189654601
+          ],
+          [
+            7.746541,
+            48.191100601
+          ],
+          [
+            7.7462533,
+            48.193543201
           ],
           [
             7.7459814,
@@ -312,16 +307,99 @@
             48.213712001
           ],
           [
-            7.7467831,
-            48.215342001
+            7.746698036,
+            48.214790265
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-04-26_08-34-55-000_006.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.22569114233372,7.749047865295429,48.24156881504185,7.755158886577899",
+      "point": "48.22569114233372,7.749047865295429",
+      "startLcPosition": "31",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Riegel - Rust",
+      "startTimestamp": "2024-04-26T08:34:55+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "72.4000015258789",
+      "coordinate": {
+        "lat": 48.22569114233372,
+        "long": 7.749047865295429
+      },
+      "description": [
+        "Beginn: 26.04.24 um 08:34 Uhr",
+        "Ende: 26.04.24 um 11:50 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 26.04.2024, 08:34, bis 26.04.2024, 11:50",
+        "A5: Basel -> Karlsruhe, zwischen 8.1 km hinter AS Riegel und 1.2 km vor AS Rust"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.749047865,
+            48.225691142
           ],
           [
-            7.7470183,
-            48.216757001
+            7.7491439,
+            48.226040701
           ],
           [
-            7.747044886,
-            48.216900575
+            7.7494444,
+            48.226999901
+          ],
+          [
+            7.7499781,
+            48.228696101
+          ],
+          [
+            7.7501764,
+            48.229371901
+          ],
+          [
+            7.7505303,
+            48.230410601
+          ],
+          [
+            7.7510802,
+            48.231955701
+          ],
+          [
+            7.7519253,
+            48.234176701
+          ],
+          [
+            7.7522917,
+            48.235130901
+          ],
+          [
+            7.7527266,
+            48.236196001
+          ],
+          [
+            7.7534796,
+            48.237936901
+          ],
+          [
+            7.754194,
+            48.239558201
+          ],
+          [
+            7.7545612,
+            48.240348401
+          ],
+          [
+            7.755158887,
+            48.241568815
           ]
         ]
       }
@@ -331,26 +409,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.99067645191493,8.436043864589339,48.98028558881689,8.43679902600865",
-      "point": "48.99067645191493,8.436043864589339",
-      "startLcPosition": "59",
+      "extent": "48.996558853514,8.440394968689024,48.97960020094504,8.436848199999874",
+      "point": "48.996558853514,8.440394968689024",
+      "startLcPosition": "60",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Karlsruhe-Mitte - Karlsruhe",
+      "title": "A5 | Karlsruhe-Durlach - Karlsruhe",
       "startTimestamp": "2024-04-26T09:14:56+02:00",
       "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "38.70000076293945",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "42.5",
       "coordinate": {
-        "lat": 48.99067645191493,
-        "long": 8.436043864589339
+        "lat": 48.996558853514,
+        "long": 8.440394968689024
       },
       "description": [
         "Beginn: 26.04.24 um 09:14 Uhr",
-        "Ende: 26.04.24 um 09:27 Uhr",
+        "Ende: 26.04.24 um 10:17 Uhr",
         "",
-        "Angespannte Verkehrslage, von 26.04.2024, 09:14, bis 26.04.2024, 09:27",
-        "A5: Heidelberg -> Karlsruhe, zwischen AS Karlsruhe-Mitte und 0.6 km vor AD Karlsruhe"
+        "Angespannte Verkehrslage, von 26.04.2024, 09:14, bis 26.04.2024, 10:17",
+        "A5: Heidelberg -> Karlsruhe, zwischen 1.0 km hinter AS Karlsruhe-Durlach und 0.6 km vor AD Karlsruhe"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -359,8 +437,84 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.436043865,
-            48.990676452
+            8.440394969,
+            48.996558854
+          ],
+          [
+            8.4401618,
+            48.996406201
+          ],
+          [
+            8.4397664,
+            48.996154201
+          ],
+          [
+            8.4392433,
+            48.995770101
+          ],
+          [
+            8.4389036,
+            48.995503601
+          ],
+          [
+            8.4385307,
+            48.995189001
+          ],
+          [
+            8.4381845,
+            48.994860701
+          ],
+          [
+            8.4378706,
+            48.994526901
+          ],
+          [
+            8.43761,
+            48.994243501
+          ],
+          [
+            8.4372332,
+            48.993736101
+          ],
+          [
+            8.437112,
+            48.993557501
+          ],
+          [
+            8.437018,
+            48.993418901
+          ],
+          [
+            8.4368722,
+            48.993172801
+          ],
+          [
+            8.4367161,
+            48.992884001
+          ],
+          [
+            8.4365823,
+            48.992614701
+          ],
+          [
+            8.4364342,
+            48.992291801
+          ],
+          [
+            8.4363284,
+            48.992012701
+          ],
+          [
+            8.4361997,
+            48.991588001
+          ],
+          [
+            8.4360911,
+            48.991116101
+          ],
+          [
+            8.436062,
+            48.990881701
           ],
           [
             8.4360387,
@@ -427,8 +581,103 @@
             48.980833701
           ],
           [
-            8.436799026,
-            48.980285589
+            8.4368482,
+            48.979600201
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-04-26_09-22-47-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.09892411796791,8.53803842104535,49.089020548231865,8.529857656607007",
+      "point": "49.09892411796791,8.53803842104535",
+      "startLcPosition": "64",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Bruchsal - Höfenschlag",
+      "startTimestamp": "2024-04-26T09:22:47+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "51.099998474121094",
+      "coordinate": {
+        "lat": 49.09892411796791,
+        "long": 8.53803842104535
+      },
+      "description": [
+        "Beginn: 26.04.24 um 09:22 Uhr",
+        "Ende: 26.04.24 um 09:41 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 26.04.2024, 09:22, bis 26.04.2024, 09:41",
+        "A5: Heidelberg -> Karlsruhe, zwischen 5.8 km hinter AS Bruchsal und 2.5 km vor Höfenschlag"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.538038421,
+            49.098924118
+          ],
+          [
+            8.536711,
+            49.097247801
+          ],
+          [
+            8.5356107,
+            49.095863501
+          ],
+          [
+            8.5345607,
+            49.094540301
+          ],
+          [
+            8.5333073,
+            49.092964801
+          ],
+          [
+            8.5329649,
+            49.092530701
+          ],
+          [
+            8.5326218,
+            49.092104901
+          ],
+          [
+            8.5321655,
+            49.091557101
+          ],
+          [
+            8.5316857,
+            49.090994101
+          ],
+          [
+            8.5314586,
+            49.090734001
+          ],
+          [
+            8.5312142,
+            49.090458601
+          ],
+          [
+            8.5308096,
+            49.090014401
+          ],
+          [
+            8.5303431,
+            49.089522201
+          ],
+          [
+            8.5298853,
+            49.089048401
+          ],
+          [
+            8.529857657,
+            49.089020548
           ]
         ]
       }
