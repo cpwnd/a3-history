@@ -367,26 +367,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.266944824251524,7.601646244438482,51.26197977251967,7.603714932994817",
-      "point": "51.266944824251524,7.601646244438482",
-      "startLcPosition": "91",
+      "extent": "51.269462766924875,7.60097053194302,51.26198796895259,7.603709042773856",
+      "point": "51.269462766924875,7.60097053194302",
+      "startLcPosition": "93",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Sterbecker Siepen - Lüdenscheid-Nord",
+      "title": "A45 | Kaltenborn - Lüdenscheid-Nord",
       "startTimestamp": "2024-05-02T06:04:00+02:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "5",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6.400000095367432",
+      "averageSpeed": "7.300000190734863",
       "coordinate": {
-        "lat": 51.266944824251524,
-        "long": 7.601646244438482
+        "lat": 51.269462766924875,
+        "long": 7.60097053194302
       },
       "description": [
         "Beginn: 02.05.24 um 06:04 Uhr",
         "Ende: 02.05.24 um 21:25 Uhr",
         "",
         "Angespannte Verkehrslage, von 02.05.2024, 06:04, bis 02.05.2024, 21:25",
-        "A45: Hagen -> Gießen, zwischen 0.1 km hinter Sterbecker Siepen und 0.4 km vor AS Lüdenscheid-Nord"
+        "A45: Hagen -> Gießen, zwischen 3.1 km hinter Kaltenborn und 0.4 km vor AS Lüdenscheid-Nord"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -395,8 +395,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.601646244,
-            51.266944824
+            7.600970532,
+            51.269462767
+          ],
+          [
+            7.6009779,
+            51.269437801
+          ],
+          [
+            7.6012255,
+            51.268570601
           ],
           [
             7.6016536,
@@ -431,8 +439,63 @@
             51.262373201
           ],
           [
-            7.603714933,
-            51.261979773
+            7.603709043,
+            51.261987969
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-05-02_12-41-14-000_005.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.5791664913773,7.365766669163956,51.5820531234725,7.366739390037713",
+      "point": "51.5791664913773,7.365766669163956",
+      "startLcPosition": "112",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
+      "startTimestamp": "2024-05-02T12:41:14+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "27",
+      "coordinate": {
+        "lat": 51.5791664913773,
+        "long": 7.365766669163956
+      },
+      "description": [
+        "Beginn: 02.05.24 um 12:41 Uhr",
+        "Ende: 02.05.24 um 12:49 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 02.05.2024, 12:41, bis 02.05.2024, 12:49",
+        "A45: Hagen -> Dortmund, zwischen 2.0 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.365766669,
+            51.579166491
+          ],
+          [
+            7.3658147,
+            51.579335401
+          ],
+          [
+            7.3663489,
+            51.580948201
+          ],
+          [
+            7.3664186,
+            51.581176601
+          ],
+          [
+            7.36673939,
+            51.582053123
           ]
         ]
       }
