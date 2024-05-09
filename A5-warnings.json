@@ -1,28 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2024-05-09_08-36-00-000_003.f.de0",
+      "identifier": "undefined--vi-avl.2024-05-09_08-36-00-000_009.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.16333591593317,7.755089183880024,48.2520198405979,7.76106540875521",
-      "point": "48.16333591593317,7.755089183880024",
+      "extent": "48.187010750883296,7.747197664782437,48.25350536609235,7.762037176226253",
+      "point": "48.187010750883296,7.747197664782437",
       "startLcPosition": "31",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Riegel - Ettenheim",
       "startTimestamp": "2024-05-09T08:36:00+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "delayTimeValue": "10",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "33.5",
       "coordinate": {
-        "lat": 48.16333591593317,
-        "long": 7.755089183880024
+        "lat": 48.187010750883296,
+        "long": 7.747197664782437
       },
       "description": [
         "Beginn: 09.05.24 um 08:36 Uhr",
-        "Ende: 09.05.24 um 12:36 Uhr",
+        "Ende: 09.05.24 um 12:15 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 09.05.2024, 08:36, bis 09.05.2024, 12:36",
-        "A5: Basel -> Karlsruhe, zwischen 1.1 km hinter AS Riegel und 3.3 km vor AS Ettenheim"
+        "Angespannte Verkehrslage, von 09.05.2024, 08:36, bis 09.05.2024, 12:15",
+        "A5: Basel -> Karlsruhe, zwischen 3.8 km hinter AS Riegel und 3.1 km vor AS Ettenheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,72 +33,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.755089184,
-            48.163335916
-          ],
-          [
-            7.7545209,
-            48.164512501
-          ],
-          [
-            7.7542888,
-            48.165022001
-          ],
-          [
-            7.754008,
-            48.165558601
-          ],
-          [
-            7.7537488,
-            48.166129501
-          ],
-          [
-            7.7535719,
-            48.166533001
-          ],
-          [
-            7.7535022,
-            48.166686201
-          ],
-          [
-            7.7532316,
-            48.167324901
-          ],
-          [
-            7.7524631,
-            48.169150301
-          ],
-          [
-            7.7518865,
-            48.170596101
-          ],
-          [
-            7.7509968,
-            48.172976401
-          ],
-          [
-            7.7502002,
-            48.175304801
-          ],
-          [
-            7.7496184,
-            48.177069901
-          ],
-          [
-            7.7488337,
-            48.179837301
-          ],
-          [
-            7.7484254,
-            48.181364101
-          ],
-          [
-            7.7480534,
-            48.182870701
-          ],
-          [
-            7.7473917,
-            48.185934301
+            7.747197665,
+            48.187010751
           ],
           [
             7.746968,
@@ -267,8 +205,119 @@
             48.250890001
           ],
           [
-            7.761065409,
-            48.252019841
+            7.7613616,
+            48.252483001
+          ],
+          [
+            7.761604,
+            48.252846401
+          ],
+          [
+            7.762037176,
+            48.253505366
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-05-09_10-34-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.29669252657747,7.788955269125462,48.3199126554699,7.790471395895542",
+      "point": "48.29669252657747,7.788955269125462",
+      "startLcPosition": "34",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Ettenheim - Lahr",
+      "startTimestamp": "2024-05-09T10:34:00+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "59.599998474121094",
+      "coordinate": {
+        "lat": 48.29669252657747,
+        "long": 7.788955269125462
+      },
+      "description": [
+        "Beginn: 09.05.24 um 10:34 Uhr",
+        "Ende: 09.05.24 um 11:18 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 09.05.2024, 10:34, bis 09.05.2024, 11:18",
+        "A5: Basel -> Karlsruhe, zwischen 2.1 km hinter AS Ettenheim und 4.4 km vor AS Lahr"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.788955269,
+            48.296692527
+          ],
+          [
+            7.7890695,
+            48.297128501
+          ],
+          [
+            7.7893005,
+            48.298142901
+          ],
+          [
+            7.7895954,
+            48.299629401
+          ],
+          [
+            7.7898233,
+            48.300996901
+          ],
+          [
+            7.7900009,
+            48.302480301
+          ],
+          [
+            7.7901531,
+            48.303850101
+          ],
+          [
+            7.7903244,
+            48.305607301
+          ],
+          [
+            7.7904204,
+            48.306760901
+          ],
+          [
+            7.7904666,
+            48.307985201
+          ],
+          [
+            7.7905238,
+            48.309184301
+          ],
+          [
+            7.7905657,
+            48.310520001
+          ],
+          [
+            7.7906066,
+            48.311835501
+          ],
+          [
+            7.7906219,
+            48.313951001
+          ],
+          [
+            7.7905932,
+            48.316150601
+          ],
+          [
+            7.7905373,
+            48.318464401
+          ],
+          [
+            7.790471396,
+            48.319912655
           ]
         ]
       }
@@ -278,26 +327,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.268012114668245,8.611169015183672,49.21911099114152,8.603651846307036",
-      "point": "49.268012114668245,8.611169015183672",
+      "extent": "49.26691265818063,8.61025796157507,49.218486019963294,8.603535317706287",
+      "point": "49.26691265818063,8.61025796157507",
       "startLcPosition": "69",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
       "title": "A5 | Walldorf - Bruchsal",
       "startTimestamp": "2024-05-09T08:35:30+02:00",
-      "delayTimeValue": "12",
+      "delayTimeValue": "14",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "22.700000762939453",
+      "averageSpeed": "20.200000762939453",
       "coordinate": {
-        "lat": 49.268012114668245,
-        "long": 8.611169015183672
+        "lat": 49.26691265818063,
+        "long": 8.61025796157507
       },
       "description": [
         "Beginn: 09.05.24 um 08:35 Uhr",
-        "Ende: 09.05.24 um 12:20 Uhr",
+        "Ende: 09.05.24 um 12:26 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.05.2024, 08:35, bis 09.05.2024, 12:20",
-        "A5: Heidelberg -> Karlsruhe, zwischen 1.6 km hinter AK Walldorf und 7.3 km vor Bruchsal"
+        "Angespannte Verkehrslage, von 09.05.2024, 08:35, bis 09.05.2024, 12:26",
+        "A5: Heidelberg -> Karlsruhe, zwischen 1.7 km hinter AK Walldorf und 7.2 km vor Bruchsal"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -306,12 +355,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.611169015,
-            49.268012115
-          ],
-          [
-            8.6103937,
-            49.267069101
+            8.610257962,
+            49.266912658
           ],
           [
             8.6102298,
@@ -582,8 +627,107 @@
             49.219350201
           ],
           [
-            8.603651846,
-            49.219110991
+            8.6036188,
+            49.218903801
+          ],
+          [
+            8.603535318,
+            49.21848602
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-05-09_10-38-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.84407405395763,8.62121497967073,49.850285645272955,8.608390236610264",
+      "point": "49.84407405395763,8.62121497967073",
+      "startLcPosition": "93",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Darmstadt-Eberstadt - Darmstädter Kreuz",
+      "startTimestamp": "2024-05-09T10:38:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "67.9000015258789",
+      "coordinate": {
+        "lat": 49.84407405395763,
+        "long": 8.62121497967073
+      },
+      "description": [
+        "Beginn: 09.05.24 um 10:38 Uhr",
+        "Ende: 09.05.24 um 10:52 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 09.05.2024, 10:38, bis 09.05.2024, 10:52",
+        "A5: Heidelberg -> Darmstadt, zwischen 4.2 km hinter AS Darmstadt-Eberstadt und 1.1 km vor AK Darmstädter Kreuz"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.62121498,
+            49.844074054
+          ],
+          [
+            8.620109,
+            49.844541401
+          ],
+          [
+            8.6187026,
+            49.845137901
+          ],
+          [
+            8.617827,
+            49.845509601
+          ],
+          [
+            8.6168016,
+            49.845955701
+          ],
+          [
+            8.6156666,
+            49.846464001
+          ],
+          [
+            8.6147623,
+            49.846876501
+          ],
+          [
+            8.613905,
+            49.847283901
+          ],
+          [
+            8.6131115,
+            49.847674601
+          ],
+          [
+            8.6122288,
+            49.848121801
+          ],
+          [
+            8.6118219,
+            49.848335501
+          ],
+          [
+            8.6112008,
+            49.848666301
+          ],
+          [
+            8.6102032,
+            49.849222101
+          ],
+          [
+            8.6089098,
+            49.849967201
+          ],
+          [
+            8.608390237,
+            49.850285645
           ]
         ]
       }
@@ -638,30 +782,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2024-05-09_09-59-30-000_006.f.de0",
+      "identifier": "undefined--vi-avl.2024-05-09_10-36-00-000_001.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.74249515945533,9.27716043015455,50.75468744161019,9.33018091433009",
-      "point": "50.74249515945533,9.27716043015455",
-      "startLcPosition": "134",
+      "extent": "50.21856231413109,8.66335933447693,50.23339298484091,8.663199450629705",
+      "point": "50.21856231413109,8.66335933447693",
+      "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Alsfeld-West - Eifa",
-      "startTimestamp": "2024-05-09T09:59:30+02:00",
-      "delayTimeValue": "2",
+      "title": "A5 | Bad Homburger Kreuz - Spießwald",
+      "startTimestamp": "2024-05-09T10:36:00+02:00",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55.29999923706055",
+      "averageSpeed": "54.099998474121094",
       "coordinate": {
-        "lat": 50.74249515945533,
-        "long": 9.27716043015455
+        "lat": 50.21856231413109,
+        "long": 8.66335933447693
       },
       "description": [
-        "Beginn: 09.05.24 um 09:59 Uhr",
-        "Ende: 09.05.24 um 12:20 Uhr",
+        "Beginn: 09.05.24 um 10:36 Uhr",
+        "Ende: 09.05.24 um 11:03 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.05.2024, 09:59, bis 09.05.2024, 12:20",
-        "A5: Frankfurt -> Kassel, zwischen 2.7 km hinter AS Alsfeld-West und 1.6 km vor Eifa"
+        "Angespannte Verkehrslage, von 09.05.2024, 10:36, bis 09.05.2024, 11:03",
+        "A5: Frankfurt -> Kassel, zwischen 2.4 km hinter AK Bad Homburger Kreuz und 1.9 km vor Spießwald"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -670,8 +814,342 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.27716043,
-            50.742495159
+            8.663359334,
+            50.218562314
+          ],
+          [
+            8.6633731,
+            50.218746301
+          ],
+          [
+            8.6633984,
+            50.219330001
+          ],
+          [
+            8.6633959,
+            50.219700801
+          ],
+          [
+            8.6633778,
+            50.221049701
+          ],
+          [
+            8.6633724,
+            50.221286701
+          ],
+          [
+            8.6633583,
+            50.222498001
+          ],
+          [
+            8.6633233,
+            50.224615401
+          ],
+          [
+            8.6632817,
+            50.227386901
+          ],
+          [
+            8.6632325,
+            50.230823401
+          ],
+          [
+            8.6632221,
+            50.231639301
+          ],
+          [
+            8.6632189,
+            50.231891101
+          ],
+          [
+            8.6632001,
+            50.233352501
+          ],
+          [
+            8.663199451,
+            50.233392985
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-05-09_10-37-30-000_008.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.687566306745126,9.038634813097989,50.704707443257185,9.053527196020811",
+      "point": "50.687566306745126,9.038634813097989",
+      "startLcPosition": "130",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Homberg (Ohm) - Krachgarten",
+      "startTimestamp": "2024-05-09T10:37:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "64.5",
+      "coordinate": {
+        "lat": 50.687566306745126,
+        "long": 9.038634813097989
+      },
+      "description": [
+        "Beginn: 09.05.24 um 10:37 Uhr",
+        "Ende: 09.05.24 um 11:14 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 09.05.2024, 10:37, bis 09.05.2024, 11:14",
+        "A5: Frankfurt -> Kassel, zwischen 6.1 km hinter AS Homberg (Ohm) und 4.3 km vor Krachgarten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.038634813,
+            50.687566307
+          ],
+          [
+            9.038635,
+            50.687566801
+          ],
+          [
+            9.0389676,
+            50.688511801
+          ],
+          [
+            9.0395211,
+            50.690086801
+          ],
+          [
+            9.0397482,
+            50.690722901
+          ],
+          [
+            9.0400257,
+            50.691447701
+          ],
+          [
+            9.0403445,
+            50.692222001
+          ],
+          [
+            9.0405865,
+            50.692741301
+          ],
+          [
+            9.0408322,
+            50.693208401
+          ],
+          [
+            9.0410938,
+            50.693655601
+          ],
+          [
+            9.0414622,
+            50.694247401
+          ],
+          [
+            9.0417642,
+            50.694693501
+          ],
+          [
+            9.0421695,
+            50.695239301
+          ],
+          [
+            9.0428668,
+            50.696156001
+          ],
+          [
+            9.0435469,
+            50.697020001
+          ],
+          [
+            9.044188,
+            50.697853101
+          ],
+          [
+            9.0447481,
+            50.698545901
+          ],
+          [
+            9.0452273,
+            50.699087301
+          ],
+          [
+            9.0455643,
+            50.699428801
+          ],
+          [
+            9.0461827,
+            50.700035101
+          ],
+          [
+            9.0465168,
+            50.700338201
+          ],
+          [
+            9.0469788,
+            50.700741301
+          ],
+          [
+            9.0475679,
+            50.701217501
+          ],
+          [
+            9.0479447,
+            50.701513501
+          ],
+          [
+            9.0484485,
+            50.701879501
+          ],
+          [
+            9.0487989,
+            50.702127501
+          ],
+          [
+            9.0492536,
+            50.702427701
+          ],
+          [
+            9.0493955,
+            50.702514501
+          ],
+          [
+            9.0500644,
+            50.702936201
+          ],
+          [
+            9.05064,
+            50.703273401
+          ],
+          [
+            9.0509662,
+            50.703456701
+          ],
+          [
+            9.0518996,
+            50.703942001
+          ],
+          [
+            9.0528475,
+            50.704406001
+          ],
+          [
+            9.053527196,
+            50.704707443
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-05-09_09-59-30-000_006.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.7380817821449,9.259089439631072,50.75519675621877,9.327476467477181",
+      "point": "50.7380817821449,9.259089439631072",
+      "startLcPosition": "134",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Alsfeld-West - Eifa",
+      "startTimestamp": "2024-05-09T09:59:30+02:00",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "45.599998474121094",
+      "coordinate": {
+        "lat": 50.7380817821449,
+        "long": 9.259089439631072
+      },
+      "description": [
+        "Beginn: 09.05.24 um 09:59 Uhr",
+        "Ende: 09.05.24 um 12:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 09.05.2024, 09:59, bis 09.05.2024, 12:42",
+        "A5: Frankfurt -> Kassel, zwischen 1.3 km hinter AS Alsfeld-West und 1.8 km vor Eifa"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.25908944,
+            50.738081782
+          ],
+          [
+            9.2593499,
+            50.738134101
+          ],
+          [
+            9.2606373,
+            50.738402601
+          ],
+          [
+            9.2618696,
+            50.738681201
+          ],
+          [
+            9.2629296,
+            50.738923101
+          ],
+          [
+            9.2640388,
+            50.739201101
+          ],
+          [
+            9.2669144,
+            50.739970001
+          ],
+          [
+            9.2676968,
+            50.740179201
+          ],
+          [
+            9.2685543,
+            50.740406301
+          ],
+          [
+            9.2693993,
+            50.740633301
+          ],
+          [
+            9.2706557,
+            50.740973101
+          ],
+          [
+            9.2713081,
+            50.741150301
+          ],
+          [
+            9.2724425,
+            50.741457901
+          ],
+          [
+            9.2729246,
+            50.741587101
+          ],
+          [
+            9.2738505,
+            50.741831501
+          ],
+          [
+            9.2747744,
+            50.742059601
+          ],
+          [
+            9.2757682,
+            50.742265701
+          ],
+          [
+            9.2763706,
+            50.742375001
+          ],
+          [
+            9.2769785,
+            50.742470701
           ],
           [
             9.2776249,
@@ -958,16 +1436,8 @@
             50.755393201
           ],
           [
-            9.3282244,
-            50.755056801
-          ],
-          [
-            9.3299895,
-            50.754721901
-          ],
-          [
-            9.330180914,
-            50.754687442
+            9.327476467,
+            50.755196756
           ]
         ]
       }
@@ -977,26 +1447,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.77237083741691,9.387533491759497,50.782248032127555,9.414380570165855",
-      "point": "50.77237083741691,9.387533491759497",
+      "extent": "50.77283386706182,9.388665721214386,50.78253109990186,9.41565200325937",
+      "point": "50.77283386706182,9.388665721214386",
       "startLcPosition": "137",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Berfa - Frohnkreuz",
       "startTimestamp": "2024-05-09T10:27:30+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55",
+      "averageSpeed": "66.4000015258789",
       "coordinate": {
-        "lat": 50.77237083741691,
-        "long": 9.387533491759497
+        "lat": 50.77283386706182,
+        "long": 9.388665721214386
       },
       "description": [
         "Beginn: 09.05.24 um 10:27 Uhr",
-        "Ende: 09.05.24 um 10:38 Uhr",
+        "Ende: 09.05.24 um 11:07 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.05.2024, 10:27, bis 09.05.2024, 10:38",
-        "A5: Frankfurt -> Kassel, zwischen 2.4 km hinter Berfa und 2.4 km vor Frohnkreuz"
+        "Angespannte Verkehrslage, von 09.05.2024, 10:27, bis 09.05.2024, 11:07",
+        "A5: Frankfurt -> Kassel, zwischen 2.5 km hinter Berfa und 2.3 km vor Frohnkreuz"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1005,8 +1475,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.387533492,
-            50.772370837
+            9.388665721,
+            50.772833867
           ],
           [
             9.3889612,
@@ -1117,8 +1587,8 @@
             50.781979701
           ],
           [
-            9.41438057,
-            50.782248032
+            9.415652003,
+            50.7825311
           ]
         ]
       }
