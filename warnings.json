@@ -5,26 +5,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.788485585828724,13.010045250485573,48.80823024122335,12.971996917384146",
-      "point": "48.788485585828724,13.010045250485573",
-      "startLcPosition": "24",
+      "extent": "48.7869328770508,13.013417050479433,48.80834353772561,12.971751619961479",
+      "point": "48.7869328770508,13.013417050479433",
+      "startLcPosition": "23",
       "display_type": "WARNING",
       "subtitle": " Passau -> Nürnberg",
-      "title": "A3 | Seebach - Deggendorf",
+      "title": "A3 | Hengersberg - Deggendorf",
       "startTimestamp": "2024-06-29T06:15:30+02:00",
-      "delayTimeValue": "10",
+      "delayTimeValue": "8",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17.399999618530273",
+      "averageSpeed": "22.5",
       "coordinate": {
-        "lat": 48.788485585828724,
-        "long": 13.010045250485573
+        "lat": 48.7869328770508,
+        "long": 13.013417050479433
       },
       "description": [
         "Beginn: 29.06.24 um 06:15 Uhr",
-        "Ende: 30.06.24 um 23:36 Uhr",
+        "Ende: 30.06.24 um 23:44 Uhr",
         "",
-        "Angespannte Verkehrslage, von 29.06.2024, 06:15, bis 30.06.2024, 23:36",
-        "A3: Passau -> Nürnberg, zwischen Seebach und 2.6 km vor AK Deggendorf"
+        "Angespannte Verkehrslage, von 29.06.2024, 06:15, bis 30.06.2024, 23:44",
+        "A3: Passau -> Nürnberg, zwischen 2.7 km hinter AS Hengersberg und 2.6 km vor AK Deggendorf"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.01004525,
-            48.788485586
+            13.01341705,
+            48.786932877
+          ],
+          [
+            13.0127672,
+            48.787247601
+          ],
+          [
+            13.0118665,
+            48.787671801
+          ],
+          [
+            13.0109687,
+            48.788081101
           ],
           [
             13.009787,
@@ -121,37 +133,35 @@
             48.807267201
           ],
           [
-            12.971996917,
-            48.808230241
+            12.97175162,
+            48.808343538
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2024-06-30_22-11-00-000.f.de0",
+      "identifier": "undefined--vi-zus.2024-06-30_22-11-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.99486427963327,12.027681349992159,48.99973311077684,12.042600649615242",
-      "point": "48.99486427963327,12.027681349992159",
+      "extent": "48.99530400094512,12.029527000025531,49.001303753900764,12.049589897143024",
+      "point": "48.99530400094512,12.029527000025531",
       "startLcPosition": "48",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
       "title": "A3 | Erlgrund - Sparlberg",
       "startTimestamp": "2024-06-30T22:11:00+02:00",
-      "delayTimeValue": "22",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3.200000047683716",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 48.99486427963327,
-        "long": 12.027681349992159
+        "lat": 48.99530400094512,
+        "long": 12.029527000025531
       },
       "description": [
         "Beginn: 30.06.24 um 22:11 Uhr",
-        "Ende: 30.06.24 um 22:52 Uhr",
+        "Ende: 30.06.24 um 23:16 Uhr",
         "",
-        "Angespannte Verkehrslage, von 30.06.2024, 22:11, bis 30.06.2024, 22:52",
-        "A3: Nürnberg -> Passau, zwischen 3.5 km hinter Erlgrund und 0.6 km vor Sparlberg"
+        "Zusammengesetzte Verkehrsinformation, von 30.06.2024, 22:11, bis 30.06.2024, 23:16",
+        "A3: Nürnberg -> Passau, zwischen 3.7 km hinter Erlgrund und Sparlberg"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -159,18 +169,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            12.02768135,
-            48.99486428
-          ],
-          [
-            12.0279044,
-            48.994903501
-          ],
-          [
-            12.0287411,
-            48.995086601
-          ],
           [
             12.029527,
             48.995304001
@@ -212,186 +210,48 @@
             48.999720901
           ],
           [
-            12.04260065,
-            48.999733111
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2024-06-30_21-42-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.47277514721872,6.815985162131155,51.46114763597257,6.811147153084767",
-      "point": "51.47277514721872,6.815985162131155",
-      "startLcPosition": "231",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-Lirich - Kaiserberg",
-      "startTimestamp": "2024-06-30T21:42:30+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35.29999923706055",
-      "coordinate": {
-        "lat": 51.47277514721872,
-        "long": 6.815985162131155
-      },
-      "description": [
-        "Beginn: 30.06.24 um 21:42 Uhr",
-        "Ende: 30.06.24 um 22:52 Uhr",
-        "",
-        "Angespannte Verkehrslage, von 30.06.2024, 21:42, bis 30.06.2024, 22:52",
-        "A3: Oberhausen -> Köln, zwischen 0.3 km hinter AS Oberhausen-Lirich und 2.1 km vor AK Kaiserberg"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.815985162,
-            51.472775147
+            12.044662,
+            49.000421701
           ],
           [
-            6.8160918,
-            51.472354001
+            12.0451322,
+            49.000578201
           ],
           [
-            6.8162004,
-            51.471815701
+            12.0458205,
+            49.000772901
           ],
           [
-            6.8162725,
-            51.471364501
+            12.0466575,
+            49.000974301
           ],
           [
-            6.8163366,
-            51.470698301
+            12.047033,
+            49.001048701
           ],
           [
-            6.8163785,
-            51.470053901
+            12.0474343,
+            49.001120301
           ],
           [
-            6.8163563,
-            51.469199401
+            12.0478725,
+            49.001181901
           ],
           [
-            6.8162701,
-            51.468379101
+            12.0485276,
+            49.001249001
           ],
           [
-            6.816019,
-            51.467105601
+            12.0489984,
+            49.001279301
           ],
           [
-            6.8159667,
-            51.466840501
+            12.0494606,
+            49.001301001
           ],
           [
-            6.8156363,
-            51.465810701
-          ],
-          [
-            6.8153241,
-            51.465084301
-          ],
-          [
-            6.8149865,
-            51.464505701
-          ],
-          [
-            6.8144559,
-            51.463771401
-          ],
-          [
-            6.8142594,
-            51.463532101
-          ],
-          [
-            6.8139396,
-            51.463173401
-          ],
-          [
-            6.8134116,
-            51.462727801
-          ],
-          [
-            6.8131532,
-            51.462508801
-          ],
-          [
-            6.812532,
-            51.462006701
-          ],
-          [
-            6.8122792,
-            51.461825301
-          ],
-          [
-            6.8114678,
-            51.461322601
-          ],
-          [
-            6.811147153,
-            51.461147636
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2024-06-30_22-15-00-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
-      "point": "51.89839901701434,6.165717280673193",
-      "startLcPosition": "262",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Elten - Elten",
-      "startTimestamp": "2024-06-30T22:15:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "31",
-      "coordinate": {
-        "lat": 51.89839901701434,
-        "long": 6.165717280673193
-      },
-      "description": [
-        "Beginn: 30.06.24 um 22:15 Uhr",
-        "Ende: 30.06.24 um 22:30 Uhr",
-        "",
-        "Angespannte Verkehrslage, von 30.06.2024, 22:15, bis 30.06.2024, 22:30",
-        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.165717281,
-            51.898399017
-          ],
-          [
-            6.1665101,
-            51.897629501
-          ],
-          [
-            6.1668453,
-            51.897289501
-          ],
-          [
-            6.1686237,
-            51.895575501
-          ],
-          [
-            6.1688771,
-            51.895327101
+            12.049589897,
+            49.001303754
           ]
         ]
       }
