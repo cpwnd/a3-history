@@ -1,30 +1,28 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2024-07-21_11-20-31-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2024-07-21_20-07-08-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.58108121340885,7.474535821030937,50.61793945631461,7.411899481504633",
-      "point": "50.58108121340885,7.474535821030937",
-      "startLcPosition": "193",
+      "extent": "49.77708498046292,10.395492398579925,49.77653472010031,10.393394528753477",
+      "point": "49.77708498046292,10.395492398579925",
+      "startLcPosition": "114",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Epgert - Hambitz",
-      "startTimestamp": "2024-07-21T11:20:31+02:00",
-      "delayTimeValue": "17",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "18.399999618530273",
+      "subtitle": " Nürnberg -> Würzburg",
+      "title": "A3 | Wildpark - Friedrichsberg",
+      "startTimestamp": "2024-07-21T20:07:08+02:00",
       "coordinate": {
-        "lat": 50.58108121340885,
-        "long": 7.474535821030937
+        "lat": 49.77708498046292,
+        "long": 10.395492398579925
       },
       "description": [
-        "Beginn: 21.07.24 um 11:20 Uhr",
-        "Ende: 21.07.24 um 21:35 Uhr",
+        "Beginn: 21.07.24 um 20:07 Uhr",
+        "Ende: 21.07.24 um 20:37 Uhr",
         "",
-        "Angespannte Verkehrslage, von 21.07.2024, 11:20, bis 21.07.2024, 21:35",
-        "A3: Frankfurt -> Köln, zwischen 0.4 km hinter Epgert und 4.3 km vor Hambitz"
+        "Fahrzeug-Hindernis, von 21.07.2024, 20:07, bis 21.07.2024, 20:37",
+        "A3: Nürnberg -> Würzburg, zwischen Wildpark und 0.1 km vor Friedrichsberg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +31,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.474535821,
-            50.581081213
+            10.395492399,
+            49.77708498
+          ],
+          [
+            10.3954107,
+            49.777062201
+          ],
+          [
+            10.3937846,
+            49.776628301
+          ],
+          [
+            10.393394529,
+            49.77653472
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-07-21_11-20-31-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.5808986331528,7.480140227942895,50.61793572695865,7.411912341789433",
+      "point": "50.5808986331528,7.480140227942895",
+      "startLcPosition": "192",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Neuwied - Hambitz",
+      "startTimestamp": "2024-07-21T11:20:31+02:00",
+      "delayTimeValue": "15",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "21.100000381469727",
+      "coordinate": {
+        "lat": 50.5808986331528,
+        "long": 7.480140227942895
+      },
+      "description": [
+        "Beginn: 21.07.24 um 11:20 Uhr",
+        "Ende: 21.07.24 um 22:07 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 21.07.2024, 11:20, bis 21.07.2024, 22:07",
+        "A3: Frankfurt -> Köln, zwischen 3.8 km hinter AS Neuwied und 4.3 km vor Hambitz"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.480140228,
+            50.580898633
+          ],
+          [
+            7.4801017,
+            50.580900701
+          ],
+          [
+            7.4766096,
+            50.581021701
+          ],
+          [
+            7.4754432,
+            50.581048701
           ],
           [
             7.4743352,
@@ -301,8 +362,8 @@
             50.617249501
           ],
           [
-            7.411899482,
-            50.617939456
+            7.411912342,
+            50.617935727
           ]
         ]
       }
