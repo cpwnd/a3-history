@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.082702778402286,9.035672053244308,50.06403613523526,9.040146639844863",
-      "point": "50.082702778402286,9.035672053244308",
+      "extent": "50.08366190094079,9.035624100000007,50.062949975611566,9.040739258381654",
+      "point": "50.08366190094079,9.035624100000007",
       "startLcPosition": "4",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
@@ -14,17 +14,17 @@
       "startTimestamp": "2024-07-24T11:34:00+02:00",
       "delayTimeValue": "2",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "39.79999923706055",
+      "averageSpeed": "39.400001525878906",
       "coordinate": {
-        "lat": 50.082702778402286,
-        "long": 9.035672053244308
+        "lat": 50.08366190094079,
+        "long": 9.035624100000007
       },
       "description": [
         "Beginn: 24.07.24 um 11:34 Uhr",
-        "Ende: 24.07.24 um 13:21 Uhr",
+        "Ende: 24.07.24 um 13:54 Uhr",
         "",
-        "Angespannte Verkehrslage, von 24.07.2024, 11:34, bis 24.07.2024, 13:21",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.3 km hinter AS Alzenau-Mitte und 2.1 km vor AS Karlstein"
+        "Angespannte Verkehrslage, von 24.07.2024, 11:34, bis 24.07.2024, 13:54",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.2 km hinter AS Alzenau-Mitte und 2.0 km vor AS Karlstein"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.035672053,
-            50.082702778
+            9.0356241,
+            50.083661901
+          ],
+          [
+            9.0356576,
+            50.083068701
+          ],
+          [
+            9.0356698,
+            50.082801701
           ],
           [
             9.0356925,
@@ -125,8 +133,12 @@
             50.064250001
           ],
           [
-            9.04014664,
-            50.064036135
+            9.0403323,
+            50.063685801
+          ],
+          [
+            9.040739258,
+            50.062949976
           ]
         ]
       }
@@ -268,6 +280,59 @@
           [
             8.472239095,
             50.602996798
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2024-07-24_12-47-27-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.57649272678311,7.364888083205805,51.577067238178266,7.365084240240888",
+      "point": "51.57649272678311,7.364888083205805",
+      "startLcPosition": "112",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
+      "startTimestamp": "2024-07-24T12:47:27+02:00",
+      "coordinate": {
+        "lat": 51.57649272678311,
+        "long": 7.364888083205805
+      },
+      "description": [
+        "Beginn: 24.07.24 um 12:47 Uhr",
+        "Ende: 24.07.24 um 13:17 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 24.07.2024, 12:47, bis 24.07.2024, 13:17",
+        "A45: Hagen -> Dortmund, zwischen 1.7 km hinter AK Castrop-Rauxel-Ost und 1.0 km vor AK Dortmund-Nordwest",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.364888083,
+            51.576492727
+          ],
+          [
+            7.3648891,
+            51.576495901
+          ],
+          [
+            7.3649258,
+            51.576601101
+          ],
+          [
+            7.3650592,
+            51.576990201
+          ],
+          [
+            7.36508424,
+            51.577067238
           ]
         ]
       }
