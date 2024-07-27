@@ -5,24 +5,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.78472572723452,8.15139465792838,48.791426873470606,8.15939106050446",
+      "extent": "48.78472572723452,8.15139465792838,48.79020092284023,8.157748895668163",
       "point": "48.78472572723452,8.15139465792838",
       "startLcPosition": "49",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Bühl - Baden-Baden",
       "startTimestamp": "2024-07-27T23:50:00+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
         "lat": 48.78472572723452,
         "long": 8.15139465792838
       },
       "description": [
         "Beginn: 27.07.24 um 23:50 Uhr",
-        "Ende: 28.07.24 um 01:11 Uhr",
+        "Ende: 28.07.24 um 00:54 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 27.07.2024, 23:50, bis 28.07.2024, 01:11",
-        "A5: Basel -> Karlsruhe, zwischen 3.8 km hinter Bühl und 0.2 km vor AS Baden-Baden",
+        "Zusammengesetzte Verkehrsinformation, von 27.07.2024, 23:50, bis 28.07.2024, 00:54",
+        "A5: Basel -> Karlsruhe, zwischen 3.8 km hinter Bühl und 0.4 km vor AS Baden-Baden",
         "Gefahr durch Personen auf der Fahrbahn",
         "Gefahr durch Personen auf der Fahrbahn"
       ],
@@ -69,16 +69,8 @@
             48.788968401
           ],
           [
-            8.1586094,
-            48.790851201
-          ],
-          [
-            8.1593056,
-            48.791363701
-          ],
-          [
-            8.159391061,
-            48.791426873
+            8.157748896,
+            48.790200923
           ]
         ]
       }
@@ -346,30 +338,28 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2024-07-27_23-39-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2024-07-28_00-11-48-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.07355421671978,8.614318541518626,50.05831804746959,8.606699989373206",
-      "point": "50.07355421671978,8.614318541518626",
-      "startLcPosition": "107",
+      "extent": "50.024498790892515,8.592731658643347,50.02608840008524,8.592859555231469",
+      "point": "50.024498790892515,8.592731658643347",
+      "startLcPosition": "103",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Darmstadt",
-      "title": "A5 | Frankfurt am Main-Niederrad - Frankfurt am Main-Flughafen-Nord",
-      "startTimestamp": "2024-07-27T23:39:00+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55.79999923706055",
+      "subtitle": " Darmstadt -> Frankfurt",
+      "title": "A5 | Kaiserstein - Zeppelinheim",
+      "startTimestamp": "2024-07-28T00:11:48+02:00",
       "coordinate": {
-        "lat": 50.07355421671978,
-        "long": 8.614318541518626
+        "lat": 50.024498790892515,
+        "long": 8.592731658643347
       },
       "description": [
-        "Beginn: 27.07.24 um 23:39 Uhr",
-        "Ende: 28.07.24 um 01:24 Uhr",
+        "Beginn: 28.07.24 um 00:11 Uhr",
+        "Ende: 28.07.24 um 00:41 Uhr",
         "",
-        "Angespannte Verkehrslage, von 27.07.2024, 23:39, bis 28.07.2024, 01:24",
-        "A5: Frankfurt -> Darmstadt, zwischen 1.4 km hinter AS Frankfurt am Main-Niederrad und 0.1 km vor AS Frankfurt am Main-Flughafen-Nord"
+        "Fahrzeug-Hindernis, von 28.07.2024, 00:11, bis 28.07.2024, 00:41",
+        "A5: Darmstadt -> Frankfurt, zwischen 2.4 km hinter Kaiserstein und 1.0 km vor AS Zeppelinheim",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -378,16 +368,59 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.614318542,
-            50.073554217
+            8.592731659,
+            50.024498791
           ],
           [
-            8.6139174,
-            50.072743301
+            8.5927719,
+            50.025229801
           ],
           [
-            8.6132849,
-            50.071482601
+            8.5928214,
+            50.025712001
+          ],
+          [
+            8.592859555,
+            50.0260884
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-07-27_23-39-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.071305476321676,8.613195812081342,50.05704307525975,8.606059214250847",
+      "point": "50.071305476321676,8.613195812081342",
+      "startLcPosition": "107",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Darmstadt",
+      "title": "A5 | Frankfurt am Main-Niederrad - Frankfurter Kreuz",
+      "startTimestamp": "2024-07-27T23:39:00+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "48.20000076293945",
+      "coordinate": {
+        "lat": 50.071305476321676,
+        "long": 8.613195812081342
+      },
+      "description": [
+        "Beginn: 27.07.24 um 23:39 Uhr",
+        "Ende: 28.07.24 um 01:50 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 27.07.2024, 23:39, bis 28.07.2024, 01:50",
+        "A5: Frankfurt -> Darmstadt, zwischen 1.6 km hinter AS Frankfurt am Main-Niederrad und 0.5 km vor AK Frankfurter Kreuz"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.613195812,
+            50.071305476
           ],
           [
             8.6128942,
@@ -438,8 +471,12 @@
             50.058676301
           ],
           [
-            8.606699989,
-            50.058318047
+            8.6062822,
+            50.057471501
+          ],
+          [
+            8.606059214,
+            50.057043075
           ]
         ]
       }
