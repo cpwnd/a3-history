@@ -5,26 +5,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.77247719989714,9.74353460980749,49.76536148077039,9.6532816397936",
-      "point": "49.77247719989714,9.74353460980749",
+      "extent": "49.77196127454485,9.745608652571509,49.76536148077039,9.6532816397936",
+      "point": "49.77196127454485,9.745608652571509",
       "startLcPosition": "130",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Helmstadt - Wertheim/Lengfurt",
       "startTimestamp": "2024-08-09T08:32:15+02:00",
-      "delayTimeValue": "40",
+      "delayTimeValue": "43",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9.399999618530273",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 49.77247719989714,
-        "long": 9.74353460980749
+        "lat": 49.77196127454485,
+        "long": 9.745608652571509
       },
       "description": [
         "Beginn: 09.08.24 um 08:32 Uhr",
-        "Ende: 09.08.24 um 11:13 Uhr",
+        "Ende: 09.08.24 um 11:23 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.08.2024, 08:32, bis 09.08.2024, 11:13",
-        "A3: Würzburg -> Frankfurt, zwischen 2.4 km hinter AS Helmstadt und 5.4 km vor AS Wertheim/Lengfurt"
+        "Angespannte Verkehrslage, von 09.08.2024, 08:32, bis 09.08.2024, 11:23",
+        "A3: Würzburg -> Frankfurt, zwischen 2.2 km hinter AS Helmstadt und 5.4 km vor AS Wertheim/Lengfurt"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.74353461,
-            49.7724772
+            9.745608653,
+            49.771961275
+          ],
+          [
+            9.7436912,
+            49.772432501
           ],
           [
             9.7419574,
@@ -320,30 +324,28 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2024-08-09_07-54-59-000.f_009.de0",
+      "identifier": "undefined--vi-hind.2024-08-09_09-24-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.42827294758049,6.804851865499484,51.44944707315636,6.7985198216667335",
-      "point": "51.42827294758049,6.804851865499484",
-      "startLcPosition": "229",
+      "extent": "50.44753535521315,7.908774596189168,50.44851612375148,7.906756486143018",
+      "point": "50.44753535521315,7.908774596189168",
+      "startLcPosition": "180",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
-      "startTimestamp": "2024-08-09T07:54:59+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40.79999923706055",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Nentershausen - Heiligenroth",
+      "startTimestamp": "2024-08-09T09:24:30+02:00",
       "coordinate": {
-        "lat": 51.42827294758049,
-        "long": 6.804851865499484
+        "lat": 50.44753535521315,
+        "long": 7.908774596189168
       },
       "description": [
-        "Beginn: 09.08.24 um 07:54 Uhr",
-        "Ende: 09.08.24 um 10:07 Uhr",
+        "Beginn: 09.08.24 um 09:24 Uhr",
+        "Ende: 09.08.24 um 09:54 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.08.2024, 07:54, bis 09.08.2024, 10:07",
-        "A3: Köln -> Oberhausen, zwischen 2.3 km hinter AS Duisburg-Wedau und 3.4 km vor AS Oberhausen-Lirich"
+        "Fahrzeug-Hindernis, von 09.08.2024, 09:24, bis 09.08.2024, 09:54",
+        "A3: Frankfurt -> Köln, zwischen 3.2 km hinter Nentershausen und 2.6 km vor Heiligenroth",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -352,8 +354,111 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.804851865,
-            51.428272948
+            7.908774596,
+            50.447535355
+          ],
+          [
+            7.9068659,
+            50.448459501
+          ],
+          [
+            7.906756486,
+            50.448516124
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-08-09_07-54-59-000.f_009.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.41928068314607,6.797064680673937,51.44944707315636,6.7985198216667335",
+      "point": "51.41928068314607,6.797064680673937",
+      "startLcPosition": "229",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
+      "startTimestamp": "2024-08-09T07:54:59+02:00",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "28.5",
+      "coordinate": {
+        "lat": 51.41928068314607,
+        "long": 6.797064680673937
+      },
+      "description": [
+        "Beginn: 09.08.24 um 07:54 Uhr",
+        "Ende: 09.08.24 um 18:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 09.08.2024, 07:54, bis 09.08.2024, 18:40",
+        "A3: Köln -> Oberhausen, zwischen 1.2 km hinter AS Duisburg-Wedau und 3.4 km vor AS Oberhausen-Lirich"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.797064681,
+            51.419280683
+          ],
+          [
+            6.7970741,
+            51.419743201
+          ],
+          [
+            6.7971382,
+            51.420150101
+          ],
+          [
+            6.7972449,
+            51.420643501
+          ],
+          [
+            6.7973696,
+            51.421044401
+          ],
+          [
+            6.7975794,
+            51.421527901
+          ],
+          [
+            6.7978003,
+            51.421952801
+          ],
+          [
+            6.7980356,
+            51.422321601
+          ],
+          [
+            6.7982824,
+            51.422672801
+          ],
+          [
+            6.7986144,
+            51.423068401
+          ],
+          [
+            6.7990453,
+            51.423516601
+          ],
+          [
+            6.7994548,
+            51.423873101
+          ],
+          [
+            6.8003718,
+            51.424632101
+          ],
+          [
+            6.8016267,
+            51.425668501
+          ],
+          [
+            6.8034579,
+            51.427142201
           ],
           [
             6.8052833,
@@ -603,26 +708,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.475116525088474,6.815204069891987,51.44398922316454,6.799912313193551",
-      "point": "51.475116525088474,6.815204069891987",
-      "startLcPosition": "231",
+      "extent": "51.476102853599166,6.814802884581261,51.44288572303391,6.801048797768053",
+      "point": "51.476102853599166,6.814802884581261",
+      "startLcPosition": "232",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-Lirich - Duisburg-Wedau",
+      "title": "A3 | Oberhausen-West - Duisburg-Wedau",
       "startTimestamp": "2024-08-09T08:42:09+02:00",
       "delayTimeValue": "2",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.29999923706055",
+      "averageSpeed": "45.599998474121094",
       "coordinate": {
-        "lat": 51.475116525088474,
-        "long": 6.815204069891987
+        "lat": 51.476102853599166,
+        "long": 6.814802884581261
       },
       "description": [
         "Beginn: 09.08.24 um 08:42 Uhr",
-        "Ende: 09.08.24 um 18:34 Uhr",
+        "Ende: 09.08.24 um 18:35 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.08.2024, 08:42, bis 09.08.2024, 18:34",
-        "A3: Oberhausen -> Köln, zwischen 0.1 km hinter AS Oberhausen-Lirich und 4.3 km vor AS Duisburg-Wedau"
+        "Angespannte Verkehrslage, von 09.08.2024, 08:42, bis 09.08.2024, 18:35",
+        "A3: Oberhausen -> Köln, zwischen 1.3 km hinter AK Oberhausen-West und 4.2 km vor AS Duisburg-Wedau"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -631,8 +736,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.81520407,
-            51.475116525
+            6.814802885,
+            51.476102854
+          ],
+          [
+            6.8148812,
+            51.475914401
+          ],
+          [
+            6.8150791,
+            51.475461701
+          ],
+          [
+            6.81514,
+            51.475291801
           ],
           [
             6.8153958,
@@ -875,8 +992,16 @@
             51.444012601
           ],
           [
-            6.799912313,
-            51.443989223
+            6.8004226,
+            51.443434701
+          ],
+          [
+            6.8010137,
+            51.442914601
+          ],
+          [
+            6.801048798,
+            51.442885723
           ]
         ]
       }
@@ -886,8 +1011,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.53063011652737,6.821210673462083,51.537502300933184,6.8358212999959145",
-      "point": "51.53063011652737,6.821210673462083",
+      "extent": "51.52730151233894,6.817543042370976,51.537502300933184,6.8358212999959145",
+      "point": "51.52730151233894,6.817543042370976",
       "startLcPosition": "233",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
@@ -897,15 +1022,15 @@
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "averageSpeed": "26.399999618530273",
       "coordinate": {
-        "lat": 51.53063011652737,
-        "long": 6.821210673462083
+        "lat": 51.52730151233894,
+        "long": 6.817543042370976
       },
       "description": [
         "Beginn: 09.08.24 um 09:00 Uhr",
-        "Ende: 09.08.24 um 09:42 Uhr",
+        "Ende: 09.08.24 um 09:55 Uhr",
         "",
-        "Angespannte Verkehrslage, von 09.08.2024, 09:00, bis 09.08.2024, 09:42",
-        "A3: Oberhausen -> Arnheim, zwischen 2.1 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd"
+        "Angespannte Verkehrslage, von 09.08.2024, 09:00, bis 09.08.2024, 09:55",
+        "A3: Oberhausen -> Arnheim, zwischen 1.7 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -914,8 +1039,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.821210673,
-            51.530630117
+            6.817543042,
+            51.527301512
+          ],
+          [
+            6.8179931,
+            51.527729701
+          ],
+          [
+            6.8189694,
+            51.528621701
+          ],
+          [
+            6.8198401,
+            51.529413701
+          ],
+          [
+            6.820448,
+            51.529961901
+          ],
+          [
+            6.8205552,
+            51.530053801
+          ],
+          [
+            6.8210314,
+            51.530467001
           ],
           [
             6.8212533,
@@ -1000,6 +1149,89 @@
           [
             6.8358213,
             51.537502301
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-08-09_09-24-43-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.86584468396458,6.219908370983496,51.86315296229188,6.241994780858178",
+      "point": "51.86584468396458,6.219908370983496",
+      "startLcPosition": "259",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Hohe Heide - Emmerich",
+      "startTimestamp": "2024-08-09T09:24:43+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "50.5",
+      "coordinate": {
+        "lat": 51.86584468396458,
+        "long": 6.219908370983496
+      },
+      "description": [
+        "Beginn: 09.08.24 um 09:24 Uhr",
+        "Ende: 09.08.24 um 09:38 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 09.08.2024, 09:24, bis 09.08.2024, 09:38",
+        "A3: Arnheim -> Oberhausen, zwischen 2.1 km hinter Hohe Heide und 0.1 km vor AS Emmerich"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.219908371,
+            51.865844684
+          ],
+          [
+            6.221764,
+            51.865451701
+          ],
+          [
+            6.2250926,
+            51.864850601
+          ],
+          [
+            6.2267062,
+            51.864590101
+          ],
+          [
+            6.2286013,
+            51.864305601
+          ],
+          [
+            6.2316684,
+            51.863906801
+          ],
+          [
+            6.2334146,
+            51.863716301
+          ],
+          [
+            6.2355329,
+            51.863509001
+          ],
+          [
+            6.2371562,
+            51.863410101
+          ],
+          [
+            6.2385829,
+            51.863305101
+          ],
+          [
+            6.2399244,
+            51.863245501
+          ],
+          [
+            6.241994781,
+            51.863152962
           ]
         ]
       }
