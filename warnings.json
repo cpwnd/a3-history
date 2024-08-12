@@ -5,26 +5,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.77427468600241,10.369239357090496,49.77542894373185,10.350168271013281",
-      "point": "49.77427468600241,10.369239357090496",
+      "extent": "49.7741800328548,10.37299948175027,49.77542894373185,10.350168271013281",
+      "point": "49.7741800328548,10.37299948175027",
       "startLcPosition": "115",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
       "title": "A3 | Friedrichsberg - Wiesentheid",
       "startTimestamp": "2024-08-12T20:47:00+02:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "17",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14.600000381469727",
+      "averageSpeed": "5.400000095367432",
       "coordinate": {
-        "lat": 49.77427468600241,
-        "long": 10.369239357090496
+        "lat": 49.7741800328548,
+        "long": 10.37299948175027
       },
       "description": [
         "Beginn: 12.08.24 um 20:47 Uhr",
-        "Ende: 12.08.24 um 22:48 Uhr",
+        "Ende: 12.08.24 um 23:00 Uhr",
         "",
-        "Angespannte Verkehrslage, von 12.08.2024, 20:47, bis 12.08.2024, 22:48",
-        "A3: Nürnberg -> Würzburg, zwischen 1.7 km hinter Friedrichsberg und 0.3 km vor AS Wiesentheid"
+        "Angespannte Verkehrslage, von 12.08.2024, 20:47, bis 12.08.2024, 23:00",
+        "A3: Nürnberg -> Würzburg, zwischen 1.4 km hinter Friedrichsberg und 0.3 km vor AS Wiesentheid"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.369239357,
-            49.774274686
+            10.372999482,
+            49.774180033
+          ],
+          [
+            10.3719878,
+            49.774190501
           ],
           [
             10.3684288,
@@ -80,28 +84,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2024-08-12_19-50-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2024-08-12_21-13-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.84149033991767,7.204454551331148,50.82601196577945,7.202868538272096",
-      "point": "50.84149033991767,7.204454551331148",
-      "startLcPosition": "204",
+      "extent": "49.77963634252001,10.298153911035655,49.777958872280756,10.302748263664252",
+      "point": "49.77963634252001,10.298153911035655",
+      "startLcPosition": "119",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Lohmar-Nord - Lohmar",
-      "startTimestamp": "2024-08-12T19:50:00+02:00",
+      "subtitle": " Würzburg -> Nürnberg",
+      "title": "A3 | Haidt - Feuerbach",
+      "startTimestamp": "2024-08-12T21:13:30+02:00",
+      "delayTimeValue": "10",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "2",
       "coordinate": {
-        "lat": 50.84149033991767,
-        "long": 7.204454551331148
+        "lat": 49.77963634252001,
+        "long": 10.298153911035655
       },
       "description": [
-        "Beginn: 12.08.24 um 19:50 Uhr",
-        "Ende: 12.08.24 um 22:19 Uhr",
+        "Beginn: 12.08.24 um 21:13 Uhr",
+        "Ende: 12.08.24 um 21:53 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 12.08.2024, 19:50, bis 12.08.2024, 22:19",
-        "A3: Köln -> Frankfurt, zwischen 1.2 km hinter AS Lohmar-Nord und 0.4 km vor AS Lohmar"
+        "Angespannte Verkehrslage, von 12.08.2024, 21:13, bis 12.08.2024, 21:53",
+        "A3: Würzburg -> Nürnberg, zwischen 3.9 km hinter Haidt und 0.7 km vor Feuerbach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -110,20 +116,65 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.204454551,
-            50.84149034
+            10.298153911,
+            49.779636343
           ],
           [
-            7.2042965,
-            50.841280501
+            10.2981801,
+            49.779627601
           ],
           [
-            7.2039875,
-            50.840838201
+            10.2992539,
+            49.779245901
           ],
           [
-            7.2036972,
-            50.840394301
+            10.3007578,
+            49.778692901
+          ],
+          [
+            10.3024606,
+            49.778067901
+          ],
+          [
+            10.302748264,
+            49.777958872
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2024-08-12_19-50-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.84009093082096,7.203522520058785,50.82601196577945,7.202868538272096",
+      "point": "50.84009093082096,7.203522520058785",
+      "startLcPosition": "204",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Lohmar-Nord - Lohmar",
+      "startTimestamp": "2024-08-12T19:50:00+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 50.84009093082096,
+        "long": 7.203522520058785
+      },
+      "description": [
+        "Beginn: 12.08.24 um 19:50 Uhr",
+        "Ende: 12.08.24 um 22:10 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 12.08.2024, 19:50, bis 12.08.2024, 22:10",
+        "A3: Köln -> Frankfurt, zwischen 1.4 km hinter AS Lohmar-Nord und 0.4 km vor AS Lohmar"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.20352252,
+            50.840090931
           ],
           [
             7.2034241,
