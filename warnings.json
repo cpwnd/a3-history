@@ -5,24 +5,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.704871082032625,10.85180790188195,49.73130556563098,10.81593226146778",
-      "point": "49.704871082032625,10.85180790188195",
+      "extent": "49.70430133574848,10.852253666737683,49.73130556563098,10.81593226146778",
+      "point": "49.70430133574848,10.852253666737683",
       "startLcPosition": "96",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
       "title": "A3 | Höchstadt-Ost - Limbacher Leiten",
       "startTimestamp": "2024-08-30T22:55:00+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "coordinate": {
-        "lat": 49.704871082032625,
-        "long": 10.85180790188195
+        "lat": 49.70430133574848,
+        "long": 10.852253666737683
       },
       "description": [
         "Beginn: 30.08.24 um 22:55 Uhr",
-        "Ende: 31.08.24 um 00:33 Uhr",
+        "Ende: 31.08.24 um 00:59 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 30.08.2024, 22:55, bis 31.08.2024, 00:33",
-        "A3: Nürnberg -> Würzburg, zwischen 0.7 km hinter AS Höchstadt-Ost und 0.9 km vor Limbacher Leiten"
+        "Zusammengesetzte Verkehrsinformation, von 30.08.2024, 22:55, bis 31.08.2024, 00:59",
+        "A3: Nürnberg -> Würzburg, zwischen 0.6 km hinter AS Höchstadt-Ost und 0.9 km vor Limbacher Leiten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.851807902,
-            49.704871082
+            10.852253667,
+            49.704301336
+          ],
+          [
+            10.8520766,
+            49.704536001
           ],
           [
             10.8516868,
@@ -213,6 +217,71 @@
           [
             10.815932261,
             49.731305566
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2024-08-30_23-39-33-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.215491564208776,8.249937605732073,50.21411635242664,8.250176452576714",
+      "point": "50.215491564208776,8.249937605732073",
+      "startLcPosition": "174",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bad Camberg - Idstein",
+      "startTimestamp": "2024-08-30T23:39:33+02:00",
+      "coordinate": {
+        "lat": 50.215491564208776,
+        "long": 8.249937605732073
+      },
+      "description": [
+        "Beginn: 30.08.24 um 23:39 Uhr",
+        "Ende: 31.08.24 um 00:09 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 30.08.2024, 23:39, bis 31.08.2024, 00:09",
+        "A3: Köln -> Frankfurt, zwischen 9.5 km hinter AS Bad Camberg und 0.1 km vor AS Idstein",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.249937606,
+            50.215491564
+          ],
+          [
+            8.249941,
+            50.215406901
+          ],
+          [
+            8.2499707,
+            50.215106901
+          ],
+          [
+            8.249999,
+            50.214885801
+          ],
+          [
+            8.2500472,
+            50.214663901
+          ],
+          [
+            8.2500918,
+            50.214468801
+          ],
+          [
+            8.2501645,
+            50.214167701
+          ],
+          [
+            8.250176453,
+            50.214116352
           ]
         ]
       }
