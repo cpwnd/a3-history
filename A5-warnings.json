@@ -19,10 +19,11 @@
       },
       "description": [
         "Beginn: 13.09.24 um 17:21 Uhr",
-        "Ende: 13.09.24 um 20:20 Uhr",
+        "Ende: 13.09.24 um 21:08 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 13.09.2024, 17:21, bis 13.09.2024, 20:20",
+        "Zusammengesetzte Verkehrsinformation, von 13.09.2024, 17:21, bis 13.09.2024, 21:08",
         "A5: Basel -> Karlsruhe, zwischen 4.0 km hinter AS Freiburg-Nord und 1.1 km vor AS Herbolzheim",
+        "Gefahr durch eine ungesicherte Unfallstelle",
         "Gefahr durch eine ungesicherte Unfallstelle"
       ],
       "routeRecommendation": [],
@@ -391,28 +392,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2024-09-13_18-20-23-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2024-09-13_19-20-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.09733941971794,8.537035808922363,49.18084343721595,8.579690396484933",
-      "point": "49.09733941971794,8.537035808922363",
-      "startLcPosition": "63",
+      "extent": "48.22400516572782,7.74841441274039,48.215286091026165,7.746597860599703",
+      "point": "48.22400516572782,7.74841441274039",
+      "startLcPosition": "32",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Höfenschlag - Kronau",
-      "startTimestamp": "2024-09-13T18:20:23+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Herbolzheim - Riegel",
+      "startTimestamp": "2024-09-13T19:20:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "67.19999694824219",
       "coordinate": {
-        "lat": 49.09733941971794,
-        "long": 8.537035808922363
+        "lat": 48.22400516572782,
+        "long": 7.74841441274039
       },
       "description": [
-        "Beginn: 13.09.24 um 18:20 Uhr",
-        "Ende: 13.09.24 um 21:03 Uhr",
+        "Beginn: 13.09.24 um 19:20 Uhr",
+        "Ende: 13.09.24 um 19:33 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 13.09.2024, 18:20, bis 13.09.2024, 21:03",
-        "A5: Karlsruhe -> Heidelberg, zwischen 3.5 km hinter Höfenschlag und 5.5 km vor AS Kronau"
+        "Angespannte Verkehrslage, von 13.09.2024, 19:20, bis 13.09.2024, 19:33",
+        "A5: Karlsruhe -> Basel, zwischen 0.4 km hinter AS Herbolzheim und 6.9 km vor AS Riegel"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -421,36 +424,79 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.537035809,
-            49.09733942
+            7.748414413,
+            48.224005166
           ],
           [
-            8.539191,
-            49.100052701
+            7.7483669,
+            48.223828301
           ],
           [
-            8.5397918,
-            49.100809001
+            7.7477478,
+            48.221284801
           ],
           [
-            8.5398939,
-            49.100937601
+            7.7474096,
+            48.219753801
           ],
           [
-            8.541402,
-            49.102840301
+            7.7473904,
+            48.219652801
           ],
           [
-            8.5421668,
-            49.103815301
+            7.747092,
+            48.218183601
           ],
           [
-            8.5426638,
-            49.104447101
+            7.7468383,
+            48.216766701
           ],
           [
-            8.5430203,
-            49.104879301
+            7.7466057,
+            48.215341201
+          ],
+          [
+            7.746597861,
+            48.215286091
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-09-13_18-20-23-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.10507873307148,8.543178577489687,49.179444667704416,8.578818318869446",
+      "point": "49.10507873307148,8.543178577489687",
+      "startLcPosition": "63",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Heidelberg",
+      "title": "A5 | Höfenschlag - Kronau",
+      "startTimestamp": "2024-09-13T18:20:23+02:00",
+      "delayTimeValue": "28",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "16.100000381469727",
+      "coordinate": {
+        "lat": 49.10507873307148,
+        "long": 8.543178577489687
+      },
+      "description": [
+        "Beginn: 13.09.24 um 18:20 Uhr",
+        "Ende: 13.09.24 um 20:58 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 13.09.2024, 18:20, bis 13.09.2024, 20:58",
+        "A5: Karlsruhe -> Heidelberg, zwischen 4.5 km hinter Höfenschlag und 5.7 km vor AS Kronau"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.543178577,
+            49.105078733
           ],
           [
             8.5444824,
@@ -857,16 +903,8 @@
             49.179296801
           ],
           [
-            8.5791361,
-            49.179976701
-          ],
-          [
-            8.5791484,
-            49.179997201
-          ],
-          [
-            8.579690396,
-            49.180843437
+            8.578818319,
+            49.179444668
           ]
         ]
       }
@@ -876,26 +914,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.24966033978079,8.60015303148083,49.1748719676042,8.576005152322807",
-      "point": "49.24966033978079,8.60015303148083",
-      "startLcPosition": "67",
+      "extent": "49.20468133892673,8.595555361043555,49.19714460094432,8.590479499999908",
+      "point": "49.20468133892673,8.595555361043555",
+      "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Mönchberg - Bruchsal",
+      "title": "A5 | Kronau - Bruchsal",
       "startTimestamp": "2024-09-13T16:34:30+02:00",
-      "delayTimeValue": "12",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "32",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "63.900001525878906",
       "coordinate": {
-        "lat": 49.24966033978079,
-        "long": 8.60015303148083
+        "lat": 49.20468133892673,
+        "long": 8.595555361043555
       },
       "description": [
         "Beginn: 13.09.24 um 16:34 Uhr",
-        "Ende: 13.09.24 um 20:13 Uhr",
+        "Ende: 13.09.24 um 20:34 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.09.2024, 16:34, bis 13.09.2024, 20:13",
-        "A5: Heidelberg -> Karlsruhe, zwischen 0.9 km hinter Mönchberg und 2.0 km vor Bruchsal"
+        "Angespannte Verkehrslage, von 13.09.2024, 16:34, bis 13.09.2024, 20:34",
+        "A5: Heidelberg -> Karlsruhe, zwischen 2.6 km hinter AS Kronau und 4.7 km vor Bruchsal"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -904,16 +942,75 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.600153031,
-            49.24966034
+            8.595555361,
+            49.204681339
           ],
           [
-            8.6001847,
-            49.249127401
+            8.5949868,
+            49.203807501
           ],
           [
-            8.6002683,
-            49.248421801
+            8.594319,
+            49.202785301
+          ],
+          [
+            8.593155,
+            49.201061701
+          ],
+          [
+            8.5929337,
+            49.200737301
+          ],
+          [
+            8.5928012,
+            49.200543801
+          ],
+          [
+            8.5919906,
+            49.199354601
+          ],
+          [
+            8.5904795,
+            49.197144601
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-09-13_16-34-30-000.f_030.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.248394643791556,8.600271779807061,49.219218348957774,8.603668969712118",
+      "point": "49.248394643791556,8.600271779807061",
+      "startLcPosition": "67",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Mönchberg - Bruchsal",
+      "startTimestamp": "2024-09-13T16:34:30+02:00",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "35.5",
+      "coordinate": {
+        "lat": 49.248394643791556,
+        "long": 8.600271779807061
+      },
+      "description": [
+        "Beginn: 13.09.24 um 16:34 Uhr",
+        "Ende: 13.09.24 um 20:10 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 13.09.2024, 16:34, bis 13.09.2024, 20:10",
+        "A5: Heidelberg -> Karlsruhe, zwischen 1.0 km hinter Mönchberg und 7.3 km vor Bruchsal"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.60027178,
+            49.248394644
           ],
           [
             8.6005077,
@@ -1060,200 +1157,8 @@
             49.219350201
           ],
           [
-            8.6036188,
-            49.218903801
-          ],
-          [
-            8.6035285,
-            49.218451901
-          ],
-          [
-            8.6034322,
-            49.218070201
-          ],
-          [
-            8.6033319,
-            49.217703401
-          ],
-          [
-            8.6030833,
-            49.216942201
-          ],
-          [
-            8.6029613,
-            49.216600601
-          ],
-          [
-            8.6027726,
-            49.216163001
-          ],
-          [
-            8.6025721,
-            49.215723701
-          ],
-          [
-            8.6024366,
-            49.215460101
-          ],
-          [
-            8.6022598,
-            49.215111701
-          ],
-          [
-            8.6020796,
-            49.214788501
-          ],
-          [
-            8.6018919,
-            49.214468701
-          ],
-          [
-            8.6017045,
-            49.214174301
-          ],
-          [
-            8.6009149,
-            49.212956601
-          ],
-          [
-            8.6004816,
-            49.212292801
-          ],
-          [
-            8.5998708,
-            49.211340801
-          ],
-          [
-            8.5994025,
-            49.210623801
-          ],
-          [
-            8.5992156,
-            49.210335301
-          ],
-          [
-            8.5986766,
-            49.209501101
-          ],
-          [
-            8.5984486,
-            49.209148301
-          ],
-          [
-            8.5976766,
-            49.207961401
-          ],
-          [
-            8.5976046,
-            49.207850501
-          ],
-          [
-            8.596132,
-            49.205582801
-          ],
-          [
-            8.5959668,
-            49.205338801
-          ],
-          [
-            8.5959106,
-            49.205251501
-          ],
-          [
-            8.5956571,
-            49.204837701
-          ],
-          [
-            8.5949868,
-            49.203807501
-          ],
-          [
-            8.594319,
-            49.202785301
-          ],
-          [
-            8.593155,
-            49.201061701
-          ],
-          [
-            8.5929337,
-            49.200737301
-          ],
-          [
-            8.5928012,
-            49.200543801
-          ],
-          [
-            8.5919906,
-            49.199354601
-          ],
-          [
-            8.5904795,
-            49.197144601
-          ],
-          [
-            8.5899881,
-            49.196433801
-          ],
-          [
-            8.5892804,
-            49.195383801
-          ],
-          [
-            8.5875305,
-            49.192822001
-          ],
-          [
-            8.5844096,
-            49.188261501
-          ],
-          [
-            8.58049,
-            49.182491401
-          ],
-          [
-            8.580181,
-            49.182023801
-          ],
-          [
-            8.5795866,
-            49.181083701
-          ],
-          [
-            8.5792244,
-            49.180512301
-          ],
-          [
-            8.5789232,
-            49.180029101
-          ],
-          [
-            8.5785268,
-            49.179366701
-          ],
-          [
-            8.5783885,
-            49.179137101
-          ],
-          [
-            8.5777386,
-            49.178016501
-          ],
-          [
-            8.5767446,
-            49.176211801
-          ],
-          [
-            8.5765295,
-            49.175820301
-          ],
-          [
-            8.5763463,
-            49.175486901
-          ],
-          [
-            8.576005152,
-            49.174871968
+            8.60366897,
+            49.219218349
           ]
         ]
       }
