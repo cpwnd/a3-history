@@ -1,28 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2024-10-21_10-22-01-000.f.de0",
+      "identifier": "undefined--vi-avl.2024-10-21_10-22-01-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.61628895810007,8.404223278977593,50.621273433820996,8.365840853590656",
-      "point": "50.61628895810007,8.404223278977593",
+      "extent": "50.61302902642398,8.412590757270447,50.618501404431726,8.38555444462596",
+      "point": "50.61302902642398,8.412590757270447",
       "startLcPosition": "30",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Hagen",
-      "title": "A45 | Lemperberg - Katzenfurt",
+      "title": "A45 | Lemperberg - Ehringshausen",
       "startTimestamp": "2024-10-21T10:22:01+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "55.79999923706055",
       "coordinate": {
-        "lat": 50.61628895810007,
-        "long": 8.404223278977593
+        "lat": 50.61302902642398,
+        "long": 8.412590757270447
       },
       "description": [
         "Beginn: 21.10.24 um 10:22 Uhr",
-        "Ende: 21.10.24 um 12:50 Uhr",
+        "Ende: 21.10.24 um 11:51 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 21.10.2024, 10:22, bis 21.10.2024, 12:50",
-        "A45: Gießen -> Hagen, zwischen 0.8 km hinter Lemperberg und 0.2 km vor Katzenfurt"
+        "Angespannte Verkehrslage, von 21.10.2024, 10:22, bis 21.10.2024, 11:51",
+        "A45: Gießen -> Hagen, zwischen 0.1 km hinter Lemperberg und 0.1 km vor AS Ehringshausen"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +33,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.404223279,
-            50.616288958
+            8.412590757,
+            50.613029026
+          ],
+          [
+            8.411608,
+            50.613409201
+          ],
+          [
+            8.4096601,
+            50.614170001
+          ],
+          [
+            8.4092426,
+            50.614325801
+          ],
+          [
+            8.4079151,
+            50.614821201
+          ],
+          [
+            8.4047037,
+            50.616104301
           ],
           [
             8.4025091,
@@ -139,80 +161,59 @@
             50.618549001
           ],
           [
-            8.3839692,
-            50.618389501
+            8.385554445,
+            50.618501404
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-10-21_11-24-27-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.265786955274,7.602143614471555,51.263860400934774,7.60281269999918",
+      "point": "51.265786955274,7.602143614471555",
+      "startLcPosition": "91",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Sterbecker Siepen - Lüdenscheid-Nord",
+      "startTimestamp": "2024-10-21T11:24:27+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "19.5",
+      "coordinate": {
+        "lat": 51.265786955274,
+        "long": 7.602143614471555
+      },
+      "description": [
+        "Beginn: 21.10.24 um 11:24 Uhr",
+        "Ende: 21.10.24 um 19:14 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 21.10.2024, 11:24, bis 21.10.2024, 19:14",
+        "A45: Hagen -> Gießen, zwischen 0.2 km hinter Sterbecker Siepen und 0.8 km vor AS Lüdenscheid-Nord"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.602143614,
+            51.265786955
           ],
           [
-            8.383075,
-            50.618348701
+            7.6023363,
+            51.265109101
           ],
           [
-            8.3821499,
-            50.618327501
+            7.6025568,
+            51.264448001
           ],
           [
-            8.381415,
-            50.618332701
-          ],
-          [
-            8.3807123,
-            50.618363301
-          ],
-          [
-            8.3799475,
-            50.618418101
-          ],
-          [
-            8.3792773,
-            50.618496001
-          ],
-          [
-            8.378875,
-            50.618548401
-          ],
-          [
-            8.378014,
-            50.618693401
-          ],
-          [
-            8.3772435,
-            50.618848701
-          ],
-          [
-            8.3761914,
-            50.619138001
-          ],
-          [
-            8.3753211,
-            50.619414001
-          ],
-          [
-            8.3729341,
-            50.620205501
-          ],
-          [
-            8.3714578,
-            50.620630301
-          ],
-          [
-            8.3704965,
-            50.620831801
-          ],
-          [
-            8.3692949,
-            50.621016901
-          ],
-          [
-            8.3680367,
-            50.621134301
-          ],
-          [
-            8.3661645,
-            50.621253701
-          ],
-          [
-            8.365840854,
-            50.621273434
+            7.6028127,
+            51.263860401
           ]
         ]
       }
@@ -222,26 +223,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.36514810093417,7.514653499999016,51.381882093771466,7.524922890183303",
+      "extent": "51.36514810093417,7.514653499999016,51.3825362441667,7.525008188782479",
       "point": "51.36514810093417,7.514653499999016",
       "startLcPosition": "97",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Dortmund",
       "title": "A45 | Hagen-Süd - Lennetalbrücke",
       "startTimestamp": "2024-10-21T08:40:43+02:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10",
+      "averageSpeed": "12",
       "coordinate": {
         "lat": 51.36514810093417,
         "long": 7.514653499999016
       },
       "description": [
         "Beginn: 21.10.24 um 08:40 Uhr",
-        "Ende: 21.10.24 um 12:02 Uhr",
+        "Ende: 21.10.24 um 12:59 Uhr",
         "",
-        "Angespannte Verkehrslage, von 21.10.2024, 08:40, bis 21.10.2024, 12:02",
-        "A45: Gießen -> Dortmund, zwischen 2.1 km hinter AS Hagen-Süd und 0.1 km vor Lennetalbrücke"
+        "Angespannte Verkehrslage, von 21.10.2024, 08:40, bis 21.10.2024, 12:59",
+        "A45: Gießen -> Dortmund, zwischen 2.1 km hinter AS Hagen-Süd und Lennetalbrücke"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -358,8 +359,8 @@
             51.378987701
           ],
           [
-            7.52492289,
-            51.381882094
+            7.525008189,
+            51.382536244
           ]
         ]
       }
