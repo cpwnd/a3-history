@@ -12,18 +12,18 @@
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Krebsbach - Efringen-Kirchen",
       "startTimestamp": "2024-10-23T11:03:40+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "48.20000076293945",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "33.70000076293945",
       "coordinate": {
         "lat": 47.613549831093316,
         "long": 7.589932333011982
       },
       "description": [
         "Beginn: 23.10.24 um 11:03 Uhr",
-        "Ende: 23.10.24 um 14:04 Uhr",
+        "Ende: 23.10.24 um 14:14 Uhr",
         "",
-        "Angespannte Verkehrslage, von 23.10.2024, 11:03, bis 23.10.2024, 14:04",
+        "Angespannte Verkehrslage, von 23.10.2024, 11:03, bis 23.10.2024, 14:14",
         "A5: Basel -> Karlsruhe, zwischen 0.1 km hinter Krebsbach und 7.4 km vor AS Efringen-Kirchen"
       ],
       "routeRecommendation": [],
@@ -128,28 +128,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2024-10-23_10-25-48-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2024-10-23_13-10-07-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.11890071417066,8.551632198821927,49.18820569419686,8.584624069176781",
-      "point": "49.11890071417066,8.551632198821927",
-      "startLcPosition": "63",
+      "extent": "48.89829058939491,8.32524863067849,48.902361651988514,8.340338175620277",
+      "point": "48.89829058939491,8.32524863067849",
+      "startLcPosition": "55",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Höfenschlag - Kronau",
-      "startTimestamp": "2024-10-23T10:25:48+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Schleifweg - Karlsruhe-Süd",
+      "startTimestamp": "2024-10-23T13:10:07+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "49.599998474121094",
       "coordinate": {
-        "lat": 49.11890071417066,
-        "long": 8.551632198821927
+        "lat": 48.89829058939491,
+        "long": 8.32524863067849
       },
       "description": [
-        "Beginn: 23.10.24 um 10:25 Uhr",
-        "Ende: 23.10.24 um 14:35 Uhr",
+        "Beginn: 23.10.24 um 13:10 Uhr",
+        "Ende: 23.10.24 um 13:30 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 23.10.2024, 10:25, bis 23.10.2024, 14:35",
-        "A5: Karlsruhe -> Heidelberg, zwischen 6.2 km hinter Höfenschlag und 4.6 km vor AS Kronau"
+        "Angespannte Verkehrslage, von 23.10.2024, 13:10, bis 23.10.2024, 13:30",
+        "A5: Basel -> Karlsruhe, zwischen 2.8 km hinter Schleifweg und 7.0 km vor AS Karlsruhe-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -158,8 +160,145 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.551632199,
-            49.118900714
+            8.325248631,
+            48.898290589
+          ],
+          [
+            8.3280598,
+            48.899040801
+          ],
+          [
+            8.3309059,
+            48.899807201
+          ],
+          [
+            8.3342429,
+            48.900705801
+          ],
+          [
+            8.3372449,
+            48.901514101
+          ],
+          [
+            8.3378223,
+            48.901669501
+          ],
+          [
+            8.3389373,
+            48.901959401
+          ],
+          [
+            8.3400341,
+            48.902264701
+          ],
+          [
+            8.340338176,
+            48.902361652
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2024-10-23_10-25-48-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.10892155712108,8.546234767293978,49.18820569419686,8.584624069176781",
+      "point": "49.10892155712108,8.546234767293978",
+      "startLcPosition": "63",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Heidelberg",
+      "title": "A5 | Höfenschlag - Kronau",
+      "startTimestamp": "2024-10-23T10:25:48+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "coordinate": {
+        "lat": 49.10892155712108,
+        "long": 8.546234767293978
+      },
+      "description": [
+        "Beginn: 23.10.24 um 10:25 Uhr",
+        "Ende: 23.10.24 um 15:05 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 23.10.2024, 10:25, bis 23.10.2024, 15:05",
+        "A5: Karlsruhe -> Heidelberg, zwischen 5.0 km hinter Höfenschlag und 4.6 km vor AS Kronau"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.546234767,
+            49.108921557
+          ],
+          [
+            8.5470712,
+            49.109971601
+          ],
+          [
+            8.5485714,
+            49.111869401
+          ],
+          [
+            8.5488301,
+            49.112206201
+          ],
+          [
+            8.5491567,
+            49.112652301
+          ],
+          [
+            8.549636,
+            49.113368001
+          ],
+          [
+            8.5498828,
+            49.113764401
+          ],
+          [
+            8.5501066,
+            49.114161301
+          ],
+          [
+            8.5503488,
+            49.114651801
+          ],
+          [
+            8.5505812,
+            49.115150201
+          ],
+          [
+            8.5507976,
+            49.115644401
+          ],
+          [
+            8.5509924,
+            49.116143601
+          ],
+          [
+            8.5511407,
+            49.116592901
+          ],
+          [
+            8.5512721,
+            49.117040901
+          ],
+          [
+            8.5513833,
+            49.117480601
+          ],
+          [
+            8.5514787,
+            49.117910001
+          ],
+          [
+            8.5515509,
+            49.118304701
+          ],
+          [
+            8.5516135,
+            49.118733401
           ],
           [
             8.5516537,
@@ -533,8 +672,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.195617159536646,8.589437680852237,49.18424062466988,8.581678133204386",
-      "point": "49.195617159536646,8.589437680852237",
+      "extent": "49.19714460094432,8.590479499999908,49.18424062466988,8.581678133204386",
+      "point": "49.19714460094432,8.590479499999908",
       "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
@@ -542,17 +681,17 @@
       "startTimestamp": "2024-10-23T12:39:06+02:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "57.5",
+      "averageSpeed": "53.599998474121094",
       "coordinate": {
-        "lat": 49.195617159536646,
-        "long": 8.589437680852237
+        "lat": 49.19714460094432,
+        "long": 8.590479499999908
       },
       "description": [
         "Beginn: 23.10.24 um 12:39 Uhr",
-        "Ende: 23.10.24 um 13:27 Uhr",
+        "Ende: 23.10.24 um 13:42 Uhr",
         "",
-        "Angespannte Verkehrslage, von 23.10.2024, 12:39, bis 23.10.2024, 13:27",
-        "A5: Heidelberg -> Karlsruhe, zwischen 3.7 km hinter AS Kronau und 3.1 km vor Bruchsal"
+        "Angespannte Verkehrslage, von 23.10.2024, 12:39, bis 23.10.2024, 13:42",
+        "A5: Heidelberg -> Karlsruhe, zwischen 3.5 km hinter AS Kronau und 3.1 km vor Bruchsal"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -561,8 +700,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.589437681,
-            49.19561716
+            8.5904795,
+            49.197144601
+          ],
+          [
+            8.5899881,
+            49.196433801
           ],
           [
             8.5892804,
@@ -588,26 +731,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.2345964209049,8.602113631955413,49.22212016585136,8.603774849571572",
-      "point": "49.2345964209049,8.602113631955413",
+      "extent": "49.230397731688264,8.60268224082381,49.22057386729075,8.603787508114772",
+      "point": "49.230397731688264,8.60268224082381",
       "startLcPosition": "67",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
       "title": "A5 | Mönchberg - Bruchsal",
       "startTimestamp": "2024-10-23T12:39:06+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "47.599998474121094",
+      "averageSpeed": "47.400001525878906",
       "coordinate": {
-        "lat": 49.2345964209049,
-        "long": 8.602113631955413
+        "lat": 49.230397731688264,
+        "long": 8.60268224082381
       },
       "description": [
         "Beginn: 23.10.24 um 12:39 Uhr",
-        "Ende: 23.10.24 um 13:27 Uhr",
+        "Ende: 23.10.24 um 13:42 Uhr",
         "",
-        "Angespannte Verkehrslage, von 23.10.2024, 12:39, bis 23.10.2024, 13:27",
-        "A5: Heidelberg -> Karlsruhe, zwischen 2.6 km hinter Mönchberg und 7.6 km vor Bruchsal"
+        "Angespannte Verkehrslage, von 23.10.2024, 12:39, bis 23.10.2024, 13:42",
+        "A5: Heidelberg -> Karlsruhe, zwischen 3.0 km hinter Mönchberg und 7.5 km vor Bruchsal"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -616,40 +759,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.602113632,
-            49.234596421
-          ],
-          [
-            8.6021735,
-            49.234129701
-          ],
-          [
-            8.6021951,
-            49.233971301
-          ],
-          [
-            8.6023171,
-            49.233074301
-          ],
-          [
-            8.6024082,
-            49.232405001
-          ],
-          [
-            8.6024643,
-            49.232033001
-          ],
-          [
-            8.6024967,
-            49.231795701
-          ],
-          [
-            8.6026002,
-            49.231038201
-          ],
-          [
-            8.6026513,
-            49.230639001
+            8.602682241,
+            49.230397732
           ],
           [
             8.6027057,
@@ -684,8 +795,267 @@
             49.222132701
           ],
           [
-            8.60377485,
-            49.222120166
+            8.6037861,
+            49.221985801
+          ],
+          [
+            8.6037956,
+            49.221898501
+          ],
+          [
+            8.6038027,
+            49.221806501
+          ],
+          [
+            8.6038073,
+            49.221655401
+          ],
+          [
+            8.6038168,
+            49.221344201
+          ],
+          [
+            8.603787508,
+            49.220573867
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-10-23_13-13-29-000.f_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.802501632919196,8.625392291087536,49.82561692335707,8.632602379287098",
+      "point": "49.802501632919196,8.625392291087536",
+      "startLcPosition": "92",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Rolandshöhe - Darmstädter Kreuz",
+      "startTimestamp": "2024-10-23T13:13:29+02:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "32.5",
+      "coordinate": {
+        "lat": 49.802501632919196,
+        "long": 8.625392291087536
+      },
+      "description": [
+        "Beginn: 23.10.24 um 13:13 Uhr",
+        "Ende: 23.10.24 um 13:39 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 23.10.2024, 13:13, bis 23.10.2024, 13:39",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.4 km hinter Rolandshöhe und 4.7 km vor AK Darmstädter Kreuz"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.625392291,
+            49.802501633
+          ],
+          [
+            8.6262705,
+            49.803766401
+          ],
+          [
+            8.6266692,
+            49.804401701
+          ],
+          [
+            8.6270068,
+            49.804979501
+          ],
+          [
+            8.6272109,
+            49.805339601
+          ],
+          [
+            8.6274127,
+            49.805733501
+          ],
+          [
+            8.6278097,
+            49.806537501
+          ],
+          [
+            8.627946,
+            49.806868401
+          ],
+          [
+            8.628117,
+            49.807306201
+          ],
+          [
+            8.6282709,
+            49.807746501
+          ],
+          [
+            8.6284076,
+            49.808189301
+          ],
+          [
+            8.628527,
+            49.808634101
+          ],
+          [
+            8.628629,
+            49.809080601
+          ],
+          [
+            8.6287212,
+            49.809574501
+          ],
+          [
+            8.6287922,
+            49.810069801
+          ],
+          [
+            8.6288419,
+            49.810566201
+          ],
+          [
+            8.6288716,
+            49.810899401
+          ],
+          [
+            8.6288906,
+            49.811278801
+          ],
+          [
+            8.6288927,
+            49.811486301
+          ],
+          [
+            8.6288594,
+            49.812170501
+          ],
+          [
+            8.6288361,
+            49.812754001
+          ],
+          [
+            8.6288134,
+            49.813498801
+          ],
+          [
+            8.6288045,
+            49.813676001
+          ],
+          [
+            8.6287343,
+            49.814304501
+          ],
+          [
+            8.6287185,
+            49.815230401
+          ],
+          [
+            8.6287117,
+            49.815449801
+          ],
+          [
+            8.6287093,
+            49.815954201
+          ],
+          [
+            8.6287193,
+            49.816288501
+          ],
+          [
+            8.6287324,
+            49.816664501
+          ],
+          [
+            8.6287361,
+            49.816748501
+          ],
+          [
+            8.628752,
+            49.816955501
+          ],
+          [
+            8.6288136,
+            49.817471501
+          ],
+          [
+            8.6289094,
+            49.818071801
+          ],
+          [
+            8.6289775,
+            49.818393501
+          ],
+          [
+            8.6290487,
+            49.818706401
+          ],
+          [
+            8.6291911,
+            49.819232801
+          ],
+          [
+            8.6293405,
+            49.819708301
+          ],
+          [
+            8.62944,
+            49.819998501
+          ],
+          [
+            8.6295126,
+            49.820201101
+          ],
+          [
+            8.629696,
+            49.820655001
+          ],
+          [
+            8.6299604,
+            49.821239601
+          ],
+          [
+            8.6301058,
+            49.821532401
+          ],
+          [
+            8.6303133,
+            49.821921201
+          ],
+          [
+            8.6305255,
+            49.822306201
+          ],
+          [
+            8.6308224,
+            49.822796101
+          ],
+          [
+            8.6311973,
+            49.823397301
+          ],
+          [
+            8.6315116,
+            49.823888301
+          ],
+          [
+            8.6318372,
+            49.824396801
+          ],
+          [
+            8.6322217,
+            49.824998701
+          ],
+          [
+            8.6324011,
+            49.825291201
+          ],
+          [
+            8.632602379,
+            49.825616923
           ]
         ]
       }
@@ -810,16 +1180,16 @@
       "startTimestamp": "2024-10-23T08:24:36+02:00",
       "delayTimeValue": "5",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14.800000190734863",
+      "averageSpeed": "14.399999618530273",
       "coordinate": {
         "lat": 50.805026260901506,
         "long": 9.50365092917829
       },
       "description": [
         "Beginn: 23.10.24 um 08:24 Uhr",
-        "Ende: 23.10.24 um 13:38 Uhr",
+        "Ende: 23.10.24 um 13:51 Uhr",
         "",
-        "Angespannte Verkehrslage, von 23.10.2024, 08:24, bis 23.10.2024, 13:38",
+        "Angespannte Verkehrslage, von 23.10.2024, 08:24, bis 23.10.2024, 13:51",
         "A5: Kassel -> Frankfurt, zwischen 2.9 km hinter AD Hattenbacher Dreieck und 1.1 km vor Rimberg"
       ],
       "routeRecommendation": [],
@@ -956,26 +1326,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.807830223407656,9.52974767768782,50.80509513864136,9.503799998020163",
-      "point": "50.807830223407656,9.52974767768782",
+      "extent": "50.80741902241292,9.524416866797702,50.80509513864136,9.503799998020163",
+      "point": "50.80741902241292,9.524416866797702",
       "startLcPosition": "141",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Hattenbacher Dreieck - Barnholz",
       "startTimestamp": "2024-10-23T11:16:52+02:00",
-      "delayTimeValue": "10",
+      "delayTimeValue": "15",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10",
+      "averageSpeed": "5.800000190734863",
       "coordinate": {
-        "lat": 50.807830223407656,
-        "long": 9.52974767768782
+        "lat": 50.80741902241292,
+        "long": 9.524416866797702
       },
       "description": [
         "Beginn: 23.10.24 um 11:16 Uhr",
-        "Ende: 23.10.24 um 14:42 Uhr",
+        "Ende: 23.10.24 um 14:11 Uhr",
         "",
-        "Angespannte Verkehrslage, von 23.10.2024, 11:16, bis 23.10.2024, 14:42",
-        "A5: Kassel -> Frankfurt, zwischen 1.0 km hinter AD Hattenbacher Dreieck und 0.6 km vor Barnholz"
+        "Angespannte Verkehrslage, von 23.10.2024, 11:16, bis 23.10.2024, 14:11",
+        "A5: Kassel -> Frankfurt, zwischen 1.3 km hinter AD Hattenbacher Dreieck und 0.6 km vor Barnholz"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -984,32 +1354,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.529747678,
-            50.807830223
-          ],
-          [
-            9.5296436,
-            50.807822301
-          ],
-          [
-            9.5286253,
-            50.807745001
-          ],
-          [
-            9.5275865,
-            50.807664101
-          ],
-          [
-            9.526564,
-            50.807586501
-          ],
-          [
-            9.5255412,
-            50.807505001
-          ],
-          [
-            9.5246167,
-            50.807434801
+            9.524416867,
+            50.807419022
           ],
           [
             9.523696,
