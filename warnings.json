@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.67792469178335,13.227248225684807,48.6893629578649,13.202223367103826",
-      "point": "48.67792469178335,13.227248225684807",
+      "extent": "48.67721396371837,13.22960574057204,48.6893629578649,13.202223367103826",
+      "point": "48.67721396371837,13.22960574057204",
       "startLcPosition": "17",
       "display_type": "WARNING",
       "subtitle": " Passau -> Nürnberg",
@@ -14,17 +14,17 @@
       "startTimestamp": "2024-11-04T17:44:32+01:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "63.900001525878906",
+      "averageSpeed": "60.29999923706055",
       "coordinate": {
-        "lat": 48.67792469178335,
-        "long": 13.227248225684807
+        "lat": 48.67721396371837,
+        "long": 13.22960574057204
       },
       "description": [
         "Beginn: 04.11.24 um 17:44 Uhr",
-        "Ende: 04.11.24 um 23:28 Uhr",
+        "Ende: 04.11.24 um 23:51 Uhr",
         "",
-        "Angespannte Verkehrslage, von 04.11.2024, 17:44, bis 04.11.2024, 23:28",
-        "A3: Passau -> Nürnberg, zwischen 0.5 km hinter Schaufelholz und 4.9 km vor Frommerding"
+        "Angespannte Verkehrslage, von 04.11.2024, 17:44, bis 04.11.2024, 23:51",
+        "A3: Passau -> Nürnberg, zwischen 0.3 km hinter Schaufelholz und 4.9 km vor Frommerding"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.227248226,
-            48.677924692
+            13.229605741,
+            48.677213964
+          ],
+          [
+            13.228988,
+            48.677377101
+          ],
+          [
+            13.2281372,
+            48.677634201
           ],
           [
             13.2270961,
@@ -151,6 +159,75 @@
           [
             13.202223367,
             48.689362958
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2024-11-04_22-11-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.799864946297795,12.987200780620595,48.7916870723011,13.0022853896592",
+      "point": "48.799864946297795,12.987200780620595",
+      "startLcPosition": "25",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Passau",
+      "title": "A3 | Isarblick - Seebach",
+      "startTimestamp": "2024-11-04T22:11:00+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "coordinate": {
+        "lat": 48.799864946297795,
+        "long": 12.987200780620595
+      },
+      "description": [
+        "Beginn: 04.11.24 um 22:11 Uhr",
+        "Ende: 04.11.24 um 22:58 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 04.11.2024, 22:11, bis 04.11.2024, 22:58",
+        "A3: Nürnberg -> Passau, zwischen 0.8 km hinter Isarblick und 0.7 km vor Seebach"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.987200781,
+            48.799864946
+          ],
+          [
+            12.9876524,
+            48.799629101
+          ],
+          [
+            12.9882852,
+            48.799305101
+          ],
+          [
+            12.9904336,
+            48.798162201
+          ],
+          [
+            12.9907469,
+            48.797985101
+          ],
+          [
+            12.9964929,
+            48.794735501
+          ],
+          [
+            12.9988206,
+            48.793441101
+          ],
+          [
+            13.0012081,
+            48.792201701
+          ],
+          [
+            13.00228539,
+            48.791687072
           ]
         ]
       }
