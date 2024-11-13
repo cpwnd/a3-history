@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.027857546656605,9.05455669825069,50.01139550612501,9.03088433972622",
-      "point": "50.027857546656605,9.05455669825069",
+      "extent": "50.0290519421587,9.055468253567446,50.01139550612501,9.03088433972622",
+      "point": "50.0290519421587,9.055468253567446",
       "startLcPosition": "3",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
@@ -14,17 +14,17 @@
       "startTimestamp": "2024-11-13T17:32:16+01:00",
       "delayTimeValue": "7",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "18.5",
+      "averageSpeed": "18.100000381469727",
       "coordinate": {
-        "lat": 50.027857546656605,
-        "long": 9.05455669825069
+        "lat": 50.0290519421587,
+        "long": 9.055468253567446
       },
       "description": [
         "Beginn: 13.11.24 um 17:32 Uhr",
-        "Ende: 13.11.24 um 19:10 Uhr",
+        "Ende: 13.11.24 um 19:15 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.11.2024, 17:32, bis 13.11.2024, 19:10",
-        "A45: Gießen -> Aschaffenburg, zwischen 2.2 km hinter AS Karlstein und 0.4 km vor AS Mainhausen"
+        "Angespannte Verkehrslage, von 13.11.2024, 17:32, bis 13.11.2024, 19:15",
+        "A45: Gießen -> Aschaffenburg, zwischen 2.1 km hinter AS Karlstein und 0.4 km vor AS Mainhausen"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.054556698,
-            50.027857547
+            9.055468254,
+            50.029051942
+          ],
+          [
+            9.0548328,
+            50.028197401
           ],
           [
             9.0542932,
@@ -164,7 +168,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2024-11-13_15-03-13-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2024-11-13_15-03-13-000.f_023.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -175,7 +179,9 @@
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Sterbecker Siepen - Lüdenscheid-Nord",
       "startTimestamp": "2024-11-13T15:03:13+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "14.699999809265137",
       "coordinate": {
         "lat": 51.265786955274,
         "long": 7.602143614471555
@@ -184,10 +190,8 @@
         "Beginn: 13.11.24 um 15:03 Uhr",
         "Ende: 13.11.24 um 21:29 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 13.11.2024, 15:03, bis 13.11.2024, 21:29",
-        "A45: Hagen -> Gießen, zwischen 0.2 km hinter Sterbecker Siepen und 0.8 km vor AS Lüdenscheid-Nord",
-        "Gefahr durch Personen auf der Fahrbahn",
-        "Gefahr durch Personen auf der Fahrbahn"
+        "Angespannte Verkehrslage, von 13.11.2024, 15:03, bis 13.11.2024, 21:29",
+        "A45: Hagen -> Gießen, zwischen 0.2 km hinter Sterbecker Siepen und 0.8 km vor AS Lüdenscheid-Nord"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -210,125 +214,6 @@
           [
             7.6028127,
             51.263860401
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2024-11-13_13-09-48-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.571265606475244,7.362833732410279,51.5820531234725,7.366739390037713",
-      "point": "51.571265606475244,7.362833732410279",
-      "startLcPosition": "112",
-      "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
-      "startTimestamp": "2024-11-13T13:09:48+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "54.70000076293945",
-      "coordinate": {
-        "lat": 51.571265606475244,
-        "long": 7.362833732410279
-      },
-      "description": [
-        "Beginn: 13.11.24 um 13:09 Uhr",
-        "Ende: 13.11.24 um 18:57 Uhr",
-        "",
-        "Angespannte Verkehrslage, von 13.11.2024, 13:09, bis 13.11.2024, 18:57",
-        "A45: Hagen -> Dortmund, zwischen 1.1 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.362833732,
-            51.571265606
-          ],
-          [
-            7.3628387,
-            51.571276801
-          ],
-          [
-            7.3630663,
-            51.571807801
-          ],
-          [
-            7.3632371,
-            51.572200501
-          ],
-          [
-            7.3634989,
-            51.572791901
-          ],
-          [
-            7.3636297,
-            51.573117501
-          ],
-          [
-            7.3637644,
-            51.573469101
-          ],
-          [
-            7.363883,
-            51.573753701
-          ],
-          [
-            7.3642099,
-            51.574641401
-          ],
-          [
-            7.3645093,
-            51.575441301
-          ],
-          [
-            7.3648316,
-            51.576316401
-          ],
-          [
-            7.3648891,
-            51.576495901
-          ],
-          [
-            7.3649258,
-            51.576601101
-          ],
-          [
-            7.3650592,
-            51.576990201
-          ],
-          [
-            7.365118,
-            51.577171101
-          ],
-          [
-            7.3653708,
-            51.577873901
-          ],
-          [
-            7.3655074,
-            51.578254701
-          ],
-          [
-            7.3658147,
-            51.579335401
-          ],
-          [
-            7.3663489,
-            51.580948201
-          ],
-          [
-            7.3664186,
-            51.581176601
-          ],
-          [
-            7.36673939,
-            51.582053123
           ]
         ]
       }
