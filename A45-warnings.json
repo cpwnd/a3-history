@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.41280295471187,7.551539452602306,51.434076085955816,7.52822232962434",
-      "point": "51.41280295471187,7.551539452602306",
+      "extent": "51.41168895459206,7.55114229010685,51.43494086061372,7.526095736902848",
+      "point": "51.41168895459206,7.55114229010685",
       "startLcPosition": "101",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
@@ -14,15 +14,15 @@
       "startTimestamp": "2024-11-15T18:58:37+01:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 51.41280295471187,
-        "long": 7.551539452602306
+        "lat": 51.41168895459206,
+        "long": 7.55114229010685
       },
       "description": [
         "Beginn: 15.11.24 um 18:58 Uhr",
-        "Ende: 15.11.24 um 20:39 Uhr",
+        "Ende: 15.11.24 um 20:55 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 15.11.2024, 18:58, bis 15.11.2024, 20:39",
-        "A45: Hagen -> Dortmund, zwischen 0.3 km hinter AS Schwerte-Ergste und 3.3 km vor AS Dortmund-Süd"
+        "Zusammengesetzte Verkehrsinformation, von 15.11.2024, 18:58, bis 15.11.2024, 20:55",
+        "A45: Hagen -> Dortmund, zwischen 0.2 km hinter AS Schwerte-Ergste und 3.1 km vor AS Dortmund-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.551539453,
-            51.412802955
+            7.55114229,
+            51.411688955
+          ],
+          [
+            7.5513024,
+            51.412072301
+          ],
+          [
+            7.5514895,
+            51.412625801
           ],
           [
             7.551622,
@@ -215,8 +223,61 @@
             51.433901601
           ],
           [
-            7.52822233,
-            51.434076086
+            7.5274159,
+            51.434374401
+          ],
+          [
+            7.5263204,
+            51.434843601
+          ],
+          [
+            7.5261524,
+            51.434915501
+          ],
+          [
+            7.526095737,
+            51.434940861
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2024-11-15_20-10-53-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.436226449115566,7.523099378481247,51.43579258499197,7.523925239200048",
+      "point": "51.436226449115566,7.523099378481247",
+      "startLcPosition": "103",
+      "display_type": "WARNING",
+      "subtitle": " Dortmund -> Hagen",
+      "title": "A45 | Dortmund-Süd - Westhofener Kreuz",
+      "startTimestamp": "2024-11-15T20:10:53+01:00",
+      "coordinate": {
+        "lat": 51.436226449115566,
+        "long": 7.523099378481247
+      },
+      "description": [
+        "Beginn: 15.11.24 um 20:10 Uhr",
+        "Ende: 15.11.24 um 20:40 Uhr",
+        "",
+        "Hindernis, von 15.11.2024, 20:10, bis 15.11.2024, 20:40",
+        "A45: Dortmund -> Hagen, zwischen 2.8 km hinter AS Dortmund-Süd und 0.7 km vor AK Westhofener Kreuz",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.523099378,
+            51.436226449
+          ],
+          [
+            7.523925239,
+            51.435792585
           ]
         ]
       }
