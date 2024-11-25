@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.76707433169694,13.049722866229938,48.7770074339943,13.029269525295406",
-      "point": "48.76707433169694,13.049722866229938",
+      "extent": "48.76628119832581,13.051421492087721,48.7770074339943,13.029269525295406",
+      "point": "48.76628119832581,13.051421492087721",
       "startLcPosition": "22",
       "display_type": "WARNING",
       "subtitle": " Passau -> Nürnberg",
@@ -14,17 +14,17 @@
       "startTimestamp": "2024-11-25T18:51:46+01:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "61.400001525878906",
+      "averageSpeed": "63.400001525878906",
       "coordinate": {
-        "lat": 48.76707433169694,
-        "long": 13.049722866229938
+        "lat": 48.76628119832581,
+        "long": 13.051421492087721
       },
       "description": [
         "Beginn: 25.11.24 um 18:51 Uhr",
-        "Ende: 25.11.24 um 21:42 Uhr",
+        "Ende: 25.11.24 um 21:18 Uhr",
         "",
-        "Angespannte Verkehrslage, von 25.11.2024, 18:51, bis 25.11.2024, 21:42",
-        "A3: Passau -> Nürnberg, zwischen 1.6 km hinter Manzing und 1.9 km vor Seebach"
+        "Angespannte Verkehrslage, von 25.11.2024, 18:51, bis 25.11.2024, 21:18",
+        "A3: Passau -> Nürnberg, zwischen 1.5 km hinter Manzing und 1.9 km vor Seebach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -33,8 +33,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.049722866,
-            48.767074332
+            13.051421492,
+            48.766281198
+          ],
+          [
+            13.0509204,
+            48.766526101
           ],
           [
             13.0493293,
@@ -96,28 +100,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2024-11-25_18-50-08-000.f.de0",
+      "identifier": "undefined--vi-avl.2024-11-25_20-26-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.048493825408485,8.549776643911688,50.04304608655068,8.534666174587118",
-      "point": "50.048493825408485,8.549776643911688",
-      "startLcPosition": "163",
+      "extent": "48.799864946297795,12.987200780620595,48.79371320311966,12.998331299497353",
+      "point": "48.799864946297795,12.987200780620595",
+      "startLcPosition": "25",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Frankfurt am Main-Flughafen - Mönchhof-Dreieck",
-      "startTimestamp": "2024-11-25T18:50:08+01:00",
+      "subtitle": " Nürnberg -> Passau",
+      "title": "A3 | Isarblick - Seebach",
+      "startTimestamp": "2024-11-25T20:26:30+01:00",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "71.9000015258789",
       "coordinate": {
-        "lat": 50.048493825408485,
-        "long": 8.549776643911688
+        "lat": 48.799864946297795,
+        "long": 12.987200780620595
       },
       "description": [
-        "Beginn: 25.11.24 um 18:50 Uhr",
-        "Ende: 25.11.24 um 20:56 Uhr",
+        "Beginn: 25.11.24 um 20:26 Uhr",
+        "Ende: 25.11.24 um 21:08 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 25.11.2024, 18:50, bis 25.11.2024, 20:56",
-        "A3: Frankfurt -> Köln, zwischen 2.4 km hinter AS Frankfurt am Main-Flughafen und 3.6 km vor AD Mönchhof-Dreieck"
+        "Angespannte Verkehrslage, von 25.11.2024, 20:26, bis 25.11.2024, 21:08",
+        "A3: Nürnberg -> Passau, zwischen 0.8 km hinter Isarblick und 1.1 km vor Seebach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -126,8 +132,73 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.549776644,
-            50.048493825
+            12.987200781,
+            48.799864946
+          ],
+          [
+            12.9876524,
+            48.799629101
+          ],
+          [
+            12.9882852,
+            48.799305101
+          ],
+          [
+            12.9904336,
+            48.798162201
+          ],
+          [
+            12.9907469,
+            48.797985101
+          ],
+          [
+            12.9964929,
+            48.794735501
+          ],
+          [
+            12.998331299,
+            48.793713203
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2024-11-25_18-50-08-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.049279844549325,8.553566251379715,50.04304608655068,8.534666174587118",
+      "point": "50.049279844549325,8.553566251379715",
+      "startLcPosition": "163",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Frankfurt am Main-Flughafen - Mönchhof-Dreieck",
+      "startTimestamp": "2024-11-25T18:50:08+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "coordinate": {
+        "lat": 50.049279844549325,
+        "long": 8.553566251379715
+      },
+      "description": [
+        "Beginn: 25.11.24 um 18:50 Uhr",
+        "Ende: 25.11.24 um 20:56 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 25.11.2024, 18:50, bis 25.11.2024, 20:56",
+        "A3: Frankfurt -> Köln, zwischen 2.2 km hinter AS Frankfurt am Main-Flughafen und 3.6 km vor AD Mönchhof-Dreieck"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.553566251,
+            50.049279845
+          ],
+          [
+            8.5501074,
+            50.048565901
           ],
           [
             8.5494989,
