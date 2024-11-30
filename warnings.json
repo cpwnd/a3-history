@@ -5,25 +5,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.70060155409569,7.259286920169917,50.69011590093787,7.2706713999983075",
-      "point": "50.70060155409569,7.259286920169917",
+      "extent": "50.69754918652807,7.26324368451688,50.69011590093787,7.2706713999983075",
+      "point": "50.69754918652807,7.26324368451688",
       "startLcPosition": "201",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Bonn/Siegburg - Siebengebirge",
       "startTimestamp": "2024-11-30T13:37:38+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 50.70060155409569,
-        "long": 7.259286920169917
+        "lat": 50.69754918652807,
+        "long": 7.26324368451688
       },
       "description": [
         "Beginn: 30.11.24 um 13:37 Uhr",
-        "Ende: 30.11.24 um 20:40 Uhr",
+        "Ende: 30.11.24 um 20:42 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 30.11.2024, 13:37, bis 30.11.2024, 20:40",
-        "A3: Köln -> Frankfurt, zwischen 9.2 km hinter AK Bonn/Siegburg und 0.6 km vor AS Siebengebirge",
-        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
+        "Zusammengesetzte Verkehrsinformation, von 30.11.2024, 13:37, bis 30.11.2024, 20:42",
+        "A3: Köln -> Frankfurt, zwischen 9.6 km hinter AK Bonn/Siegburg und 0.6 km vor AS Siebengebirge"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -32,40 +31,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.25928692,
-            50.700601554
-          ],
-          [
-            7.2595414,
-            50.700445101
-          ],
-          [
-            7.2601315,
-            50.700067801
-          ],
-          [
-            7.2608291,
-            50.699568901
-          ],
-          [
-            7.2611577,
-            50.699329201
-          ],
-          [
-            7.2616383,
-            50.698967301
-          ],
-          [
-            7.2620808,
-            50.698602301
-          ],
-          [
-            7.2625588,
-            50.698198601
-          ],
-          [
-            7.2630103,
-            50.697774801
+            7.263243685,
+            50.697549187
           ],
           [
             7.2634519,
@@ -90,6 +57,51 @@
           [
             7.2706714,
             50.690115901
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2024-11-30_20-20-45-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.18841736649853,6.942698529317556,51.188071931694516,6.942892352133012",
+      "point": "51.18841736649853,6.942698529317556",
+      "startLcPosition": "221",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Hilden - Ohligser Heide",
+      "startTimestamp": "2024-11-30T20:20:45+01:00",
+      "coordinate": {
+        "lat": 51.18841736649853,
+        "long": 6.942698529317556
+      },
+      "description": [
+        "Beginn: 30.11.24 um 20:20 Uhr",
+        "Ende: 30.11.24 um 20:50 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 30.11.2024, 20:20, bis 30.11.2024, 20:50",
+        "A3: Oberhausen -> Köln, zwischen 0.7 km hinter AK Hilden und 3.6 km vor Ohligser Heide",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.942698529,
+            51.188417366
+          ],
+          [
+            6.9427837,
+            51.188267101
+          ],
+          [
+            6.942892352,
+            51.188071932
           ]
         ]
       }
