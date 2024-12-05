@@ -496,9 +496,9 @@
       },
       "description": [
         "Beginn: 05.12.24 um 04:45 Uhr",
-        "Ende: 05.12.24 um 08:30 Uhr",
+        "Ende: 05.12.24 um 08:57 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 05.12.2024, 04:45, bis 05.12.2024, 08:30",
+        "Zusammengesetzte Verkehrsinformation, von 05.12.2024, 04:45, bis 05.12.2024, 08:57",
         "A45: Gießen -> Aschaffenburg, zwischen 1.0 km hinter AS Alzenau-Mitte und 0.2 km vor AS Karlstein"
       ],
       "routeRecommendation": [],
@@ -659,30 +659,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2024-12-05_06-19-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2024-12-05_06-41-00-000.f_011.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.26696337815559,7.601821204435279,51.263860400934774,7.60281269999918",
-      "point": "51.26696337815559,7.601821204435279",
-      "startLcPosition": "91",
+      "extent": "50.52590612718295,8.62688135496932,50.52707190880064,8.61771335347333",
+      "point": "50.52590612718295,8.62688135496932",
+      "startLcPosition": "22",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Sterbecker Siepen - Lüdenscheid-Nord",
-      "startTimestamp": "2024-12-05T06:19:30+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "7",
+      "subtitle": " Aschaffenburg -> Gießen",
+      "title": "A45 | Gießener Südkreuz - Gießen-Lützellinden",
+      "startTimestamp": "2024-12-05T06:41:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "43.29999923706055",
       "coordinate": {
-        "lat": 51.26696337815559,
-        "long": 7.601821204435279
+        "lat": 50.52590612718295,
+        "long": 8.62688135496932
       },
       "description": [
-        "Beginn: 05.12.24 um 06:19 Uhr",
-        "Ende: 05.12.24 um 20:42 Uhr",
+        "Beginn: 05.12.24 um 06:41 Uhr",
+        "Ende: 05.12.24 um 06:55 Uhr",
         "",
-        "Angespannte Verkehrslage, von 05.12.2024, 06:19, bis 05.12.2024, 20:42",
-        "A45: Hagen -> Gießen, zwischen 0.1 km hinter Sterbecker Siepen und 0.8 km vor AS Lüdenscheid-Nord"
+        "Angespannte Verkehrslage, von 05.12.2024, 06:41, bis 05.12.2024, 06:55",
+        "A45: Aschaffenburg -> Gießen, zwischen 1.0 km hinter AK Gießener Südkreuz und 1.4 km vor AS Gießen-Lützellinden"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -691,8 +691,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.601821204,
-            51.266963378
+            8.626881355,
+            50.525906127
+          ],
+          [
+            8.6255302,
+            50.526105301
+          ],
+          [
+            8.6243447,
+            50.526264301
+          ],
+          [
+            8.6224099,
+            50.526512101
+          ],
+          [
+            8.6207141,
+            50.526733601
+          ],
+          [
+            8.618009,
+            50.527041001
+          ],
+          [
+            8.617713353,
+            50.527071909
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-12-05_06-19-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.26799242109912,7.601550515400853,51.263860400934774,7.60281269999918",
+      "point": "51.26799242109912,7.601550515400853",
+      "startLcPosition": "92",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Rehweg - Lüdenscheid-Nord",
+      "startTimestamp": "2024-12-05T06:19:30+01:00",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5.599999904632568",
+      "coordinate": {
+        "lat": 51.26799242109912,
+        "long": 7.601550515400853
+      },
+      "description": [
+        "Beginn: 05.12.24 um 06:19 Uhr",
+        "Ende: 05.12.24 um 20:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 05.12.2024, 06:19, bis 05.12.2024, 20:42",
+        "A45: Hagen -> Gießen, zwischen Rehweg und 0.8 km vor AS Lüdenscheid-Nord"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.601550515,
+            51.267992421
           ],
           [
             7.60197,
