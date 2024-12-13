@@ -5,24 +5,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.78827535220194,10.16886139782076,49.780367498625395,10.253098587159773",
-      "point": "49.78827535220194,10.16886139782076",
+      "extent": "49.78591803105522,10.156127210714548,49.78096101494517,10.259167215985915",
+      "point": "49.78591803105522,10.156127210714548",
       "startLcPosition": "122",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Nürnberg",
       "title": "A3 | Biebelried - Feuerbach",
       "startTimestamp": "2024-12-13T04:36:00+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 49.78827535220194,
-        "long": 10.16886139782076
+        "lat": 49.78591803105522,
+        "long": 10.156127210714548
       },
       "description": [
         "Beginn: 13.12.24 um 04:36 Uhr",
-        "Ende: 13.12.24 um 05:28 Uhr",
+        "Ende: 13.12.24 um 05:46 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 13.12.2024, 04:36, bis 13.12.2024, 05:28",
-        "A3: Würzburg -> Nürnberg, zwischen 5.7 km hinter AK Biebelried und 4.4 km vor Feuerbach"
+        "Zusammengesetzte Verkehrsinformation, von 13.12.2024, 04:36, bis 13.12.2024, 05:46",
+        "A3: Würzburg -> Nürnberg, zwischen 4.7 km hinter AK Biebelried und 4.0 km vor Feuerbach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.168861398,
-            49.788275352
+            10.156127211,
+            49.785918031
+          ],
+          [
+            10.1562903,
+            49.785938501
+          ],
+          [
+            10.1572788,
+            49.786085501
+          ],
+          [
+            10.1583553,
+            49.786244601
+          ],
+          [
+            10.1595317,
+            49.786439701
+          ],
+          [
+            10.1609794,
+            49.786690201
+          ],
+          [
+            10.1626857,
+            49.787021401
+          ],
+          [
+            10.163357,
+            49.787157901
+          ],
+          [
+            10.1635935,
+            49.787206001
+          ],
+          [
+            10.1660399,
+            49.787721101
+          ],
+          [
+            10.1680951,
+            49.788131001
           ],
           [
             10.1690103,
@@ -327,8 +367,65 @@
             49.780359301
           ],
           [
-            10.253098587,
-            49.780367499
+            10.2538258,
+            49.780421501
+          ],
+          [
+            10.2553858,
+            49.780553901
+          ],
+          [
+            10.2569724,
+            49.780711601
+          ],
+          [
+            10.2583863,
+            49.780868201
+          ],
+          [
+            10.259167216,
+            49.780961015
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2024-12-13_05-03-35-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.34915980364101,6.857532442389686,51.34845578195196,6.859435933172266",
+      "point": "51.34915980364101,6.857532442389686",
+      "startLcPosition": "226",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Breitscheid - Hösel",
+      "startTimestamp": "2024-12-13T05:03:35+01:00",
+      "coordinate": {
+        "lat": 51.34915980364101,
+        "long": 6.857532442389686
+      },
+      "description": [
+        "Beginn: 13.12.24 um 05:03 Uhr",
+        "Ende: 13.12.24 um 05:33 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 13.12.2024, 05:03, bis 13.12.2024, 05:33",
+        "A3: Oberhausen -> Köln, zwischen AK Breitscheid und 3.2 km vor Hösel",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.857532442,
+            51.349159804
+          ],
+          [
+            6.859435933,
+            51.348455782
           ]
         ]
       }
