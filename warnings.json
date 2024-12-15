@@ -5,24 +5,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.11142653816834,6.987678516742328,51.12144345889953,6.980687094891386",
-      "point": "51.11142653816834,6.987678516742328",
+      "extent": "51.10879313871259,6.987969088547375,51.121897313209686,6.980230961221003",
+      "point": "51.10879313871259,6.987969088547375",
       "startLcPosition": "217",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Bergische Landstraße - Solingen",
+      "title": "A3 | Bergische Landstraße - Ohligser Heide",
       "startTimestamp": "2024-12-15T20:23:00+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "coordinate": {
-        "lat": 51.11142653816834,
-        "long": 6.987678516742328
+        "lat": 51.10879313871259,
+        "long": 6.987969088547375
       },
       "description": [
         "Beginn: 15.12.24 um 20:23 Uhr",
-        "Ende: 15.12.24 um 22:14 Uhr",
+        "Ende: 15.12.24 um 23:10 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 15.12.2024, 20:23, bis 15.12.2024, 22:14",
-        "A3: Köln -> Oberhausen, zwischen 0.7 km hinter Bergische Landstraße und AS Solingen"
+        "Zusammengesetzte Verkehrsinformation, von 15.12.2024, 20:23, bis 15.12.2024, 23:10",
+        "A3: Köln -> Oberhausen, zwischen 0.4 km hinter Bergische Landstraße und 4.2 km vor Ohligser Heide"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.987678517,
-            51.111426538
+            6.987969089,
+            51.108793139
+          ],
+          [
+            6.9878955,
+            51.110157601
+          ],
+          [
+            6.9878391,
+            51.110559301
+          ],
+          [
+            6.9877604,
+            51.111068701
           ],
           [
             6.9876061,
@@ -111,36 +123,41 @@
             51.121246301
           ],
           [
-            6.980687095,
-            51.121443459
+            6.9803515,
+            51.121775101
+          ],
+          [
+            6.980230961,
+            51.121897313
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-zus.2024-12-15_21-06-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2024-12-15_21-06-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.429721269234726,6.806529283877971,51.45153275512978,6.798858312193664",
-      "point": "51.429721269234726,6.806529283877971",
+      "extent": "51.429978029513954,6.806766236286713,51.44944707315636,6.7985198216667335",
+      "point": "51.429978029513954,6.806766236286713",
       "startLcPosition": "229",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
       "startTimestamp": "2024-12-15T21:06:30+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35.900001525878906",
       "coordinate": {
-        "lat": 51.429721269234726,
-        "long": 6.806529283877971
+        "lat": 51.429978029513954,
+        "long": 6.806766236286713
       },
       "description": [
         "Beginn: 15.12.24 um 21:06 Uhr",
-        "Ende: 15.12.24 um 23:26 Uhr",
+        "Ende: 15.12.24 um 23:17 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 15.12.2024, 21:06, bis 15.12.2024, 23:26",
-        "A3: Köln -> Oberhausen, zwischen 2.5 km hinter AS Duisburg-Wedau und 3.2 km vor AS Oberhausen-Lirich",
-        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
+        "Angespannte Verkehrslage, von 15.12.2024, 21:06, bis 15.12.2024, 23:17",
+        "A3: Köln -> Oberhausen, zwischen 2.6 km hinter AS Duisburg-Wedau und 3.4 km vor AS Oberhausen-Lirich"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -149,12 +166,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.806529284,
-            51.429721269
-          ],
-          [
-            6.806604,
-            51.429791801
+            6.806766236,
+            51.42997803
           ],
           [
             6.8071795,
@@ -381,20 +394,8 @@
             51.449179901
           ],
           [
-            6.7985241,
-            51.449640101
-          ],
-          [
-            6.7985833,
-            51.450163201
-          ],
-          [
-            6.7987529,
-            51.451060901
-          ],
-          [
-            6.798858312,
-            51.451532755
+            6.798519822,
+            51.449447073
           ]
         ]
       }
