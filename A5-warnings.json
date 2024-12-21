@@ -1,28 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2024-12-21_17-37-30-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2024-12-21_18-29-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.92346957762829,8.355826025784346,48.960286917434516,8.40434500985523",
-      "point": "48.92346957762829,8.355826025784346",
-      "startLcPosition": "55",
+      "extent": "48.854936759279674,8.239722043339665,48.86232125193875,8.245915278330003",
+      "point": "48.854936759279674,8.239722043339665",
+      "startLcPosition": "52",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Schleifweg - Ettlingen",
-      "startTimestamp": "2024-12-21T17:37:30+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "title": "A5 | Rastatt-Süd - Rastatt-Nord",
+      "startTimestamp": "2024-12-21T18:29:30+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.400001525878906",
       "coordinate": {
-        "lat": 48.92346957762829,
-        "long": 8.355826025784346
+        "lat": 48.854936759279674,
+        "long": 8.239722043339665
       },
       "description": [
-        "Beginn: 21.12.24 um 17:37 Uhr",
-        "Ende: 21.12.24 um 21:39 Uhr",
+        "Beginn: 21.12.24 um 18:29 Uhr",
+        "Ende: 21.12.24 um 18:55 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 21.12.2024, 17:37, bis 21.12.2024, 21:39",
-        "A5: Basel -> Karlsruhe, zwischen 6.7 km hinter Schleifweg und 0.1 km vor AS Ettlingen"
+        "Angespannte Verkehrslage, von 21.12.2024, 18:29, bis 21.12.2024, 18:55",
+        "A5: Basel -> Karlsruhe, zwischen 4.0 km hinter AS Rastatt-Süd und AS Rastatt-Nord"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +33,103 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.355826026,
-            48.923469578
+            8.239722043,
+            48.854936759
+          ],
+          [
+            8.2410372,
+            48.856507801
+          ],
+          [
+            8.2418202,
+            48.857432101
+          ],
+          [
+            8.2430411,
+            48.858916901
+          ],
+          [
+            8.2444625,
+            48.860609401
+          ],
+          [
+            8.2446022,
+            48.860775801
+          ],
+          [
+            8.2456389,
+            48.861995901
+          ],
+          [
+            8.245915278,
+            48.862321252
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2024-12-21_17-37-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.91493565539267,8.351995170885202,48.96007361840616,8.403031979247059",
+      "point": "48.91493565539267,8.351995170885202",
+      "startLcPosition": "55",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Schleifweg - Ettlingen",
+      "startTimestamp": "2024-12-21T17:37:30+01:00",
+      "delayTimeValue": "40",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "9.300000190734863",
+      "coordinate": {
+        "lat": 48.91493565539267,
+        "long": 8.351995170885202
+      },
+      "description": [
+        "Beginn: 21.12.24 um 17:37 Uhr",
+        "Ende: 21.12.24 um 19:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 21.12.2024, 17:37, bis 21.12.2024, 19:46",
+        "A5: Basel -> Karlsruhe, zwischen 5.7 km hinter Schleifweg und 0.2 km vor AS Ettlingen"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.351995171,
+            48.914935655
+          ],
+          [
+            8.3521323,
+            48.915239501
+          ],
+          [
+            8.3525357,
+            48.916133401
+          ],
+          [
+            8.3533717,
+            48.918004501
+          ],
+          [
+            8.3542129,
+            48.919793701
+          ],
+          [
+            8.3542904,
+            48.919948001
+          ],
+          [
+            8.3545042,
+            48.920462801
+          ],
+          [
+            8.3555827,
+            48.922930701
           ],
           [
             8.3579977,
@@ -251,12 +348,8 @@
             48.959674301
           ],
           [
-            8.403361,
-            48.960125101
-          ],
-          [
-            8.40434501,
-            48.960286917
+            8.403031979,
+            48.960073618
           ]
         ]
       }
