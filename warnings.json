@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.05955660810952,8.879587654778216,50.06112255506137,8.66279064243129",
-      "point": "50.05955660810952,8.879587654778216",
+      "extent": "50.058828604927854,8.888340608471804,50.06112255506137,8.66279064243129",
+      "point": "50.058828604927854,8.888340608471804",
       "startLcPosition": "155",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
@@ -14,15 +14,15 @@
       "startTimestamp": "2025-01-13T07:39:50+01:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 50.05955660810952,
-        "long": 8.879587654778216
+        "lat": 50.058828604927854,
+        "long": 8.888340608471804
       },
       "description": [
         "Beginn: 13.01.25 um 07:39 Uhr",
-        "Ende: 13.01.25 um 09:38 Uhr",
+        "Ende: 13.01.25 um 09:46 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 13.01.2025, 07:39, bis 13.01.2025, 09:38",
-        "A3: Würzburg -> Frankfurt, zwischen 0.9 km hinter AS Hanau und 1.1 km vor AS Frankfurt am Main-Süd"
+        "Zusammengesetzte Verkehrsinformation, von 13.01.2025, 07:39, bis 13.01.2025, 09:46",
+        "A3: Würzburg -> Frankfurt, zwischen 0.2 km hinter AS Hanau und 1.1 km vor AS Frankfurt am Main-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.879587655,
-            50.059556608
+            8.888340608,
+            50.058828605
+          ],
+          [
+            8.8863414,
+            50.059016001
+          ],
+          [
+            8.8850783,
+            50.059132601
+          ],
+          [
+            8.8846966,
+            50.059167101
+          ],
+          [
+            8.8819605,
+            50.059378201
+          ],
+          [
+            8.8798286,
+            50.059539501
           ],
           [
             8.8788849,
@@ -618,29 +638,132 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-01-13_08-28-29-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-01-13_08-17-52-000.f_023.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.04474491217415,8.4055861928748,50.05064319520868,8.392501347746418",
-      "point": "50.04474491217415,8.4055861928748",
+      "extent": "50.06176195194454,8.70332706094039,50.064452361049256,8.718912330976197",
+      "point": "50.06176195194454,8.70332706094039",
+      "startLcPosition": "160",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Frankfurt am Main-Süd - Offenbacher Kreuz",
+      "startTimestamp": "2025-01-13T08:17:52+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "67",
+      "coordinate": {
+        "lat": 50.06176195194454,
+        "long": 8.70332706094039
+      },
+      "description": [
+        "Beginn: 13.01.25 um 08:17 Uhr",
+        "Ende: 13.01.25 um 09:00 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 13.01.2025, 08:17, bis 13.01.2025, 09:00",
+        "A3: Frankfurt -> Würzburg, zwischen 4.0 km hinter AS Frankfurt am Main-Süd und 0.6 km vor AK Offenbacher Kreuz"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.703327061,
+            50.061761952
+          ],
+          [
+            8.7036047,
+            50.061804401
+          ],
+          [
+            8.7046739,
+            50.061983501
+          ],
+          [
+            8.7058795,
+            50.062188601
+          ],
+          [
+            8.7078642,
+            50.062572201
+          ],
+          [
+            8.7091754,
+            50.062834401
+          ],
+          [
+            8.7110679,
+            50.063214601
+          ],
+          [
+            8.7122122,
+            50.063435201
+          ],
+          [
+            8.7136525,
+            50.063713601
+          ],
+          [
+            8.715105,
+            50.063961201
+          ],
+          [
+            8.716065,
+            50.064110301
+          ],
+          [
+            8.7169714,
+            50.064236201
+          ],
+          [
+            8.717395,
+            50.064289701
+          ],
+          [
+            8.717923,
+            50.064352201
+          ],
+          [
+            8.7183868,
+            50.064401501
+          ],
+          [
+            8.7188805,
+            50.064449601
+          ],
+          [
+            8.718912331,
+            50.064452361
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-01-13_08-35-29-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.04472966196153,8.405636789372009,50.05088697988213,8.392238680432433",
+      "point": "50.04472966196153,8.405636789372009",
       "startLcPosition": "168",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Oberbach - Wiesbadener Kreuz",
-      "startTimestamp": "2025-01-13T08:28:29+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "16.200000762939453",
+      "startTimestamp": "2025-01-13T08:35:29+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "66.69999694824219",
       "coordinate": {
-        "lat": 50.04474491217415,
-        "long": 8.4055861928748
+        "lat": 50.04472966196153,
+        "long": 8.405636789372009
       },
       "description": [
-        "Beginn: 13.01.25 um 08:28 Uhr",
-        "Ende: 13.01.25 um 08:49 Uhr",
+        "Beginn: 13.01.25 um 08:35 Uhr",
+        "Ende: 13.01.25 um 08:55 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 08:28, bis 13.01.2025, 08:49",
+        "Angespannte Verkehrslage, von 13.01.2025, 08:35, bis 13.01.2025, 08:55",
         "A3: Frankfurt -> Köln, zwischen 0.3 km hinter Oberbach und 0.6 km vor AK Wiesbadener Kreuz"
       ],
       "routeRecommendation": [],
@@ -650,8 +773,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.405586193,
-            50.044744912
+            8.405636789,
+            50.044729662
           ],
           [
             8.4055003,
@@ -710,8 +833,12 @@
             50.050560601
           ],
           [
-            8.392501348,
-            50.050643195
+            8.3923284,
+            50.050797701
+          ],
+          [
+            8.39223868,
+            50.05088698
           ]
         ]
       }
@@ -721,7 +848,7 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.990024541395506,7.012690416331357,51.032712844719136,7.009777889115358",
+      "extent": "50.990024541395506,7.012690416331357,51.03370287655742,7.009579252501918",
       "point": "50.990024541395506,7.012690416331357",
       "startLcPosition": "212",
       "display_type": "WARNING",
@@ -730,17 +857,17 @@
       "startTimestamp": "2025-01-13T06:44:30+01:00",
       "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "49",
+      "averageSpeed": "48.900001525878906",
       "coordinate": {
         "lat": 50.990024541395506,
         "long": 7.012690416331357
       },
       "description": [
         "Beginn: 13.01.25 um 06:44 Uhr",
-        "Ende: 13.01.25 um 08:55 Uhr",
+        "Ende: 13.01.25 um 09:05 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 06:44, bis 13.01.2025, 08:55",
-        "A3: Köln -> Oberhausen, zwischen 0.8 km hinter AS Köln-Mülheim und 1.0 km vor AK Leverkusen"
+        "Angespannte Verkehrslage, von 13.01.2025, 06:44, bis 13.01.2025, 09:05",
+        "A3: Köln -> Oberhausen, zwischen 0.8 km hinter AS Köln-Mülheim und 0.9 km vor AK Leverkusen"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -917,8 +1044,8 @@
             51.031624701
           ],
           [
-            7.009777889,
-            51.032712845
+            7.009579253,
+            51.033702877
           ]
         ]
       }
@@ -928,8 +1055,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.06560401978021,6.987693660201224,51.01748847237608,7.012878365316678",
-      "point": "51.06560401978021,6.987693660201224",
+      "extent": "51.05804940093593,6.990188599996945,51.01748847237608,7.012878365316678",
+      "point": "51.05804940093593,6.990188599996945",
       "startLcPosition": "216",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
@@ -937,17 +1064,17 @@
       "startTimestamp": "2025-01-13T07:52:15+01:00",
       "delayTimeValue": "4",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.79999923706055",
+      "averageSpeed": "43.400001525878906",
       "coordinate": {
-        "lat": 51.06560401978021,
-        "long": 6.987693660201224
+        "lat": 51.05804940093593,
+        "long": 6.990188599996945
       },
       "description": [
         "Beginn: 13.01.25 um 07:52 Uhr",
-        "Ende: 13.01.25 um 09:15 Uhr",
+        "Ende: 13.01.25 um 09:23 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 07:52, bis 13.01.2025, 09:15",
-        "A3: Oberhausen -> Köln, zwischen 2.2 km hinter Reusrather Heide und 3.9 km vor AS Köln-Mülheim"
+        "Angespannte Verkehrslage, von 13.01.2025, 07:52, bis 13.01.2025, 09:23",
+        "A3: Oberhausen -> Köln, zwischen 3.0 km hinter Reusrather Heide und 3.9 km vor AS Köln-Mülheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -955,54 +1082,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            6.98769366,
-            51.06560402
-          ],
-          [
-            6.9877498,
-            51.065215301
-          ],
-          [
-            6.9878019,
-            51.064892301
-          ],
-          [
-            6.9878581,
-            51.064612701
-          ],
-          [
-            6.9880332,
-            51.063898801
-          ],
-          [
-            6.9882457,
-            51.063203501
-          ],
-          [
-            6.9884987,
-            51.062453001
-          ],
-          [
-            6.9887528,
-            51.061703001
-          ],
-          [
-            6.9893943,
-            51.059841801
-          ],
-          [
-            6.9895,
-            51.059537201
-          ],
-          [
-            6.9897291,
-            51.058969901
-          ],
-          [
-            6.9900077,
-            51.058424701
-          ],
           [
             6.9901886,
             51.058049401
@@ -1227,26 +1306,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.11424133908721,6.986432944292454,51.09158923888209,6.988356680775824",
-      "point": "51.11424133908721,6.986432944292454",
-      "startLcPosition": "219",
+      "extent": "51.10879949032016,6.9877247950893135,51.089791581252975,6.98841477516982",
+      "point": "51.10879949032016,6.9877247950893135",
+      "startLcPosition": "218",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Solingen - Reusrather Heide",
+      "title": "A3 | Langenfeld - Reusrather Heide",
       "startTimestamp": "2025-01-13T07:52:15+01:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "47.400001525878906",
+      "averageSpeed": "54.29999923706055",
       "coordinate": {
-        "lat": 51.11424133908721,
-        "long": 6.986432944292454
+        "lat": 51.10879949032016,
+        "long": 6.9877247950893135
       },
       "description": [
         "Beginn: 13.01.25 um 07:52 Uhr",
-        "Ende: 13.01.25 um 09:15 Uhr",
+        "Ende: 13.01.25 um 09:23 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 07:52, bis 13.01.2025, 09:15",
-        "A3: Oberhausen -> Köln, zwischen 0.9 km hinter AS Solingen und 0.7 km vor Reusrather Heide"
+        "Angespannte Verkehrslage, von 13.01.2025, 07:52, bis 13.01.2025, 09:23",
+        "A3: Oberhausen -> Köln, zwischen 0.6 km hinter AD Langenfeld und 0.5 km vor Reusrather Heide"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1255,44 +1334,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.986432944,
-            51.114241339
-          ],
-          [
-            6.9865923,
-            51.113917101
-          ],
-          [
-            6.9867311,
-            51.113594101
-          ],
-          [
-            6.9868352,
-            51.113351801
-          ],
-          [
-            6.9871108,
-            51.112617101
-          ],
-          [
-            6.9873151,
-            51.111899401
-          ],
-          [
-            6.9875244,
-            51.111059301
-          ],
-          [
-            6.9876186,
-            51.110479401
-          ],
-          [
-            6.9876747,
-            51.109927601
-          ],
-          [
-            6.9877001,
-            51.109437601
+            6.987724795,
+            51.10879949
           ],
           [
             6.9877925,
@@ -1323,35 +1366,39 @@
             51.093287901
           ],
           [
-            6.988356681,
-            51.091589239
+            6.9883748,
+            51.091108901
+          ],
+          [
+            6.988414775,
+            51.089791581
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-01-13_07-15-57-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-01-13_07-52-15-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.19111940791912,6.941191182582335,51.119781499877426,6.982015199338396",
-      "point": "51.19111940791912,6.941191182582335",
+      "extent": "51.19348786384458,6.939865572401171,51.11974324960802,6.9820527148297025",
+      "point": "51.19348786384458,6.939865572401171",
       "startLcPosition": "221",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Hilden - Langenfeld",
-      "startTimestamp": "2025-01-13T07:15:57+01:00",
+      "startTimestamp": "2025-01-13T07:52:15+01:00",
       "abnormalTrafficType": "SLOW_TRAFFIC",
       "coordinate": {
-        "lat": 51.19111940791912,
-        "long": 6.941191182582335
+        "lat": 51.19348786384458,
+        "long": 6.939865572401171
       },
       "description": [
-        "Beginn: 13.01.25 um 07:15 Uhr",
-        "Ende: 13.01.25 um 09:15 Uhr",
+        "Beginn: 13.01.25 um 07:52 Uhr",
+        "Ende: 13.01.25 um 09:23 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 13.01.2025, 07:15, bis 13.01.2025, 09:15",
-        "A3: Oberhausen -> Köln, zwischen 0.4 km hinter AK Hilden und 0.7 km vor AD Langenfeld"
+        "Zusammengesetzte Verkehrsinformation, von 13.01.2025, 07:52, bis 13.01.2025, 09:23",
+        "A3: Oberhausen -> Köln, zwischen 0.1 km hinter AK Hilden und 0.7 km vor AD Langenfeld"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1360,8 +1407,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.941191183,
-            51.191119408
+            6.939865572,
+            51.193487864
+          ],
+          [
+            6.9399456,
+            51.193344701
+          ],
+          [
+            6.9406822,
+            51.192026601
           ],
           [
             6.9415751,
@@ -1528,37 +1583,37 @@
             51.121158501
           ],
           [
-            6.982015199,
-            51.1197815
+            6.982052715,
+            51.11974325
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-01-13_08-30-52-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-01-13_07-21-26-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.43766394741397,6.807626649243666,51.4427516251585,6.8014659913386675",
-      "point": "51.43766394741397,6.807626649243666",
-      "startLcPosition": "229",
+      "extent": "51.52856150019049,6.818903508416534,51.537502300933184,6.8358212999959145",
+      "point": "51.52856150019049,6.818903508416534",
+      "startLcPosition": "233",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Duisburg-Wedau - Kaiserberg",
-      "startTimestamp": "2025-01-13T08:30:52+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40",
+      "subtitle": " Oberhausen -> Arnheim",
+      "title": "A3 | Oberhausen-Holten - Dinslaken-Süd",
+      "startTimestamp": "2025-01-13T07:21:26+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "25.899999618530273",
       "coordinate": {
-        "lat": 51.43766394741397,
-        "long": 6.807626649243666
+        "lat": 51.52856150019049,
+        "long": 6.818903508416534
       },
       "description": [
-        "Beginn: 13.01.25 um 08:30 Uhr",
-        "Ende: 13.01.25 um 08:56 Uhr",
+        "Beginn: 13.01.25 um 07:21 Uhr",
+        "Ende: 13.01.25 um 09:21 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 08:30, bis 13.01.2025, 08:56",
-        "A3: Köln -> Oberhausen, zwischen 3.4 km hinter AS Duisburg-Wedau und 0.4 km vor AK Kaiserberg"
+        "Angespannte Verkehrslage, von 13.01.2025, 07:21, bis 13.01.2025, 09:21",
+        "A3: Oberhausen -> Arnheim, zwischen 1.8 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1567,136 +1622,112 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.807626649,
-            51.437663947
+            6.818903508,
+            51.5285615
           ],
           [
-            6.807328,
-            51.438101401
+            6.8189694,
+            51.528621701
           ],
           [
-            6.8071266,
-            51.438375401
+            6.8198401,
+            51.529413701
           ],
           [
-            6.8070113,
-            51.438519201
+            6.820448,
+            51.529961901
           ],
           [
-            6.806881,
-            51.438678001
+            6.8205552,
+            51.530053801
           ],
           [
-            6.806723,
-            51.438858201
+            6.8210314,
+            51.530467001
           ],
           [
-            6.8066157,
-            51.438969401
+            6.8212533,
+            51.530668901
           ],
           [
-            6.806519,
-            51.439073001
+            6.8220716,
+            51.531321001
           ],
           [
-            6.8062495,
-            51.439343001
+            6.8229151,
+            51.531945401
           ],
           [
-            6.8060946,
-            51.439491001
+            6.8236712,
+            51.532465701
           ],
           [
-            6.8059466,
-            51.439625401
+            6.8244521,
+            51.532974301
           ],
           [
-            6.805758,
-            51.439792801
+            6.8252668,
+            51.533477101
           ],
           [
-            6.8056145,
-            51.439911901
+            6.8257629,
+            51.533757501
           ],
           [
-            6.8054663,
-            51.440028701
+            6.8260979,
+            51.533946801
           ],
           [
-            6.8053236,
-            51.440140101
+            6.827171,
+            51.534522201
           ],
           [
-            6.8051512,
-            51.440272201
+            6.8274695,
+            51.534563501
           ],
           [
-            6.8049782,
-            51.440402601
+            6.8276333,
+            51.534643101
           ],
           [
-            6.8048131,
-            51.440518001
+            6.827791,
+            51.534740401
           ],
           [
-            6.8045644,
-            51.440691401
+            6.8284595,
+            51.535058301
           ],
           [
-            6.8042756,
-            51.440882001
+            6.8290357,
+            51.535303701
           ],
           [
-            6.804079,
-            51.441019501
+            6.8299531,
+            51.535672601
           ],
           [
-            6.8038505,
-            51.441160301
+            6.831406,
+            51.536221001
           ],
           [
-            6.8034265,
-            51.441427901
+            6.8325209,
+            51.536598401
           ],
           [
-            6.8031663,
-            51.441593001
+            6.8330463,
+            51.536761301
           ],
           [
-            6.8029209,
-            51.441741601
+            6.8338394,
+            51.536980701
           ],
           [
-            6.802526,
-            51.441990101
+            6.8343282,
+            51.537137901
           ],
           [
-            6.8022966,
-            51.442138901
-          ],
-          [
-            6.8022128,
-            51.442194001
-          ],
-          [
-            6.8021213,
-            51.442258901
-          ],
-          [
-            6.8019895,
-            51.442362901
-          ],
-          [
-            6.8018189,
-            51.442514801
-          ],
-          [
-            6.8015197,
-            51.442715401
-          ],
-          [
-            6.801465991,
-            51.442751625
+            6.8358213,
+            51.537502301
           ]
         ]
       }
@@ -1706,26 +1737,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.48466008820647,6.813440305847699,51.464265858152295,6.814813189269484",
-      "point": "51.48466008820647,6.813440305847699",
-      "startLcPosition": "232",
+      "extent": "51.490005341920615,6.8160559239280225,51.44592281570976,6.798903572225627",
+      "point": "51.490005341920615,6.8160559239280225",
+      "startLcPosition": "233",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-West - Kaiserberg",
+      "subtitle": " Arnheim -> Köln",
+      "title": "A3 | Oberhausen-Holten - Duisburg-Wedau",
       "startTimestamp": "2025-01-13T06:10:30+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "31",
+      "delayTimeValue": "6",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "33.20000076293945",
       "coordinate": {
-        "lat": 51.48466008820647,
-        "long": 6.813440305847699
+        "lat": 51.490005341920615,
+        "long": 6.8160559239280225
       },
       "description": [
         "Beginn: 13.01.25 um 06:10 Uhr",
-        "Ende: 13.01.25 um 09:19 Uhr",
+        "Ende: 13.01.25 um 17:20 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 06:10, bis 13.01.2025, 09:19",
-        "A3: Oberhausen -> Köln, zwischen 0.3 km hinter AK Oberhausen-West und 2.5 km vor AK Kaiserberg"
+        "Angespannte Verkehrslage, von 13.01.2025, 06:10, bis 13.01.2025, 17:20",
+        "A3: Arnheim -> Köln, zwischen 2.7 km hinter AS Oberhausen-Holten und 4.6 km vor AS Duisburg-Wedau"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1734,8 +1765,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.813440306,
-            51.484660088
+            6.816055924,
+            51.490005342
+          ],
+          [
+            6.815528,
+            51.488979601
+          ],
+          [
+            6.8152312,
+            51.488391001
+          ],
+          [
+            6.8148352,
+            51.487683101
+          ],
+          [
+            6.81452,
+            51.487110901
+          ],
+          [
+            6.8140769,
+            51.486251001
+          ],
+          [
+            6.8137032,
+            51.485419501
+          ],
+          [
+            6.8134806,
+            51.484796801
           ],
           [
             6.8133116,
@@ -1866,163 +1925,164 @@
             51.464505701
           ],
           [
-            6.814813189,
-            51.464265858
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-01-13_07-21-26-000.f_008.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.52567292575069,6.816135417920084,51.537502300933184,6.8358212999959145",
-      "point": "51.52567292575069,6.816135417920084",
-      "startLcPosition": "233",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Arnheim",
-      "title": "A3 | Oberhausen-Holten - Dinslaken-Süd",
-      "startTimestamp": "2025-01-13T07:21:26+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "42.79999923706055",
-      "coordinate": {
-        "lat": 51.52567292575069,
-        "long": 6.816135417920084
-      },
-      "description": [
-        "Beginn: 13.01.25 um 07:21 Uhr",
-        "Ende: 13.01.25 um 09:09 Uhr",
-        "",
-        "Angespannte Verkehrslage, von 13.01.2025, 07:21, bis 13.01.2025, 09:09",
-        "A3: Oberhausen -> Arnheim, zwischen 1.5 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.816135418,
-            51.525672926
+            6.8144559,
+            51.463771401
           ],
           [
-            6.8164466,
-            51.526080301
+            6.8142594,
+            51.463532101
           ],
           [
-            6.8173036,
-            51.527073701
+            6.8139396,
+            51.463173401
           ],
           [
-            6.8179931,
-            51.527729701
+            6.8134116,
+            51.462727801
           ],
           [
-            6.8189694,
-            51.528621701
+            6.8131532,
+            51.462508801
           ],
           [
-            6.8198401,
-            51.529413701
+            6.812532,
+            51.462006701
           ],
           [
-            6.820448,
-            51.529961901
+            6.8122792,
+            51.461825301
           ],
           [
-            6.8205552,
-            51.530053801
+            6.8114678,
+            51.461322601
           ],
           [
-            6.8210314,
-            51.530467001
+            6.8105755,
+            51.460835701
           ],
           [
-            6.8212533,
-            51.530668901
+            6.8099604,
+            51.460542701
           ],
           [
-            6.8220716,
-            51.531321001
+            6.8092932,
+            51.460270101
           ],
           [
-            6.8229151,
-            51.531945401
+            6.8084563,
+            51.459971201
           ],
           [
-            6.8236712,
-            51.532465701
+            6.8060584,
+            51.459152001
           ],
           [
-            6.8244521,
-            51.532974301
+            6.8051398,
+            51.458783801
           ],
           [
-            6.8252668,
-            51.533477101
+            6.8041123,
+            51.458291601
           ],
           [
-            6.8257629,
-            51.533757501
+            6.8035922,
+            51.458006301
           ],
           [
-            6.8260979,
-            51.533946801
+            6.8032034,
+            51.457767701
           ],
           [
-            6.827171,
-            51.534522201
+            6.8026877,
+            51.457432201
           ],
           [
-            6.8274695,
-            51.534563501
+            6.8022097,
+            51.457083801
           ],
           [
-            6.8276333,
-            51.534643101
+            6.8015562,
+            51.456559101
           ],
           [
-            6.827791,
-            51.534740401
+            6.8011805,
+            51.456212901
           ],
           [
-            6.8284595,
-            51.535058301
+            6.8007853,
+            51.455802301
           ],
           [
-            6.8290357,
-            51.535303701
+            6.8005601,
+            51.455544201
           ],
           [
-            6.8299531,
-            51.535672601
+            6.8001625,
+            51.455009401
           ],
           [
-            6.831406,
-            51.536221001
+            6.7998728,
+            51.454548501
           ],
           [
-            6.8325209,
-            51.536598401
+            6.7996061,
+            51.454079101
           ],
           [
-            6.8330463,
-            51.536761301
+            6.7993858,
+            51.453588601
           ],
           [
-            6.8338394,
-            51.536980701
+            6.7992119,
+            51.453116001
           ],
           [
-            6.8343282,
-            51.537137901
+            6.7990188,
+            51.452611101
           ],
           [
-            6.8358213,
-            51.537502301
+            6.7988856,
+            51.452103801
+          ],
+          [
+            6.7987473,
+            51.451586701
+          ],
+          [
+            6.7986359,
+            51.451065301
+          ],
+          [
+            6.7984914,
+            51.450177701
+          ],
+          [
+            6.7984306,
+            51.449655601
+          ],
+          [
+            6.7984121,
+            51.449192901
+          ],
+          [
+            6.7984227,
+            51.448777201
+          ],
+          [
+            6.7985073,
+            51.447968001
+          ],
+          [
+            6.7987327,
+            51.446670001
+          ],
+          [
+            6.7988315,
+            51.446165201
+          ],
+          [
+            6.798903572,
+            51.445922816
           ]
         ]
       }
@@ -2032,26 +2092,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.535049314890834,6.8275308565614665,51.50363597014588,6.822626134745737",
-      "point": "51.535049314890834,6.8275308565614665",
+      "extent": "51.5339865009332,6.825772799995826,51.50888059804885,6.821169397519087",
+      "point": "51.5339865009332,6.825772799995826",
       "startLcPosition": "234",
       "display_type": "WARNING",
       "subtitle": " Arnheim -> Köln",
       "title": "A3 | Oberhausen - Oberhausen-West",
       "startTimestamp": "2025-01-13T07:13:19+01:00",
-      "delayTimeValue": "8",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "48.29999923706055",
       "coordinate": {
-        "lat": 51.535049314890834,
-        "long": 6.8275308565614665
+        "lat": 51.5339865009332,
+        "long": 6.825772799995826
       },
       "description": [
         "Beginn: 13.01.25 um 07:13 Uhr",
-        "Ende: 13.01.25 um 09:09 Uhr",
+        "Ende: 13.01.25 um 09:16 Uhr",
         "",
-        "Angespannte Verkehrslage, von 13.01.2025, 07:13, bis 13.01.2025, 09:09",
-        "A3: Arnheim -> Köln, zwischen 0.4 km hinter AK Oberhausen und 1.9 km vor AK Oberhausen-West"
+        "Angespannte Verkehrslage, von 13.01.2025, 07:13, bis 13.01.2025, 09:16",
+        "A3: Arnheim -> Köln, zwischen 0.5 km hinter AK Oberhausen und 2.5 km vor AK Oberhausen-West"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2059,18 +2119,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            6.827530857,
-            51.535049315
-          ],
-          [
-            6.8264519,
-            51.534451501
-          ],
-          [
-            6.8258866,
-            51.534132501
-          ],
           [
             6.8257728,
             51.533986501
@@ -2264,64 +2312,8 @@
             51.508961101
           ],
           [
-            6.8211768,
-            51.508871301
-          ],
-          [
-            6.8215071,
-            51.508440601
-          ],
-          [
-            6.8217897,
-            51.508064401
-          ],
-          [
-            6.8221535,
-            51.507524501
-          ],
-          [
-            6.8223811,
-            51.507002101
-          ],
-          [
-            6.8224357,
-            51.506862301
-          ],
-          [
-            6.8225862,
-            51.506422101
-          ],
-          [
-            6.8226857,
-            51.506028201
-          ],
-          [
-            6.822744,
-            51.505696201
-          ],
-          [
-            6.8227903,
-            51.505250001
-          ],
-          [
-            6.8228048,
-            51.505007901
-          ],
-          [
-            6.8227974,
-            51.504852601
-          ],
-          [
-            6.8227678,
-            51.504352501
-          ],
-          [
-            6.8227009,
-            51.503959401
-          ],
-          [
-            6.822626135,
-            51.50363597
+            6.821169398,
+            51.508880598
           ]
         ]
       }
