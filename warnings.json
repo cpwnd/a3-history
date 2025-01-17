@@ -1,30 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-01-17_21-02-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-01-17_21-02-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.00276574593014,9.225333571366031,49.99453400067925,9.186589999144289",
-      "point": "50.00276574593014,9.225333571366031",
-      "startLcPosition": "141",
+      "extent": "50.00300950094113,9.222282000000066,49.99460835879939,9.186813074828596",
+      "point": "50.00300950094113,9.222282000000066",
+      "startLcPosition": "142",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Birkenhain - Aschaffenburg-Ost",
+      "title": "A3 | Hösbach - Aschaffenburg-Ost",
       "startTimestamp": "2025-01-17T21:02:30+01:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "50.70000076293945",
+      "averageSpeed": "63.20000076293945",
       "coordinate": {
-        "lat": 50.00276574593014,
-        "long": 9.225333571366031
+        "lat": 50.00300950094113,
+        "long": 9.222282000000066
       },
       "description": [
         "Beginn: 17.01.25 um 21:02 Uhr",
-        "Ende: 17.01.25 um 22:10 Uhr",
+        "Ende: 17.01.25 um 22:44 Uhr",
         "",
-        "Angespannte Verkehrslage, von 17.01.2025, 21:02, bis 17.01.2025, 22:10",
-        "A3: Würzburg -> Frankfurt, zwischen 1.7 km hinter Birkenhain und 1.2 km vor AS Aschaffenburg-Ost"
+        "Angespannte Verkehrslage, von 17.01.2025, 21:02, bis 17.01.2025, 22:44",
+        "A3: Würzburg -> Frankfurt, zwischen 0.2 km hinter AS Hösbach und 1.2 km vor AS Aschaffenburg-Ost"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -32,18 +32,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            9.225333571,
-            50.002765746
-          ],
-          [
-            9.2245352,
-            50.002850401
-          ],
-          [
-            9.2231237,
-            50.002956901
-          ],
           [
             9.222282,
             50.003009501
@@ -141,8 +129,53 @@
             49.995269301
           ],
           [
-            9.186589999,
-            49.994534001
+            9.186813075,
+            49.994608359
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-01-17_21-58-21-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.454885700939045,7.878439599999549,50.4548074836091,7.8798144969660235",
+      "point": "50.454885700939045,7.878439599999549",
+      "startLcPosition": "181",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Heiligenroth - Nentershausen",
+      "startTimestamp": "2025-01-17T21:58:21+01:00",
+      "coordinate": {
+        "lat": 50.454885700939045,
+        "long": 7.878439599999549
+      },
+      "description": [
+        "Beginn: 17.01.25 um 21:58 Uhr",
+        "Ende: 17.01.25 um 22:28 Uhr",
+        "",
+        "Hindernis, von 17.01.2025, 21:58, bis 17.01.2025, 22:28",
+        "A3: Köln -> Frankfurt, zwischen 0.4 km hinter Heiligenroth und 5.5 km vor Nentershausen",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8784396,
+            50.454885701
+          ],
+          [
+            7.8796084,
+            50.454821901
+          ],
+          [
+            7.879814497,
+            50.454807484
           ]
         ]
       }
