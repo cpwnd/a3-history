@@ -19,9 +19,9 @@
       },
       "description": [
         "Beginn: 19.01.25 um 11:48 Uhr",
-        "Ende: 19.01.25 um 13:45 Uhr",
+        "Ende: 19.01.25 um 15:17 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 19.01.2025, 11:48, bis 19.01.2025, 13:45",
+        "Zusammengesetzte Verkehrsinformation, von 19.01.2025, 11:48, bis 19.01.2025, 15:17",
         "A3: Frankfurt -> Würzburg, zwischen 4.9 km hinter Spessart und 1.6 km vor Bärenroth"
       ],
       "routeRecommendation": [],
@@ -330,30 +330,28 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-01-19_11-36-00-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-01-19_12-14-36-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.02008382439271,7.012559597301832,51.032712844719136,7.009777889115358",
-      "point": "51.02008382439271,7.012559597301832",
-      "startLcPosition": "212",
+      "extent": "50.96209832116043,7.03316487903243,50.96335308138858,7.032733488509112",
+      "point": "50.96209832116043,7.03316487903243",
+      "startLcPosition": "210",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Köln-Mülheim - Leverkusen",
-      "startTimestamp": "2025-01-19T11:36:00+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52",
+      "subtitle": " Frankfurt -> Oberhausen",
+      "title": "A3 | Köln-Ost - Köln-Dellbrück",
+      "startTimestamp": "2025-01-19T12:14:36+01:00",
       "coordinate": {
-        "lat": 51.02008382439271,
-        "long": 7.012559597301832
+        "lat": 50.96209832116043,
+        "long": 7.03316487903243
       },
       "description": [
-        "Beginn: 19.01.25 um 11:36 Uhr",
-        "Ende: 19.01.25 um 12:28 Uhr",
+        "Beginn: 19.01.25 um 12:14 Uhr",
+        "Ende: 19.01.25 um 12:44 Uhr",
         "",
-        "Angespannte Verkehrslage, von 19.01.2025, 11:36, bis 19.01.2025, 12:28",
-        "A3: Köln -> Oberhausen, zwischen 4.1 km hinter AS Köln-Mülheim und 1.0 km vor AK Leverkusen"
+        "Fahrzeug-Hindernis, von 19.01.2025, 12:14, bis 19.01.2025, 12:44",
+        "A3: Frankfurt -> Oberhausen, zwischen 1.1 km hinter AK Köln-Ost und 0.4 km vor AS Köln-Dellbrück",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -362,8 +360,59 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.012559597,
-            51.020083824
+            7.033164879,
+            50.962098321
+          ],
+          [
+            7.0331128,
+            50.962238901
+          ],
+          [
+            7.0329214,
+            50.962863801
+          ],
+          [
+            7.032733489,
+            50.963353081
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-01-19_12-18-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.021071919602456,7.012338060589523,51.03152569070397,7.010016901315912",
+      "point": "51.021071919602456,7.012338060589523",
+      "startLcPosition": "212",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Köln-Mülheim - Leverkusen",
+      "startTimestamp": "2025-01-19T12:18:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54.70000076293945",
+      "coordinate": {
+        "lat": 51.021071919602456,
+        "long": 7.012338060589523
+      },
+      "description": [
+        "Beginn: 19.01.25 um 12:18 Uhr",
+        "Ende: 19.01.25 um 12:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 19.01.2025, 12:18, bis 19.01.2025, 12:40",
+        "A3: Köln -> Oberhausen, zwischen 4.2 km hinter AS Köln-Mülheim und 1.2 km vor AK Leverkusen"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.012338061,
+            51.02107192
           ],
           [
             7.0122882,
@@ -394,12 +443,8 @@
             51.031329601
           ],
           [
-            7.0099962,
-            51.031624701
-          ],
-          [
-            7.009777889,
-            51.032712845
+            7.010016901,
+            51.031525691
           ]
         ]
       }
