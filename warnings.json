@@ -1,28 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-01-24_09-04-20-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-01-24_09-24-33-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.475846473387364,11.178494968541072,49.477163573189785,11.176868585883986",
-      "point": "49.475846473387364,11.178494968541072",
-      "startLcPosition": "80",
+      "extent": "48.457587439698536,13.375651548971618,48.459851700948605,13.37518560018693",
+      "point": "48.457587439698536,13.375651548971618",
+      "startLcPosition": "3",
       "display_type": "WARNING",
-      "subtitle": " Passau -> Würzburg",
-      "title": "A3 | Nürnberg-Mögeldorf - Nürnberg-Nord",
-      "startTimestamp": "2025-01-24T09:04:20+01:00",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Rottal-West - Passau-Süd",
+      "startTimestamp": "2025-01-24T09:24:33+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "8.800000190734863",
       "coordinate": {
-        "lat": 49.475846473387364,
-        "long": 11.178494968541072
+        "lat": 48.457587439698536,
+        "long": 13.375651548971618
       },
       "description": [
-        "Beginn: 24.01.25 um 09:04 Uhr",
-        "Ende: 24.01.25 um 09:34 Uhr",
+        "Beginn: 24.01.25 um 09:24 Uhr",
+        "Ende: 24.01.25 um 10:44 Uhr",
         "",
-        "Fahrzeug-Hindernis, von 24.01.2025, 09:04, bis 24.01.2025, 09:34",
-        "A3: Passau -> Würzburg, zwischen 0.9 km hinter AS Nürnberg-Mögeldorf und 4.0 km vor AS Nürnberg-Nord",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, von 24.01.2025, 09:24, bis 24.01.2025, 10:44",
+        "A3: Linz -> Passau, zwischen 0.2 km hinter Rottal-West und 9.0 km vor AS Passau-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,12 +33,95 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.178494969,
-            49.475846473
+            13.375651549,
+            48.45758744
           ],
           [
-            11.176868586,
-            49.477163573
+            13.3756409,
+            48.457642201
+          ],
+          [
+            13.3754919,
+            48.458500201
+          ],
+          [
+            13.3754062,
+            48.458919401
+          ],
+          [
+            13.3753257,
+            48.459264801
+          ],
+          [
+            13.3752829,
+            48.459448801
+          ],
+          [
+            13.3751856,
+            48.459851701
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-01-24_09-20-08-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.916511460353775,12.745811247048717,48.92074140094585,12.735434200076218",
+      "point": "48.916511460353775,12.745811247048717",
+      "startLcPosition": "29",
+      "display_type": "WARNING",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Schwarzach - Bogen",
+      "startTimestamp": "2025-01-24T09:20:08+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "64.5",
+      "coordinate": {
+        "lat": 48.916511460353775,
+        "long": 12.745811247048717
+      },
+      "description": [
+        "Beginn: 24.01.25 um 09:20 Uhr",
+        "Ende: 24.01.25 um 10:06 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 24.01.2025, 09:20, bis 24.01.2025, 10:06",
+        "A3: Passau -> Nürnberg, zwischen 4.6 km hinter AS Schwarzach und 0.2 km vor AS Bogen"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.745811247,
+            48.91651146
+          ],
+          [
+            12.7412701,
+            48.918677401
+          ],
+          [
+            12.7408978,
+            48.918834901
+          ],
+          [
+            12.7393277,
+            48.919452201
+          ],
+          [
+            12.7386887,
+            48.919689501
+          ],
+          [
+            12.737863,
+            48.919969101
+          ],
+          [
+            12.7354342,
+            48.920741401
           ]
         ]
       }
@@ -46,26 +131,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.159980730519216,8.303229532905963,50.17271221306651,8.286701468626617",
-      "point": "50.159980730519216,8.303229532905963",
+      "extent": "50.14904517408401,8.320757328946,50.17271221306651,8.286701468626617",
+      "point": "50.14904517408401,8.320757328946",
       "startLcPosition": "171",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Niedernhausen - Idstein",
       "startTimestamp": "2025-01-24T08:56:30+01:00",
-      "delayTimeValue": "7",
+      "delayTimeValue": "15",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14.199999809265137",
+      "averageSpeed": "12.600000381469727",
       "coordinate": {
-        "lat": 50.159980730519216,
-        "long": 8.303229532905963
+        "lat": 50.14904517408401,
+        "long": 8.320757328946
       },
       "description": [
         "Beginn: 24.01.25 um 08:56 Uhr",
-        "Ende: 24.01.25 um 11:02 Uhr",
+        "Ende: 24.01.25 um 11:29 Uhr",
         "",
-        "Angespannte Verkehrslage, von 24.01.2025, 08:56, bis 24.01.2025, 11:02",
-        "A3: Frankfurt -> Köln, zwischen 2.8 km hinter AS Niedernhausen und 5.4 km vor AS Idstein"
+        "Angespannte Verkehrslage, von 24.01.2025, 08:56, bis 24.01.2025, 11:29",
+        "A3: Frankfurt -> Köln, zwischen 0.9 km hinter AS Niedernhausen und 5.4 km vor AS Idstein"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -74,8 +159,116 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.303229533,
-            50.159980731
+            8.320757329,
+            50.149045174
+          ],
+          [
+            8.3204212,
+            50.149146601
+          ],
+          [
+            8.3199329,
+            50.149270501
+          ],
+          [
+            8.3194543,
+            50.149370601
+          ],
+          [
+            8.3190939,
+            50.149434701
+          ],
+          [
+            8.3186752,
+            50.149496401
+          ],
+          [
+            8.3160274,
+            50.149837001
+          ],
+          [
+            8.3155916,
+            50.149903601
+          ],
+          [
+            8.3151619,
+            50.149984701
+          ],
+          [
+            8.3147394,
+            50.150080301
+          ],
+          [
+            8.3143254,
+            50.150190001
+          ],
+          [
+            8.313921,
+            50.150313501
+          ],
+          [
+            8.3135273,
+            50.150450401
+          ],
+          [
+            8.3131455,
+            50.150600501
+          ],
+          [
+            8.3127765,
+            50.150763301
+          ],
+          [
+            8.3124213,
+            50.150938301
+          ],
+          [
+            8.3120811,
+            50.151125001
+          ],
+          [
+            8.3117567,
+            50.151323001
+          ],
+          [
+            8.311449,
+            50.151531601
+          ],
+          [
+            8.3111589,
+            50.151750401
+          ],
+          [
+            8.3108872,
+            50.151978601
+          ],
+          [
+            8.3105917,
+            50.152236201
+          ],
+          [
+            8.3099632,
+            50.152825501
+          ],
+          [
+            8.3083605,
+            50.154528601
+          ],
+          [
+            8.3079718,
+            50.154941701
+          ],
+          [
+            8.3047049,
+            50.158452101
+          ],
+          [
+            8.3041947,
+            50.158992701
+          ],
+          [
+            8.303692,
+            50.159515001
           ],
           [
             8.3031816,
@@ -480,26 +673,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.47743677846152,6.81421038680636,51.46357943800128,6.814298270411004",
-      "point": "51.47743677846152,6.81421038680636",
-      "startLcPosition": "232",
+      "extent": "51.47318228547351,6.8158696812999375,51.462124715975705,6.8126780070746795",
+      "point": "51.47318228547351,6.8158696812999375",
+      "startLcPosition": "231",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-West - Kaiserberg",
+      "title": "A3 | Oberhausen-Lirich - Kaiserberg",
       "startTimestamp": "2025-01-24T08:41:37+01:00",
       "delayTimeValue": "2",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "25.700000762939453",
+      "averageSpeed": "26.700000762939453",
       "coordinate": {
-        "lat": 51.47743677846152,
-        "long": 6.81421038680636
+        "lat": 51.47318228547351,
+        "long": 6.8158696812999375
       },
       "description": [
         "Beginn: 24.01.25 um 08:41 Uhr",
-        "Ende: 24.01.25 um 09:43 Uhr",
+        "Ende: 24.01.25 um 18:55 Uhr",
         "",
-        "Angespannte Verkehrslage, von 24.01.2025, 08:41, bis 24.01.2025, 09:43",
-        "A3: Oberhausen -> Köln, zwischen 1.1 km hinter AK Oberhausen-West und 2.4 km vor AK Kaiserberg"
+        "Angespannte Verkehrslage, von 24.01.2025, 08:41, bis 24.01.2025, 18:55",
+        "A3: Oberhausen -> Köln, zwischen 0.3 km hinter AS Oberhausen-Lirich und 2.2 km vor AK Kaiserberg"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -508,36 +701,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.814210387,
-            51.477436778
-          ],
-          [
-            6.8146816,
-            51.476394701
-          ],
-          [
-            6.8148812,
-            51.475914401
-          ],
-          [
-            6.8150791,
-            51.475461701
-          ],
-          [
-            6.81514,
-            51.475291801
-          ],
-          [
-            6.8153958,
-            51.474592001
-          ],
-          [
-            6.8156677,
-            51.473798701
-          ],
-          [
-            6.8158093,
-            51.473386401
+            6.815869681,
+            51.473182285
           ],
           [
             6.8159557,
@@ -596,8 +761,24 @@
             51.463771401
           ],
           [
-            6.81429827,
-            51.463579438
+            6.8142594,
+            51.463532101
+          ],
+          [
+            6.8139396,
+            51.463173401
+          ],
+          [
+            6.8134116,
+            51.462727801
+          ],
+          [
+            6.8131532,
+            51.462508801
+          ],
+          [
+            6.812678007,
+            51.462124716
           ]
         ]
       }
@@ -607,26 +788,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.53694719220386,6.835302213783741,51.55289203140998,6.813929485631015",
-      "point": "51.53694719220386,6.835302213783741",
+      "extent": "51.53759870093319,6.834208599995901,51.552913436841635,6.813903174660329",
+      "point": "51.53759870093319,6.834208599995901",
       "startLcPosition": "234",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
       "title": "A3 | Oberhausen - Dinslaken-Süd",
       "startTimestamp": "2025-01-24T08:35:30+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "36.5",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "26.600000381469727",
       "coordinate": {
-        "lat": 51.53694719220386,
-        "long": 6.835302213783741
+        "lat": 51.53759870093319,
+        "long": 6.834208599995901
       },
       "description": [
         "Beginn: 24.01.25 um 08:35 Uhr",
-        "Ende: 24.01.25 um 10:37 Uhr",
+        "Ende: 24.01.25 um 11:00 Uhr",
         "",
-        "Angespannte Verkehrslage, von 24.01.2025, 08:35, bis 24.01.2025, 10:37",
-        "A3: Oberhausen -> Arnheim, zwischen 0.5 km hinter AK Oberhausen und 0.8 km vor AS Dinslaken-Süd"
+        "Angespannte Verkehrslage, von 24.01.2025, 08:35, bis 24.01.2025, 11:00",
+        "A3: Oberhausen -> Arnheim, zwischen 0.6 km hinter AK Oberhausen und 0.8 km vor AS Dinslaken-Süd"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -634,14 +815,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            6.835302214,
-            51.536947192
-          ],
-          [
-            6.8349244,
-            51.537170301
-          ],
           [
             6.8342086,
             51.537598701
@@ -727,8 +900,8 @@
             51.549531301
           ],
           [
-            6.813929486,
-            51.552892031
+            6.813903175,
+            51.552913437
           ]
         ]
       }
