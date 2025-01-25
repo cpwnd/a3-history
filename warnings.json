@@ -1,28 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-01-25_03-19-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-01-25_06-21-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.729305460353075,6.613831433598132,51.72153840850867,6.617239251960832",
-      "point": "51.729305460353075,6.613831433598132",
-      "startLcPosition": "246",
+      "extent": "48.41617395709246,13.412384449489567,48.41482520996963,13.418481304405663",
+      "point": "48.41617395709246,13.412384449489567",
+      "startLcPosition": "2",
       "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Hamminkeln - Wispelt",
-      "startTimestamp": "2025-01-25T03:19:00+01:00",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "subtitle": " Passau -> Linz",
+      "title": "A3 | Pocking - Neuhaus am Inn",
+      "startTimestamp": "2025-01-25T06:21:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "19.399999618530273",
       "coordinate": {
-        "lat": 51.729305460353075,
-        "long": 6.613831433598132
+        "lat": 48.41617395709246,
+        "long": 13.412384449489567
       },
       "description": [
-        "Beginn: 25.01.25 um 03:19 Uhr",
-        "Ende: 25.01.25 um 07:09 Uhr",
+        "Beginn: 25.01.25 um 06:21 Uhr",
+        "Ende: 25.01.25 um 06:53 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 25.01.2025, 03:19, bis 25.01.2025, 07:09",
-        "A3: Arnheim -> Oberhausen, zwischen 2.8 km hinter AS Hamminkeln und 2.6 km vor Wispelt"
+        "Angespannte Verkehrslage, von 25.01.2025, 06:21, bis 25.01.2025, 06:53",
+        "A3: Passau -> Linz, zwischen 3.5 km hinter AS Pocking und 0.1 km vor Neuhaus am Inn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +33,128 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.613831434,
-            51.72930546
+            13.412384449,
+            48.416173957
+          ],
+          [
+            13.41347,
+            48.415967201
+          ],
+          [
+            13.4151265,
+            48.415635201
+          ],
+          [
+            13.4165126,
+            48.415332901
+          ],
+          [
+            13.4172173,
+            48.415164301
+          ],
+          [
+            13.4178822,
+            48.414993201
+          ],
+          [
+            13.4184567,
+            48.414832601
+          ],
+          [
+            13.418481304,
+            48.41482521
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-01-25_06-15-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.69452183417549,7.266274313097121,50.69011590093787,7.2706713999983075",
+      "point": "50.69452183417549,7.266274313097121",
+      "startLcPosition": "201",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bonn/Siegburg - Siebengebirge",
+      "startTimestamp": "2025-01-25T06:15:30+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "22.799999237060547",
+      "coordinate": {
+        "lat": 50.69452183417549,
+        "long": 7.266274313097121
+      },
+      "description": [
+        "Beginn: 25.01.25 um 06:15 Uhr",
+        "Ende: 25.01.25 um 06:28 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 25.01.2025, 06:15, bis 25.01.2025, 06:28",
+        "A3: Köln -> Frankfurt, zwischen 10.0 km hinter AK Bonn/Siegburg und 0.6 km vor AS Siebengebirge"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.266274313,
+            50.694521834
+          ],
+          [
+            7.2667775,
+            50.694018601
+          ],
+          [
+            7.2692813,
+            50.691510301
+          ],
+          [
+            7.2706714,
+            50.690115901
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-01-25_03-19-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.73071669976742,6.613197558654473,51.72153840850867,6.617239251960832",
+      "point": "51.73071669976742,6.613197558654473",
+      "startLcPosition": "246",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Hamminkeln - Wispelt",
+      "startTimestamp": "2025-01-25T03:19:00+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 51.73071669976742,
+        "long": 6.613197558654473
+      },
+      "description": [
+        "Beginn: 25.01.25 um 03:19 Uhr",
+        "Ende: 25.01.25 um 07:45 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 25.01.2025, 03:19, bis 25.01.2025, 07:45",
+        "A3: Arnheim -> Oberhausen, zwischen 2.7 km hinter AS Hamminkeln und 2.6 km vor Wispelt"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.613197559,
+            51.7307167
+          ],
+          [
+            6.6132113,
+            51.730685301
           ],
           [
             6.6140092,
