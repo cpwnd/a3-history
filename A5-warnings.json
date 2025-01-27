@@ -12,18 +12,18 @@
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Schauinsland - Teningen",
       "startTimestamp": "2025-01-27T09:13:07+01:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "12",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17.5",
+      "averageSpeed": "17",
       "coordinate": {
         "lat": 48.056603826200536,
         "long": 7.812782926687305
       },
       "description": [
         "Beginn: 27.01.25 um 09:13 Uhr",
-        "Ende: 27.01.25 um 11:47 Uhr",
+        "Ende: 27.01.25 um 11:49 Uhr",
         "",
-        "Angespannte Verkehrslage, von 27.01.2025, 09:13, bis 27.01.2025, 11:47",
+        "Angespannte Verkehrslage, von 27.01.2025, 09:13, bis 27.01.2025, 11:49",
         "A5: Basel -> Karlsruhe, zwischen 0.8 km hinter Schauinsland und 2.8 km vor AS Teningen"
       ],
       "routeRecommendation": [],
@@ -188,28 +188,30 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-01-27_10-04-36-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-01-27_10-19-05-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.97982335623263,8.437108678691658,48.9931774450382,8.437112078358817",
-      "point": "48.97982335623263,8.437108678691658",
-      "startLcPosition": "58",
+      "extent": "48.18919116223512,7.746820183415962,48.19884668736401,7.745842161739097",
+      "point": "48.18919116223512,7.746820183415962",
+      "startLcPosition": "31",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Karlsruhe - Karlsruhe-Durlach",
-      "startTimestamp": "2025-01-27T10:04:36+01:00",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Riegel - Herbolzheim",
+      "startTimestamp": "2025-01-27T10:27:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.400001525878906",
       "coordinate": {
-        "lat": 48.97982335623263,
-        "long": 8.437108678691658
+        "lat": 48.18919116223512,
+        "long": 7.746820183415962
       },
       "description": [
-        "Beginn: 27.01.25 um 10:04 Uhr",
-        "Ende: 27.01.25 um 10:40 Uhr",
+        "Beginn: 27.01.25 um 10:27 Uhr",
+        "Ende: 27.01.25 um 10:55 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 27.01.2025, 10:04, bis 27.01.2025, 10:40",
-        "A5: Karlsruhe -> Heidelberg, zwischen 0.6 km hinter AD Karlsruhe und 1.5 km vor AS Karlsruhe-Durlach"
+        "Angespannte Verkehrslage, von 27.01.2025, 10:27, bis 27.01.2025, 10:55",
+        "A5: Basel -> Karlsruhe, zwischen 4.0 km hinter AS Riegel und 3.2 km vor AS Herbolzheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -218,8 +220,93 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.437108679,
-            48.979823356
+            7.746820183,
+            48.189191162
+          ],
+          [
+            7.7467446,
+            48.189654601
+          ],
+          [
+            7.746541,
+            48.191100601
+          ],
+          [
+            7.7462533,
+            48.193543201
+          ],
+          [
+            7.7459814,
+            48.196559301
+          ],
+          [
+            7.745906,
+            48.197696301
+          ],
+          [
+            7.745842162,
+            48.198846687
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-01-27_10-04-36-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.9763250601288,8.437350689456926,48.995302556443576,8.438925062009874",
+      "point": "48.9763250601288,8.437350689456926",
+      "startLcPosition": "58",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Heidelberg",
+      "title": "A5 | Karlsruhe - Karlsruhe-Durlach",
+      "startTimestamp": "2025-01-27T10:04:36+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 48.9763250601288,
+        "long": 8.437350689456926
+      },
+      "description": [
+        "Beginn: 27.01.25 um 10:04 Uhr",
+        "Ende: 27.01.25 um 12:13 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 27.01.2025, 10:04, bis 27.01.2025, 12:13",
+        "A5: Karlsruhe -> Heidelberg, zwischen 0.2 km hinter AD Karlsruhe und 1.2 km vor AS Karlsruhe-Durlach"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.437350689,
+            48.97632506
+          ],
+          [
+            8.4372829,
+            48.977740501
+          ],
+          [
+            8.4372352,
+            48.978417501
+          ],
+          [
+            8.4371942,
+            48.978823001
+          ],
+          [
+            8.4371837,
+            48.978939001
+          ],
+          [
+            8.4371451,
+            48.979347201
+          ],
+          [
+            8.4371189,
+            48.979680801
           ],
           [
             8.4370589,
@@ -314,8 +401,36 @@
             48.993121301
           ],
           [
-            8.437112078,
-            48.993177445
+            8.4372251,
+            48.993365301
+          ],
+          [
+            8.4373324,
+            48.993540401
+          ],
+          [
+            8.4374308,
+            48.993691901
+          ],
+          [
+            8.4378076,
+            48.994181001
+          ],
+          [
+            8.4380521,
+            48.994466301
+          ],
+          [
+            8.438353,
+            48.994781001
+          ],
+          [
+            8.438703,
+            48.995114601
+          ],
+          [
+            8.438925062,
+            48.995302556
           ]
         ]
       }
@@ -325,26 +440,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.47530241329301,8.640872199444047,49.4491126009434,8.646248399999916",
-      "point": "49.47530241329301,8.640872199444047",
+      "extent": "49.473837690851454,8.641385931403534,49.450888589275344,8.646507507337935",
+      "point": "49.473837690851454,8.641385931403534",
       "startLcPosition": "75",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
       "title": "A5 | Ladenburg - Heidelberg/Dossenheim",
       "startTimestamp": "2025-01-27T09:45:00+01:00",
-      "delayTimeValue": "5",
+      "delayTimeValue": "6",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "26.299999237060547",
+      "averageSpeed": "20.5",
       "coordinate": {
-        "lat": 49.47530241329301,
-        "long": 8.640872199444047
+        "lat": 49.473837690851454,
+        "long": 8.641385931403534
       },
       "description": [
         "Beginn: 27.01.25 um 09:45 Uhr",
-        "Ende: 27.01.25 um 12:05 Uhr",
+        "Ende: 27.01.25 um 12:04 Uhr",
         "",
-        "Angespannte Verkehrslage, von 27.01.2025, 09:45, bis 27.01.2025, 12:05",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.3 km hinter AS Ladenburg und AS Heidelberg/Dossenheim"
+        "Angespannte Verkehrslage, von 27.01.2025, 09:45, bis 27.01.2025, 12:04",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.5 km hinter AS Ladenburg und 0.2 km vor AS Heidelberg/Dossenheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -353,16 +468,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.640872199,
-            49.475302413
-          ],
-          [
-            8.6410755,
-            49.474709501
-          ],
-          [
-            8.6413796,
-            49.473855201
+            8.641385931,
+            49.473837691
           ],
           [
             8.6416753,
@@ -453,16 +560,8 @@
             49.451344101
           ],
           [
-            8.6464868,
-            49.450683501
-          ],
-          [
-            8.6463001,
-            49.449410501
-          ],
-          [
-            8.6462484,
-            49.449112601
+            8.646507507,
+            49.450888589
           ]
         ]
       }
