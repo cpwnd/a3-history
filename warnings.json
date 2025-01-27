@@ -5,24 +5,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.71652356423943,10.83846081338397,49.73099831731267,10.81641062958628",
-      "point": "49.71652356423943,10.83846081338397",
-      "startLcPosition": "97",
+      "extent": "49.7124135274895,10.844241407942015,49.73130556563098,10.81593226146778",
+      "point": "49.7124135274895,10.844241407942015",
+      "startLcPosition": "96",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
-      "title": "A3 | Steinknuck - Limbacher Leiten",
+      "title": "A3 | Höchstadt-Ost - Limbacher Leiten",
       "startTimestamp": "2025-01-27T18:28:30+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 49.71652356423943,
-        "long": 10.83846081338397
+        "lat": 49.7124135274895,
+        "long": 10.844241407942015
       },
       "description": [
         "Beginn: 27.01.25 um 18:28 Uhr",
-        "Ende: 27.01.25 um 20:17 Uhr",
+        "Ende: 27.01.25 um 20:23 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 27.01.2025, 18:28, bis 27.01.2025, 20:17",
-        "A3: Nürnberg -> Würzburg, zwischen 0.5 km hinter Steinknuck und 0.9 km vor Limbacher Leiten"
+        "Zusammengesetzte Verkehrsinformation, von 27.01.2025, 18:28, bis 27.01.2025, 20:23",
+        "A3: Nürnberg -> Würzburg, zwischen 1.7 km hinter AS Höchstadt-Ost und 0.9 km vor Limbacher Leiten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,8 +31,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.838460813,
-            49.716523564
+            10.844241408,
+            49.712413527
+          ],
+          [
+            10.8439498,
+            49.712653401
+          ],
+          [
+            10.8428034,
+            49.713535701
+          ],
+          [
+            10.8420312,
+            49.714112601
+          ],
+          [
+            10.8408726,
+            49.714933401
+          ],
+          [
+            10.8397074,
+            49.715730301
+          ],
+          [
+            10.8387903,
+            49.716317001
           ],
           [
             10.8380087,
@@ -135,8 +159,61 @@
             49.730488201
           ],
           [
-            10.81641063,
-            49.730998317
+            10.8163382,
+            49.731047301
+          ],
+          [
+            10.815932261,
+            49.731305566
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-01-27_19-40-34-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.96308911387503,7.032494052994801,50.96145660045109,7.033114231505686",
+      "point": "50.96308911387503,7.032494052994801",
+      "startLcPosition": "211",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Frankfurt",
+      "title": "A3 | Köln-Dellbrück - Köln-Ost",
+      "startTimestamp": "2025-01-27T19:40:34+01:00",
+      "coordinate": {
+        "lat": 50.96308911387503,
+        "long": 7.032494052994801
+      },
+      "description": [
+        "Beginn: 27.01.25 um 19:40 Uhr",
+        "Ende: 27.01.25 um 20:10 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 27.01.2025, 19:40, bis 27.01.2025, 20:10",
+        "A3: Oberhausen -> Frankfurt, zwischen 0.4 km hinter AS Köln-Dellbrück und 1.0 km vor AK Köln-Ost",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.032494053,
+            50.963089114
+          ],
+          [
+            7.0325945,
+            50.962833401
+          ],
+          [
+            7.032969,
+            50.961841401
+          ],
+          [
+            7.033114232,
+            50.9614566
           ]
         ]
       }
