@@ -1,34 +1,34 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-02-06_09-29-37-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-02-06_09-29-37-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.35321163700985,7.79176432401891,48.28104067333852,7.782566893549138",
-      "point": "48.35321163700985,7.79176432401891",
+      "extent": "48.35469224414759,7.792525391691932,48.30132888765148,7.789682544146897",
+      "point": "48.35469224414759,7.792525391691932",
       "startLcPosition": "36",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Lahr - Ettenheim",
       "startTimestamp": "2025-02-06T09:29:37+01:00",
-      "delayTimeValue": "30",
+      "delayTimeValue": "8",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14.5",
+      "averageSpeed": "33.20000076293945",
       "coordinate": {
-        "lat": 48.35321163700985,
-        "long": 7.79176432401891
+        "lat": 48.35469224414759,
+        "long": 7.792525391691932
       },
       "description": [
         "Beginn: 06.02.25 um 09:29 Uhr",
-        "Ende: 06.02.25 um 15:23 Uhr",
+        "Ende: 06.02.25 um 12:30 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 06.02.2025, 09:29, bis 06.02.2025, 15:23",
-        "A5: Karlsruhe -> Basel, zwischen 0.7 km hinter AS Lahr und 0.3 km vor AS Ettenheim",
+        "Angespannte Verkehrslage, von 06.02.2025, 09:29, bis 06.02.2025, 12:30",
+        "A5: Karlsruhe -> Basel, zwischen 0.5 km hinter AS Lahr und 2.6 km vor AS Ettenheim",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 30 Minuten",
-        "Durchschnittsgeschwindigkeit: 14 km/h"
+        "Reisezeitverlust: 8 Minuten",
+        "Durchschnittsgeschwindigkeit: 33 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.791764324,
-            48.353211637
+            7.792525392,
+            48.354692244
+          ],
+          [
+            7.7921561,
+            48.354008601
+          ],
+          [
+            7.7918484,
+            48.353387201
           ],
           [
             7.7915422,
@@ -205,60 +213,57 @@
             48.302470601
           ],
           [
-            7.7896458,
-            48.301011201
+            7.789682544,
+            48.301328888
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-02-06_11-51-54-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.71564977323262,9.119872784714225,50.715648311998514,9.117678292804863",
+      "point": "50.71564977323262,9.119872784714225",
+      "startLcPosition": "133",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Pfefferhöhe - Dottenberg",
+      "startTimestamp": "2025-02-06T11:51:54+01:00",
+      "coordinate": {
+        "lat": 50.71564977323262,
+        "long": 9.119872784714225
+      },
+      "description": [
+        "Beginn: 06.02.25 um 11:51 Uhr",
+        "Ende: 06.02.25 um 12:21 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 06.02.2025, 11:51, bis 06.02.2025, 12:21",
+        "A5: Kassel -> Frankfurt, zwischen 9.3 km hinter Pfefferhöhe und 0.3 km vor Dottenberg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.119872785,
+            50.715649773
           ],
           [
-            7.7894122,
-            48.299672401
+            9.1193165,
+            50.715667301
           ],
           [
-            7.7891031,
-            48.298159401
+            9.1183758,
+            50.715661801
           ],
           [
-            7.7888711,
-            48.297150801
-          ],
-          [
-            7.7882793,
-            48.294751801
-          ],
-          [
-            7.7877057,
-            48.292797201
-          ],
-          [
-            7.7872069,
-            48.291322301
-          ],
-          [
-            7.7865562,
-            48.289497901
-          ],
-          [
-            7.7858786,
-            48.287803601
-          ],
-          [
-            7.7852347,
-            48.286319401
-          ],
-          [
-            7.7843618,
-            48.284455301
-          ],
-          [
-            7.7835461,
-            48.282829301
-          ],
-          [
-            7.7832282,
-            48.282239401
-          ],
-          [
-            7.782566894,
-            48.281040673
+            9.117678293,
+            50.715648312
           ]
         ]
       }
