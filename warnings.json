@@ -1,34 +1,28 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-02-19_05-34-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-02-19_06-04-57-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.9980769357774,12.39108609496087,48.995196600945285,12.40702850004674",
-      "point": "48.9980769357774,12.39108609496087",
-      "startLcPosition": "37",
+      "extent": "48.503466436554774,13.38415836977402,48.50418564138971,13.384899108275228",
+      "point": "48.503466436554774,13.38415836977402",
+      "startLcPosition": "4",
       "display_type": "WARNING",
-      "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Wörth an der Donau/Wiesent - Wörth an der Donau-Ost",
-      "startTimestamp": "2025-02-19T05:34:00+01:00",
-      "delayTimeValue": "5",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "12.399999618530273",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Rottal-Ost - Passau-Süd",
+      "startTimestamp": "2025-02-19T06:04:57+01:00",
       "coordinate": {
-        "lat": 48.9980769357774,
-        "long": 12.39108609496087
+        "lat": 48.503466436554774,
+        "long": 13.38415836977402
       },
       "description": [
-        "Beginn: 19.02.25 um 05:34 Uhr",
-        "Ende: 19.02.25 um 07:15 Uhr",
+        "Beginn: 19.02.25 um 06:04 Uhr",
+        "Ende: 19.02.25 um 06:34 Uhr",
         "",
-        "Angespannte Verkehrslage, von 19.02.2025, 05:34, bis 19.02.2025, 07:15",
-        "A3: Nürnberg -> Passau, zwischen 2.1 km hinter AS Wörth an der Donau/Wiesent und 0.2 km vor AS Wörth an der Donau-Ost",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 5 Minuten",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
+        "Fahrzeug-Hindernis, von 19.02.2025, 06:04, bis 19.02.2025, 06:34",
+        "A3: Linz -> Passau, zwischen 5.1 km hinter Rottal-Ost und 3.8 km vor AS Passau-Süd",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +31,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            12.391086095,
-            48.998076936
+            13.38415837,
+            48.503466437
+          ],
+          [
+            13.384899108,
+            48.504185641
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-02-19_05-34-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.99929598027872,12.383552417958716,48.995196600945285,12.40702850004674",
+      "point": "48.99929598027872,12.383552417958716",
+      "startLcPosition": "37",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Passau",
+      "title": "A3 | Wörth an der Donau/Wiesent - Wörth an der Donau-Ost",
+      "startTimestamp": "2025-02-19T05:34:00+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "28.299999237060547",
+      "coordinate": {
+        "lat": 48.99929598027872,
+        "long": 12.383552417958716
+      },
+      "description": [
+        "Beginn: 19.02.25 um 05:34 Uhr",
+        "Ende: 19.02.25 um 06:21 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 19.02.2025, 05:34, bis 19.02.2025, 06:21",
+        "A3: Nürnberg -> Passau, zwischen 1.5 km hinter AS Wörth an der Donau/Wiesent und 0.2 km vor AS Wörth an der Donau-Ost",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.383552418,
+            48.99929598
+          ],
+          [
+            12.3840264,
+            48.999232401
+          ],
+          [
+            12.3858204,
+            48.998964301
+          ],
+          [
+            12.3879854,
+            48.998623501
+          ],
+          [
+            12.3901583,
+            48.998246401
           ],
           [
             12.3923186,
