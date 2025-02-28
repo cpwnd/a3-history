@@ -5,30 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.738732061211046,10.654580113589718,49.731791514301435,10.669986137457066",
-      "point": "49.738732061211046,10.654580113589718",
+      "extent": "49.740482067080194,10.650267025933198,49.731791514301435,10.669986137457066",
+      "point": "49.740482067080194,10.650267025933198",
       "startLcPosition": "106",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Nürnberg",
       "title": "A3 | Schlüsselfeld - Elsendorf",
       "startTimestamp": "2025-02-28T19:32:32+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "25.399999618530273",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "20.5",
       "coordinate": {
-        "lat": 49.738732061211046,
-        "long": 10.654580113589718
+        "lat": 49.740482067080194,
+        "long": 10.650267025933198
       },
       "description": [
         "Beginn: 28.02.25 um 19:32 Uhr",
-        "Ende: 28.02.25 um 20:10 Uhr",
+        "Ende: 28.02.25 um 20:59 Uhr",
         "",
-        "Angespannte Verkehrslage, von 28.02.2025, 19:32, bis 28.02.2025, 20:10",
-        "A3: Würzburg -> Nürnberg, zwischen 1.7 km hinter AS Schlüsselfeld und 0.5 km vor Elsendorf",
+        "Angespannte Verkehrslage, von 28.02.2025, 19:32, bis 28.02.2025, 20:59",
+        "A3: Würzburg -> Nürnberg, zwischen 1.3 km hinter AS Schlüsselfeld und 0.5 km vor Elsendorf",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 25 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.654580114,
-            49.738732061
+            10.650267026,
+            49.740482067
+          ],
+          [
+            10.6503824,
+            49.740442201
+          ],
+          [
+            10.6511544,
+            49.740190901
+          ],
+          [
+            10.6531312,
+            49.739424401
           ],
           [
             10.654936,
@@ -120,36 +132,34 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-02-28_19-00-30-000.f_001.de0",
+      "identifier": "undefined--vi-zus.2025-02-28_19-00-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.83409233060139,9.523520029031625,49.8886293756003,9.414552170753225",
-      "point": "49.83409233060139,9.523520029031625",
+      "extent": "49.834991114015466,9.520579726573223,49.853789000123506,9.497285004799245",
+      "point": "49.834991114015466,9.520579726573223",
       "startLcPosition": "133",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Marktheidenfeld - Spessart",
       "startTimestamp": "2025-02-28T19:00:30+01:00",
-      "delayTimeValue": "60",
+      "delayTimeValue": "5",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9.5",
+      "averageSpeed": "25.5",
       "coordinate": {
-        "lat": 49.83409233060139,
-        "long": 9.523520029031625
+        "lat": 49.834991114015466,
+        "long": 9.520579726573223
       },
       "description": [
         "Beginn: 28.02.25 um 19:00 Uhr",
-        "Ende: 28.02.25 um 20:47 Uhr",
+        "Ende: 28.02.25 um 21:00 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 28.02.2025, 19:00, bis 28.02.2025, 20:47",
-        "A3: Würzburg -> Frankfurt, zwischen 3.2 km hinter AS Marktheidenfeld und 1.8 km vor Spessart",
+        "Zusammengesetzte Verkehrsinformation, von 28.02.2025, 19:00, bis 28.02.2025, 21:00",
+        "A3: Würzburg -> Frankfurt, zwischen 3.4 km hinter AS Marktheidenfeld und 9.1 km vor Spessart",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 60 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h",
-        "",
-        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -158,20 +168,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.523520029,
-            49.834092331
-          ],
-          [
-            9.5220514,
-            49.834545201
-          ],
-          [
-            9.5210408,
-            49.834840901
-          ],
-          [
-            9.5206915,
-            49.834954701
+            9.520579727,
+            49.834991114
           ],
           [
             9.5199333,
@@ -322,176 +320,51 @@
             49.853774001
           ],
           [
-            9.4964037,
-            49.854291701
-          ],
+            9.497285005,
+            49.853789
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-02-28_19-00-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.866257043706796,9.466731767405781,49.88881327881171,9.414209495734681",
+      "point": "49.866257043706796,9.466731767405781",
+      "startLcPosition": "135",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Bärenroth - Spessart",
+      "startTimestamp": "2025-02-28T19:00:30+01:00",
+      "delayTimeValue": "8",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "27",
+      "coordinate": {
+        "lat": 49.866257043706796,
+        "long": 9.466731767405781
+      },
+      "description": [
+        "Beginn: 28.02.25 um 19:00 Uhr",
+        "Ende: 28.02.25 um 21:00 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, von 28.02.2025, 19:00, bis 28.02.2025, 21:00",
+        "A3: Würzburg -> Frankfurt, zwischen 5.2 km hinter Bärenroth und 1.8 km vor Spessart",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 8 Minuten",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            9.4958934,
-            49.854548101
-          ],
-          [
-            9.4949907,
-            49.854964101
-          ],
-          [
-            9.4944089,
-            49.855204101
-          ],
-          [
-            9.4934192,
-            49.855583901
-          ],
-          [
-            9.4923542,
-            49.855946801
-          ],
-          [
-            9.4906506,
-            49.856516801
-          ],
-          [
-            9.4902253,
-            49.856666701
-          ],
-          [
-            9.4896058,
-            49.856903301
-          ],
-          [
-            9.4891546,
-            49.857079001
-          ],
-          [
-            9.488715,
-            49.857269801
-          ],
-          [
-            9.4882459,
-            49.857485501
-          ],
-          [
-            9.4876299,
-            49.857797301
-          ],
-          [
-            9.4873594,
-            49.857940201
-          ],
-          [
-            9.4868567,
-            49.858229801
-          ],
-          [
-            9.4865739,
-            49.858405501
-          ],
-          [
-            9.4859185,
-            49.858809501
-          ],
-          [
-            9.485325,
-            49.859222401
-          ],
-          [
-            9.4846232,
-            49.859765901
-          ],
-          [
-            9.4828347,
-            49.861301301
-          ],
-          [
-            9.4821415,
-            49.861867401
-          ],
-          [
-            9.4816482,
-            49.862238001
-          ],
-          [
-            9.4811208,
-            49.862587801
-          ],
-          [
-            9.4808252,
-            49.862783201
-          ],
-          [
-            9.4802754,
-            49.863113901
-          ],
-          [
-            9.4798369,
-            49.863361301
-          ],
-          [
-            9.4794083,
-            49.863581501
-          ],
-          [
-            9.4789196,
-            49.863820701
-          ],
-          [
-            9.478423,
-            49.864049101
-          ],
-          [
-            9.4775483,
-            49.864405101
-          ],
-          [
-            9.4768038,
-            49.864678701
-          ],
-          [
-            9.475951,
-            49.864958401
-          ],
-          [
-            9.4751179,
-            49.865193801
-          ],
-          [
-            9.4744706,
-            49.865358401
-          ],
-          [
-            9.4737776,
-            49.865511201
-          ],
-          [
-            9.4734356,
-            49.865579801
-          ],
-          [
-            9.4725873,
-            49.865733501
-          ],
-          [
-            9.4719839,
-            49.865823601
-          ],
-          [
-            9.4708626,
-            49.865957101
-          ],
-          [
-            9.4701145,
-            49.866022801
-          ],
-          [
-            9.4692398,
-            49.866088501
-          ],
-          [
-            9.467944,
-            49.866168901
-          ],
-          [
-            9.4670302,
-            49.866233701
+            9.466731767,
+            49.866257044
           ],
           [
             9.4653949,
@@ -782,8 +655,8 @@
             49.888582401
           ],
           [
-            9.414552171,
-            49.888629376
+            9.414209496,
+            49.888813279
           ]
         ]
       }
