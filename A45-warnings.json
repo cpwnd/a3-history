@@ -5,30 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.832839739777526,8.030699004854553,50.81699767213155,8.091926682765886",
-      "point": "50.832839739777526,8.030699004854553",
+      "extent": "50.83282365904667,8.029890317666244,50.814597616874075,8.095648235199121",
+      "point": "50.83282365904667,8.029890317666244",
       "startLcPosition": "57",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Eisernhardt - Am Wildenberg",
       "startTimestamp": "2025-03-03T07:34:12+01:00",
-      "delayTimeValue": "12",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17.700000762939453",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "41",
       "coordinate": {
-        "lat": 50.832839739777526,
-        "long": 8.030699004854553
+        "lat": 50.83282365904667,
+        "long": 8.029890317666244
       },
       "description": [
         "Beginn: 03.03.25 um 07:34 Uhr",
-        "Ende: 03.03.25 um 12:37 Uhr",
+        "Ende: 03.03.25 um 12:34 Uhr",
         "",
-        "Angespannte Verkehrslage, von 03.03.2025, 07:34, bis 03.03.2025, 12:37",
-        "A45: Hagen -> Gießen, zwischen 1.0 km hinter Eisernhardt und 2.2 km vor Am Wildenberg",
+        "Angespannte Verkehrslage, von 03.03.2025, 07:34, bis 03.03.2025, 12:34",
+        "A45: Hagen -> Gießen, zwischen 1.0 km hinter Eisernhardt und 1.8 km vor Am Wildenberg",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 12 Minuten",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 41 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.030699005,
-            50.83283974
+            8.029890318,
+            50.832823659
+          ],
+          [
+            8.030425,
+            50.832827901
           ],
           [
             8.0312189,
@@ -361,8 +365,91 @@
             50.817158301
           ],
           [
-            8.091926683,
-            50.816997672
+            8.0922923,
+            50.816828901
+          ],
+          [
+            8.0929653,
+            50.816502401
+          ],
+          [
+            8.0934525,
+            50.816239701
+          ],
+          [
+            8.093945,
+            50.815924301
+          ],
+          [
+            8.0944031,
+            50.815613201
+          ],
+          [
+            8.0948186,
+            50.815305801
+          ],
+          [
+            8.0952017,
+            50.815003301
+          ],
+          [
+            8.095648235,
+            50.814597617
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-03-03_11-15-11-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.265786955274,7.602143614471555,51.263860400934774,7.60281269999918",
+      "point": "51.265786955274,7.602143614471555",
+      "startLcPosition": "91",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Sterbecker Siepen - Lüdenscheid-Nord",
+      "startTimestamp": "2025-03-03T11:15:11+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "15.600000381469727",
+      "coordinate": {
+        "lat": 51.265786955274,
+        "long": 7.602143614471555
+      },
+      "description": [
+        "Beginn: 03.03.25 um 11:15 Uhr",
+        "Ende: 03.03.25 um 19:57 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 03.03.2025, 11:15, bis 03.03.2025, 19:57",
+        "A45: Hagen -> Gießen, zwischen 0.2 km hinter Sterbecker Siepen und 0.8 km vor AS Lüdenscheid-Nord",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 15 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.602143614,
+            51.265786955
+          ],
+          [
+            7.6023363,
+            51.265109101
+          ],
+          [
+            7.6025568,
+            51.264448001
+          ],
+          [
+            7.6028127,
+            51.263860401
           ]
         ]
       }
