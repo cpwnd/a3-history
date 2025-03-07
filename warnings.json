@@ -5,30 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.044546962776614,8.538846777845189,50.04932049031977,8.554492869207833",
-      "point": "50.044546962776614,8.538846777845189",
+      "extent": "50.043205638935824,8.535470845154602,50.04932049031977,8.554492869207833",
+      "point": "50.043205638935824,8.535470845154602",
       "startLcPosition": "165",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Mönchhof-Dreieck - Frankfurt am Main-Flughafen",
       "startTimestamp": "2025-03-07T07:36:00+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "49.099998474121094",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.400001525878906",
       "coordinate": {
-        "lat": 50.044546962776614,
-        "long": 8.538846777845189
+        "lat": 50.043205638935824,
+        "long": 8.535470845154602
       },
       "description": [
         "Beginn: 07.03.25 um 07:36 Uhr",
-        "Ende: 07.03.25 um 07:50 Uhr",
+        "Ende: 07.03.25 um 08:10 Uhr",
         "",
-        "Angespannte Verkehrslage, von 07.03.2025, 07:36, bis 07.03.2025, 07:50",
-        "A3: Köln -> Frankfurt, zwischen 3.9 km hinter AD Mönchhof-Dreieck und 2.1 km vor AS Frankfurt am Main-Flughafen",
+        "Angespannte Verkehrslage, von 07.03.2025, 07:36, bis 07.03.2025, 08:10",
+        "A3: Köln -> Frankfurt, zwischen 3.6 km hinter AD Mönchhof-Dreieck und 2.1 km vor AS Frankfurt am Main-Flughafen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 49 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 38 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.538846778,
-            50.044546963
+            8.535470845,
+            50.043205639
+          ],
+          [
+            8.5357514,
+            50.043318601
+          ],
+          [
+            8.5363723,
+            50.043560701
+          ],
+          [
+            8.5367351,
+            50.043702201
           ],
           [
             8.5392366,
@@ -120,30 +132,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.47764440093354,6.814116499995719,51.44399701575477,6.799905142130031",
-      "point": "51.47764440093354,6.814116499995719",
+      "extent": "51.482056754297076,6.813049365668871,51.44415165458889,6.79978958873682",
+      "point": "51.482056754297076,6.813049365668871",
       "startLcPosition": "232",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Oberhausen-West - Duisburg-Wedau",
       "startTimestamp": "2025-03-07T05:57:00+01:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "43",
+      "averageSpeed": "40.099998474121094",
       "coordinate": {
-        "lat": 51.47764440093354,
-        "long": 6.814116499995719
+        "lat": 51.482056754297076,
+        "long": 6.813049365668871
       },
       "description": [
         "Beginn: 07.03.25 um 05:57 Uhr",
-        "Ende: 07.03.25 um 10:36 Uhr",
+        "Ende: 07.03.25 um 10:46 Uhr",
         "",
-        "Angespannte Verkehrslage, von 07.03.2025, 05:57, bis 07.03.2025, 10:36",
-        "A3: Oberhausen -> Köln, zwischen 1.1 km hinter AK Oberhausen-West und 4.3 km vor AS Duisburg-Wedau",
+        "Angespannte Verkehrslage, von 07.03.2025, 05:57, bis 07.03.2025, 10:46",
+        "A3: Oberhausen -> Köln, zwischen 0.6 km hinter AK Oberhausen-West und 4.4 km vor AS Duisburg-Wedau",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 43 km/h"
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -151,6 +163,30 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            6.813049366,
+            51.482056754
+          ],
+          [
+            6.8130632,
+            51.481524801
+          ],
+          [
+            6.8131389,
+            51.480770301
+          ],
+          [
+            6.8132791,
+            51.480030501
+          ],
+          [
+            6.8134923,
+            51.479211101
+          ],
+          [
+            6.8136538,
+            51.478760401
+          ],
           [
             6.8141165,
             51.477644401
@@ -408,12 +444,8 @@
             51.444413501
           ],
           [
-            6.7998908,
-            51.444012601
-          ],
-          [
-            6.799905142,
-            51.443997016
+            6.799789589,
+            51.444151655
           ]
         ]
       }
