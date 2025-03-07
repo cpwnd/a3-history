@@ -5,30 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.56328339340469,8.630727498844006,49.53974326502127,8.62975960625515",
-      "point": "49.56328339340469,8.630727498844006",
+      "extent": "49.55852874586792,8.628690019212472,49.53974326502127,8.62975960625515",
+      "point": "49.55852874586792,8.628690019212472",
       "startLcPosition": "80",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
       "title": "A5 | Hemsbach - Wachenburg",
       "startTimestamp": "2025-03-07T18:59:00+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "32.29999923706055",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "64.4000015258789",
       "coordinate": {
-        "lat": 49.56328339340469,
-        "long": 8.630727498844006
+        "lat": 49.55852874586792,
+        "long": 8.628690019212472
       },
       "description": [
         "Beginn: 07.03.25 um 18:59 Uhr",
-        "Ende: 07.03.25 um 20:35 Uhr",
+        "Ende: 07.03.25 um 20:57 Uhr",
         "",
-        "Angespannte Verkehrslage, von 07.03.2025, 18:59, bis 07.03.2025, 20:35",
-        "A5: Darmstadt -> Heidelberg, zwischen 3.4 km hinter AS Hemsbach und 0.9 km vor Wachenburg",
+        "Angespannte Verkehrslage, von 07.03.2025, 18:59, bis 07.03.2025, 20:57",
+        "A5: Darmstadt -> Heidelberg, zwischen 4.0 km hinter AS Hemsbach und 0.9 km vor Wachenburg",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 32 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 64 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,24 +37,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.630727499,
-            49.563283393
-          ],
-          [
-            8.6303311,
-            49.562486101
-          ],
-          [
-            8.6302669,
-            49.562356901
-          ],
-          [
-            8.6295192,
-            49.560701601
-          ],
-          [
-            8.6291358,
-            49.559768101
+            8.628690019,
+            49.558528746
           ],
           [
             8.6286399,
@@ -151,6 +135,63 @@
           [
             8.629759606,
             49.539743265
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-03-07_20-25-16-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.1742586732914,8.612716054953788,50.17576141599277,8.613538975110561",
+      "point": "50.1742586732914,8.612716054953788",
+      "startLcPosition": "111",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Taunusblick - Bad Homburger Kreuz",
+      "startTimestamp": "2025-03-07T20:25:16+01:00",
+      "coordinate": {
+        "lat": 50.1742586732914,
+        "long": 8.612716054953788
+      },
+      "description": [
+        "Beginn: 07.03.25 um 20:25 Uhr",
+        "Ende: 07.03.25 um 20:55 Uhr",
+        "",
+        "Fahrzeug-Hindernis, von 07.03.2025, 20:25, bis 07.03.2025, 20:55",
+        "A5: Frankfurt -> Kassel, zwischen 2.3 km hinter Taunusblick und 3.7 km vor AK Bad Homburger Kreuz",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.612716055,
+            50.174258673
+          ],
+          [
+            8.6127354,
+            50.174293601
+          ],
+          [
+            8.6127929,
+            50.174403701
+          ],
+          [
+            8.6131526,
+            50.175055401
+          ],
+          [
+            8.6134449,
+            50.175590901
+          ],
+          [
+            8.613538975,
+            50.175761416
           ]
         ]
       }
