@@ -1,27 +1,34 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-03-07_17-06-03-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2025-03-08_00-34-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.565900451473915,10.945091066299886,49.56821436463601,10.940928368890336",
-      "point": "49.565900451473915,10.945091066299886",
-      "startLcPosition": "85",
+      "extent": "48.45662326576797,13.375815015761779,48.459851700948605,13.37518560018693",
+      "point": "48.45662326576797,13.375815015761779",
+      "startLcPosition": "3",
       "display_type": "WARNING",
-      "subtitle": " Nürnberg -> Würzburg",
-      "title": "A3 | Fürth/Erlangen - Aurach",
-      "startTimestamp": "2025-03-07T17:06:03+01:00",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Rottal-West - Passau-Süd",
+      "startTimestamp": "2025-03-08T00:34:30+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "7.199999809265137",
       "coordinate": {
-        "lat": 49.565900451473915,
-        "long": 10.945091066299886
+        "lat": 48.45662326576797,
+        "long": 13.375815015761779
       },
       "description": [
-        "Beginn: 07.03.25 um 17:06 Uhr",
-        "Ende: 08.03.25 um 05:00 Uhr",
+        "Beginn: 08.03.25 um 00:34 Uhr",
+        "Ende: 08.03.25 um 01:06 Uhr",
         "",
-        "Hindernis, von 07.03.2025, 17:06, bis 08.03.2025, 05:00",
-        "A3: Nürnberg -> Würzburg, zwischen 3.5 km hinter AK Fürth/Erlangen und 1.8 km vor Aurach"
+        "Angespannte Verkehrslage, von 08.03.2025, 00:34, bis 08.03.2025, 01:06",
+        "A3: Linz -> Passau, zwischen 0.1 km hinter Rottal-West und 9.0 km vor AS Passau-Süd",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -30,8 +37,87 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.945091066,
-            49.565900451
+            13.375815016,
+            48.456623266
+          ],
+          [
+            13.3757258,
+            48.457205601
+          ],
+          [
+            13.3756409,
+            48.457642201
+          ],
+          [
+            13.3754919,
+            48.458500201
+          ],
+          [
+            13.3754062,
+            48.458919401
+          ],
+          [
+            13.3753257,
+            48.459264801
+          ],
+          [
+            13.3752829,
+            48.459448801
+          ],
+          [
+            13.3751856,
+            48.459851701
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-03-08_00-40-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.56519963739905,10.946580984956519,49.568934739532544,10.939824688066736",
+      "point": "49.56519963739905,10.946580984956519",
+      "startLcPosition": "85",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Würzburg",
+      "title": "A3 | Fürth/Erlangen - Aurach",
+      "startTimestamp": "2025-03-08T00:40:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "36.5",
+      "coordinate": {
+        "lat": 49.56519963739905,
+        "long": 10.946580984956519
+      },
+      "description": [
+        "Beginn: 08.03.25 um 00:40 Uhr",
+        "Ende: 08.03.25 um 01:02 Uhr",
+        "",
+        "Angespannte Verkehrslage, von 08.03.2025, 00:40, bis 08.03.2025, 01:02",
+        "A3: Nürnberg -> Würzburg, zwischen 3.4 km hinter AK Fürth/Erlangen und 1.7 km vor Aurach",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.946580985,
+            49.565199637
+          ],
+          [
+            10.9462498,
+            49.565349101
+          ],
+          [
+            10.9453529,
+            49.565772601
           ],
           [
             10.9446828,
@@ -62,8 +148,12 @@
             49.568138001
           ],
           [
-            10.940928369,
-            49.568214365
+            10.9398724,
+            49.568902201
+          ],
+          [
+            10.939824688,
+            49.56893474
           ]
         ]
       }
