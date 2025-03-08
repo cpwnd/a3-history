@@ -5,30 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.034269192653454,8.442872412082199,50.029436500940996,8.462415599999865",
-      "point": "50.034269192653454,8.442872412082199",
+      "extent": "50.03777991065079,8.429297239541842,50.029436500940996,8.462415599999865",
+      "point": "50.03777991065079,8.429297239541842",
       "startLcPosition": "167",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Johannespfad - Raunheim",
       "startTimestamp": "2025-03-08T07:28:30+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "34.599998474121094",
       "coordinate": {
-        "lat": 50.034269192653454,
-        "long": 8.442872412082199
+        "lat": 50.03777991065079,
+        "long": 8.429297239541842
       },
       "description": [
         "Beginn: 08.03.25 um 07:28 Uhr",
-        "Ende: 08.03.25 um 07:58 Uhr",
+        "Ende: 08.03.25 um 08:30 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, von 08.03.2025, 07:28, bis 08.03.2025, 07:58",
-        "A3: Köln -> Frankfurt, zwischen 2.5 km hinter Johannespfad und 1.0 km vor AS Raunheim",
+        "Zusammengesetzte Verkehrsinformation, von 08.03.2025, 07:28, bis 08.03.2025, 08:30",
+        "A3: Köln -> Frankfurt, zwischen 1.4 km hinter Johannespfad und 1.0 km vor AS Raunheim",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 52 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 34 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.442872412,
-            50.034269193
+            8.42929724,
+            50.037779911
+          ],
+          [
+            8.4296741,
+            50.037679501
+          ],
+          [
+            8.4314619,
+            50.037212501
+          ],
+          [
+            8.4352145,
+            50.036257701
+          ],
+          [
+            8.4358073,
+            50.036110701
+          ],
+          [
+            8.4383185,
+            50.035460301
           ],
           [
             8.4432539,
@@ -87,92 +107,6 @@
           [
             8.4624156,
             50.029436501
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-03-08_06-20-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.066789456420544,8.378354878736626,50.06547654399329,8.37948782683002",
-      "point": "50.066789456420544,8.378354878736626",
-      "startLcPosition": "170",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Medenbach - Wiesbadener Kreuz",
-      "startTimestamp": "2025-03-08T06:20:00+01:00",
-      "coordinate": {
-        "lat": 50.066789456420544,
-        "long": 8.378354878736626
-      },
-      "description": [
-        "Beginn: 08.03.25 um 06:20 Uhr",
-        "Ende: 08.03.25 um 07:59 Uhr",
-        "",
-        "Fahrzeug-Hindernis, von 08.03.2025, 06:20, bis 08.03.2025, 07:59",
-        "A3: Köln -> Frankfurt, zwischen 3.7 km hinter Medenbach und 1.2 km vor AK Wiesbadener Kreuz",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.378354879,
-            50.066789456
-          ],
-          [
-            8.3785905,
-            50.066530701
-          ],
-          [
-            8.379487827,
-            50.065476544
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-03-08_07-23-58-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.1625442000912,8.299422534153873,50.16220400094042,8.299949799999805",
-      "point": "50.1625442000912,8.299422534153873",
-      "startLcPosition": "172",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Theißtal - Niedernhausen",
-      "startTimestamp": "2025-03-08T07:23:58+01:00",
-      "coordinate": {
-        "lat": 50.1625442000912,
-        "long": 8.299422534153873
-      },
-      "description": [
-        "Beginn: 08.03.25 um 07:23 Uhr",
-        "Ende: 08.03.25 um 07:53 Uhr",
-        "",
-        "Fahrzeug-Hindernis, von 08.03.2025, 07:23, bis 08.03.2025, 07:53",
-        "A3: Köln -> Frankfurt, zwischen 0.6 km hinter Theißtal und 3.1 km vor AS Niedernhausen",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.299422534,
-            50.1625442
-          ],
-          [
-            8.2999498,
-            50.162204001
           ]
         ]
       }
