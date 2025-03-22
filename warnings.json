@@ -1005,29 +1005,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.74750889415855,10.034009874369813,49.765263700942135,10.062869000000381",
-      "point": "49.74750889415855,10.034009874369813",
-      "startLcPosition": "125",
+      "extent": "49.748740967781224,10.036767999496783,49.765263700942135,10.062869000000381",
+      "point": "49.748740967781224,10.036767999496783",
+      "startLcPosition": "124",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Nürnberg",
-      "title": "A3 | Würzburg/Randersacker - Rottendorf",
+      "title": "A3 | Sandgraben - Rottendorf",
       "startTimestamp": "2025-03-22T07:38:30+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "45.599998474121094",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "29.799999237060547",
       "coordinate": {
-        "lat": 49.74750889415855,
-        "long": 10.034009874369813
+        "lat": 49.748740967781224,
+        "long": 10.036767999496783
       },
       "description": [
         "Beginn: 22.03.25 um 07:38 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.03.2025, 07:38",
-        "A3: Würzburg -> Nürnberg, zwischen 3.4 km hinter AS Würzburg/Randersacker und 0.6 km vor AS Rottendorf",
+        "A3: Würzburg -> Nürnberg, zwischen 0.2 km hinter Sandgraben und 0.6 km vor AS Rottendorf",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 45 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1036,24 +1036,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.034009874,
-            49.747508894
-          ],
-          [
-            10.0343731,
-            49.747665101
-          ],
-          [
-            10.0348276,
-            49.747867901
-          ],
-          [
-            10.0353199,
-            49.748081701
-          ],
-          [
-            10.0364966,
-            49.748615801
+            10.036767999,
+            49.748740968
           ],
           [
             10.0379765,
@@ -1143,33 +1127,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-03-22_04-50-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-03-22_09-27-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.053475803336774,8.389716470058024,50.029436500940996,8.462415599999865",
-      "point": "50.053475803336774,8.389716470058024",
-      "startLcPosition": "169",
+      "extent": "49.76315908831867,9.646539456594484,49.76359077869244,9.64792914002949",
+      "point": "49.76315908831867,9.646539456594484",
+      "startLcPosition": "132",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Wiesbadener Kreuz - Raunheim",
-      "startTimestamp": "2025-03-22T04:50:00+01:00",
-      "delayTimeValue": "23",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13.699999809265137",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Wertheim/Lengfurt - Fronberg",
+      "startTimestamp": "2025-03-22T09:27:30+01:00",
       "coordinate": {
-        "lat": 50.053475803336774,
-        "long": 8.389716470058024
+        "lat": 49.76315908831867,
+        "long": 9.646539456594484
       },
       "description": [
-        "Beginn: 22.03.25 um 04:50 Uhr",
+        "Beginn: 22.03.25 um 09:27 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.03.2025, 04:50",
-        "A3: Köln -> Frankfurt, zwischen 0.3 km hinter AK Wiesbadener Kreuz und 1.0 km vor AS Raunheim",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 23 Minuten",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Fahrzeug-Hindernis, seit 22.03.2025, 09:27",
+        "A3: Frankfurt -> Würzburg, zwischen 4.8 km hinter AS Wertheim/Lengfurt und 5.1 km vor Fronberg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1178,8 +1156,58 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.38971647,
-            50.053475803
+            9.646539457,
+            49.763159088
+          ],
+          [
+            9.6471686,
+            49.763351901
+          ],
+          [
+            9.64792914,
+            49.763590779
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-03-22_04-50-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.052276823726366,8.39073643267418,50.028985747561194,8.464662128352973",
+      "point": "50.052276823726366,8.39073643267418",
+      "startLcPosition": "169",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Wiesbadener Kreuz - Raunheim",
+      "startTimestamp": "2025-03-22T04:50:00+01:00",
+      "delayTimeValue": "22",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "14.100000381469727",
+      "coordinate": {
+        "lat": 50.052276823726366,
+        "long": 8.39073643267418
+      },
+      "description": [
+        "Beginn: 22.03.25 um 04:50 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.03.2025, 04:50",
+        "A3: Köln -> Frankfurt, zwischen 0.4 km hinter AK Wiesbadener Kreuz und 0.9 km vor AS Raunheim",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 22 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.390736433,
+            50.052276824
           ],
           [
             8.391017,
@@ -1364,33 +1392,44 @@
           [
             8.4624156,
             50.029436501
+          ],
+          [
+            8.4632076,
+            50.029266401
+          ],
+          [
+            8.4639292,
+            50.029133301
+          ],
+          [
+            8.464662128,
+            50.028985748
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-03-22_07-50-00-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2025-03-22_09-24-01-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.920922624702094,7.068402386041237,50.88576240093684,7.1795930999979465",
-      "point": "50.920922624702094,7.068402386041237",
-      "startLcPosition": "209",
+      "extent": "50.92882071251592,7.055201328967335,50.92571611340628,7.058504228746223",
+      "point": "50.92882071251592,7.055201328967335",
+      "startLcPosition": "210",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Köln-Heumar - Rösrath",
-      "startTimestamp": "2025-03-22T07:50:00+01:00",
+      "title": "A3 | Köln-Ost - Köln-Heumar",
+      "startTimestamp": "2025-03-22T09:24:01+01:00",
       "coordinate": {
-        "lat": 50.920922624702094,
-        "long": 7.068402386041237
+        "lat": 50.92882071251592,
+        "long": 7.055201328967335
       },
       "description": [
-        "Beginn: 22.03.25 um 07:50 Uhr",
+        "Beginn: 22.03.25 um 09:24 Uhr",
         "",
-        "Hindernis, seit 22.03.2025, 07:50",
-        "A3: Köln -> Frankfurt, zwischen 0.7 km hinter AD Köln-Heumar und 0.4 km vor AS Rösrath",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Fahrzeug-Hindernis, seit 22.03.2025, 09:24",
+        "A3: Köln -> Frankfurt, zwischen 3.0 km hinter AK Köln-Ost und 0.2 km vor AD Köln-Heumar",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1399,380 +1438,72 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.068402386,
-            50.920922625
-          ],
-          [
-            7.0696357,
-            50.920620901
-          ],
-          [
-            7.0728346,
-            50.919851201
-          ],
-          [
-            7.0742028,
-            50.919521501
-          ],
-          [
-            7.0750904,
-            50.919335301
-          ],
-          [
-            7.0756257,
-            50.919238401
-          ],
-          [
-            7.0761293,
-            50.919165401
-          ],
-          [
-            7.0766406,
-            50.919086601
-          ],
-          [
-            7.0771932,
-            50.919028901
-          ],
-          [
-            7.078194,
-            50.918960601
-          ],
-          [
-            7.0791924,
-            50.918928801
-          ],
-          [
-            7.0802972,
-            50.918958501
-          ],
-          [
-            7.0804893,
-            50.918962001
-          ],
-          [
-            7.0819488,
-            50.918980901
-          ],
-          [
-            7.0821271,
-            50.918985401
-          ],
-          [
-            7.0825081,
-            50.918995201
-          ],
-          [
-            7.0838114,
-            50.919026901
-          ],
-          [
-            7.084924,
-            50.919056201
-          ],
-          [
-            7.085557,
-            50.919065301
-          ],
-          [
-            7.0862158,
-            50.919066201
-          ],
-          [
-            7.086967,
-            50.919042901
-          ],
-          [
-            7.0877164,
-            50.918996801
-          ],
-          [
-            7.0882223,
-            50.918951101
-          ],
-          [
-            7.0888107,
-            50.918888201
-          ],
-          [
-            7.0897158,
-            50.918749601
-          ],
-          [
-            7.0905716,
-            50.918580601
-          ],
-          [
-            7.091273,
-            50.918413701
-          ],
-          [
-            7.0944724,
-            50.917669201
-          ],
-          [
-            7.0976804,
-            50.916903101
-          ],
-          [
-            7.0991378,
-            50.916556901
-          ],
-          [
-            7.1002776,
-            50.916289501
-          ],
-          [
-            7.1017744,
-            50.915933101
-          ],
-          [
-            7.1023723,
-            50.915789501
-          ],
-          [
-            7.1031403,
-            50.915603301
-          ],
-          [
-            7.1035542,
-            50.915491301
-          ],
-          [
-            7.104142,
-            50.915317201
-          ],
-          [
-            7.10476,
-            50.915113701
-          ],
-          [
-            7.1054742,
-            50.914843401
-          ],
-          [
-            7.1059216,
-            50.914649401
-          ],
-          [
-            7.1064654,
-            50.914402801
-          ],
-          [
-            7.1069559,
-            50.914156001
-          ],
-          [
-            7.1073077,
-            50.913965201
-          ],
-          [
-            7.1076423,
-            50.913766301
-          ],
-          [
-            7.1085771,
-            50.913139901
-          ],
-          [
-            7.1088913,
-            50.912920901
-          ],
-          [
-            7.1093619,
-            50.912612301
-          ],
-          [
-            7.1108895,
-            50.911598701
-          ],
-          [
-            7.1129551,
-            50.910228801
-          ],
-          [
-            7.1137674,
-            50.909694001
-          ],
-          [
-            7.1141735,
-            50.909432201
-          ],
-          [
-            7.1145183,
-            50.909218301
-          ],
-          [
-            7.1148753,
-            50.909018501
-          ],
-          [
-            7.1152632,
-            50.908815901
-          ],
-          [
-            7.1156368,
-            50.908633901
-          ],
-          [
-            7.1161467,
-            50.908404501
-          ],
-          [
-            7.1166063,
-            50.908215101
-          ],
-          [
-            7.1171695,
-            50.908003601
-          ],
-          [
-            7.1176158,
-            50.907851101
-          ],
-          [
-            7.1180974,
-            50.907700501
-          ],
-          [
-            7.1186356,
-            50.907548401
-          ],
-          [
-            7.1215562,
-            50.906774301
-          ],
-          [
-            7.1227037,
-            50.906457201
-          ],
-          [
-            7.1237212,
-            50.906186401
-          ],
-          [
-            7.126982,
-            50.905324801
-          ],
-          [
-            7.1310643,
-            50.904231501
-          ],
-          [
-            7.1406046,
-            50.901676901
-          ],
-          [
-            7.1441278,
-            50.900738201
-          ],
-          [
-            7.1476966,
-            50.899781601
-          ],
-          [
-            7.1505253,
-            50.898991501
-          ],
-          [
-            7.1519748,
-            50.898629801
-          ],
-          [
-            7.1562599,
-            50.897484101
-          ],
-          [
-            7.1588051,
-            50.896809401
-          ],
-          [
-            7.1618345,
-            50.895986701
-          ],
-          [
-            7.1639578,
-            50.895444101
-          ],
-          [
-            7.1651114,
-            50.895106101
-          ],
-          [
-            7.1662105,
-            50.894710101
-          ],
-          [
-            7.16679,
-            50.894473001
-          ],
-          [
-            7.1673322,
-            50.894234101
-          ],
-          [
-            7.1680234,
-            50.893862501
-          ],
-          [
-            7.1686616,
-            50.893497001
-          ],
-          [
-            7.1691011,
-            50.893218101
-          ],
-          [
-            7.1694608,
-            50.892960901
-          ],
-          [
-            7.1700919,
-            50.892469501
-          ],
-          [
-            7.1711212,
-            50.891583701
-          ],
-          [
-            7.1723848,
-            50.890519801
-          ],
-          [
-            7.1727091,
-            50.890257801
-          ],
-          [
-            7.1731999,
-            50.889791101
-          ],
-          [
-            7.1741794,
-            50.888979401
-          ],
-          [
-            7.1745691,
-            50.888671101
-          ],
-          [
-            7.1749963,
-            50.888380601
-          ],
-          [
-            7.1756013,
-            50.888006301
-          ],
-          [
-            7.1762532,
-            50.887638401
-          ],
-          [
-            7.1781555,
-            50.886569501
-          ],
-          [
-            7.1795931,
-            50.885762401
+            7.055201329,
+            50.928820713
+          ],
+          [
+            7.0554131,
+            50.928622801
+          ],
+          [
+            7.0559069,
+            50.928161501
+          ],
+          [
+            7.0570735,
+            50.927087901
+          ],
+          [
+            7.0579959,
+            50.926215201
+          ],
+          [
+            7.0581727,
+            50.926041001
+          ],
+          [
+            7.058504229,
+            50.925716113
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-03-22_09-17-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.41507348446179,6.798428413985877,51.416021257979665,6.798030875176742",
+      "point": "51.41507348446179,6.798428413985877",
+      "startLcPosition": "229",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Duisburg-Wedau - Kaiserberg",
+      "startTimestamp": "2025-03-22T09:17:00+01:00",
+      "coordinate": {
+        "lat": 51.41507348446179,
+        "long": 6.798428413985877
+      },
+      "description": [
+        "Beginn: 22.03.25 um 09:17 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 22.03.2025, 09:17",
+        "A3: Köln -> Oberhausen, zwischen 0.7 km hinter AS Duisburg-Wedau und 3.8 km vor AK Kaiserberg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.798428414,
+            51.415073484
+          ],
+          [
+            6.798030875,
+            51.416021258
           ]
         ]
       }
