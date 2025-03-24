@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-03-24_19-38-00-000.f_001.de0",
+      "identifier": "undefined--vi-zus.2025-03-24_19-38-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -230,29 +230,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.95758279819273,7.034615437871048,50.93247377886972,7.051118840896069",
-      "point": "50.95758279819273,7.034615437871048",
+      "extent": "50.960863134845205,7.033338197937914,50.933726575098675,7.049809324684909",
+      "point": "50.960863134845205,7.033338197937914",
       "startLcPosition": "211",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Frankfurt",
       "title": "A3 | Köln-Dellbrück - Köln-Heumar",
       "startTimestamp": "2025-03-24T19:37:30+01:00",
-      "delayTimeValue": "17",
+      "delayTimeValue": "15",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9.399999618530273",
+      "averageSpeed": "11.600000381469727",
       "coordinate": {
-        "lat": 50.95758279819273,
-        "long": 7.034615437871048
+        "lat": 50.960863134845205,
+        "long": 7.033338197937914
       },
       "description": [
         "Beginn: 24.03.25 um 19:37 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.03.2025, 19:37",
-        "A3: Oberhausen -> Frankfurt, zwischen 1.0 km hinter AS Köln-Dellbrück und 1.1 km vor AD Köln-Heumar",
+        "A3: Oberhausen -> Frankfurt, zwischen 0.7 km hinter AS Köln-Dellbrück und 1.3 km vor AD Köln-Heumar",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 17 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Reisezeitverlust: 15 Minuten",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -261,8 +261,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.034615438,
-            50.957582798
+            7.033338198,
+            50.960863135
+          ],
+          [
+            7.0333507,
+            50.960830001
+          ],
+          [
+            7.0336646,
+            50.960006701
+          ],
+          [
+            7.0345219,
+            50.957827501
           ],
           [
             7.0348272,
@@ -369,14 +381,14 @@
             50.933839101
           ],
           [
-            7.051118841,
-            50.932473779
+            7.049809325,
+            50.933726575
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-03-25_10-00-00-000.f_018.de0",
+      "identifier": "undefined--vi-avl.2025-03-25_10-00-00-000.f_019.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -421,6 +433,64 @@
           [
             6.805748003,
             51.439801098
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-03-24_20-13-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "262",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Elten - Elten",
+      "startTimestamp": "2025-03-24T20:13:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "35.599998474121094",
+      "coordinate": {
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
+      },
+      "description": [
+        "Beginn: 24.03.25 um 20:13 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.03.2025, 20:13",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 35 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165717281,
+            51.898399017
+          ],
+          [
+            6.1665101,
+            51.897629501
+          ],
+          [
+            6.1668453,
+            51.897289501
+          ],
+          [
+            6.1686237,
+            51.895575501
+          ],
+          [
+            6.1688771,
+            51.895327101
           ]
         ]
       }
