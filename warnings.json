@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.75006933021393,9.965091302920044,49.75201182934059,9.936169239663956",
-      "point": "49.75006933021393,9.965091302920044",
+      "extent": "49.74823175377511,9.965805871987603,49.752030464881265,9.937043292174426",
+      "point": "49.74823175377511,9.965805871987603",
       "startLcPosition": "125",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Frankfurt",
@@ -14,20 +14,20 @@
       "startTimestamp": "2025-04-01T20:54:00+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "65.80000305175781",
+      "averageSpeed": "64",
       "coordinate": {
-        "lat": 49.75006933021393,
-        "long": 9.965091302920044
+        "lat": 49.74823175377511,
+        "long": 9.965805871987603
       },
       "description": [
         "Beginn: 01.04.25 um 20:54 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.04.2025, 20:54",
-        "A3: Nürnberg -> Frankfurt, zwischen 2.5 km hinter AS Würzburg/Randersacker und 0.6 km vor AS Würzburg-Heidingsfeld",
+        "A3: Nürnberg -> Frankfurt, zwischen 2.3 km hinter AS Würzburg/Randersacker und 0.6 km vor AS Würzburg-Heidingsfeld",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 65 km/h"
+        "Durchschnittsgeschwindigkeit: 64 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.965091303,
-            49.75006933
+            9.965805872,
+            49.748231754
+          ],
+          [
+            9.9653709,
+            49.749391601
+          ],
+          [
+            9.9650919,
+            49.750067901
           ],
           [
             9.9649926,
@@ -220,8 +228,59 @@
             49.752034901
           ],
           [
-            9.93616924,
-            49.752011829
+            9.937043292,
+            49.752030465
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-04-01_21-38-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.93618220094141,9.347012000000095,49.934856681293724,9.348044223917473",
+      "point": "49.93618220094141,9.347012000000095",
+      "startLcPosition": "138",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Weibersbrunn - Rohrbrunn",
+      "startTimestamp": "2025-04-01T21:38:00+02:00",
+      "coordinate": {
+        "lat": 49.93618220094141,
+        "long": 9.347012000000095
+      },
+      "description": [
+        "Beginn: 01.04.25 um 21:38 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 01.04.2025, 21:38",
+        "A3: Frankfurt -> Würzburg, zwischen 0.3 km hinter AS Weibersbrunn und 5.3 km vor AS Rohrbrunn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.347012,
+            49.936182201
+          ],
+          [
+            9.3470835,
+            49.936085601
+          ],
+          [
+            9.3473114,
+            49.935771501
+          ],
+          [
+            9.3476133,
+            49.935369501
+          ],
+          [
+            9.348044224,
+            49.934856681
           ]
         ]
       }
@@ -267,186 +326,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-04-01_21-13-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-04-01_21-25-00-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.02664855245899,8.476418479911867,50.02676860220833,8.494051938838885",
-      "point": "50.02664855245899,8.476418479911867",
-      "startLcPosition": "166",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Raunheim - Kelsterbach",
-      "startTimestamp": "2025-04-01T21:13:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "50.5",
-      "coordinate": {
-        "lat": 50.02664855245899,
-        "long": 8.476418479911867
-      },
-      "description": [
-        "Beginn: 01.04.25 um 21:13 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 01.04.2025, 21:13",
-        "A3: Köln -> Frankfurt, zwischen AS Raunheim und 4.2 km vor AS Kelsterbach",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 50 km/h",
-        "",
-        "Gefahr durch Personen auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.47641848,
-            50.026648552
-          ],
-          [
-            8.4770633,
-            50.026521201
-          ],
-          [
-            8.4794172,
-            50.026066801
-          ],
-          [
-            8.4798277,
-            50.025991801
-          ],
-          [
-            8.480248,
-            50.025920801
-          ],
-          [
-            8.4807137,
-            50.025853401
-          ],
-          [
-            8.4815882,
-            50.025739801
-          ],
-          [
-            8.4822102,
-            50.025676501
-          ],
-          [
-            8.4828654,
-            50.025621101
-          ],
-          [
-            8.4836038,
-            50.025575901
-          ],
-          [
-            8.4843326,
-            50.025548301
-          ],
-          [
-            8.4850455,
-            50.025531701
-          ],
-          [
-            8.4858553,
-            50.025538601
-          ],
-          [
-            8.4866893,
-            50.025564301
-          ],
-          [
-            8.4871164,
-            50.025586001
-          ],
-          [
-            8.4875155,
-            50.025611101
-          ],
-          [
-            8.4881718,
-            50.025663301
-          ],
-          [
-            8.4888116,
-            50.025726901
-          ],
-          [
-            8.4895458,
-            50.025808201
-          ],
-          [
-            8.4898652,
-            50.025853601
-          ],
-          [
-            8.4903582,
-            50.025933001
-          ],
-          [
-            8.4909018,
-            50.026031201
-          ],
-          [
-            8.4913984,
-            50.026120901
-          ],
-          [
-            8.4919576,
-            50.026245201
-          ],
-          [
-            8.4923678,
-            50.026328001
-          ],
-          [
-            8.4926354,
-            50.026387001
-          ],
-          [
-            8.492954,
-            50.026465801
-          ],
-          [
-            8.4933664,
-            50.026579001
-          ],
-          [
-            8.4937584,
-            50.026683101
-          ],
-          [
-            8.494051939,
-            50.026768602
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-04-01_21-25-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.02659055734466,8.47671212977455,50.045419900940935,8.541008699999875",
-      "point": "50.02659055734466,8.47671212977455",
+      "extent": "50.02566330094103,8.488171799999865,50.045419900940935,8.541008699999875",
+      "point": "50.02566330094103,8.488171799999865",
       "startLcPosition": "166",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Raunheim - Kelsterbach",
       "startTimestamp": "2025-04-01T21:25:00+02:00",
       "coordinate": {
-        "lat": 50.02659055734466,
-        "long": 8.47671212977455
+        "lat": 50.02566330094103,
+        "long": 8.488171799999865
       },
       "description": [
         "Beginn: 01.04.25 um 21:25 Uhr",
         "",
         "Hindernis, seit 01.04.2025, 21:25",
-        "A3: Köln -> Frankfurt, zwischen AS Raunheim und 0.3 km vor AS Kelsterbach",
+        "A3: Köln -> Frankfurt, zwischen 0.9 km hinter AS Raunheim und 0.3 km vor AS Kelsterbach",
         "",
         "Gefahr durch Personen auf der Fahrbahn"
       ],
@@ -456,70 +355,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            8.47671213,
-            50.026590557
-          ],
-          [
-            8.4770633,
-            50.026521201
-          ],
-          [
-            8.4794172,
-            50.026066801
-          ],
-          [
-            8.4798277,
-            50.025991801
-          ],
-          [
-            8.480248,
-            50.025920801
-          ],
-          [
-            8.4807137,
-            50.025853401
-          ],
-          [
-            8.4815882,
-            50.025739801
-          ],
-          [
-            8.4822102,
-            50.025676501
-          ],
-          [
-            8.4828654,
-            50.025621101
-          ],
-          [
-            8.4836038,
-            50.025575901
-          ],
-          [
-            8.4843326,
-            50.025548301
-          ],
-          [
-            8.4850455,
-            50.025531701
-          ],
-          [
-            8.4858553,
-            50.025538601
-          ],
-          [
-            8.4866893,
-            50.025564301
-          ],
-          [
-            8.4871164,
-            50.025586001
-          ],
-          [
-            8.4875155,
-            50.025611101
-          ],
           [
             8.4881718,
             50.025663301
@@ -764,27 +599,35 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-04-01_20-25-00-000.f_003.de0",
+      "identifier": "undefined--vi-zus.2025-04-01_21-42-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.60382741731648,7.4300542586919125,50.602826677731635,7.430586035912731",
-      "point": "50.60382741731648,7.4300542586919125",
-      "startLcPosition": "196",
+      "extent": "50.0261313824588,8.479082670208614,50.02626940311879,8.492077499272556",
+      "point": "50.0261313824588,8.479082670208614",
+      "startLcPosition": "166",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Pfaffenbach - Fernthal",
-      "startTimestamp": "2025-04-01T20:25:00+02:00",
+      "title": "A3 | Raunheim - Mönchhof-Dreieck",
+      "startTimestamp": "2025-04-01T21:42:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54.099998474121094",
       "coordinate": {
-        "lat": 50.60382741731648,
-        "long": 7.4300542586919125
+        "lat": 50.0261313824588,
+        "long": 8.479082670208614
       },
       "description": [
-        "Beginn: 01.04.25 um 20:25 Uhr",
+        "Beginn: 01.04.25 um 21:42 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 01.04.2025, 20:25",
-        "A3: Köln -> Frankfurt, zwischen 1.7 km hinter Pfaffenbach und 0.4 km vor Fernthal",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Zusammengesetzte Verkehrsinformation, seit 01.04.2025, 21:42",
+        "A3: Köln -> Frankfurt, zwischen 0.2 km hinter AS Raunheim und AD Mönchhof-Dreieck",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h",
+        "",
+        "Gefahr durch Personen auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -793,20 +636,100 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.430054259,
-            50.603827417
+            8.47908267,
+            50.026131382
           ],
           [
-            7.4302041,
-            50.603503701
+            8.4794172,
+            50.026066801
           ],
           [
-            7.430551,
-            50.602891201
+            8.4798277,
+            50.025991801
           ],
           [
-            7.430586036,
-            50.602826678
+            8.480248,
+            50.025920801
+          ],
+          [
+            8.4807137,
+            50.025853401
+          ],
+          [
+            8.4815882,
+            50.025739801
+          ],
+          [
+            8.4822102,
+            50.025676501
+          ],
+          [
+            8.4828654,
+            50.025621101
+          ],
+          [
+            8.4836038,
+            50.025575901
+          ],
+          [
+            8.4843326,
+            50.025548301
+          ],
+          [
+            8.4850455,
+            50.025531701
+          ],
+          [
+            8.4858553,
+            50.025538601
+          ],
+          [
+            8.4866893,
+            50.025564301
+          ],
+          [
+            8.4871164,
+            50.025586001
+          ],
+          [
+            8.4875155,
+            50.025611101
+          ],
+          [
+            8.4881718,
+            50.025663301
+          ],
+          [
+            8.4888116,
+            50.025726901
+          ],
+          [
+            8.4895458,
+            50.025808201
+          ],
+          [
+            8.4898652,
+            50.025853601
+          ],
+          [
+            8.4903582,
+            50.025933001
+          ],
+          [
+            8.4909018,
+            50.026031201
+          ],
+          [
+            8.4913984,
+            50.026120901
+          ],
+          [
+            8.4919576,
+            50.026245201
+          ],
+          [
+            8.492077499,
+            50.026269403
           ]
         ]
       }
@@ -816,25 +739,25 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.609302032102136,6.777269614655215,51.62751869149909,6.754113673798373",
-      "point": "51.609302032102136,6.777269614655215",
-      "startLcPosition": "238",
+      "extent": "51.60616208992161,6.780085632647287,51.62748346534763,6.754158521596093",
+      "point": "51.60616208992161,6.780085632647287",
+      "startLcPosition": "237",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
-      "title": "A3 | Bergschlag - Hünxe",
+      "title": "A3 | Dinslaken-Nord - Hünxe",
       "startTimestamp": "2025-04-01T20:20:00+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "60.20000076293945",
+      "averageSpeed": "60.099998474121094",
       "coordinate": {
-        "lat": 51.609302032102136,
-        "long": 6.777269614655215
+        "lat": 51.60616208992161,
+        "long": 6.780085632647287
       },
       "description": [
         "Beginn: 01.04.25 um 20:20 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.04.2025, 20:20",
-        "A3: Oberhausen -> Arnheim, zwischen 0.1 km hinter Bergschlag und 1.0 km vor Hünxe",
+        "A3: Oberhausen -> Arnheim, zwischen 2.0 km hinter AS Dinslaken-Nord und 1.0 km vor Hünxe",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
@@ -847,8 +770,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.777269615,
-            51.609302032
+            6.780085633,
+            51.60616209
+          ],
+          [
+            6.7798774,
+            51.606496101
+          ],
+          [
+            6.7793814,
+            51.607118901
+          ],
+          [
+            6.7785002,
+            51.608117401
+          ],
+          [
+            6.777604,
+            51.609008301
           ],
           [
             6.7766097,
@@ -879,8 +818,8 @@
             51.625728201
           ],
           [
-            6.754113674,
-            51.627518691
+            6.754158522,
+            51.627483465
           ]
         ]
       }
