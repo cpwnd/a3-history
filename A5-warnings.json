@@ -13,8 +13,8 @@
       "title": "A5 | Krebsbach - Weil am Rhein/Basel",
       "startTimestamp": "2025-04-06T11:37:01+02:00",
       "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "18.200000762939453",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "17.200000762939453",
       "coordinate": {
         "lat": 47.60323189919868,
         "long": 7.600986786686183
@@ -25,9 +25,9 @@
         "Angespannte Verkehrslage, seit 06.04.2025, 11:37",
         "A5: Karlsruhe -> Basel, zwischen 1.3 km hinter Krebsbach und Weil am Rhein/Basel",
         "",
-        "Langsamer Verkehr",
+        "Stockender Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 18 km/h"
+        "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -99,29 +99,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.255182954209516,8.601511276846457,49.271361313676245,8.61421714279462",
-      "point": "49.255182954209516,8.601511276846457",
+      "extent": "49.25276295327329,8.600689393524938,49.27135341465722,8.61421056651394",
+      "point": "49.25276295327329,8.600689393524938",
       "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Kronau - Walldorf",
       "startTimestamp": "2025-04-06T12:20:02+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "2",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "51",
+      "averageSpeed": "42.900001525878906",
       "coordinate": {
-        "lat": 49.255182954209516,
-        "long": 8.601511276846457
+        "lat": 49.25276295327329,
+        "long": 8.600689393524938
       },
       "description": [
         "Beginn: 06.04.25 um 12:20 Uhr",
         "",
         "Angespannte Verkehrslage, seit 06.04.2025, 12:20",
-        "A5: Karlsruhe -> Heidelberg, zwischen 3.2 km hinter AS Kronau und 1.2 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 2.9 km hinter AS Kronau und 1.2 km vor AK Walldorf",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 51 km/h"
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 42 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -130,8 +130,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.601511277,
-            49.255182954
+            8.600689394,
+            49.252762953
+          ],
+          [
+            8.6007046,
+            49.252838701
+          ],
+          [
+            8.6007655,
+            49.253116201
+          ],
+          [
+            8.6009501,
+            49.253745101
+          ],
+          [
+            8.6011751,
+            49.254365501
           ],
           [
             8.601594,
@@ -238,66 +254,14 @@
             49.270613301
           ],
           [
-            8.614217143,
-            49.271361314
+            8.614210567,
+            49.271353415
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-04-06_11-56-30-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.10671657603506,8.604262708955822,50.10783618226857,8.603497069866425",
-      "point": "50.10671657603506,8.604262708955822",
-      "startLcPosition": "108",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Frankfurt am Main-Westhafen - Westkreuz Frankfurt am Main",
-      "startTimestamp": "2025-04-06T11:56:30+02:00",
-      "coordinate": {
-        "lat": 50.10671657603506,
-        "long": 8.604262708955822
-      },
-      "description": [
-        "Beginn: 06.04.25 um 11:56 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 06.04.2025, 11:56",
-        "A5: Frankfurt -> Kassel, zwischen 1.8 km hinter AS Frankfurt am Main-Westhafen und 0.8 km vor AK Westkreuz Frankfurt am Main",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.604262709,
-            50.106716576
-          ],
-          [
-            8.6041905,
-            50.106815401
-          ],
-          [
-            8.6040614,
-            50.107003401
-          ],
-          [
-            8.6037541,
-            50.107450601
-          ],
-          [
-            8.60349707,
-            50.107836182
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-04-06_11-46-00-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2025-04-06_11-46-00-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
