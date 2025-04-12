@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-04-12_21-14-30-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-04-12_21-14-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -380,9 +380,9 @@
       "subtitle": " Würzburg -> Nürnberg",
       "title": "A3 | Aurach - Fürth/Erlangen",
       "startTimestamp": "2025-04-12T21:07:00+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "30",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "37.29999923706055",
       "coordinate": {
         "lat": 49.57537528166055,
         "long": 10.932211053711484
@@ -393,9 +393,9 @@
         "Angespannte Verkehrslage, seit 12.04.2025, 21:07",
         "A3: Würzburg -> Nürnberg, zwischen 0.8 km hinter Aurach und 3.1 km vor AK Fürth/Erlangen",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 30 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 37 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -535,33 +535,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-04-12_21-17-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-04-12_21-28-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.45890844051045,6.805450752129093,51.45359522654527,6.799388775748274",
-      "point": "51.45890844051045,6.805450752129093",
-      "startLcPosition": "231",
+      "extent": "50.21344035296884,8.250333804899505,50.212226100940185,8.250617399999783",
+      "point": "50.21344035296884,8.250333804899505",
+      "startLcPosition": "174",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-Lirich - Kaiserberg",
-      "startTimestamp": "2025-04-12T21:17:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "46.70000076293945",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bad Camberg - Theißtal",
+      "startTimestamp": "2025-04-12T21:28:00+02:00",
       "coordinate": {
-        "lat": 51.45890844051045,
-        "long": 6.805450752129093
+        "lat": 50.21344035296884,
+        "long": 8.250333804899505
       },
       "description": [
-        "Beginn: 12.04.25 um 21:17 Uhr",
+        "Beginn: 12.04.25 um 21:28 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 12.04.2025, 21:17",
-        "A3: Oberhausen -> Köln, zwischen 2.2 km hinter AS Oberhausen-Lirich und 0.8 km vor AK Kaiserberg",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 46 km/h"
+        "Fahrzeug-Hindernis, seit 12.04.2025, 21:28",
+        "A3: Köln -> Frankfurt, zwischen 9.8 km hinter AS Bad Camberg und 6.2 km vor Theißtal",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -570,8 +564,366 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.805450752,
-            51.458908441
+            8.250333805,
+            50.213440353
+          ],
+          [
+            8.2503408,
+            50.213410301
+          ],
+          [
+            8.2504259,
+            50.213067201
+          ],
+          [
+            8.2506174,
+            50.212226101
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-04-12_21-28-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.625401922888514,7.387842846546624,50.62668154061674,7.38595235599896",
+      "point": "50.625401922888514,7.387842846546624",
+      "startLcPosition": "196",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Pfaffenbach - Hambitz",
+      "startTimestamp": "2025-04-12T21:28:00+02:00",
+      "coordinate": {
+        "lat": 50.625401922888514,
+        "long": 7.387842846546624
+      },
+      "description": [
+        "Beginn: 12.04.25 um 21:28 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 12.04.2025, 21:28",
+        "A3: Frankfurt -> Köln, zwischen 2.3 km hinter Pfaffenbach und 2.2 km vor Hambitz",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.387842847,
+            50.625401923
+          ],
+          [
+            7.3873583,
+            50.625686201
+          ],
+          [
+            7.3871118,
+            50.625836001
+          ],
+          [
+            7.3864284,
+            50.626300401
+          ],
+          [
+            7.385952356,
+            50.626681541
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-04-12_21-21-00-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.64899640093807,7.331643199998532,50.673708533245424,7.298551979661476",
+      "point": "50.64899640093807,7.331643199998532",
+      "startLcPosition": "197",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Hambitz - Logebachtal",
+      "startTimestamp": "2025-04-12T21:21:00+02:00",
+      "coordinate": {
+        "lat": 50.64899640093807,
+        "long": 7.331643199998532
+      },
+      "description": [
+        "Beginn: 12.04.25 um 21:21 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 12.04.2025, 21:21",
+        "A3: Frankfurt -> Köln, zwischen 2.5 km hinter Hambitz und 0.2 km vor Logebachtal",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.3316432,
+            50.648996401
+          ],
+          [
+            7.3306188,
+            50.649929301
+          ],
+          [
+            7.3303494,
+            50.650167801
+          ],
+          [
+            7.3301359,
+            50.650395001
+          ],
+          [
+            7.329765,
+            50.650823401
+          ],
+          [
+            7.3273017,
+            50.653627801
+          ],
+          [
+            7.3255987,
+            50.655622701
+          ],
+          [
+            7.3253717,
+            50.655885901
+          ],
+          [
+            7.3248919,
+            50.656457101
+          ],
+          [
+            7.3225057,
+            50.659243501
+          ],
+          [
+            7.321323,
+            50.660639601
+          ],
+          [
+            7.3200523,
+            50.662049201
+          ],
+          [
+            7.3196595,
+            50.662458101
+          ],
+          [
+            7.3194222,
+            50.662687301
+          ],
+          [
+            7.3187866,
+            50.663253701
+          ],
+          [
+            7.3176015,
+            50.664184401
+          ],
+          [
+            7.3168248,
+            50.664681401
+          ],
+          [
+            7.3162244,
+            50.665046201
+          ],
+          [
+            7.3154848,
+            50.665457501
+          ],
+          [
+            7.314739,
+            50.665830601
+          ],
+          [
+            7.3139137,
+            50.666222001
+          ],
+          [
+            7.3135039,
+            50.666393501
+          ],
+          [
+            7.3130639,
+            50.666564101
+          ],
+          [
+            7.3097803,
+            50.667810501
+          ],
+          [
+            7.308138,
+            50.668442801
+          ],
+          [
+            7.3074451,
+            50.668715401
+          ],
+          [
+            7.3066139,
+            50.669061701
+          ],
+          [
+            7.3059099,
+            50.669361701
+          ],
+          [
+            7.3047073,
+            50.669924201
+          ],
+          [
+            7.303567,
+            50.670552401
+          ],
+          [
+            7.3025996,
+            50.671161001
+          ],
+          [
+            7.301563,
+            50.671848101
+          ],
+          [
+            7.3007131,
+            50.672419701
+          ],
+          [
+            7.2997489,
+            50.673019101
+          ],
+          [
+            7.299125,
+            50.673393101
+          ],
+          [
+            7.2987818,
+            50.673589001
+          ],
+          [
+            7.29855198,
+            50.673708533
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-04-12_21-17-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.46720141855678,6.816037892203724,51.44157248671712,6.802942405356876",
+      "point": "51.46720141855678,6.816037892203724",
+      "startLcPosition": "231",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Oberhausen-Lirich - Duisburg-Wedau",
+      "startTimestamp": "2025-04-12T21:17:00+02:00",
+      "delayTimeValue": "8",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "18.799999237060547",
+      "coordinate": {
+        "lat": 51.46720141855678,
+        "long": 6.816037892203724
+      },
+      "description": [
+        "Beginn: 12.04.25 um 21:17 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.04.2025, 21:17",
+        "A3: Oberhausen -> Köln, zwischen 0.9 km hinter AS Oberhausen-Lirich und 4.0 km vor AS Duisburg-Wedau",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 8 Minuten",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.816037892,
+            51.467201419
+          ],
+          [
+            6.816019,
+            51.467105601
+          ],
+          [
+            6.8159667,
+            51.466840501
+          ],
+          [
+            6.8156363,
+            51.465810701
+          ],
+          [
+            6.8153241,
+            51.465084301
+          ],
+          [
+            6.8149865,
+            51.464505701
+          ],
+          [
+            6.8144559,
+            51.463771401
+          ],
+          [
+            6.8142594,
+            51.463532101
+          ],
+          [
+            6.8139396,
+            51.463173401
+          ],
+          [
+            6.8134116,
+            51.462727801
+          ],
+          [
+            6.8131532,
+            51.462508801
+          ],
+          [
+            6.812532,
+            51.462006701
+          ],
+          [
+            6.8122792,
+            51.461825301
+          ],
+          [
+            6.8114678,
+            51.461322601
+          ],
+          [
+            6.8105755,
+            51.460835701
+          ],
+          [
+            6.8099604,
+            51.460542701
+          ],
+          [
+            6.8092932,
+            51.460270101
+          ],
+          [
+            6.8084563,
+            51.459971201
+          ],
+          [
+            6.8060584,
+            51.459152001
           ],
           [
             6.8051398,
@@ -626,8 +978,96 @@
             51.454079101
           ],
           [
-            6.799388776,
-            51.453595227
+            6.7993858,
+            51.453588601
+          ],
+          [
+            6.7992119,
+            51.453116001
+          ],
+          [
+            6.7990188,
+            51.452611101
+          ],
+          [
+            6.7988856,
+            51.452103801
+          ],
+          [
+            6.7987473,
+            51.451586701
+          ],
+          [
+            6.7986359,
+            51.451065301
+          ],
+          [
+            6.7984914,
+            51.450177701
+          ],
+          [
+            6.7984306,
+            51.449655601
+          ],
+          [
+            6.7984121,
+            51.449192901
+          ],
+          [
+            6.7984227,
+            51.448777201
+          ],
+          [
+            6.7985073,
+            51.447968001
+          ],
+          [
+            6.7987327,
+            51.446670001
+          ],
+          [
+            6.7988315,
+            51.446165201
+          ],
+          [
+            6.7989323,
+            51.445826201
+          ],
+          [
+            6.7990789,
+            51.445432301
+          ],
+          [
+            6.7993396,
+            51.444861501
+          ],
+          [
+            6.799599,
+            51.444413501
+          ],
+          [
+            6.7998908,
+            51.444012601
+          ],
+          [
+            6.8004226,
+            51.443434701
+          ],
+          [
+            6.8010137,
+            51.442914601
+          ],
+          [
+            6.8014849,
+            51.442526901
+          ],
+          [
+            6.801996,
+            51.442156401
+          ],
+          [
+            6.802942405,
+            51.441572487
           ]
         ]
       }
