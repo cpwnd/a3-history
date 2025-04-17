@@ -12,9 +12,9 @@
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Kaltenborn - Lüdenscheid-Nord",
       "startTimestamp": "2025-04-17T06:05:00+02:00",
-      "delayTimeValue": "21",
+      "delayTimeValue": "18",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3.700000047683716",
+      "averageSpeed": "4.199999809265137",
       "coordinate": {
         "lat": 51.27529885435918,
         "long": 7.596897810805418
@@ -26,8 +26,8 @@
         "A45: Hagen -> Gießen, zwischen 2.3 km hinter Kaltenborn und 0.8 km vor AS Lüdenscheid-Nord",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 21 Minuten",
-        "Durchschnittsgeschwindigkeit: 3 km/h"
+        "Reisezeitverlust: 18 Minuten",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -99,33 +99,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-04-17_13-53-31-000.f_007.de0",
+      "identifier": "undefined--vi-hind.2025-04-17_16-31-34-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.488134693853425,7.389580131203806,51.509492775852074,7.390069027567824",
-      "point": "51.488134693853425,7.389580131203806",
-      "startLcPosition": "107",
+      "extent": "51.409910719395484,7.549935282875341,51.40845458077463,7.548775958943233",
+      "point": "51.409910719395484,7.549935282875341",
+      "startLcPosition": "101",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Dortmund-Eichlinghofen - Dortmund-Hafen",
-      "startTimestamp": "2025-04-17T13:53:31+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "36.400001525878906",
+      "subtitle": " Dortmund -> Hagen",
+      "title": "A45 | Schwerte-Ergste - Im Busch",
+      "startTimestamp": "2025-04-17T16:31:34+02:00",
       "coordinate": {
-        "lat": 51.488134693853425,
-        "long": 7.389580131203806
+        "lat": 51.409910719395484,
+        "long": 7.549935282875341
       },
       "description": [
-        "Beginn: 17.04.25 um 13:53 Uhr",
+        "Beginn: 17.04.25 um 16:31 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 17.04.2025, 13:53",
-        "A45: Hagen -> Dortmund, zwischen 1.0 km hinter AS Dortmund-Eichlinghofen und 1.1 km vor AS Dortmund-Hafen",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 36 km/h"
+        "Fahrzeug-Hindernis, seit 17.04.2025, 16:31",
+        "A45: Dortmund -> Hagen, zwischen AS Schwerte-Ergste und 1.7 km vor Im Busch",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -134,8 +128,146 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.389580131,
-            51.488134694
+            7.549935283,
+            51.409910719
+          ],
+          [
+            7.5498598,
+            51.409792301
+          ],
+          [
+            7.549502,
+            51.409302401
+          ],
+          [
+            7.5490618,
+            51.408741501
+          ],
+          [
+            7.548775959,
+            51.408454581
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-04-17_13-53-31-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.480204774657096,7.391917313857337,51.509492775852074,7.390069027567824",
+      "point": "51.480204774657096,7.391917313857337",
+      "startLcPosition": "107",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Dortmund-Eichlinghofen - Dortmund-Hafen",
+      "startTimestamp": "2025-04-17T13:53:31+02:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "41",
+      "coordinate": {
+        "lat": 51.480204774657096,
+        "long": 7.391917313857337
+      },
+      "description": [
+        "Beginn: 17.04.25 um 13:53 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 17.04.2025, 13:53",
+        "A45: Hagen -> Dortmund, zwischen AS Dortmund-Eichlinghofen und 1.1 km vor AS Dortmund-Hafen",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 41 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.391917314,
+            51.480204775
+          ],
+          [
+            7.3918075,
+            51.480817001
+          ],
+          [
+            7.3917218,
+            51.481497601
+          ],
+          [
+            7.3916713,
+            51.481858201
+          ],
+          [
+            7.3915956,
+            51.482736801
+          ],
+          [
+            7.3915347,
+            51.483265001
+          ],
+          [
+            7.3914962,
+            51.483521101
+          ],
+          [
+            7.3914544,
+            51.483772301
+          ],
+          [
+            7.3914094,
+            51.484023501
+          ],
+          [
+            7.3913546,
+            51.484272301
+          ],
+          [
+            7.3912901,
+            51.484536401
+          ],
+          [
+            7.3912173,
+            51.484795701
+          ],
+          [
+            7.3911344,
+            51.485054801
+          ],
+          [
+            7.3910507,
+            51.485310301
+          ],
+          [
+            7.3909524,
+            51.485566301
+          ],
+          [
+            7.3908519,
+            51.485821001
+          ],
+          [
+            7.3905952,
+            51.486387101
+          ],
+          [
+            7.3904806,
+            51.486617601
+          ],
+          [
+            7.3902226,
+            51.487092101
+          ],
+          [
+            7.38993,
+            51.487585401
+          ],
+          [
+            7.3897118,
+            51.487931701
           ],
           [
             7.3895427,
@@ -349,29 +481,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.556068400933086,7.357316899998622,51.58206188869336,7.366742597998634",
-      "point": "51.556068400933086,7.357316899998622",
+      "extent": "51.55155200057771,7.357864923564178,51.5820531234725,7.366739390037713",
+      "point": "51.55155200057771,7.357864923564178",
       "startLcPosition": "111",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Westerfilde - Dortmund-Nordwest",
       "startTimestamp": "2025-04-17T13:53:31+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "42.70000076293945",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "35.29999923706055",
       "coordinate": {
-        "lat": 51.556068400933086,
-        "long": 7.357316899998622
+        "lat": 51.55155200057771,
+        "long": 7.357864923564178
       },
       "description": [
         "Beginn: 17.04.25 um 13:53 Uhr",
         "",
         "Angespannte Verkehrslage, seit 17.04.2025, 13:53",
-        "A45: Hagen -> Dortmund, zwischen 2.3 km hinter Westerfilde und 0.4 km vor AK Dortmund-Nordwest",
+        "A45: Hagen -> Dortmund, zwischen 1.8 km hinter Westerfilde und 0.4 km vor AK Dortmund-Nordwest",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 42 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 35 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -379,6 +511,26 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            7.357864924,
+            51.551552001
+          ],
+          [
+            7.357831,
+            51.551676501
+          ],
+          [
+            7.357667,
+            51.552377101
+          ],
+          [
+            7.3574895,
+            51.553351101
+          ],
+          [
+            7.3573824,
+            51.554265401
+          ],
           [
             7.3573169,
             51.556068401
@@ -584,8 +736,8 @@
             51.581176601
           ],
           [
-            7.366742598,
-            51.582061889
+            7.36673939,
+            51.582053123
           ]
         ]
       }
