@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-04-22_19-08-00-000.f_002.de0",
+      "identifier": "undefined--vi-zus.2025-04-22_19-08-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -19,9 +19,12 @@
       "description": [
         "Beginn: 22.04.25 um 19:08 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 22.04.2025, 19:08",
+        "Zusammengesetzte Verkehrsinformation, seit 22.04.2025, 19:08",
         "A5: Heidelberg -> Karlsruhe, zwischen 8.0 km hinter AS Kronau und 0.4 km vor AS Karlsruhe-Nord",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "",
+        "Gefahr durch Personen auf der Fahrbahn",
+        "",
+        "A5 Heidelberg Richtung Karlsruhe\nzwischen Bruchsal und Karlsruhe-Nord\ndefekter LKW auf dem Standstreifen, Gefahr durch 2 Personen auf dem Standstreifen"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -921,33 +924,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-04-22_19-27-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-04-22_19-48-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.52177120263884,8.637150416937587,49.542570506514174,8.628990343012171",
-      "point": "49.52177120263884,8.637150416937587",
-      "startLcPosition": "76",
+      "extent": "49.313275114490935,8.629172240445472,49.31217364188413,8.629013313281858",
+      "point": "49.313275114490935,8.629172240445472",
+      "startLcPosition": "71",
       "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Hirschberg - Weinheim",
-      "startTimestamp": "2025-04-22T19:27:00+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "38.29999923706055",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Hardtwald - Walldorf/Wiesloch",
+      "startTimestamp": "2025-04-22T19:48:30+02:00",
       "coordinate": {
-        "lat": 49.52177120263884,
-        "long": 8.637150416937587
+        "lat": 49.313275114490935,
+        "long": 8.629172240445472
       },
       "description": [
-        "Beginn: 22.04.25 um 19:27 Uhr",
+        "Beginn: 22.04.25 um 19:48 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.04.2025, 19:27",
-        "A5: Heidelberg -> Darmstadt, zwischen 1.4 km hinter AS Hirschberg und 0.7 km vor AK Weinheim",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 38 km/h"
+        "Fahrzeug-Hindernis, seit 22.04.2025, 19:48",
+        "A5: Heidelberg -> Karlsruhe, zwischen 4.1 km hinter Hardtwald und 1.2 km vor AS Walldorf/Wiesloch",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -956,24 +953,62 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.637150417,
-            49.521771203
+            8.62917224,
+            49.313275114
           ],
           [
-            8.6370944,
-            49.521954901
+            8.6291691,
+            49.313243101
           ],
           [
-            8.6368997,
-            49.522556301
+            8.6290391,
+            49.312330801
           ],
           [
-            8.6364987,
-            49.523747301
-          ],
+            8.629013313,
+            49.312173642
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-04-22_19-27-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.52560042276471,8.635850708547402,49.54092807970362,8.629522825258237",
+      "point": "49.52560042276471,8.635850708547402",
+      "startLcPosition": "76",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Hirschberg - Weinheim",
+      "startTimestamp": "2025-04-22T19:27:00+02:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "23.600000381469727",
+      "coordinate": {
+        "lat": 49.52560042276471,
+        "long": 8.635850708547402
+      },
+      "description": [
+        "Beginn: 22.04.25 um 19:27 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.04.2025, 19:27",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.9 km hinter AS Hirschberg und 0.9 km vor AK Weinheim",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            8.6359581,
-            49.525284501
+            8.635850709,
+            49.525600423
           ],
           [
             8.6357675,
@@ -1032,42 +1067,40 @@
             49.540463101
           ],
           [
-            8.6294095,
-            49.541254201
-          ],
-          [
-            8.629008,
-            49.542508601
-          ],
-          [
-            8.628990343,
-            49.542570507
+            8.629522825,
+            49.54092808
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-04-22_18-35-37-000.f_004.de0",
+      "identifier": "undefined--vi-zus.2025-04-22_20-14-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.6473145876461,8.609520579856511,49.5954306219248,8.631078054759517",
-      "point": "49.6473145876461,8.609520579856511",
-      "startLcPosition": "83",
+      "extent": "50.15302637421426,8.600753501026363,50.14306938866998,8.595280019066307",
+      "point": "50.15302637421426,8.600753501026363",
+      "startLcPosition": "111",
       "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Heidelberg",
-      "title": "A5 | Kälberpfad - Hemsbach",
-      "startTimestamp": "2025-04-22T18:35:37+02:00",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Taunusblick - Nordwestkreuz Frankfurt am Main",
+      "startTimestamp": "2025-04-22T20:14:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "49.70000076293945",
       "coordinate": {
-        "lat": 49.6473145876461,
-        "long": 8.609520579856511
+        "lat": 50.15302637421426,
+        "long": 8.600753501026363
       },
       "description": [
-        "Beginn: 22.04.25 um 18:35 Uhr",
+        "Beginn: 22.04.25 um 20:14 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 22.04.2025, 18:35",
-        "A5: Darmstadt -> Heidelberg, zwischen 1.8 km hinter Kälberpfad und 0.2 km vor AS Hemsbach",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Zusammengesetzte Verkehrsinformation, seit 22.04.2025, 20:14",
+        "A5: Kassel -> Frankfurt, zwischen 0.2 km hinter Taunusblick und 1.0 km vor AK Nordwestkreuz Frankfurt am Main",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 49 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1076,244 +1109,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.60952058,
-            49.647314588
+            8.600753501,
+            50.153026374
           ],
           [
-            8.6093639,
-            49.645423501
+            8.6003253,
+            50.152262001
           ],
           [
-            8.6092645,
-            49.643091701
+            8.5998443,
+            50.151357401
           ],
           [
-            8.6092634,
-            49.643031001
+            8.5994648,
+            50.150665701
           ],
           [
-            8.6093027,
-            49.641237901
+            8.5992135,
+            50.150207501
           ],
           [
-            8.6093634,
-            49.640476801
+            8.5984048,
+            50.148738101
           ],
           [
-            8.6094496,
-            49.639727001
+            8.5978323,
+            50.147732401
           ],
           [
-            8.6096786,
-            49.638335201
+            8.5972706,
+            50.146719801
           ],
           [
-            8.6098991,
-            49.637359701
+            8.5964434,
+            50.145175301
           ],
           [
-            8.6099305,
-            49.637218401
+            8.5955732,
+            50.143610401
           ],
           [
-            8.6101303,
-            49.636463401
-          ],
-          [
-            8.6103971,
-            49.635588101
-          ],
-          [
-            8.6107124,
-            49.634675201
-          ],
-          [
-            8.6107506,
-            49.634584101
-          ],
-          [
-            8.6110899,
-            49.633711701
-          ],
-          [
-            8.611433,
-            49.632932001
-          ],
-          [
-            8.6120688,
-            49.631629201
-          ],
-          [
-            8.6128621,
-            49.630217201
-          ],
-          [
-            8.6136536,
-            49.628976401
-          ],
-          [
-            8.614238,
-            49.628144101
-          ],
-          [
-            8.6147813,
-            49.627406901
-          ],
-          [
-            8.6153654,
-            49.626671201
-          ],
-          [
-            8.6157465,
-            49.626212101
-          ],
-          [
-            8.6164589,
-            49.625380101
-          ],
-          [
-            8.6168762,
-            49.624905401
-          ],
-          [
-            8.6172455,
-            49.624503901
-          ],
-          [
-            8.6174556,
-            49.624282001
-          ],
-          [
-            8.6188969,
-            49.622762701
-          ],
-          [
-            8.619688,
-            49.621946101
-          ],
-          [
-            8.6210894,
-            49.620500801
-          ],
-          [
-            8.6213405,
-            49.620233501
-          ],
-          [
-            8.6219942,
-            49.619531001
-          ],
-          [
-            8.6229159,
-            49.618536301
-          ],
-          [
-            8.6236056,
-            49.617755901
-          ],
-          [
-            8.6243748,
-            49.616826301
-          ],
-          [
-            8.625348,
-            49.615549701
-          ],
-          [
-            8.6255379,
-            49.615270801
-          ],
-          [
-            8.6258481,
-            49.614815201
-          ],
-          [
-            8.626136,
-            49.614389601
-          ],
-          [
-            8.6262285,
-            49.614252801
-          ],
-          [
-            8.6263584,
-            49.614060801
-          ],
-          [
-            8.6268163,
-            49.613330101
-          ],
-          [
-            8.6272591,
-            49.612582301
-          ],
-          [
-            8.6276296,
-            49.611907401
-          ],
-          [
-            8.6280245,
-            49.611129801
-          ],
-          [
-            8.6283781,
-            49.610379401
-          ],
-          [
-            8.6286225,
-            49.609818001
-          ],
-          [
-            8.6290795,
-            49.608681401
-          ],
-          [
-            8.6294946,
-            49.607488801
-          ],
-          [
-            8.6298177,
-            49.606385201
-          ],
-          [
-            8.6300048,
-            49.605660901
-          ],
-          [
-            8.6301565,
-            49.604942001
-          ],
-          [
-            8.6303412,
-            49.604021401
-          ],
-          [
-            8.6304931,
-            49.602871601
-          ],
-          [
-            8.6306181,
-            49.601336101
-          ],
-          [
-            8.6307141,
-            49.599874901
-          ],
-          [
-            8.6307904,
-            49.598275801
-          ],
-          [
-            8.6308817,
-            49.597035401
-          ],
-          [
-            8.6309457,
-            49.596359201
-          ],
-          [
-            8.631078055,
-            49.595430622
+            8.595280019,
+            50.143069389
           ]
         ]
       }
