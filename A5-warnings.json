@@ -1,33 +1,64 @@
 {
   "warning": [
     {
+      "identifier": "undefined--vi-avl.2025-04-26_16-32-30-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.600942917649334,7.602054219985596,47.600942917649334,7.602054219985596",
+      "point": "47.600942917649334,7.602054219985596",
+      "startLcPosition": "1",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein - Weil am Rhein",
+      "startTimestamp": "2025-04-26T16:41:07+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "4",
+      "coordinate": {
+        "lat": 47.600942917649334,
+        "long": 7.602054219985596
+      },
+      "description": [
+        "Beginn: 26.04.25 um 16:41 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.04.2025, 16:41",
+        "A5: Karlsruhe -> Basel, 0.4 km vor Weil am Rhein, aus Richtung Weil am Rhein/Hüningen",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
       "identifier": "undefined--vi-avl.2025-04-26_16-26-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.258878997305644,8.603865841025831,49.26976605744104,8.612887821618282",
-      "point": "49.258878997305644,8.603865841025831",
-      "startLcPosition": "68",
+      "extent": "49.25501792182343,8.601443406517204,49.27135341465722,8.61421056651394",
+      "point": "49.25501792182343,8.601443406517204",
+      "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Lußhardt - Walldorf",
+      "title": "A5 | Kronau - Walldorf",
       "startTimestamp": "2025-04-26T16:26:00+02:00",
-      "delayTimeValue": "0",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55.29999923706055",
+      "averageSpeed": "54.900001525878906",
       "coordinate": {
-        "lat": 49.258878997305644,
-        "long": 8.603865841025831
+        "lat": 49.25501792182343,
+        "long": 8.601443406517204
       },
       "description": [
         "Beginn: 26.04.25 um 16:26 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.04.2025, 16:26",
-        "A5: Karlsruhe -> Heidelberg, zwischen 0.2 km hinter Lußhardt und 1.4 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 3.1 km hinter AS Kronau und 1.2 km vor AK Walldorf",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 55 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +67,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.603865841,
-            49.258878997
+            8.601443407,
+            49.255017922
+          ],
+          [
+            8.601594,
+            49.255384101
+          ],
+          [
+            8.6018051,
+            49.255810101
+          ],
+          [
+            8.602064,
+            49.256303601
+          ],
+          [
+            8.6023263,
+            49.256755301
+          ],
+          [
+            8.6025601,
+            49.257128201
+          ],
+          [
+            8.6030971,
+            49.257908801
+          ],
+          [
+            8.6034531,
+            49.258360401
           ],
           [
             8.6040372,
@@ -108,58 +167,22 @@
             49.268424701
           ],
           [
-            8.612887822,
-            49.269766057
+            8.6134499,
+            49.270443901
+          ],
+          [
+            8.6135944,
+            49.270613301
+          ],
+          [
+            8.614210567,
+            49.271353415
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-04-26_16-26-00-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.01439785455609,8.593994851560044,50.01598149521069,8.593631070759193",
-      "point": "50.01439785455609,8.593994851560044",
-      "startLcPosition": "103",
-      "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Frankfurt",
-      "title": "A5 | Kaiserstein - Zeppelinheim",
-      "startTimestamp": "2025-04-26T16:26:00+02:00",
-      "coordinate": {
-        "lat": 50.01439785455609,
-        "long": 8.593994851560044
-      },
-      "description": [
-        "Beginn: 26.04.25 um 16:26 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 26.04.2025, 16:26",
-        "A5: Darmstadt -> Frankfurt, zwischen 1.2 km hinter Kaiserstein und 2.1 km vor AS Zeppelinheim",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.593994852,
-            50.014397855
-          ],
-          [
-            8.5938025,
-            50.015204501
-          ],
-          [
-            8.593631071,
-            50.015981495
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-04-26_16-10-04-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-04-26_16-10-04-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -207,105 +230,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-04-26_15-28-56-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.15143646047372,8.599886337302445,50.13809250094052,8.592524999999887",
-      "point": "50.15143646047372,8.599886337302445",
-      "startLcPosition": "111",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Taunusblick - Nordwestkreuz Frankfurt am Main",
-      "startTimestamp": "2025-04-26T15:28:56+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "57.900001525878906",
-      "coordinate": {
-        "lat": 50.15143646047372,
-        "long": 8.599886337302445
-      },
-      "description": [
-        "Beginn: 26.04.25 um 15:28 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 26.04.2025, 15:28",
-        "A5: Kassel -> Frankfurt, zwischen 0.4 km hinter Taunusblick und 0.4 km vor AK Nordwestkreuz Frankfurt am Main",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 57 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.599886337,
-            50.15143646
-          ],
-          [
-            8.5998443,
-            50.151357401
-          ],
-          [
-            8.5994648,
-            50.150665701
-          ],
-          [
-            8.5992135,
-            50.150207501
-          ],
-          [
-            8.5984048,
-            50.148738101
-          ],
-          [
-            8.5978323,
-            50.147732401
-          ],
-          [
-            8.5972706,
-            50.146719801
-          ],
-          [
-            8.5964434,
-            50.145175301
-          ],
-          [
-            8.5955732,
-            50.143610401
-          ],
-          [
-            8.5952784,
-            50.143066401
-          ],
-          [
-            8.5945208,
-            50.141692301
-          ],
-          [
-            8.593995,
-            50.140771201
-          ],
-          [
-            8.5932324,
-            50.139374201
-          ],
-          [
-            8.593004,
-            50.138943101
-          ],
-          [
-            8.592525,
-            50.138092501
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-04-26_09-56-01-000.f_025.de0",
+      "identifier": "undefined--vi-hind.2025-04-26_09-56-01-000.f_027.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -336,27 +261,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.59137531232784,7.603586072107891,47.59137531232784,7.603586072107891",
-      "point": "47.59137531232784,7.603586072107891",
+      "extent": "47.589895087739535,7.6031869672988535,47.589895087739535,7.6031869672988535",
+      "point": "47.589895087739535,7.6031869672988535",
       "startLcPosition": "1000",
       "display_type": "WARNING",
       "subtitle": "",
       "title": "Baustelle",
-      "startTimestamp": "2025-04-26T16:25:31+02:00",
+      "startTimestamp": "2025-04-26T16:42:00+02:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "5",
+      "averageSpeed": "4",
       "coordinate": {
-        "lat": 47.59137531232784,
-        "long": 7.603586072107891
+        "lat": 47.589895087739535,
+        "long": 7.6031869672988535
       },
       "description": [
-        "Beginn: 26.04.25 um 16:25 Uhr",
+        "Beginn: 26.04.25 um 16:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 26.04.2025, 16:25",
+        "Angespannte Verkehrslage, seit 26.04.2025, 16:42",
         "A5 N",
         "",
         "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 5 km/h"
+        "Durchschnittsgeschwindigkeit: 4 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
