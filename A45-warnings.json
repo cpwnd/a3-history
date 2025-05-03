@@ -5,53 +5,60 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.32317896812613,8.929313839897496,50.32317896812613,8.929313839897496",
-      "point": "50.32317896812613,8.929313839897496",
+      "extent": "50.32192466266616,8.930602966237947,50.32192466266616,8.930602966237947",
+      "point": "50.32192466266616,8.930602966237947",
       "startLcPosition": "12",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Altenstadt - Altenstadt",
-      "startTimestamp": "2025-05-03T06:12:30+02:00",
+      "startTimestamp": "2025-05-03T06:37:30+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23",
+      "averageSpeed": "6",
       "coordinate": {
-        "lat": 50.32317896812613,
-        "long": 8.929313839897496
+        "lat": 50.32192466266616,
+        "long": 8.930602966237947
       },
       "description": [
-        "Beginn: 03.05.25 um 06:12 Uhr",
+        "Beginn: 03.05.25 um 06:37 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 03.05.2025, 06:12",
-        "A45: Gießen -> Aschaffenburg, 4.7 km vor AS Altenstadt, aus Richtung Florstadt",
+        "Angespannte Verkehrslage, seit 03.05.2025, 06:37",
+        "A45: Gießen -> Aschaffenburg, 4.6 km vor AS Altenstadt, aus Richtung Florstadt",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Durchschnittsgeschwindigkeit: 6 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-unf.2025-05-03_04-10-00-000.f_004.de0",
+      "identifier": "undefined--vi-zus.2025-05-03_05-05-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.31396676623792,8.947272558668546,50.29276010093981,8.964932799999993",
-      "point": "50.31396676623792,8.947272558668546",
+      "extent": "50.32192466266616,8.930602966237947,50.31950499909503,8.93380474225692",
+      "point": "50.32192466266616,8.930602966237947",
       "startLcPosition": "13",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Florstadt - Altenstadt",
-      "startTimestamp": "2025-05-03T04:10:00+02:00",
+      "startTimestamp": "2025-05-03T05:05:30+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "7.199999809265137",
       "coordinate": {
-        "lat": 50.31396676623792,
-        "long": 8.947272558668546
+        "lat": 50.32192466266616,
+        "long": 8.930602966237947
       },
       "description": [
-        "Beginn: 03.05.25 um 04:10 Uhr",
+        "Beginn: 03.05.25 um 05:05 Uhr",
         "",
-        "Unfall, seit 03.05.2025, 04:10",
-        "A45: Gießen -> Aschaffenburg, zwischen 2.5 km hinter AS Florstadt und 0.3 km vor AS Altenstadt"
+        "Zusammengesetzte Verkehrsinformation, seit 03.05.2025, 05:05",
+        "A45: Gießen -> Aschaffenburg, zwischen 1.0 km hinter AS Florstadt und 4.2 km vor AS Altenstadt",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -60,8 +67,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.947272559,
-            50.313966766
+            8.930602966,
+            50.321924663
+          ],
+          [
+            8.931155,
+            50.321448301
+          ],
+          [
+            8.9318708,
+            50.320865601
+          ],
+          [
+            8.9328219,
+            50.320162801
+          ],
+          [
+            8.9337946,
+            50.319511101
+          ],
+          [
+            8.933804742,
+            50.319504999
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-05-03_04-10-00-000.f_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.31559168512543,8.942324109315367,50.29276010093981,8.964932799999993",
+      "point": "50.31559168512543,8.942324109315367",
+      "startLcPosition": "13",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Florstadt - Altenstadt",
+      "startTimestamp": "2025-05-03T04:10:00+02:00",
+      "coordinate": {
+        "lat": 50.31559168512543,
+        "long": 8.942324109315367
+      },
+      "description": [
+        "Beginn: 03.05.25 um 04:10 Uhr",
+        "",
+        "Unfall, seit 03.05.2025, 04:10",
+        "A45: Gießen -> Aschaffenburg, zwischen 2.1 km hinter AS Florstadt und 0.3 km vor AS Altenstadt"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.942324109,
+            50.315591685
+          ],
+          [
+            8.9448211,
+            50.314795301
+          ],
+          [
+            8.9461242,
+            50.314371401
           ],
           [
             8.9473996,
@@ -171,109 +241,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-05-03_05-05-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.32317896812613,8.929313839897496,50.31559168512543,8.942324109315367",
-      "point": "50.32317896812613,8.929313839897496",
-      "startLcPosition": "13",
-      "display_type": "WARNING",
-      "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Florstadt - Altenstadt",
-      "startTimestamp": "2025-05-03T05:05:30+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23.200000762939453",
-      "coordinate": {
-        "lat": 50.32317896812613,
-        "long": 8.929313839897496
-      },
-      "description": [
-        "Beginn: 03.05.25 um 05:05 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 03.05.2025, 05:05",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.9 km hinter AS Florstadt und 3.5 km vor AS Altenstadt",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.92931384,
-            50.323178968
-          ],
-          [
-            8.9298113,
-            50.322665401
-          ],
-          [
-            8.9305145,
-            50.322001001
-          ],
-          [
-            8.931155,
-            50.321448301
-          ],
-          [
-            8.9318708,
-            50.320865601
-          ],
-          [
-            8.9328219,
-            50.320162801
-          ],
-          [
-            8.9337946,
-            50.319511101
-          ],
-          [
-            8.9354956,
-            50.318487701
-          ],
-          [
-            8.9355798,
-            50.318441601
-          ],
-          [
-            8.9357603,
-            50.318337601
-          ],
-          [
-            8.9362381,
-            50.318072601
-          ],
-          [
-            8.9372181,
-            50.317588901
-          ],
-          [
-            8.9382251,
-            50.317126701
-          ],
-          [
-            8.9403285,
-            50.316263501
-          ],
-          [
-            8.9417446,
-            50.315776501
-          ],
-          [
-            8.942324109,
-            50.315591685
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-05-03_03-50-30-000.f_004.de0",
+      "identifier": "undefined--vi-zus.2025-05-03_03-50-30-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -294,7 +262,7 @@
         "Zusammengesetzte Verkehrsinformation, seit 03.05.2025, 03:50",
         "A45: Gießen -> Aschaffenburg, zwischen 1.2 km hinter Hohe Berg und 0.3 km vor AS Altenstadt",
         "",
-        "A45 Gießen Richtung Aschaffenburg zwischen Florstadt und Altenstadt Rettungshubschrauber im Einsatz, Unfallaufnahme, Bergungsarbeiten, Richtungsfahrbahn gesperrt"
+        "A45 Gießen Richtung Aschaffenburg zwischen Florstadt und Altenstadt Unfallaufnahme, Bergungsarbeiten, Richtungsfahrbahn gesperrt"
       ],
       "routeRecommendation": [],
       "footer": [],
