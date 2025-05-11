@@ -1,57 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-05-11_19-35-30-000.f_002.de0",
+      "identifier": "undefined--vi-zus.2025-05-11_19-31-33-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.0870512595307,9.035193292062198,50.0870512595307,9.035193292062198",
-      "point": "50.0870512595307,9.035193292062198",
-      "startLcPosition": "4",
-      "display_type": "WARNING",
-      "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Alzenau-Mitte - Alzenau-Mitte",
-      "startTimestamp": "2025-05-11T20:15:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "1",
-      "coordinate": {
-        "lat": 50.0870512595307,
-        "long": 9.035193292062198
-      },
-      "description": [
-        "Beginn: 11.05.25 um 20:15 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 11.05.2025, 20:15",
-        "A45: Gießen -> Aschaffenburg, 0.1 km vor AS Alzenau-Mitte, aus Richtung Alzenau-Nord",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 1 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-unf.2025-05-11_19-35-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.082969810515955,9.0356621186045,50.06854710000684,9.038084441790572",
-      "point": "50.082969810515955,9.0356621186045",
+      "extent": "50.0830956575194,9.035656077689254,50.07417844389704,9.036397782767228",
+      "point": "50.0830956575194,9.035656077689254",
       "startLcPosition": "4",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Alzenau-Mitte - Karlstein",
-      "startTimestamp": "2025-05-11T19:35:00+02:00",
+      "startTimestamp": "2025-05-11T19:31:33+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54.5",
       "coordinate": {
-        "lat": 50.082969810515955,
-        "long": 9.0356621186045
+        "lat": 50.0830956575194,
+        "long": 9.035656077689254
       },
       "description": [
-        "Beginn: 11.05.25 um 19:35 Uhr",
+        "Beginn: 11.05.25 um 19:31 Uhr",
         "",
-        "Unfall, seit 11.05.2025, 19:35",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.3 km hinter AS Alzenau-Mitte und 2.7 km vor AS Karlstein"
+        "Zusammengesetzte Verkehrsinformation, seit 11.05.2025, 19:31",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.3 km hinter AS Alzenau-Mitte und 3.3 km vor AS Karlstein",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -60,8 +36,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.035662119,
-            50.082969811
+            9.035656078,
+            50.083095658
+          ],
+          [
+            9.0356576,
+            50.083068701
           ],
           [
             9.0356698,
@@ -82,6 +62,73 @@
           [
             9.0357392,
             50.080305001
+          ],
+          [
+            9.0357623,
+            50.079666701
+          ],
+          [
+            9.0357748,
+            50.079418101
+          ],
+          [
+            9.0357887,
+            50.079026501
+          ],
+          [
+            9.0358319,
+            50.078400001
+          ],
+          [
+            9.0359216,
+            50.077324201
+          ],
+          [
+            9.0360121,
+            50.076537501
+          ],
+          [
+            9.0361788,
+            50.075401301
+          ],
+          [
+            9.036397783,
+            50.074178444
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-05-11_19-35-00-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.08022250702868,9.035742185479158,50.06854710000684,9.038084441790572",
+      "point": "50.08022250702868,9.035742185479158",
+      "startLcPosition": "4",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Alzenau-Mitte - Karlstein",
+      "startTimestamp": "2025-05-11T19:35:00+02:00",
+      "coordinate": {
+        "lat": 50.08022250702868,
+        "long": 9.035742185479158
+      },
+      "description": [
+        "Beginn: 11.05.25 um 19:35 Uhr",
+        "",
+        "Unfall, seit 11.05.2025, 19:35",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.6 km hinter AS Alzenau-Mitte und 2.7 km vor AS Karlstein"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.035742185,
+            50.080222507
           ],
           [
             9.0357623,
@@ -138,176 +185,6 @@
           [
             9.038084442,
             50.0685471
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-05-11_19-31-33-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.087077963450675,9.035187289495417,50.07414270470001,9.036404182584393",
-      "point": "50.087077963450675,9.035187289495417",
-      "startLcPosition": "5",
-      "display_type": "WARNING",
-      "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Alzenau-Nord - Karlstein",
-      "startTimestamp": "2025-05-11T19:31:33+02:00",
-      "delayTimeValue": "14",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "5.699999809265137",
-      "coordinate": {
-        "lat": 50.087077963450675,
-        "long": 9.035187289495417
-      },
-      "description": [
-        "Beginn: 11.05.25 um 19:31 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 11.05.2025, 19:31",
-        "A45: Gießen -> Aschaffenburg, zwischen 1.3 km hinter AS Alzenau-Nord und 3.3 km vor AS Karlstein",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 14 Minuten",
-        "Durchschnittsgeschwindigkeit: 5 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.035187289,
-            50.087077963
-          ],
-          [
-            9.0351987,
-            50.087027201
-          ],
-          [
-            9.0353684,
-            50.086067201
-          ],
-          [
-            9.0354301,
-            50.085607701
-          ],
-          [
-            9.0355137,
-            50.084926601
-          ],
-          [
-            9.0355575,
-            50.084530801
-          ],
-          [
-            9.0355901,
-            50.084114701
-          ],
-          [
-            9.0356241,
-            50.083661901
-          ],
-          [
-            9.0356576,
-            50.083068701
-          ],
-          [
-            9.0356698,
-            50.082801701
-          ],
-          [
-            9.0356925,
-            50.081805101
-          ],
-          [
-            9.0356967,
-            50.081562401
-          ],
-          [
-            9.0357153,
-            50.080955801
-          ],
-          [
-            9.0357392,
-            50.080305001
-          ],
-          [
-            9.0357623,
-            50.079666701
-          ],
-          [
-            9.0357748,
-            50.079418101
-          ],
-          [
-            9.0357887,
-            50.079026501
-          ],
-          [
-            9.0358319,
-            50.078400001
-          ],
-          [
-            9.0359216,
-            50.077324201
-          ],
-          [
-            9.0360121,
-            50.076537501
-          ],
-          [
-            9.0361788,
-            50.075401301
-          ],
-          [
-            9.036404183,
-            50.074142705
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-05-11_18-57-09-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.10936528256749,7.671202246851566,51.10797345813083,7.672918738988443",
-      "point": "51.10936528256749,7.671202246851566",
-      "startLcPosition": "79",
-      "display_type": "WARNING",
-      "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Duwelsiepen - Meinerzhagen",
-      "startTimestamp": "2025-05-11T18:57:09+02:00",
-      "coordinate": {
-        "lat": 51.10936528256749,
-        "long": 7.671202246851566
-      },
-      "description": [
-        "Beginn: 11.05.25 um 18:57 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 11.05.2025, 18:57",
-        "A45: Hagen -> Gießen, zwischen 1.1 km hinter Duwelsiepen und 0.6 km vor AS Meinerzhagen",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.671202247,
-            51.109365283
-          ],
-          [
-            7.6720333,
-            51.108716701
-          ],
-          [
-            7.672918739,
-            51.107973458
           ]
         ]
       }
