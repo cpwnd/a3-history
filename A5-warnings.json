@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-05-11_09-29-30-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-05-11_09-29-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -49,33 +49,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-05-11_09-40-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-05-11_09-55-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.83557671310752,8.633220659958505,49.846716291593225,8.615113521410137",
-      "point": "49.83557671310752,8.633220659958505",
-      "startLcPosition": "93",
+      "extent": "48.11409795794154,7.788034646756954,48.1126270524814,7.788584680373097",
+      "point": "48.11409795794154,7.788034646756954",
+      "startLcPosition": "30",
       "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Darmstadt-Eberstadt - Darmstädter Kreuz",
-      "startTimestamp": "2025-05-11T09:40:00+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Teningen - Freiburg-Nord",
+      "startTimestamp": "2025-05-11T09:55:30+02:00",
       "coordinate": {
-        "lat": 49.83557671310752,
-        "long": 8.633220659958505
+        "lat": 48.11409795794154,
+        "long": 7.788034646756954
       },
       "description": [
-        "Beginn: 11.05.25 um 09:40 Uhr",
+        "Beginn: 11.05.25 um 09:55 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 11.05.2025, 09:40",
-        "A5: Heidelberg -> Darmstadt, zwischen 2.8 km hinter AS Darmstadt-Eberstadt und 1.8 km vor AK Darmstädter Kreuz",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 55 km/h"
+        "Fahrzeug-Hindernis, seit 11.05.2025, 09:55",
+        "A5: Karlsruhe -> Basel, zwischen 0.1 km hinter AS Teningen und 6.0 km vor AS Freiburg-Nord",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -84,176 +78,101 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.63322066,
-            49.835576713
+            7.788034647,
+            48.114097958
           ],
           [
-            8.6331604,
-            49.835692501
+            7.7881251,
+            48.113857601
           ],
           [
-            8.6330464,
-            49.835893101
+            7.78858468,
+            48.112627052
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-11_10-10-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.79091160093735,9.445807600000126,50.79091160093735,9.445807600000126",
+      "point": "50.79091160093735,9.445807600000126",
+      "startLcPosition": "138",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Frohnkreuz - Frohnkreuz",
+      "startTimestamp": "2025-05-11T10:10:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "15",
+      "coordinate": {
+        "lat": 50.79091160093735,
+        "long": 9.445807600000126
+      },
+      "description": [
+        "Beginn: 11.05.25 um 10:10 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 11.05.2025, 10:10",
+        "A5: Kassel -> Frankfurt, 0.1 km vor Frohnkreuz, aus Richtung Rimberg",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 15 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-11_10-10-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.79091160093735,9.445807600000126,50.78978444735366,9.444075323780686",
+      "point": "50.79091160093735,9.445807600000126",
+      "startLcPosition": "139",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Rimberg - Berfa",
+      "startTimestamp": "2025-05-11T10:10:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "14.5",
+      "coordinate": {
+        "lat": 50.79091160093735,
+        "long": 9.445807600000126
+      },
+      "description": [
+        "Beginn: 11.05.25 um 10:10 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 11.05.2025, 10:10",
+        "A5: Kassel -> Frankfurt, zwischen 2.3 km hinter Rimberg und 6.9 km vor Berfa",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.4458076,
+            50.790911601
           ],
           [
-            8.6328863,
-            49.836158301
+            9.4451223,
+            50.790454801
           ],
           [
-            8.6326756,
-            49.836490001
+            9.4443813,
+            50.789972701
           ],
           [
-            8.6325038,
-            49.836743601
-          ],
-          [
-            8.6323712,
-            49.836932001
-          ],
-          [
-            8.6321505,
-            49.837225601
-          ],
-          [
-            8.6319246,
-            49.837508901
-          ],
-          [
-            8.6316699,
-            49.837805701
-          ],
-          [
-            8.6315042,
-            49.837993701
-          ],
-          [
-            8.631308,
-            49.838208001
-          ],
-          [
-            8.6311253,
-            49.838397401
-          ],
-          [
-            8.6308692,
-            49.838655801
-          ],
-          [
-            8.6306147,
-            49.838892601
-          ],
-          [
-            8.630375,
-            49.839112501
-          ],
-          [
-            8.6300771,
-            49.839370301
-          ],
-          [
-            8.6299223,
-            49.839500801
-          ],
-          [
-            8.6297214,
-            49.839664001
-          ],
-          [
-            8.6294013,
-            49.839913401
-          ],
-          [
-            8.6291197,
-            49.840125701
-          ],
-          [
-            8.6287957,
-            49.840357301
-          ],
-          [
-            8.6285672,
-            49.840513201
-          ],
-          [
-            8.6282716,
-            49.840708501
-          ],
-          [
-            8.6280388,
-            49.840857501
-          ],
-          [
-            8.6277281,
-            49.841048201
-          ],
-          [
-            8.6274232,
-            49.841229801
-          ],
-          [
-            8.6270701,
-            49.841426401
-          ],
-          [
-            8.6266447,
-            49.841660501
-          ],
-          [
-            8.6263392,
-            49.841816601
-          ],
-          [
-            8.6260794,
-            49.841948101
-          ],
-          [
-            8.6257561,
-            49.842106101
-          ],
-          [
-            8.6253492,
-            49.842300101
-          ],
-          [
-            8.6249243,
-            49.842494401
-          ],
-          [
-            8.6241748,
-            49.842825601
-          ],
-          [
-            8.6234111,
-            49.843151101
-          ],
-          [
-            8.6224002,
-            49.843573201
-          ],
-          [
-            8.620109,
-            49.844541401
-          ],
-          [
-            8.6187026,
-            49.845137901
-          ],
-          [
-            8.617827,
-            49.845509601
-          ],
-          [
-            8.6168016,
-            49.845955701
-          ],
-          [
-            8.6156666,
-            49.846464001
-          ],
-          [
-            8.615113521,
-            49.846716292
+            9.444075324,
+            50.789784447
           ]
         ]
       }
