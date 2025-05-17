@@ -5,31 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.85986273800966,8.243835421906432,48.88259867131544,8.271699875122096",
-      "point": "48.85986273800966,8.243835421906432",
+      "extent": "48.85765348891875,8.242002234485875,48.88259867131544,8.271699875122096",
+      "point": "48.85765348891875,8.242002234485875",
       "startLcPosition": "52",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Rastatt-Süd - Silbergrund",
       "startTimestamp": "2025-05-17T20:46:00+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "25.200000762939453",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36.20000076293945",
       "coordinate": {
-        "lat": 48.85986273800966,
-        "long": 8.243835421906432
+        "lat": 48.85765348891875,
+        "long": 8.242002234485875
       },
       "description": [
         "Beginn: 17.05.25 um 20:46 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 17.05.2025, 20:46",
-        "A5: Basel -> Karlsruhe, zwischen 4.6 km hinter AS Rastatt-Süd und 1.4 km vor Silbergrund",
+        "A5: Basel -> Karlsruhe, zwischen 4.4 km hinter AS Rastatt-Süd und 1.4 km vor Silbergrund",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 25 km/h",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -38,8 +36,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.243835422,
-            48.859862738
+            8.242002234,
+            48.857653489
+          ],
+          [
+            8.2430411,
+            48.858916901
           ],
           [
             8.2444625,
@@ -205,38 +207,38 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-05-17_20-55-30-000.f_003.de0",
+      "identifier": "undefined--vi-avl.2025-05-17_21-39-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.85991781550497,8.243881677509043,48.85991781550497,8.243881677509043",
-      "point": "48.85991781550497,8.243881677509043",
+      "extent": "48.86867042903418,8.250959046053481,48.86867042903418,8.250959046053481",
+      "point": "48.86867042903418,8.250959046053481",
       "startLcPosition": "53",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
+      "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Rastatt-Nord - Rastatt-Nord",
-      "startTimestamp": "2025-05-17T21:32:00+02:00",
+      "startTimestamp": "2025-05-17T21:40:30+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "25",
+      "averageSpeed": "6",
       "coordinate": {
-        "lat": 48.85991781550497,
-        "long": 8.243881677509043
+        "lat": 48.86867042903418,
+        "long": 8.250959046053481
       },
       "description": [
-        "Beginn: 17.05.25 um 21:32 Uhr",
+        "Beginn: 17.05.25 um 21:40 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 17.05.2025, 21:32",
-        "A5: Basel -> Karlsruhe, 0.3 km vor AS Rastatt-Nord, aus Richtung Rastatt-Süd",
+        "Angespannte Verkehrslage, seit 17.05.2025, 21:40",
+        "A5: Karlsruhe -> Basel, 0.8 km vor AS Rastatt-Nord, aus Richtung Silbergrund",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 25 km/h"
+        "Durchschnittsgeschwindigkeit: 6 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-hind.2025-05-17_21-27-30-000.f_001.de0",
+      "identifier": "undefined--vi-unf.2025-05-17_21-27-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -254,10 +256,8 @@
       "description": [
         "Beginn: 17.05.25 um 21:27 Uhr",
         "",
-        "Hindernis, seit 17.05.2025, 21:27",
-        "A5: Basel -> Karlsruhe, zwischen 2.5 km hinter AS Rastatt-Nord und 0.5 km vor Silbergrund",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Unfall, seit 17.05.2025, 21:27",
+        "A5: Basel -> Karlsruhe, zwischen 2.5 km hinter AS Rastatt-Nord und 0.5 km vor Silbergrund"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -329,6 +329,68 @@
       }
     },
     {
+      "identifier": "undefined--vi-avl.2025-05-17_21-35-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.868843607179116,8.251104234153523,48.86258053768615,8.245858920504514",
+      "point": "48.868843607179116,8.251104234153523",
+      "startLcPosition": "54",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Silbergrund - Rastatt-Nord",
+      "startTimestamp": "2025-05-17T21:35:00+02:00",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10.5",
+      "coordinate": {
+        "lat": 48.868843607179116,
+        "long": 8.251104234153523
+      },
+      "description": [
+        "Beginn: 17.05.25 um 21:35 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 17.05.2025, 21:35",
+        "A5: Karlsruhe -> Basel, zwischen 3.6 km hinter Silbergrund und AS Rastatt-Nord",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.251104234,
+            48.868843607
+          ],
+          [
+            8.2505245,
+            48.868152101
+          ],
+          [
+            8.2499651,
+            48.867479001
+          ],
+          [
+            8.2485732,
+            48.865822201
+          ],
+          [
+            8.2469278,
+            48.863855801
+          ],
+          [
+            8.245858921,
+            48.862580538
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-hind.2025-05-17_21-26-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -377,27 +439,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.43280919335446,8.69590988455115,50.43280919335446,8.69590988455115",
-      "point": "50.43280919335446,8.69590988455115",
+      "extent": "50.431146233066826,8.696192901162469,50.431146233066826,8.696192901162469",
+      "point": "50.431146233066826,8.696192901162469",
       "startLcPosition": "118",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Bad Nauheim - Bad Nauheim",
-      "startTimestamp": "2025-05-17T21:32:00+02:00",
+      "startTimestamp": "2025-05-17T21:42:30+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "15",
+      "averageSpeed": "18",
       "coordinate": {
-        "lat": 50.43280919335446,
-        "long": 8.69590988455115
+        "lat": 50.431146233066826,
+        "long": 8.696192901162469
       },
       "description": [
-        "Beginn: 17.05.25 um 21:32 Uhr",
+        "Beginn: 17.05.25 um 21:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 17.05.2025, 21:32",
-        "A5: Kassel -> Frankfurt, 3.0 km vor AS Bad Nauheim, aus Richtung Butzbach",
+        "Angespannte Verkehrslage, seit 17.05.2025, 21:42",
+        "A5: Kassel -> Frankfurt, 2.8 km vor AS Bad Nauheim, aus Richtung Butzbach",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Durchschnittsgeschwindigkeit: 18 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -408,29 +470,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.43286282111864,8.695900524634949,50.40300841641462,8.701102830220663",
-      "point": "50.43286282111864,8.695900524634949",
+      "extent": "50.4310568162451,8.696207969058138,50.40300841641462,8.701102830220663",
+      "point": "50.4310568162451,8.696207969058138",
       "startLcPosition": "119",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Butzbach - Ober-Mörlen",
       "startTimestamp": "2025-05-17T19:54:30+02:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "15.5",
+      "averageSpeed": "18",
       "coordinate": {
-        "lat": 50.43286282111864,
-        "long": 8.695900524634949
+        "lat": 50.4310568162451,
+        "long": 8.696207969058138
       },
       "description": [
         "Beginn: 17.05.25 um 19:54 Uhr",
         "",
         "Angespannte Verkehrslage, seit 17.05.2025, 19:54",
-        "A5: Kassel -> Frankfurt, zwischen 0.6 km hinter AS Butzbach und 2.4 km vor AS Ober-Mörlen",
+        "A5: Kassel -> Frankfurt, zwischen 0.8 km hinter AS Butzbach und 2.4 km vor AS Ober-Mörlen",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 11 Minuten",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -439,12 +501,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.695900525,
-            50.432862821
-          ],
-          [
-            8.6959905,
-            50.432347301
+            8.696207969,
+            50.431056816
           ],
           [
             8.6962608,
@@ -521,6 +579,80 @@
           [
             8.70110283,
             50.403008416
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-17_21-42-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59640670289178,7.60370953241724,47.59831530094861,7.603191299999225",
+      "point": "47.59640670289178,7.60370953241724",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.90 --> km 812.69",
+      "title": "Baustelle",
+      "startTimestamp": "2025-05-17T21:42:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "16.299999237060547",
+      "coordinate": {
+        "lat": 47.59640670289178,
+        "long": 7.60370953241724
+      },
+      "description": [
+        "Beginn: 17.05.25 um 21:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 17.05.2025, 21:42",
+        "A5: km 812.90 --> km 812.69",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603709532,
+            47.596406703
+          ],
+          [
+            7.6036821,
+            47.596511201
+          ],
+          [
+            7.6036599,
+            47.596595801
+          ],
+          [
+            7.6036144,
+            47.596724101
+          ],
+          [
+            7.6035592,
+            47.596886801
+          ],
+          [
+            7.6034698,
+            47.597255601
+          ],
+          [
+            7.603419,
+            47.597511201
+          ],
+          [
+            7.603327,
+            47.597842701
+          ],
+          [
+            7.6031913,
+            47.598315301
           ]
         ]
       }
