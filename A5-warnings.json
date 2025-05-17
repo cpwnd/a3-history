@@ -1,33 +1,64 @@
 {
   "warning": [
     {
+      "identifier": "undefined--vi-avl.2025-05-17_07-30-30-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.427830242871835,8.696771494330646,50.427830242871835,8.696771494330646",
+      "point": "50.427830242871835,8.696771494330646",
+      "startLcPosition": "118",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Bad Nauheim - Bad Nauheim",
+      "startTimestamp": "2025-05-17T07:32:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "26",
+      "coordinate": {
+        "lat": 50.427830242871835,
+        "long": 8.696771494330646
+      },
+      "description": [
+        "Beginn: 17.05.25 um 07:32 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 17.05.2025, 07:32",
+        "A5: Kassel -> Frankfurt, 2.4 km vor AS Bad Nauheim, aus Richtung Butzbach",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 26 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
       "identifier": "undefined--vi-avl.2025-05-17_06-11-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.41944656710806,8.698236487520932,50.39979975947365,8.701663730760322",
-      "point": "50.41944656710806,8.698236487520932",
+      "extent": "50.427857057233375,8.696766821265006,50.39860191593705,8.701870510840687",
+      "point": "50.427857057233375,8.696766821265006",
       "startLcPosition": "119",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Butzbach - Ober-Mörlen",
       "startTimestamp": "2025-05-17T06:11:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "66.69999694824219",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "30.700000762939453",
       "coordinate": {
-        "lat": 50.41944656710806,
-        "long": 8.698236487520932
+        "lat": 50.427857057233375,
+        "long": 8.696766821265006
       },
       "description": [
         "Beginn: 17.05.25 um 06:11 Uhr",
         "",
         "Angespannte Verkehrslage, seit 17.05.2025, 06:11",
-        "A5: Kassel -> Frankfurt, zwischen 2.1 km hinter AS Butzbach und 2.1 km vor AS Ober-Mörlen",
+        "A5: Kassel -> Frankfurt, zwischen 1.1 km hinter AS Butzbach und 1.9 km vor AS Ober-Mörlen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 66 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 30 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +67,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.698236488,
-            50.419446567
+            8.696766821,
+            50.427857057
+          ],
+          [
+            8.6968486,
+            50.427387801
+          ],
+          [
+            8.6972859,
+            50.424898001
+          ],
+          [
+            8.6977191,
+            50.422404401
+          ],
+          [
+            8.6979443,
+            50.421127901
           ],
           [
             8.6984134,
@@ -92,8 +139,78 @@
             50.400549701
           ],
           [
-            8.701663731,
-            50.399799759
+            8.7017506,
+            50.399296801
+          ],
+          [
+            8.701870511,
+            50.398601916
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-17_07-31-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59705340958059,7.603327679473785,47.59558040094862,7.603796099999223",
+      "point": "47.59705340958059,7.603327679473785",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.83 --> km 813.00",
+      "title": "Baustelle",
+      "startTimestamp": "2025-05-17T07:31:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "9.699999809265137",
+      "coordinate": {
+        "lat": 47.59705340958059,
+        "long": 7.603327679473785
+      },
+      "description": [
+        "Beginn: 17.05.25 um 07:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 17.05.2025, 07:31",
+        "A5: km 812.83 --> km 813.00",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603327679,
+            47.59705341
+          ],
+          [
+            7.6034406,
+            47.596700101
+          ],
+          [
+            7.6035053,
+            47.596509101
+          ],
+          [
+            7.6035294,
+            47.596432001
+          ],
+          [
+            7.6035636,
+            47.596329401
+          ],
+          [
+            7.6036995,
+            47.595884401
+          ],
+          [
+            7.6037961,
+            47.595580401
           ]
         ]
       }
