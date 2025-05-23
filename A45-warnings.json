@@ -312,29 +312,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.18937757056081,9.01058314398574,50.19853194375257,9.005067603164049",
-      "point": "50.18937757056081,9.01058314398574",
+      "extent": "50.182880175086794,9.012384301738534,50.20011510094024,9.003961700000009",
+      "point": "50.182880175086794,9.012384301738534",
       "startLcPosition": "8",
       "display_type": "WARNING",
       "subtitle": " Aschaffenburg -> Gießen",
       "title": "A45 | Langenselbold-West - Hammersbach",
       "startTimestamp": "2025-05-23T16:34:59+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "53.900001525878906",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "28.799999237060547",
       "coordinate": {
-        "lat": 50.18937757056081,
-        "long": 9.01058314398574
+        "lat": 50.182880175086794,
+        "long": 9.012384301738534
       },
       "description": [
         "Beginn: 23.05.25 um 16:34 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 23.05.2025, 16:34",
-        "A45: Aschaffenburg -> Gießen, zwischen 0.9 km hinter AS Langenselbold-West und 5.3 km vor AS Hammersbach",
+        "A45: Aschaffenburg -> Gießen, zwischen 0.2 km hinter AS Langenselbold-West und 5.1 km vor AS Hammersbach",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 53 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -343,8 +343,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.010583144,
-            50.189377571
+            9.012384302,
+            50.182880175
+          ],
+          [
+            9.012034,
+            50.184029301
+          ],
+          [
+            9.0116371,
+            50.185520601
+          ],
+          [
+            9.0112248,
+            50.187290701
+          ],
+          [
+            9.0110493,
+            50.187953201
+          ],
+          [
+            9.0107066,
+            50.189060301
           ],
           [
             9.0101754,
@@ -383,8 +403,91 @@
             50.197602101
           ],
           [
-            9.005067603,
-            50.198531944
+            9.0045574,
+            50.199233501
+          ],
+          [
+            9.0039617,
+            50.200115101
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-23_16-47-01-000.f_024.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.18282721741991,9.012400445041227,50.18282721741991,9.012400445041227",
+      "point": "50.18282721741991,9.012400445041227",
+      "startLcPosition": "9",
+      "display_type": "WARNING",
+      "subtitle": " Aschaffenburg -> Gießen",
+      "title": "A45 | Auf der Pfingstweide - Auf der Pfingstweide",
+      "startTimestamp": "2025-05-23T16:47:01+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "22",
+      "coordinate": {
+        "lat": 50.18282721741991,
+        "long": 9.012400445041227
+      },
+      "description": [
+        "Beginn: 23.05.25 um 16:47 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 23.05.2025, 16:47",
+        "A45: Aschaffenburg -> Gießen, 1.8 km vor Auf der Pfingstweide, aus Richtung Langenselbold-West",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 22 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-05-23_15-58-31-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.624931371501134,8.347876366540307,50.62473525659024,8.350241421273585",
+      "point": "50.624931371501134,8.347876366540307",
+      "startLcPosition": "34",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Ebersbach - Katzenfurt",
+      "startTimestamp": "2025-05-23T15:58:31+02:00",
+      "coordinate": {
+        "lat": 50.624931371501134,
+        "long": 8.347876366540307
+      },
+      "description": [
+        "Beginn: 23.05.25 um 15:58 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 23.05.2025, 15:58",
+        "A45: Hagen -> Gießen, zwischen 2.9 km hinter Ebersbach und 1.0 km vor Katzenfurt",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.347876367,
+            50.624931372
+          ],
+          [
+            8.3494939,
+            50.624801401
+          ],
+          [
+            8.3497941,
+            50.624778201
+          ],
+          [
+            8.350241421,
+            50.624735257
           ]
         ]
       }
@@ -394,24 +497,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.27672658418404,7.594637231391406,51.27672658418404,7.594637231391406",
-      "point": "51.27672658418404,7.594637231391406",
+      "extent": "51.275646710552465,7.596399772611567,51.275646710552465,7.596399772611567",
+      "point": "51.275646710552465,7.596399772611567",
       "startLcPosition": "92",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Rehweg - Rehweg",
-      "startTimestamp": "2025-05-23T16:35:44+02:00",
+      "startTimestamp": "2025-05-23T16:47:01+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "3",
       "coordinate": {
-        "lat": 51.27672658418404,
-        "long": 7.594637231391406
+        "lat": 51.275646710552465,
+        "long": 7.596399772611567
       },
       "description": [
-        "Beginn: 23.05.25 um 16:35 Uhr",
+        "Beginn: 23.05.25 um 16:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 23.05.2025, 16:35",
-        "A45: Hagen -> Gießen, 1.1 km vor Rehweg, aus Richtung Kaltenborn",
+        "Angespannte Verkehrslage, seit 23.05.2025, 16:47",
+        "A45: Hagen -> Gießen, 0.9 km vor Rehweg, aus Richtung Kaltenborn",
         "",
         "Im Stillstand",
         "Durchschnittsgeschwindigkeit: 3 km/h"
@@ -425,29 +528,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.27694157072891,7.594251449823025,51.26417655734046,7.602675014641066",
-      "point": "51.27694157072891,7.594251449823025",
+      "extent": "51.27588084329153,7.5960645503545505,51.26417655734046,7.602675014641066",
+      "point": "51.27588084329153,7.5960645503545505",
       "startLcPosition": "93",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Kaltenborn - Lüdenscheid-Nord",
       "startTimestamp": "2025-05-23T06:03:00+02:00",
-      "delayTimeValue": "24",
+      "delayTimeValue": "19",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3.700000047683716",
+      "averageSpeed": "4.099999904632568",
       "coordinate": {
-        "lat": 51.27694157072891,
-        "long": 7.594251449823025
+        "lat": 51.27588084329153,
+        "long": 7.5960645503545505
       },
       "description": [
         "Beginn: 23.05.25 um 06:03 Uhr",
         "",
         "Angespannte Verkehrslage, seit 23.05.2025, 06:03",
-        "A45: Hagen -> Gießen, zwischen 2.1 km hinter Kaltenborn und 0.9 km vor AS Lüdenscheid-Nord",
+        "A45: Hagen -> Gießen, zwischen 2.3 km hinter Kaltenborn und 0.9 km vor AS Lüdenscheid-Nord",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 24 Minuten",
-        "Durchschnittsgeschwindigkeit: 3 km/h"
+        "Reisezeitverlust: 19 Minuten",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -456,16 +559,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.59425145,
-            51.276941571
-          ],
-          [
-            7.5949977,
-            51.276525701
-          ],
-          [
-            7.5960533,
-            51.275888701
+            7.59606455,
+            51.275880843
           ],
           [
             7.5970077,
@@ -588,7 +683,7 @@
       "startTimestamp": "2025-05-23T16:08:54+02:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "54.5",
+      "averageSpeed": "58.900001525878906",
       "coordinate": {
         "lat": 51.49759350136823,
         "long": 7.3855031963341995
@@ -601,7 +696,7 @@
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 54 km/h"
+        "Durchschnittsgeschwindigkeit: 58 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -745,8 +840,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.56791325610065,7.361287607449603,51.5820531234725,7.366739390037713",
-      "point": "51.56791325610065,7.361287607449603",
+      "extent": "51.5676026234917,7.3611334558154375,51.57814588621297,7.365468365914848",
+      "point": "51.5676026234917,7.3611334558154375",
       "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
@@ -754,16 +849,16 @@
       "startTimestamp": "2025-05-23T12:53:29+02:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "58.20000076293945",
+      "averageSpeed": "58.400001525878906",
       "coordinate": {
-        "lat": 51.56791325610065,
-        "long": 7.361287607449603
+        "lat": 51.5676026234917,
+        "long": 7.3611334558154375
       },
       "description": [
         "Beginn: 23.05.25 um 12:53 Uhr",
         "",
         "Angespannte Verkehrslage, seit 23.05.2025, 12:53",
-        "A45: Hagen -> Dortmund, zwischen 0.8 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest",
+        "A45: Hagen -> Dortmund, zwischen 0.7 km hinter AK Castrop-Rauxel-Ost und 0.9 km vor AK Dortmund-Nordwest",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
@@ -776,8 +871,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.361287607,
-            51.567913256
+            7.361133456,
+            51.567602623
+          ],
+          [
+            7.3612506,
+            51.567835701
           ],
           [
             7.3614482,
@@ -864,24 +963,8 @@
             51.577873901
           ],
           [
-            7.3655074,
-            51.578254701
-          ],
-          [
-            7.3658147,
-            51.579335401
-          ],
-          [
-            7.3663489,
-            51.580948201
-          ],
-          [
-            7.3664186,
-            51.581176601
-          ],
-          [
-            7.36673939,
-            51.582053123
+            7.365468366,
+            51.578145886
           ]
         ]
       }
