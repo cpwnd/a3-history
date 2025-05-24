@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-05-24_21-39-30-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-05-24_21-39-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1301,11 +1301,67 @@
       }
     },
     {
+      "identifier": "undefined--vi-hind.2025-05-24_22-31-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.11994713843689,8.551485156786232,49.11868981055984,8.551384907703353",
+      "point": "49.11994713843689,8.551485156786232",
+      "startLcPosition": "64",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Bruchsal - Höfenschlag",
+      "startTimestamp": "2025-05-24T22:31:30+02:00",
+      "coordinate": {
+        "lat": 49.11994713843689,
+        "long": 8.551485156786232
+      },
+      "description": [
+        "Beginn: 24.05.25 um 22:31 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 24.05.2025, 22:31",
+        "A5: Heidelberg -> Karlsruhe, zwischen 3.2 km hinter AS Bruchsal und 6.1 km vor Höfenschlag",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.551485157,
+            49.119947138
+          ],
+          [
+            8.5514847,
+            49.119879001
+          ],
+          [
+            8.5514618,
+            49.119437201
+          ],
+          [
+            8.5514318,
+            49.119078301
+          ],
+          [
+            8.5513868,
+            49.118702501
+          ],
+          [
+            8.551384908,
+            49.118689811
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-zus.2025-05-24_21-51-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.781674812385624,9.411751511770445,50.78839780994479,9.44148546285077",
+      "extent": "50.781674812385624,9.411751511770445,50.78706991350261,9.435527999240572",
       "point": "50.781674812385624,9.411751511770445",
       "startLcPosition": "137",
       "display_type": "WARNING",
@@ -1314,7 +1370,7 @@
       "startTimestamp": "2025-05-24T21:51:30+02:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "71.5",
+      "averageSpeed": "68",
       "coordinate": {
         "lat": 50.781674812385624,
         "long": 9.411751511770445
@@ -1323,11 +1379,11 @@
         "Beginn: 24.05.25 um 21:51 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 24.05.2025, 21:51",
-        "A5: Frankfurt -> Kassel, zwischen 4.5 km hinter Berfa und 0.3 km vor Frohnkreuz",
+        "A5: Frankfurt -> Kassel, zwischen 4.5 km hinter Berfa und 0.8 km vor Frohnkreuz",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 71 km/h"
+        "Durchschnittsgeschwindigkeit: 68 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1436,55 +1492,160 @@
             50.787035201
           ],
           [
-            9.4372347,
-            50.787394701
-          ],
-          [
-            9.4382204,
-            50.787599501
-          ],
-          [
-            9.4383576,
-            50.787625601
-          ],
-          [
-            9.4388884,
-            50.787729301
-          ],
-          [
-            9.4393279,
-            50.787823301
-          ],
-          [
-            9.4397694,
-            50.787920501
-          ],
-          [
-            9.4401178,
-            50.788003101
-          ],
-          [
-            9.4403828,
-            50.788069601
-          ],
-          [
-            9.4407065,
-            50.788157401
-          ],
-          [
-            9.4410213,
-            50.788254701
-          ],
-          [
-            9.4414668,
-            50.788390701
-          ],
-          [
-            9.441485463,
-            50.78839781
+            9.435527999,
+            50.787069914
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-24_22-22-08-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59180029166114,7.603699377368192,47.59984832815628,7.602661177175459",
+      "point": "47.59180029166114,7.603699377368192",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 813.42 --> km 812.51",
+      "title": "Baustelle",
+      "startTimestamp": "2025-05-24T22:22:08+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "14.100000381469727",
+      "coordinate": {
+        "lat": 47.59180029166114,
+        "long": 7.603699377368192
+      },
+      "description": [
+        "Beginn: 24.05.25 um 22:22 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.05.2025, 22:22",
+        "A5: km 813.42 --> km 812.51",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603699377,
+            47.591800292
+          ],
+          [
+            7.6038925,
+            47.592568801
+          ],
+          [
+            7.6039325,
+            47.592819801
+          ],
+          [
+            7.6040062,
+            47.593241901
+          ],
+          [
+            7.6040559,
+            47.593674101
+          ],
+          [
+            7.6040933,
+            47.594063901
+          ],
+          [
+            7.6040537,
+            47.594329801
+          ],
+          [
+            7.6040069,
+            47.595006101
+          ],
+          [
+            7.6039276,
+            47.595452501
+          ],
+          [
+            7.6038258,
+            47.595963801
+          ],
+          [
+            7.6036821,
+            47.596511201
+          ],
+          [
+            7.6036599,
+            47.596595801
+          ],
+          [
+            7.6036144,
+            47.596724101
+          ],
+          [
+            7.6035592,
+            47.596886801
+          ],
+          [
+            7.6034698,
+            47.597255601
+          ],
+          [
+            7.603419,
+            47.597511201
+          ],
+          [
+            7.603327,
+            47.597842701
+          ],
+          [
+            7.6031913,
+            47.598315301
+          ],
+          [
+            7.6026763,
+            47.599802301
+          ],
+          [
+            7.602661177,
+            47.599848328
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-24_22-31-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.590311175784755,7.603298226952012,47.590311175784755,7.603298226952012",
+      "point": "47.590311175784755,7.603298226952012",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": "",
+      "title": "Baustelle",
+      "startTimestamp": "2025-05-24T22:31:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10",
+      "coordinate": {
+        "lat": 47.590311175784755,
+        "long": 7.603298226952012
+      },
+      "description": [
+        "Beginn: 24.05.25 um 22:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.05.2025, 22:31",
+        "A5 N",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     }
   ]
 }
