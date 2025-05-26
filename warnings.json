@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-05-26_09-04-54-000.f_009.de0",
+      "identifier": "undefined--vi-hind.2025-05-26_09-04-54-000.f_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1202,27 +1202,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-05-26_12-30-35-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-05-26_12-37-56-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.44615260260442,7.8272141138898315,50.44610130093909,7.8283142999995015",
-      "point": "50.44615260260442,7.8272141138898315",
+      "extent": "50.480947618625486,7.75669329524266,50.483795801705455,7.753338519514481",
+      "point": "50.480947618625486,7.75669329524266",
       "startLcPosition": "184",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Dernbach - Montabaur",
-      "startTimestamp": "2025-05-26T12:30:35+02:00",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Dernbach - Ransbach-Baumbach / Mogendorf",
+      "startTimestamp": "2025-05-26T12:37:56+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10.399999618530273",
       "coordinate": {
-        "lat": 50.44615260260442,
-        "long": 7.8272141138898315
+        "lat": 50.480947618625486,
+        "long": 7.75669329524266
       },
       "description": [
-        "Beginn: 26.05.25 um 12:30 Uhr",
+        "Beginn: 26.05.25 um 12:37 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 26.05.2025, 12:30",
-        "A3: Köln -> Frankfurt, zwischen 4.9 km hinter AD Dernbach und 1.0 km vor AS Montabaur",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 26.05.2025, 12:37",
+        "A3: Frankfurt -> Köln, zwischen 2.5 km hinter AD Dernbach und 0.3 km vor AS Ransbach-Baumbach / Mogendorf",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1231,20 +1237,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.827214114,
-            50.446152603
+            7.756693295,
+            50.480947619
           ],
           [
-            7.8272827,
-            50.446150001
+            7.7561133,
+            50.481539601
           ],
           [
-            7.8282383,
-            50.446106401
+            7.755444,
+            50.482155001
           ],
           [
-            7.8283143,
-            50.446101301
+            7.754732,
+            50.482764001
+          ],
+          [
+            7.7540663,
+            50.483282701
+          ],
+          [
+            7.75333852,
+            50.483795802
           ]
         ]
       }
@@ -1254,29 +1268,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.474919157994776,7.760127558430489,50.45094663205353,7.779174440592667",
-      "point": "50.474919157994776,7.760127558430489",
+      "extent": "50.4710249821794,7.761797696288132,50.4508567835002,7.779268045952259",
+      "point": "50.4710249821794,7.761797696288132",
       "startLcPosition": "185",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Ransbach-Baumbach / Mogendorf - Montabaur",
       "startTimestamp": "2025-05-26T10:47:35+02:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "51.5",
+      "averageSpeed": "56.400001525878906",
       "coordinate": {
-        "lat": 50.474919157994776,
-        "long": 7.760127558430489
+        "lat": 50.4710249821794,
+        "long": 7.761797696288132
       },
       "description": [
         "Beginn: 26.05.25 um 10:47 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.05.2025, 10:47",
-        "A3: Köln -> Frankfurt, zwischen 1.4 km hinter AS Ransbach-Baumbach / Mogendorf und 4.6 km vor AS Montabaur",
+        "A3: Köln -> Frankfurt, zwischen 1.8 km hinter AS Ransbach-Baumbach / Mogendorf und 4.6 km vor AS Montabaur",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 51 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 56 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1285,24 +1299,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.760127558,
-            50.474919158
-          ],
-          [
-            7.7606471,
-            50.473726901
-          ],
-          [
-            7.7609038,
-            50.473118501
-          ],
-          [
-            7.7611114,
-            50.472618301
-          ],
-          [
-            7.7616595,
-            50.471345801
+            7.761797696,
+            50.471024982
           ],
           [
             7.7618676,
@@ -1437,19 +1435,81 @@
             50.450989001
           ],
           [
-            7.779174441,
-            50.450946632
+            7.779268046,
+            50.450856784
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-26_12-47-08-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.480947618625486,7.75669329524266,50.480947618625486,7.75669329524266",
+      "point": "50.480947618625486,7.75669329524266",
+      "startLcPosition": "185",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Ransbach-Baumbach / Mogendorf - Ransbach-Baumbach / Mogendorf",
+      "startTimestamp": "2025-05-26T12:47:08+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "7",
+      "coordinate": {
+        "lat": 50.480947618625486,
+        "long": 7.75669329524266
+      },
+      "description": [
+        "Beginn: 26.05.25 um 12:47 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.05.2025, 12:47",
+        "A3: Frankfurt -> Köln, 0.7 km vor AS Ransbach-Baumbach / Mogendorf, aus Richtung Dernbach",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-26_12-44-12-000.f_008.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.80664533385121,7.22103153054636,50.80664533385121,7.22103153054636",
+      "point": "50.80664533385121,7.22103153054636",
+      "startLcPosition": "201",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bonn/Siegburg - Bonn/Siegburg",
+      "startTimestamp": "2025-05-26T12:47:08+02:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "19",
+      "coordinate": {
+        "lat": 50.80664533385121,
+        "long": 7.22103153054636
+      },
+      "description": [
+        "Beginn: 26.05.25 um 12:47 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.05.2025, 12:47",
+        "A3: Köln -> Frankfurt, 3.8 km vor AK Bonn/Siegburg, aus Richtung Siegburg",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 19 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-avl.2025-05-26_12-04-52-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.804792830710035,7.22287542377552,50.79031390192651,7.235805460809779",
-      "point": "50.804792830710035,7.22287542377552",
+      "extent": "50.80658437428821,7.221091784089349,50.79031390192651,7.235805460809779",
+      "point": "50.80658437428821,7.221091784089349",
       "startLcPosition": "202",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
@@ -1457,20 +1517,20 @@
       "startTimestamp": "2025-05-26T12:04:52+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.099998474121094",
+      "averageSpeed": "40.79999923706055",
       "coordinate": {
-        "lat": 50.804792830710035,
-        "long": 7.22287542377552
+        "lat": 50.80658437428821,
+        "long": 7.221091784089349
       },
       "description": [
         "Beginn: 26.05.25 um 12:04 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.05.2025, 12:04",
-        "A3: Köln -> Frankfurt, zwischen 0.5 km hinter Siegburg und 1.8 km vor AK Bonn/Siegburg",
+        "A3: Köln -> Frankfurt, zwischen 0.3 km hinter Siegburg und 1.8 km vor AK Bonn/Siegburg",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1479,8 +1539,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.222875424,
-            50.804792831
+            7.221091784,
+            50.806584374
+          ],
+          [
+            7.2221862,
+            50.805477101
+          ],
+          [
+            7.2226584,
+            50.805003701
           ],
           [
             7.2228947,
@@ -1526,198 +1594,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-05-26_12-24-57-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.9158941009367,7.102635599997568,50.91956446148505,7.07475860586614",
-      "point": "50.9158941009367,7.102635599997568",
-      "startLcPosition": "208",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Königsforst - Köln-Heumar",
-      "startTimestamp": "2025-05-26T12:24:57+02:00",
-      "coordinate": {
-        "lat": 50.9158941009367,
-        "long": 7.102635599997568
-      },
-      "description": [
-        "Beginn: 26.05.25 um 12:24 Uhr",
-        "",
-        "Hindernis, seit 26.05.2025, 12:24",
-        "A3: Frankfurt -> Köln, zwischen 0.3 km hinter AS Königsforst und 1.1 km vor AD Köln-Heumar",
-        "",
-        "Gefahr durch Gegenstände auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.1026356,
-            50.915894101
-          ],
-          [
-            7.1010564,
-            50.916267001
-          ],
-          [
-            7.1003821,
-            50.916427801
-          ],
-          [
-            7.0988506,
-            50.916792001
-          ],
-          [
-            7.0983607,
-            50.916905401
-          ],
-          [
-            7.0943337,
-            50.917867301
-          ],
-          [
-            7.0920651,
-            50.918392401
-          ],
-          [
-            7.0912321,
-            50.918591401
-          ],
-          [
-            7.090657,
-            50.918722801
-          ],
-          [
-            7.0900335,
-            50.918842001
-          ],
-          [
-            7.0897432,
-            50.918891801
-          ],
-          [
-            7.089214,
-            50.918979701
-          ],
-          [
-            7.0886757,
-            50.919052601
-          ],
-          [
-            7.0881932,
-            50.919107901
-          ],
-          [
-            7.087597,
-            50.919161601
-          ],
-          [
-            7.086967,
-            50.919194101
-          ],
-          [
-            7.0862158,
-            50.919216501
-          ],
-          [
-            7.0854561,
-            50.919211101
-          ],
-          [
-            7.0845886,
-            50.919204001
-          ],
-          [
-            7.0824948,
-            50.919145701
-          ],
-          [
-            7.0821363,
-            50.919136701
-          ],
-          [
-            7.0819605,
-            50.919132301
-          ],
-          [
-            7.0804945,
-            50.919095301
-          ],
-          [
-            7.0803405,
-            50.919090401
-          ],
-          [
-            7.0792486,
-            50.919075401
-          ],
-          [
-            7.0782876,
-            50.919107901
-          ],
-          [
-            7.0778211,
-            50.919143201
-          ],
-          [
-            7.0771887,
-            50.919185901
-          ],
-          [
-            7.0766803,
-            50.919232601
-          ],
-          [
-            7.076185,
-            50.919303901
-          ],
-          [
-            7.0756806,
-            50.919388301
-          ],
-          [
-            7.0750982,
-            50.919488101
-          ],
-          [
-            7.074758606,
-            50.919564461
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-zus.2025-05-26_12-08-13-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.082433400935784,6.988480799996935,51.107901199563884,6.988012188723266",
-      "point": "51.082433400935784,6.988480799996935",
+      "extent": "51.078692132474046,6.9883305910898565,51.10817981412915,6.988001592437415",
+      "point": "51.078692132474046,6.9883305910898565",
       "startLcPosition": "215",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Leverkusen-Opladen - Langenfeld",
       "startTimestamp": "2025-05-26T12:08:13+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "37.599998474121094",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "46",
       "coordinate": {
-        "lat": 51.082433400935784,
-        "long": 6.988480799996935
+        "lat": 51.078692132474046,
+        "long": 6.9883305910898565
       },
       "description": [
         "Beginn: 26.05.25 um 12:08 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 26.05.2025, 12:08",
-        "A3: Köln -> Oberhausen, zwischen 3.0 km hinter AS Leverkusen-Opladen und 0.7 km vor AD Langenfeld",
+        "A3: Köln -> Oberhausen, zwischen 2.6 km hinter AS Leverkusen-Opladen und 0.6 km vor AD Langenfeld",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 37 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 46 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1725,6 +1628,18 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            6.988330591,
+            51.078692132
+          ],
+          [
+            6.9884172,
+            51.080691601
+          ],
+          [
+            6.9884572,
+            51.081651801
+          ],
           [
             6.9884808,
             51.082433401
@@ -1774,50 +1689,23 @@
             51.105366701
           ],
           [
-            6.988012189,
-            51.1079012
+            6.9880027,
+            51.108151401
+          ],
+          [
+            6.988001592,
+            51.108179814
           ]
         ]
       }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-05-26_12-31-06-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.082433400935784,6.988480799996935,51.082433400935784,6.988480799996935",
-      "point": "51.082433400935784,6.988480799996935",
-      "startLcPosition": "216",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Reusrather Heide - Reusrather Heide",
-      "startTimestamp": "2025-05-26T12:31:06+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "26",
-      "coordinate": {
-        "lat": 51.082433400935784,
-        "long": 6.988480799996935
-      },
-      "description": [
-        "Beginn: 26.05.25 um 12:31 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 26.05.2025, 12:31",
-        "A3: Köln -> Oberhausen, 0.3 km vor Reusrather Heide, aus Richtung Leverkusen-Opladen",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 26 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-avl.2025-05-26_10-31-00-000.f_020.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.43077861629567,6.807418413523215,51.45153275512978,6.798858312193664",
-      "point": "51.43077861629567,6.807418413523215",
+      "extent": "51.435750148635556,6.8085110581867365,51.45153275512978,6.798858312193664",
+      "point": "51.435750148635556,6.8085110581867365",
       "startLcPosition": "229",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
@@ -1825,20 +1713,20 @@
       "startTimestamp": "2025-05-26T10:31:00+02:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52.599998474121094",
+      "averageSpeed": "49.79999923706055",
       "coordinate": {
-        "lat": 51.43077861629567,
-        "long": 6.807418413523215
+        "lat": 51.435750148635556,
+        "long": 6.8085110581867365
       },
       "description": [
         "Beginn: 26.05.25 um 10:31 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.05.2025, 10:31",
-        "A3: Köln -> Oberhausen, zwischen 2.7 km hinter AS Duisburg-Wedau und 3.2 km vor AS Oberhausen-Lirich",
+        "A3: Köln -> Oberhausen, zwischen 3.2 km hinter AS Duisburg-Wedau und 3.2 km vor AS Oberhausen-Lirich",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 52 km/h"
+        "Durchschnittsgeschwindigkeit: 49 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1847,40 +1735,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.807418414,
-            51.430778616
-          ],
-          [
-            6.8075131,
-            51.430907901
-          ],
-          [
-            6.8079458,
-            51.431628101
-          ],
-          [
-            6.808189,
-            51.432164101
-          ],
-          [
-            6.8084036,
-            51.432774201
-          ],
-          [
-            6.8085805,
-            51.433440101
-          ],
-          [
-            6.8086719,
-            51.434291601
-          ],
-          [
-            6.8086467,
-            51.435011601
-          ],
-          [
-            6.8085949,
-            51.435294701
+            6.808511058,
+            51.435750149
           ],
           [
             6.8085049,
@@ -2094,29 +1950,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.4922840232872,6.817423276751395,51.5346431009332,6.827633299995851",
-      "point": "51.4922840232872,6.817423276751395",
+      "extent": "51.50105314566508,6.821719482543099,51.53193199072161,6.822896983858008",
+      "point": "51.50105314566508,6.821719482543099",
       "startLcPosition": "232",
       "display_type": "WARNING",
       "subtitle": " Köln -> Arnheim",
       "title": "A3 | Oberhausen-West - Oberhausen",
       "startTimestamp": "2025-05-26T08:19:52+02:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "2",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.70000076293945",
+      "averageSpeed": "47.70000076293945",
       "coordinate": {
-        "lat": 51.4922840232872,
-        "long": 6.817423276751395
+        "lat": 51.50105314566508,
+        "long": 6.821719482543099
       },
       "description": [
         "Beginn: 26.05.25 um 08:19 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.05.2025, 08:19",
-        "A3: Köln -> Arnheim, zwischen 0.6 km hinter AK Oberhausen-West und 0.5 km vor AK Oberhausen",
+        "A3: Köln -> Arnheim, zwischen 1.6 km hinter AK Oberhausen-West und 1.0 km vor AK Oberhausen",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 47 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2125,40 +1981,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.817423277,
-            51.492284023
-          ],
-          [
-            6.8181676,
-            51.493793301
-          ],
-          [
-            6.8187383,
-            51.494976001
-          ],
-          [
-            6.8188377,
-            51.495190101
-          ],
-          [
-            6.8203338,
-            51.498244801
-          ],
-          [
-            6.8208302,
-            51.499258301
-          ],
-          [
-            6.8208897,
-            51.499375001
-          ],
-          [
-            6.8212857,
-            51.500183001
-          ],
-          [
-            6.8214095,
-            51.500416701
+            6.821719483,
+            51.501053146
           ],
           [
             6.8225454,
@@ -2385,40 +2209,8 @@
             51.531321001
           ],
           [
-            6.8229151,
-            51.531945401
-          ],
-          [
-            6.8236712,
-            51.532465701
-          ],
-          [
-            6.8244521,
-            51.532974301
-          ],
-          [
-            6.8252668,
-            51.533477101
-          ],
-          [
-            6.8257629,
-            51.533757501
-          ],
-          [
-            6.8260979,
-            51.533946801
-          ],
-          [
-            6.827171,
-            51.534522201
-          ],
-          [
-            6.8274695,
-            51.534563501
-          ],
-          [
-            6.8276333,
-            51.534643101
+            6.822896984,
+            51.531931991
           ]
         ]
       }
@@ -2437,7 +2229,7 @@
       "startTimestamp": "2025-05-26T10:52:01+02:00",
       "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.79999923706055",
+      "averageSpeed": "40.79999923706055",
       "coordinate": {
         "lat": 51.48100610368605,
         "long": 6.813115241899142
@@ -2450,7 +2242,7 @@
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2746,29 +2538,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.54023300093318,6.829566099995856,51.52861164836394,6.818663753659716",
-      "point": "51.54023300093318,6.829566099995856",
-      "startLcPosition": "235",
+      "extent": "51.53671113671889,6.830350267778303,51.530743131866025,6.821054775578979",
+      "point": "51.53671113671889,6.830350267778303",
+      "startLcPosition": "234",
       "display_type": "WARNING",
       "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Dinslaken-Süd - Oberhausen-Holten",
+      "title": "A3 | Oberhausen - Oberhausen-Holten",
       "startTimestamp": "2025-05-26T10:35:25+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40.599998474121094",
+      "averageSpeed": "53.099998474121094",
       "coordinate": {
-        "lat": 51.54023300093318,
-        "long": 6.829566099995856
+        "lat": 51.53671113671889,
+        "long": 6.830350267778303
       },
       "description": [
         "Beginn: 26.05.25 um 10:35 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.05.2025, 10:35",
-        "A3: Arnheim -> Oberhausen, zwischen 2.6 km hinter AS Dinslaken-Süd und 1.9 km vor AS Oberhausen-Holten",
+        "A3: Arnheim -> Oberhausen, zwischen 0.1 km hinter AK Oberhausen und 2.1 km vor AS Oberhausen-Holten",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 40 km/h"
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 53 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2777,60 +2569,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.8295661,
-            51.540233001
-          ],
-          [
-            6.8297346,
-            51.540031301
-          ],
-          [
-            6.8302277,
-            51.539640001
-          ],
-          [
-            6.8304812,
-            51.539316501
-          ],
-          [
-            6.8306099,
-            51.539129101
-          ],
-          [
-            6.8307288,
-            51.538900201
-          ],
-          [
-            6.8308447,
-            51.538580801
-          ],
-          [
-            6.8308949,
-            51.538310101
-          ],
-          [
-            6.8309217,
-            51.538014501
-          ],
-          [
-            6.8308915,
-            51.537756301
-          ],
-          [
-            6.8308447,
-            51.537521001
-          ],
-          [
-            6.8307557,
-            51.537295301
-          ],
-          [
-            6.8306539,
-            51.537108801
-          ],
-          [
-            6.830443,
-            51.536827701
+            6.830350268,
+            51.536711137
           ],
           [
             6.8302823,
@@ -2889,28 +2629,8 @@
             51.531470501
           ],
           [
-            6.8210193,
-            51.530714301
-          ],
-          [
-            6.8207895,
-            51.530509201
-          ],
-          [
-            6.8203726,
-            51.530140601
-          ],
-          [
-            6.8202625,
-            51.530044901
-          ],
-          [
-            6.8196457,
-            51.529499601
-          ],
-          [
-            6.818663754,
-            51.528611648
+            6.821054776,
+            51.530743132
           ]
         ]
       }
