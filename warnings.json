@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-05-29_07-51-00-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-05-29_07-51-00-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -909,33 +909,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-05-29_08-37-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-05-29_09-08-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.517338630949645,6.815143522500011,51.5319653825148,6.822944136787257",
-      "point": "51.517338630949645,6.815143522500011",
-      "startLcPosition": "233",
+      "extent": "49.99422290709755,9.115944826352292,49.994719550490665,9.118538521356164",
+      "point": "49.99422290709755,9.115944826352292",
+      "startLcPosition": "148",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Arnheim",
-      "title": "A3 | Oberhausen-Holten - Oberhausen",
-      "startTimestamp": "2025-05-29T08:37:30+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "45.79999923706055",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Strietwald-Süd - Strietwald-Nord",
+      "startTimestamp": "2025-05-29T09:08:30+02:00",
       "coordinate": {
-        "lat": 51.517338630949645,
-        "long": 6.815143522500011
+        "lat": 49.99422290709755,
+        "long": 9.115944826352292
       },
       "description": [
-        "Beginn: 29.05.25 um 08:37 Uhr",
+        "Beginn: 29.05.25 um 09:08 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 29.05.2025, 08:37",
-        "A3: Oberhausen -> Arnheim, zwischen 0.5 km hinter AS Oberhausen-Holten und 1.0 km vor AK Oberhausen",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 45 km/h"
+        "Fahrzeug-Hindernis, seit 29.05.2025, 09:08",
+        "A3: Frankfurt -> Würzburg, zwischen 1.2 km hinter Strietwald-Süd und 0.2 km vor Strietwald-Nord",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -944,8 +938,278 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.815143523,
-            51.517338631
+            9.115944826,
+            49.994222907
+          ],
+          [
+            9.116344,
+            49.994312901
+          ],
+          [
+            9.1170346,
+            49.994452401
+          ],
+          [
+            9.1184555,
+            49.994707301
+          ],
+          [
+            9.118538521,
+            49.99471955
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-05-29_09-03-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.02223267810114,8.94807392905845,50.02122321503734,8.950091358427635",
+      "point": "50.02223267810114,8.94807392905845",
+      "startLcPosition": "153",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Seligenstadt - Mainhausen",
+      "startTimestamp": "2025-05-29T09:03:00+02:00",
+      "coordinate": {
+        "lat": 50.02223267810114,
+        "long": 8.94807392905845
+      },
+      "description": [
+        "Beginn: 29.05.25 um 09:03 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 29.05.2025, 09:03",
+        "A3: Frankfurt -> Würzburg, zwischen 0.8 km hinter AS Seligenstadt und 3.7 km vor Mainhausen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.948073929,
+            50.022232678
+          ],
+          [
+            8.94985,
+            50.021334801
+          ],
+          [
+            8.950091358,
+            50.021223215
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-29_08-37-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.48886603788182,6.815711979894941,51.531595147465644,6.822441939876939",
+      "point": "51.48886603788182,6.815711979894941",
+      "startLcPosition": "232",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Arnheim",
+      "title": "A3 | Oberhausen-West - Oberhausen",
+      "startTimestamp": "2025-05-29T08:37:30+02:00",
+      "delayTimeValue": "6",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "32.599998474121094",
+      "coordinate": {
+        "lat": 51.48886603788182,
+        "long": 6.815711979894941
+      },
+      "description": [
+        "Beginn: 29.05.25 um 08:37 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 29.05.2025, 08:37",
+        "A3: Köln -> Arnheim, zwischen 0.2 km hinter AK Oberhausen-West und 1.0 km vor AK Oberhausen",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 6 Minuten",
+        "Durchschnittsgeschwindigkeit: 32 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.81571198,
+            51.488866038
+          ],
+          [
+            6.8158359,
+            51.489104801
+          ],
+          [
+            6.8163049,
+            51.490020101
+          ],
+          [
+            6.8168475,
+            51.491124901
+          ],
+          [
+            6.8169379,
+            51.491302401
+          ],
+          [
+            6.8172877,
+            51.492009101
+          ],
+          [
+            6.8181676,
+            51.493793301
+          ],
+          [
+            6.8187383,
+            51.494976001
+          ],
+          [
+            6.8188377,
+            51.495190101
+          ],
+          [
+            6.8203338,
+            51.498244801
+          ],
+          [
+            6.8208302,
+            51.499258301
+          ],
+          [
+            6.8208897,
+            51.499375001
+          ],
+          [
+            6.8212857,
+            51.500183001
+          ],
+          [
+            6.8214095,
+            51.500416701
+          ],
+          [
+            6.8225454,
+            51.502748801
+          ],
+          [
+            6.8228404,
+            51.503527401
+          ],
+          [
+            6.8229282,
+            51.503922701
+          ],
+          [
+            6.8229922,
+            51.504291501
+          ],
+          [
+            6.8230288,
+            51.504918601
+          ],
+          [
+            6.8230301,
+            51.505078801
+          ],
+          [
+            6.8230282,
+            51.505268601
+          ],
+          [
+            6.8229753,
+            51.505726001
+          ],
+          [
+            6.8229084,
+            51.506127601
+          ],
+          [
+            6.822674,
+            51.506872001
+          ],
+          [
+            6.8226245,
+            51.507014201
+          ],
+          [
+            6.8223129,
+            51.507628301
+          ],
+          [
+            6.8220038,
+            51.508124101
+          ],
+          [
+            6.8217001,
+            51.508534201
+          ],
+          [
+            6.8213765,
+            51.508934401
+          ],
+          [
+            6.8213058,
+            51.509025601
+          ],
+          [
+            6.820424,
+            51.510134801
+          ],
+          [
+            6.8199409,
+            51.510738901
+          ],
+          [
+            6.8190335,
+            51.511888201
+          ],
+          [
+            6.8181518,
+            51.513010801
+          ],
+          [
+            6.8180335,
+            51.513163701
+          ],
+          [
+            6.817751,
+            51.513503801
+          ],
+          [
+            6.8171016,
+            51.514294301
+          ],
+          [
+            6.8167172,
+            51.514796201
+          ],
+          [
+            6.8164841,
+            51.515107001
+          ],
+          [
+            6.8162054,
+            51.515495001
+          ],
+          [
+            6.8158006,
+            51.516109301
+          ],
+          [
+            6.8155701,
+            51.516491301
+          ],
+          [
+            6.8152198,
+            51.517174601
           ],
           [
             6.8149818,
@@ -1056,75 +1320,40 @@
             51.531321001
           ],
           [
-            6.8229151,
-            51.531945401
-          ],
-          [
-            6.822944137,
-            51.531965383
+            6.82244194,
+            51.531595147
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-05-29_08-41-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-05-29_09-11-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
-      "point": "51.89839901701434,6.165717280673193",
-      "startLcPosition": "261",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Knauheide - Knauheide",
-      "startTimestamp": "2025-05-29T08:41:30+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "18",
-      "coordinate": {
-        "lat": 51.89839901701434,
-        "long": 6.165717280673193
-      },
-      "description": [
-        "Beginn: 29.05.25 um 08:41 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.05.2025, 08:41",
-        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 18 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-05-29_08-41-30-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
-      "point": "51.89839901701434,6.165717280673193",
+      "extent": "51.89836112503476,6.165756320916883,51.88651197752485,6.177956880185743",
+      "point": "51.89836112503476,6.165756320916883",
       "startLcPosition": "262",
       "display_type": "WARNING",
       "subtitle": " Arnheim -> Oberhausen",
       "title": "A3 | Elten - Elten",
-      "startTimestamp": "2025-05-29T08:41:30+02:00",
+      "startTimestamp": "2025-05-29T09:11:30+02:00",
       "delayTimeValue": "0",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "32.5",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "61.70000076293945",
       "coordinate": {
-        "lat": 51.89839901701434,
-        "long": 6.165717280673193
+        "lat": 51.89836112503476,
+        "long": 6.165756320916883
       },
       "description": [
-        "Beginn: 29.05.25 um 08:41 Uhr",
+        "Beginn: 29.05.25 um 09:11 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 29.05.2025, 08:41",
-        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten",
+        "Angespannte Verkehrslage, seit 29.05.2025, 09:11",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 0.2 km vor AS Elten",
         "",
-        "Stockender Verkehr",
+        "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 32 km/h"
+        "Durchschnittsgeschwindigkeit: 61 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1133,8 +1362,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.165717281,
-            51.898399017
+            6.165756321,
+            51.898361125
           ],
           [
             6.1665101,
@@ -1151,6 +1380,22 @@
           [
             6.1688771,
             51.895327101
+          ],
+          [
+            6.1696626,
+            51.894557001
+          ],
+          [
+            6.1714999,
+            51.892786101
+          ],
+          [
+            6.1745187,
+            51.889823801
+          ],
+          [
+            6.17795688,
+            51.886511978
           ]
         ]
       }
