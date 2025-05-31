@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.89395497932789,8.30908821847652,48.90123030843058,8.336190859763544",
-      "point": "48.89395497932789,8.30908821847652",
+      "extent": "48.88993756009591,8.29396746661583,48.90123030843058,8.336190859763544",
+      "point": "48.88993756009591,8.29396746661583",
       "startLcPosition": "55",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Schleifweg - Karlsruhe-Süd",
       "startTimestamp": "2025-05-31T09:17:00+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "46.5",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "28.600000381469727",
       "coordinate": {
-        "lat": 48.89395497932789,
-        "long": 8.30908821847652
+        "lat": 48.88993756009591,
+        "long": 8.29396746661583
       },
       "description": [
         "Beginn: 31.05.25 um 09:17 Uhr",
         "",
         "Angespannte Verkehrslage, seit 31.05.2025, 09:17",
-        "A5: Basel -> Karlsruhe, zwischen 1.6 km hinter Schleifweg und 7.4 km vor AS Karlsruhe-Süd",
+        "A5: Basel -> Karlsruhe, zwischen 0.4 km hinter Schleifweg und 7.4 km vor AS Karlsruhe-Süd",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 46 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.309088218,
-            48.893954979
+            8.293967467,
+            48.88993756
+          ],
+          [
+            8.2967224,
+            48.890652201
+          ],
+          [
+            8.2992263,
+            48.891317901
+          ],
+          [
+            8.3002512,
+            48.891590401
+          ],
+          [
+            8.304814,
+            48.892814201
+          ],
+          [
+            8.3056143,
+            48.893029801
+          ],
+          [
+            8.3068287,
+            48.893357101
+          ],
+          [
+            8.3088571,
+            48.893892901
           ],
           [
             8.3121425,
@@ -81,6 +109,37 @@
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-05-31_09-40-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.88993756009591,8.29396746661583,48.88993756009591,8.29396746661583",
+      "point": "48.88993756009591,8.29396746661583",
+      "startLcPosition": "56",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Karlsruhe-Süd - Karlsruhe-Süd",
+      "startTimestamp": "2025-05-31T09:42:00+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "29",
+      "coordinate": {
+        "lat": 48.88993756009591,
+        "long": 8.29396746661583
+      },
+      "description": [
+        "Beginn: 31.05.25 um 09:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 31.05.2025, 09:42",
+        "A5: Basel -> Karlsruhe, 10.7 km vor AS Karlsruhe-Süd, aus Richtung Schleifweg",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     }
   ]
 }
