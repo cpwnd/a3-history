@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-06-18_13-08-05-000.f_009.de0",
+      "identifier": "undefined--vi-avl.2025-06-18_13-27-53-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.42153942064284,8.808132366786387,50.428914957607155,8.802288181942975",
-      "point": "50.42153942064284,8.808132366786387",
+      "extent": "50.42036253865343,8.81012605534933,50.43025352596974,8.801679067604239",
+      "point": "50.42036253865343,8.81012605534933",
       "startLcPosition": "16",
       "display_type": "WARNING",
       "subtitle": " Aschaffenburg -> Gießen",
       "title": "A45 | Wölfersheim - Stauferburg",
-      "startTimestamp": "2025-06-18T13:08:05+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "53.29999923706055",
+      "startTimestamp": "2025-06-18T13:27:53+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "45.70000076293945",
       "coordinate": {
-        "lat": 50.42153942064284,
-        "long": 8.808132366786387
+        "lat": 50.42036253865343,
+        "long": 8.81012605534933
       },
       "description": [
-        "Beginn: 18.06.25 um 13:08 Uhr",
+        "Beginn: 18.06.25 um 13:27 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.06.2025, 13:08",
-        "A45: Aschaffenburg -> Gießen, zwischen 3.1 km hinter AS Wölfersheim und 1.3 km vor Stauferburg",
+        "Angespannte Verkehrslage, seit 18.06.2025, 13:27",
+        "A45: Aschaffenburg -> Gießen, zwischen 2.9 km hinter AS Wölfersheim und 1.2 km vor Stauferburg",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 53 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 45 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.808132367,
-            50.421539421
+            8.810126055,
+            50.420362539
+          ],
+          [
+            8.8095961,
+            50.420639401
+          ],
+          [
+            8.808941,
+            50.421025301
+          ],
+          [
+            8.8083193,
+            50.421409801
           ],
           [
             8.8076895,
@@ -84,14 +96,81 @@
             50.428542801
           ],
           [
-            8.802288182,
-            50.428914958
+            8.8020617,
+            50.429416601
+          ],
+          [
+            8.8017119,
+            50.430181901
+          ],
+          [
+            8.801679068,
+            50.430253526
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-06-18_11-53-41-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-06-18_13-29-21-000.f_012.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.42153942064284,8.808132366786387,50.42153942064284,8.808132366786387",
+      "point": "50.42153942064284,8.808132366786387",
+      "startLcPosition": "17",
+      "display_type": "WARNING",
+      "subtitle": " Aschaffenburg -> Gießen",
+      "title": "A45 | Stauferburg - Stauferburg",
+      "startTimestamp": "2025-06-18T13:29:21+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "28",
+      "coordinate": {
+        "lat": 50.42153942064284,
+        "long": 8.808132366786387
+      },
+      "description": [
+        "Beginn: 18.06.25 um 13:29 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 18.06.2025, 13:29",
+        "A45: Aschaffenburg -> Gießen, 2.2 km vor Stauferburg, aus Richtung Wölfersheim",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-06-18_13-22-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.607408936265315,8.433950332342047,50.607408936265315,8.433950332342047",
+      "point": "50.607408936265315,8.433950332342047",
+      "startLcPosition": "30",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Lemperberg - Wetzlarer Kreuz",
+      "startTimestamp": "2025-06-18T13:22:30+02:00",
+      "coordinate": {
+        "lat": 50.607408936265315,
+        "long": 8.433950332342047
+      },
+      "description": [
+        "Beginn: 18.06.25 um 13:22 Uhr",
+        "",
+        "Hindernis, seit 18.06.2025, 13:22",
+        "A45: Hagen -> Gießen, zwischen 1.6 km hinter Lemperberg und 4.2 km vor AK Wetzlarer Kreuz",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-06-18_11-53-41-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -234,27 +313,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.618599204319715,8.38918901130006,50.618599204319715,8.38918901130006",
-      "point": "50.618599204319715,8.38918901130006",
-      "startLcPosition": "30",
+      "extent": "50.618236620619335,8.38325107051136,50.618236620619335,8.38325107051136",
+      "point": "50.618236620619335,8.38325107051136",
+      "startLcPosition": "31",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Lemperberg - Lemperberg",
-      "startTimestamp": "2025-06-18T13:09:53+02:00",
+      "title": "A45 | Ehringshausen - Ehringshausen",
+      "startTimestamp": "2025-06-18T13:30:46+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8",
+      "averageSpeed": "7",
       "coordinate": {
-        "lat": 50.618599204319715,
-        "long": 8.38918901130006
+        "lat": 50.618236620619335,
+        "long": 8.38325107051136
       },
       "description": [
-        "Beginn: 18.06.25 um 13:09 Uhr",
+        "Beginn: 18.06.25 um 13:30 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.06.2025, 13:09",
-        "A45: Hagen -> Gießen, 1.9 km vor Lemperberg, aus Richtung Ehringshausen",
+        "Angespannte Verkehrslage, seit 18.06.2025, 13:30",
+        "A45: Hagen -> Gießen, 0.1 km vor AS Ehringshausen, aus Richtung Katzenfurt",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -265,29 +344,31 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.61860537418804,8.389344196686338,50.60723577395533,8.44402781948858",
-      "point": "50.61860537418804,8.389344196686338",
-      "startLcPosition": "31",
+      "extent": "50.618242459882396,8.383392123959773,50.607240617728536,8.443858407123896",
+      "point": "50.618242459882396,8.383392123959773",
+      "startLcPosition": "32",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Ehringshausen - Wetzlarer Kreuz",
+      "title": "A45 | Katzenfurt - Wetzlarer Kreuz",
       "startTimestamp": "2025-06-18T11:46:44+02:00",
-      "delayTimeValue": "23",
+      "delayTimeValue": "21",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9.800000190734863",
+      "averageSpeed": "11.399999618530273",
       "coordinate": {
-        "lat": 50.61860537418804,
-        "long": 8.389344196686338
+        "lat": 50.618242459882396,
+        "long": 8.383392123959773
       },
       "description": [
         "Beginn: 18.06.25 um 11:46 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 18.06.2025, 11:46",
-        "A45: Hagen -> Gießen, zwischen 0.4 km hinter AS Ehringshausen und 3.5 km vor AK Wetzlarer Kreuz",
+        "A45: Hagen -> Gießen, zwischen 1.5 km hinter Katzenfurt und 3.5 km vor AK Wetzlarer Kreuz",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 23 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Reisezeitverlust: 21 Minuten",
+        "Durchschnittsgeschwindigkeit: 11 km/h",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -296,8 +377,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.389344197,
-            50.618605374
+            8.383392124,
+            50.61824246
+          ],
+          [
+            8.3839874,
+            50.618267101
+          ],
+          [
+            8.3848886,
+            50.618323701
+          ],
+          [
+            8.3856141,
+            50.618381901
+          ],
+          [
+            8.3878923,
+            50.618537301
+          ],
+          [
+            8.3886317,
+            50.618577401
+          ],
+          [
+            8.3892605,
+            50.618602001
           ],
           [
             8.3899255,
@@ -568,8 +673,8 @@
             50.607249901
           ],
           [
-            8.444027819,
-            50.607235774
+            8.443858407,
+            50.607240618
           ]
         ]
       }
@@ -585,7 +690,7 @@
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | In der Hubach - In der Hubach",
-      "startTimestamp": "2025-06-18T13:09:53+02:00",
+      "startTimestamp": "2025-06-18T13:30:46+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "14",
       "coordinate": {
@@ -593,9 +698,9 @@
         "long": 8.012838101662654
       },
       "description": [
-        "Beginn: 18.06.25 um 13:09 Uhr",
+        "Beginn: 18.06.25 um 13:30 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.06.2025, 13:09",
+        "Angespannte Verkehrslage, seit 18.06.2025, 13:30",
         "A45: Hagen -> Gießen, 0.1 km vor In der Hubach, aus Richtung Siegtalbrücke",
         "",
         "Im Stillstand",
@@ -617,9 +722,9 @@
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Siegtalbrücke - Wilnsdorf",
       "startTimestamp": "2025-06-18T12:06:46+02:00",
-      "delayTimeValue": "21",
+      "delayTimeValue": "20",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13.800000190734863",
+      "averageSpeed": "14.199999809265137",
       "coordinate": {
         "lat": 50.835945334366706,
         "long": 8.012963678252046
@@ -631,8 +736,8 @@
         "A45: Hagen -> Gießen, zwischen 2.2 km hinter Siegtalbrücke und 0.4 km vor AS Wilnsdorf",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 21 Minuten",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Reisezeitverlust: 20 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1038,7 +1143,7 @@
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Rehweg - Rehweg",
-      "startTimestamp": "2025-06-18T13:05:53+02:00",
+      "startTimestamp": "2025-06-18T13:27:13+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "3",
       "coordinate": {
@@ -1046,9 +1151,9 @@
         "long": 7.598928474041893
       },
       "description": [
-        "Beginn: 18.06.25 um 13:05 Uhr",
+        "Beginn: 18.06.25 um 13:27 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.06.2025, 13:05",
+        "Angespannte Verkehrslage, seit 18.06.2025, 13:27",
         "A45: Hagen -> Gießen, 0.6 km vor Rehweg, aus Richtung Kaltenborn",
         "",
         "Im Stillstand",
@@ -1063,16 +1168,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.27413762186218,7.5985480854926495,51.2648062046249,7.602437327354894",
+      "extent": "51.27413762186218,7.5985480854926495,51.26417655734046,7.602675014641066",
       "point": "51.27413762186218,7.5985480854926495",
       "startLcPosition": "93",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Kaltenborn - Lüdenscheid-Nord",
       "startTimestamp": "2025-06-18T06:03:00+02:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "10",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "5.400000095367432",
+      "averageSpeed": "5.900000095367432",
       "coordinate": {
         "lat": 51.27413762186218,
         "long": 7.5985480854926495
@@ -1081,10 +1186,10 @@
         "Beginn: 18.06.25 um 06:03 Uhr",
         "",
         "Angespannte Verkehrslage, seit 18.06.2025, 06:03",
-        "A45: Hagen -> Gießen, zwischen 2.5 km hinter Kaltenborn und 1.0 km vor AS Lüdenscheid-Nord",
+        "A45: Hagen -> Gießen, zwischen 2.5 km hinter Kaltenborn und 0.9 km vor AS Lüdenscheid-Nord",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 11 Minuten",
+        "Reisezeitverlust: 10 Minuten",
         "Durchschnittsgeschwindigkeit: 5 km/h"
       ],
       "routeRecommendation": [],
@@ -1134,8 +1239,12 @@
             51.265109101
           ],
           [
-            7.602437327,
-            51.264806205
+            7.6025568,
+            51.264448001
+          ],
+          [
+            7.602675015,
+            51.264176557
           ]
         ]
       }
@@ -1145,29 +1254,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.56372737164504,7.359160781576232,51.58206188869336,7.366742597998634",
-      "point": "51.56372737164504,7.359160781576232",
-      "startLcPosition": "112",
+      "extent": "51.5438404486531,7.361703304941569,51.5820531234725,7.366739390037713",
+      "point": "51.5438404486531,7.361703304941569",
+      "startLcPosition": "111",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
+      "title": "A45 | Westerfilde - Dortmund-Nordwest",
       "startTimestamp": "2025-06-18T12:29:39+02:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "4",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "36.5",
+      "averageSpeed": "40.900001525878906",
       "coordinate": {
-        "lat": 51.56372737164504,
-        "long": 7.359160781576232
+        "lat": 51.5438404486531,
+        "long": 7.361703304941569
       },
       "description": [
         "Beginn: 18.06.25 um 12:29 Uhr",
         "",
         "Angespannte Verkehrslage, seit 18.06.2025, 12:29",
-        "A45: Hagen -> Dortmund, zwischen 0.3 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest",
+        "A45: Hagen -> Dortmund, zwischen 0.9 km hinter Westerfilde und 0.4 km vor AK Dortmund-Nordwest",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 36 km/h"
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1176,8 +1285,148 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.359160782,
-            51.563727372
+            7.361703305,
+            51.543840449
+          ],
+          [
+            7.3612782,
+            51.544440101
+          ],
+          [
+            7.3608217,
+            51.545128001
+          ],
+          [
+            7.3603981,
+            51.545803501
+          ],
+          [
+            7.3599993,
+            51.546486101
+          ],
+          [
+            7.3594236,
+            51.547545601
+          ],
+          [
+            7.3591552,
+            51.548083601
+          ],
+          [
+            7.3589014,
+            51.548628401
+          ],
+          [
+            7.3586944,
+            51.549127901
+          ],
+          [
+            7.3586259,
+            51.549291901
+          ],
+          [
+            7.3584269,
+            51.549786401
+          ],
+          [
+            7.3582742,
+            51.550191501
+          ],
+          [
+            7.3581376,
+            51.550575301
+          ],
+          [
+            7.3579686,
+            51.551171501
+          ],
+          [
+            7.357831,
+            51.551676501
+          ],
+          [
+            7.357667,
+            51.552377101
+          ],
+          [
+            7.3574895,
+            51.553351101
+          ],
+          [
+            7.3573824,
+            51.554265401
+          ],
+          [
+            7.3573169,
+            51.556068401
+          ],
+          [
+            7.357327,
+            51.556954201
+          ],
+          [
+            7.3573613,
+            51.557361601
+          ],
+          [
+            7.3574119,
+            51.557767901
+          ],
+          [
+            7.3574324,
+            51.558022601
+          ],
+          [
+            7.357468,
+            51.558280601
+          ],
+          [
+            7.3575557,
+            51.558835501
+          ],
+          [
+            7.357608,
+            51.559113801
+          ],
+          [
+            7.3576633,
+            51.559394501
+          ],
+          [
+            7.3577653,
+            51.559847701
+          ],
+          [
+            7.3578737,
+            51.560274901
+          ],
+          [
+            7.3579977,
+            51.560720601
+          ],
+          [
+            7.3580599,
+            51.560942201
+          ],
+          [
+            7.3581073,
+            51.561083101
+          ],
+          [
+            7.3583587,
+            51.561805801
+          ],
+          [
+            7.3585189,
+            51.562253701
+          ],
+          [
+            7.3587349,
+            51.562786201
+          ],
+          [
+            7.3590239,
+            51.563424501
           ],
           [
             7.3591979,
@@ -1312,8 +1561,8 @@
             51.581176601
           ],
           [
-            7.366742598,
-            51.582061889
+            7.36673939,
+            51.582053123
           ]
         ]
       }
