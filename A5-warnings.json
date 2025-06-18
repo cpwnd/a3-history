@@ -1,11 +1,11 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-06-18_06-21-00-000.f_006.de0",
+      "identifier": "undefined--vi-hind.2025-06-18_06-21-00-000.f_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.22541490094422,8.603575099999901,49.274039176576245,8.616357892511354",
+      "extent": "49.22541490094422,8.603575099999901,49.27555981485849,8.617436297097786",
       "point": "49.22541490094422,8.603575099999901",
       "startLcPosition": "65",
       "display_type": "WARNING",
@@ -20,7 +20,7 @@
         "Beginn: 18.06.25 um 06:21 Uhr",
         "",
         "Fahrzeug-Hindernis, seit 18.06.2025, 06:21",
-        "A5: Karlsruhe -> Heidelberg, zwischen 8.0 km hinter Bruchsal und 0.8 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 8.0 km hinter Bruchsal und 0.6 km vor AK Walldorf",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -314,33 +314,127 @@
             49.273612601
           ],
           [
-            8.616357893,
-            49.274039177
+            8.6165497,
+            49.274292101
+          ],
+          [
+            8.616582,
+            49.274341001
+          ],
+          [
+            8.6167571,
+            49.274606001
+          ],
+          [
+            8.617059,
+            49.275027001
+          ],
+          [
+            8.617436297,
+            49.275559815
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-06-18_07-21-53-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-06-18_08-16-14-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.910187459930135,8.60816205296716,49.908929912745926,8.607895204198233",
-      "point": "49.910187459930135,8.60816205296716",
-      "startLcPosition": "99",
+      "extent": "49.71663145784299,8.59542120322381,49.70570641590065,8.599358741243826",
+      "point": "49.71663145784299,8.59542120322381",
+      "startLcPosition": "87",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Darmstadt",
-      "title": "A5 | Gräfenhausen - Täubcheshöhle",
-      "startTimestamp": "2025-06-18T07:21:53+02:00",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Zwingenberg - Scheidweg",
+      "startTimestamp": "2025-06-18T08:16:14+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "58.79999923706055",
       "coordinate": {
-        "lat": 49.910187459930135,
-        "long": 8.60816205296716
+        "lat": 49.71663145784299,
+        "long": 8.59542120322381
       },
       "description": [
-        "Beginn: 18.06.25 um 07:21 Uhr",
+        "Beginn: 18.06.25 um 08:16 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 18.06.2025, 07:21",
-        "A5: Frankfurt -> Darmstadt, zwischen 4.1 km hinter Gräfenhausen und 0.1 km vor Täubcheshöhle",
+        "Angespannte Verkehrslage, seit 18.06.2025, 08:16",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.7 km hinter AS Zwingenberg und 1.0 km vor Scheidweg",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 58 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.595421203,
+            49.716631458
+          ],
+          [
+            8.5956712,
+            49.715781701
+          ],
+          [
+            8.5960976,
+            49.714521301
+          ],
+          [
+            8.5961376,
+            49.714410601
+          ],
+          [
+            8.5965671,
+            49.713078401
+          ],
+          [
+            8.5974762,
+            49.710548901
+          ],
+          [
+            8.5976219,
+            49.710143401
+          ],
+          [
+            8.59828,
+            49.708336201
+          ],
+          [
+            8.5990611,
+            49.706439301
+          ],
+          [
+            8.599358741,
+            49.705706416
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-06-18_07-58-53-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.873813400941685,8.601620599999894,49.894430100941584,8.605285399999902",
+      "point": "49.873813400941685,8.601620599999894",
+      "startLcPosition": "95",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Frankfurt",
+      "title": "A5 | Darmstädter Nordkreuz - Weiterstadt",
+      "startTimestamp": "2025-06-18T07:58:53+02:00",
+      "coordinate": {
+        "lat": 49.873813400941685,
+        "long": 8.601620599999894
+      },
+      "description": [
+        "Beginn: 18.06.25 um 07:58 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 18.06.2025, 07:58",
+        "A5: Heidelberg -> Frankfurt, zwischen 0.4 km hinter AK Darmstädter Nordkreuz und 0.5 km vor AS Weiterstadt",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -350,16 +444,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.608162053,
-            49.91018746
+            8.6016206,
+            49.873813401
           ],
           [
-            8.6081513,
-            49.910132801
+            8.6018767,
+            49.875333601
           ],
           [
-            8.607895204,
-            49.908929913
+            8.6021337,
+            49.876911701
+          ],
+          [
+            8.6029989,
+            49.882062801
+          ],
+          [
+            8.6037832,
+            49.886737901
+          ],
+          [
+            8.6051703,
+            49.893835901
+          ],
+          [
+            8.6052854,
+            49.894430101
           ]
         ]
       }
@@ -369,29 +479,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.10590449667077,8.604894094147149,50.13243402316781,8.590293905316427",
-      "point": "50.10590449667077,8.604894094147149",
+      "extent": "50.10917470900954,8.602636345405022,50.13073126270233,8.590191986083958",
+      "point": "50.10917470900954,8.602636345405022",
       "startLcPosition": "108",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Frankfurt am Main-Westhafen - Nordwestkreuz Frankfurt am Main",
       "startTimestamp": "2025-06-18T07:35:59+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "70.80000305175781",
+      "averageSpeed": "71.5999984741211",
       "coordinate": {
-        "lat": 50.10590449667077,
-        "long": 8.604894094147149
+        "lat": 50.10917470900954,
+        "long": 8.602636345405022
       },
       "description": [
         "Beginn: 18.06.25 um 07:35 Uhr",
         "",
         "Angespannte Verkehrslage, seit 18.06.2025, 07:35",
-        "A5: Frankfurt -> Kassel, zwischen 1.7 km hinter AS Frankfurt am Main-Westhafen und 0.3 km vor AK Nordwestkreuz Frankfurt am Main",
+        "A5: Frankfurt -> Kassel, zwischen 2.1 km hinter AS Frankfurt am Main-Westhafen und 0.4 km vor AK Nordwestkreuz Frankfurt am Main",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 70 km/h"
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 71 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -400,36 +510,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.604894094,
-            50.105904497
-          ],
-          [
-            8.6046308,
-            50.106212801
-          ],
-          [
-            8.6041905,
-            50.106815401
-          ],
-          [
-            8.6040614,
-            50.107003401
-          ],
-          [
-            8.6037541,
-            50.107450601
-          ],
-          [
-            8.6033828,
-            50.108007601
-          ],
-          [
-            8.6031565,
-            50.108369001
-          ],
-          [
-            8.6028994,
-            50.108762801
+            8.602636345,
+            50.109174709
           ],
           [
             8.6024917,
@@ -632,24 +714,8 @@
             50.130532901
           ],
           [
-            8.5902074,
-            50.131498301
-          ],
-          [
-            8.5902138,
-            50.131645401
-          ],
-          [
-            8.5902475,
-            50.131953001
-          ],
-          [
-            8.5902786,
-            50.132227401
-          ],
-          [
-            8.590293905,
-            50.132434023
+            8.590191986,
+            50.130731263
           ]
         ]
       }
@@ -659,29 +725,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.15143646047372,8.599886337302445,50.13809250094052,8.592524999999887",
-      "point": "50.15143646047372,8.599886337302445",
-      "startLcPosition": "111",
+      "extent": "50.15683815127711,8.602870334786838,50.13809250094052,8.592524999999887",
+      "point": "50.15683815127711,8.602870334786838",
+      "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Taunusblick - Nordwestkreuz Frankfurt am Main",
+      "title": "A5 | Bad Homburger Kreuz - Nordwestkreuz Frankfurt am Main",
       "startTimestamp": "2025-06-18T07:45:02+02:00",
-      "delayTimeValue": "0",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "67.9000015258789",
+      "averageSpeed": "59.29999923706055",
       "coordinate": {
-        "lat": 50.15143646047372,
-        "long": 8.599886337302445
+        "lat": 50.15683815127711,
+        "long": 8.602870334786838
       },
       "description": [
         "Beginn: 18.06.25 um 07:45 Uhr",
         "",
         "Angespannte Verkehrslage, seit 18.06.2025, 07:45",
-        "A5: Kassel -> Frankfurt, zwischen 0.4 km hinter Taunusblick und 0.4 km vor AK Nordwestkreuz Frankfurt am Main",
+        "A5: Kassel -> Frankfurt, zwischen 5.9 km hinter AK Bad Homburger Kreuz und 0.4 km vor AK Nordwestkreuz Frankfurt am Main",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 67 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 59 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -690,8 +756,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.599886337,
-            50.15143646
+            8.602870335,
+            50.156838151
+          ],
+          [
+            8.6026482,
+            50.156433701
+          ],
+          [
+            8.602141,
+            50.155533001
+          ],
+          [
+            8.6014915,
+            50.154343701
+          ],
+          [
+            8.6003253,
+            50.152262001
           ],
           [
             8.5998443,
