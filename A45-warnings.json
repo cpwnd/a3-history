@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-06-21_09-34-36-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2025-06-21_09-34-36-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.565966851842816,7.360319182867883,51.5820531234725,7.366739390037713",
-      "point": "51.565966851842816,7.360319182867883",
+      "extent": "51.56511402191268,7.359878354011227,51.58206188869336,7.366742597998634",
+      "point": "51.56511402191268,7.359878354011227",
       "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
       "startTimestamp": "2025-06-21T09:34:36+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "30.600000381469727",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "42.29999923706055",
       "coordinate": {
-        "lat": 51.565966851842816,
-        "long": 7.360319182867883
+        "lat": 51.56511402191268,
+        "long": 7.359878354011227
       },
       "description": [
         "Beginn: 21.06.25 um 09:34 Uhr",
         "",
         "Angespannte Verkehrslage, seit 21.06.2025, 09:34",
-        "A45: Hagen -> Dortmund, zwischen 0.5 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest",
+        "A45: Hagen -> Dortmund, zwischen 0.4 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 30 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 42 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.360319183,
-            51.565966852
+            7.359878354,
+            51.565114022
+          ],
+          [
+            7.3599934,
+            51.565321701
+          ],
+          [
+            7.360176,
+            51.565674501
           ],
           [
             7.3607579,
@@ -152,42 +160,11 @@
             51.581176601
           ],
           [
-            7.36673939,
-            51.582053123
+            7.366742598,
+            51.582061889
           ]
         ]
       }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-06-21_10-26-09-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.565966851842816,7.360319182867883,51.565966851842816,7.360319182867883",
-      "point": "51.565966851842816,7.360319182867883",
-      "startLcPosition": "113",
-      "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Dortmund-Nordwest - Dortmund-Nordwest",
-      "startTimestamp": "2025-06-21T10:36:09+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 51.565966851842816,
-        "long": 7.360319182867883
-      },
-      "description": [
-        "Beginn: 21.06.25 um 10:36 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 21.06.2025, 10:36",
-        "A45: Hagen -> Dortmund, 2.3 km vor AK Dortmund-Nordwest, aus Richtung Castrop-Rauxel-Ost",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
     }
   ]
 }
