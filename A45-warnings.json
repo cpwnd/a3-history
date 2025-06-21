@@ -1,6 +1,50 @@
 {
   "warning": [
     {
+      "identifier": "undefined--vi-hind.2025-06-21_11-23-48-000.f_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.09607507429182,7.679272911791524,51.09498692715624,7.680658846756504",
+      "point": "51.09607507429182,7.679272911791524",
+      "startLcPosition": "78",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Meinerzhagen - Neuenschmiede",
+      "startTimestamp": "2025-06-21T11:23:48+02:00",
+      "coordinate": {
+        "lat": 51.09607507429182,
+        "long": 7.679272911791524
+      },
+      "description": [
+        "Beginn: 21.06.25 um 11:23 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 21.06.2025, 11:23",
+        "A45: Hagen -> Gießen, zwischen 0.8 km hinter AS Meinerzhagen und 2.2 km vor Neuenschmiede",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.679272912,
+            51.096075074
+          ],
+          [
+            7.6802167,
+            51.095316701
+          ],
+          [
+            7.680658847,
+            51.094986927
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-avl.2025-06-21_09-34-36-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -12,9 +56,9 @@
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
       "startTimestamp": "2025-06-21T09:34:36+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "34.70000076293945",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "21.299999237060547",
       "coordinate": {
         "lat": 51.56372737164504,
         "long": 7.359160781576232
@@ -25,9 +69,9 @@
         "Angespannte Verkehrslage, seit 21.06.2025, 09:34",
         "A45: Hagen -> Dortmund, zwischen 0.3 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 34 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -177,6 +221,37 @@
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-06-21_11-20-27-000.f_006.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.56373602509163,7.359164692504568,51.56373602509163,7.359164692504568",
+      "point": "51.56373602509163,7.359164692504568",
+      "startLcPosition": "113",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Dortmund-Nordwest - Dortmund-Nordwest",
+      "startTimestamp": "2025-06-21T11:30:58+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10",
+      "coordinate": {
+        "lat": 51.56373602509163,
+        "long": 7.359164692504568
+      },
+      "description": [
+        "Beginn: 21.06.25 um 11:30 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 21.06.2025, 11:30",
+        "A45: Hagen -> Dortmund, 2.5 km vor AK Dortmund-Nordwest, aus Richtung Castrop-Rauxel-Ost",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     }
   ]
 }
