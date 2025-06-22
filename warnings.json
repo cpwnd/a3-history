@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-06-22_23-13-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-06-23_00-15-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -11,23 +11,23 @@
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
       "title": "A3 | Pocking - Passau-Süd",
-      "startTimestamp": "2025-06-22T23:13:30+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "21",
+      "startTimestamp": "2025-06-23T00:15:00+02:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "10.800000190734863",
       "coordinate": {
         "lat": 48.45130820713138,
         "long": 13.376106469589947
       },
       "description": [
-        "Beginn: 22.06.25 um 23:13 Uhr",
+        "Beginn: 23.06.25 um 00:15 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.06.2025, 23:13",
+        "Angespannte Verkehrslage, seit 23.06.2025, 00:15",
         "A3: Linz -> Passau, zwischen 1.8 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -107,33 +107,58 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-06-23_00-07-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-06-23_00-21-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06126125070895,8.698222791367288,50.06222654305411,8.706075798671312",
-      "point": "50.06126125070895,8.698222791367288",
-      "startLcPosition": "160",
+      "extent": "48.45130820713138,13.376106469589947,48.45130820713138,13.376106469589947",
+      "point": "48.45130820713138,13.376106469589947",
+      "startLcPosition": "3",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Würzburg",
-      "title": "A3 | Frankfurt am Main-Süd - Offenbacher Kreuz",
-      "startTimestamp": "2025-06-23T00:07:30+02:00",
-      "delayTimeValue": "0",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Rottal-West - Rottal-West",
+      "startTimestamp": "2025-06-23T00:35:30+02:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "44.400001525878906",
+      "averageSpeed": "8",
       "coordinate": {
-        "lat": 50.06126125070895,
-        "long": 8.698222791367288
+        "lat": 48.45130820713138,
+        "long": 13.376106469589947
       },
       "description": [
-        "Beginn: 23.06.25 um 00:07 Uhr",
+        "Beginn: 23.06.25 um 00:35 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 23.06.2025, 00:07",
-        "A3: Frankfurt -> Würzburg, zwischen 3.6 km hinter AS Frankfurt am Main-Süd und 1.5 km vor AK Offenbacher Kreuz",
+        "Angespannte Verkehrslage, seit 23.06.2025, 00:35",
+        "A3: Linz -> Passau, 0.5 km vor Rottal-West, aus Richtung Pocking",
         "",
         "Stockender Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-06-23_00-17-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.937627154436555,12.662649761481875,48.93718215049034,12.664667937681378",
+      "point": "48.937627154436555,12.662649761481875",
+      "startLcPosition": "32",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Passau",
+      "title": "A3 | Straubing - Bayerischer Wald",
+      "startTimestamp": "2025-06-23T00:17:00+02:00",
+      "coordinate": {
+        "lat": 48.937627154436555,
+        "long": 12.662649761481875
+      },
+      "description": [
+        "Beginn: 23.06.25 um 00:17 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 23.06.2025, 00:17",
+        "A3: Nürnberg -> Passau, zwischen 3.1 km hinter AS Straubing und 3.2 km vor Bayerischer Wald",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -142,50 +167,263 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.698222791,
-            50.061261251
+            12.662649761,
+            48.937627154
           ],
           [
-            8.698624,
-            50.061277501
+            12.664313,
+            48.937264401
           ],
           [
-            8.7000603,
-            50.061374001
-          ],
-          [
-            8.7010192,
-            50.061473501
-          ],
-          [
-            8.70179,
-            50.061551901
-          ],
-          [
-            8.7027551,
-            50.061674501
-          ],
-          [
-            8.7036047,
-            50.061804401
-          ],
-          [
-            8.7046739,
-            50.061983501
-          ],
-          [
-            8.7058795,
-            50.062188601
-          ],
-          [
-            8.706075799,
-            50.062226543
+            12.664667938,
+            48.93718215
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-06-22_23-50-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-06-23_00-27-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.052276823726366,8.39073643267418,50.0280902932735,8.469168497212852",
+      "point": "50.052276823726366,8.39073643267418",
+      "startLcPosition": "169",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Wiesbadener Kreuz - Raunheim",
+      "startTimestamp": "2025-06-23T00:27:30+02:00",
+      "coordinate": {
+        "lat": 50.052276823726366,
+        "long": 8.39073643267418
+      },
+      "description": [
+        "Beginn: 23.06.25 um 00:27 Uhr",
+        "",
+        "Hindernis, seit 23.06.2025, 00:27",
+        "A3: Köln -> Frankfurt, zwischen 0.4 km hinter AK Wiesbadener Kreuz und 0.5 km vor AS Raunheim",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.390736433,
+            50.052276824
+          ],
+          [
+            8.391017,
+            50.051947001
+          ],
+          [
+            8.3912328,
+            50.051697301
+          ],
+          [
+            8.3917708,
+            50.051073001
+          ],
+          [
+            8.391928,
+            50.050907801
+          ],
+          [
+            8.3921287,
+            50.050698601
+          ],
+          [
+            8.3923755,
+            50.050474201
+          ],
+          [
+            8.3926017,
+            50.050277001
+          ],
+          [
+            8.3931213,
+            50.049837501
+          ],
+          [
+            8.3935498,
+            50.049503601
+          ],
+          [
+            8.3942873,
+            50.048977601
+          ],
+          [
+            8.3950084,
+            50.048510901
+          ],
+          [
+            8.3956931,
+            50.048106301
+          ],
+          [
+            8.3964075,
+            50.047721401
+          ],
+          [
+            8.3972778,
+            50.047277801
+          ],
+          [
+            8.3981178,
+            50.046909501
+          ],
+          [
+            8.3990351,
+            50.046554101
+          ],
+          [
+            8.4009869,
+            50.045921801
+          ],
+          [
+            8.4037236,
+            50.045100201
+          ],
+          [
+            8.405314,
+            50.044622701
+          ],
+          [
+            8.4065945,
+            50.044238301
+          ],
+          [
+            8.4083253,
+            50.043718601
+          ],
+          [
+            8.409093,
+            50.043488101
+          ],
+          [
+            8.4112956,
+            50.042826801
+          ],
+          [
+            8.4134919,
+            50.042167401
+          ],
+          [
+            8.4160686,
+            50.041393801
+          ],
+          [
+            8.4183562,
+            50.040716601
+          ],
+          [
+            8.4207517,
+            50.040039401
+          ],
+          [
+            8.4233765,
+            50.039352301
+          ],
+          [
+            8.4236453,
+            50.039285601
+          ],
+          [
+            8.4296741,
+            50.037679501
+          ],
+          [
+            8.4314619,
+            50.037212501
+          ],
+          [
+            8.4352145,
+            50.036257701
+          ],
+          [
+            8.4358073,
+            50.036110701
+          ],
+          [
+            8.4383185,
+            50.035460301
+          ],
+          [
+            8.4432539,
+            50.034169401
+          ],
+          [
+            8.4457637,
+            50.033513001
+          ],
+          [
+            8.4484479,
+            50.032810601
+          ],
+          [
+            8.4495046,
+            50.032536201
+          ],
+          [
+            8.4514512,
+            50.032030001
+          ],
+          [
+            8.4531049,
+            50.031599901
+          ],
+          [
+            8.4547909,
+            50.031173701
+          ],
+          [
+            8.4583445,
+            50.030308401
+          ],
+          [
+            8.4586755,
+            50.030232501
+          ],
+          [
+            8.459507,
+            50.030052701
+          ],
+          [
+            8.4618823,
+            50.029547201
+          ],
+          [
+            8.4624156,
+            50.029436501
+          ],
+          [
+            8.4632076,
+            50.029266401
+          ],
+          [
+            8.4639292,
+            50.029133301
+          ],
+          [
+            8.4651839,
+            50.028880701
+          ],
+          [
+            8.4657657,
+            50.028764601
+          ],
+          [
+            8.469168497,
+            50.028090293
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-06-22_23-50-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
