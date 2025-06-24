@@ -1,64 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-06-24_19-38-30-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.78458278974276,13.017496759898076,48.78458278974276,13.017496759898076",
-      "point": "48.78458278974276,13.017496759898076",
-      "startLcPosition": "23",
-      "display_type": "WARNING",
-      "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Hengersberg - Hengersberg",
-      "startTimestamp": "2025-06-24T19:38:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "15",
-      "coordinate": {
-        "lat": 48.78458278974276,
-        "long": 13.017496759898076
-      },
-      "description": [
-        "Beginn: 24.06.25 um 19:38 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.06.2025, 19:38",
-        "A3: Nürnberg -> Passau, 2.3 km vor AS Hengersberg, aus Richtung Seebach",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
       "identifier": "undefined--vi-avl.2025-06-24_18-41-58-000.f_007.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.78704520094672,13.012919700113084,48.77110793178066,13.040179656890109",
-      "point": "48.78704520094672,13.012919700113084",
+      "extent": "48.78752691721873,13.011899701289035,48.7711232829821,13.040146130187521",
+      "point": "48.78752691721873,13.011899701289035",
       "startLcPosition": "24",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
       "title": "A3 | Seebach - Hengersberg",
       "startTimestamp": "2025-06-24T18:41:58+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "30.100000381469727",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36.70000076293945",
       "coordinate": {
-        "lat": 48.78704520094672,
-        "long": 13.012919700113084
+        "lat": 48.78752691721873,
+        "long": 13.011899701289035
       },
       "description": [
         "Beginn: 24.06.25 um 18:41 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.06.2025, 18:41",
-        "A3: Nürnberg -> Passau, zwischen 0.2 km hinter Seebach und 0.1 km vor AS Hengersberg",
+        "A3: Nürnberg -> Passau, zwischen 0.1 km hinter Seebach und 0.1 km vor AS Hengersberg",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 30 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -66,6 +35,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            13.011899701,
+            48.787526917
+          ],
           [
             13.0129197,
             48.787045201
@@ -143,8 +116,8 @@
             48.771368901
           ],
           [
-            13.040179657,
-            48.771107932
+            13.04014613,
+            48.771123283
           ]
         ]
       }
@@ -154,29 +127,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.551998395137296,11.010312171619596,49.566549963825864,10.943823120114976",
-      "point": "49.551998395137296,11.010312171619596",
+      "extent": "49.553151267031055,11.009087305155271,49.566549963825864,10.943823120114976",
+      "point": "49.553151267031055,11.009087305155271",
       "startLcPosition": "84",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
       "title": "A3 | Erlangen-Tennenlohe - Erlangen-Frauenaurach",
       "startTimestamp": "2025-06-24T17:11:03+02:00",
-      "delayTimeValue": "14",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17.100000381469727",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "27",
       "coordinate": {
-        "lat": 49.551998395137296,
-        "long": 11.010312171619596
+        "lat": 49.553151267031055,
+        "long": 11.009087305155271
       },
       "description": [
         "Beginn: 24.06.25 um 17:11 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.06.2025, 17:11",
-        "A3: Nürnberg -> Würzburg, zwischen 2.2 km hinter AS Erlangen-Tennenlohe und AS Erlangen-Frauenaurach",
+        "A3: Nürnberg -> Würzburg, zwischen 2.3 km hinter AS Erlangen-Tennenlohe und AS Erlangen-Frauenaurach",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 14 Minuten",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 7 Minuten",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -185,12 +158,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.010312172,
-            49.551998395
-          ],
-          [
-            11.0096338,
-            49.552690001
+            11.009087305,
+            49.553151267
           ],
           [
             11.0087105,
@@ -504,27 +473,58 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.551998395137296,11.010312171619596,49.551998395137296,11.010312171619596",
-      "point": "49.551998395137296,11.010312171619596",
+      "extent": "49.553151267031055,11.009087305155271,49.553151267031055,11.009087305155271",
+      "point": "49.553151267031055,11.009087305155271",
       "startLcPosition": "85",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
       "title": "A3 | Fürth/Erlangen - Fürth/Erlangen",
-      "startTimestamp": "2025-06-24T19:36:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17",
+      "startTimestamp": "2025-06-24T19:46:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "27",
       "coordinate": {
-        "lat": 49.551998395137296,
-        "long": 11.010312171619596
+        "lat": 49.553151267031055,
+        "long": 11.009087305155271
       },
       "description": [
-        "Beginn: 24.06.25 um 19:36 Uhr",
+        "Beginn: 24.06.25 um 19:46 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 24.06.2025, 19:36",
-        "A3: Nürnberg -> Würzburg, 1.6 km vor AK Fürth/Erlangen, aus Richtung Erlangen-Tennenlohe",
+        "Angespannte Verkehrslage, seit 24.06.2025, 19:46",
+        "A3: Nürnberg -> Würzburg, 1.5 km vor AK Fürth/Erlangen, aus Richtung Erlangen-Tennenlohe",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-06-24_19-41-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.56926370094292,10.939065300002841,49.56926370094292,10.939065300002841",
+      "point": "49.56926370094292,10.939065300002841",
+      "startLcPosition": "86",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Nürnberg",
+      "title": "A3 | Erlangen-Frauenaurach - Erlangen-Frauenaurach",
+      "startTimestamp": "2025-06-24T19:46:30+02:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "21",
+      "coordinate": {
+        "lat": 49.56926370094292,
+        "long": 10.939065300002841
+      },
+      "description": [
+        "Beginn: 24.06.25 um 19:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.06.2025, 19:46",
+        "A3: Würzburg -> Nürnberg, 0.5 km vor AS Erlangen-Frauenaurach, aus Richtung Aurach",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -535,29 +535,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.57130308944357,10.93637245473622,49.563508977947315,10.950438955302518",
-      "point": "49.57130308944357,10.93637245473622",
+      "extent": "49.56926370094292,10.939065300002841,49.561802273122375,10.956495863063218",
+      "point": "49.56926370094292,10.939065300002841",
       "startLcPosition": "87",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Nürnberg",
       "title": "A3 | Aurach - Fürth/Erlangen",
       "startTimestamp": "2025-06-24T19:20:00+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35.70000076293945",
+      "averageSpeed": "49.29999923706055",
       "coordinate": {
-        "lat": 49.57130308944357,
-        "long": 10.93637245473622
+        "lat": 49.56926370094292,
+        "long": 10.939065300002841
       },
       "description": [
         "Beginn: 24.06.25 um 19:20 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.06.2025, 19:20",
-        "A3: Würzburg -> Nürnberg, zwischen 1.3 km hinter Aurach und 3.1 km vor AK Fürth/Erlangen",
+        "A3: Würzburg -> Nürnberg, zwischen 1.6 km hinter Aurach und 2.6 km vor AK Fürth/Erlangen",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 35 km/h"
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 49 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -565,26 +565,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            10.936372455,
-            49.571303089
-          ],
-          [
-            10.9369099,
-            49.570860601
-          ],
-          [
-            10.9377554,
-            49.570208801
-          ],
-          [
-            10.938106,
-            49.569956301
-          ],
-          [
-            10.9386211,
-            49.569575501
-          ],
           [
             10.9390653,
             49.569263701
@@ -658,8 +638,129 @@
             49.563510201
           ],
           [
-            10.950438955,
-            49.563508978
+            10.9514712,
+            49.563163601
+          ],
+          [
+            10.952687,
+            49.562788201
+          ],
+          [
+            10.9532097,
+            49.562634701
+          ],
+          [
+            10.9539579,
+            49.562427901
+          ],
+          [
+            10.9551174,
+            49.562122801
+          ],
+          [
+            10.9561365,
+            49.561881601
+          ],
+          [
+            10.956495863,
+            49.561802273
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-06-24_19-46-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.76895108879927,10.486892908273214,49.76895108879927,10.486892908273214",
+      "point": "49.76895108879927,10.486892908273214",
+      "startLcPosition": "110",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Nürnberg",
+      "title": "A3 | Wasserberndorf - Wasserberndorf",
+      "startTimestamp": "2025-06-24T19:46:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5",
+      "coordinate": {
+        "lat": 49.76895108879927,
+        "long": 10.486892908273214
+      },
+      "description": [
+        "Beginn: 24.06.25 um 19:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.06.2025, 19:46",
+        "A3: Würzburg -> Nürnberg, 2.7 km vor Wasserberndorf, aus Richtung Geiselwind",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-06-24_19-46-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.76895108879927,10.486892908273214,49.76825008703936,10.493218726662441",
+      "point": "49.76895108879927,10.486892908273214",
+      "startLcPosition": "111",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Nürnberg",
+      "title": "A3 | Geiselwind - Wasserberndorf",
+      "startTimestamp": "2025-06-24T19:46:00+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
+      "coordinate": {
+        "lat": 49.76895108879927,
+        "long": 10.486892908273214
+      },
+      "description": [
+        "Beginn: 24.06.25 um 19:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.06.2025, 19:46",
+        "A3: Würzburg -> Nürnberg, zwischen 0.8 km hinter AS Geiselwind und 2.3 km vor Wasserberndorf",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.486892908,
+            49.768951089
+          ],
+          [
+            10.4876725,
+            49.768876801
+          ],
+          [
+            10.48892,
+            49.768769001
+          ],
+          [
+            10.4899641,
+            49.768647501
+          ],
+          [
+            10.491214,
+            49.768510801
+          ],
+          [
+            10.492367,
+            49.768379201
+          ],
+          [
+            10.493218727,
+            49.768250087
           ]
         ]
       }
@@ -1274,83 +1375,12 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-06-24_18-03-40-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.41251585863804,7.939175696697523,50.41252480093925,7.940170499999603",
-      "point": "50.41251585863804,7.939175696697523",
-      "startLcPosition": "180",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Nentershausen - Diez",
-      "startTimestamp": "2025-06-24T18:03:40+02:00",
-      "coordinate": {
-        "lat": 50.41251585863804,
-        "long": 7.939175696697523
-      },
-      "description": [
-        "Beginn: 24.06.25 um 18:03 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 24.06.2025, 18:03",
-        "A3: Köln -> Frankfurt, zwischen 1.5 km hinter Nentershausen und 0.3 km vor AS Diez",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.939175697,
-            50.412515859
-          ],
-          [
-            7.9395883,
-            50.412512801
-          ],
-          [
-            7.9401705,
-            50.412524801
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-06-24_18-58-36-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.179119579827244,6.947873487942465,51.179119579827244,6.947873487942465",
-      "point": "51.179119579827244,6.947873487942465",
-      "startLcPosition": "221",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Hilden - Ohligser Heide",
-      "startTimestamp": "2025-06-24T18:58:36+02:00",
-      "coordinate": {
-        "lat": 51.179119579827244,
-        "long": 6.947873487942465
-      },
-      "description": [
-        "Beginn: 24.06.25 um 18:58 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 24.06.2025, 18:58",
-        "A3: Oberhausen -> Köln, zwischen 1.8 km hinter AK Hilden und 2.4 km vor Ohligser Heide",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
       "identifier": "undefined--vi-avl.2025-06-24_19-12-04-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.50209381712175,6.822226363988656,51.53286097761961,6.824278102193193",
-      "point": "51.50209381712175,6.822226363988656",
+      "extent": "51.50584106922264,6.822956131630806,51.53193199072161,6.822896983858008",
+      "point": "51.50584106922264,6.822956131630806",
       "startLcPosition": "232",
       "display_type": "WARNING",
       "subtitle": " Köln -> Arnheim",
@@ -1358,20 +1388,20 @@
       "startTimestamp": "2025-06-24T19:12:04+02:00",
       "delayTimeValue": "3",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "42.20000076293945",
+      "averageSpeed": "38.70000076293945",
       "coordinate": {
-        "lat": 51.50209381712175,
-        "long": 6.822226363988656
+        "lat": 51.50584106922264,
+        "long": 6.822956131630806
       },
       "description": [
         "Beginn: 24.06.25 um 19:12 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.06.2025, 19:12",
-        "A3: Köln -> Arnheim, zwischen 1.7 km hinter AK Oberhausen-West und 0.9 km vor AK Oberhausen",
+        "A3: Köln -> Arnheim, zwischen 2.1 km hinter AK Oberhausen-West und 1.0 km vor AK Oberhausen",
         "",
         "Stockender Verkehr",
         "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 42 km/h"
+        "Durchschnittsgeschwindigkeit: 38 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1380,40 +1410,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.822226364,
-            51.502093817
-          ],
-          [
-            6.8225454,
-            51.502748801
-          ],
-          [
-            6.8228404,
-            51.503527401
-          ],
-          [
-            6.8229282,
-            51.503922701
-          ],
-          [
-            6.8229922,
-            51.504291501
-          ],
-          [
-            6.8230288,
-            51.504918601
-          ],
-          [
-            6.8230301,
-            51.505078801
-          ],
-          [
-            6.8230282,
-            51.505268601
-          ],
-          [
-            6.8229753,
-            51.505726001
+            6.822956132,
+            51.505841069
           ],
           [
             6.8229084,
@@ -1608,22 +1606,14 @@
             51.531321001
           ],
           [
-            6.8229151,
-            51.531945401
-          ],
-          [
-            6.8236712,
-            51.532465701
-          ],
-          [
-            6.824278102,
-            51.532860978
+            6.822896984,
+            51.531931991
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-06-24_19-38-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-06-24_19-43-03-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1633,114 +1623,25 @@
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
       "title": "A3 | Oberhausen-Holten - Oberhausen-Holten",
-      "startTimestamp": "2025-06-24T19:38:30+02:00",
+      "startTimestamp": "2025-06-24T19:46:30+02:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "20",
+      "averageSpeed": "17",
       "coordinate": {
         "lat": 51.50576954110546,
         "long": 6.82296804697694
       },
       "description": [
-        "Beginn: 24.06.25 um 19:38 Uhr",
+        "Beginn: 24.06.25 um 19:46 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 24.06.2025, 19:38",
+        "Angespannte Verkehrslage, seit 24.06.2025, 19:46",
         "A3: Oberhausen -> Arnheim, 0.9 km vor AS Oberhausen-Holten, aus Richtung Oberhausen-West",
         "",
         "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
+        "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-06-24_19-36-30-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
-      "point": "51.89839901701434,6.165717280673193",
-      "startLcPosition": "261",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Knauheide - Knauheide",
-      "startTimestamp": "2025-06-24T19:36:30+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "12",
-      "coordinate": {
-        "lat": 51.89839901701434,
-        "long": 6.165717280673193
-      },
-      "description": [
-        "Beginn: 24.06.25 um 19:36 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.06.2025, 19:36",
-        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-06-24_19-36-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
-      "point": "51.89839901701434,6.165717280673193",
-      "startLcPosition": "262",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Elten - Elten",
-      "startTimestamp": "2025-06-24T19:36:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "26.799999237060547",
-      "coordinate": {
-        "lat": 51.89839901701434,
-        "long": 6.165717280673193
-      },
-      "description": [
-        "Beginn: 24.06.25 um 19:36 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.06.2025, 19:36",
-        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.165717281,
-            51.898399017
-          ],
-          [
-            6.1665101,
-            51.897629501
-          ],
-          [
-            6.1668453,
-            51.897289501
-          ],
-          [
-            6.1686237,
-            51.895575501
-          ],
-          [
-            6.1688771,
-            51.895327101
-          ]
-        ]
-      }
     }
   ]
 }
