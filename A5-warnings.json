@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.790227559313806,7.53831966553849,47.77587457177251,7.535816988025276",
-      "point": "47.790227559313806,7.53831966553849",
+      "extent": "47.79166367349953,7.538974129786866,47.77587457177251,7.535816988025276",
+      "point": "47.79166367349953,7.538974129786866",
       "startLcPosition": "13",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Müllheim/Neuenburg - Galgenloch",
       "startTimestamp": "2025-06-26T05:52:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "61.400001525878906",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36",
       "coordinate": {
-        "lat": 47.790227559313806,
-        "long": 7.53831966553849
+        "lat": 47.79166367349953,
+        "long": 7.538974129786866
       },
       "description": [
         "Beginn: 26.06.25 um 05:52 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.06.2025, 05:52",
-        "A5: Karlsruhe -> Basel, zwischen 2.9 km hinter AS Müllheim/Neuenburg und 3.6 km vor Galgenloch",
+        "A5: Karlsruhe -> Basel, zwischen 2.7 km hinter AS Müllheim/Neuenburg und 3.6 km vor Galgenloch",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 61 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.538319666,
-            47.790227559
+            7.53897413,
+            47.791663673
+          ],
+          [
+            7.5389216,
+            47.791551001
+          ],
+          [
+            7.5383664,
+            47.790341801
           ],
           [
             7.5378056,
@@ -115,7 +123,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-06-26_06-01-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-06-26_06-01-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -626,7 +634,97 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-06-26_06-17-30-000.f_001.de0",
+      "identifier": "undefined--vi-zus.2025-06-26_06-46-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.54922553279907,8.627492142220468,49.539752006311204,8.62975634855595",
+      "point": "49.54922553279907,8.627492142220468",
+      "startLcPosition": "80",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Hemsbach - Wachenburg",
+      "startTimestamp": "2025-06-26T06:46:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "62.79999923706055",
+      "coordinate": {
+        "lat": 49.54922553279907,
+        "long": 8.627492142220468
+      },
+      "description": [
+        "Beginn: 26.06.25 um 06:46 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 26.06.2025, 06:46",
+        "A5: Darmstadt -> Heidelberg, zwischen 5.0 km hinter AS Hemsbach und 0.9 km vor Wachenburg",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 62 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.627492142,
+            49.549225533
+          ],
+          [
+            8.6275169,
+            49.548894101
+          ],
+          [
+            8.6276245,
+            49.547915901
+          ],
+          [
+            8.6277432,
+            49.547063501
+          ],
+          [
+            8.628009,
+            49.545599601
+          ],
+          [
+            8.6280885,
+            49.545270601
+          ],
+          [
+            8.6282279,
+            49.544640801
+          ],
+          [
+            8.6283485,
+            49.544132001
+          ],
+          [
+            8.628823,
+            49.542481601
+          ],
+          [
+            8.629191,
+            49.541302401
+          ],
+          [
+            8.6294964,
+            49.540461001
+          ],
+          [
+            8.6295674,
+            49.540259001
+          ],
+          [
+            8.629756349,
+            49.539752006
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-06-26_06-17-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
