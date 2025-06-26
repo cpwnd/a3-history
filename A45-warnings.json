@@ -1,26 +1,64 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-06-26_20-25-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-06-26_23-04-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.418361900939225,8.85406679999996,50.33300454353106,8.924809991370985",
-      "point": "50.418361900939225,8.85406679999996",
+      "extent": "50.41797854222741,8.858391727910263,50.41797854222741,8.858391727910263",
+      "point": "50.41797854222741,8.858391727910263",
+      "startLcPosition": "15",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Auf der Nachtweide - Auf der Nachtweide",
+      "startTimestamp": "2025-06-26T23:04:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "1",
+      "coordinate": {
+        "lat": 50.41797854222741,
+        "long": 8.858391727910263
+      },
+      "description": [
+        "Beginn: 26.06.25 um 23:04 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.06.2025, 23:04",
+        "A45: Gießen -> Aschaffenburg, 11.6 km vor Auf der Nachtweide, aus Richtung Wölfersheim",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 1 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-06-26_23-03-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.41797854222741,8.858391727910263,50.416351998285954,8.866708691090732",
+      "point": "50.41797854222741,8.858391727910263",
       "startLcPosition": "16",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Wölfersheim - Florstadt",
-      "startTimestamp": "2025-06-26T20:25:30+02:00",
+      "title": "A45 | Wölfersheim - Auf der Nachtweide",
+      "startTimestamp": "2025-06-26T23:03:00+02:00",
+      "delayTimeValue": "30",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "1.2000000476837158",
       "coordinate": {
-        "lat": 50.418361900939225,
-        "long": 8.85406679999996
+        "lat": 50.41797854222741,
+        "long": 8.858391727910263
       },
       "description": [
-        "Beginn: 26.06.25 um 20:25 Uhr",
+        "Beginn: 26.06.25 um 23:03 Uhr",
         "",
-        "Hindernis, seit 26.06.2025, 20:25",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.3 km hinter AS Wölfersheim und 0.3 km vor AS Florstadt"
+        "Zusammengesetzte Verkehrsinformation, seit 26.06.2025, 23:03",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.6 km hinter AS Wölfersheim und 11.0 km vor Auf der Nachtweide",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 30 Minuten",
+        "Durchschnittsgeschwindigkeit: 1 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -29,32 +67,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.8540668,
-            50.418361901
-          ],
-          [
-            8.8547382,
-            50.418322401
-          ],
-          [
-            8.8556221,
-            50.418254201
-          ],
-          [
-            8.8563362,
-            50.418194301
-          ],
-          [
-            8.8569815,
-            50.418131501
-          ],
-          [
-            8.8575005,
-            50.418079201
-          ],
-          [
-            8.8583596,
-            50.417982901
+            8.858391728,
+            50.417978542
           ],
           [
             8.8594711,
@@ -81,60 +95,43 @@
             50.416568201
           ],
           [
-            8.8671503,
-            50.416234801
-          ],
+            8.866708691,
+            50.416351998
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-06-26_21-16-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.41040079463102,8.880751019926443,50.33300454353106,8.924809991370985",
+      "point": "50.41040079463102,8.880751019926443",
+      "startLcPosition": "16",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Wölfersheim - Florstadt",
+      "startTimestamp": "2025-06-26T21:16:30+02:00",
+      "coordinate": {
+        "lat": 50.41040079463102,
+        "long": 8.880751019926443
+      },
+      "description": [
+        "Beginn: 26.06.25 um 21:16 Uhr",
+        "",
+        "Hindernis, seit 26.06.2025, 21:16",
+        "A45: Gießen -> Aschaffenburg, zwischen 2.4 km hinter AS Wölfersheim und 0.3 km vor AS Florstadt"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            8.8681851,
-            50.415937601
-          ],
-          [
-            8.8689943,
-            50.415686501
-          ],
-          [
-            8.8699078,
-            50.415386901
-          ],
-          [
-            8.8707997,
-            50.415082301
-          ],
-          [
-            8.8720414,
-            50.414626301
-          ],
-          [
-            8.8730937,
-            50.414210201
-          ],
-          [
-            8.8740877,
-            50.413784001
-          ],
-          [
-            8.8750354,
-            50.413360301
-          ],
-          [
-            8.8759648,
-            50.412913701
-          ],
-          [
-            8.8768684,
-            50.412461401
-          ],
-          [
-            8.8781262,
-            50.411803901
-          ],
-          [
-            8.8793767,
-            50.411134201
-          ],
-          [
-            8.8806173,
-            50.410470501
+            8.88075102,
+            50.410400795
           ],
           [
             8.8818968,
@@ -532,26 +529,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-06-26_21-16-30-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-06-26_20-25-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.40922748863361,8.883084159416356,50.33300454353106,8.924809991370985",
-      "point": "50.40922748863361,8.883084159416356",
+      "extent": "50.418361900939225,8.85406679999996,50.33300454353106,8.924809991370985",
+      "point": "50.418361900939225,8.85406679999996",
       "startLcPosition": "16",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Wölfersheim - Florstadt",
-      "startTimestamp": "2025-06-26T21:16:30+02:00",
+      "startTimestamp": "2025-06-26T20:25:30+02:00",
       "coordinate": {
-        "lat": 50.40922748863361,
-        "long": 8.883084159416356
+        "lat": 50.418361900939225,
+        "long": 8.85406679999996
       },
       "description": [
-        "Beginn: 26.06.25 um 21:16 Uhr",
+        "Beginn: 26.06.25 um 20:25 Uhr",
         "",
-        "Unfall, seit 26.06.2025, 21:16",
-        "A45: Gießen -> Aschaffenburg, zwischen 2.6 km hinter AS Wölfersheim und 0.3 km vor AS Florstadt"
+        "Hindernis, seit 26.06.2025, 20:25",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.3 km hinter AS Wölfersheim und 0.3 km vor AS Florstadt"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -560,8 +557,120 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.883084159,
-            50.409227489
+            8.8540668,
+            50.418361901
+          ],
+          [
+            8.8547382,
+            50.418322401
+          ],
+          [
+            8.8556221,
+            50.418254201
+          ],
+          [
+            8.8563362,
+            50.418194301
+          ],
+          [
+            8.8569815,
+            50.418131501
+          ],
+          [
+            8.8575005,
+            50.418079201
+          ],
+          [
+            8.8583596,
+            50.417982901
+          ],
+          [
+            8.8594711,
+            50.417832101
+          ],
+          [
+            8.8609096,
+            50.417615301
+          ],
+          [
+            8.8624764,
+            50.417326001
+          ],
+          [
+            8.863224,
+            50.417177401
+          ],
+          [
+            8.8645546,
+            50.416885801
+          ],
+          [
+            8.865894,
+            50.416568201
+          ],
+          [
+            8.8671503,
+            50.416234801
+          ],
+          [
+            8.8681851,
+            50.415937601
+          ],
+          [
+            8.8689943,
+            50.415686501
+          ],
+          [
+            8.8699078,
+            50.415386901
+          ],
+          [
+            8.8707997,
+            50.415082301
+          ],
+          [
+            8.8720414,
+            50.414626301
+          ],
+          [
+            8.8730937,
+            50.414210201
+          ],
+          [
+            8.8740877,
+            50.413784001
+          ],
+          [
+            8.8750354,
+            50.413360301
+          ],
+          [
+            8.8759648,
+            50.412913701
+          ],
+          [
+            8.8768684,
+            50.412461401
+          ],
+          [
+            8.8781262,
+            50.411803901
+          ],
+          [
+            8.8793767,
+            50.411134201
+          ],
+          [
+            8.8806173,
+            50.410470501
+          ],
+          [
+            8.8818968,
+            50.409803501
+          ],
+          [
+            8.8828643,
+            50.409329201
           ],
           [
             8.8842399,
