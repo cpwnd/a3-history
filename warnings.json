@@ -140,29 +140,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.73228408138922,10.668508686348458,49.74626612229501,10.6266752494263",
-      "point": "49.73228408138922,10.668508686348458",
+      "extent": "49.73376208447463,10.664104219255428,49.74626612229501,10.6266752494263",
+      "point": "49.73376208447463,10.664104219255428",
       "startLcPosition": "105",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
       "title": "A3 | Elsendorf - Heuchelsheim",
       "startTimestamp": "2025-07-02T20:19:00+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "30.5",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40.900001525878906",
       "coordinate": {
-        "lat": 49.73228408138922,
-        "long": 10.668508686348458
+        "lat": 49.73376208447463,
+        "long": 10.664104219255428
       },
       "description": [
         "Beginn: 02.07.25 um 20:19 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 02.07.2025, 20:19",
-        "A3: Nürnberg -> Würzburg, zwischen 0.6 km hinter Elsendorf und 4.1 km vor Heuchelsheim",
+        "A3: Nürnberg -> Würzburg, zwischen 1.0 km hinter Elsendorf und 4.1 km vor Heuchelsheim",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 30 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -171,20 +171,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.668508686,
-            49.732284081
-          ],
-          [
-            10.6676507,
-            49.732511001
-          ],
-          [
-            10.6655353,
-            49.733205501
-          ],
-          [
-            10.6641621,
-            49.733736901
+            10.664104219,
+            49.733762084
           ],
           [
             10.6632609,
@@ -1317,7 +1305,38 @@
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-07-02_20-40-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-07-02_20-50-00-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.29236365237106,8.239808107584762,50.29236365237106,8.239808107584762",
+      "point": "50.29236365237106,8.239808107584762",
+      "startLcPosition": "173",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Idstein - Idstein",
+      "startTimestamp": "2025-07-02T21:06:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "4",
+      "coordinate": {
+        "lat": 50.29236365237106,
+        "long": 8.239808107584762
+      },
+      "description": [
+        "Beginn: 02.07.25 um 21:06 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 02.07.2025, 21:06",
+        "A3: Köln -> Frankfurt, 9.1 km vor AS Idstein, aus Richtung Bad Camberg",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-07-02_20-40-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1879,6 +1898,116 @@
           [
             8.2506174,
             50.212226101
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-07-02_20-44-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.29236365237106,8.239808107584762,50.273002248478385,8.245657469380193",
+      "point": "50.29236365237106,8.239808107584762",
+      "startLcPosition": "174",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bad Camberg - Idstein",
+      "startTimestamp": "2025-07-02T20:44:30+02:00",
+      "delayTimeValue": "30",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "4.400000095367432",
+      "coordinate": {
+        "lat": 50.29236365237106,
+        "long": 8.239808107584762
+      },
+      "description": [
+        "Beginn: 02.07.25 um 20:44 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 02.07.2025, 20:44",
+        "A3: Köln -> Frankfurt, zwischen 0.7 km hinter AS Bad Camberg und 6.9 km vor AS Idstein",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 30 Minuten",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.239808108,
+            50.292363652
+          ],
+          [
+            8.2398117,
+            50.292353501
+          ],
+          [
+            8.2400056,
+            50.291703901
+          ],
+          [
+            8.2401524,
+            50.290991201
+          ],
+          [
+            8.2402314,
+            50.290282701
+          ],
+          [
+            8.2403401,
+            50.288422401
+          ],
+          [
+            8.2404525,
+            50.286397801
+          ],
+          [
+            8.2404693,
+            50.286116301
+          ],
+          [
+            8.2407172,
+            50.281426701
+          ],
+          [
+            8.240772,
+            50.280586101
+          ],
+          [
+            8.2408853,
+            50.279937201
+          ],
+          [
+            8.2410432,
+            50.279393501
+          ],
+          [
+            8.241281,
+            50.278803001
+          ],
+          [
+            8.2415174,
+            50.278319601
+          ],
+          [
+            8.241836,
+            50.277798501
+          ],
+          [
+            8.2421305,
+            50.277363101
+          ],
+          [
+            8.2426738,
+            50.276660601
+          ],
+          [
+            8.245657469,
+            50.273002248
           ]
         ]
       }
@@ -2455,29 +2584,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.42423892629614,6.7998967739113585,51.44944707315636,6.7985198216667335",
-      "point": "51.42423892629614,6.7998967739113585",
+      "extent": "51.42684978151767,6.803094531470321,51.446171995129454,6.798917852349953",
+      "point": "51.42684978151767,6.803094531470321",
       "startLcPosition": "229",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
       "startTimestamp": "2025-07-02T19:19:03+02:00",
-      "delayTimeValue": "10",
+      "delayTimeValue": "7",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14.199999809265137",
+      "averageSpeed": "16.200000762939453",
       "coordinate": {
-        "lat": 51.42423892629614,
-        "long": 6.7998967739113585
+        "lat": 51.42684978151767,
+        "long": 6.803094531470321
       },
       "description": [
         "Beginn: 02.07.25 um 19:19 Uhr",
         "",
         "Angespannte Verkehrslage, seit 02.07.2025, 19:19",
-        "A3: Köln -> Oberhausen, zwischen 1.8 km hinter AS Duisburg-Wedau und 3.4 km vor AS Oberhausen-Lirich",
+        "A3: Köln -> Oberhausen, zwischen 2.1 km hinter AS Duisburg-Wedau und 3.8 km vor AS Oberhausen-Lirich",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 10 Minuten",
-        "Durchschnittsgeschwindigkeit: 14 km/h"
+        "Reisezeitverlust: 7 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2486,16 +2615,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.799896774,
-            51.424238926
-          ],
-          [
-            6.8003718,
-            51.424632101
-          ],
-          [
-            6.8016267,
-            51.425668501
+            6.803094531,
+            51.426849782
           ],
           [
             6.8034579,
@@ -2722,24 +2843,8 @@
             51.446131001
           ],
           [
-            6.7988089,
-            51.446649801
-          ],
-          [
-            6.7986067,
-            51.447956501
-          ],
-          [
-            6.7985277,
-            51.448754201
-          ],
-          [
-            6.7985139,
-            51.449179901
-          ],
-          [
-            6.798519822,
-            51.449447073
+            6.798917852,
+            51.446171995
           ]
         ]
       }
@@ -2749,27 +2854,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.42424609932642,6.799905440136775,51.42424609932642,6.799905440136775",
-      "point": "51.42424609932642,6.799905440136775",
+      "extent": "51.42687817749107,6.803129816837537,51.42687817749107,6.803129816837537",
+      "point": "51.42687817749107,6.803129816837537",
       "startLcPosition": "230",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Kaiserberg - Kaiserberg",
-      "startTimestamp": "2025-07-02T20:41:30+02:00",
+      "startTimestamp": "2025-07-02T21:06:30+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14",
+      "averageSpeed": "16",
       "coordinate": {
-        "lat": 51.42424609932642,
-        "long": 6.799905440136775
+        "lat": 51.42687817749107,
+        "long": 6.803129816837537
       },
       "description": [
-        "Beginn: 02.07.25 um 20:41 Uhr",
+        "Beginn: 02.07.25 um 21:06 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 02.07.2025, 20:41",
-        "A3: Köln -> Oberhausen, 2.8 km vor AK Kaiserberg, aus Richtung Duisburg-Wedau",
+        "Angespannte Verkehrslage, seit 02.07.2025, 21:06",
+        "A3: Köln -> Oberhausen, 2.4 km vor AK Kaiserberg, aus Richtung Duisburg-Wedau",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 14 km/h"
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
