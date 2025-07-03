@@ -467,29 +467,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.03229412632318,8.594289469212836,50.03922844428261,8.597429696574215",
-      "point": "50.03229412632318,8.594289469212836",
+      "extent": "50.03010720733109,8.593612739354619,50.03843585679016,8.597043425059077",
+      "point": "50.03010720733109,8.593612739354619",
       "startLcPosition": "103",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Frankfurt",
       "title": "A5 | Kaiserstein - Frankfurter Kreuz",
       "startTimestamp": "2025-07-04T00:57:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "39",
+      "delayTimeValue": "9",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5.900000095367432",
       "coordinate": {
-        "lat": 50.03229412632318,
-        "long": 8.594289469212836
+        "lat": 50.03010720733109,
+        "long": 8.593612739354619
       },
       "description": [
         "Beginn: 04.07.25 um 00:57 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 04.07.2025, 00:57",
-        "A5: Darmstadt -> Frankfurt, zwischen 3.3 km hinter Kaiserstein und 1.6 km vor AK Frankfurter Kreuz",
+        "A5: Darmstadt -> Frankfurt, zwischen 3.0 km hinter Kaiserstein und 1.7 km vor AK Frankfurter Kreuz",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 39 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -498,8 +498,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.594289469,
-            50.032294126
+            8.593612739,
+            50.030107207
+          ],
+          [
+            8.5938022,
+            50.030826401
+          ],
+          [
+            8.5940725,
+            50.031682101
           ],
           [
             8.5943699,
@@ -538,74 +546,42 @@
             50.037798601
           ],
           [
-            8.597408,
-            50.039185701
-          ],
-          [
-            8.597429697,
-            50.039228444
+            8.597043425,
+            50.038435857
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-07-04_00-55-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-07-04_01-24-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.03915682326151,8.597393959424577,50.04706420334911,8.601334478636568",
-      "point": "50.03915682326151,8.597393959424577",
+      "extent": "50.03010720733109,8.593612739354619,50.03010720733109,8.593612739354619",
+      "point": "50.03010720733109,8.593612739354619",
       "startLcPosition": "104",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Frankfurt",
-      "title": "A5 | Zeppelinheim - Frankfurter Kreuz",
-      "startTimestamp": "2025-07-04T00:55:00+02:00",
+      "title": "A5 | Zeppelinheim - Zeppelinheim",
+      "startTimestamp": "2025-07-04T01:30:00+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "3",
       "coordinate": {
-        "lat": 50.03915682326151,
-        "long": 8.597393959424577
+        "lat": 50.03010720733109,
+        "long": 8.593612739354619
       },
       "description": [
-        "Beginn: 04.07.25 um 00:55 Uhr",
+        "Beginn: 04.07.25 um 01:30 Uhr",
         "",
-        "Unfall, seit 04.07.2025, 00:55",
-        "A5: Darmstadt -> Frankfurt, zwischen 0.5 km hinter AS Zeppelinheim und 0.7 km vor AK Frankfurter Kreuz"
+        "Angespannte Verkehrslage, seit 04.07.2025, 01:30",
+        "A5: Darmstadt -> Frankfurt, 0.5 km vor AS Zeppelinheim, aus Richtung Kaiserstein",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 3 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.597393959,
-            50.039156823
-          ],
-          [
-            8.597408,
-            50.039185701
-          ],
-          [
-            8.5980413,
-            50.040433301
-          ],
-          [
-            8.5995623,
-            50.043474401
-          ],
-          [
-            8.600646,
-            50.045664301
-          ],
-          [
-            8.6008163,
-            50.046008501
-          ],
-          [
-            8.601334479,
-            50.047064203
-          ]
-        ]
-      }
+      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-hind.2025-07-04_01-07-30-000.f_002.de0",
@@ -664,6 +640,89 @@
           [
             8.601334479,
             50.047064203
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-07-04_00-55-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.03550858088878,8.59562308942635,50.05040338605912,8.602996170156626",
+      "point": "50.03550858088878,8.59562308942635",
+      "startLcPosition": "104",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Frankfurt",
+      "title": "A5 | Zeppelinheim - Frankfurter Kreuz",
+      "startTimestamp": "2025-07-04T00:55:00+02:00",
+      "coordinate": {
+        "lat": 50.03550858088878,
+        "long": 8.59562308942635
+      },
+      "description": [
+        "Beginn: 04.07.25 um 00:55 Uhr",
+        "",
+        "Unfall, seit 04.07.2025, 00:55",
+        "A5: Darmstadt -> Frankfurt, zwischen 0.1 km hinter AS Zeppelinheim und 0.3 km vor AK Frankfurter Kreuz"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.595623089,
+            50.035508581
+          ],
+          [
+            8.5956322,
+            50.035528301
+          ],
+          [
+            8.5958211,
+            50.035923501
+          ],
+          [
+            8.5960649,
+            50.036434101
+          ],
+          [
+            8.5962916,
+            50.036906501
+          ],
+          [
+            8.5967336,
+            50.037798601
+          ],
+          [
+            8.597408,
+            50.039185701
+          ],
+          [
+            8.5980413,
+            50.040433301
+          ],
+          [
+            8.5995623,
+            50.043474401
+          ],
+          [
+            8.600646,
+            50.045664301
+          ],
+          [
+            8.6008163,
+            50.046008501
+          ],
+          [
+            8.6015023,
+            50.047406101
+          ],
+          [
+            8.60299617,
+            50.050403386
           ]
         ]
       }
