@@ -5,27 +5,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.254551780241144,8.989829794361745,50.254551780241144,8.989829794361745",
-      "point": "50.254551780241144,8.989829794361745",
+      "extent": "50.25685804738774,8.988151691485303,50.25685804738774,8.988151691485303",
+      "point": "50.25685804738774,8.988151691485303",
       "startLcPosition": "11",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Langen-Bergheim - Langen-Bergheim",
-      "startTimestamp": "2025-07-07T11:36:57+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "23",
+      "startTimestamp": "2025-07-07T11:46:54+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
       "coordinate": {
-        "lat": 50.254551780241144,
-        "long": 8.989829794361745
+        "lat": 50.25685804738774,
+        "long": 8.988151691485303
       },
       "description": [
-        "Beginn: 07.07.25 um 11:36 Uhr",
+        "Beginn: 07.07.25 um 11:46 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 07.07.2025, 11:36",
-        "A45: Gießen -> Aschaffenburg, 0.7 km vor Langen-Bergheim, aus Richtung Altenstadt",
+        "Angespannte Verkehrslage, seit 07.07.2025, 11:46",
+        "A45: Gießen -> Aschaffenburg, 1.0 km vor Langen-Bergheim, aus Richtung Altenstadt",
         "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,29 +36,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.25451952939005,8.989854655011998,50.247250375894,8.996183329910423",
-      "point": "50.25451952939005,8.989854655011998",
+      "extent": "50.25703831601083,8.988024474832926,50.2447406549376,8.99868447069285",
+      "point": "50.25703831601083,8.988024474832926",
       "startLcPosition": "12",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Altenstadt - Hammersbach",
       "startTimestamp": "2025-07-07T11:29:39+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "40.5",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "29.899999618530273",
       "coordinate": {
-        "lat": 50.25451952939005,
-        "long": 8.989854655011998
+        "lat": 50.25703831601083,
+        "long": 8.988024474832926
       },
       "description": [
         "Beginn: 07.07.25 um 11:29 Uhr",
         "",
         "Angespannte Verkehrslage, seit 07.07.2025, 11:29",
-        "A45: Gießen -> Aschaffenburg, zwischen 4.3 km hinter AS Altenstadt und 0.5 km vor AS Hammersbach",
+        "A45: Gießen -> Aschaffenburg, zwischen 4.0 km hinter AS Altenstadt und 0.2 km vor AS Hammersbach",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 40 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -67,8 +67,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.989854655,
-            50.254519529
+            8.988024475,
+            50.257038316
+          ],
+          [
+            8.9892312,
+            50.255328301
           ],
           [
             8.9910419,
@@ -95,8 +99,56 @@
             50.247416201
           ],
           [
-            8.99618333,
-            50.247250376
+            8.9974089,
+            50.246043001
+          ],
+          [
+            8.998684471,
+            50.244740655
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-07-07_11-46-17-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.10936528256749,7.671202246851566,51.10797345813083,7.672918738988443",
+      "point": "51.10936528256749,7.671202246851566",
+      "startLcPosition": "79",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Duwelsiepen - Meinerzhagen",
+      "startTimestamp": "2025-07-07T11:46:17+02:00",
+      "coordinate": {
+        "lat": 51.10936528256749,
+        "long": 7.671202246851566
+      },
+      "description": [
+        "Beginn: 07.07.25 um 11:46 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 07.07.2025, 11:46",
+        "A45: Hagen -> Gießen, zwischen 1.1 km hinter Duwelsiepen und 0.6 km vor AS Meinerzhagen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.671202247,
+            51.109365283
+          ],
+          [
+            7.6720333,
+            51.108716701
+          ],
+          [
+            7.672918739,
+            51.107973458
           ]
         ]
       }
