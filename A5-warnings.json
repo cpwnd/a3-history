@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.9503202009479,7.6629244999993364,47.95680456662836,7.690489135427552",
-      "point": "47.9503202009479,7.6629244999993364",
+      "extent": "47.95024173048697,7.662383820497621,47.95602492302498,7.688346182280166",
+      "point": "47.95024173048697,7.662383820497621",
       "startLcPosition": "21",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Seltenbach - Breisgau",
       "startTimestamp": "2025-07-07T19:19:00+02:00",
-      "delayTimeValue": "0",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "69.5999984741211",
+      "averageSpeed": "56.599998474121094",
       "coordinate": {
-        "lat": 47.9503202009479,
-        "long": 7.6629244999993364
+        "lat": 47.95024173048697,
+        "long": 7.662383820497621
       },
       "description": [
         "Beginn: 07.07.25 um 19:19 Uhr",
         "",
         "Angespannte Verkehrslage, seit 07.07.2025, 19:19",
-        "A5: Basel -> Karlsruhe, zwischen 0.7 km hinter Seltenbach und 2.7 km vor Breisgau",
+        "A5: Basel -> Karlsruhe, zwischen 0.7 km hinter Seltenbach und 2.9 km vor Breisgau",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 69 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 56 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -35,6 +35,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            7.66238382,
+            47.95024173
+          ],
           [
             7.6629245,
             47.950320201
@@ -124,12 +128,8 @@
             47.955492101
           ],
           [
-            7.6892584,
-            47.956340201
-          ],
-          [
-            7.690489135,
-            47.956804567
+            7.688346182,
+            47.956024923
           ]
         ]
       }
@@ -1080,26 +1080,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-07-07_21-20-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-07-07_21-20-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.50918769154797,8.639651014010218,49.59177880094284,8.632098699999904",
-      "point": "49.50918769154797,8.639651014010218",
-      "startLcPosition": "76",
+      "extent": "49.50884518345538,8.639682354121684,49.59177880094284,8.632098699999904",
+      "point": "49.50884518345538,8.639682354121684",
+      "startLcPosition": "75",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Hirschberg - Hemsbach",
+      "title": "A5 | Ladenburg - Hemsbach",
       "startTimestamp": "2025-07-07T21:20:30+02:00",
       "coordinate": {
-        "lat": 49.50918769154797,
-        "long": 8.639651014010218
+        "lat": 49.50884518345538,
+        "long": 8.639682354121684
       },
       "description": [
         "Beginn: 07.07.25 um 21:20 Uhr",
         "",
         "Fahrzeug-Hindernis, seit 07.07.2025, 21:20",
-        "A5: Heidelberg -> Darmstadt, zwischen AS Hirschberg und 0.2 km vor AS Hemsbach"
+        "A5: Heidelberg -> Darmstadt, zwischen 3.4 km hinter AS Ladenburg und 0.2 km vor AS Hemsbach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1108,8 +1108,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.639651014,
-            49.509187692
+            8.639682354,
+            49.508845183
+          ],
+          [
+            8.6396775,
+            49.508918401
           ],
           [
             8.6394888,
@@ -1447,88 +1451,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-07-07_21-47-30-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-07-07_20-23-04-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.0541647132018,8.604619257053901,50.047191700940935,8.601108299999892",
-      "point": "50.0541647132018,8.604619257053901",
+      "extent": "50.055382259835895,8.605228527247121,50.039829082910806,8.597437699326004",
+      "point": "50.055382259835895,8.605228527247121",
       "startLcPosition": "106",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Darmstadt",
       "title": "A5 | Frankfurt am Main-Flughafen-Nord - Zeppelinheim",
-      "startTimestamp": "2025-07-07T21:47:30+02:00",
-      "coordinate": {
-        "lat": 50.0541647132018,
-        "long": 8.604619257053901
-      },
-      "description": [
-        "Beginn: 07.07.25 um 21:47 Uhr",
-        "",
-        "Unfall, seit 07.07.2025, 21:47",
-        "A5: Frankfurt -> Darmstadt, zwischen 0.4 km hinter AS Frankfurt am Main-Flughafen-Nord und 1.4 km vor AS Zeppelinheim"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.604619257,
-            50.054164713
-          ],
-          [
-            8.604337,
-            50.053615201
-          ],
-          [
-            8.603624,
-            50.052184601
-          ],
-          [
-            8.6033335,
-            50.051612901
-          ],
-          [
-            8.6014433,
-            50.047857301
-          ],
-          [
-            8.6011083,
-            50.047191701
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-07-07_20-23-04-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.05952542947451,8.607302372046576,50.039829082910806,8.597437699326004",
-      "point": "50.05952542947451,8.607302372046576",
-      "startLcPosition": "107",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Darmstadt",
-      "title": "A5 | Frankfurt am Main-Niederrad - Zeppelinheim",
       "startTimestamp": "2025-07-07T20:23:04+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "30.899999618530273",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.20000076293945",
       "coordinate": {
-        "lat": 50.05952542947451,
-        "long": 8.607302372046576
+        "lat": 50.055382259835895,
+        "long": 8.605228527247121
       },
       "description": [
         "Beginn: 07.07.25 um 20:23 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 07.07.2025, 20:23",
-        "A5: Frankfurt -> Darmstadt, zwischen 3.0 km hinter AS Frankfurt am Main-Niederrad und 0.6 km vor AS Zeppelinheim",
+        "Zusammengesetzte Verkehrsinformation, seit 07.07.2025, 20:23",
+        "A5: Frankfurt -> Darmstadt, zwischen 0.2 km hinter AS Frankfurt am Main-Flughafen-Nord und 0.6 km vor AS Zeppelinheim",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 30 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 38 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1537,24 +1486,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.607302372,
-            50.059525429
-          ],
-          [
-            8.6068768,
-            50.058676301
-          ],
-          [
-            8.6062822,
-            50.057471501
-          ],
-          [
-            8.606042,
-            50.057010001
-          ],
-          [
-            8.605814,
-            50.056561601
+            8.605228527,
+            50.05538226
           ],
           [
             8.604764,
@@ -1592,7 +1525,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-07-07_20-26-30-000.f_006.de0",
+      "identifier": "undefined--vi-hind.2025-07-07_20-26-30-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
