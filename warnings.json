@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-07-07_23-11-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-07-07_23-11-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -324,7 +324,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-07-07_23-29-30-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-07-07_23-29-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -372,29 +372,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.17696442247807,11.749392993899487,49.17534122558237,11.766042167657183",
-      "point": "49.17696442247807,11.749392993899487",
-      "startLcPosition": "58",
+      "extent": "49.177325097221875,11.741063656974143,49.17537798475965,11.765917019738698",
+      "point": "49.177325097221875,11.741063656974143",
+      "startLcPosition": "59",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Hüttberg - Kühberg",
+      "title": "A3 | Parsberg - Kühberg",
       "startTimestamp": "2025-07-07T23:32:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "64.0999984741211",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "45.5",
       "coordinate": {
-        "lat": 49.17696442247807,
-        "long": 11.749392993899487
+        "lat": 49.177325097221875,
+        "long": 11.741063656974143
       },
       "description": [
         "Beginn: 07.07.25 um 23:32 Uhr",
         "",
         "Angespannte Verkehrslage, seit 07.07.2025, 23:32",
-        "A3: Nürnberg -> Passau, zwischen 0.1 km hinter Hüttberg und 4.8 km vor Kühberg",
+        "A3: Nürnberg -> Passau, zwischen 0.7 km hinter AS Parsberg und 4.8 km vor Kühberg",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 64 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 45 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -403,8 +403,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.749392994,
-            49.176964422
+            11.741063657,
+            49.177325097
+          ],
+          [
+            11.7423036,
+            49.177148601
+          ],
+          [
+            11.743643,
+            49.177027601
+          ],
+          [
+            11.7439255,
+            49.177009301
+          ],
+          [
+            11.7453542,
+            49.176926301
+          ],
+          [
+            11.746639,
+            49.176896801
+          ],
+          [
+            11.7483973,
+            49.176922501
           ],
           [
             11.750022,
@@ -451,8 +475,52 @@
             49.175690801
           ],
           [
-            11.766042168,
-            49.175341226
+            11.76591702,
+            49.175377985
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-07-07_23-50-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.13925524727841,8.33167464318296,50.14064343902228,8.330707507036458",
+      "point": "50.13925524727841,8.33167464318296",
+      "startLcPosition": "170",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Medenbach - Niedernhausen",
+      "startTimestamp": "2025-07-07T23:50:00+02:00",
+      "coordinate": {
+        "lat": 50.13925524727841,
+        "long": 8.33167464318296
+      },
+      "description": [
+        "Beginn: 07.07.25 um 23:50 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 07.07.2025, 23:50",
+        "A3: Frankfurt -> Köln, zwischen 5.1 km hinter Medenbach und 0.2 km vor AS Niedernhausen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.331674643,
+            50.139255247
+          ],
+          [
+            8.3308744,
+            50.140405701
+          ],
+          [
+            8.330707507,
+            50.140643439
           ]
         ]
       }
