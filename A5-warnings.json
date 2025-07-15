@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-07-15_05-59-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-07-15_05-59-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.63535247675805,7.566954460266685,47.612190723054994,7.5918803095726055",
-      "point": "47.63535247675805,7.566954460266685",
+      "extent": "47.6420863454848,7.557084984935625,47.612190723054994,7.5918803095726055",
+      "point": "47.6420863454848,7.557084984935625",
       "startLcPosition": "5",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Efringen-Kirchen - Weil am Rhein/Hüningen",
       "startTimestamp": "2025-07-15T05:59:00+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "47.29999923706055",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "32.79999923706055",
       "coordinate": {
-        "lat": 47.63535247675805,
-        "long": 7.566954460266685
+        "lat": 47.6420863454848,
+        "long": 7.557084984935625
       },
       "description": [
         "Beginn: 15.07.25 um 05:59 Uhr",
         "",
         "Angespannte Verkehrslage, seit 15.07.2025, 05:59",
-        "A5: Karlsruhe -> Basel, zwischen 6.0 km hinter AS Efringen-Kirchen und 1.4 km vor AS Weil am Rhein/Hüningen",
+        "A5: Karlsruhe -> Basel, zwischen 5.0 km hinter AS Efringen-Kirchen und 1.4 km vor AS Weil am Rhein/Hüningen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 47 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 32 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.56695446,
-            47.635352477
+            7.557084985,
+            47.642086345
+          ],
+          [
+            7.5577851,
+            47.641718201
+          ],
+          [
+            7.5588321,
+            47.641137601
+          ],
+          [
+            7.5594618,
+            47.640771001
+          ],
+          [
+            7.5612186,
+            47.639688601
+          ],
+          [
+            7.5619609,
+            47.639202301
+          ],
+          [
+            7.562164,
+            47.639064401
+          ],
+          [
+            7.5630002,
+            47.638491101
+          ],
+          [
+            7.564156,
+            47.637656301
+          ],
+          [
+            7.5651826,
+            47.636847301
+          ],
+          [
+            7.5660592,
+            47.636144201
+          ],
+          [
+            7.5669431,
+            47.635363001
           ],
           [
             7.5678605,
@@ -174,6 +218,50 @@
           [
             7.59188031,
             47.612190723
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-07-15_06-21-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.815178322732436,7.553892211305083,47.81598481683675,7.554483989081543",
+      "point": "47.815178322732436,7.553892211305083",
+      "startLcPosition": "13",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Müllheim/Neuenburg - Neuenburg",
+      "startTimestamp": "2025-07-15T06:21:30+02:00",
+      "coordinate": {
+        "lat": 47.815178322732436,
+        "long": 7.553892211305083
+      },
+      "description": [
+        "Beginn: 15.07.25 um 06:21 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 15.07.2025, 06:21",
+        "A5: Basel -> Karlsruhe, zwischen 0.2 km hinter AS Müllheim/Neuenburg und 1.7 km vor Neuenburg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.553892211,
+            47.815178323
+          ],
+          [
+            7.5543021,
+            47.815736901
+          ],
+          [
+            7.554483989,
+            47.815984817
           ]
         ]
       }
