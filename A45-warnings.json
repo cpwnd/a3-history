@@ -1,28 +1,64 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-07-16_01-40-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-07-16_03-19-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.020032721680124,9.045988864624075,49.99867767718115,9.016771402600424",
-      "point": "50.020032721680124,9.045988864624075",
-      "startLcPosition": "2",
+      "extent": "49.99862676320983,9.016743654637413,49.99862676320983,9.016743654637413",
+      "point": "49.99862676320983,9.016743654637413",
+      "startLcPosition": "0",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Kleinostheim - Seligenstädter Dreieck",
-      "startTimestamp": "2025-07-16T01:40:30+02:00",
+      "title": "A45 | Seligenstädter Dreieck - Seligenstädter Dreieck",
+      "startTimestamp": "2025-07-16T03:21:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "8",
       "coordinate": {
-        "lat": 50.020032721680124,
-        "long": 9.045988864624075
+        "lat": 49.99862676320983,
+        "long": 9.016743654637413
       },
       "description": [
-        "Beginn: 16.07.25 um 01:40 Uhr",
+        "Beginn: 16.07.25 um 03:21 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 16.07.2025, 01:40",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.2 km hinter AS Kleinostheim und 0.6 km vor AD Seligenstädter Dreieck",
+        "Angespannte Verkehrslage, seit 16.07.2025, 03:21",
+        "A45: Gießen -> Aschaffenburg, 0.6 km vor AD Seligenstädter Dreieck, aus Richtung Mainhausen",
         "",
-        "A45 Gießen Richtung Aschaffenburg\nzwischen Kleinostheim und Seligenstädter Dreieck\nUnfall, Polizei und Rettungswagen sind vor Ort"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-07-16_03-19-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.99862676320983,9.016743654637413,49.99677463979115,9.015912149595653",
+      "point": "49.99862676320983,9.016743654637413",
+      "startLcPosition": "1",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Mainhausen - Seligenstädter Dreieck",
+      "startTimestamp": "2025-07-16T03:19:30+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "11",
+      "coordinate": {
+        "lat": 49.99862676320983,
+        "long": 9.016743654637413
+      },
+      "description": [
+        "Beginn: 16.07.25 um 03:19 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 16.07.2025, 03:19",
+        "A45: Gießen -> Aschaffenburg, zwischen 1.4 km hinter AS Mainhausen und 0.4 km vor AD Seligenstädter Dreieck",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,176 +67,89 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.045988865,
-            50.020032722
+            9.016743655,
+            49.998626763
           ],
           [
-            9.0455272,
-            50.019705601
+            9.0166283,
+            49.998415101
           ],
           [
-            9.0447602,
-            50.019186901
+            9.016524,
+            49.998205101
           ],
           [
-            9.043777,
-            50.018585501
+            9.0163814,
+            49.997893401
           ],
           [
-            9.0435562,
-            50.018451301
+            9.0162408,
+            49.997586301
           ],
           [
-            9.0425924,
-            50.017888501
-          ],
+            9.01591215,
+            49.99677464
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-07-16_01-40-30-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.99999849865608,9.017544583911878,49.99677463979115,9.015912149595653",
+      "point": "49.99999849865608,9.017544583911878",
+      "startLcPosition": "1",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Mainhausen - Seligenstädter Dreieck",
+      "startTimestamp": "2025-07-16T01:40:30+02:00",
+      "coordinate": {
+        "lat": 49.99999849865608,
+        "long": 9.017544583911878
+      },
+      "description": [
+        "Beginn: 16.07.25 um 01:40 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 16.07.2025, 01:40",
+        "A45: Gießen -> Aschaffenburg, zwischen 1.2 km hinter AS Mainhausen und 0.4 km vor AD Seligenstädter Dreieck",
+        "",
+        "A45 Gießen Richtung Aschaffenburg Seligenstädter Dreieck Überleitung zur A3 Richtung Frankfurt Unfall, Polizei und Rettungswagen sind vor Ort, Verkehr wird nicht mehr über den Standstreifen geleitet"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            9.0415834,
-            50.017295301
-          ],
-          [
-            9.0407667,
-            50.016826901
-          ],
-          [
-            9.0393293,
-            50.016015901
-          ],
-          [
-            9.0390342,
-            50.015835401
-          ],
-          [
-            9.0381743,
-            50.015363801
-          ],
-          [
-            9.0371876,
-            50.014822701
-          ],
-          [
-            9.0357031,
-            50.014008601
-          ],
-          [
-            9.0342291,
-            50.013200201
-          ],
-          [
-            9.0329356,
-            50.012520601
-          ],
-          [
-            9.0322698,
-            50.012156601
-          ],
-          [
-            9.0304258,
-            50.011143601
-          ],
-          [
-            9.0289613,
-            50.010316901
-          ],
-          [
-            9.0288069,
-            50.010220001
-          ],
-          [
-            9.0282333,
-            50.009879901
-          ],
-          [
-            9.0277038,
-            50.009563901
-          ],
-          [
-            9.0273939,
-            50.009378001
-          ],
-          [
-            9.0269577,
-            50.009093701
-          ],
-          [
-            9.0266428,
-            50.008895901
-          ],
-          [
-            9.0249325,
-            50.007713201
-          ],
-          [
-            9.0239605,
-            50.006973201
-          ],
-          [
-            9.0233292,
-            50.006451101
-          ],
-          [
-            9.0230472,
-            50.006222901
-          ],
-          [
-            9.0225099,
-            50.005761401
-          ],
-          [
-            9.0219743,
-            50.005271801
-          ],
-          [
-            9.0212623,
-            50.004598101
-          ],
-          [
-            9.0205485,
-            50.003857501
-          ],
-          [
-            9.0204619,
-            50.003762701
-          ],
-          [
-            9.0197023,
-            50.002920301
-          ],
-          [
-            9.0194488,
-            50.002614901
-          ],
-          [
-            9.0192265,
-            50.002348801
-          ],
-          [
-            9.0186259,
-            50.001578101
-          ],
-          [
-            9.0182672,
-            50.001084501
-          ],
-          [
-            9.018007,
-            50.000702601
-          ],
-          [
-            9.0177284,
-            50.000287101
-          ],
-          [
-            9.0176731,
-            50.000204601
+            9.017544584,
+            49.999998499
           ],
           [
             9.0171212,
             49.999319501
           ],
           [
-            9.016771403,
-            49.998677677
+            9.0166283,
+            49.998415101
+          ],
+          [
+            9.016524,
+            49.998205101
+          ],
+          [
+            9.0163814,
+            49.997893401
+          ],
+          [
+            9.0162408,
+            49.997586301
+          ],
+          [
+            9.01591215,
+            49.99677464
           ]
         ]
       }
