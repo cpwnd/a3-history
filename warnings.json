@@ -1,64 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-07-16_22-11-30-000.f_004.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.17701532251953,11.743832545204663,49.17701532251953,11.743832545204663",
-      "point": "49.17701532251953,11.743832545204663",
-      "startLcPosition": "58",
-      "display_type": "WARNING",
-      "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Hüttberg - Hüttberg",
-      "startTimestamp": "2025-07-17T01:10:00+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23",
-      "coordinate": {
-        "lat": 49.17701532251953,
-        "long": 11.743832545204663
-      },
-      "description": [
-        "Beginn: 17.07.25 um 01:10 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 17.07.2025, 01:10",
-        "A3: Nürnberg -> Passau, 0.3 km vor Hüttberg, aus Richtung Parsberg",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
       "identifier": "undefined--vi-zus.2025-07-16_20-10-30-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.17702593123571,11.743668776023618,49.17436338277874,11.769371032526466",
-      "point": "49.17702593123571,11.743668776023618",
-      "startLcPosition": "59",
+      "extent": "49.17696442247807,11.749392993899487,49.174356030221766,11.769396061076295",
+      "point": "49.17696442247807,11.749392993899487",
+      "startLcPosition": "58",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Parsberg - Kühberg",
+      "title": "A3 | Hüttberg - Kühberg",
       "startTimestamp": "2025-07-16T20:10:30+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23.399999618530273",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "59.400001525878906",
       "coordinate": {
-        "lat": 49.17702593123571,
-        "long": 11.743668776023618
+        "lat": 49.17696442247807,
+        "long": 11.749392993899487
       },
       "description": [
         "Beginn: 16.07.25 um 20:10 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 16.07.2025, 20:10",
-        "A3: Nürnberg -> Passau, zwischen 0.9 km hinter AS Parsberg und 4.6 km vor Kühberg",
+        "A3: Nürnberg -> Passau, zwischen 0.1 km hinter Hüttberg und 4.6 km vor Kühberg",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 59 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -67,24 +36,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.743668776,
-            49.177025931
-          ],
-          [
-            11.7439255,
-            49.177009301
-          ],
-          [
-            11.7453542,
-            49.176926301
-          ],
-          [
-            11.746639,
-            49.176896801
-          ],
-          [
-            11.7483973,
-            49.176922501
+            11.749392994,
+            49.176964422
           ],
           [
             11.750022,
@@ -131,8 +84,8 @@
             49.175690801
           ],
           [
-            11.769371033,
-            49.174363383
+            11.769396061,
+            49.17435603
           ]
         ]
       }
@@ -549,6 +502,50 @@
           [
             10.2096133,
             49.781888901
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-07-17_01-28-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.99131591387847,9.069614308582887,49.99107200927081,9.06707566209181",
+      "point": "49.99131591387847,9.069614308582887",
+      "startLcPosition": "149",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Aschaffenburg - Stockstadt",
+      "startTimestamp": "2025-07-17T01:28:30+02:00",
+      "coordinate": {
+        "lat": 49.99131591387847,
+        "long": 9.069614308582887
+      },
+      "description": [
+        "Beginn: 17.07.25 um 01:28 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 17.07.2025, 01:28",
+        "A3: Würzburg -> Frankfurt, zwischen 0.3 km hinter AS Aschaffenburg und 1.1 km vor AS Stockstadt",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.069614309,
+            49.991315914
+          ],
+          [
+            9.068749,
+            49.991244401
+          ],
+          [
+            9.067075662,
+            49.991072009
           ]
         ]
       }
