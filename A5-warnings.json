@@ -1,60 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-08-06_21-32-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-08-06_21-41-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.82490630094556,8.208499699999798,48.82490630094556,8.208499699999798",
-      "point": "48.82490630094556,8.208499699999798",
-      "startLcPosition": "52",
+      "extent": "47.81611385913721,7.554578664634207,47.82383860604812,7.559980973006929",
+      "point": "47.81611385913721,7.554578664634207",
+      "startLcPosition": "13",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Rastatt-Süd - Baden-Baden",
-      "startTimestamp": "2025-08-06T21:32:00+02:00",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Müllheim/Neuenburg - Neuenburg",
+      "startTimestamp": "2025-08-06T21:41:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "44.70000076293945",
       "coordinate": {
-        "lat": 48.82490630094556,
-        "long": 8.208499699999798
+        "lat": 47.81611385913721,
+        "long": 7.554578664634207
       },
       "description": [
-        "Beginn: 06.08.25 um 21:32 Uhr",
+        "Beginn: 06.08.25 um 21:41 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 06.08.2025, 21:32",
-        "A5: Karlsruhe -> Basel, zwischen 0.1 km hinter AS Rastatt-Süd und 2.8 km vor Baden-Baden",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-08-06_20-13-03-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.70918815202533,8.598170204558407,49.7378370154875,8.591772963144098",
-      "point": "49.70918815202533,8.598170204558407",
-      "startLcPosition": "86",
-      "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Scheidweg - Alsbach",
-      "startTimestamp": "2025-08-06T20:13:03+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "43.79999923706055",
-      "coordinate": {
-        "lat": 49.70918815202533,
-        "long": 8.598170204558407
-      },
-      "description": [
-        "Beginn: 06.08.25 um 20:13 Uhr",
+        "Angespannte Verkehrslage, seit 06.08.2025, 21:41",
+        "A5: Basel -> Karlsruhe, zwischen 0.3 km hinter AS Müllheim/Neuenburg und 0.7 km vor Neuenburg",
         "",
-        "Angespannte Verkehrslage, seit 06.08.2025, 20:13",
-        "A5: Heidelberg -> Darmstadt, zwischen 1.4 km hinter Scheidweg und 0.9 km vor Alsbach",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 43 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 44 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -63,12 +36,78 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.598170205,
-            49.709188152
+            7.554578665,
+            47.816113859
           ],
           [
-            8.5977953,
-            49.710168701
+            7.5546167,
+            47.816165701
+          ],
+          [
+            7.5556011,
+            47.817553501
+          ],
+          [
+            7.556682,
+            47.819036501
+          ],
+          [
+            7.5568799,
+            47.819314601
+          ],
+          [
+            7.5581977,
+            47.821140301
+          ],
+          [
+            7.5590143,
+            47.822318401
+          ],
+          [
+            7.559980973,
+            47.823838606
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-06_20-13-03-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.71199647636913,8.597136977909045,49.73143015377851,8.592148371078066",
+      "point": "49.71199647636913,8.597136977909045",
+      "startLcPosition": "86",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Scheidweg - Nachtweide",
+      "startTimestamp": "2025-08-06T20:13:03+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "57.5",
+      "coordinate": {
+        "lat": 49.71199647636913,
+        "long": 8.597136977909045
+      },
+      "description": [
+        "Beginn: 06.08.25 um 20:13 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.08.2025, 20:13",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.7 km hinter Scheidweg und 0.2 km vor Nachtweide",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 57 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.597136978,
+            49.711996476
           ],
           [
             8.5967374,
@@ -131,24 +170,8 @@
             49.730739601
           ],
           [
-            8.5919974,
-            49.732710401
-          ],
-          [
-            8.5918795,
-            49.734326001
-          ],
-          [
-            8.5917974,
-            49.736281101
-          ],
-          [
-            8.5917771,
-            49.737095401
-          ],
-          [
-            8.591772963,
-            49.737837015
+            8.592148371,
+            49.731430154
           ]
         ]
       }
