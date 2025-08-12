@@ -1,26 +1,26 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-08-13_01-12-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-08-13_01-12-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.449118382891506,8.646437628936217,49.47612280162979,8.640775910811623",
-      "point": "49.449118382891506,8.646437628936217",
-      "startLcPosition": "74",
+      "extent": "49.4487153009434,8.646365399999912,49.47612280162979,8.640775910811623",
+      "point": "49.4487153009434,8.646365399999912",
+      "startLcPosition": "73",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Heidelberg/Dossenheim - Ladenburg",
+      "title": "A5 | Heidelberg - Ladenburg",
       "startTimestamp": "2025-08-13T01:12:30+02:00",
       "coordinate": {
-        "lat": 49.449118382891506,
-        "long": 8.646437628936217
+        "lat": 49.4487153009434,
+        "long": 8.646365399999912
       },
       "description": [
         "Beginn: 13.08.25 um 01:12 Uhr",
         "",
         "Fahrzeug-Hindernis, seit 13.08.2025, 01:12",
-        "A5: Heidelberg -> Darmstadt, zwischen AS Heidelberg/Dossenheim und 0.2 km vor AS Ladenburg",
+        "A5: Heidelberg -> Darmstadt, zwischen 3.5 km hinter AK Heidelberg und 0.2 km vor AS Ladenburg",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -30,8 +30,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.646437629,
-            49.449118383
+            8.6463654,
+            49.448715301
+          ],
+          [
+            8.6464044,
+            49.448897801
+          ],
+          [
+            8.6464285,
+            49.449055701
           ],
           [
             8.6464771,
@@ -147,6 +155,39 @@
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-13_15-15-00-000.f_019.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.10005888422666,8.611227576420115,50.10005888422666,8.611227576420115",
+      "point": "50.10005888422666,8.611227576420115",
+      "startLcPosition": "108",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Frankfurt am Main-Westhafen - Westkreuz Frankfurt am Main",
+      "startTimestamp": "2025-08-13T15:15:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "48",
+      "coordinate": {
+        "lat": 50.10005888422666,
+        "long": 8.611227576420115
+      },
+      "description": [
+        "Beginn: 13.08.25 um 15:15 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 13.08.2025, 15:15",
+        "A5: Frankfurt -> Kassel, zwischen 0.9 km hinter AS Frankfurt am Main-Westhafen und 1.8 km vor AK Westkreuz Frankfurt am Main",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 48 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     }
   ]
 }
