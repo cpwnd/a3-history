@@ -1,64 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-08-18_22-20-00-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.113960543518715,8.599279895176767,50.113960543518715,8.599279895176767",
-      "point": "50.113960543518715,8.599279895176767",
-      "startLcPosition": "108",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Frankfurt am Main-Westhafen - Frankfurt am Main-Westhafen",
-      "startTimestamp": "2025-08-18T23:06:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "19",
-      "coordinate": {
-        "lat": 50.113960543518715,
-        "long": 8.599279895176767
-      },
-      "description": [
-        "Beginn: 18.08.25 um 23:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 18.08.2025, 23:06",
-        "A5: Kassel -> Frankfurt, 2.6 km vor AS Frankfurt am Main-Westhafen, aus Richtung Westkreuz Frankfurt am Main",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 19 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
       "identifier": "undefined--vi-avl.2025-08-18_21-58-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.114002115033294,8.599253229910117,50.0987724590128,8.61242045292657",
-      "point": "50.114002115033294,8.599253229910117",
+      "extent": "50.11244361590307,8.600263261902771,50.0987724590128,8.61242045292657",
+      "point": "50.11244361590307,8.600263261902771",
       "startLcPosition": "109",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Westkreuz Frankfurt am Main - Frankfurt am Main-Westhafen",
       "startTimestamp": "2025-08-18T21:58:00+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "25.700000762939453",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "64",
       "coordinate": {
-        "lat": 50.114002115033294,
-        "long": 8.599253229910117
+        "lat": 50.11244361590307,
+        "long": 8.600263261902771
       },
       "description": [
         "Beginn: 18.08.25 um 21:58 Uhr",
         "",
         "Angespannte Verkehrslage, seit 18.08.2025, 21:58",
-        "A5: Kassel -> Frankfurt, zwischen AK Westkreuz Frankfurt am Main und 0.7 km vor AS Frankfurt am Main-Westhafen",
+        "A5: Kassel -> Frankfurt, zwischen 0.2 km hinter AK Westkreuz Frankfurt am Main und 0.7 km vor AS Frankfurt am Main-Westhafen",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 25 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 64 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -67,24 +36,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.59925323,
-            50.114002115
-          ],
-          [
-            8.5994118,
-            50.113754901
-          ],
-          [
-            8.5997811,
-            50.113185001
-          ],
-          [
-            8.5999498,
-            50.112920501
-          ],
-          [
-            8.6001438,
-            50.112624801
+            8.600263262,
+            50.112443616
           ],
           [
             8.6003656,
@@ -194,7 +147,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-18_23-01-00-000.f_001.de0",
+      "identifier": "undefined--vi-zus.2025-08-18_23-01-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -212,12 +165,14 @@
       "description": [
         "Beginn: 18.08.25 um 23:01 Uhr",
         "",
-        "Hindernis, seit 18.08.2025, 23:01",
+        "Zusammengesetzte Verkehrsinformation, seit 18.08.2025, 23:01",
         "A5: Frankfurt -> Kassel, zwischen 0.4 km hinter AK Bad Homburger Kreuz und 0.3 km vor AS Friedberg",
         "",
         "Gefahr durch eine ungesicherte Unfallstelle",
         "",
-        "Gefahr durch Gegenstände auf der Fahrbahn"
+        "Gefahr durch Gegenstände auf der Fahrbahn",
+        "",
+        "A5 Frankfurt Richtung Kassel zwischen Bad Homburger Kreuz und Friedberg Gefahr durch ungesicherte Unfallstelle, Gefahr durch Fahrzeugteile auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
