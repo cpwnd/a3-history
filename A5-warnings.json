@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-08-20_13-33-38-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-08-20_13-33-38-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -19,8 +19,12 @@
       "description": [
         "Beginn: 20.08.25 um 13:33 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 20.08.2025, 13:33",
-        "A5: Basel -> Karlsruhe, zwischen 0.3 km hinter AS Hartheim/Heitersheim und 2.8 km vor AS Rust"
+        "Zusammengesetzte Verkehrsinformation, seit 20.08.2025, 13:33",
+        "A5: Basel -> Karlsruhe, zwischen 0.3 km hinter AS Hartheim/Heitersheim und 2.8 km vor AS Rust",
+        "",
+        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn",
+        "",
+        "A5 Basel Richtung Karlsruhe zwischen Hartheim/Heitersheim und Herbolzheim Wanderbaustelle auf dem linken Fahrstreifen"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1384,29 +1388,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.941988682499264,7.628635402863862,47.9511552009479,7.668583299999349",
-      "point": "47.941988682499264,7.628635402863862",
+      "extent": "47.940497083902194,7.624569959311676,47.9515386770522,7.670827387600409",
+      "point": "47.940497083902194,7.624569959311676",
       "startLcPosition": "19",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Neustock - Bad Krozingen",
+      "title": "A5 | Neustock - Breisgau",
       "startTimestamp": "2025-08-20T13:19:57+02:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "34",
+      "averageSpeed": "39.5",
       "coordinate": {
-        "lat": 47.941988682499264,
-        "long": 7.628635402863862
+        "lat": 47.940497083902194,
+        "long": 7.624569959311676
       },
       "description": [
         "Beginn: 20.08.25 um 13:19 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 20.08.2025, 13:19",
-        "A5: Basel -> Karlsruhe, zwischen 3.2 km hinter Neustock und AS Bad Krozingen",
+        "A5: Basel -> Karlsruhe, zwischen 2.8 km hinter Neustock und 4.3 km vor Breisgau",
         "",
         "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 34 km/h"
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 39 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1415,8 +1419,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.628635403,
-            47.941988682
+            7.624569959,
+            47.940497084
+          ],
+          [
+            7.6247216,
+            47.940554201
+          ],
+          [
+            7.6267561,
+            47.941317101
           ],
           [
             7.6288042,
@@ -1525,6 +1537,22 @@
           [
             7.6685833,
             47.951155201
+          ],
+          [
+            7.6690219,
+            47.951223501
+          ],
+          [
+            7.6702951,
+            47.951439901
+          ],
+          [
+            7.6707499,
+            47.951524401
+          ],
+          [
+            7.670827388,
+            47.951538677
           ]
         ]
       }
@@ -1534,29 +1562,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.25978942406257,7.766546350478423,48.29971039061117,7.789608896966386",
-      "point": "48.25978942406257,7.766546350478423",
-      "startLcPosition": "33",
+      "extent": "48.245140143167376,7.757004647720613,48.278940571600614,7.781531345480358",
+      "point": "48.245140143167376,7.757004647720613",
+      "startLcPosition": "32",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Rust - Mahlberg",
+      "title": "A5 | Herbolzheim - Mahlberg",
       "startTimestamp": "2025-08-20T12:23:02+02:00",
-      "delayTimeValue": "17",
+      "delayTimeValue": "12",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "15",
+      "averageSpeed": "17.299999237060547",
       "coordinate": {
-        "lat": 48.25978942406257,
-        "long": 7.766546350478423
+        "lat": 48.245140143167376,
+        "long": 7.757004647720613
       },
       "description": [
         "Beginn: 20.08.25 um 12:23 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.08.2025, 12:23",
-        "A5: Basel -> Karlsruhe, zwischen 1.0 km hinter AS Rust und 1.0 km vor Mahlberg",
+        "A5: Basel -> Karlsruhe, zwischen 2.0 km hinter AS Herbolzheim und 3.4 km vor Mahlberg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 17 Minuten",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Reisezeitverlust: 12 Minuten",
+        "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1565,8 +1593,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.76654635,
-            48.259789424
+            7.757004648,
+            48.245140143
+          ],
+          [
+            7.757695,
+            48.246413501
+          ],
+          [
+            7.7592379,
+            48.249078601
+          ],
+          [
+            7.7603429,
+            48.250890001
+          ],
+          [
+            7.7613616,
+            48.252483001
+          ],
+          [
+            7.761604,
+            48.252846401
+          ],
+          [
+            7.762372,
+            48.254014701
+          ],
+          [
+            7.7626293,
+            48.254396501
+          ],
+          [
+            7.7627906,
+            48.254621901
+          ],
+          [
+            7.7651478,
+            48.257933101
+          ],
+          [
+            7.7661365,
+            48.259258701
           ],
           [
             7.7672118,
@@ -1629,64 +1697,8 @@
             48.278748101
           ],
           [
-            7.781921,
-            48.279599901
-          ],
-          [
-            7.7823856,
-            48.280383701
-          ],
-          [
-            7.7831246,
-            48.281694901
-          ],
-          [
-            7.7837068,
-            48.282784001
-          ],
-          [
-            7.7845339,
-            48.284414401
-          ],
-          [
-            7.7854082,
-            48.286277601
-          ],
-          [
-            7.7860438,
-            48.287784901
-          ],
-          [
-            7.7867386,
-            48.289500301
-          ],
-          [
-            7.7873826,
-            48.291296201
-          ],
-          [
-            7.7878722,
-            48.292771301
-          ],
-          [
-            7.7884332,
-            48.294699901
-          ],
-          [
-            7.7890695,
-            48.297128501
-          ],
-          [
-            7.7893005,
-            48.298142901
-          ],
-          [
-            7.7895954,
-            48.299629401
-          ],
-          [
-            7.789608897,
-            48.299710391
+            7.781531345,
+            48.278940572
           ]
         ]
       }
@@ -1696,27 +1708,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.25977343327082,7.766534001463906,48.25977343327082,7.766534001463906",
-      "point": "48.25977343327082,7.766534001463906",
-      "startLcPosition": "34",
+      "extent": "48.24508939287039,7.756977134138633,48.24508939287039,7.756977134138633",
+      "point": "48.24508939287039,7.756977134138633",
+      "startLcPosition": "33",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Ettenheim - Ettenheim",
-      "startTimestamp": "2025-08-20T13:36:39+02:00",
+      "title": "A5 | Rust - Rust",
+      "startTimestamp": "2025-08-20T13:45:53+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "15",
+      "averageSpeed": "17",
       "coordinate": {
-        "lat": 48.25977343327082,
-        "long": 7.766534001463906
+        "lat": 48.24508939287039,
+        "long": 7.756977134138633
       },
       "description": [
-        "Beginn: 20.08.25 um 13:36 Uhr",
+        "Beginn: 20.08.25 um 13:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 20.08.2025, 13:36",
-        "A5: Basel -> Karlsruhe, 2.3 km vor AS Ettenheim, aus Richtung Rust",
+        "Angespannte Verkehrslage, seit 20.08.2025, 13:45",
+        "A5: Basel -> Karlsruhe, 0.8 km vor AS Rust, aus Richtung Herbolzheim",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1727,29 +1739,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.90700620855641,8.34801796329688,48.9987773719803,8.444180440091944",
-      "point": "48.90700620855641,8.34801796329688",
+      "extent": "48.917825454177034,8.353291699820925,48.99933554150466,8.445052709762185",
+      "point": "48.917825454177034,8.353291699820925",
       "startLcPosition": "55",
       "display_type": "WARNING",
       "subtitle": " Basel -> Heidelberg",
       "title": "A5 | Schleifweg - Karlsruhe-Durlach",
       "startTimestamp": "2025-08-20T11:09:51+02:00",
-      "delayTimeValue": "54",
+      "delayTimeValue": "62",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13.399999618530273",
+      "averageSpeed": "10.899999618530273",
       "coordinate": {
-        "lat": 48.90700620855641,
-        "long": 8.34801796329688
+        "lat": 48.917825454177034,
+        "long": 8.353291699820925
       },
       "description": [
         "Beginn: 20.08.25 um 11:09 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.08.2025, 11:09",
-        "A5: Basel -> Heidelberg, zwischen 4.8 km hinter Schleifweg und 0.6 km vor AS Karlsruhe-Durlach",
+        "A5: Basel -> Heidelberg, zwischen 6.1 km hinter Schleifweg und 0.6 km vor AS Karlsruhe-Durlach",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 54 Minuten",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Reisezeitverlust: 62 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1758,56 +1770,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.348017963,
-            48.907006209
-          ],
-          [
-            8.3481251,
-            48.907135601
-          ],
-          [
-            8.3483453,
-            48.907417701
-          ],
-          [
-            8.3485515,
-            48.907703801
-          ],
-          [
-            8.3487424,
-            48.907991901
-          ],
-          [
-            8.3490258,
-            48.908459301
-          ],
-          [
-            8.3492834,
-            48.908932101
-          ],
-          [
-            8.3495215,
-            48.909411701
-          ],
-          [
-            8.349751,
-            48.909896701
-          ],
-          [
-            8.3503015,
-            48.911131101
-          ],
-          [
-            8.3508376,
-            48.912370601
-          ],
-          [
-            8.3521323,
-            48.915239501
-          ],
-          [
-            8.3525357,
-            48.916133401
+            8.3532917,
+            48.917825454
           ],
           [
             8.3533717,
@@ -2462,8 +2426,8 @@
             48.998350901
           ],
           [
-            8.44418044,
-            48.998777372
+            8.44505271,
+            48.999335542
           ]
         ]
       }
@@ -2473,27 +2437,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.907061480059625,8.348063727940696,48.907061480059625,8.348063727940696",
-      "point": "48.907061480059625,8.348063727940696",
+      "extent": "48.91798940785925,8.353364956210582,48.91798940785925,8.353364956210582",
+      "point": "48.91798940785925,8.353364956210582",
       "startLcPosition": "56",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Karlsruhe-Süd - Karlsruhe-Süd",
-      "startTimestamp": "2025-08-20T13:36:39+02:00",
+      "startTimestamp": "2025-08-20T13:45:53+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13",
+      "averageSpeed": "11",
       "coordinate": {
-        "lat": 48.907061480059625,
-        "long": 8.348063727940696
+        "lat": 48.91798940785925,
+        "long": 8.353364956210582
       },
       "description": [
-        "Beginn: 20.08.25 um 13:36 Uhr",
+        "Beginn: 20.08.25 um 13:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 20.08.2025, 13:36",
-        "A5: Basel -> Karlsruhe, 6.3 km vor AS Karlsruhe-Süd, aus Richtung Schleifweg",
+        "Angespannte Verkehrslage, seit 20.08.2025, 13:45",
+        "A5: Basel -> Karlsruhe, 5.0 km vor AS Karlsruhe-Süd, aus Richtung Schleifweg",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2542,6 +2506,39 @@
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-20_15-15-00-000.f_043.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.10005888422666,8.611227576420115,50.10005888422666,8.611227576420115",
+      "point": "50.10005888422666,8.611227576420115",
+      "startLcPosition": "108",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Frankfurt am Main-Westhafen - Westkreuz Frankfurt am Main",
+      "startTimestamp": "2025-08-20T15:15:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "48",
+      "coordinate": {
+        "lat": 50.10005888422666,
+        "long": 8.611227576420115
+      },
+      "description": [
+        "Beginn: 20.08.25 um 15:15 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.08.2025, 15:15",
+        "A5: Frankfurt -> Kassel, zwischen 0.9 km hinter AS Frankfurt am Main-Westhafen und 1.8 km vor AK Westkreuz Frankfurt am Main",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 48 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-hind.2025-08-20_13-19-57-000.f_001.de0",
