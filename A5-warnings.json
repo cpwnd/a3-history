@@ -1,86 +1,64 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-08-20_22-03-00-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2025-08-20_22-33-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.907898424358436,7.58881600809334,47.905245676231694,7.587870187826687",
-      "point": "47.907898424358436,7.58881600809334",
-      "startLcPosition": "17",
+      "extent": "50.06362294896022,8.60935719037273,50.06362294896022,8.60935719037273",
+      "point": "50.06362294896022,8.60935719037273",
+      "startLcPosition": "106",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Hartheim/Heitersheim - Köpfle",
-      "startTimestamp": "2025-08-20T22:03:00+02:00",
+      "subtitle": " Frankfurt -> Darmstadt",
+      "title": "A5 | Frankfurt am Main-Flughafen-Nord - Frankfurt am Main-Flughafen-Nord",
+      "startTimestamp": "2025-08-20T22:37:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "24",
       "coordinate": {
-        "lat": 47.907898424358436,
-        "long": 7.58881600809334
+        "lat": 50.06362294896022,
+        "long": 8.60935719037273
       },
       "description": [
-        "Beginn: 20.08.25 um 22:03 Uhr",
+        "Beginn: 20.08.25 um 22:37 Uhr",
         "",
-        "Hindernis, seit 20.08.2025, 22:03",
-        "A5: Karlsruhe -> Basel, zwischen 0.1 km hinter AS Hartheim/Heitersheim und 3.7 km vor Köpfle",
+        "Angespannte Verkehrslage, seit 20.08.2025, 22:37",
+        "A5: Frankfurt -> Darmstadt, 0.7 km vor AS Frankfurt am Main-Flughafen-Nord, aus Richtung Frankfurt am Main-Niederrad",
         "",
-        "Gefahr durch Personen auf der Fahrbahn"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 24 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.588816008,
-            47.907898424
-          ],
-          [
-            7.5886241,
-            47.907427701
-          ],
-          [
-            7.5884319,
-            47.906896701
-          ],
-          [
-            7.5879881,
-            47.905615101
-          ],
-          [
-            7.587870188,
-            47.905245676
-          ]
-        ]
-      }
+      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-avl.2025-08-20_20-37-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.061332041352124,8.60820462764497,50.047191700940935,8.601108299999892",
-      "point": "50.061332041352124,8.60820462764497",
+      "extent": "50.06362294896022,8.60935719037273,50.047191700940935,8.601108299999892",
+      "point": "50.06362294896022,8.60935719037273",
       "startLcPosition": "107",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Darmstadt",
       "title": "A5 | Frankfurt am Main-Niederrad - Zeppelinheim",
       "startTimestamp": "2025-08-20T20:37:30+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "34.400001525878906",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "23.899999618530273",
       "coordinate": {
-        "lat": 50.061332041352124,
-        "long": 8.60820462764497
+        "lat": 50.06362294896022,
+        "long": 8.60935719037273
       },
       "description": [
         "Beginn: 20.08.25 um 20:37 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.08.2025, 20:37",
-        "A5: Frankfurt -> Darmstadt, zwischen 2.8 km hinter AS Frankfurt am Main-Niederrad und 1.4 km vor AS Zeppelinheim",
+        "A5: Frankfurt -> Darmstadt, zwischen 2.5 km hinter AS Frankfurt am Main-Niederrad und 1.4 km vor AS Zeppelinheim",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 34 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -89,8 +67,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.608204628,
-            50.061332041
+            8.60935719,
+            50.063622949
+          ],
+          [
+            8.608471,
+            50.061861801
+          ],
+          [
+            8.6083881,
+            50.061700301
           ],
           [
             8.6080261,
