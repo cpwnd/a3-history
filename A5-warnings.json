@@ -1,33 +1,27 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-08-22_15-49-01-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-08-22_17-08-58-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.919054940065216,8.353865560844339,48.955160489161806,8.380018748975248",
-      "point": "48.919054940065216,8.353865560844339",
-      "startLcPosition": "55",
+      "extent": "47.77039921393609,7.536856492439502,47.7687365674102,7.53738405030163",
+      "point": "47.77039921393609,7.536856492439502",
+      "startLcPosition": "10",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Schleifweg - Karlsruhe-Süd",
-      "startTimestamp": "2025-08-22T15:49:01+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "41.70000076293945",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Neuenburg - Galgenloch",
+      "startTimestamp": "2025-08-22T17:08:58+02:00",
       "coordinate": {
-        "lat": 48.919054940065216,
-        "long": 8.353865560844339
+        "lat": 47.77039921393609,
+        "long": 7.536856492439502
       },
       "description": [
-        "Beginn: 22.08.25 um 15:49 Uhr",
+        "Beginn: 22.08.25 um 17:08 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 15:49",
-        "A5: Basel -> Karlsruhe, zwischen 6.2 km hinter Schleifweg und 0.3 km vor AS Karlsruhe-Süd",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 41 km/h"
+        "Fahrzeug-Hindernis, seit 22.08.2025, 17:08",
+        "A5: Karlsruhe -> Basel, zwischen 0.7 km hinter AD Neuenburg und 2.7 km vor Galgenloch",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,24 +30,58 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.353865561,
-            48.91905494
+            7.536856492,
+            47.770399214
           ],
           [
-            8.3542129,
-            48.919793701
+            7.5370203,
+            47.769862301
           ],
           [
-            8.3542904,
-            48.919948001
-          ],
+            7.53738405,
+            47.768736567
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-08-22_15-50-54-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.927754637492065,8.35776110614854,49.00012920094498,8.446290599999873",
+      "point": "48.927754637492065,8.35776110614854",
+      "startLcPosition": "55",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Heidelberg",
+      "title": "A5 | Schleifweg - Karlsruhe-Durlach",
+      "startTimestamp": "2025-08-22T15:50:54+02:00",
+      "delayTimeValue": "73",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "8.699999809265137",
+      "coordinate": {
+        "lat": 48.927754637492065,
+        "long": 8.35776110614854
+      },
+      "description": [
+        "Beginn: 22.08.25 um 15:50 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 15:50",
+        "A5: Basel -> Heidelberg, zwischen 7.2 km hinter Schleifweg und 0.4 km vor AS Karlsruhe-Durlach",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 73 Minuten",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            8.3545042,
-            48.920462801
-          ],
-          [
-            8.3555827,
-            48.922930701
+            8.357761106,
+            48.927754637
           ],
           [
             8.3579977,
@@ -188,50 +216,68 @@
             48.955009301
           ],
           [
-            8.380018749,
-            48.955160489
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-08-22_15-50-54-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.95810700951532,8.390282272220627,48.999460971953326,8.44524872810143",
-      "point": "48.95810700951532,8.390282272220627",
-      "startLcPosition": "56",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Heidelberg",
-      "title": "A5 | Karlsruhe-Süd - Karlsruhe-Durlach",
-      "startTimestamp": "2025-08-22T15:50:54+02:00",
-      "delayTimeValue": "65",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6.099999904632568",
-      "coordinate": {
-        "lat": 48.95810700951532,
-        "long": 8.390282272220627
-      },
-      "description": [
-        "Beginn: 22.08.25 um 15:50 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 15:50",
-        "A5: Basel -> Heidelberg, zwischen 0.5 km hinter AS Karlsruhe-Süd und 0.5 km vor AS Karlsruhe-Durlach",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 65 Minuten",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+            8.3802685,
+            48.955294601
+          ],
           [
-            8.390282272,
-            48.95810701
+            8.3805688,
+            48.955435601
+          ],
+          [
+            8.3814207,
+            48.955835701
+          ],
+          [
+            8.3831106,
+            48.956507501
+          ],
+          [
+            8.3833399,
+            48.956587601
+          ],
+          [
+            8.3837853,
+            48.956733901
+          ],
+          [
+            8.3842361,
+            48.956874501
+          ],
+          [
+            8.3846859,
+            48.957014301
+          ],
+          [
+            8.3853586,
+            48.957189501
+          ],
+          [
+            8.3859311,
+            48.957330701
+          ],
+          [
+            8.3864869,
+            48.957452701
+          ],
+          [
+            8.3866037,
+            48.957477301
+          ],
+          [
+            8.3866557,
+            48.957487901
+          ],
+          [
+            8.3871646,
+            48.957594001
+          ],
+          [
+            8.3885444,
+            48.957831301
+          ],
+          [
+            8.3897382,
+            48.958019501
           ],
           [
             8.3904532,
@@ -670,206 +716,49 @@
             48.998350901
           ],
           [
-            8.445248728,
-            48.999460972
+            8.4459886,
+            48.999934401
+          ],
+          [
+            8.4462906,
+            49.000129201
           ]
         ]
       }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-08-22_16-46-28-000.f_012.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.919054940065216,8.353865560844339,48.919054940065216,8.353865560844339",
-      "point": "48.919054940065216,8.353865560844339",
-      "startLcPosition": "56",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Karlsruhe-Süd - Karlsruhe-Süd",
-      "startTimestamp": "2025-08-22T16:46:28+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "14",
-      "coordinate": {
-        "lat": 48.919054940065216,
-        "long": 8.353865560844339
-      },
-      "description": [
-        "Beginn: 22.08.25 um 16:46 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:46",
-        "A5: Basel -> Karlsruhe, 4.9 km vor AS Karlsruhe-Süd, aus Richtung Schleifweg",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 14 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-avl.2025-08-22_15-52-46-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.95814056635023,8.390493131973413,48.95814056635023,8.390493131973413",
-      "point": "48.95814056635023,8.390493131973413",
-      "startLcPosition": "57",
+      "extent": "48.9279529392322,8.357850665089662,48.9279529392322,8.357850665089662",
+      "point": "48.9279529392322,8.357850665089662",
+      "startLcPosition": "56",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Ettlingen - Ettlingen",
-      "startTimestamp": "2025-08-22T16:46:28+02:00",
+      "title": "A5 | Karlsruhe-Süd - Karlsruhe-Süd",
+      "startTimestamp": "2025-08-22T17:08:58+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 48.95814056635023,
-        "long": 8.390493131973413
+        "lat": 48.9279529392322,
+        "long": 8.357850665089662
       },
       "description": [
-        "Beginn: 22.08.25 um 16:46 Uhr",
+        "Beginn: 22.08.25 um 17:08 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:46",
-        "A5: Basel -> Karlsruhe, 1.1 km vor AS Ettlingen, aus Richtung Karlsruhe-Süd",
+        "Angespannte Verkehrslage, seit 22.08.2025, 17:08",
+        "A5: Basel -> Karlsruhe, 3.8 km vor AS Karlsruhe-Süd, aus Richtung Schleifweg",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-22_15-49-53-000.f_027.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.96841536141086,8.42829722464333,48.959100464032836,8.395664378749588",
-      "point": "48.96841536141086,8.42829722464333",
-      "startLcPosition": "58",
-      "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Basel",
-      "title": "A5 | Karlsruhe - Karlsruhe-Süd",
-      "startTimestamp": "2025-08-22T15:49:53+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "45.20000076293945",
-      "coordinate": {
-        "lat": 48.96841536141086,
-        "long": 8.42829722464333
-      },
-      "description": [
-        "Beginn: 22.08.25 um 15:49 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 15:49",
-        "A5: Heidelberg -> Basel, zwischen 1.0 km hinter AD Karlsruhe und 0.9 km vor AS Karlsruhe-Süd",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 45 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.428297225,
-            48.968415361
-          ],
-          [
-            8.4273422,
-            48.968006601
-          ],
-          [
-            8.4246305,
-            48.966833401
-          ],
-          [
-            8.4240588,
-            48.966597701
-          ],
-          [
-            8.4228791,
-            48.966129401
-          ],
-          [
-            8.4213844,
-            48.965572601
-          ],
-          [
-            8.4192304,
-            48.964759401
-          ],
-          [
-            8.4188515,
-            48.964621201
-          ],
-          [
-            8.4135133,
-            48.962589701
-          ],
-          [
-            8.4126157,
-            48.962261301
-          ],
-          [
-            8.4117316,
-            48.961966901
-          ],
-          [
-            8.4109304,
-            48.961716901
-          ],
-          [
-            8.410257,
-            48.961534101
-          ],
-          [
-            8.4100213,
-            48.961481901
-          ],
-          [
-            8.40893,
-            48.961226301
-          ],
-          [
-            8.4085009,
-            48.961145001
-          ],
-          [
-            8.4080162,
-            48.961056601
-          ],
-          [
-            8.4074825,
-            48.960965601
-          ],
-          [
-            8.4067538,
-            48.960847201
-          ],
-          [
-            8.4047034,
-            48.960510201
-          ],
-          [
-            8.4032798,
-            48.960275801
-          ],
-          [
-            8.3976333,
-            48.959406101
-          ],
-          [
-            8.395664379,
-            48.959100464
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-unf.2025-08-22_15-42-34-000.f_004.de0",
+      "identifier": "undefined--vi-unf.2025-08-22_15-42-34-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -948,29 +837,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.04353386328236,8.489552551312997,48.99721908515915,8.441428478180516",
-      "point": "49.04353386328236,8.489552551312997",
+      "extent": "49.01976750094493,8.470454799999889,48.99721908515915,8.441428478180516",
+      "point": "49.01976750094493,8.470454799999889",
       "startLcPosition": "62",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
       "title": "A5 | Kreuzlach - Karlsruhe-Mitte",
       "startTimestamp": "2025-08-22T16:13:37+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "42",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54.70000076293945",
       "coordinate": {
-        "lat": 49.04353386328236,
-        "long": 8.489552551312997
+        "lat": 49.01976750094493,
+        "long": 8.470454799999889
       },
       "description": [
         "Beginn: 22.08.25 um 16:13 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.08.2025, 16:13",
-        "A5: Heidelberg -> Karlsruhe, zwischen 3.2 km hinter Kreuzlach und 0.8 km vor AS Karlsruhe-Mitte",
+        "A5: Heidelberg -> Karlsruhe, zwischen 6.2 km hinter Kreuzlach und 0.8 km vor AS Karlsruhe-Mitte",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 42 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -978,146 +867,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            8.489552551,
-            49.043533863
-          ],
-          [
-            8.4891208,
-            49.042883501
-          ],
-          [
-            8.4885551,
-            49.042042101
-          ],
-          [
-            8.4881423,
-            49.041419101
-          ],
-          [
-            8.4873102,
-            49.040168001
-          ],
-          [
-            8.486144,
-            49.038408201
-          ],
-          [
-            8.4855205,
-            49.037473001
-          ],
-          [
-            8.4849416,
-            49.036605601
-          ],
-          [
-            8.4844126,
-            49.035817501
-          ],
-          [
-            8.4840768,
-            49.035301301
-          ],
-          [
-            8.4837156,
-            49.034754801
-          ],
-          [
-            8.4832023,
-            49.033993701
-          ],
-          [
-            8.4827795,
-            49.033350101
-          ],
-          [
-            8.4825993,
-            49.033079701
-          ],
-          [
-            8.4822275,
-            49.032531601
-          ],
-          [
-            8.4815393,
-            49.031521201
-          ],
-          [
-            8.4808884,
-            49.030620501
-          ],
-          [
-            8.4803881,
-            49.029958501
-          ],
-          [
-            8.4796922,
-            49.029082401
-          ],
-          [
-            8.4794383,
-            49.028776701
-          ],
-          [
-            8.479192,
-            49.028479901
-          ],
-          [
-            8.4789153,
-            49.028156201
-          ],
-          [
-            8.4781781,
-            49.027327201
-          ],
-          [
-            8.4774993,
-            49.026597501
-          ],
-          [
-            8.4770652,
-            49.026146601
-          ],
-          [
-            8.4765396,
-            49.025598201
-          ],
-          [
-            8.4759336,
-            49.025006001
-          ],
-          [
-            8.4754662,
-            49.024560301
-          ],
-          [
-            8.4752594,
-            49.024363001
-          ],
-          [
-            8.474385,
-            49.023523901
-          ],
-          [
-            8.4738814,
-            49.023043901
-          ],
-          [
-            8.473101,
-            49.022304701
-          ],
-          [
-            8.4724498,
-            49.021676801
-          ],
-          [
-            8.4717599,
-            49.021019001
-          ],
-          [
-            8.4715406,
-            49.020807101
-          ],
           [
             8.4704548,
             49.019767501
@@ -1262,120 +1011,38 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-08-22_15-51-57-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.540278810420666,8.629751157394328,49.54889530094299,8.627698299999913",
-      "point": "49.540278810420666,8.629751157394328",
-      "startLcPosition": "78",
-      "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Wachenburg - Weinheim",
-      "startTimestamp": "2025-08-22T15:51:57+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "58.20000076293945",
-      "coordinate": {
-        "lat": 49.540278810420666,
-        "long": 8.629751157394328
-      },
-      "description": [
-        "Beginn: 22.08.25 um 15:51 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 15:51",
-        "A5: Heidelberg -> Darmstadt, zwischen 1.0 km hinter Wachenburg und AK Weinheim",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 58 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.629751157,
-            49.54027881
-          ],
-          [
-            8.6296844,
-            49.540463101
-          ],
-          [
-            8.6294095,
-            49.541254201
-          ],
-          [
-            8.629008,
-            49.542508601
-          ],
-          [
-            8.628498,
-            49.544296601
-          ],
-          [
-            8.6283554,
-            49.544890701
-          ],
-          [
-            8.6282754,
-            49.545255301
-          ],
-          [
-            8.6282051,
-            49.545583101
-          ],
-          [
-            8.6279168,
-            49.547081401
-          ],
-          [
-            8.6278083,
-            49.547925301
-          ],
-          [
-            8.6276983,
-            49.548895301
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2025-08-22_16-12-47-000.f_007.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.588654148789786,8.632962932712015,49.588654148789786,8.632962932712015",
-      "point": "49.588654148789786,8.632962932712015",
+      "extent": "49.575241541430216,8.635043389134637,49.575241541430216,8.635043389134637",
+      "point": "49.575241541430216,8.635043389134637",
       "startLcPosition": "79",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
       "title": "A5 | Weinheim - Weinheim",
-      "startTimestamp": "2025-08-22T16:46:28+02:00",
+      "startTimestamp": "2025-08-22T17:09:56+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "24",
+      "averageSpeed": "22",
       "coordinate": {
-        "lat": 49.588654148789786,
-        "long": 8.632962932712015
+        "lat": 49.575241541430216,
+        "long": 8.635043389134637
       },
       "description": [
-        "Beginn: 22.08.25 um 16:46 Uhr",
+        "Beginn: 22.08.25 um 17:09 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:46",
-        "A5: Darmstadt -> Heidelberg, 4.5 km vor AK Weinheim, aus Richtung Hemsbach",
+        "Angespannte Verkehrslage, seit 22.08.2025, 17:09",
+        "A5: Darmstadt -> Heidelberg, 3.0 km vor AK Weinheim, aus Richtung Hemsbach",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 24 km/h"
+        "Durchschnittsgeschwindigkeit: 22 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-22_16-05-35-000.f_008.de0",
+      "identifier": "undefined--vi-unf.2025-08-22_16-05-35-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1393,10 +1060,8 @@
       "description": [
         "Beginn: 22.08.25 um 16:05 Uhr",
         "",
-        "Hindernis, seit 22.08.2025, 16:05",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.3 km hinter AK Weinheim und 0.4 km vor Wachenburg",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Unfall, seit 22.08.2025, 16:05",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.3 km hinter AK Weinheim und 0.4 km vor Wachenburg"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1472,31 +1137,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.5887156318668,8.632942062578467,49.54123237044782,8.629216419138762",
-      "point": "49.5887156318668,8.632942062578467",
+      "extent": "49.575241541430216,8.635043389134637,49.53804995535966,8.630407004561832",
+      "point": "49.575241541430216,8.635043389134637",
       "startLcPosition": "80",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
       "title": "A5 | Hemsbach - Wachenburg",
       "startTimestamp": "2025-08-22T16:00:52+02:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23.799999237060547",
+      "averageSpeed": "22.200000762939453",
       "coordinate": {
-        "lat": 49.5887156318668,
-        "long": 8.632942062578467
+        "lat": 49.575241541430216,
+        "long": 8.635043389134637
       },
       "description": [
         "Beginn: 22.08.25 um 16:00 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 16:00",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.5 km hinter AS Hemsbach und 1.1 km vor Wachenburg",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle",
+        "A5: Darmstadt -> Heidelberg, zwischen 2.1 km hinter AS Hemsbach und 0.7 km vor Wachenburg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 11 Minuten",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 22 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1505,68 +1168,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.632942063,
-            49.588715632
-          ],
-          [
-            8.6334461,
-            49.587230701
-          ],
-          [
-            8.6337338,
-            49.586385601
-          ],
-          [
-            8.6340132,
-            49.585509101
-          ],
-          [
-            8.6342864,
-            49.584597501
-          ],
-          [
-            8.6345038,
-            49.583774601
-          ],
-          [
-            8.6346849,
-            49.582998001
-          ],
-          [
-            8.6348139,
-            49.582360801
-          ],
-          [
-            8.6350298,
-            49.580966201
-          ],
-          [
-            8.6351266,
-            49.580059301
-          ],
-          [
-            8.6351768,
-            49.579329401
-          ],
-          [
-            8.6351952,
-            49.578955301
-          ],
-          [
-            8.6352146,
-            49.578148301
-          ],
-          [
-            8.6351922,
-            49.577048101
-          ],
-          [
-            8.6351588,
-            49.576408401
-          ],
-          [
-            8.6350641,
-            49.575403901
+            8.635043389,
+            49.575241541
           ],
           [
             8.6349819,
@@ -1721,8 +1324,449 @@
             49.541302401
           ],
           [
-            8.629216419,
-            49.54123237
+            8.6294964,
+            49.540461001
+          ],
+          [
+            8.6295674,
+            49.540259001
+          ],
+          [
+            8.6300148,
+            49.539058501
+          ],
+          [
+            8.6303174,
+            49.538271101
+          ],
+          [
+            8.630407005,
+            49.538049955
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-08-22_16-57-53-000.f_012.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.675444592397035,8.599608014973033,49.72297790094231,8.593819399999902",
+      "point": "49.675444592397035,8.599608014973033",
+      "startLcPosition": "84",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Bensheim - Nachtweide",
+      "startTimestamp": "2025-08-22T16:57:53+02:00",
+      "coordinate": {
+        "lat": 49.675444592397035,
+        "long": 8.599608014973033
+      },
+      "description": [
+        "Beginn: 22.08.25 um 16:57 Uhr",
+        "",
+        "Hindernis, seit 22.08.2025, 16:57",
+        "A5: Heidelberg -> Darmstadt, zwischen 0.3 km hinter AS Bensheim und 1.1 km vor Nachtweide",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.599608015,
+            49.675444592
+          ],
+          [
+            8.5994897,
+            49.676271901
+          ],
+          [
+            8.5994113,
+            49.677075301
+          ],
+          [
+            8.5993944,
+            49.677582401
+          ],
+          [
+            8.5993933,
+            49.677725501
+          ],
+          [
+            8.5993722,
+            49.678263101
+          ],
+          [
+            8.5993893,
+            49.678642601
+          ],
+          [
+            8.5994179,
+            49.679201001
+          ],
+          [
+            8.5994744,
+            49.679742901
+          ],
+          [
+            8.5995355,
+            49.680247101
+          ],
+          [
+            8.5996197,
+            49.680776901
+          ],
+          [
+            8.5997708,
+            49.681468301
+          ],
+          [
+            8.599913,
+            49.682044801
+          ],
+          [
+            8.6001003,
+            49.682716801
+          ],
+          [
+            8.6003024,
+            49.683344401
+          ],
+          [
+            8.6004944,
+            49.683883301
+          ],
+          [
+            8.6008769,
+            49.684874301
+          ],
+          [
+            8.601324,
+            49.685917901
+          ],
+          [
+            8.601657,
+            49.686738301
+          ],
+          [
+            8.6020767,
+            49.687782601
+          ],
+          [
+            8.6023179,
+            49.688517501
+          ],
+          [
+            8.6025392,
+            49.689220301
+          ],
+          [
+            8.6027759,
+            49.690071401
+          ],
+          [
+            8.6029359,
+            49.690804301
+          ],
+          [
+            8.6030498,
+            49.691387101
+          ],
+          [
+            8.6031286,
+            49.691992801
+          ],
+          [
+            8.6032266,
+            49.693040601
+          ],
+          [
+            8.603236,
+            49.693745201
+          ],
+          [
+            8.6032088,
+            49.694373001
+          ],
+          [
+            8.6031886,
+            49.694841201
+          ],
+          [
+            8.6031239,
+            49.695639401
+          ],
+          [
+            8.6030621,
+            49.696027401
+          ],
+          [
+            8.602929,
+            49.696776501
+          ],
+          [
+            8.6027593,
+            49.697545001
+          ],
+          [
+            8.6025929,
+            49.698154201
+          ],
+          [
+            8.6023566,
+            49.698894701
+          ],
+          [
+            8.6020471,
+            49.699751401
+          ],
+          [
+            8.6015745,
+            49.700961101
+          ],
+          [
+            8.601175,
+            49.701934701
+          ],
+          [
+            8.5998732,
+            49.704914401
+          ],
+          [
+            8.5992392,
+            49.706481201
+          ],
+          [
+            8.5984801,
+            49.708377601
+          ],
+          [
+            8.5977953,
+            49.710168701
+          ],
+          [
+            8.5967374,
+            49.713105801
+          ],
+          [
+            8.5963382,
+            49.714367801
+          ],
+          [
+            8.5962983,
+            49.714484501
+          ],
+          [
+            8.5958579,
+            49.715825801
+          ],
+          [
+            8.5953109,
+            49.717525901
+          ],
+          [
+            8.5948618,
+            49.719089701
+          ],
+          [
+            8.5944133,
+            49.720669201
+          ],
+          [
+            8.5938194,
+            49.722977901
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-08-22_16-51-48-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.68743177830034,8.601935703714242,49.71190888961842,8.597168525786858",
+      "point": "49.68743177830034,8.601935703714242",
+      "startLcPosition": "84",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Bensheim - Zwingenberg",
+      "startTimestamp": "2025-08-22T16:51:48+02:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "37.400001525878906",
+      "coordinate": {
+        "lat": 49.68743177830034,
+        "long": 8.601935703714242
+      },
+      "description": [
+        "Beginn: 22.08.25 um 16:51 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 16:51",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.7 km hinter AS Bensheim und 1.2 km vor AS Zwingenberg",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 37 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.601935704,
+            49.687431778
+          ],
+          [
+            8.6020767,
+            49.687782601
+          ],
+          [
+            8.6023179,
+            49.688517501
+          ],
+          [
+            8.6025392,
+            49.689220301
+          ],
+          [
+            8.6027759,
+            49.690071401
+          ],
+          [
+            8.6029359,
+            49.690804301
+          ],
+          [
+            8.6030498,
+            49.691387101
+          ],
+          [
+            8.6031286,
+            49.691992801
+          ],
+          [
+            8.6032266,
+            49.693040601
+          ],
+          [
+            8.603236,
+            49.693745201
+          ],
+          [
+            8.6032088,
+            49.694373001
+          ],
+          [
+            8.6031886,
+            49.694841201
+          ],
+          [
+            8.6031239,
+            49.695639401
+          ],
+          [
+            8.6030621,
+            49.696027401
+          ],
+          [
+            8.602929,
+            49.696776501
+          ],
+          [
+            8.6027593,
+            49.697545001
+          ],
+          [
+            8.6025929,
+            49.698154201
+          ],
+          [
+            8.6023566,
+            49.698894701
+          ],
+          [
+            8.6020471,
+            49.699751401
+          ],
+          [
+            8.6015745,
+            49.700961101
+          ],
+          [
+            8.601175,
+            49.701934701
+          ],
+          [
+            8.5998732,
+            49.704914401
+          ],
+          [
+            8.5992392,
+            49.706481201
+          ],
+          [
+            8.5984801,
+            49.708377601
+          ],
+          [
+            8.5977953,
+            49.710168701
+          ],
+          [
+            8.597168526,
+            49.71190889
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-08-22_16-48-13-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.86876609763525,8.600339330078025,49.867666944553015,8.600097050372181",
+      "point": "49.86876609763525,8.600339330078025",
+      "startLcPosition": "95",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Darmstädter Nordkreuz - Darmstädter Kreuz",
+      "startTimestamp": "2025-08-22T16:48:13+02:00",
+      "coordinate": {
+        "lat": 49.86876609763525,
+        "long": 8.600339330078025
+      },
+      "description": [
+        "Beginn: 22.08.25 um 16:48 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 22.08.2025, 16:48",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.2 km hinter AK Darmstädter Nordkreuz und 1.2 km vor AK Darmstädter Kreuz",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.60033933,
+            49.868766098
+          ],
+          [
+            8.6001808,
+            49.868040801
+          ],
+          [
+            8.60009705,
+            49.867666945
           ]
         ]
       }
@@ -1732,60 +1776,62 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.91742419284773,8.610174437599971,49.91742419284773,8.610174437599971",
-      "point": "49.91742419284773,8.610174437599971",
-      "startLcPosition": "98",
+      "extent": "49.90393025932549,8.606895214626922,49.90393025932549,8.606895214626922",
+      "point": "49.90393025932549,8.606895214626922",
+      "startLcPosition": "96",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Darmstadt",
-      "title": "A5 | Täubcheshöhle - Täubcheshöhle",
-      "startTimestamp": "2025-08-22T16:46:28+02:00",
+      "title": "A5 | Weiterstadt - Weiterstadt",
+      "startTimestamp": "2025-08-22T17:09:56+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "21",
+      "averageSpeed": "19",
       "coordinate": {
-        "lat": 49.91742419284773,
-        "long": 8.610174437599971
+        "lat": 49.90393025932549,
+        "long": 8.606895214626922
       },
       "description": [
-        "Beginn: 22.08.25 um 16:46 Uhr",
+        "Beginn: 22.08.25 um 17:09 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:46",
-        "A5: Frankfurt -> Darmstadt, 1.1 km vor Täubcheshöhle, aus Richtung Gräfenhausen",
+        "Angespannte Verkehrslage, seit 22.08.2025, 17:09",
+        "A5: Frankfurt -> Darmstadt, 0.6 km vor AS Weiterstadt, aus Richtung Brühlgraben",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
+        "Durchschnittsgeschwindigkeit: 19 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-22_15-17-00-000.f_045.de0",
+      "identifier": "undefined--vi-zus.2025-08-22_15-17-00-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.91747685486651,8.610192689453786,49.86103610094174,8.598619999999896",
-      "point": "49.91747685486651,8.610192689453786",
-      "startLcPosition": "99",
+      "extent": "49.90393025932549,8.606895214626922,49.859377845350714,8.598046037289985",
+      "point": "49.90393025932549,8.606895214626922",
+      "startLcPosition": "97",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Heidelberg",
-      "title": "A5 | Gräfenhausen - Darmstädter Kreuz",
+      "title": "A5 | Brühlgraben - Darmstädter Kreuz",
       "startTimestamp": "2025-08-22T15:17:00+02:00",
-      "delayTimeValue": "15",
+      "delayTimeValue": "13",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "20.700000762939453",
+      "averageSpeed": "18.700000762939453",
       "coordinate": {
-        "lat": 49.91747685486651,
-        "long": 8.610192689453786
+        "lat": 49.90393025932549,
+        "long": 8.606895214626922
       },
       "description": [
         "Beginn: 22.08.25 um 15:17 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 15:17",
-        "A5: Frankfurt -> Heidelberg, zwischen 3.3 km hinter Gräfenhausen und 0.4 km vor AK Darmstädter Kreuz",
+        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 15:17",
+        "A5: Frankfurt -> Heidelberg, zwischen 0.3 km hinter Brühlgraben und 0.2 km vor AK Darmstädter Kreuz",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 15 Minuten",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
+        "Reisezeitverlust: 13 Minuten",
+        "Durchschnittsgeschwindigkeit: 18 km/h",
+        "",
+        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1794,48 +1840,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.610192689,
-            49.917476855
-          ],
-          [
-            8.609903,
-            49.916641001
-          ],
-          [
-            8.6096751,
-            49.916006101
-          ],
-          [
-            8.6089794,
-            49.913785301
-          ],
-          [
-            8.6086474,
-            49.912486601
-          ],
-          [
-            8.6083572,
-            49.911179401
-          ],
-          [
-            8.6081513,
-            49.910132801
-          ],
-          [
-            8.6077601,
-            49.908295301
-          ],
-          [
-            8.6073414,
-            49.906201301
-          ],
-          [
-            8.6071809,
-            49.905416501
-          ],
-          [
-            8.6069189,
-            49.904064301
+            8.606895215,
+            49.903930259
           ],
           [
             8.6068693,
@@ -1928,6 +1934,26 @@
           [
             8.59862,
             49.861036101
+          ],
+          [
+            8.5985172,
+            49.860794801
+          ],
+          [
+            8.5984391,
+            49.860601801
+          ],
+          [
+            8.5982046,
+            49.859855201
+          ],
+          [
+            8.5980902,
+            49.859496501
+          ],
+          [
+            8.598046037,
+            49.859377845
           ]
         ]
       }
@@ -1937,29 +1963,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.074846017676606,8.615211693816292,50.1348911884934,8.59104815663648",
-      "point": "50.074846017676606,8.615211693816292",
+      "extent": "50.084627100940764,8.618465699999895,50.144753810406414,8.596433278579333",
+      "point": "50.084627100940764,8.618465699999895",
       "startLcPosition": "106",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Kassel",
       "title": "A5 | Frankfurt am Main-Flughafen-Nord - Taunusblick",
       "startTimestamp": "2025-08-22T14:15:29+02:00",
-      "delayTimeValue": "7",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "38.79999923706055",
+      "delayTimeValue": "6",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "45.599998474121094",
       "coordinate": {
-        "lat": 50.074846017676606,
-        "long": 8.615211693816292
+        "lat": 50.084627100940764,
+        "long": 8.618465699999895
       },
       "description": [
         "Beginn: 22.08.25 um 14:15 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.08.2025, 14:15",
-        "A5: Darmstadt -> Kassel, zwischen 2.1 km hinter AS Frankfurt am Main-Flughafen-Nord und 2.3 km vor Taunusblick",
+        "A5: Darmstadt -> Kassel, zwischen 3.2 km hinter AS Frankfurt am Main-Flughafen-Nord und 1.1 km vor Taunusblick",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 7 Minuten",
-        "Durchschnittsgeschwindigkeit: 38 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 6 Minuten",
+        "Durchschnittsgeschwindigkeit: 45 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1967,102 +1993,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            8.615211694,
-            50.074846018
-          ],
-          [
-            8.6152833,
-            50.074986601
-          ],
-          [
-            8.6153782,
-            50.075173001
-          ],
-          [
-            8.6154715,
-            50.075382701
-          ],
-          [
-            8.6156834,
-            50.075784701
-          ],
-          [
-            8.6159337,
-            50.076308701
-          ],
-          [
-            8.6160813,
-            50.076593801
-          ],
-          [
-            8.6162992,
-            50.077017801
-          ],
-          [
-            8.616613,
-            50.077655001
-          ],
-          [
-            8.6169746,
-            50.078390101
-          ],
-          [
-            8.6174686,
-            50.079455201
-          ],
-          [
-            8.6176637,
-            50.079940301
-          ],
-          [
-            8.6179278,
-            50.080692001
-          ],
-          [
-            8.6180687,
-            50.081176701
-          ],
-          [
-            8.6181195,
-            50.081355101
-          ],
-          [
-            8.6181974,
-            50.081680401
-          ],
-          [
-            8.6182198,
-            50.081802401
-          ],
-          [
-            8.6182818,
-            50.082139201
-          ],
-          [
-            8.6183422,
-            50.082506601
-          ],
-          [
-            8.6184014,
-            50.082919701
-          ],
-          [
-            8.618434,
-            50.083223101
-          ],
-          [
-            8.618452,
-            50.083509701
-          ],
-          [
-            8.6184637,
-            50.083694701
-          ],
-          [
-            8.6184756,
-            50.084343501
-          ],
           [
             8.6184657,
             50.084627101
@@ -2492,8 +2422,56 @@
             50.134389701
           ],
           [
-            8.591048157,
-            50.134891188
+            8.5911153,
+            50.135040601
+          ],
+          [
+            8.5913133,
+            50.135428201
+          ],
+          [
+            8.5927831,
+            50.138122901
+          ],
+          [
+            8.5930424,
+            50.138524001
+          ],
+          [
+            8.5932281,
+            50.138930301
+          ],
+          [
+            8.5936351,
+            50.139674101
+          ],
+          [
+            8.5942134,
+            50.140715801
+          ],
+          [
+            8.5947271,
+            50.141651901
+          ],
+          [
+            8.5951268,
+            50.142395901
+          ],
+          [
+            8.5953032,
+            50.142707601
+          ],
+          [
+            8.5954649,
+            50.142999201
+          ],
+          [
+            8.5957423,
+            50.143506201
+          ],
+          [
+            8.596433279,
+            50.14475381
           ]
         ]
       }
@@ -2503,29 +2481,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.14756620524785,8.59774010775241,50.13891773030626,8.592989712724815",
-      "point": "50.14756620524785,8.59774010775241",
+      "extent": "50.15266249758497,8.600549655948292,50.13501531344772,8.590871765881161",
+      "point": "50.15266249758497,8.600549655948292",
       "startLcPosition": "111",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Taunusblick - Nordwestkreuz Frankfurt am Main",
       "startTimestamp": "2025-08-22T16:43:41+02:00",
-      "delayTimeValue": "0",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "57.29999923706055",
+      "averageSpeed": "56.099998474121094",
       "coordinate": {
-        "lat": 50.14756620524785,
-        "long": 8.59774010775241
+        "lat": 50.15266249758497,
+        "long": 8.600549655948292
       },
       "description": [
         "Beginn: 22.08.25 um 16:43 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.08.2025, 16:43",
-        "A5: Kassel -> Frankfurt, zwischen 0.8 km hinter Taunusblick und 0.5 km vor AK Nordwestkreuz Frankfurt am Main",
+        "A5: Kassel -> Frankfurt, zwischen 0.2 km hinter Taunusblick und AK Nordwestkreuz Frankfurt am Main",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 57 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 56 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2534,8 +2512,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.597740108,
-            50.147566205
+            8.600549656,
+            50.152662498
+          ],
+          [
+            8.6003253,
+            50.152262001
+          ],
+          [
+            8.5998443,
+            50.151357401
+          ],
+          [
+            8.5994648,
+            50.150665701
+          ],
+          [
+            8.5992135,
+            50.150207501
+          ],
+          [
+            8.5984048,
+            50.148738101
+          ],
+          [
+            8.5978323,
+            50.147732401
           ],
           [
             8.5972706,
@@ -2570,114 +2572,60 @@
             50.138943101
           ],
           [
-            8.592989713,
-            50.13891773
+            8.592525,
+            50.138092501
+          ],
+          [
+            8.5923509,
+            50.137771001
+          ],
+          [
+            8.5916933,
+            50.136559701
+          ],
+          [
+            8.5911314,
+            50.135542701
+          ],
+          [
+            8.5908921,
+            50.135060401
+          ],
+          [
+            8.590871766,
+            50.135015313
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-22_16-42-54-000.f_017.de0",
+      "identifier": "undefined--vi-avl.2025-08-22_16-47-25-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.22819350099724,8.663270152740104,50.24023684785395,8.66310318438835",
-      "point": "50.22819350099724,8.663270152740104",
-      "startLcPosition": "112",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Bad Homburger Kreuz - Spießwald",
-      "startTimestamp": "2025-08-22T16:42:54+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "62.79999923706055",
-      "coordinate": {
-        "lat": 50.22819350099724,
-        "long": 8.663270152740104
-      },
-      "description": [
-        "Beginn: 22.08.25 um 16:42 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:42",
-        "A5: Frankfurt -> Kassel, zwischen 3.5 km hinter AK Bad Homburger Kreuz und 1.1 km vor Spießwald",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 62 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.663270153,
-            50.228193501
-          ],
-          [
-            8.6632325,
-            50.230823401
-          ],
-          [
-            8.6632221,
-            50.231639301
-          ],
-          [
-            8.6632189,
-            50.231891101
-          ],
-          [
-            8.6632001,
-            50.233352501
-          ],
-          [
-            8.6631796,
-            50.234630501
-          ],
-          [
-            8.6631505,
-            50.236955001
-          ],
-          [
-            8.6631181,
-            50.239020201
-          ],
-          [
-            8.663103184,
-            50.240236848
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-08-22_11-05-11-000.f_017.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.63639072987591,8.936889025745085,50.66825339704674,9.022782014849453",
-      "point": "50.63639072987591,8.936889025745085",
+      "extent": "50.637694839002826,8.94105585700781,50.659464104511734,9.017930730405103",
+      "point": "50.637694839002826,8.94105585700781",
       "startLcPosition": "127",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Grünberg - Krachgarten",
-      "startTimestamp": "2025-08-22T11:05:11+02:00",
-      "delayTimeValue": "12",
+      "startTimestamp": "2025-08-22T16:47:25+02:00",
+      "delayTimeValue": "8",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "28.799999237060547",
+      "averageSpeed": "32.900001525878906",
       "coordinate": {
-        "lat": 50.63639072987591,
-        "long": 8.936889025745085
+        "lat": 50.637694839002826,
+        "long": 8.94105585700781
       },
       "description": [
-        "Beginn: 22.08.25 um 11:05 Uhr",
+        "Beginn: 22.08.25 um 16:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 11:05",
-        "A5: Frankfurt -> Kassel, zwischen 1.0 km hinter AS Grünberg und 9.0 km vor Krachgarten",
+        "Angespannte Verkehrslage, seit 22.08.2025, 16:47",
+        "A5: Frankfurt -> Kassel, zwischen 1.4 km hinter AS Grünberg und 10.0 km vor Krachgarten",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 12 Minuten",
-        "Durchschnittsgeschwindigkeit: 28 km/h"
+        "Reisezeitverlust: 8 Minuten",
+        "Durchschnittsgeschwindigkeit: 32 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2686,20 +2634,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.936889026,
-            50.63639073
-          ],
-          [
-            8.937003,
-            50.636427001
-          ],
-          [
-            8.938782,
-            50.637000201
-          ],
-          [
-            8.94067,
-            50.637582701
+            8.941055857,
+            50.637694839
           ],
           [
             8.9410922,
@@ -3006,36 +2942,196 @@
             50.659093001
           ],
           [
-            9.0181859,
-            50.659781301
+            9.01793073,
+            50.659464105
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-22_15-50-54-000.f_013.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.6392485695365,8.950683266839372,50.63016276166222,8.917067206702304",
+      "point": "50.6392485695365,8.950683266839372",
+      "startLcPosition": "128",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Finkenwald - Reinhardshain",
+      "startTimestamp": "2025-08-22T15:50:54+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "66.80000305175781",
+      "coordinate": {
+        "lat": 50.6392485695365,
+        "long": 8.950683266839372
+      },
+      "description": [
+        "Beginn: 22.08.25 um 15:50 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.08.2025, 15:50",
+        "A5: Kassel -> Frankfurt, zwischen 0.9 km hinter Finkenwald und 1.7 km vor Reinhardshain",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 66 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.950683267,
+            50.63924857
           ],
           [
-            9.0187311,
-            50.660520201
+            8.9505324,
+            50.639239701
           ],
           [
-            9.019178,
-            50.661204201
+            8.9483423,
+            50.639100401
           ],
           [
-            9.0195695,
-            50.661899901
+            8.9470246,
+            50.638980101
           ],
           [
-            9.0199593,
-            50.662657101
+            8.9461101,
+            50.638865601
           ],
           [
-            9.0202714,
-            50.663281201
+            8.9450496,
+            50.638704401
           ],
           [
-            9.0205971,
-            50.663896301
+            8.9443118,
+            50.638577801
           ],
           [
-            9.0208367,
-            50.664363301
+            8.9438292,
+            50.638489301
+          ],
+          [
+            8.9428799,
+            50.638288101
+          ],
+          [
+            8.9421669,
+            50.638122901
+          ],
+          [
+            8.9415782,
+            50.637968401
+          ],
+          [
+            8.9409874,
+            50.637799401
+          ],
+          [
+            8.9405541,
+            50.637675501
+          ],
+          [
+            8.9387558,
+            50.637111901
+          ],
+          [
+            8.9369734,
+            50.636543201
+          ],
+          [
+            8.9334601,
+            50.635415401
+          ],
+          [
+            8.933129,
+            50.635308901
+          ],
+          [
+            8.9313661,
+            50.634745801
+          ],
+          [
+            8.928619,
+            50.633866901
+          ],
+          [
+            8.92759,
+            50.633533901
+          ],
+          [
+            8.9260362,
+            50.633046101
+          ],
+          [
+            8.9242426,
+            50.632468801
+          ],
+          [
+            8.9238256,
+            50.632325401
+          ],
+          [
+            8.9236453,
+            50.632269201
+          ],
+          [
+            8.9232178,
+            50.632129301
+          ],
+          [
+            8.9215012,
+            50.631580701
+          ],
+          [
+            8.917067207,
+            50.630162762
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-22_16-47-25-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.66447438790751,9.020890189552349,50.693892391246,9.041241202562668",
+      "point": "50.66447438790751,9.020890189552349",
+      "startLcPosition": "130",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Homberg (Ohm) - Krachgarten",
+      "startTimestamp": "2025-08-22T16:47:25+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "49",
+      "coordinate": {
+        "lat": 50.66447438790751,
+        "long": 9.020890189552349
+      },
+      "description": [
+        "Beginn: 22.08.25 um 16:47 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.08.2025, 16:47",
+        "A5: Frankfurt -> Kassel, zwischen 3.2 km hinter AS Homberg (Ohm) und 5.8 km vor Krachgarten",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 49 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.02089019,
+            50.664474388
           ],
           [
             9.02144,
@@ -3050,102 +3146,236 @@
             50.667616301
           ],
           [
-            9.022782015,
-            50.668253397
+            9.0228857,
+            50.668445301
+          ],
+          [
+            9.0232624,
+            50.669099301
+          ],
+          [
+            9.0236752,
+            50.669786101
+          ],
+          [
+            9.0240164,
+            50.670311201
+          ],
+          [
+            9.0242694,
+            50.670665301
+          ],
+          [
+            9.0244897,
+            50.670968801
+          ],
+          [
+            9.0248805,
+            50.671509701
+          ],
+          [
+            9.026135,
+            50.673274801
+          ],
+          [
+            9.0268548,
+            50.674274901
+          ],
+          [
+            9.0275124,
+            50.675206601
+          ],
+          [
+            9.0287706,
+            50.676926501
+          ],
+          [
+            9.0293948,
+            50.677798901
+          ],
+          [
+            9.0299543,
+            50.678572901
+          ],
+          [
+            9.0304837,
+            50.679307001
+          ],
+          [
+            9.0310006,
+            50.679983701
+          ],
+          [
+            9.0312832,
+            50.680320701
+          ],
+          [
+            9.0316471,
+            50.680688601
+          ],
+          [
+            9.0319508,
+            50.680973901
+          ],
+          [
+            9.0322241,
+            50.681211401
+          ],
+          [
+            9.0324765,
+            50.681421401
+          ],
+          [
+            9.0327773,
+            50.681644901
+          ],
+          [
+            9.0337542,
+            50.682338501
+          ],
+          [
+            9.03532,
+            50.683420001
+          ],
+          [
+            9.0356987,
+            50.683687501
+          ],
+          [
+            9.0360731,
+            50.683956601
+          ],
+          [
+            9.0364218,
+            50.684247001
+          ],
+          [
+            9.0366946,
+            50.684490501
+          ],
+          [
+            9.0369767,
+            50.684770601
+          ],
+          [
+            9.0372545,
+            50.685066301
+          ],
+          [
+            9.0374283,
+            50.685275501
+          ],
+          [
+            9.0376285,
+            50.685563901
+          ],
+          [
+            9.0380169,
+            50.686155501
+          ],
+          [
+            9.0381741,
+            50.686433501
+          ],
+          [
+            9.0383208,
+            50.686736001
+          ],
+          [
+            9.038635,
+            50.687566801
+          ],
+          [
+            9.0389676,
+            50.688511801
+          ],
+          [
+            9.0395211,
+            50.690086801
+          ],
+          [
+            9.0397482,
+            50.690722901
+          ],
+          [
+            9.0400257,
+            50.691447701
+          ],
+          [
+            9.0403445,
+            50.692222001
+          ],
+          [
+            9.0405865,
+            50.692741301
+          ],
+          [
+            9.0408322,
+            50.693208401
+          ],
+          [
+            9.0410938,
+            50.693655601
+          ],
+          [
+            9.041241203,
+            50.693892391
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-22_16-23-28-000.f_026.de0",
+      "identifier": "undefined--vi-avl.2025-08-22_17-08-58-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.6364675943935,8.937128982813313,50.6364675943935,8.937128982813313",
-      "point": "50.6364675943935,8.937128982813313",
-      "startLcPosition": "128",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Finkenwald - Finkenwald",
-      "startTimestamp": "2025-08-22T16:46:28+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "29",
-      "coordinate": {
-        "lat": 50.6364675943935,
-        "long": 8.937128982813313
-      },
-      "description": [
-        "Beginn: 22.08.25 um 16:46 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:46",
-        "A5: Frankfurt -> Kassel, 1.9 km vor Finkenwald, aus Richtung Grünberg",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-08-22_16-46-28-000.f_013.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.710761552744515,9.066031324463282,50.710761552744515,9.066031324463282",
-      "point": "50.710761552744515,9.066031324463282",
+      "extent": "50.70299359342664,9.049928166528241,50.70299359342664,9.049928166528241",
+      "point": "50.70299359342664,9.049928166528241",
       "startLcPosition": "130",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Homberg (Ohm) - Homberg (Ohm)",
-      "startTimestamp": "2025-08-22T16:46:28+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "15",
+      "startTimestamp": "2025-08-22T17:09:56+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "24",
       "coordinate": {
-        "lat": 50.710761552744515,
-        "long": 9.066031324463282
+        "lat": 50.70299359342664,
+        "long": 9.049928166528241
       },
       "description": [
-        "Beginn: 22.08.25 um 16:46 Uhr",
+        "Beginn: 22.08.25 um 17:09 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 16:46",
-        "A5: Kassel -> Frankfurt, 9.4 km vor AS Homberg (Ohm), aus Richtung Krachgarten",
+        "Angespannte Verkehrslage, seit 22.08.2025, 17:09",
+        "A5: Kassel -> Frankfurt, 8.0 km vor AS Homberg (Ohm), aus Richtung Krachgarten",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 24 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-22_15-50-54-000.f_008.de0",
+      "identifier": "undefined--vi-hind.2025-08-22_16-50-04-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.64790925544455,9.000883400167808,50.63017084156688,8.917092470865322",
-      "point": "50.64790925544455,9.000883400167808",
-      "startLcPosition": "131",
+      "extent": "50.640958223670864,8.97281444000165,50.63939696119242,8.953203874424075",
+      "point": "50.640958223670864,8.97281444000165",
+      "startLcPosition": "130",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Krachgarten - Reinhardshain",
-      "startTimestamp": "2025-08-22T15:50:54+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "54.099998474121094",
+      "title": "A5 | Homberg (Ohm) - Grünberg",
+      "startTimestamp": "2025-08-22T16:50:04+02:00",
       "coordinate": {
-        "lat": 50.64790925544455,
-        "long": 9.000883400167808
+        "lat": 50.640958223670864,
+        "long": 8.97281444000165
       },
       "description": [
-        "Beginn: 22.08.25 um 15:50 Uhr",
+        "Beginn: 22.08.25 um 16:50 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 15:50",
-        "A5: Kassel -> Frankfurt, zwischen 11.8 km hinter Krachgarten und 1.7 km vor Reinhardshain",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 54 km/h"
+        "Hindernis, seit 22.08.2025, 16:50",
+        "A5: Kassel -> Frankfurt, zwischen 1.4 km hinter AS Homberg (Ohm) und 2.2 km vor AS Grünberg"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3154,8 +3384,470 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0008834,
-            50.647909255
+            8.97281444,
+            50.640958224
+          ],
+          [
+            8.9702911,
+            50.640592101
+          ],
+          [
+            8.9693099,
+            50.640472601
+          ],
+          [
+            8.9680387,
+            50.640326201
+          ],
+          [
+            8.9673635,
+            50.640258401
+          ],
+          [
+            8.9665973,
+            50.640201501
+          ],
+          [
+            8.9658435,
+            50.640139401
+          ],
+          [
+            8.9648162,
+            50.640082401
+          ],
+          [
+            8.962819,
+            50.639964301
+          ],
+          [
+            8.9606542,
+            50.639830501
+          ],
+          [
+            8.9583495,
+            50.639703401
+          ],
+          [
+            8.9567053,
+            50.639609801
+          ],
+          [
+            8.9563578,
+            50.639585001
+          ],
+          [
+            8.954892,
+            50.639501501
+          ],
+          [
+            8.953203874,
+            50.639396961
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-08-22_15-50-54-000.f_011.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.70284803965972,9.049696759176847,50.64007879166442,8.964755154514835",
+      "point": "50.70284803965972,9.049696759176847",
+      "startLcPosition": "131",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Krachgarten - Finkenwald",
+      "startTimestamp": "2025-08-22T15:50:54+02:00",
+      "delayTimeValue": "11",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "37.70000076293945",
+      "coordinate": {
+        "lat": 50.70284803965972,
+        "long": 9.049696759176847
+      },
+      "description": [
+        "Beginn: 22.08.25 um 15:50 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 15:50",
+        "A5: Kassel -> Frankfurt, zwischen 4.7 km hinter Krachgarten und 0.1 km vor Finkenwald",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 11 Minuten",
+        "Durchschnittsgeschwindigkeit: 37 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.049696759,
+            50.70284804
+          ],
+          [
+            9.0493277,
+            50.702615901
+          ],
+          [
+            9.0491841,
+            50.702530901
+          ],
+          [
+            9.0487295,
+            50.702224301
+          ],
+          [
+            9.0482757,
+            50.701905301
+          ],
+          [
+            9.0478912,
+            50.701621701
+          ],
+          [
+            9.0474333,
+            50.701277101
+          ],
+          [
+            9.0469264,
+            50.700862001
+          ],
+          [
+            9.046471,
+            50.700471501
+          ],
+          [
+            9.046038,
+            50.700084101
+          ],
+          [
+            9.0454674,
+            50.699522301
+          ],
+          [
+            9.0451228,
+            50.699173001
+          ],
+          [
+            9.0445889,
+            50.698576501
+          ],
+          [
+            9.0440855,
+            50.697948801
+          ],
+          [
+            9.0434417,
+            50.697122501
+          ],
+          [
+            9.042746,
+            50.696235701
+          ],
+          [
+            9.0419895,
+            50.695253501
+          ],
+          [
+            9.0416708,
+            50.694809701
+          ],
+          [
+            9.0413576,
+            50.694366901
+          ],
+          [
+            9.0409709,
+            50.693761601
+          ],
+          [
+            9.040677,
+            50.693252101
+          ],
+          [
+            9.0404316,
+            50.692777701
+          ],
+          [
+            9.040165,
+            50.692223801
+          ],
+          [
+            9.0398433,
+            50.691450001
+          ],
+          [
+            9.0395865,
+            50.690757101
+          ],
+          [
+            9.0393632,
+            50.690129301
+          ],
+          [
+            9.038804,
+            50.688555101
+          ],
+          [
+            9.0384708,
+            50.687613201
+          ],
+          [
+            9.0381835,
+            50.686821901
+          ],
+          [
+            9.0380397,
+            50.686513201
+          ],
+          [
+            9.0378755,
+            50.686207301
+          ],
+          [
+            9.0375074,
+            50.685652301
+          ],
+          [
+            9.037291,
+            50.685338901
+          ],
+          [
+            9.0371294,
+            50.685148001
+          ],
+          [
+            9.0368435,
+            50.684836701
+          ],
+          [
+            9.0365982,
+            50.684583701
+          ],
+          [
+            9.0363046,
+            50.684329101
+          ],
+          [
+            9.0359642,
+            50.684044901
+          ],
+          [
+            9.0351484,
+            50.683497701
+          ],
+          [
+            9.0336314,
+            50.682417301
+          ],
+          [
+            9.0326445,
+            50.681706701
+          ],
+          [
+            9.0323293,
+            50.681471301
+          ],
+          [
+            9.0320737,
+            50.681264201
+          ],
+          [
+            9.0316853,
+            50.680921601
+          ],
+          [
+            9.0314074,
+            50.680654301
+          ],
+          [
+            9.0311602,
+            50.680398101
+          ],
+          [
+            9.0308205,
+            50.679997801
+          ],
+          [
+            9.0303652,
+            50.679404901
+          ],
+          [
+            9.0298032,
+            50.678626501
+          ],
+          [
+            9.0292763,
+            50.677906001
+          ],
+          [
+            9.0286567,
+            50.677026701
+          ],
+          [
+            9.0273833,
+            50.675271401
+          ],
+          [
+            9.0267546,
+            50.674393301
+          ],
+          [
+            9.0260347,
+            50.673388701
+          ],
+          [
+            9.0247756,
+            50.671640301
+          ],
+          [
+            9.0243313,
+            50.671016001
+          ],
+          [
+            9.0241099,
+            50.670708901
+          ],
+          [
+            9.023898,
+            50.670404601
+          ],
+          [
+            9.023489,
+            50.669805301
+          ],
+          [
+            9.023071,
+            50.669108401
+          ],
+          [
+            9.0227217,
+            50.668489701
+          ],
+          [
+            9.0222874,
+            50.667670901
+          ],
+          [
+            9.0218887,
+            50.666862501
+          ],
+          [
+            9.0212919,
+            50.665680001
+          ],
+          [
+            9.0206837,
+            50.664452101
+          ],
+          [
+            9.0204605,
+            50.663989701
+          ],
+          [
+            9.0201438,
+            50.663374601
+          ],
+          [
+            9.0198295,
+            50.662752701
+          ],
+          [
+            9.0194075,
+            50.661918001
+          ],
+          [
+            9.0190057,
+            50.661228501
+          ],
+          [
+            9.0185523,
+            50.660530201
+          ],
+          [
+            9.0180276,
+            50.659823401
+          ],
+          [
+            9.0174584,
+            50.659124501
+          ],
+          [
+            9.0170063,
+            50.658620401
+          ],
+          [
+            9.016613,
+            50.658215601
+          ],
+          [
+            9.0163008,
+            50.657898601
+          ],
+          [
+            9.0161039,
+            50.657713901
+          ],
+          [
+            9.0157621,
+            50.657397201
+          ],
+          [
+            9.0153525,
+            50.657045601
+          ],
+          [
+            9.0150064,
+            50.656756101
+          ],
+          [
+            9.0142469,
+            50.656156601
+          ],
+          [
+            9.0136948,
+            50.655761601
+          ],
+          [
+            9.0131757,
+            50.655405201
+          ],
+          [
+            9.0123291,
+            50.654858301
+          ],
+          [
+            9.0112368,
+            50.654192601
+          ],
+          [
+            9.0108703,
+            50.653975001
+          ],
+          [
+            9.0077236,
+            50.652062301
+          ],
+          [
+            9.0068138,
+            50.651509201
+          ],
+          [
+            9.0057188,
+            50.650849701
+          ],
+          [
+            9.0044287,
+            50.650067201
+          ],
+          [
+            9.0030904,
+            50.649257401
+          ],
+          [
+            9.0011215,
+            50.648050201
           ],
           [
             9.0008404,
@@ -3302,611 +3994,8 @@
             50.640082401
           ],
           [
-            8.962819,
-            50.639964301
-          ],
-          [
-            8.9606542,
-            50.639830501
-          ],
-          [
-            8.9583495,
-            50.639703401
-          ],
-          [
-            8.9567053,
-            50.639609801
-          ],
-          [
-            8.9563578,
-            50.639585001
-          ],
-          [
-            8.954892,
-            50.639501501
-          ],
-          [
-            8.9531254,
-            50.639392101
-          ],
-          [
-            8.9505324,
-            50.639239701
-          ],
-          [
-            8.9483423,
-            50.639100401
-          ],
-          [
-            8.9470246,
-            50.638980101
-          ],
-          [
-            8.9461101,
-            50.638865601
-          ],
-          [
-            8.9450496,
-            50.638704401
-          ],
-          [
-            8.9443118,
-            50.638577801
-          ],
-          [
-            8.9438292,
-            50.638489301
-          ],
-          [
-            8.9428799,
-            50.638288101
-          ],
-          [
-            8.9421669,
-            50.638122901
-          ],
-          [
-            8.9415782,
-            50.637968401
-          ],
-          [
-            8.9409874,
-            50.637799401
-          ],
-          [
-            8.9405541,
-            50.637675501
-          ],
-          [
-            8.9387558,
-            50.637111901
-          ],
-          [
-            8.9369734,
-            50.636543201
-          ],
-          [
-            8.9334601,
-            50.635415401
-          ],
-          [
-            8.933129,
-            50.635308901
-          ],
-          [
-            8.9313661,
-            50.634745801
-          ],
-          [
-            8.928619,
-            50.633866901
-          ],
-          [
-            8.92759,
-            50.633533901
-          ],
-          [
-            8.9260362,
-            50.633046101
-          ],
-          [
-            8.9242426,
-            50.632468801
-          ],
-          [
-            8.9238256,
-            50.632325401
-          ],
-          [
-            8.9236453,
-            50.632269201
-          ],
-          [
-            8.9232178,
-            50.632129301
-          ],
-          [
-            8.9215012,
-            50.631580701
-          ],
-          [
-            8.917092471,
-            50.630170842
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-08-22_15-50-54-000.f_009.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.71080585231426,9.06612060297774,50.691554626296295,9.039886796355619",
-      "point": "50.71080585231426,9.06612060297774",
-      "startLcPosition": "131",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Krachgarten - Homberg (Ohm)",
-      "startTimestamp": "2025-08-22T15:50:54+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "21.700000762939453",
-      "coordinate": {
-        "lat": 50.71080585231426,
-        "long": 9.06612060297774
-      },
-      "description": [
-        "Beginn: 22.08.25 um 15:50 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 22.08.2025, 15:50",
-        "A5: Kassel -> Frankfurt, zwischen 3.2 km hinter Krachgarten und 6.5 km vor AS Homberg (Ohm)",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.066120603,
-            50.710805852
-          ],
-          [
-            9.0656602,
-            50.710577401
-          ],
-          [
-            9.0645395,
-            50.710007201
-          ],
-          [
-            9.0643529,
-            50.709897801
-          ],
-          [
-            9.0623108,
-            50.708641901
-          ],
-          [
-            9.0615863,
-            50.708266601
-          ],
-          [
-            9.0596861,
-            50.707381801
-          ],
-          [
-            9.0579455,
-            50.706599301
-          ],
-          [
-            9.0555194,
-            50.705649301
-          ],
-          [
-            9.0546107,
-            50.705294401
-          ],
-          [
-            9.0543903,
-            50.705200401
-          ],
-          [
-            9.0535871,
-            50.704866101
-          ],
-          [
-            9.0527815,
-            50.704506301
-          ],
-          [
-            9.0517967,
-            50.704024201
-          ],
-          [
-            9.050838,
-            50.703522101
-          ],
-          [
-            9.0500188,
-            50.703050601
-          ],
-          [
-            9.0493277,
-            50.702615901
-          ],
-          [
-            9.0491841,
-            50.702530901
-          ],
-          [
-            9.0487295,
-            50.702224301
-          ],
-          [
-            9.0482757,
-            50.701905301
-          ],
-          [
-            9.0478912,
-            50.701621701
-          ],
-          [
-            9.0474333,
-            50.701277101
-          ],
-          [
-            9.0469264,
-            50.700862001
-          ],
-          [
-            9.046471,
-            50.700471501
-          ],
-          [
-            9.046038,
-            50.700084101
-          ],
-          [
-            9.0454674,
-            50.699522301
-          ],
-          [
-            9.0451228,
-            50.699173001
-          ],
-          [
-            9.0445889,
-            50.698576501
-          ],
-          [
-            9.0440855,
-            50.697948801
-          ],
-          [
-            9.0434417,
-            50.697122501
-          ],
-          [
-            9.042746,
-            50.696235701
-          ],
-          [
-            9.0419895,
-            50.695253501
-          ],
-          [
-            9.0416708,
-            50.694809701
-          ],
-          [
-            9.0413576,
-            50.694366901
-          ],
-          [
-            9.0409709,
-            50.693761601
-          ],
-          [
-            9.040677,
-            50.693252101
-          ],
-          [
-            9.0404316,
-            50.692777701
-          ],
-          [
-            9.040165,
-            50.692223801
-          ],
-          [
-            9.039886796,
-            50.691554626
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-08-22_15-39-46-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.69627047530768,9.042773280147061,50.68485843676441,9.036863462183996",
-      "point": "50.69627047530768,9.042773280147061",
-      "startLcPosition": "131",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Krachgarten - Homberg (Ohm)",
-      "startTimestamp": "2025-08-22T15:39:46+02:00",
-      "coordinate": {
-        "lat": 50.69627047530768,
-        "long": 9.042773280147061
-      },
-      "description": [
-        "Beginn: 22.08.25 um 15:39 Uhr",
-        "",
-        "Hindernis, seit 22.08.2025, 15:39",
-        "A5: Kassel -> Frankfurt, zwischen 5.5 km hinter Krachgarten und 5.7 km vor AS Homberg (Ohm)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.04277328,
-            50.696270475
-          ],
-          [
-            9.042746,
-            50.696235701
-          ],
-          [
-            9.0419895,
-            50.695253501
-          ],
-          [
-            9.0416708,
-            50.694809701
-          ],
-          [
-            9.0413576,
-            50.694366901
-          ],
-          [
-            9.0409709,
-            50.693761601
-          ],
-          [
-            9.040677,
-            50.693252101
-          ],
-          [
-            9.0404316,
-            50.692777701
-          ],
-          [
-            9.040165,
-            50.692223801
-          ],
-          [
-            9.0398433,
-            50.691450001
-          ],
-          [
-            9.0395865,
-            50.690757101
-          ],
-          [
-            9.0393632,
-            50.690129301
-          ],
-          [
-            9.038804,
-            50.688555101
-          ],
-          [
-            9.0384708,
-            50.687613201
-          ],
-          [
-            9.0381835,
-            50.686821901
-          ],
-          [
-            9.0380397,
-            50.686513201
-          ],
-          [
-            9.0378755,
-            50.686207301
-          ],
-          [
-            9.0375074,
-            50.685652301
-          ],
-          [
-            9.037291,
-            50.685338901
-          ],
-          [
-            9.0371294,
-            50.685148001
-          ],
-          [
-            9.036863462,
-            50.684858437
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-08-22_15-50-54-000.f_010.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.684582541010364,9.036596862383917,50.66372448701003,9.020323946738253",
-      "point": "50.684582541010364,9.036596862383917",
-      "startLcPosition": "131",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Krachgarten - Homberg (Ohm)",
-      "startTimestamp": "2025-08-22T15:50:54+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "53.599998474121094",
-      "coordinate": {
-        "lat": 50.684582541010364,
-        "long": 9.036596862383917
-      },
-      "description": [
-        "Beginn: 22.08.25 um 15:50 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 22.08.2025, 15:50",
-        "A5: Kassel -> Frankfurt, zwischen 6.9 km hinter Krachgarten und 3.1 km vor AS Homberg (Ohm)",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 53 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.036596862,
-            50.684582541
-          ],
-          [
-            9.0363046,
-            50.684329101
-          ],
-          [
-            9.0359642,
-            50.684044901
-          ],
-          [
-            9.0351484,
-            50.683497701
-          ],
-          [
-            9.0336314,
-            50.682417301
-          ],
-          [
-            9.0326445,
-            50.681706701
-          ],
-          [
-            9.0323293,
-            50.681471301
-          ],
-          [
-            9.0320737,
-            50.681264201
-          ],
-          [
-            9.0316853,
-            50.680921601
-          ],
-          [
-            9.0314074,
-            50.680654301
-          ],
-          [
-            9.0311602,
-            50.680398101
-          ],
-          [
-            9.0308205,
-            50.679997801
-          ],
-          [
-            9.0303652,
-            50.679404901
-          ],
-          [
-            9.0298032,
-            50.678626501
-          ],
-          [
-            9.0292763,
-            50.677906001
-          ],
-          [
-            9.0286567,
-            50.677026701
-          ],
-          [
-            9.0273833,
-            50.675271401
-          ],
-          [
-            9.0267546,
-            50.674393301
-          ],
-          [
-            9.0260347,
-            50.673388701
-          ],
-          [
-            9.0247756,
-            50.671640301
-          ],
-          [
-            9.0243313,
-            50.671016001
-          ],
-          [
-            9.0241099,
-            50.670708901
-          ],
-          [
-            9.023898,
-            50.670404601
-          ],
-          [
-            9.023489,
-            50.669805301
-          ],
-          [
-            9.023071,
-            50.669108401
-          ],
-          [
-            9.0227217,
-            50.668489701
-          ],
-          [
-            9.0222874,
-            50.667670901
-          ],
-          [
-            9.0218887,
-            50.666862501
-          ],
-          [
-            9.0212919,
-            50.665680001
-          ],
-          [
-            9.0206837,
-            50.664452101
-          ],
-          [
-            9.0204605,
-            50.663989701
-          ],
-          [
-            9.020323947,
-            50.663724487
+            8.964755155,
+            50.640078792
           ]
         ]
       }
