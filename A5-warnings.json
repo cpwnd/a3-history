@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-08-26_18-51-37-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-08-26_18-51-37-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -12,9 +12,9 @@
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Schlatthof - Freiburg-Mitte",
       "startTimestamp": "2025-08-26T18:51:37+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "29.200000762939453",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "60.099998474121094",
       "coordinate": {
         "lat": 48.000555311229704,
         "long": 7.7573929030974735
@@ -25,9 +25,9 @@
         "Angespannte Verkehrslage, seit 26.08.2025, 18:51",
         "A5: Basel -> Karlsruhe, zwischen 1.5 km hinter Schlatthof und 1.2 km vor AS Freiburg-Mitte",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 60 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -103,38 +103,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-26_18-59-24-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.000555311229704,7.7573929030974735,48.000555311229704,7.7573929030974735",
-      "point": "48.000555311229704,7.7573929030974735",
-      "startLcPosition": "27",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Freiburg-Mitte - Freiburg-Mitte",
-      "startTimestamp": "2025-08-26T21:41:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "14",
-      "coordinate": {
-        "lat": 48.000555311229704,
-        "long": 7.7573929030974735
-      },
-      "description": [
-        "Beginn: 26.08.25 um 21:41 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 26.08.2025, 21:41",
-        "A5: Basel -> Karlsruhe, 3.3 km vor AS Freiburg-Mitte, aus Richtung Schlatthof",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 14 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-08-26_21-02-31-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-08-26_21-02-31-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -722,7 +691,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-27_15-15-00-000.f_012.de0",
+      "identifier": "undefined--vi-avl.2025-08-27_15-15-00-000.f_013.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -753,6 +722,50 @@
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-08-26_21-47-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.14679547540559,8.597565762100476,50.14810998962768,8.598287957257691",
+      "point": "50.14679547540559,8.597565762100476",
+      "startLcPosition": "110",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Nordwestkreuz Frankfurt am Main - Taunusblick",
+      "startTimestamp": "2025-08-26T21:47:30+02:00",
+      "coordinate": {
+        "lat": 50.14679547540559,
+        "long": 8.597565762100476
+      },
+      "description": [
+        "Beginn: 26.08.25 um 21:47 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 26.08.2025, 21:47",
+        "A5: Frankfurt -> Kassel, zwischen 1.4 km hinter AK Nordwestkreuz Frankfurt am Main und 0.8 km vor Taunusblick",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.597565762,
+            50.146795475
+          ],
+          [
+            8.5978457,
+            50.147302201
+          ],
+          [
+            8.598287957,
+            50.14810999
+          ]
+        ]
+      }
     }
   ]
 }
