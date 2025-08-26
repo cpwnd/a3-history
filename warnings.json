@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.455432240774336,13.375960699996492,48.459851700948605,13.37518560018693",
-      "point": "48.455432240774336,13.375960699996492",
+      "extent": "48.4545342930298,13.376043861574553,48.459851700948605,13.37518560018693",
+      "point": "48.4545342930298,13.376043861574553",
       "startLcPosition": "2",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
       "title": "A3 | Pocking - Passau-Süd",
       "startTimestamp": "2025-08-27T00:11:30+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "9.300000190734863",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "16.5",
       "coordinate": {
-        "lat": 48.455432240774336,
-        "long": 13.375960699996492
+        "lat": 48.4545342930298,
+        "long": 13.376043861574553
       },
       "description": [
         "Beginn: 27.08.25 um 00:11 Uhr",
         "",
         "Angespannte Verkehrslage, seit 27.08.2025, 00:11",
-        "A3: Linz -> Passau, zwischen 2.2 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
+        "A3: Linz -> Passau, zwischen 2.1 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.3759607,
-            48.455432241
+            13.376043862,
+            48.454534293
+          ],
+          [
+            13.3760373,
+            48.454617101
+          ],
+          [
+            13.3760053,
+            48.455020001
           ],
           [
             13.3759271,
@@ -79,33 +87,64 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-27_00-34-00-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-08-27_01-05-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.73097400094227,10.720081300001693,49.73188244165883,10.731583234205027",
-      "point": "49.73097400094227,10.720081300001693",
-      "startLcPosition": "104",
+      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "261",
       "display_type": "WARNING",
-      "subtitle": " Würzburg -> Nürnberg",
-      "title": "A3 | Schwarze Föhre - Flurholz",
-      "startTimestamp": "2025-08-27T00:34:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "62.900001525878906",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Knauheide - Knauheide",
+      "startTimestamp": "2025-08-27T01:05:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "24",
       "coordinate": {
-        "lat": 49.73097400094227,
-        "long": 10.720081300001693
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
       },
       "description": [
-        "Beginn: 27.08.25 um 00:34 Uhr",
+        "Beginn: 27.08.25 um 01:05 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 27.08.2025, 00:34",
-        "A3: Würzburg -> Nürnberg, zwischen 2.8 km hinter Schwarze Föhre und 3.4 km vor Flurholz",
+        "Angespannte Verkehrslage, seit 27.08.2025, 01:05",
+        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
         "",
-        "Langsamer Verkehr",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 24 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-27_01-05-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "262",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Elten - Elten",
+      "startTimestamp": "2025-08-27T01:05:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "28.5",
+      "coordinate": {
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
+      },
+      "description": [
+        "Beginn: 27.08.25 um 01:05 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 27.08.2025, 01:05",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten",
+        "",
+        "Im Stillstand",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 62 km/h"
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -114,44 +153,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.7200813,
-            49.730974001
+            6.165717281,
+            51.898399017
           ],
           [
-            10.7208879,
-            49.731007401
+            6.1665101,
+            51.897629501
           ],
           [
-            10.7216848,
-            49.731042901
+            6.1668453,
+            51.897289501
           ],
           [
-            10.7248304,
-            49.731235201
+            6.1686237,
+            51.895575501
           ],
           [
-            10.7262341,
-            49.731346501
-          ],
-          [
-            10.7276804,
-            49.731470001
-          ],
-          [
-            10.7290952,
-            49.731607901
-          ],
-          [
-            10.7304532,
-            49.731755501
-          ],
-          [
-            10.7309821,
-            49.731813601
-          ],
-          [
-            10.731583234,
-            49.731882442
+            6.1688771,
+            51.895327101
           ]
         ]
       }
