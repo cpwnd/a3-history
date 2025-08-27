@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.00279631548954,7.759382975143009,48.017014137882725,7.773323588798227",
-      "point": "48.00279631548954,7.759382975143009",
+      "extent": "48.000555311229704,7.7573929030974735,48.01797731151122,7.774643848398325",
+      "point": "48.000555311229704,7.7573929030974735",
       "startLcPosition": "26",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
@@ -14,20 +14,20 @@
       "startTimestamp": "2025-08-27T18:39:39+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "60.70000076293945",
+      "averageSpeed": "48",
       "coordinate": {
-        "lat": 48.00279631548954,
-        "long": 7.759382975143009
+        "lat": 48.000555311229704,
+        "long": 7.7573929030974735
       },
       "description": [
         "Beginn: 27.08.25 um 18:39 Uhr",
         "",
         "Angespannte Verkehrslage, seit 27.08.2025, 18:39",
-        "A5: Basel -> Karlsruhe, zwischen 1.8 km hinter Schlatthof und 1.1 km vor AS Freiburg-Mitte",
+        "A5: Basel -> Karlsruhe, zwischen 1.5 km hinter Schlatthof und 0.9 km vor AS Freiburg-Mitte",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 60 km/h"
+        "Durchschnittsgeschwindigkeit: 48 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.759382975,
-            48.002796315
+            7.757392903,
+            48.000555311
+          ],
+          [
+            7.7578067,
+            48.001006701
+          ],
+          [
+            7.7591317,
+            48.002503101
           ],
           [
             7.7605118,
@@ -96,8 +104,60 @@
             48.016934101
           ],
           [
-            7.773323589,
-            48.017014138
+            7.7739075,
+            48.017458001
+          ],
+          [
+            7.7745884,
+            48.017938201
+          ],
+          [
+            7.774643848,
+            48.017977312
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-08-27_23-21-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.80842740791135,8.182269438694593,48.8073288636081,8.180738189376617",
+      "point": "48.80842740791135,8.182269438694593",
+      "startLcPosition": "52",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Rastatt-Süd - Baden-Baden",
+      "startTimestamp": "2025-08-27T23:21:30+02:00",
+      "coordinate": {
+        "lat": 48.80842740791135,
+        "long": 8.182269438694593
+      },
+      "description": [
+        "Beginn: 27.08.25 um 23:21 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 27.08.2025, 23:21",
+        "A5: Karlsruhe -> Basel, zwischen 2.7 km hinter AS Rastatt-Süd und 0.1 km vor Baden-Baden",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.182269439,
+            48.808427408
+          ],
+          [
+            8.1817912,
+            48.808078601
+          ],
+          [
+            8.180738189,
+            48.807328864
           ]
         ]
       }
