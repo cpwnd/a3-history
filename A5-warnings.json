@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.5637509730021,8.794299541177624,50.57427684150528,8.801869404831042",
-      "point": "50.5637509730021,8.794299541177624",
+      "extent": "50.55747868894423,8.790444374871408,50.57427684150528,8.801869404831042",
+      "point": "50.55747868894423,8.790444374871408",
       "startLcPosition": "123",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Fernwald - Reiskirchen",
       "startTimestamp": "2025-08-28T06:07:30+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "41.29999923706055",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "22.700000762939453",
       "coordinate": {
-        "lat": 50.5637509730021,
-        "long": 8.794299541177624
+        "lat": 50.55747868894423,
+        "long": 8.790444374871408
       },
       "description": [
         "Beginn: 28.08.25 um 06:07 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.08.2025, 06:07",
-        "A5: Frankfurt -> Kassel, zwischen 2.3 km hinter AS Fernwald und 2.5 km vor AS Reiskirchen",
+        "A5: Frankfurt -> Kassel, zwischen 1.5 km hinter AS Fernwald und 2.5 km vor AS Reiskirchen",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 41 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 22 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.794299541,
-            50.563750973
+            8.790444375,
+            50.557478689
+          ],
+          [
+            8.7919731,
+            50.559963501
           ],
           [
             8.7944989,
@@ -97,6 +101,37 @@
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-08-28_06-33-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.55747868894423,8.790444374871408,50.55747868894423,8.790444374871408",
+      "point": "50.55747868894423,8.790444374871408",
+      "startLcPosition": "124",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Reiskirchen - Reiskirchen",
+      "startTimestamp": "2025-08-28T06:36:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "23",
+      "coordinate": {
+        "lat": 50.55747868894423,
+        "long": 8.790444374871408
+      },
+      "description": [
+        "Beginn: 28.08.25 um 06:36 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 28.08.2025, 06:36",
+        "A5: Frankfurt -> Kassel, 4.5 km vor AS Reiskirchen, aus Richtung Fernwald",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     }
   ]
 }
