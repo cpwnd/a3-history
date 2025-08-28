@@ -5,19 +5,19 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.45326508118701,13.376129864005472,48.459851700948605,13.37518560018693",
-      "point": "48.45326508118701,13.376129864005472",
+      "extent": "48.453112365745646,13.376134266678605,48.459851700948605,13.37518560018693",
+      "point": "48.453112365745646,13.376134266678605",
       "startLcPosition": "2",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
       "title": "A3 | Pocking - Passau-Süd",
       "startTimestamp": "2025-08-28T20:29:00+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "9.600000381469727",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "18.100000381469727",
       "coordinate": {
-        "lat": 48.45326508118701,
-        "long": 13.376129864005472
+        "lat": 48.453112365745646,
+        "long": 13.376134266678605
       },
       "description": [
         "Beginn: 28.08.25 um 20:29 Uhr",
@@ -25,9 +25,9 @@
         "Angespannte Verkehrslage, seit 28.08.2025, 20:29",
         "A3: Linz -> Passau, zwischen 2.0 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.376129864,
-            48.453265081
+            13.376134267,
+            48.453112366
           ],
           [
             13.3761295,
@@ -103,7 +103,7 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.17486334420762,11.76766907330348,49.17143375923372,11.80572169471616",
+      "extent": "49.17486334420762,11.76766907330348,49.171742106333674,11.803608834488927",
       "point": "49.17486334420762,11.76766907330348",
       "startLcPosition": "57",
       "display_type": "WARNING",
@@ -112,7 +112,7 @@
       "startTimestamp": "2025-08-28T19:46:36+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "58.5",
+      "averageSpeed": "56.29999923706055",
       "coordinate": {
         "lat": 49.17486334420762,
         "long": 11.76766907330348
@@ -121,11 +121,11 @@
         "Beginn: 28.08.25 um 19:46 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.08.2025, 19:46",
-        "A3: Nürnberg -> Passau, zwischen 1.2 km hinter Höll und 1.9 km vor Kühberg",
+        "A3: Nürnberg -> Passau, zwischen 1.2 km hinter Höll und 2.0 km vor Kühberg",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 58 km/h"
+        "Durchschnittsgeschwindigkeit: 56 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -198,22 +198,74 @@
             49.171822101
           ],
           [
-            11.8044787,
-            49.171645001
-          ],
-          [
-            11.8056728,
-            49.171443701
-          ],
-          [
-            11.805721695,
-            49.171433759
+            11.803608834,
+            49.171742106
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-08-28_19-08-57-000.f_007.de0",
+      "identifier": "undefined--vi-hind.2025-08-28_20-47-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.381765200943654,11.34006010000686,49.38261040094365,11.336436000006804",
+      "point": "49.381765200943654,11.34006010000686",
+      "startLcPosition": "74",
+      "display_type": "WARNING",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Altdorf/Burgthann - Vogelherd",
+      "startTimestamp": "2025-08-28T20:47:00+02:00",
+      "coordinate": {
+        "lat": 49.381765200943654,
+        "long": 11.34006010000686
+      },
+      "description": [
+        "Beginn: 28.08.25 um 20:47 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 28.08.2025, 20:47",
+        "A3: Passau -> Nürnberg, zwischen AS Altdorf/Burgthann und 0.6 km vor Vogelherd",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.3400601,
+            49.381765201
+          ],
+          [
+            11.3398695,
+            49.381815401
+          ],
+          [
+            11.3392766,
+            49.381962301
+          ],
+          [
+            11.3385573,
+            49.382136601
+          ],
+          [
+            11.3376912,
+            49.382338901
+          ],
+          [
+            11.3372355,
+            49.382442301
+          ],
+          [
+            11.336436,
+            49.382610401
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-08-28_19-08-57-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -624,29 +676,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.76904071711645,10.06857181134448,49.75356006393262,10.045867481180665",
-      "point": "49.76904071711645,10.06857181134448",
-      "startLcPosition": "123",
+      "extent": "49.769474008580275,10.069330924025087,49.75356006393262,10.045867481180665",
+      "point": "49.769474008580275,10.069330924025087",
+      "startLcPosition": "122",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
-      "title": "A3 | Rottendorf - Sandgraben",
+      "title": "A3 | Biebelried - Sandgraben",
       "startTimestamp": "2025-08-28T19:49:00+02:00",
-      "delayTimeValue": "3",
+      "delayTimeValue": "6",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "29.899999618530273",
+      "averageSpeed": "20.200000762939453",
       "coordinate": {
-        "lat": 49.76904071711645,
-        "long": 10.06857181134448
+        "lat": 49.769474008580275,
+        "long": 10.069330924025087
       },
       "description": [
         "Beginn: 28.08.25 um 19:49 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.08.2025, 19:49",
-        "A3: Nürnberg -> Würzburg, zwischen AS Rottendorf und 1.0 km vor Sandgraben",
+        "A3: Nürnberg -> Würzburg, zwischen 1.9 km hinter AK Biebelried und 1.0 km vor Sandgraben",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
+        "Reisezeitverlust: 6 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -655,8 +707,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.068571811,
-            49.769040717
+            10.069330924,
+            49.769474009
+          ],
+          [
+            10.0693251,
+            49.769470801
+          ],
+          [
+            10.0690874,
+            49.769340601
+          ],
+          [
+            10.068655,
+            49.769088401
           ],
           [
             10.0677091,
@@ -738,56 +802,35 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-28_18-30-17-000.f_011.de0",
+      "identifier": "undefined--vi-avl.2025-08-28_20-53-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.76780910094213,9.774323800000213,49.76870359623568,9.772551433024454",
-      "point": "49.76780910094213,9.774323800000213",
-      "startLcPosition": "130",
+      "extent": "49.7694159217833,10.069224909442058,49.7694159217833,10.069224909442058",
+      "point": "49.7694159217833,10.069224909442058",
+      "startLcPosition": "123",
       "display_type": "WARNING",
-      "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Helmstadt - Fronberg",
-      "startTimestamp": "2025-08-28T18:30:17+02:00",
+      "subtitle": " Nürnberg -> Würzburg",
+      "title": "A3 | Rottendorf - Rottendorf",
+      "startTimestamp": "2025-08-28T21:08:00+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "20",
       "coordinate": {
-        "lat": 49.76780910094213,
-        "long": 9.774323800000213
+        "lat": 49.7694159217833,
+        "long": 10.069224909442058
       },
       "description": [
-        "Beginn: 28.08.25 um 18:30 Uhr",
+        "Beginn: 28.08.25 um 21:08 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 28.08.2025, 18:30",
-        "A3: Würzburg -> Frankfurt, zwischen 0.1 km hinter AS Helmstadt und 4.3 km vor Fronberg",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 28.08.2025, 21:08",
+        "A3: Nürnberg -> Würzburg, in Höhe AS Rottendorf, aus Richtung Biebelried",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.7743238,
-            49.767809101
-          ],
-          [
-            9.7737524,
-            49.768128301
-          ],
-          [
-            9.773322,
-            49.768357101
-          ],
-          [
-            9.7727432,
-            49.768622801
-          ],
-          [
-            9.772551433,
-            49.768703596
-          ]
-        ]
-      }
+      "lorryParkingFeatureIcons": []
     },
     {
       "identifier": "undefined--vi-avl.2025-08-28_18-31-09-000.f_004.de0",
@@ -800,21 +843,21 @@
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Würzburg",
       "title": "A3 | Wertheim/Lengfurt - Wertheim/Lengfurt",
-      "startTimestamp": "2025-08-28T20:41:30+02:00",
+      "startTimestamp": "2025-08-28T21:08:00+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3",
+      "averageSpeed": "7",
       "coordinate": {
         "lat": 49.797079944809255,
         "long": 9.586777497148947
       },
       "description": [
-        "Beginn: 28.08.25 um 20:41 Uhr",
+        "Beginn: 28.08.25 um 21:08 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.08.2025, 20:41",
+        "Angespannte Verkehrslage, seit 28.08.2025, 21:08",
         "A3: Frankfurt -> Würzburg, 3.7 km vor AS Wertheim/Lengfurt, aus Richtung Marktheidenfeld",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 3 km/h"
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1459,9 +1502,9 @@
       "subtitle": " Frankfurt -> Würzburg",
       "title": "A3 | Marktheidenfeld - Fronberg",
       "startTimestamp": "2025-08-28T18:05:22+02:00",
-      "delayTimeValue": "66",
+      "delayTimeValue": "31",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3.299999952316284",
+      "averageSpeed": "6.800000190734863",
       "coordinate": {
         "lat": 49.797079944809255,
         "long": 9.586777497148947
@@ -1473,8 +1516,8 @@
         "A3: Frankfurt -> Würzburg, zwischen 3.4 km hinter AS Marktheidenfeld und 9.9 km vor Fronberg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 66 Minuten",
-        "Durchschnittsgeschwindigkeit: 3 km/h"
+        "Reisezeitverlust: 31 Minuten",
+        "Durchschnittsgeschwindigkeit: 6 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2377,33 +2420,54 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-28_20-38-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-08-28_20-49-04-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.894077698953566,7.168007262607332,50.900356655568615,7.146164426381701",
-      "point": "50.894077698953566,7.168007262607332",
-      "startLcPosition": "206",
+      "extent": "50.64325292372932,7.341600727800735,50.64325292372932,7.341600727800735",
+      "point": "50.64325292372932,7.341600727800735",
+      "startLcPosition": "197",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Rösrath - Königsforst",
-      "startTimestamp": "2025-08-28T20:38:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "72.19999694824219",
+      "title": "A3 | Hambitz - Bad Honnef/Linz",
+      "startTimestamp": "2025-08-28T20:49:04+02:00",
       "coordinate": {
-        "lat": 50.894077698953566,
-        "long": 7.168007262607332
+        "lat": 50.64325292372932,
+        "long": 7.341600727800735
       },
       "description": [
-        "Beginn: 28.08.25 um 20:38 Uhr",
+        "Beginn: 28.08.25 um 20:49 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.08.2025, 20:38",
-        "A3: Frankfurt -> Köln, zwischen 1.6 km hinter AS Rösrath und 3.3 km vor AS Königsforst",
+        "Fahrzeug-Hindernis, seit 28.08.2025, 20:49",
+        "A3: Frankfurt -> Köln, zwischen 1.5 km hinter Hambitz und 1.1 km vor AS Bad Honnef/Linz",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-08-28_20-44-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.04679551614914,7.003230835904169,51.045377573601044,7.004713959032015",
+      "point": "51.04679551614914,7.003230835904169",
+      "startLcPosition": "215",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Leverkusen-Opladen - Leverkusen",
+      "startTimestamp": "2025-08-28T20:44:00+02:00",
+      "coordinate": {
+        "lat": 51.04679551614914,
+        "long": 7.003230835904169
+      },
+      "description": [
+        "Beginn: 28.08.25 um 20:44 Uhr",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 72 km/h"
+        "Fahrzeug-Hindernis, seit 28.08.2025, 20:44",
+        "A3: Oberhausen -> Köln, zwischen 1.3 km hinter AS Leverkusen-Opladen und 0.4 km vor AK Leverkusen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2412,52 +2476,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.168007263,
-            50.894077699
+            7.003230836,
+            51.046795516
           ],
           [
-            7.1674899,
-            50.894347801
+            7.0032399,
+            51.046789301
           ],
           [
-            7.1668996,
-            50.894610201
+            7.0038549,
+            51.046238101
           ],
           [
-            7.1663041,
-            50.894852201
+            7.0044284,
+            51.045676301
           ],
           [
-            7.1651821,
-            50.895249801
-          ],
-          [
-            7.163997,
-            50.895571201
-          ],
-          [
-            7.1619355,
-            50.896127501
-          ],
-          [
-            7.1574184,
-            50.897349101
-          ],
-          [
-            7.1545644,
-            50.898108701
-          ],
-          [
-            7.1520777,
-            50.898766401
-          ],
-          [
-            7.1487405,
-            50.899661401
-          ],
-          [
-            7.146164426,
-            50.900356656
+            7.004713959,
+            51.045377574
           ]
         ]
       }
@@ -2467,8 +2503,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.49653974965316,6.819498692178085,51.53193199072161,6.822896983858008",
-      "point": "51.49653974965316,6.819498692178085",
+      "extent": "51.497923780633826,6.820176564360742,51.53193199072161,6.822896983858008",
+      "point": "51.497923780633826,6.820176564360742",
       "startLcPosition": "232",
       "display_type": "WARNING",
       "subtitle": " Köln -> Arnheim",
@@ -2476,16 +2512,16 @@
       "startTimestamp": "2025-08-28T13:09:38+02:00",
       "delayTimeValue": "16",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13.699999809265137",
+      "averageSpeed": "13.100000381469727",
       "coordinate": {
-        "lat": 51.49653974965316,
-        "long": 6.819498692178085
+        "lat": 51.497923780633826,
+        "long": 6.820176564360742
       },
       "description": [
         "Beginn: 28.08.25 um 13:09 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.08.2025, 13:09",
-        "A3: Köln -> Arnheim, zwischen 1.1 km hinter AK Oberhausen-West und 1.0 km vor AK Oberhausen",
+        "A3: Köln -> Arnheim, zwischen 1.2 km hinter AK Oberhausen-West und 1.0 km vor AK Oberhausen",
         "",
         "Im Stillstand",
         "Reisezeitverlust: 16 Minuten",
@@ -2498,8 +2534,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.819498692,
-            51.49653975
+            6.820176564,
+            51.497923781
           ],
           [
             6.8203338,
@@ -2757,24 +2793,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.496608521467216,6.819532374325093,51.496608521467216,6.819532374325093",
-      "point": "51.496608521467216,6.819532374325093",
+      "extent": "51.497923780633826,6.820176564360742,51.497923780633826,6.820176564360742",
+      "point": "51.497923780633826,6.820176564360742",
       "startLcPosition": "233",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
       "title": "A3 | Oberhausen-Holten - Oberhausen-Holten",
-      "startTimestamp": "2025-08-28T20:41:30+02:00",
+      "startTimestamp": "2025-08-28T21:08:00+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "7",
       "coordinate": {
-        "lat": 51.496608521467216,
-        "long": 6.819532374325093
+        "lat": 51.497923780633826,
+        "long": 6.820176564360742
       },
       "description": [
-        "Beginn: 28.08.25 um 20:41 Uhr",
+        "Beginn: 28.08.25 um 21:08 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.08.2025, 20:41",
-        "A3: Oberhausen -> Arnheim, 1.9 km vor AS Oberhausen-Holten, aus Richtung Oberhausen-West",
+        "Angespannte Verkehrslage, seit 28.08.2025, 21:08",
+        "A3: Oberhausen -> Arnheim, 1.8 km vor AS Oberhausen-Holten, aus Richtung Oberhausen-West",
         "",
         "Im Stillstand",
         "Durchschnittsgeschwindigkeit: 7 km/h"
