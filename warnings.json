@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.4545342930298,13.376043861574553,48.459851700948605,13.37518560018693",
-      "point": "48.4545342930298,13.376043861574553",
+      "extent": "48.45288778421012,13.376140741206015,48.459851700948605,13.37518560018693",
+      "point": "48.45288778421012,13.376140741206015",
       "startLcPosition": "2",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
       "title": "A3 | Pocking - Passau-Süd",
       "startTimestamp": "2025-08-29T20:20:30+02:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "10.699999809265137",
+      "averageSpeed": "14.600000381469727",
       "coordinate": {
-        "lat": 48.4545342930298,
-        "long": 13.376043861574553
+        "lat": 48.45288778421012,
+        "long": 13.376140741206015
       },
       "description": [
         "Beginn: 29.08.25 um 20:20 Uhr",
         "",
         "Angespannte Verkehrslage, seit 29.08.2025, 20:20",
-        "A3: Linz -> Passau, zwischen 2.1 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
+        "A3: Linz -> Passau, zwischen 1.9 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.376043862,
-            48.454534293
+            13.376140741,
+            48.452887784
+          ],
+          [
+            13.3761295,
+            48.453277701
+          ],
+          [
+            13.3761168,
+            48.453469301
+          ],
+          [
+            13.3760568,
+            48.454371001
           ],
           [
             13.3760373,
@@ -87,64 +99,20 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-29_20-35-06-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.57711405174445,10.930828566072812,49.57606307879852,10.931646776998374",
-      "point": "49.57711405174445,10.930828566072812",
-      "startLcPosition": "87",
-      "display_type": "WARNING",
-      "subtitle": " Würzburg -> Nürnberg",
-      "title": "A3 | Aurach - Erlangen-Frauenaurach",
-      "startTimestamp": "2025-08-29T20:35:06+02:00",
-      "coordinate": {
-        "lat": 49.57711405174445,
-        "long": 10.930828566072812
-      },
-      "description": [
-        "Beginn: 29.08.25 um 20:35 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 29.08.2025, 20:35",
-        "A3: Würzburg -> Nürnberg, zwischen 0.5 km hinter Aurach und 1.4 km vor AS Erlangen-Frauenaurach",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            10.930828566,
-            49.577114052
-          ],
-          [
-            10.9313646,
-            49.576414301
-          ],
-          [
-            10.931646777,
-            49.576063079
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-zus.2025-08-29_18-52-08-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.931672942143685,9.351612863341721,49.96859974391808,9.297680031390893",
+      "extent": "49.931672942143685,9.351612863341721,49.969842245532135,9.29578350907488",
       "point": "49.931672942143685,9.351612863341721",
       "startLcPosition": "137",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Rohrbrunn - Röthenwald",
       "startTimestamp": "2025-08-29T18:52:08+02:00",
-      "delayTimeValue": "51",
+      "delayTimeValue": "90",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6.400000095367432",
+      "averageSpeed": "3.9000000953674316",
       "coordinate": {
         "lat": 49.931672942143685,
         "long": 9.351612863341721
@@ -153,11 +121,11 @@
         "Beginn: 29.08.25 um 18:52 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 29.08.2025, 18:52",
-        "A3: Würzburg -> Frankfurt, zwischen 4.9 km hinter AS Rohrbrunn und 2.9 km vor Röthenwald",
+        "A3: Würzburg -> Frankfurt, zwischen 4.9 km hinter AS Rohrbrunn und 2.7 km vor Röthenwald",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 51 Minuten",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
+        "Reisezeitverlust: 90 Minuten",
+        "Durchschnittsgeschwindigkeit: 3 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -486,14 +454,53 @@
             49.968384001
           ],
           [
-            9.297680031,
-            49.968599744
+            9.2972165,
+            49.968941201
+          ],
+          [
+            9.296224,
+            49.969579901
+          ],
+          [
+            9.295783509,
+            49.969842246
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-08-29_20-12-21-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-08-29_19-18-58-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.93152639283338,9.351749032590089,49.93152639283338,9.351749032590089",
+      "point": "49.93152639283338,9.351749032590089",
+      "startLcPosition": "138",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Weibersbrunn - Weibersbrunn",
+      "startTimestamp": "2025-08-29T20:46:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "4",
+      "coordinate": {
+        "lat": 49.93152639283338,
+        "long": 9.351749032590089
+      },
+      "description": [
+        "Beginn: 29.08.25 um 20:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 29.08.2025, 20:46",
+        "A3: Würzburg -> Frankfurt, 0.9 km vor AS Weibersbrunn, aus Richtung Rohrbrunn",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-08-29_20-12-21-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -616,57 +623,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-29_19-18-58-000.f_007.de0",
+      "identifier": "undefined--vi-hind.2025-08-29_20-41-02-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.93152639283338,9.351749032590089,49.93152639283338,9.351749032590089",
-      "point": "49.93152639283338,9.351749032590089",
-      "startLcPosition": "138",
-      "display_type": "WARNING",
-      "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Weibersbrunn - Weibersbrunn",
-      "startTimestamp": "2025-08-29T20:36:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6",
-      "coordinate": {
-        "lat": 49.93152639283338,
-        "long": 9.351749032590089
-      },
-      "description": [
-        "Beginn: 29.08.25 um 20:36 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.08.2025, 20:36",
-        "A3: Würzburg -> Frankfurt, 0.9 km vor AS Weibersbrunn, aus Richtung Rohrbrunn",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-08-29_18-15-30-000.f_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.02669404917322,7.011097799732923,51.03684944121824,7.008896864243026",
-      "point": "51.02669404917322,7.011097799732923",
-      "startLcPosition": "213",
+      "extent": "51.12368599027161,6.978494279999229,51.189279718065485,6.942482457487977",
+      "point": "51.12368599027161,6.978494279999229",
+      "startLcPosition": "219",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Leverkusen-Zentrum - Leverkusen",
-      "startTimestamp": "2025-08-29T18:15:30+02:00",
+      "title": "A3 | Solingen - Hilden",
+      "startTimestamp": "2025-08-29T20:41:02+02:00",
       "coordinate": {
-        "lat": 51.02669404917322,
-        "long": 7.011097799732923
+        "lat": 51.12368599027161,
+        "long": 6.978494279999229
       },
       "description": [
-        "Beginn: 29.08.25 um 18:15 Uhr",
+        "Beginn: 29.08.25 um 20:41 Uhr",
         "",
-        "Hindernis, seit 29.08.2025, 18:15",
-        "A3: Köln -> Oberhausen, zwischen 0.3 km hinter AS Leverkusen-Zentrum und 0.6 km vor AK Leverkusen",
+        "Hindernis, seit 29.08.2025, 20:41",
+        "A3: Köln -> Oberhausen, zwischen 0.3 km hinter AS Solingen und 0.6 km vor AK Hilden",
         "",
         "Gefahr durch Gegenstände auf der Fahrbahn"
       ],
@@ -677,28 +653,136 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.0110978,
-            51.026694049
+            6.97849428,
+            51.12368599
           ],
           [
-            7.0109775,
-            51.027245301
+            6.9782619,
+            51.123932901
           ],
           [
-            7.0100579,
-            51.031329601
+            6.9773536,
+            51.125004501
           ],
           [
-            7.0099962,
-            51.031624701
+            6.9770705,
+            51.125382701
           ],
           [
-            7.0095269,
-            51.033963801
+            6.9766982,
+            51.125901401
           ],
           [
-            7.008896864,
-            51.036849441
+            6.9758528,
+            51.127295801
+          ],
+          [
+            6.9754324,
+            51.128154801
+          ],
+          [
+            6.9751034,
+            51.128986201
+          ],
+          [
+            6.9737358,
+            51.132673501
+          ],
+          [
+            6.9687865,
+            51.146020301
+          ],
+          [
+            6.9671212,
+            51.150573601
+          ],
+          [
+            6.9661489,
+            51.153001701
+          ],
+          [
+            6.9657464,
+            51.153817201
+          ],
+          [
+            6.9653937,
+            51.154456101
+          ],
+          [
+            6.9647906,
+            51.155351701
+          ],
+          [
+            6.9632052,
+            51.157404501
+          ],
+          [
+            6.9610938,
+            51.160222401
+          ],
+          [
+            6.9602508,
+            51.161338501
+          ],
+          [
+            6.957926,
+            51.164454001
+          ],
+          [
+            6.9577545,
+            51.164676101
+          ],
+          [
+            6.9553292,
+            51.167870401
+          ],
+          [
+            6.9549188,
+            51.168412301
+          ],
+          [
+            6.9523628,
+            51.171763801
+          ],
+          [
+            6.9518356,
+            51.172564201
+          ],
+          [
+            6.9512294,
+            51.173566401
+          ],
+          [
+            6.9508298,
+            51.174289701
+          ],
+          [
+            6.9465712,
+            51.181957301
+          ],
+          [
+            6.9453125,
+            51.184223401
+          ],
+          [
+            6.9452052,
+            51.184421101
+          ],
+          [
+            6.9442917,
+            51.186049601
+          ],
+          [
+            6.9437437,
+            51.187028201
+          ],
+          [
+            6.9428978,
+            51.188532901
+          ],
+          [
+            6.942482457,
+            51.189279718
           ]
         ]
       }
