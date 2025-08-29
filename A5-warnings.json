@@ -5,31 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.15365020150152,7.760734634820177,48.188770845447856,7.746888732703816",
-      "point": "48.15365020150152,7.760734634820177",
+      "extent": "48.15412974795927,7.760394676535381,48.188770845447856,7.746888732703816",
+      "point": "48.15412974795927,7.760394676535381",
       "startLcPosition": "30",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Teningen - Herbolzheim",
       "startTimestamp": "2025-08-29T21:04:30+02:00",
-      "delayTimeValue": "50",
+      "delayTimeValue": "23",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "4.599999904632568",
+      "averageSpeed": "9.5",
       "coordinate": {
-        "lat": 48.15365020150152,
-        "long": 7.760734634820177
+        "lat": 48.15412974795927,
+        "long": 7.760394676535381
       },
       "description": [
         "Beginn: 29.08.25 um 21:04 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 29.08.2025, 21:04",
-        "A5: Basel -> Karlsruhe, zwischen 4.7 km hinter AS Teningen und 4.4 km vor AS Herbolzheim",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle",
+        "A5: Basel -> Karlsruhe, zwischen 4.8 km hinter AS Teningen und 4.4 km vor AS Herbolzheim",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 50 Minuten",
-        "Durchschnittsgeschwindigkeit: 4 km/h"
+        "Reisezeitverlust: 23 Minuten",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -38,8 +36,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.760734635,
-            48.153650202
+            7.760394677,
+            48.154129748
           ],
           [
             7.760328,
@@ -153,38 +151,51 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-29_21-05-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-08-29_21-47-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.15351202689433,7.7608325877138435,48.15351202689433,7.7608325877138435",
-      "point": "48.15351202689433,7.7608325877138435",
-      "startLcPosition": "31",
+      "extent": "48.11409795794154,7.788034646756954,48.1126270524814,7.788584680373097",
+      "point": "48.11409795794154,7.788034646756954",
+      "startLcPosition": "30",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Riegel - Riegel",
-      "startTimestamp": "2025-08-29T21:41:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "5",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Teningen - Freiburg-Nord",
+      "startTimestamp": "2025-08-29T21:47:00+02:00",
       "coordinate": {
-        "lat": 48.15351202689433,
-        "long": 7.7608325877138435
+        "lat": 48.11409795794154,
+        "long": 7.788034646756954
       },
       "description": [
-        "Beginn: 29.08.25 um 21:41 Uhr",
+        "Beginn: 29.08.25 um 21:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 29.08.2025, 21:41",
-        "A5: Basel -> Karlsruhe, 0.1 km vor AS Riegel, aus Richtung Teningen",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 5 km/h"
+        "Fahrzeug-Hindernis, seit 29.08.2025, 21:47",
+        "A5: Karlsruhe -> Basel, zwischen 0.1 km hinter AS Teningen und 6.0 km vor AS Freiburg-Nord",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
-      "lorryParkingFeatureIcons": []
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.788034647,
+            48.114097958
+          ],
+          [
+            7.7881251,
+            48.113857601
+          ],
+          [
+            7.78858468,
+            48.112627052
+          ]
+        ]
+      }
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-29_21-09-30-000.f_002.de0",
+      "identifier": "undefined--vi-unf.2025-08-29_21-09-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -202,12 +213,8 @@
       "description": [
         "Beginn: 29.08.25 um 21:09 Uhr",
         "",
-        "Hindernis, seit 29.08.2025, 21:09",
-        "A5: Basel -> Karlsruhe, zwischen 3.5 km hinter AS Riegel und 3.6 km vor AS Herbolzheim",
-        "",
-        "Gefahr durch Personen auf der Fahrbahn",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Unfall, seit 29.08.2025, 21:09",
+        "A5: Basel -> Karlsruhe, zwischen 3.5 km hinter AS Riegel und 3.6 km vor AS Herbolzheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -247,133 +254,38 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-29_21-30-30-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-08-29_21-05-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.141758086833356,8.556315973312994,49.15928818655385,8.567441946428566",
-      "point": "49.141758086833356,8.556315973312994",
-      "startLcPosition": "63",
+      "extent": "48.15407285267434,7.760435010903988,48.15407285267434,7.760435010903988",
+      "point": "48.15407285267434,7.760435010903988",
+      "startLcPosition": "31",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Höfenschlag - Kronau",
-      "startTimestamp": "2025-08-29T21:30:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "71.30000305175781",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Riegel - Riegel",
+      "startTimestamp": "2025-08-29T22:11:10+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
-        "lat": 49.141758086833356,
-        "long": 8.556315973312994
+        "lat": 48.15407285267434,
+        "long": 7.760435010903988
       },
       "description": [
-        "Beginn: 29.08.25 um 21:30 Uhr",
+        "Beginn: 29.08.25 um 22:11 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 29.08.2025, 21:30",
-        "A5: Karlsruhe -> Heidelberg, zwischen 8.8 km hinter Höfenschlag und 8.0 km vor AS Kronau",
+        "Angespannte Verkehrslage, seit 29.08.2025, 22:11",
+        "A5: Basel -> Karlsruhe, in Höhe AS Riegel, aus Richtung Teningen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 71 km/h"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.556315973,
-            49.141758087
-          ],
-          [
-            8.5565517,
-            49.142137601
-          ],
-          [
-            8.5565815,
-            49.142185601
-          ],
-          [
-            8.5568815,
-            49.142681301
-          ],
-          [
-            8.5570502,
-            49.142973701
-          ],
-          [
-            8.5573443,
-            49.143454701
-          ],
-          [
-            8.5578892,
-            49.144362401
-          ],
-          [
-            8.5585043,
-            49.145381901
-          ],
-          [
-            8.5592332,
-            49.146568501
-          ],
-          [
-            8.559768,
-            49.147439201
-          ],
-          [
-            8.5604254,
-            49.148461501
-          ],
-          [
-            8.5606982,
-            49.148882501
-          ],
-          [
-            8.563171,
-            49.152711001
-          ],
-          [
-            8.5640323,
-            49.154032601
-          ],
-          [
-            8.5645315,
-            49.154803101
-          ],
-          [
-            8.5646427,
-            49.154976001
-          ],
-          [
-            8.5649443,
-            49.155445101
-          ],
-          [
-            8.5651841,
-            49.155815801
-          ],
-          [
-            8.5655091,
-            49.156318301
-          ],
-          [
-            8.5665061,
-            49.157858201
-          ],
-          [
-            8.5666105,
-            49.158026401
-          ],
-          [
-            8.567441946,
-            49.159288187
-          ]
-        ]
-      }
+      "lorryParkingFeatureIcons": []
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-29_21-33-30-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-08-29_21-33-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -662,7 +574,105 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-29_20-12-54-000.f_004.de0",
+      "identifier": "undefined--vi-zus.2025-08-29_22-10-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.53778043707858,8.630718382578058,49.54889530094299,8.627698299999913",
+      "point": "49.53778043707858,8.630718382578058",
+      "startLcPosition": "78",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Wachenburg - Weinheim",
+      "startTimestamp": "2025-08-29T22:10:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "62.099998474121094",
+      "coordinate": {
+        "lat": 49.53778043707858,
+        "long": 8.630718382578058
+      },
+      "description": [
+        "Beginn: 29.08.25 um 22:10 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 29.08.2025, 22:10",
+        "A5: Heidelberg -> Darmstadt, zwischen 0.7 km hinter Wachenburg und AK Weinheim",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 62 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.630718383,
+            49.537780437
+          ],
+          [
+            8.6306992,
+            49.537830201
+          ],
+          [
+            8.6306617,
+            49.537926701
+          ],
+          [
+            8.6301962,
+            49.539098701
+          ],
+          [
+            8.6297575,
+            49.540261301
+          ],
+          [
+            8.6296844,
+            49.540463101
+          ],
+          [
+            8.6294095,
+            49.541254201
+          ],
+          [
+            8.629008,
+            49.542508601
+          ],
+          [
+            8.628498,
+            49.544296601
+          ],
+          [
+            8.6283554,
+            49.544890701
+          ],
+          [
+            8.6282754,
+            49.545255301
+          ],
+          [
+            8.6282051,
+            49.545583101
+          ],
+          [
+            8.6279168,
+            49.547081401
+          ],
+          [
+            8.6278083,
+            49.547925301
+          ],
+          [
+            8.6276983,
+            49.548895301
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-08-29_20-12-54-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1842,34 +1852,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-08-29_20-13-20-000.f_008.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.80509513864136,9.503799998020163,50.80509513864136,9.503799998020163",
-      "point": "50.80509513864136,9.503799998020163",
-      "startLcPosition": "141",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Hattenbacher Dreieck - Barnholz",
-      "startTimestamp": "2025-08-29T20:13:20+02:00",
-      "coordinate": {
-        "lat": 50.80509513864136,
-        "long": 9.503799998020163
-      },
-      "description": [
-        "Beginn: 29.08.25 um 20:13 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 29.08.2025, 20:13",
-        "A5: Kassel -> Frankfurt, zwischen 2.9 km hinter AD Hattenbacher Dreieck und 0.5 km vor Barnholz",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": []
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-08-29_20-13-20-000.f_007.de0",
+      "identifier": "undefined--vi-hind.2025-08-29_20-13-20-000.f_009.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1921,133 +1904,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-08-29_21-12-33-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-08-29_20-13-20-000.f_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.591764837441865,7.603690266112989,47.59717485194939,7.60348937430167",
-      "point": "47.591764837441865,7.603690266112989",
-      "startLcPosition": "1000",
+      "extent": "50.80509513864136,9.503799998020163,50.80509513864136,9.503799998020163",
+      "point": "50.80509513864136,9.503799998020163",
+      "startLcPosition": "141",
       "display_type": "WARNING",
-      "subtitle": " km 813.42 --> km 812.82",
-      "title": "Baustelle",
-      "startTimestamp": "2025-08-29T21:12:33+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8.600000381469727",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Hattenbacher Dreieck - Barnholz",
+      "startTimestamp": "2025-08-29T20:13:20+02:00",
       "coordinate": {
-        "lat": 47.591764837441865,
-        "long": 7.603690266112989
+        "lat": 50.80509513864136,
+        "long": 9.503799998020163
       },
       "description": [
-        "Beginn: 29.08.25 um 21:12 Uhr",
+        "Beginn: 29.08.25 um 20:13 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 29.08.2025, 21:12",
-        "A5: km 813.42 --> km 812.82",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.603690266,
-            47.591764837
-          ],
-          [
-            7.6036936,
-            47.591777301
-          ],
-          [
-            7.6038925,
-            47.592568801
-          ],
-          [
-            7.6039325,
-            47.592819801
-          ],
-          [
-            7.6040062,
-            47.593241901
-          ],
-          [
-            7.6040559,
-            47.593674101
-          ],
-          [
-            7.6040933,
-            47.594063901
-          ],
-          [
-            7.6040537,
-            47.594329801
-          ],
-          [
-            7.6040069,
-            47.595006101
-          ],
-          [
-            7.6039276,
-            47.595452501
-          ],
-          [
-            7.6038258,
-            47.595963801
-          ],
-          [
-            7.6036821,
-            47.596511201
-          ],
-          [
-            7.6036599,
-            47.596595801
-          ],
-          [
-            7.6036144,
-            47.596724101
-          ],
-          [
-            7.6035592,
-            47.596886801
-          ],
-          [
-            7.603489374,
-            47.597174852
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-08-29_21-19-30-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.59168516185888,7.603668953582081,47.59168516185888,7.603668953582081",
-      "point": "47.59168516185888,7.603668953582081",
-      "startLcPosition": "1000",
-      "display_type": "WARNING",
-      "subtitle": "",
-      "title": "Baustelle",
-      "startTimestamp": "2025-08-29T21:41:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "4",
-      "coordinate": {
-        "lat": 47.59168516185888,
-        "long": 7.603668953582081
-      },
-      "description": [
-        "Beginn: 29.08.25 um 21:41 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.08.2025, 21:41",
-        "A5 N",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 4 km/h"
+        "Fahrzeug-Hindernis, seit 29.08.2025, 20:13",
+        "A5: Kassel -> Frankfurt, zwischen 2.9 km hinter AD Hattenbacher Dreieck und 0.5 km vor Barnholz",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
