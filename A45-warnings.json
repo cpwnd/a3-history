@@ -1,12 +1,12 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-09-02_07-24-15-000.f_002.de0",
+      "identifier": "undefined--vi-zus.2025-09-02_07-24-15-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.4333660705511,7.530190656708571,51.44326612637355,7.493978404716259",
-      "point": "51.4333660705511,7.530190656708571",
+      "extent": "51.43282476354938,7.53178270405236,51.443318029609095,7.4932783741494",
+      "point": "51.43282476354938,7.53178270405236",
       "startLcPosition": "102",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
@@ -14,20 +14,20 @@
       "startTimestamp": "2025-09-02T07:24:15+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "51.099998474121094",
+      "averageSpeed": "44.79999923706055",
       "coordinate": {
-        "lat": 51.4333660705511,
-        "long": 7.530190656708571
+        "lat": 51.43282476354938,
+        "long": 7.53178270405236
       },
       "description": [
         "Beginn: 02.09.25 um 07:24 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 02.09.2025, 07:24",
-        "A45: Hagen -> Dortmund, zwischen 0.2 km hinter AK Westhofener Kreuz und 0.6 km vor AS Dortmund-Süd",
+        "A45: Hagen -> Dortmund, zwischen AK Westhofener Kreuz und 0.6 km vor AS Dortmund-Süd",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 51 km/h"
+        "Durchschnittsgeschwindigkeit: 44 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.530190657,
-            51.433366071
+            7.531782704,
+            51.432824764
+          ],
+          [
+            7.5311501,
+            51.433039901
+          ],
+          [
+            7.530205,
+            51.433361001
           ],
           [
             7.5294674,
@@ -208,11 +216,46 @@
             51.443203501
           ],
           [
-            7.493978405,
-            51.443266126
+            7.4938274,
+            51.443278401
+          ],
+          [
+            7.493278374,
+            51.44331803
           ]
         ]
       }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-02_07-42-12-000.f_032.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.432820466698,7.531795338631584,51.432820466698,7.531795338631584",
+      "point": "51.432820466698,7.531795338631584",
+      "startLcPosition": "103",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Dortmund-Süd - Dortmund-Süd",
+      "startTimestamp": "2025-09-02T07:42:12+02:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "24",
+      "coordinate": {
+        "lat": 51.432820466698,
+        "long": 7.531795338631584
+      },
+      "description": [
+        "Beginn: 02.09.25 um 07:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 02.09.2025, 07:42",
+        "A45: Hagen -> Dortmund, 3.5 km vor AS Dortmund-Süd, aus Richtung Westhofener Kreuz",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 24 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": []
     }
   ]
 }
