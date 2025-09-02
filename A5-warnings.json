@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-09-02_14-07-23-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-09-02_14-07-23-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.2874126298635,7.785886816752211,48.361804041740605,7.797675185526309",
-      "point": "48.2874126298635,7.785886816752211",
+      "extent": "48.27966858434674,7.781961711703294,48.335311009934905,7.788898096824412",
+      "point": "48.27966858434674,7.781961711703294",
       "startLcPosition": "34",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Ettenheim - Schutter",
+      "title": "A5 | Ettenheim - Lahr",
       "startTimestamp": "2025-09-02T14:07:23+02:00",
-      "delayTimeValue": "70",
+      "delayTimeValue": "39",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6.800000190734863",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 48.2874126298635,
-        "long": 7.785886816752211
+        "lat": 48.27966858434674,
+        "long": 7.781961711703294
       },
       "description": [
         "Beginn: 02.09.25 um 14:07 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 02.09.2025, 14:07",
-        "A5: Basel -> Karlsruhe, zwischen 1.1 km hinter AS Ettenheim und 6.3 km vor Schutter",
+        "Angespannte Verkehrslage, seit 02.09.2025, 14:07",
+        "A5: Basel -> Karlsruhe, zwischen 0.2 km hinter AS Ettenheim und 2.7 km vor AS Lahr",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 70 Minuten",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
+        "Reisezeitverlust: 39 Minuten",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.785886817,
-            48.28741263
+            7.781961712,
+            48.279668584
+          ],
+          [
+            7.7823856,
+            48.280383701
+          ],
+          [
+            7.7831246,
+            48.281694901
+          ],
+          [
+            7.7837068,
+            48.282784001
+          ],
+          [
+            7.7845339,
+            48.284414401
+          ],
+          [
+            7.7854082,
+            48.286277601
           ],
           [
             7.7860438,
@@ -161,68 +181,96 @@
             48.335218401
           ],
           [
-            7.7887539,
-            48.336827901
+            7.788898097,
+            48.33531101
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-02_14-21-09-000.f_012.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.279735503780216,7.782001377937665,48.279735503780216,7.782001377937665",
+      "point": "48.279735503780216,7.782001377937665",
+      "startLcPosition": "35",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Mahlberg - Mahlberg",
+      "startTimestamp": "2025-09-02T15:46:51+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "9",
+      "coordinate": {
+        "lat": 48.279735503780216,
+        "long": 7.782001377937665
+      },
+      "description": [
+        "Beginn: 02.09.25 um 15:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 02.09.2025, 15:46",
+        "A5: Basel -> Karlsruhe, 3.3 km vor Mahlberg, aus Richtung Ettenheim",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.782001378,
+            48.279735504
           ],
           [
-            7.78873,
-            48.337288701
-          ],
+            7.782001378,
+            48.279735504
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-09-02_14-56-45-000.f_009.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.349774136434355,7.790501464166275,48.44094444327288,7.897814600180286",
+      "point": "48.349774136434355,7.790501464166275",
+      "startLcPosition": "35",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Mahlberg - Offenburg",
+      "startTimestamp": "2025-09-02T14:56:45+02:00",
+      "delayTimeValue": "79",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "9.199999809265137",
+      "coordinate": {
+        "lat": 48.349774136434355,
+        "long": 7.790501464166275
+      },
+      "description": [
+        "Beginn: 02.09.25 um 14:56 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 02.09.2025, 14:56",
+        "A5: Basel -> Karlsruhe, zwischen 4.6 km hinter Mahlberg und 3.5 km vor AS Offenburg",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 79 Minuten",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            7.7886731,
-            48.338181301
-          ],
-          [
-            7.7886805,
-            48.339083301
-          ],
-          [
-            7.7887124,
-            48.340382901
-          ],
-          [
-            7.788766,
-            48.341700601
-          ],
-          [
-            7.7888856,
-            48.342944401
-          ],
-          [
-            7.7890278,
-            48.344038501
-          ],
-          [
-            7.7892567,
-            48.345245901
-          ],
-          [
-            7.7895027,
-            48.346413301
-          ],
-          [
-            7.789746,
-            48.347391501
-          ],
-          [
-            7.7899695,
-            48.348154601
-          ],
-          [
-            7.7900567,
-            48.348438401
-          ],
-          [
-            7.7901523,
-            48.348729301
-          ],
-          [
-            7.7902483,
-            48.349023701
-          ],
-          [
-            7.7903513,
-            48.349347801
+            7.790501464,
+            48.349774136
           ],
           [
             7.7905384,
@@ -301,119 +349,6 @@
             48.361556501
           ],
           [
-            7.797675186,
-            48.361804042
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-02_14-21-09-000.f_012.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.287438608229024,7.785897771511372,48.287438608229024,7.785897771511372",
-      "point": "48.287438608229024,7.785897771511372",
-      "startLcPosition": "35",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Mahlberg - Mahlberg",
-      "startTimestamp": "2025-09-02T15:35:50+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "7",
-      "coordinate": {
-        "lat": 48.287438608229024,
-        "long": 7.785897771511372
-      },
-      "description": [
-        "Beginn: 02.09.25 um 15:35 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 02.09.2025, 15:35",
-        "A5: Basel -> Karlsruhe, 2.4 km vor Mahlberg, aus Richtung Ettenheim",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 7 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.785897772,
-            48.287438608
-          ],
-          [
-            7.785897772,
-            48.287438608
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-unf.2025-09-02_13-07-05-000.f_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.35661038212837,7.793835085353948,48.46869694435123,7.904851987358861",
-      "point": "48.35661038212837,7.793835085353948",
-      "startLcPosition": "35",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Mahlberg - Offenburg",
-      "startTimestamp": "2025-09-02T13:07:05+02:00",
-      "coordinate": {
-        "lat": 48.35661038212837,
-        "long": 7.793835085353948
-      },
-      "description": [
-        "Beginn: 02.09.25 um 13:07 Uhr",
-        "",
-        "Unfall, seit 02.09.2025, 13:07",
-        "A5: Basel -> Karlsruhe, zwischen 5.4 km hinter Mahlberg und 0.3 km vor AS Offenburg"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.793835085,
-            48.356610382
-          ],
-          [
-            7.7943915,
-            48.357487901
-          ],
-          [
-            7.7944817,
-            48.357623901
-          ],
-          [
-            7.7948989,
-            48.358221501
-          ],
-          [
-            7.795515,
-            48.359103801
-          ],
-          [
-            7.7962811,
-            48.360114501
-          ],
-          [
-            7.7966276,
-            48.360560701
-          ],
-          [
-            7.7974547,
-            48.361556501
-          ],
-          [
             7.7982559,
             48.362456001
           ],
@@ -784,6 +719,117 @@
           [
             7.8937819,
             48.434598201
+          ],
+          [
+            7.8943951,
+            48.435479801
+          ],
+          [
+            7.8950652,
+            48.436475001
+          ],
+          [
+            7.8956394,
+            48.437348601
+          ],
+          [
+            7.8962055,
+            48.438248401
+          ],
+          [
+            7.8968384,
+            48.439280501
+          ],
+          [
+            7.8974872,
+            48.440374601
+          ],
+          [
+            7.8978146,
+            48.440944443
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-02_14-56-45-000.f_017.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.3499835636903,7.790578645097612,48.3499835636903,7.790578645097612",
+      "point": "48.3499835636903,7.790578645097612",
+      "startLcPosition": "36",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Lahr - Lahr",
+      "startTimestamp": "2025-09-02T15:46:51+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "9",
+      "coordinate": {
+        "lat": 48.3499835636903,
+        "long": 7.790578645097612
+      },
+      "description": [
+        "Beginn: 02.09.25 um 15:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 02.09.2025, 15:46",
+        "A5: Basel -> Karlsruhe, 1.1 km vor AS Lahr, aus Richtung Mahlberg",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.790578645,
+            48.349983564
+          ],
+          [
+            7.790578645,
+            48.349983564
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-09-02_13-07-05-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.43528499508173,7.89425960008796,48.4485647464177,7.90157954840467",
+      "point": "48.43528499508173,7.89425960008796",
+      "startLcPosition": "38",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Unditz - Offenburg",
+      "startTimestamp": "2025-09-02T13:07:05+02:00",
+      "coordinate": {
+        "lat": 48.43528499508173,
+        "long": 7.89425960008796
+      },
+      "description": [
+        "Beginn: 02.09.25 um 13:07 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 02.09.2025, 13:07",
+        "A5: Basel -> Karlsruhe, zwischen 4.6 km hinter Unditz und 2.6 km vor AS Offenburg",
+        "",
+        "A5 Basel Richtung Karlsruhe zwischen Lahr und Offenburg Bergungsarbeiten, Standstreifen gesperrt, rechter Fahrstreifen gesperrt"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8942596,
+            48.435284995
           ],
           [
             7.8943951,
@@ -858,927 +904,8 @@
             48.448503501
           ],
           [
-            7.9017322,
-            48.448916901
-          ],
-          [
-            7.9019883,
-            48.449554301
-          ],
-          [
-            7.9024309,
-            48.450659401
-          ],
-          [
-            7.9025614,
-            48.451014501
-          ],
-          [
-            7.9027132,
-            48.451390401
-          ],
-          [
-            7.9031795,
-            48.452573001
-          ],
-          [
-            7.9031892,
-            48.452715201
-          ],
-          [
-            7.9032903,
-            48.453021501
-          ],
-          [
-            7.9034247,
-            48.453432501
-          ],
-          [
-            7.9035406,
-            48.453787001
-          ],
-          [
-            7.9038808,
-            48.454904901
-          ],
-          [
-            7.9039769,
-            48.455220301
-          ],
-          [
-            7.9040657,
-            48.455531701
-          ],
-          [
-            7.9042429,
-            48.456182101
-          ],
-          [
-            7.9044955,
-            48.457215001
-          ],
-          [
-            7.9046409,
-            48.457867201
-          ],
-          [
-            7.9047558,
-            48.458491401
-          ],
-          [
-            7.9048676,
-            48.459140501
-          ],
-          [
-            7.9049535,
-            48.459724301
-          ],
-          [
-            7.90506,
-            48.460541401
-          ],
-          [
-            7.9051394,
-            48.461302701
-          ],
-          [
-            7.9052041,
-            48.462398601
-          ],
-          [
-            7.9052375,
-            48.463148901
-          ],
-          [
-            7.9052495,
-            48.463747401
-          ],
-          [
-            7.905232,
-            48.464768901
-          ],
-          [
-            7.905205,
-            48.465436401
-          ],
-          [
-            7.9051934,
-            48.465599101
-          ],
-          [
-            7.9051226,
-            48.466562701
-          ],
-          [
-            7.9049909,
-            48.467775001
-          ],
-          [
-            7.904851987,
-            48.468696944
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-unf.2025-09-02_13-23-11-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.35939944414596,7.795739090941543,48.39771188349661,7.846745284625132",
-      "point": "48.35939944414596,7.795739090941543",
-      "startLcPosition": "36",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Lahr - Schutter",
-      "startTimestamp": "2025-09-02T13:23:11+02:00",
-      "coordinate": {
-        "lat": 48.35939944414596,
-        "long": 7.795739090941543
-      },
-      "description": [
-        "Beginn: 02.09.25 um 13:23 Uhr",
-        "",
-        "Unfall, seit 02.09.2025, 13:23",
-        "A5: Basel -> Karlsruhe, zwischen AS Lahr und 0.9 km vor Schutter"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.795739091,
-            48.359399444
-          ],
-          [
-            7.7962811,
-            48.360114501
-          ],
-          [
-            7.7966276,
-            48.360560701
-          ],
-          [
-            7.7974547,
-            48.361556501
-          ],
-          [
-            7.7982559,
-            48.362456001
-          ],
-          [
-            7.7989468,
-            48.363214201
-          ],
-          [
-            7.8000872,
-            48.364380501
-          ],
-          [
-            7.8003255,
-            48.364616501
-          ],
-          [
-            7.8013678,
-            48.365615301
-          ],
-          [
-            7.8020161,
-            48.366215101
-          ],
-          [
-            7.8024782,
-            48.366634401
-          ],
-          [
-            7.8029398,
-            48.367044401
-          ],
-          [
-            7.8034175,
-            48.367463801
-          ],
-          [
-            7.803955,
-            48.367918101
-          ],
-          [
-            7.8045588,
-            48.368430501
-          ],
-          [
-            7.8062986,
-            48.369898001
-          ],
-          [
-            7.8077196,
-            48.371064201
-          ],
-          [
-            7.8105181,
-            48.373360301
-          ],
-          [
-            7.8123631,
-            48.374824501
-          ],
-          [
-            7.8136186,
-            48.375815301
-          ],
-          [
-            7.8153061,
-            48.377118701
-          ],
-          [
-            7.8175331,
-            48.378838301
-          ],
-          [
-            7.8203802,
-            48.380963401
-          ],
-          [
-            7.8224945,
-            48.382537001
-          ],
-          [
-            7.8251321,
-            48.384450001
-          ],
-          [
-            7.8280576,
-            48.386485401
-          ],
-          [
-            7.8293569,
-            48.387366401
-          ],
-          [
-            7.8322,
-            48.389221201
-          ],
-          [
-            7.832737,
-            48.389567501
-          ],
-          [
-            7.8339217,
-            48.390301901
-          ],
-          [
-            7.8364604,
-            48.391859401
-          ],
-          [
-            7.8383359,
-            48.392988901
-          ],
-          [
-            7.8399418,
-            48.393940601
-          ],
-          [
-            7.8409465,
-            48.394497601
-          ],
-          [
-            7.8428298,
-            48.395586701
-          ],
-          [
-            7.8445509,
-            48.396521301
-          ],
-          [
-            7.8448006,
-            48.396656901
-          ],
-          [
-            7.8450409,
-            48.396787401
-          ],
-          [
-            7.8458242,
-            48.397212701
-          ],
-          [
-            7.846745285,
-            48.397711883
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-09-02_14-56-45-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.39063262417893,7.834460753062479,48.44092763787254,7.897804944606799",
-      "point": "48.39063262417893,7.834460753062479",
-      "startLcPosition": "36",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Lahr - Offenburg",
-      "startTimestamp": "2025-09-02T14:56:45+02:00",
-      "delayTimeValue": "46",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8.800000190734863",
-      "coordinate": {
-        "lat": 48.39063262417893,
-        "long": 7.834460753062479
-      },
-      "description": [
-        "Beginn: 02.09.25 um 14:56 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 02.09.2025, 14:56",
-        "A5: Basel -> Karlsruhe, zwischen 4.6 km hinter AS Lahr und 3.5 km vor AS Offenburg",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 46 Minuten",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.834460753,
-            48.390632624
-          ],
-          [
-            7.8364604,
-            48.391859401
-          ],
-          [
-            7.8383359,
-            48.392988901
-          ],
-          [
-            7.8399418,
-            48.393940601
-          ],
-          [
-            7.8409465,
-            48.394497601
-          ],
-          [
-            7.8428298,
-            48.395586701
-          ],
-          [
-            7.8445509,
-            48.396521301
-          ],
-          [
-            7.8448006,
-            48.396656901
-          ],
-          [
-            7.8450409,
-            48.396787401
-          ],
-          [
-            7.8458242,
-            48.397212701
-          ],
-          [
-            7.8471795,
-            48.397947201
-          ],
-          [
-            7.8475619,
-            48.398154401
-          ],
-          [
-            7.848504,
-            48.398654601
-          ],
-          [
-            7.8500896,
-            48.399497501
-          ],
-          [
-            7.8525149,
-            48.400775001
-          ],
-          [
-            7.8527475,
-            48.400897301
-          ],
-          [
-            7.8538504,
-            48.401452201
-          ],
-          [
-            7.8540764,
-            48.401575801
-          ],
-          [
-            7.8543506,
-            48.401732601
-          ],
-          [
-            7.8558123,
-            48.402501301
-          ],
-          [
-            7.8571573,
-            48.403238101
-          ],
-          [
-            7.8578963,
-            48.403636401
-          ],
-          [
-            7.8590171,
-            48.404269501
-          ],
-          [
-            7.8610195,
-            48.405421901
-          ],
-          [
-            7.8617402,
-            48.405842601
-          ],
-          [
-            7.8625282,
-            48.406319501
-          ],
-          [
-            7.8642418,
-            48.407379801
-          ],
-          [
-            7.865807,
-            48.408386201
-          ],
-          [
-            7.8666259,
-            48.408917001
-          ],
-          [
-            7.8673586,
-            48.409409601
-          ],
-          [
-            7.8680008,
-            48.409839601
-          ],
-          [
-            7.8686619,
-            48.410298201
-          ],
-          [
-            7.870005,
-            48.411237701
-          ],
-          [
-            7.8714839,
-            48.412308201
-          ],
-          [
-            7.8721793,
-            48.412821801
-          ],
-          [
-            7.8729833,
-            48.413427801
-          ],
-          [
-            7.8736247,
-            48.413915601
-          ],
-          [
-            7.874395,
-            48.414513301
-          ],
-          [
-            7.8750157,
-            48.415007501
-          ],
-          [
-            7.8756358,
-            48.415501901
-          ],
-          [
-            7.8764671,
-            48.416182601
-          ],
-          [
-            7.8771165,
-            48.416718001
-          ],
-          [
-            7.8778263,
-            48.417311501
-          ],
-          [
-            7.8784572,
-            48.417856701
-          ],
-          [
-            7.879051,
-            48.418374101
-          ],
-          [
-            7.879731,
-            48.418976801
-          ],
-          [
-            7.880454,
-            48.419623401
-          ],
-          [
-            7.8807791,
-            48.419924401
-          ],
-          [
-            7.8811544,
-            48.420279601
-          ],
-          [
-            7.8817664,
-            48.420839501
-          ],
-          [
-            7.8823252,
-            48.421371901
-          ],
-          [
-            7.8830001,
-            48.422027601
-          ],
-          [
-            7.8840606,
-            48.423081001
-          ],
-          [
-            7.8852935,
-            48.424345801
-          ],
-          [
-            7.8862961,
-            48.425400801
-          ],
-          [
-            7.8869161,
-            48.426076501
-          ],
-          [
-            7.8874147,
-            48.426630801
-          ],
-          [
-            7.8880497,
-            48.427341801
-          ],
-          [
-            7.888547,
-            48.427915201
-          ],
-          [
-            7.8894318,
-            48.428937901
-          ],
-          [
-            7.8900661,
-            48.429712301
-          ],
-          [
-            7.8906931,
-            48.430487801
-          ],
-          [
-            7.8913214,
-            48.431274601
-          ],
-          [
-            7.8916555,
-            48.431708001
-          ],
-          [
-            7.8919364,
-            48.432080801
-          ],
-          [
-            7.8924946,
-            48.432821501
-          ],
-          [
-            7.8930214,
-            48.433535501
-          ],
-          [
-            7.8937819,
-            48.434598201
-          ],
-          [
-            7.8943951,
-            48.435479801
-          ],
-          [
-            7.8950652,
-            48.436475001
-          ],
-          [
-            7.8956394,
-            48.437348601
-          ],
-          [
-            7.8962055,
-            48.438248401
-          ],
-          [
-            7.8968384,
-            48.439280501
-          ],
-          [
-            7.8974872,
-            48.440374601
-          ],
-          [
-            7.897804945,
-            48.440927638
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-09-02_15-33-13-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.370861780276805,7.8074729468134105,48.37688174380164,7.814999305020588",
-      "point": "48.370861780276805,7.8074729468134105",
-      "startLcPosition": "36",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Lahr - Schutter",
-      "startTimestamp": "2025-09-02T15:33:13+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52.20000076293945",
-      "coordinate": {
-        "lat": 48.370861780276805,
-        "long": 7.8074729468134105
-      },
-      "description": [
-        "Beginn: 02.09.25 um 15:33 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 02.09.2025, 15:33",
-        "A5: Basel -> Karlsruhe, zwischen 1.6 km hinter AS Lahr und 4.2 km vor Schutter",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 52 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.807472947,
-            48.37086178
-          ],
-          [
-            7.8077196,
-            48.371064201
-          ],
-          [
-            7.8105181,
-            48.373360301
-          ],
-          [
-            7.8123631,
-            48.374824501
-          ],
-          [
-            7.8136186,
-            48.375815301
-          ],
-          [
-            7.814999305,
-            48.376881744
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-02_14-56-45-000.f_017.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.39078499455758,7.834709108609118,48.39078499455758,7.834709108609118",
-      "point": "48.39078499455758,7.834709108609118",
-      "startLcPosition": "37",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Schutter - Schutter",
-      "startTimestamp": "2025-09-02T15:35:50+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9",
-      "coordinate": {
-        "lat": 48.39078499455758,
-        "long": 7.834709108609118
-      },
-      "description": [
-        "Beginn: 02.09.25 um 15:35 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 02.09.2025, 15:35",
-        "A5: Basel -> Karlsruhe, 2.0 km vor Schutter, aus Richtung Lahr",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.834709109,
-            48.390784995
-          ],
-          [
-            7.834709109,
-            48.390784995
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-02_15-34-02-000.f_010.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.44865198304714,7.901431685740731,48.44865198304714,7.901431685740731",
-      "point": "48.44865198304714,7.901431685740731",
-      "startLcPosition": "38",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Unditz - Unditz",
-      "startTimestamp": "2025-09-02T15:34:02+02:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 48.44865198304714,
-        "long": 7.901431685740731
-      },
-      "description": [
-        "Beginn: 02.09.25 um 15:34 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 02.09.2025, 15:34",
-        "A5: Karlsruhe -> Basel, 6.2 km vor Unditz, aus Richtung Offenburg",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.901431686,
-            48.448651983
-          ],
-          [
-            7.901431686,
-            48.448651983
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-02_13-47-29-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.45063193302247,7.902182126829674,48.43835032986364,7.896080763251357",
-      "point": "48.45063193302247,7.902182126829674",
-      "startLcPosition": "39",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Offenburg - Unditz",
-      "startTimestamp": "2025-09-02T13:47:29+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "34.099998474121094",
-      "coordinate": {
-        "lat": 48.45063193302247,
-        "long": 7.902182126829674
-      },
-      "description": [
-        "Beginn: 02.09.25 um 13:47 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 02.09.2025, 13:47",
-        "A5: Karlsruhe -> Basel, zwischen 2.3 km hinter AS Offenburg und 5.0 km vor Unditz",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 34 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.902182127,
-            48.450631933
-          ],
-          [
-            7.9021059,
-            48.450437001
-          ],
-          [
-            7.9019115,
-            48.449923001
-          ],
-          [
-            7.9016448,
-            48.449182401
-          ],
-          [
-            7.9015253,
-            48.448881601
-          ],
-          [
-            7.9013409,
-            48.448429301
-          ],
-          [
-            7.9011431,
-            48.447963901
-          ],
-          [
-            7.9010143,
-            48.447657101
-          ],
-          [
-            7.9006945,
-            48.446967001
-          ],
-          [
-            7.9004383,
-            48.446382401
-          ],
-          [
-            7.900148,
-            48.445760601
-          ],
-          [
-            7.8995467,
-            48.444534001
-          ],
-          [
-            7.8993391,
-            48.444119901
-          ],
-          [
-            7.8990836,
-            48.443617401
-          ],
-          [
-            7.8986029,
-            48.442702101
-          ],
-          [
-            7.8982792,
-            48.442101901
-          ],
-          [
-            7.8979678,
-            48.441538201
-          ],
-          [
-            7.8973444,
-            48.440437801
-          ],
-          [
-            7.8966569,
-            48.439284501
-          ],
-          [
-            7.896080763,
-            48.43835033
+            7.901579548,
+            48.448564746
           ]
         ]
       }
@@ -1788,29 +915,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.892826696358995,8.60468502533367,49.85892356446837,8.597874126542264",
-      "point": "49.892826696358995,8.60468502533367",
+      "extent": "49.89411233279444,8.604938194366508,49.85892356446837,8.597874126542264",
+      "point": "49.89411233279444,8.604938194366508",
       "startLcPosition": "96",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Heidelberg",
       "title": "A5 | Weiterstadt - Darmstädter Kreuz",
       "startTimestamp": "2025-09-02T14:12:48+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "38",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40.70000076293945",
       "coordinate": {
-        "lat": 49.892826696358995,
-        "long": 8.60468502533367
+        "lat": 49.89411233279444,
+        "long": 8.604938194366508
       },
       "description": [
         "Beginn: 02.09.25 um 14:12 Uhr",
         "",
         "Angespannte Verkehrslage, seit 02.09.2025, 14:12",
-        "A5: Frankfurt -> Heidelberg, zwischen 0.7 km hinter AS Weiterstadt und 0.2 km vor AK Darmstädter Kreuz",
+        "A5: Frankfurt -> Heidelberg, zwischen 0.5 km hinter AS Weiterstadt und 0.2 km vor AK Darmstädter Kreuz",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 38 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1820,8 +947,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.604685025,
-            49.892826696
+            8.604938194,
+            49.894112333
+          ],
+          [
+            8.6047401,
+            49.893112301
           ],
           [
             8.604347,
@@ -1927,29 +1058,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.08624730094076,8.618310899999898,50.13614408783087,8.591703757034646",
-      "point": "50.08624730094076,8.618310899999898",
-      "startLcPosition": "107",
+      "extent": "50.09667875950393,8.614648346026055,50.13606770192814,8.591662094259892",
+      "point": "50.09667875950393,8.614648346026055",
+      "startLcPosition": "108",
       "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Kassel",
-      "title": "A5 | Frankfurt am Main-Niederrad - Taunusblick",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Frankfurt am Main-Westhafen - Taunusblick",
       "startTimestamp": "2025-09-02T15:00:58+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "57.20000076293945",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "43.400001525878906",
       "coordinate": {
-        "lat": 50.08624730094076,
-        "long": 8.618310899999898
+        "lat": 50.09667875950393,
+        "long": 8.614648346026055
       },
       "description": [
         "Beginn: 02.09.25 um 15:00 Uhr",
         "",
         "Angespannte Verkehrslage, seit 02.09.2025, 15:00",
-        "A5: Darmstadt -> Kassel, zwischen 0.1 km hinter AS Frankfurt am Main-Niederrad und 2.2 km vor Taunusblick",
+        "A5: Frankfurt -> Kassel, zwischen 0.4 km hinter AS Frankfurt am Main-Westhafen und 2.2 km vor Taunusblick",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 57 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 43 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1959,80 +1090,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.6183109,
-            50.086247301
-          ],
-          [
-            8.6181074,
-            50.087301201
-          ],
-          [
-            8.6179955,
-            50.087801601
-          ],
-          [
-            8.6174359,
-            50.090562201
-          ],
-          [
-            8.6173497,
-            50.090961801
-          ],
-          [
-            8.617266,
-            50.091457201
-          ],
-          [
-            8.6172349,
-            50.091598401
-          ],
-          [
-            8.6171236,
-            50.092008901
-          ],
-          [
-            8.6170121,
-            50.092390101
-          ],
-          [
-            8.6169507,
-            50.092578801
-          ],
-          [
-            8.6166496,
-            50.093371501
-          ],
-          [
-            8.6166146,
-            50.093459501
-          ],
-          [
-            8.6163255,
-            50.093996801
-          ],
-          [
-            8.6161221,
-            50.094483101
-          ],
-          [
-            8.6159264,
-            50.094837501
-          ],
-          [
-            8.6157233,
-            50.095185901
-          ],
-          [
-            8.6154524,
-            50.095612801
-          ],
-          [
-            8.615055,
-            50.096196801
-          ],
-          [
-            8.6148396,
-            50.096479901
+            8.614648346,
+            50.09667876
           ],
           [
             8.6146057,
@@ -2379,100 +1438,8 @@
             50.135428201
           ],
           [
-            8.591703757,
-            50.136144088
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-03_15-15-00-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.10005888422666,8.611227576420115,50.10016586320458,8.611099796432686",
-      "point": "50.10005888422666,8.611227576420115",
-      "startLcPosition": "108",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Frankfurt am Main-Westhafen - Westkreuz Frankfurt am Main",
-      "startTimestamp": "2025-09-03T15:15:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "48",
-      "coordinate": {
-        "lat": 50.10005888422666,
-        "long": 8.611227576420115
-      },
-      "description": [
-        "Beginn: 03.09.25 um 15:15 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 03.09.2025, 15:15",
-        "A5: Frankfurt -> Kassel, zwischen 0.9 km hinter AS Frankfurt am Main-Westhafen und 1.8 km vor AK Westkreuz Frankfurt am Main",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 48 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.611227576,
-            50.100058884
-          ],
-          [
-            8.611099796,
-            50.100165863
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-09-02_14-30-13-000.f_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.749381618535104,9.299193451126582,50.74832900104437,9.298295847199485",
-      "point": "50.749381618535104,9.299193451126582",
-      "startLcPosition": "135",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Alsfeld-Ost - Alsfeld-West",
-      "startTimestamp": "2025-09-02T14:30:13+02:00",
-      "coordinate": {
-        "lat": 50.749381618535104,
-        "long": 9.299193451126582
-      },
-      "description": [
-        "Beginn: 02.09.25 um 14:30 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 02.09.2025, 14:30",
-        "A5: Kassel -> Frankfurt, zwischen 0.1 km hinter AS Alsfeld-Ost und 4.4 km vor AS Alsfeld-West",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.299193451,
-            50.749381619
-          ],
-          [
-            9.29905,
-            50.749215301
-          ],
-          [
-            9.298295847,
-            50.748329001
+            8.591662094,
+            50.136067702
           ]
         ]
       }
