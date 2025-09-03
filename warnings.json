@@ -12,9 +12,9 @@
       "subtitle": " Passau -> Nürnberg",
       "title": "A3 | Seebach - Deggendorf",
       "startTimestamp": "2025-09-03T19:00:42+02:00",
-      "delayTimeValue": "5",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "19.200000762939453",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "31",
       "coordinate": {
         "lat": 48.796265674849984,
         "long": 12.994083782761614
@@ -25,9 +25,9 @@
         "Angespannte Verkehrslage, seit 03.09.2025, 19:00",
         "A3: Passau -> Nürnberg, zwischen 1.5 km hinter Seebach und 2.6 km vor AK Deggendorf",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 5 Minuten",
-        "Durchschnittsgeschwindigkeit: 19 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 31 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -88,31 +88,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-03_19-14-08-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-09-03_19-35-32-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.79563386732766,12.995198894927572,48.79563386732766,12.995198894927572",
-      "point": "48.79563386732766,12.995198894927572",
-      "startLcPosition": "25",
+      "extent": "50.053025039855676,8.603206293967254,50.053137229902035,8.600866081092754",
+      "point": "50.053025039855676,8.603206293967254",
+      "startLcPosition": "162",
       "display_type": "WARNING",
-      "subtitle": " Passau -> Nürnberg",
-      "title": "A3 | Isarblick - Isarblick",
-      "startTimestamp": "2025-09-03T19:26:08+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Frankfurter Kreuz - Frankfurt am Main-Flughafen",
+      "startTimestamp": "2025-09-03T19:35:32+02:00",
       "coordinate": {
-        "lat": 48.79563386732766,
-        "long": 12.995198894927572
+        "lat": 50.053025039855676,
+        "long": 8.603206293967254
       },
       "description": [
-        "Beginn: 03.09.25 um 19:26 Uhr",
+        "Beginn: 03.09.25 um 19:35 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 03.09.2025, 19:26",
-        "A3: Passau -> Nürnberg, 1.6 km vor Isarblick, aus Richtung Seebach",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Fahrzeug-Hindernis, seit 03.09.2025, 19:35",
+        "A3: Frankfurt -> Köln, zwischen 0.1 km hinter AK Frankfurter Kreuz und 1.3 km vor AS Frankfurt am Main-Flughafen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -122,12 +118,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            12.995198895,
-            48.795633867
+            8.603206294,
+            50.05302504
           ],
           [
-            12.995198895,
-            48.795633867
+            8.602362,
+            50.053069301
+          ],
+          [
+            8.6010342,
+            50.053130801
+          ],
+          [
+            8.600866081,
+            50.05313723
           ]
         ]
       }
@@ -137,27 +141,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.046130914899095,8.542779683042045,50.046130914899095,8.542779683042045",
-      "point": "50.046130914899095,8.542779683042045",
+      "extent": "50.04666783456849,8.54418492222281,50.04666783456849,8.54418492222281",
+      "point": "50.04666783456849,8.54418492222281",
       "startLcPosition": "164",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Kelsterbach - Kelsterbach",
-      "startTimestamp": "2025-09-03T19:27:13+02:00",
+      "startTimestamp": "2025-09-03T19:37:00+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9",
+      "averageSpeed": "10",
       "coordinate": {
-        "lat": 50.046130914899095,
-        "long": 8.542779683042045
+        "lat": 50.04666783456849,
+        "long": 8.54418492222281
       },
       "description": [
-        "Beginn: 03.09.25 um 19:27 Uhr",
+        "Beginn: 03.09.25 um 19:37 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 03.09.2025, 19:27",
-        "A3: Köln -> Frankfurt, 0.1 km vor AS Kelsterbach, aus Richtung Mönchhof-Dreieck",
+        "Angespannte Verkehrslage, seit 03.09.2025, 19:37",
+        "A3: Köln -> Frankfurt, in Höhe AS Kelsterbach, aus Richtung Mönchhof-Dreieck",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -167,12 +171,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.542779683,
-            50.046130915
+            8.544184922,
+            50.046667835
           ],
           [
-            8.542779683,
-            50.046130915
+            8.544184922,
+            50.046667835
           ]
         ]
       }
@@ -182,29 +186,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.046130914899095,8.542779683042045,50.060912532918834,8.66094918407514",
-      "point": "50.046130914899095,8.542779683042045",
+      "extent": "50.04666783456849,8.54418492222281,50.060912532918834,8.66094918407514",
+      "point": "50.04666783456849,8.54418492222281",
       "startLcPosition": "165",
       "display_type": "WARNING",
       "subtitle": " Köln -> Würzburg",
       "title": "A3 | Mönchhof-Dreieck - Offenbacher Kreuz",
       "startTimestamp": "2025-09-03T15:41:51+02:00",
-      "delayTimeValue": "61",
+      "delayTimeValue": "46",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8",
+      "averageSpeed": "10.399999618530273",
       "coordinate": {
-        "lat": 50.046130914899095,
-        "long": 8.542779683042045
+        "lat": 50.04666783456849,
+        "long": 8.54418492222281
       },
       "description": [
         "Beginn: 03.09.25 um 15:41 Uhr",
         "",
         "Angespannte Verkehrslage, seit 03.09.2025, 15:41",
-        "A3: Köln -> Würzburg, zwischen 4.2 km hinter AD Mönchhof-Dreieck und 4.8 km vor AK Offenbacher Kreuz",
+        "A3: Köln -> Würzburg, zwischen 4.4 km hinter AD Mönchhof-Dreieck und 4.8 km vor AK Offenbacher Kreuz",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 61 Minuten",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
+        "Reisezeitverlust: 46 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -214,16 +218,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.542779683,
-            50.046130915
-          ],
-          [
-            8.5431127,
-            50.046262101
-          ],
-          [
-            8.5439728,
-            50.046591501
+            8.544184922,
+            50.046667835
           ],
           [
             8.5449168,
@@ -684,105 +680,6 @@
           [
             8.660949184,
             50.060912533
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-03_11-56-24-000.f_008.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.665381288592286,7.3152285534670405,50.65559364533169,7.325345979745644",
-      "point": "50.665381288592286,7.3152285534670405",
-      "startLcPosition": "199",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Logebachtal - Bad Honnef/Linz",
-      "startTimestamp": "2025-09-03T11:56:24+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "40.400001525878906",
-      "coordinate": {
-        "lat": 50.665381288592286,
-        "long": 7.3152285534670405
-      },
-      "description": [
-        "Beginn: 03.09.25 um 11:56 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 03.09.2025, 11:56",
-        "A3: Köln -> Frankfurt, zwischen 1.7 km hinter Logebachtal und 0.7 km vor AS Bad Honnef/Linz",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 40 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.315228553,
-            50.665381289
-          ],
-          [
-            7.3153918,
-            50.665290401
-          ],
-          [
-            7.3161265,
-            50.664895801
-          ],
-          [
-            7.3167362,
-            50.664525901
-          ],
-          [
-            7.3174382,
-            50.664083901
-          ],
-          [
-            7.3179886,
-            50.663664201
-          ],
-          [
-            7.3186243,
-            50.663167801
-          ],
-          [
-            7.3191675,
-            50.662659101
-          ],
-          [
-            7.3193976,
-            50.662434901
-          ],
-          [
-            7.3198739,
-            50.661985001
-          ],
-          [
-            7.3211031,
-            50.660569901
-          ],
-          [
-            7.3222819,
-            50.659172901
-          ],
-          [
-            7.3246568,
-            50.656388601
-          ],
-          [
-            7.3251767,
-            50.655791001
-          ],
-          [
-            7.32534598,
-            50.655593645
           ]
         ]
       }
