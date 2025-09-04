@@ -515,7 +515,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-09-04_22-00-30-000.f_001.de0",
+      "identifier": "undefined--vi-zus.2025-09-04_22-00-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -537,6 +537,8 @@
         "A5: Karlsruhe -> Heidelberg, zwischen 0.5 km hinter AS Bruchsal und 0.3 km vor AS Kronau",
         "",
         "Gefahr durch Personen auf der Fahrbahn",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn",
         "",
         "A5 Karlsruhe Richtung Heidelberg zwischen Bruchsal und Kronau Gefahr durch defekten PKW auf dem Standstreifen, Gefahr durch Personen auf dem Standstreifen"
       ],
@@ -1187,7 +1189,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-09-04_21-00-30-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-09-04_21-00-30-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1206,8 +1208,7 @@
         "Beginn: 04.09.25 um 21:00 Uhr",
         "",
         "Fahrzeug-Hindernis, seit 04.09.2025, 21:00",
-        "A5: Frankfurt -> Darmstadt, zwischen 0.7 km hinter AK Frankfurter Kreuz und 0.5 km vor AS Zeppelinheim",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "A5: Frankfurt -> Darmstadt, zwischen 0.7 km hinter AK Frankfurter Kreuz und 0.5 km vor AS Zeppelinheim"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1236,33 +1237,35 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-04_22-31-00-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-09-04_22-36-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.59973813867048,8.81585737649197,50.59319990275972,8.812341355293078",
-      "point": "50.59973813867048,8.81585737649197",
+      "extent": "50.60205128676625,8.817867103674658,50.594725381803755,8.81309076395683",
+      "point": "50.60205128676625,8.817867103674658",
       "startLcPosition": "125",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Reiskirchener Dreieck - Fernwald",
-      "startTimestamp": "2025-09-04T22:31:00+02:00",
+      "startTimestamp": "2025-09-04T22:36:30+02:00",
       "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "56.20000076293945",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "45.79999923706055",
       "coordinate": {
-        "lat": 50.59973813867048,
-        "long": 8.81585737649197
+        "lat": 50.60205128676625,
+        "long": 8.817867103674658
       },
       "description": [
-        "Beginn: 04.09.25 um 22:31 Uhr",
+        "Beginn: 04.09.25 um 22:36 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 04.09.2025, 22:31",
-        "A5: Kassel -> Frankfurt, zwischen 1.3 km hinter AD Reiskirchener Dreieck und 5.8 km vor AS Fernwald",
+        "Zusammengesetzte Verkehrsinformation, seit 04.09.2025, 22:36",
+        "A5: Kassel -> Frankfurt, zwischen 1.0 km hinter AD Reiskirchener Dreieck und 6.0 km vor AS Fernwald",
         "",
-        "Langsamer Verkehr",
+        "Stockender Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 56 km/h"
+        "Durchschnittsgeschwindigkeit: 45 km/h",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1272,12 +1275,100 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.815857376,
-            50.599738139
+            8.817867104,
+            50.602051287
+          ],
+          [
+            8.8168306,
+            50.600911501
+          ],
+          [
+            8.8165094,
+            50.600541601
+          ],
+          [
+            8.8161188,
+            50.600076301
           ],
           [
             8.8157376,
             50.599583201
+          ],
+          [
+            8.8152928,
+            50.598927301
+          ],
+          [
+            8.8150721,
+            50.598588901
+          ],
+          [
+            8.8148482,
+            50.598221001
+          ],
+          [
+            8.814563,
+            50.597689201
+          ],
+          [
+            8.8140248,
+            50.596616301
+          ],
+          [
+            8.8135597,
+            50.595674601
+          ],
+          [
+            8.813299,
+            50.595146801
+          ],
+          [
+            8.8131077,
+            50.594759701
+          ],
+          [
+            8.813090764,
+            50.594725382
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-09-04_22-36-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.5990134800484,8.815351241776867,50.589154793115824,8.81036757415522",
+      "point": "50.5990134800484,8.815351241776867",
+      "startLcPosition": "125",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Reiskirchener Dreieck - Fernwald",
+      "startTimestamp": "2025-09-04T22:36:30+02:00",
+      "coordinate": {
+        "lat": 50.5990134800484,
+        "long": 8.815351241776867
+      },
+      "description": [
+        "Beginn: 04.09.25 um 22:36 Uhr",
+        "",
+        "Hindernis, seit 04.09.2025, 22:36",
+        "A5: Kassel -> Frankfurt, zwischen 1.3 km hinter AD Reiskirchener Dreieck und 5.3 km vor AS Fernwald",
+        "",
+        "Gefahr durch Personen auf der Fahrbahn",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.815351242,
+            50.59901348
           ],
           [
             8.8152928,
@@ -1320,8 +1411,20 @@
             50.593753901
           ],
           [
-            8.812341355,
-            50.593199903
+            8.8121327,
+            50.592771201
+          ],
+          [
+            8.8114629,
+            50.591393901
+          ],
+          [
+            8.8110369,
+            50.590516801
+          ],
+          [
+            8.810367574,
+            50.589154793
           ]
         ]
       }
