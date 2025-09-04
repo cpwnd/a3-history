@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-09-04_16-31-33-000.f_010.de0",
+      "identifier": "undefined--vi-hind.2025-09-04_16-31-33-000.f_011.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1334,29 +1334,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.23580797283529,8.602199880462397,49.27355645166069,8.615989066280791",
-      "point": "49.23580797283529,8.602199880462397",
+      "extent": "49.23383629775409,8.602458490516844,49.274039176576245,8.616357892511354",
+      "point": "49.23383629775409,8.602458490516844",
       "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Kronau - Walldorf",
       "startTimestamp": "2025-09-04T12:32:29+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "30.799999237060547",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "28.600000381469727",
       "coordinate": {
-        "lat": 49.23580797283529,
-        "long": 8.602199880462397
+        "lat": 49.23383629775409,
+        "long": 8.602458490516844
       },
       "description": [
         "Beginn: 04.09.25 um 12:32 Uhr",
         "",
         "Angespannte Verkehrslage, seit 04.09.2025, 12:32",
-        "A5: Karlsruhe -> Heidelberg, zwischen 1.0 km hinter AS Kronau und 0.9 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 0.8 km hinter AS Kronau und 0.8 km vor AK Walldorf",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 30 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 7 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1366,8 +1366,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.60219988,
-            49.235807973
+            8.602458491,
+            49.233836298
           ],
           [
             8.602063,
@@ -1610,8 +1610,57 @@
             49.272018001
           ],
           [
-            8.615989066,
-            49.273556452
+            8.6160344,
+            49.273612601
+          ],
+          [
+            8.616357893,
+            49.274039177
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-04_19-18-19-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.23383629775409,8.602458490516844,49.23383629775409,8.602458490516844",
+      "point": "49.23383629775409,8.602458490516844",
+      "startLcPosition": "67",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Heidelberg",
+      "title": "A5 | Mönchberg - Mönchberg",
+      "startTimestamp": "2025-09-04T19:20:58+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "29",
+      "coordinate": {
+        "lat": 49.23383629775409,
+        "long": 8.602458490516844
+      },
+      "description": [
+        "Beginn: 04.09.25 um 19:20 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 04.09.2025, 19:20",
+        "A5: Karlsruhe -> Heidelberg, 2.6 km vor Mönchberg, aus Richtung Kronau",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.602458491,
+            49.233836298
+          ],
+          [
+            8.602458491,
+            49.233836298
           ]
         ]
       }
