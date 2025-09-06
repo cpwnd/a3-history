@@ -5,29 +5,31 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.54661840130931,8.628005891430474,49.55247268589391,8.627666992770815",
-      "point": "49.54661840130931,8.628005891430474",
+      "extent": "49.540278810420666,8.629751157394328,49.55247268589391,8.627666992770815",
+      "point": "49.540278810420666,8.629751157394328",
       "startLcPosition": "78",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Darmstadt",
       "title": "A5 | Wachenburg - Hemsbach",
-      "startTimestamp": "2025-09-06T18:24:01+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52.099998474121094",
+      "startTimestamp": "2025-09-06T18:33:17+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "39.79999923706055",
       "coordinate": {
-        "lat": 49.54661840130931,
-        "long": 8.628005891430474
+        "lat": 49.540278810420666,
+        "long": 8.629751157394328
       },
       "description": [
-        "Beginn: 06.09.25 um 18:24 Uhr",
+        "Beginn: 06.09.25 um 18:33 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 06.09.2025, 18:24",
-        "A5: Heidelberg -> Darmstadt, zwischen 1.7 km hinter Wachenburg und 4.7 km vor AS Hemsbach",
+        "Zusammengesetzte Verkehrsinformation, seit 06.09.2025, 18:33",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.0 km hinter Wachenburg und 4.7 km vor AS Hemsbach",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 52 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 39 km/h",
+        "",
+        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +39,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.628005891,
-            49.546618401
+            8.629751157,
+            49.54027881
+          ],
+          [
+            8.6296844,
+            49.540463101
+          ],
+          [
+            8.6294095,
+            49.541254201
+          ],
+          [
+            8.629008,
+            49.542508601
+          ],
+          [
+            8.628498,
+            49.544296601
+          ],
+          [
+            8.6283554,
+            49.544890701
+          ],
+          [
+            8.6282754,
+            49.545255301
+          ],
+          [
+            8.6282051,
+            49.545583101
           ],
           [
             8.6279168,
@@ -260,6 +290,73 @@
           [
             8.6320987,
             49.591778801
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-06_18-38-52-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59705340958059,7.603327679473785,47.59558040094862,7.603796099999223",
+      "point": "47.59705340958059,7.603327679473785",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.83 --> km 813.00",
+      "title": "Baustelle",
+      "startTimestamp": "2025-09-06T18:38:52+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "9",
+      "coordinate": {
+        "lat": 47.59705340958059,
+        "long": 7.603327679473785
+      },
+      "description": [
+        "Beginn: 06.09.25 um 18:38 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.09.2025, 18:38",
+        "A5: km 812.83 --> km 813.00",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603327679,
+            47.59705341
+          ],
+          [
+            7.6034406,
+            47.596700101
+          ],
+          [
+            7.6035053,
+            47.596509101
+          ],
+          [
+            7.6035294,
+            47.596432001
+          ],
+          [
+            7.6035636,
+            47.596329401
+          ],
+          [
+            7.6036995,
+            47.595884401
+          ],
+          [
+            7.6037961,
+            47.595580401
           ]
         ]
       }
