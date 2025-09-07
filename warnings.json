@@ -485,29 +485,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.065118780199775,8.750633912727798,50.06435030027822,8.741719957610986",
-      "point": "50.065118780199775,8.750633912727798",
+      "extent": "50.066361295892676,8.761530108704212,50.06435245561883,8.741775745255815",
+      "point": "50.066361295892676,8.761530108704212",
       "startLcPosition": "157",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Hainbach - Offenbach",
       "startTimestamp": "2025-09-08T01:18:00+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "5.599999904632568",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "43.5",
       "coordinate": {
-        "lat": 50.065118780199775,
-        "long": 8.750633912727798
+        "lat": 50.066361295892676,
+        "long": 8.761530108704212
       },
       "description": [
         "Beginn: 08.09.25 um 01:18 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.09.2025, 01:18",
-        "A3: Würzburg -> Frankfurt, zwischen 1.0 km hinter Hainbach und 0.1 km vor AS Offenbach",
+        "A3: Würzburg -> Frankfurt, zwischen 0.2 km hinter Hainbach und 0.1 km vor AS Offenbach",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 5 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 43 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -517,8 +517,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.750633913,
-            50.06511878
+            8.761530109,
+            50.066361296
+          ],
+          [
+            8.7595086,
+            50.066128201
+          ],
+          [
+            8.7557544,
+            50.065703301
+          ],
+          [
+            8.7551705,
+            50.065637201
+          ],
+          [
+            8.7541615,
+            50.065518901
           ],
           [
             8.7504957,
@@ -557,53 +573,8 @@
             50.064361301
           ],
           [
-            8.741719958,
-            50.0643503
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-08_01-21-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.06511565822265,8.750606392364519,50.06511565822265,8.750606392364519",
-      "point": "50.06511565822265,8.750606392364519",
-      "startLcPosition": "158",
-      "display_type": "WARNING",
-      "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Offenbach - Offenbach",
-      "startTimestamp": "2025-09-08T01:30:00+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "1",
-      "coordinate": {
-        "lat": 50.06511565822265,
-        "long": 8.750606392364519
-      },
-      "description": [
-        "Beginn: 08.09.25 um 01:30 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 08.09.2025, 01:30",
-        "A3: Würzburg -> Frankfurt, 0.7 km vor AS Offenbach, aus Richtung Hainbach",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 1 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.750606392,
-            50.065115658
-          ],
-          [
-            8.750606392,
-            50.065115658
+            8.741775745,
+            50.064352456
           ]
         ]
       }
@@ -861,33 +832,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-09-07_23-01-30-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-09-07_23-01-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06457915513665,8.718628898363395,50.06131024270855,8.672989772498285",
-      "point": "50.06457915513665,8.718628898363395",
+      "extent": "50.064216397749995,8.715835568182742,50.061939268481595,8.70349584491105",
+      "point": "50.064216397749995,8.715835568182742",
       "startLcPosition": "159",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Offenbacher Kreuz - Frankfurt am Main-Süd",
       "startTimestamp": "2025-09-07T23:01:30+02:00",
-      "delayTimeValue": "9",
+      "delayTimeValue": "2",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "18.5",
+      "averageSpeed": "21.299999237060547",
       "coordinate": {
-        "lat": 50.06457915513665,
-        "long": 8.718628898363395
+        "lat": 50.064216397749995,
+        "long": 8.715835568182742
       },
       "description": [
         "Beginn: 07.09.25 um 23:01 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 07.09.2025, 23:01",
-        "A3: Würzburg -> Frankfurt, zwischen 0.6 km hinter AK Offenbacher Kreuz und 1.8 km vor AS Frankfurt am Main-Süd",
+        "A3: Würzburg -> Frankfurt, zwischen 0.8 km hinter AK Offenbacher Kreuz und 4.0 km vor AS Frankfurt am Main-Süd",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 9 Minuten",
-        "Durchschnittsgeschwindigkeit: 18 km/h"
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -897,20 +868,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.718628898,
-            50.064579155
-          ],
-          [
-            8.7185796,
-            50.064574601
-          ],
-          [
-            8.7178249,
-            50.064490001
-          ],
-          [
-            8.7168505,
-            50.064365301
+            8.715835568,
+            50.064216398
           ],
           [
             8.7151179,
@@ -945,40 +904,195 @@
             50.062010801
           ],
           [
-            8.7029247,
-            50.061849701
+            8.703495845,
+            50.061939268
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-09-07_19-30-06-000.f_011.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.061309701139734,8.672905950179379,50.057055093033355,8.64237924041231",
+      "point": "50.061309701139734,8.672905950179379",
+      "startLcPosition": "159",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Köln",
+      "title": "A3 | Offenbacher Kreuz - Stadtwald",
+      "startTimestamp": "2025-09-07T19:30:06+02:00",
+      "coordinate": {
+        "lat": 50.061309701139734,
+        "long": 8.672905950179379
+      },
+      "description": [
+        "Beginn: 07.09.25 um 19:30 Uhr",
+        "",
+        "Unfall, seit 07.09.2025, 19:30",
+        "A3: Würzburg -> Köln, zwischen 3.9 km hinter AK Offenbacher Kreuz und 0.6 km vor Stadtwald"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.67290595,
+            50.061309701
           ],
           [
-            8.7017166,
-            50.061694901
+            8.6719006,
+            50.061303201
           ],
           [
-            8.7007296,
-            50.061587901
+            8.6703268,
+            50.061288901
           ],
           [
-            8.6997626,
-            50.061496801
+            8.670139,
+            50.061285201
           ],
           [
-            8.6985082,
-            50.061419601
+            8.6670292,
+            50.061222601
           ],
           [
-            8.6972736,
-            50.061379701
+            8.6664345,
+            50.061210001
           ],
           [
-            8.6951453,
-            50.061342501
+            8.6651596,
+            50.061185501
           ],
           [
-            8.694564,
-            50.061333001
+            8.6626607,
+            50.061119101
           ],
           [
-            8.6906145,
-            50.061308001
+            8.6623783,
+            50.061108901
+          ],
+          [
+            8.6611293,
+            50.061066001
+          ],
+          [
+            8.6603919,
+            50.061037301
+          ],
+          [
+            8.6599192,
+            50.061012601
+          ],
+          [
+            8.6589281,
+            50.060944701
+          ],
+          [
+            8.6578893,
+            50.060838901
+          ],
+          [
+            8.6569086,
+            50.060726201
+          ],
+          [
+            8.6559285,
+            50.060585401
+          ],
+          [
+            8.6551222,
+            50.060454401
+          ],
+          [
+            8.6538615,
+            50.060215901
+          ],
+          [
+            8.6533222,
+            50.060105601
+          ],
+          [
+            8.6526544,
+            50.059954101
+          ],
+          [
+            8.6520187,
+            50.059797401
+          ],
+          [
+            8.6512383,
+            50.059590001
+          ],
+          [
+            8.6495218,
+            50.059109001
+          ],
+          [
+            8.6485395,
+            50.058841201
+          ],
+          [
+            8.6477199,
+            50.058575101
+          ],
+          [
+            8.6454778,
+            50.057943801
+          ],
+          [
+            8.6432117,
+            50.057288601
+          ],
+          [
+            8.64237924,
+            50.057055093
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-09-07_23-01-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.06130568647212,8.690418937659631,50.06131024270855,8.672989772498285",
+      "point": "50.06130568647212,8.690418937659631",
+      "startLcPosition": "159",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Offenbacher Kreuz - Frankfurt am Main-Süd",
+      "startTimestamp": "2025-09-07T23:01:30+02:00",
+      "delayTimeValue": "9",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "7.099999904632568",
+      "coordinate": {
+        "lat": 50.06130568647212,
+        "long": 8.690418937659631
+      },
+      "description": [
+        "Beginn: 07.09.25 um 23:01 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 07.09.2025, 23:01",
+        "A3: Würzburg -> Frankfurt, zwischen 2.7 km hinter AK Offenbacher Kreuz und 1.8 km vor AS Frankfurt am Main-Süd",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.690418938,
+            50.061305686
           ],
           [
             8.6902174,
@@ -1024,27 +1138,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06457915513665,8.718628898363395,50.06457915513665,8.718628898363395",
-      "point": "50.06457915513665,8.718628898363395",
+      "extent": "50.06130568647212,8.690418937659631,50.06130568647212,8.690418937659631",
+      "point": "50.06130568647212,8.690418937659631",
       "startLcPosition": "160",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Frankfurt am Main-Süd - Frankfurt am Main-Süd",
-      "startTimestamp": "2025-09-08T01:30:00+02:00",
+      "startTimestamp": "2025-09-08T01:42:30+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13",
+      "averageSpeed": "7",
       "coordinate": {
-        "lat": 50.06457915513665,
-        "long": 8.718628898363395
+        "lat": 50.06130568647212,
+        "long": 8.690418937659631
       },
       "description": [
-        "Beginn: 08.09.25 um 01:30 Uhr",
+        "Beginn: 08.09.25 um 01:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.09.2025, 01:30",
-        "A3: Würzburg -> Frankfurt, 5.1 km vor AS Frankfurt am Main-Süd, aus Richtung Offenbacher Kreuz",
+        "Angespannte Verkehrslage, seit 08.09.2025, 01:42",
+        "A3: Würzburg -> Frankfurt, 3.1 km vor AS Frankfurt am Main-Süd, aus Richtung Offenbacher Kreuz",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1054,12 +1168,57 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.718628898,
-            50.064579155
+            8.690418938,
+            50.061305686
           ],
           [
-            8.718628898,
-            50.064579155
+            8.690418938,
+            50.061305686
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-08_01-40-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.064216397749995,8.715835568182742,50.064216397749995,8.715835568182742",
+      "point": "50.064216397749995,8.715835568182742",
+      "startLcPosition": "160",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Frankfurt am Main-Süd - Frankfurt am Main-Süd",
+      "startTimestamp": "2025-09-08T01:40:00+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
+      "coordinate": {
+        "lat": 50.064216397749995,
+        "long": 8.715835568182742
+      },
+      "description": [
+        "Beginn: 08.09.25 um 01:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.09.2025, 01:40",
+        "A3: Würzburg -> Frankfurt, 4.9 km vor AS Frankfurt am Main-Süd, aus Richtung Offenbacher Kreuz",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.715835568,
+            50.064216398
+          ],
+          [
+            8.715835568,
+            50.064216398
           ]
         ]
       }
@@ -1205,31 +1364,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-08_01-22-30-000.f.de0",
+      "identifier": "undefined--vi-unf.2025-09-07_19-45-06-000.f_006.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.555396356719065,7.572609876310779,50.555396356719065,7.572609876310779",
-      "point": "50.555396356719065,7.572609876310779",
-      "startLcPosition": "190",
+      "extent": "50.05845960094089,8.647921999999916,50.05996514448119,8.653526169460807",
+      "point": "50.05845960094089,8.647921999999916",
+      "startLcPosition": "161",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Urbacher Wald - Urbacher Wald",
-      "startTimestamp": "2025-09-08T01:27:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "11",
+      "subtitle": " Köln -> Würzburg",
+      "title": "A3 | Stadtwald - Offenbacher Kreuz",
+      "startTimestamp": "2025-09-07T19:45:06+02:00",
       "coordinate": {
-        "lat": 50.555396356719065,
-        "long": 7.572609876310779
+        "lat": 50.05845960094089,
+        "long": 8.647921999999916
       },
       "description": [
-        "Beginn: 08.09.25 um 01:27 Uhr",
+        "Beginn: 07.09.25 um 19:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.09.2025, 01:27",
-        "A3: Köln -> Frankfurt, 1.4 km vor Urbacher Wald, aus Richtung Merker Wald",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 11 km/h"
+        "Unfall, seit 07.09.2025, 19:45",
+        "A3: Köln -> Würzburg, zwischen 1.0 km hinter Stadtwald und 5.3 km vor AK Offenbacher Kreuz"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1239,12 +1393,69 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.572609876,
-            50.555396357
+            8.647922,
+            50.058459601
           ],
           [
-            7.572609876,
-            50.555396357
+            8.6513726,
+            50.059453401
+          ],
+          [
+            8.6522957,
+            50.059686101
+          ],
+          [
+            8.6532214,
+            50.059899601
+          ],
+          [
+            8.653526169,
+            50.059965144
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-08_01-22-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.55781178906427,7.56597041275357,50.55781178906427,7.56597041275357",
+      "point": "50.55781178906427,7.56597041275357",
+      "startLcPosition": "191",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Merker Wald - Merker Wald",
+      "startTimestamp": "2025-09-08T01:40:00+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "6",
+      "coordinate": {
+        "lat": 50.55781178906427,
+        "long": 7.56597041275357
+      },
+      "description": [
+        "Beginn: 08.09.25 um 01:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.09.2025, 01:40",
+        "A3: Köln -> Frankfurt, 0.4 km vor Merker Wald, aus Richtung Neuwied",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 6 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.565970413,
+            50.557811789
+          ],
+          [
+            7.565970413,
+            50.557811789
           ]
         ]
       }
@@ -1254,29 +1465,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.55540760389922,7.572587848315347,50.552903227255904,7.57685968249369",
-      "point": "50.55540760389922,7.572587848315347",
-      "startLcPosition": "191",
+      "extent": "50.5578375811673,7.56584999658203,50.55297618938474,7.576736629743797",
+      "point": "50.5578375811673,7.56584999658203",
+      "startLcPosition": "192",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Merker Wald - Urbacher Wald",
+      "title": "A3 | Neuwied - Urbacher Wald",
       "startTimestamp": "2025-09-08T01:22:00+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "19.399999618530273",
+      "averageSpeed": "5.800000190734863",
       "coordinate": {
-        "lat": 50.55540760389922,
-        "long": 7.572587848315347
+        "lat": 50.5578375811673,
+        "long": 7.56584999658203
       },
       "description": [
         "Beginn: 08.09.25 um 01:22 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.09.2025, 01:22",
-        "A3: Köln -> Frankfurt, zwischen 0.1 km hinter Merker Wald und 1.0 km vor Urbacher Wald",
+        "A3: Köln -> Frankfurt, zwischen 2.9 km hinter AS Neuwied und 1.0 km vor Urbacher Wald",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 19 km/h"
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1286,8 +1497,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.572587848,
-            50.555407604
+            7.565849997,
+            50.557837581
+          ],
+          [
+            7.5661459,
+            50.557774201
+          ],
+          [
+            7.5673045,
+            50.557486101
+          ],
+          [
+            7.5680197,
+            50.557278201
+          ],
+          [
+            7.5696158,
+            50.556747201
+          ],
+          [
+            7.5703154,
+            50.556466001
+          ],
+          [
+            7.5705264,
+            50.556381201
+          ],
+          [
+            7.570665,
+            50.556320501
+          ],
+          [
+            7.5715498,
+            50.555933601
+          ],
+          [
+            7.5722833,
+            50.555563101
           ],
           [
             7.5727982,
@@ -1302,12 +1549,8 @@
             50.554316501
           ],
           [
-            7.5767872,
-            50.552946001
-          ],
-          [
-            7.576859682,
-            50.552903227
+            7.57673663,
+            50.552976189
           ]
         ]
       }
