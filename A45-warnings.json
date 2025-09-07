@@ -1,26 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-unf.2025-09-07_11-54-57-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-09-07_12-33-05-000.f_015.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.43545952983943,7.524956259609311,51.443318029609095,7.4932783741494",
-      "point": "51.43545952983943,7.524956259609311",
-      "startLcPosition": "102",
+      "extent": "51.27023436366152,7.600937360654925,51.27023436366152,7.600937360654925",
+      "point": "51.27023436366152,7.600937360654925",
+      "startLcPosition": "92",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Westhofener Kreuz - Dortmund-Süd",
-      "startTimestamp": "2025-09-07T11:54:57+02:00",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Rehweg - Rehweg",
+      "startTimestamp": "2025-09-07T12:40:51+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5",
       "coordinate": {
-        "lat": 51.43545952983943,
-        "long": 7.524956259609311
+        "lat": 51.27023436366152,
+        "long": 7.600937360654925
       },
       "description": [
-        "Beginn: 07.09.25 um 11:54 Uhr",
+        "Beginn: 07.09.25 um 12:40 Uhr",
         "",
-        "Unfall, seit 07.09.2025, 11:54",
-        "A45: Hagen -> Dortmund, zwischen 0.6 km hinter AK Westhofener Kreuz und 0.6 km vor AS Dortmund-Süd"
+        "Angespannte Verkehrslage, seit 07.09.2025, 12:40",
+        "A45: Hagen -> Gießen, 0.2 km vor Rehweg, aus Richtung Kaltenborn",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -30,160 +35,120 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.52495626,
-            51.43545953
+            7.600937361,
+            51.270234364
           ],
           [
-            7.5247181,
-            51.435569801
+            7.600937361,
+            51.270234364
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-07_12-33-05-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.27026978224684,7.60092741268965,51.263860400934774,7.60281269999918",
+      "point": "51.27026978224684,7.60092741268965",
+      "startLcPosition": "93",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Kaltenborn - Lüdenscheid-Nord",
+      "startTimestamp": "2025-09-07T12:33:05+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "14.5",
+      "coordinate": {
+        "lat": 51.27026978224684,
+        "long": 7.60092741268965
+      },
+      "description": [
+        "Beginn: 07.09.25 um 12:33 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 07.09.2025, 12:33",
+        "A45: Hagen -> Gießen, zwischen 3.0 km hinter Kaltenborn und 0.8 km vor AS Lüdenscheid-Nord",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.600927413,
+            51.270269782
           ],
           [
-            7.5239453,
-            51.435950301
+            7.6013064,
+            51.268920401
           ],
           [
-            7.5231052,
-            51.436409101
+            7.60197,
+            51.266397701
           ],
           [
-            7.5224291,
-            51.436772001
+            7.6023363,
+            51.265109101
           ],
           [
-            7.5216821,
-            51.437160201
+            7.6025568,
+            51.264448001
           ],
           [
-            7.5209614,
-            51.437523901
+            7.6028127,
+            51.263860401
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-07_11-42-04-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.44272631872626,7.473424191193174,51.44272631872626,7.473424191193174",
+      "point": "51.44272631872626,7.473424191193174",
+      "startLcPosition": "103",
+      "display_type": "WARNING",
+      "subtitle": " Dortmund -> Hagen",
+      "title": "A45 | Dortmund-Süd - Dortmund-Süd",
+      "startTimestamp": "2025-09-07T12:40:51+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "15",
+      "coordinate": {
+        "lat": 51.44272631872626,
+        "long": 7.473424191193174
+      },
+      "description": [
+        "Beginn: 07.09.25 um 12:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 07.09.2025, 12:40",
+        "A45: Dortmund -> Hagen, 0.8 km vor AS Dortmund-Süd, aus Richtung Flöz Mausegatt",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 15 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.473424191,
+            51.442726319
           ],
           [
-            7.5205706,
-            51.437718901
-          ],
-          [
-            7.5201801,
-            51.437898101
-          ],
-          [
-            7.519465,
-            51.438211601
-          ],
-          [
-            7.5187403,
-            51.438533901
-          ],
-          [
-            7.5179962,
-            51.438822601
-          ],
-          [
-            7.517276,
-            51.439081301
-          ],
-          [
-            7.5165371,
-            51.439335601
-          ],
-          [
-            7.51577,
-            51.439584801
-          ],
-          [
-            7.515061,
-            51.439793101
-          ],
-          [
-            7.5141601,
-            51.440035201
-          ],
-          [
-            7.5133729,
-            51.440234001
-          ],
-          [
-            7.5125551,
-            51.440425901
-          ],
-          [
-            7.5117674,
-            51.440606901
-          ],
-          [
-            7.5105815,
-            51.440862301
-          ],
-          [
-            7.509479,
-            51.441096701
-          ],
-          [
-            7.5087951,
-            51.441231101
-          ],
-          [
-            7.5084119,
-            51.441306401
-          ],
-          [
-            7.5073197,
-            51.441509501
-          ],
-          [
-            7.506252,
-            51.441701801
-          ],
-          [
-            7.5051824,
-            51.441881701
-          ],
-          [
-            7.503999,
-            51.442078701
-          ],
-          [
-            7.5031763,
-            51.442207601
-          ],
-          [
-            7.5020698,
-            51.442369801
-          ],
-          [
-            7.5014968,
-            51.442450901
-          ],
-          [
-            7.4998979,
-            51.442659901
-          ],
-          [
-            7.4988547,
-            51.442786601
-          ],
-          [
-            7.4978411,
-            51.442900601
-          ],
-          [
-            7.4968363,
-            51.443006701
-          ],
-          [
-            7.4958545,
-            51.443100901
-          ],
-          [
-            7.4947488,
-            51.443203501
-          ],
-          [
-            7.4938274,
-            51.443278401
-          ],
-          [
-            7.493278374,
-            51.44331803
+            7.473424191,
+            51.442726319
           ]
         ]
       }
@@ -288,51 +253,6 @@
           [
             7.514896997,
             51.439693395
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-07_11-42-04-000.f_007.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.442440539221714,7.471080280812052,51.442440539221714,7.471080280812052",
-      "point": "51.442440539221714,7.471080280812052",
-      "startLcPosition": "103",
-      "display_type": "WARNING",
-      "subtitle": " Dortmund -> Hagen",
-      "title": "A45 | Dortmund-Süd - Dortmund-Süd",
-      "startTimestamp": "2025-09-07T12:26:02+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10",
-      "coordinate": {
-        "lat": 51.442440539221714,
-        "long": 7.471080280812052
-      },
-      "description": [
-        "Beginn: 07.09.25 um 12:26 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 07.09.2025, 12:26",
-        "A45: Dortmund -> Hagen, 1.0 km vor AS Dortmund-Süd, aus Richtung Flöz Mausegatt",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.471080281,
-            51.442440539
-          ],
-          [
-            7.471080281,
-            51.442440539
           ]
         ]
       }
