@@ -1,11 +1,11 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-09-07_15-02-15-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-09-07_15-02-15-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.598542100938346,8.479750899999857,50.61854900093824,8.386228799999822",
+      "extent": "50.598542100938346,8.479750899999857,50.61848454640077,8.38531561076563",
       "point": "50.598542100938346,8.479750899999857",
       "startLcPosition": "29",
       "display_type": "WARNING",
@@ -20,7 +20,7 @@
         "Beginn: 07.09.25 um 15:02 Uhr",
         "",
         "Hindernis, seit 07.09.2025, 15:02",
-        "A45: Gießen -> Hagen, zwischen 0.7 km hinter AK Wetzlarer Kreuz und 0.2 km vor AS Ehringshausen",
+        "A45: Gießen -> Hagen, zwischen 0.7 km hinter AK Wetzlarer Kreuz und 0.1 km vor AS Ehringshausen",
         "",
         "Gefahr durch Gegenstände auf der Fahrbahn"
       ],
@@ -518,36 +518,36 @@
           [
             8.3862288,
             50.618549001
+          ],
+          [
+            8.385315611,
+            50.618484546
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-07_15-36-41-000.f_020.de0",
+      "identifier": "undefined--vi-hind.2025-09-07_15-11-46-000.f_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.23135147417998,7.660506576483772,51.23135147417998,7.660506576483772",
-      "point": "51.23135147417998,7.660506576483772",
-      "startLcPosition": "87",
+      "extent": "51.02368436428385,7.828492245893775,51.022685018869865,7.828750043167752",
+      "point": "51.02368436428385,7.828492245893775",
+      "startLcPosition": "72",
       "display_type": "WARNING",
-      "subtitle": " Gießen -> Hagen",
-      "title": "A45 | Lüdenscheid - Lüdenscheid",
-      "startTimestamp": "2025-09-07T15:39:54+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Olpe - Mark",
+      "startTimestamp": "2025-09-07T15:11:46+02:00",
       "coordinate": {
-        "lat": 51.23135147417998,
-        "long": 7.660506576483772
+        "lat": 51.02368436428385,
+        "long": 7.828492245893775
       },
       "description": [
-        "Beginn: 07.09.25 um 15:39 Uhr",
+        "Beginn: 07.09.25 um 15:11 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 07.09.2025, 15:39",
-        "A45: Gießen -> Hagen, 0.2 km vor AS Lüdenscheid, aus Richtung Sauerland",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
+        "Fahrzeug-Hindernis, seit 07.09.2025, 15:11",
+        "A45: Hagen -> Gießen, zwischen 0.9 km hinter AS Olpe und 2.0 km vor Mark",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -557,12 +557,65 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.660506576,
-            51.231351474
+            7.828492246,
+            51.023684364
           ],
           [
-            7.660506576,
-            51.231351474
+            7.8286886,
+            51.022946401
+          ],
+          [
+            7.828738,
+            51.022747501
+          ],
+          [
+            7.828750043,
+            51.022685019
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-07_15-36-41-000.f_020.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.22900147372726,7.664447022773831,51.22900147372726,7.664447022773831",
+      "point": "51.22900147372726,7.664447022773831",
+      "startLcPosition": "87",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Hagen",
+      "title": "A45 | Lüdenscheid - Lüdenscheid",
+      "startTimestamp": "2025-09-07T16:07:01+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5",
+      "coordinate": {
+        "lat": 51.22900147372726,
+        "long": 7.664447022773831
+      },
+      "description": [
+        "Beginn: 07.09.25 um 16:07 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 07.09.2025, 16:07",
+        "A45: Gießen -> Hagen, 0.5 km vor AS Lüdenscheid, aus Richtung Sauerland",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.664447023,
+            51.229001474
+          ],
+          [
+            7.664447023,
+            51.229001474
           ]
         ]
       }
