@@ -509,16 +509,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.492397354599184,13.375491390793318,48.507803176540484,13.388602504259055",
+      "extent": "48.492397354599184,13.375491390793318,48.50418564138971,13.384899108275228",
       "point": "48.492397354599184,13.375491390793318",
       "startLcPosition": "4",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
       "title": "A3 | Rottal-Ost - Passau-Süd",
       "startTimestamp": "2025-09-08T10:00:57+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "32.5",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "41.400001525878906",
       "coordinate": {
         "lat": 48.492397354599184,
         "long": 13.375491390793318
@@ -527,11 +527,11 @@
         "Beginn: 08.09.25 um 10:00 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.09.2025, 10:00",
-        "A3: Linz -> Passau, zwischen 3.7 km hinter Rottal-Ost und 3.3 km vor AS Passau-Süd",
+        "A3: Linz -> Passau, zwischen 3.7 km hinter Rottal-Ost und 3.8 km vor AS Passau-Süd",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 32 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 41 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -573,22 +573,14 @@
             48.503465301
           ],
           [
-            13.3856286,
-            48.504893901
-          ],
-          [
-            13.3884834,
-            48.507668201
-          ],
-          [
-            13.388602504,
-            48.507803177
+            13.384899108,
+            48.504185641
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-09-08_11-06-11-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-09-08_11-06-11-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1206,7 +1198,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-09-08_11-06-11-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2025-09-08_11-06-11-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1768,33 +1760,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-08_11-08-41-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-09-08_11-43-22-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06782677008812,8.804889261207036,50.06750060882255,8.780873737388053",
-      "point": "50.06782677008812,8.804889261207036",
-      "startLcPosition": "156",
+      "extent": "49.991220325124296,9.170464830482423,49.991120808639316,9.168203520488541",
+      "point": "49.991220325124296,9.170464830482423",
+      "startLcPosition": "146",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Obertshausen - Hainbach",
-      "startTimestamp": "2025-09-08T11:08:41+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "72.30000305175781",
+      "title": "A3 | Aschaffenburg-Ost - Strietwald-Nord",
+      "startTimestamp": "2025-09-08T11:43:22+02:00",
       "coordinate": {
-        "lat": 50.06782677008812,
-        "long": 8.804889261207036
+        "lat": 49.991220325124296,
+        "long": 9.170464830482423
       },
       "description": [
-        "Beginn: 08.09.25 um 11:08 Uhr",
+        "Beginn: 08.09.25 um 11:43 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.09.2025, 11:08",
-        "A3: Würzburg -> Frankfurt, zwischen 1.6 km hinter AS Obertshausen und 1.2 km vor Hainbach",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 72 km/h"
+        "Fahrzeug-Hindernis, seit 08.09.2025, 11:43",
+        "A3: Würzburg -> Frankfurt, zwischen AS Aschaffenburg-Ost und 3.4 km vor Strietwald-Nord",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1804,52 +1790,424 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.804889261,
-            50.06782677
+            9.17046483,
+            49.991220325
           ],
           [
-            8.8021984,
-            50.067786001
+            9.1698465,
+            49.991186301
           ],
           [
-            8.8018422,
-            50.067786601
+            9.1692385,
+            49.991157001
           ],
           [
-            8.7961376,
-            50.067713701
+            9.16820352,
+            49.991120809
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-08_11-45-53-000.f_006.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.059379250863415,8.881946624907085,50.06058544038388,8.864077136868532",
+      "point": "50.059379250863415,8.881946624907085",
+      "startLcPosition": "155",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Hanau - Obertshausen",
+      "startTimestamp": "2025-09-08T11:45:53+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "58.599998474121094",
+      "coordinate": {
+        "lat": 50.059379250863415,
+        "long": 8.881946624907085
+      },
+      "description": [
+        "Beginn: 08.09.25 um 11:45 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.09.2025, 11:45",
+        "A3: Würzburg -> Frankfurt, zwischen 0.7 km hinter AS Hanau und 2.8 km vor AS Obertshausen",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 58 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.881946625,
+            50.059379251
           ],
           [
-            8.7934019,
-            50.067678301
+            8.8798286,
+            50.059539501
           ],
           [
-            8.7906389,
-            50.067653901
+            8.8788849,
+            50.059606501
           ],
           [
-            8.7879502,
-            50.067597501
+            8.8774874,
+            50.059705801
           ],
           [
-            8.7865562,
-            50.067576801
+            8.8755583,
+            50.059834401
           ],
           [
-            8.7854818,
-            50.067564401
+            8.8754471,
+            50.059840701
           ],
           [
-            8.7843333,
-            50.067548601
+            8.8733376,
+            50.059980301
           ],
           [
-            8.782409,
-            50.067525401
+            8.8721307,
+            50.060051001
           ],
           [
-            8.780873737,
-            50.067500609
+            8.8709839,
+            50.060135201
+          ],
+          [
+            8.8708392,
+            50.060145801
+          ],
+          [
+            8.8705269,
+            50.060166601
+          ],
+          [
+            8.8682953,
+            50.060308601
+          ],
+          [
+            8.8680384,
+            50.060326001
+          ],
+          [
+            8.8651325,
+            50.060517401
+          ],
+          [
+            8.864077137,
+            50.06058544
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-08_11-40-05-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.06057936969876,8.861987930482409,50.05914482553842,8.88323591999887",
+      "point": "50.06057936969876,8.861987930482409",
+      "startLcPosition": "156",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Obertshausen - Hanau",
+      "startTimestamp": "2025-09-08T11:40:05+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "66.80000305175781",
+      "coordinate": {
+        "lat": 50.06057936969876,
+        "long": 8.861987930482409
+      },
+      "description": [
+        "Beginn: 08.09.25 um 11:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.09.2025, 11:40",
+        "A3: Frankfurt -> Würzburg, zwischen 2.6 km hinter AS Obertshausen und 0.6 km vor AS Hanau",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 66 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.86198793,
+            50.06057937
+          ],
+          [
+            8.864734,
+            50.060400601
+          ],
+          [
+            8.8652064,
+            50.060369901
+          ],
+          [
+            8.8680138,
+            50.060187001
+          ],
+          [
+            8.8682711,
+            50.060171501
+          ],
+          [
+            8.8707543,
+            50.060009801
+          ],
+          [
+            8.8710622,
+            50.059991601
+          ],
+          [
+            8.8712355,
+            50.059981001
+          ],
+          [
+            8.8718662,
+            50.059935801
+          ],
+          [
+            8.8727205,
+            50.059880201
+          ],
+          [
+            8.8733623,
+            50.059838401
+          ],
+          [
+            8.8752695,
+            50.059722301
+          ],
+          [
+            8.8755291,
+            50.059705101
+          ],
+          [
+            8.8756432,
+            50.059697901
+          ],
+          [
+            8.8786485,
+            50.059483401
+          ],
+          [
+            8.8798153,
+            50.059400101
+          ],
+          [
+            8.8802029,
+            50.059372501
+          ],
+          [
+            8.8820992,
+            50.059236401
+          ],
+          [
+            8.88323592,
+            50.059144826
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-08_11-45-53-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.067359120987426,8.780746431059761,50.06764768587352,8.80188769706484",
+      "point": "50.067359120987426,8.780746431059761",
+      "startLcPosition": "157",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Hainbach - Obertshausen",
+      "startTimestamp": "2025-09-08T11:45:53+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "67.30000305175781",
+      "coordinate": {
+        "lat": 50.067359120987426,
+        "long": 8.780746431059761
+      },
+      "description": [
+        "Beginn: 08.09.25 um 11:45 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.09.2025, 11:45",
+        "A3: Frankfurt -> Würzburg, zwischen 1.2 km hinter Hainbach und 1.8 km vor AS Obertshausen",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 67 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.780746431,
+            50.067359121
+          ],
+          [
+            8.7824251,
+            50.067384501
+          ],
+          [
+            8.7843655,
+            50.067411701
+          ],
+          [
+            8.7854358,
+            50.067423601
+          ],
+          [
+            8.7866488,
+            50.067447601
+          ],
+          [
+            8.7879512,
+            50.067465001
+          ],
+          [
+            8.7906576,
+            50.067500901
+          ],
+          [
+            8.7934232,
+            50.067536601
+          ],
+          [
+            8.7961447,
+            50.067573001
+          ],
+          [
+            8.8018039,
+            50.067646001
+          ],
+          [
+            8.801887697,
+            50.067647686
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-09-08_11-45-07-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.06179936118101,8.70357173703168,50.064452361049256,8.718912330976197",
+      "point": "50.06179936118101,8.70357173703168",
+      "startLcPosition": "160",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Frankfurt am Main-Süd - Offenbacher Kreuz",
+      "startTimestamp": "2025-09-08T11:45:07+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "59.79999923706055",
+      "coordinate": {
+        "lat": 50.06179936118101,
+        "long": 8.70357173703168
+      },
+      "description": [
+        "Beginn: 08.09.25 um 11:45 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 08.09.2025, 11:45",
+        "A3: Frankfurt -> Würzburg, zwischen 4.0 km hinter AS Frankfurt am Main-Süd und 0.6 km vor AK Offenbacher Kreuz",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 59 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.703571737,
+            50.061799361
+          ],
+          [
+            8.7036047,
+            50.061804401
+          ],
+          [
+            8.7046739,
+            50.061983501
+          ],
+          [
+            8.7058795,
+            50.062188601
+          ],
+          [
+            8.7078642,
+            50.062572201
+          ],
+          [
+            8.7091754,
+            50.062834401
+          ],
+          [
+            8.7110679,
+            50.063214601
+          ],
+          [
+            8.7122122,
+            50.063435201
+          ],
+          [
+            8.7136525,
+            50.063713601
+          ],
+          [
+            8.715105,
+            50.063961201
+          ],
+          [
+            8.716065,
+            50.064110301
+          ],
+          [
+            8.7169714,
+            50.064236201
+          ],
+          [
+            8.717395,
+            50.064289701
+          ],
+          [
+            8.717923,
+            50.064352201
+          ],
+          [
+            8.7183868,
+            50.064401501
+          ],
+          [
+            8.7188805,
+            50.064449601
+          ],
+          [
+            8.718912331,
+            50.064452361
           ]
         ]
       }
@@ -2281,24 +2639,24 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.70767110979778,7.248068047860241,50.70767110979778,7.248068047860241",
-      "point": "50.70767110979778,7.248068047860241",
+      "extent": "50.703220191665935,7.254619636646063,50.703220191665935,7.254619636646063",
+      "point": "50.703220191665935,7.254619636646063",
       "startLcPosition": "200",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Siebengebirge - Siebengebirge",
-      "startTimestamp": "2025-09-08T11:35:52+02:00",
+      "startTimestamp": "2025-09-08T11:47:03+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "17",
       "coordinate": {
-        "lat": 50.70767110979778,
-        "long": 7.248068047860241
+        "lat": 50.703220191665935,
+        "long": 7.254619636646063
       },
       "description": [
-        "Beginn: 08.09.25 um 11:35 Uhr",
+        "Beginn: 08.09.25 um 11:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.09.2025, 11:35",
-        "A3: Köln -> Frankfurt, 3.1 km vor AS Siebengebirge, aus Richtung Bonn/Siegburg",
+        "Angespannte Verkehrslage, seit 08.09.2025, 11:47",
+        "A3: Köln -> Frankfurt, 2.4 km vor AS Siebengebirge, aus Richtung Bonn/Siegburg",
         "",
         "Im Stillstand",
         "Durchschnittsgeschwindigkeit: 17 km/h"
@@ -2311,12 +2669,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.248068048,
-            50.70767111
+            7.254619637,
+            50.703220192
           ],
           [
-            7.248068048,
-            50.70767111
+            7.254619637,
+            50.703220192
           ]
         ]
       }
@@ -2326,28 +2684,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.70748476914218,7.248290348231866,50.65559364533169,7.325345979745644",
-      "point": "50.70748476914218,7.248290348231866",
+      "extent": "50.70346919394047,7.254172567136076,50.65436999664456,7.3264060839792995",
+      "point": "50.70346919394047,7.254172567136076",
       "startLcPosition": "201",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Bonn/Siegburg - Bad Honnef/Linz",
       "startTimestamp": "2025-09-08T09:39:44+02:00",
-      "delayTimeValue": "24",
+      "delayTimeValue": "23",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "17.200000762939453",
       "coordinate": {
-        "lat": 50.70748476914218,
-        "long": 7.248290348231866
+        "lat": 50.70346919394047,
+        "long": 7.254172567136076
       },
       "description": [
         "Beginn: 08.09.25 um 09:39 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.09.2025, 09:39",
-        "A3: Köln -> Frankfurt, zwischen 8.1 km hinter AK Bonn/Siegburg und 0.7 km vor AS Bad Honnef/Linz",
+        "A3: Köln -> Frankfurt, zwischen 8.7 km hinter AK Bonn/Siegburg und 0.5 km vor AS Bad Honnef/Linz",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 24 Minuten",
+        "Reisezeitverlust: 23 Minuten",
         "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
@@ -2358,48 +2716,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.248290348,
-            50.707484769
-          ],
-          [
-            7.2486914,
-            50.707149501
-          ],
-          [
-            7.2491734,
-            50.706769801
-          ],
-          [
-            7.2496366,
-            50.706406001
-          ],
-          [
-            7.2503671,
-            50.705874501
-          ],
-          [
-            7.2508062,
-            50.705562201
-          ],
-          [
-            7.2514045,
-            50.705160201
-          ],
-          [
-            7.2520618,
-            50.704734201
-          ],
-          [
-            7.252672,
-            50.704347901
-          ],
-          [
-            7.2534013,
-            50.703911101
-          ],
-          [
-            7.2541625,
-            50.703474801
+            7.254172567,
+            50.703469194
           ],
           [
             7.2555552,
@@ -2690,8 +3008,12 @@
             50.655791001
           ],
           [
-            7.32534598,
-            50.655593645
+            7.3253823,
+            50.655551301
+          ],
+          [
+            7.326406084,
+            50.654369997
           ]
         ]
       }
@@ -2701,29 +3023,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.326698397166254,6.889223991728189,51.28011280928728,6.903309272561146",
-      "point": "51.326698397166254,6.889223991728189",
+      "extent": "51.33004392110656,6.884896855798028,51.28011280928728,6.903309272561146",
+      "point": "51.33004392110656,6.884896855798028",
       "startLcPosition": "226",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Breitscheid - Mettmann",
       "startTimestamp": "2025-09-08T10:10:39+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "36.900001525878906",
+      "delayTimeValue": "9",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "29.600000381469727",
       "coordinate": {
-        "lat": 51.326698397166254,
-        "long": 6.889223991728189
+        "lat": 51.33004392110656,
+        "long": 6.884896855798028
       },
       "description": [
         "Beginn: 08.09.25 um 10:10 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.09.2025, 10:10",
-        "A3: Oberhausen -> Köln, zwischen 3.4 km hinter AK Breitscheid und 2.5 km vor AS Mettmann",
+        "A3: Oberhausen -> Köln, zwischen 2.9 km hinter AK Breitscheid und 2.5 km vor AS Mettmann",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 36 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2733,8 +3055,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.889223992,
-            51.326698397
+            6.884896856,
+            51.330043921
+          ],
+          [
+            6.8883186,
+            51.327399001
           ],
           [
             6.8927135,
@@ -3000,8 +3326,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.4175009493699,6.797420477990343,51.456776553303925,6.801960136556066",
-      "point": "51.4175009493699,6.797420477990343",
+      "extent": "51.420764144004046,6.797282425816004,51.45768045713046,6.803209011100476",
+      "point": "51.420764144004046,6.797282425816004",
       "startLcPosition": "229",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
@@ -3009,20 +3335,20 @@
       "startTimestamp": "2025-09-08T09:52:29+02:00",
       "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.29999923706055",
+      "averageSpeed": "41.900001525878906",
       "coordinate": {
-        "lat": 51.4175009493699,
-        "long": 6.797420477990343
+        "lat": 51.420764144004046,
+        "long": 6.797282425816004
       },
       "description": [
         "Beginn: 08.09.25 um 09:52 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.09.2025, 09:52",
-        "A3: Köln -> Oberhausen, zwischen 1.0 km hinter AS Duisburg-Wedau und 2.6 km vor AS Oberhausen-Lirich",
+        "A3: Köln -> Oberhausen, zwischen 1.3 km hinter AS Duisburg-Wedau und 2.4 km vor AS Oberhausen-Lirich",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Durchschnittsgeschwindigkeit: 41 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3032,40 +3358,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.797420478,
-            51.417500949
-          ],
-          [
-            6.797406,
-            51.417537501
-          ],
-          [
-            6.7972665,
-            51.417940601
-          ],
-          [
-            6.7971473,
-            51.418422301
-          ],
-          [
-            6.7970872,
-            51.418832301
-          ],
-          [
-            6.7970644,
-            51.419266901
-          ],
-          [
-            6.7970741,
-            51.419743201
-          ],
-          [
-            6.7971382,
-            51.420150101
-          ],
-          [
-            6.7972449,
-            51.420643501
+            6.797282426,
+            51.420764144
           ],
           [
             6.7973696,
@@ -3408,8 +3702,16 @@
             51.456499701
           ],
           [
-            6.801960137,
-            51.456776553
+            6.8022755,
+            51.457042301
+          ],
+          [
+            6.802764,
+            51.457391801
+          ],
+          [
+            6.803209011,
+            51.457680457
           ]
         ]
       }
@@ -3419,29 +3721,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.503911779974345,6.822689891726263,51.441252851966176,6.8034479478654895",
-      "point": "51.503911779974345,6.822689891726263",
-      "startLcPosition": "233",
+      "extent": "51.48706811456962,6.814497952101007,51.44406982888824,6.799849146278704",
+      "point": "51.48706811456962,6.814497952101007",
+      "startLcPosition": "232",
       "display_type": "WARNING",
-      "subtitle": " Arnheim -> Köln",
-      "title": "A3 | Oberhausen-Holten - Duisburg-Wedau",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Oberhausen-West - Duisburg-Wedau",
       "startTimestamp": "2025-09-08T05:25:00+02:00",
-      "delayTimeValue": "5",
+      "delayTimeValue": "4",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "46.20000076293945",
+      "averageSpeed": "41.599998474121094",
       "coordinate": {
-        "lat": 51.503911779974345,
-        "long": 6.822689891726263
+        "lat": 51.48706811456962,
+        "long": 6.814497952101007
       },
       "description": [
         "Beginn: 08.09.25 um 05:25 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.09.2025, 05:25",
-        "A3: Arnheim -> Köln, zwischen 1.1 km hinter AS Oberhausen-Holten und 3.9 km vor AS Duisburg-Wedau",
+        "A3: Oberhausen -> Köln, zwischen AK Oberhausen-West und 4.3 km vor AS Duisburg-Wedau",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 5 Minuten",
-        "Durchschnittsgeschwindigkeit: 46 km/h"
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 41 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3451,88 +3753,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.822689892,
-            51.50391178
-          ],
-          [
-            6.8226196,
-            51.503607701
-          ],
-          [
-            6.8224852,
-            51.503199501
-          ],
-          [
-            6.8223012,
-            51.502764201
-          ],
-          [
-            6.8217051,
-            51.501561401
-          ],
-          [
-            6.8211167,
-            51.500362401
-          ],
-          [
-            6.8210058,
-            51.500128501
-          ],
-          [
-            6.8206774,
-            51.499447801
-          ],
-          [
-            6.8206086,
-            51.499315501
-          ],
-          [
-            6.8200904,
-            51.498254301
-          ],
-          [
-            6.8185624,
-            51.495126101
-          ],
-          [
-            6.8184659,
-            51.494910601
-          ],
-          [
-            6.8177271,
-            51.493394901
-          ],
-          [
-            6.8168398,
-            51.491626701
-          ],
-          [
-            6.8167469,
-            51.491434501
-          ],
-          [
-            6.8166024,
-            51.491141801
-          ],
-          [
-            6.8160961,
-            51.490083401
-          ],
-          [
-            6.815528,
-            51.488979601
-          ],
-          [
-            6.8152312,
-            51.488391001
-          ],
-          [
-            6.8148352,
-            51.487683101
-          ],
-          [
-            6.81452,
-            51.487110901
+            6.814497952,
+            51.487068115
           ],
           [
             6.8140769,
@@ -3847,32 +4069,8 @@
             51.444413501
           ],
           [
-            6.7998908,
-            51.444012601
-          ],
-          [
-            6.8004226,
-            51.443434701
-          ],
-          [
-            6.8010137,
-            51.442914601
-          ],
-          [
-            6.8014849,
-            51.442526901
-          ],
-          [
-            6.801996,
-            51.442156401
-          ],
-          [
-            6.8032124,
-            51.441405901
-          ],
-          [
-            6.803447948,
-            51.441252852
+            6.799849146,
+            51.444069829
           ]
         ]
       }
@@ -3882,29 +4080,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.51689717512215,6.815362026252668,51.537502300933184,6.8358212999959145",
-      "point": "51.51689717512215,6.815362026252668",
-      "startLcPosition": "233",
+      "extent": "51.50586789226596,6.8229516633655125,51.537502300933184,6.8358212999959145",
+      "point": "51.50586789226596,6.8229516633655125",
+      "startLcPosition": "232",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Arnheim",
-      "title": "A3 | Oberhausen-Holten - Dinslaken-Süd",
+      "subtitle": " Köln -> Arnheim",
+      "title": "A3 | Oberhausen-West - Dinslaken-Süd",
       "startTimestamp": "2025-09-08T10:30:17+02:00",
       "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "31.299999237060547",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40.29999923706055",
       "coordinate": {
-        "lat": 51.51689717512215,
-        "long": 6.815362026252668
+        "lat": 51.50586789226596,
+        "long": 6.8229516633655125
       },
       "description": [
         "Beginn: 08.09.25 um 10:30 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.09.2025, 10:30",
-        "A3: Oberhausen -> Arnheim, zwischen 0.5 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd",
+        "A3: Köln -> Arnheim, zwischen 2.1 km hinter AK Oberhausen-West und 3.5 km vor AS Dinslaken-Süd",
         "",
-        "Stockender Verkehr",
+        "Langsamer Verkehr",
         "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 31 km/h"
+        "Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3914,8 +4112,88 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.815362026,
-            51.516897175
+            6.822951663,
+            51.505867892
+          ],
+          [
+            6.8229084,
+            51.506127601
+          ],
+          [
+            6.822674,
+            51.506872001
+          ],
+          [
+            6.8226245,
+            51.507014201
+          ],
+          [
+            6.8223129,
+            51.507628301
+          ],
+          [
+            6.8220038,
+            51.508124101
+          ],
+          [
+            6.8217001,
+            51.508534201
+          ],
+          [
+            6.8213765,
+            51.508934401
+          ],
+          [
+            6.8213058,
+            51.509025601
+          ],
+          [
+            6.820424,
+            51.510134801
+          ],
+          [
+            6.8199409,
+            51.510738901
+          ],
+          [
+            6.8190335,
+            51.511888201
+          ],
+          [
+            6.8181518,
+            51.513010801
+          ],
+          [
+            6.8180335,
+            51.513163701
+          ],
+          [
+            6.817751,
+            51.513503801
+          ],
+          [
+            6.8171016,
+            51.514294301
+          ],
+          [
+            6.8167172,
+            51.514796201
+          ],
+          [
+            6.8164841,
+            51.515107001
+          ],
+          [
+            6.8162054,
+            51.515495001
+          ],
+          [
+            6.8158006,
+            51.516109301
+          ],
+          [
+            6.8155701,
+            51.516491301
           ],
           [
             6.8152198,
