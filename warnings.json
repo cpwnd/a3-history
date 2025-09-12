@@ -395,29 +395,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.96583492253428,9.301136159645294,49.99955700094115,9.240739900000056",
-      "point": "49.96583492253428,9.301136159645294",
+      "extent": "49.96277908478881,9.30791153455672,50.00149398461029,9.233350815535516",
+      "point": "49.96277908478881,9.30791153455672",
       "startLcPosition": "138",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
       "title": "A3 | Weibersbrunn - Hösbach",
       "startTimestamp": "2025-09-12T17:18:31+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "40.400001525878906",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "58.20000076293945",
       "coordinate": {
-        "lat": 49.96583492253428,
-        "long": 9.301136159645294
+        "lat": 49.96277908478881,
+        "long": 9.30791153455672
       },
       "description": [
         "Beginn: 12.09.25 um 17:18 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 12.09.2025, 17:18",
-        "A3: Würzburg -> Frankfurt, zwischen 4.5 km hinter AS Weibersbrunn und 1.2 km vor AS Hösbach",
+        "A3: Würzburg -> Frankfurt, zwischen 3.9 km hinter AS Weibersbrunn und 0.6 km vor AS Hösbach",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 40 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 58 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -427,8 +427,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.30113616,
-            49.965834923
+            9.307911535,
+            49.962779085
+          ],
+          [
+            9.3070044,
+            49.963045601
+          ],
+          [
+            9.30594,
+            49.963417801
+          ],
+          [
+            9.3049595,
+            49.963790201
+          ],
+          [
+            9.3040541,
+            49.964197201
+          ],
+          [
+            9.3032018,
+            49.964617601
+          ],
+          [
+            9.3025339,
+            49.964962601
+          ],
+          [
+            9.3020912,
+            49.965230901
+          ],
+          [
+            9.3013631,
+            49.965670601
           ],
           [
             9.3006401,
@@ -709,6 +741,30 @@
           [
             9.2407399,
             49.999557001
+          ],
+          [
+            9.2402989,
+            49.999695501
+          ],
+          [
+            9.2396238,
+            49.999893201
+          ],
+          [
+            9.2383023,
+            50.000274001
+          ],
+          [
+            9.2376057,
+            50.000461501
+          ],
+          [
+            9.2359006,
+            50.000926001
+          ],
+          [
+            9.233350816,
+            50.001493985
           ]
         ]
       }
@@ -1619,6 +1675,85 @@
           [
             9.554490476,
             49.81890763
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-13_01-21-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.06133558392745,8.676985305768476,50.06111995764999,8.662692928492836",
+      "point": "50.06133558392745,8.676985305768476",
+      "startLcPosition": "159",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Offenbacher Kreuz - Frankfurt am Main-Süd",
+      "startTimestamp": "2025-09-13T01:21:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "59.099998474121094",
+      "coordinate": {
+        "lat": 50.06133558392745,
+        "long": 8.676985305768476
+      },
+      "description": [
+        "Beginn: 13.09.25 um 01:21 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 13.09.2025, 01:21",
+        "A3: Würzburg -> Frankfurt, zwischen 3.6 km hinter AK Offenbacher Kreuz und 1.1 km vor AS Frankfurt am Main-Süd",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 59 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.676985306,
+            50.061335584
+          ],
+          [
+            8.6766097,
+            50.061334501
+          ],
+          [
+            8.6736027,
+            50.061314201
+          ],
+          [
+            8.6719006,
+            50.061303201
+          ],
+          [
+            8.6703268,
+            50.061288901
+          ],
+          [
+            8.670139,
+            50.061285201
+          ],
+          [
+            8.6670292,
+            50.061222601
+          ],
+          [
+            8.6664345,
+            50.061210001
+          ],
+          [
+            8.6651596,
+            50.061185501
+          ],
+          [
+            8.662692928,
+            50.061119958
           ]
         ]
       }
