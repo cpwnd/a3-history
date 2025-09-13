@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-09-13_17-47-21-000.f_004.de0",
+      "identifier": "undefined--vi-hind.2025-09-13_17-47-21-000.f_006.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -50,7 +50,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-09-13_17-24-40-000.f_010.de0",
+      "identifier": "undefined--vi-hind.2025-09-13_17-24-40-000.f_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -99,33 +99,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-13_05-01-00-000.f_007.de0",
+      "identifier": "undefined--vi-hind.2025-09-13_18-57-20-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06457915513665,8.718628898363395,50.06100722302211,8.659840696789464",
-      "point": "50.06457915513665,8.718628898363395",
-      "startLcPosition": "159",
+      "extent": "50.06760984610386,8.8232582110933,50.06730850094085,8.825940199999957",
+      "point": "50.06760984610386,8.8232582110933",
+      "startLcPosition": "157",
       "display_type": "WARNING",
-      "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Offenbacher Kreuz - Frankfurt am Main-Süd",
-      "startTimestamp": "2025-09-13T05:01:00+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "37.29999923706055",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Hainbach - Obertshausen",
+      "startTimestamp": "2025-09-13T18:57:20+02:00",
       "coordinate": {
-        "lat": 50.06457915513665,
-        "long": 8.718628898363395
+        "lat": 50.06760984610386,
+        "long": 8.8232582110933
       },
       "description": [
-        "Beginn: 13.09.25 um 05:01 Uhr",
+        "Beginn: 13.09.25 um 18:57 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.09.2025, 05:01",
-        "A3: Würzburg -> Frankfurt, zwischen 0.6 km hinter AK Offenbacher Kreuz und 0.9 km vor AS Frankfurt am Main-Süd",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 37 km/h"
+        "Fahrzeug-Hindernis, seit 13.09.2025, 18:57",
+        "A3: Frankfurt -> Würzburg, zwischen 4.3 km hinter Hainbach und 0.1 km vor AS Obertshausen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -135,52 +129,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.718628898,
-            50.064579155
+            8.823258211,
+            50.067609846
           ],
           [
-            8.7185796,
-            50.064574601
+            8.8234098,
+            50.067597001
           ],
           [
-            8.7178249,
-            50.064490001
+            8.823753,
+            50.067567101
           ],
           [
-            8.7168505,
-            50.064365301
+            8.8245486,
+            50.067483501
           ],
           [
-            8.7151179,
-            50.064111101
+            8.825305,
+            50.067391901
           ],
           [
-            8.7139496,
-            50.063918201
-          ],
+            8.8259402,
+            50.067308501
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-13_05-01-00-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.061939268481595,8.70349584491105,50.06115779751334,8.664116761250643",
+      "point": "50.061939268481595,8.70349584491105",
+      "startLcPosition": "159",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Offenbacher Kreuz - Frankfurt am Main-Süd",
+      "startTimestamp": "2025-09-13T05:01:00+02:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "48.79999923706055",
+      "coordinate": {
+        "lat": 50.061939268481595,
+        "long": 8.70349584491105
+      },
+      "description": [
+        "Beginn: 13.09.25 um 05:01 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 13.09.2025, 05:01",
+        "A3: Würzburg -> Frankfurt, zwischen 1.7 km hinter AK Offenbacher Kreuz und 1.2 km vor AS Frankfurt am Main-Süd",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 48 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            8.712301,
-            50.063605901
-          ],
-          [
-            8.7107678,
-            50.063308401
-          ],
-          [
-            8.7089387,
-            50.062941801
-          ],
-          [
-            8.7077973,
-            50.062712701
-          ],
-          [
-            8.7058425,
-            50.062339901
-          ],
-          [
-            8.703952,
-            50.062010801
+            8.703495845,
+            50.061939268
           ],
           [
             8.7029247,
@@ -275,34 +288,75 @@
             50.061185501
           ],
           [
-            8.6626607,
-            50.061119101
-          ],
-          [
-            8.6623783,
-            50.061108901
-          ],
-          [
-            8.6611293,
-            50.061066001
-          ],
-          [
-            8.6603919,
-            50.061037301
-          ],
-          [
-            8.6599192,
-            50.061012601
-          ],
-          [
-            8.659840697,
-            50.061007223
+            8.664116761,
+            50.061157798
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-09-13_18-10-23-000.f_004.de0",
+      "identifier": "undefined--vi-hind.2025-09-13_19-02-18-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.922675630507705,7.062547963282311,50.921871592851254,7.064667662719534",
+      "point": "50.922675630507705,7.062547963282311",
+      "startLcPosition": "209",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Köln-Heumar - Königsforst",
+      "startTimestamp": "2025-09-13T19:02:18+02:00",
+      "coordinate": {
+        "lat": 50.922675630507705,
+        "long": 7.062547963282311
+      },
+      "description": [
+        "Beginn: 13.09.25 um 19:02 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 13.09.2025, 19:02",
+        "A3: Köln -> Frankfurt, zwischen 0.2 km hinter AD Köln-Heumar und 3.1 km vor AS Königsforst",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.062547963,
+            50.922675631
+          ],
+          [
+            7.0628729,
+            50.922531101
+          ],
+          [
+            7.0632789,
+            50.922362601
+          ],
+          [
+            7.0636177,
+            50.922231101
+          ],
+          [
+            7.0641608,
+            50.922036301
+          ],
+          [
+            7.0646444,
+            50.921878501
+          ],
+          [
+            7.064667663,
+            50.921871593
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-09-13_18-10-23-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -410,27 +464,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.973651863172584,7.028421581531656,50.973651863172584,7.028421581531656",
-      "point": "50.973651863172584,7.028421581531656",
+      "extent": "50.970313337927514,7.029729201567041,50.970313337927514,7.029729201567041",
+      "point": "50.970313337927514,7.029729201567041",
       "startLcPosition": "211",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Köln-Dellbrück - Köln-Dellbrück",
-      "startTimestamp": "2025-09-13T18:41:24+02:00",
+      "startTimestamp": "2025-09-13T19:07:07+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13",
+      "averageSpeed": "11",
       "coordinate": {
-        "lat": 50.973651863172584,
-        "long": 7.028421581531656
+        "lat": 50.970313337927514,
+        "long": 7.029729201567041
       },
       "description": [
-        "Beginn: 13.09.25 um 18:41 Uhr",
+        "Beginn: 13.09.25 um 19:07 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.09.2025, 18:41",
-        "A3: Oberhausen -> Köln, 0.8 km vor AS Köln-Dellbrück, aus Richtung Köln-Mülheim",
+        "Angespannte Verkehrslage, seit 13.09.2025, 19:07",
+        "A3: Oberhausen -> Köln, 0.4 km vor AS Köln-Dellbrück, aus Richtung Köln-Mülheim",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -440,12 +494,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.028421582,
-            50.973651863
+            7.029729202,
+            50.970313338
           ],
           [
-            7.028421582,
-            50.973651863
+            7.029729202,
+            50.970313338
           ]
         ]
       }
@@ -455,29 +509,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.973651863172584,7.028421581531656,50.94233660468569,7.041567540404474",
-      "point": "50.973651863172584,7.028421581531656",
+      "extent": "50.97035705447181,7.029712624065938,50.94233660468569,7.041567540404474",
+      "point": "50.97035705447181,7.029712624065938",
       "startLcPosition": "212",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Frankfurt",
       "title": "A3 | Köln-Mülheim - Köln-Heumar",
       "startTimestamp": "2025-09-13T18:06:09+02:00",
-      "delayTimeValue": "14",
+      "delayTimeValue": "16",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "12.800000190734863",
+      "averageSpeed": "10.600000381469727",
       "coordinate": {
-        "lat": 50.973651863172584,
-        "long": 7.028421581531656
+        "lat": 50.97035705447181,
+        "long": 7.029712624065938
       },
       "description": [
         "Beginn: 13.09.25 um 18:06 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 13.09.2025, 18:06",
-        "A3: Oberhausen -> Frankfurt, zwischen 1.4 km hinter AS Köln-Mülheim und 2.4 km vor AD Köln-Heumar",
+        "A3: Oberhausen -> Frankfurt, zwischen 1.8 km hinter AS Köln-Mülheim und 2.4 km vor AD Köln-Heumar",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 14 Minuten",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
+        "Reisezeitverlust: 16 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -487,20 +541,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.028421582,
-            50.973651863
-          ],
-          [
-            7.0284945,
-            50.973491501
-          ],
-          [
-            7.0289538,
-            50.972354101
-          ],
-          [
-            7.0296861,
-            50.970427001
+            7.029712624,
+            50.970357054
           ],
           [
             7.0304,
@@ -630,33 +672,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-13_08-52-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-09-13_18-47-12-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.435750148635556,6.8085110581867365,51.446171995129454,6.798917852349953",
-      "point": "51.435750148635556,6.8085110581867365",
-      "startLcPosition": "229",
+      "extent": "50.970596894756156,7.02962154278033,50.97032208123663,7.0297258860694",
+      "point": "50.970596894756156,7.02962154278033",
+      "startLcPosition": "212",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
-      "startTimestamp": "2025-09-13T08:52:00+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "39.900001525878906",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Köln-Mülheim - Köln-Dellbrück",
+      "startTimestamp": "2025-09-13T18:47:12+02:00",
       "coordinate": {
-        "lat": 51.435750148635556,
-        "long": 6.8085110581867365
+        "lat": 50.970596894756156,
+        "long": 7.02962154278033
       },
       "description": [
-        "Beginn: 13.09.25 um 08:52 Uhr",
+        "Beginn: 13.09.25 um 18:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.09.2025, 08:52",
-        "A3: Köln -> Oberhausen, zwischen 3.2 km hinter AS Duisburg-Wedau und 3.8 km vor AS Oberhausen-Lirich",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 39 km/h"
+        "Fahrzeug-Hindernis, seit 13.09.2025, 18:47",
+        "A3: Oberhausen -> Köln, zwischen 1.7 km hinter AS Köln-Mülheim und 0.4 km vor AS Köln-Dellbrück",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -666,184 +702,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.808511058,
-            51.435750149
+            7.029621543,
+            50.970596895
           ],
           [
-            6.8085049,
-            51.435783601
+            7.0296861,
+            50.970427001
           ],
           [
-            6.8083711,
-            51.436255401
-          ],
-          [
-            6.8081629,
-            51.436791301
-          ],
-          [
-            6.8076985,
-            51.437558701
-          ],
-          [
-            6.807328,
-            51.438101401
-          ],
-          [
-            6.8071266,
-            51.438375401
-          ],
-          [
-            6.8070113,
-            51.438519201
-          ],
-          [
-            6.806881,
-            51.438678001
-          ],
-          [
-            6.806723,
-            51.438858201
-          ],
-          [
-            6.8066157,
-            51.438969401
-          ],
-          [
-            6.806519,
-            51.439073001
-          ],
-          [
-            6.8062495,
-            51.439343001
-          ],
-          [
-            6.8060946,
-            51.439491001
-          ],
-          [
-            6.8059466,
-            51.439625401
-          ],
-          [
-            6.805758,
-            51.439792801
-          ],
-          [
-            6.8056145,
-            51.439911901
-          ],
-          [
-            6.8054663,
-            51.440028701
-          ],
-          [
-            6.8053236,
-            51.440140101
-          ],
-          [
-            6.8051512,
-            51.440272201
-          ],
-          [
-            6.8049782,
-            51.440402601
-          ],
-          [
-            6.8048131,
-            51.440518001
-          ],
-          [
-            6.8045644,
-            51.440691401
-          ],
-          [
-            6.8042756,
-            51.440882001
-          ],
-          [
-            6.804079,
-            51.441019501
-          ],
-          [
-            6.8038505,
-            51.441160301
-          ],
-          [
-            6.8034265,
-            51.441427901
-          ],
-          [
-            6.8031663,
-            51.441593001
-          ],
-          [
-            6.8029209,
-            51.441741601
-          ],
-          [
-            6.802526,
-            51.441990101
-          ],
-          [
-            6.8022966,
-            51.442138901
-          ],
-          [
-            6.8022128,
-            51.442194001
-          ],
-          [
-            6.8021213,
-            51.442258901
-          ],
-          [
-            6.8019895,
-            51.442362901
-          ],
-          [
-            6.8018189,
-            51.442514801
-          ],
-          [
-            6.8015197,
-            51.442715401
-          ],
-          [
-            6.8009287,
-            51.443114001
-          ],
-          [
-            6.8005072,
-            51.443455601
-          ],
-          [
-            6.8001702,
-            51.443830301
-          ],
-          [
-            6.7999821,
-            51.444040501
-          ],
-          [
-            6.799686,
-            51.444432601
-          ],
-          [
-            6.7994176,
-            51.444873701
-          ],
-          [
-            6.7991609,
-            51.445441601
-          ],
-          [
-            6.7989272,
-            51.446131001
-          ],
-          [
-            6.798917852,
-            51.446171995
+            7.029725886,
+            50.970322081
           ]
         ]
       }
@@ -859,7 +727,7 @@
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Oberhausen-Lirich - Oberhausen-Lirich",
-      "startTimestamp": "2025-09-13T18:41:24+02:00",
+      "startTimestamp": "2025-09-13T19:07:07+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "17",
       "coordinate": {
@@ -867,9 +735,9 @@
         "long": 6.813138645104928
       },
       "description": [
-        "Beginn: 13.09.25 um 18:41 Uhr",
+        "Beginn: 13.09.25 um 19:07 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.09.2025, 18:41",
+        "Angespannte Verkehrslage, seit 13.09.2025, 19:07",
         "A3: Oberhausen -> Köln, 0.6 km vor AS Oberhausen-Lirich, aus Richtung Oberhausen-West",
         "",
         "Im Stillstand",
@@ -907,7 +775,7 @@
       "startTimestamp": "2025-09-13T11:07:55+02:00",
       "delayTimeValue": "4",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "22.899999618530273",
+      "averageSpeed": "21.5",
       "coordinate": {
         "lat": 51.48086255771003,
         "long": 6.813129643904461
@@ -920,7 +788,7 @@
         "",
         "Im Stillstand",
         "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 22 km/h"
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
