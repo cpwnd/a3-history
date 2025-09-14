@@ -1,6 +1,51 @@
 {
   "warning": [
     {
+      "identifier": "undefined--vi-hind.2025-09-15_00-27-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.56615140094837,13.381491500185955,48.56481378471636,13.38319420435013",
+      "point": "48.56615140094837,13.381491500185955",
+      "startLcPosition": "9",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Passau",
+      "title": "A3 | Donautal - Passau-Mitte",
+      "startTimestamp": "2025-09-15T00:27:30+02:00",
+      "coordinate": {
+        "lat": 48.56615140094837,
+        "long": 13.381491500185955
+      },
+      "description": [
+        "Beginn: 15.09.25 um 00:27 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 15.09.2025, 00:27",
+        "A3: Nürnberg -> Passau, zwischen 3.0 km hinter Donautal und 0.1 km vor AS Passau-Mitte",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3814915,
+            48.566151401
+          ],
+          [
+            13.3822308,
+            48.565614001
+          ],
+          [
+            13.383194204,
+            48.564813785
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-zus.2025-09-03_12-45-28-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -1503,29 +1548,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.653831463177006,7.327127845988617,50.66223428206643,7.319874507262271",
-      "point": "50.653831463177006,7.327127845988617",
+      "extent": "50.65270750898557,7.328110094661103,50.66223428206643,7.319874507262271",
+      "point": "50.65270750898557,7.328110094661103",
       "startLcPosition": "198",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Bad Honnef/Linz - Logebachtal",
       "startTimestamp": "2025-09-15T00:14:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52.900001525878906",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.400001525878906",
       "coordinate": {
-        "lat": 50.653831463177006,
-        "long": 7.327127845988617
+        "lat": 50.65270750898557,
+        "long": 7.328110094661103
       },
       "description": [
         "Beginn: 15.09.25 um 00:14 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 15.09.2025, 00:14",
-        "A3: Frankfurt -> Köln, zwischen 0.4 km hinter AS Bad Honnef/Linz und 2.2 km vor Logebachtal",
+        "A3: Frankfurt -> Köln, zwischen 0.3 km hinter AS Bad Honnef/Linz und 2.2 km vor Logebachtal",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 52 km/h",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 38 km/h",
         "",
         "Gefahr durch eine ungesicherte Unfallstelle"
       ],
@@ -1537,8 +1582,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.327127846,
-            50.653831463
+            7.328110095,
+            50.652707509
+          ],
+          [
+            7.3273017,
+            50.653627801
           ],
           [
             7.3255987,
@@ -1567,6 +1616,51 @@
           [
             7.319874507,
             50.662234282
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-15_00-25-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.65270750898557,7.328110094661103,50.65270750898557,7.328110094661103",
+      "point": "50.65270750898557,7.328110094661103",
+      "startLcPosition": "199",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Logebachtal - Logebachtal",
+      "startTimestamp": "2025-09-15T00:31:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "18",
+      "coordinate": {
+        "lat": 50.65270750898557,
+        "long": 7.328110094661103
+      },
+      "description": [
+        "Beginn: 15.09.25 um 00:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 15.09.2025, 00:31",
+        "A3: Frankfurt -> Köln, 3.4 km vor Logebachtal, aus Richtung Bad Honnef/Linz",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.328110095,
+            50.652707509
+          ],
+          [
+            7.328110095,
+            50.652707509
           ]
         ]
       }
