@@ -14,7 +14,7 @@
       "startTimestamp": "2025-09-15T08:25:21+02:00",
       "delayTimeValue": "2",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "41.70000076293945",
+      "averageSpeed": "39.79999923706055",
       "coordinate": {
         "lat": 47.65926961056078,
         "long": 7.529481711917528
@@ -27,7 +27,7 @@
         "",
         "Stockender Verkehr",
         "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 41 km/h"
+        "Durchschnittsgeschwindigkeit: 39 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -164,33 +164,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-15_12-50-36-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-09-15_13-19-59-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.921004018297545,8.354484313665923,48.90158055423748,8.336867698919491",
-      "point": "48.921004018297545,8.354484313665923",
-      "startLcPosition": "56",
+      "extent": "47.65901698676167,7.529713977847819,47.65901698676167,7.529713977847819",
+      "point": "47.65901698676167,7.529713977847819",
+      "startLcPosition": "5",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Karlsruhe-Süd - Schleifweg",
-      "startTimestamp": "2025-09-15T12:50:36+02:00",
-      "delayTimeValue": "2",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Efringen-Kirchen - Efringen-Kirchen",
+      "startTimestamp": "2025-09-15T13:21:59+02:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "47.29999923706055",
+      "averageSpeed": "28",
       "coordinate": {
-        "lat": 48.921004018297545,
-        "long": 8.354484313665923
+        "lat": 47.65901698676167,
+        "long": 7.529713977847819
       },
       "description": [
-        "Beginn: 15.09.25 um 12:50 Uhr",
+        "Beginn: 15.09.25 um 13:21 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 15.09.2025, 12:50",
-        "A5: Karlsruhe -> Basel, zwischen 4.7 km hinter AS Karlsruhe-Süd und 3.8 km vor Schleifweg",
+        "Angespannte Verkehrslage, seit 15.09.2025, 13:21",
+        "A5: Basel -> Karlsruhe, 2.2 km vor AS Efringen-Kirchen, aus Richtung Weil am Rhein",
         "",
         "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 47 km/h"
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -200,8 +198,104 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.354484314,
-            48.921004018
+            7.529713978,
+            47.659016987
+          ],
+          [
+            7.529713978,
+            47.659016987
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-15_13-19-59-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.92390446162806,8.355774431613751,48.92390446162806,8.355774431613751",
+      "point": "48.92390446162806,8.355774431613751",
+      "startLcPosition": "55",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Schleifweg - Schleifweg",
+      "startTimestamp": "2025-09-15T13:21:59+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "21",
+      "coordinate": {
+        "lat": 48.92390446162806,
+        "long": 8.355774431613751
+      },
+      "description": [
+        "Beginn: 15.09.25 um 13:21 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 15.09.2025, 13:21",
+        "A5: Karlsruhe -> Basel, 6.8 km vor Schleifweg, aus Richtung Karlsruhe-Süd",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.355774432,
+            48.923904462
+          ],
+          [
+            8.355774432,
+            48.923904462
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-15_12-50-36-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.92390446162806,8.355774431613751,48.90134998084542,8.336008303176076",
+      "point": "48.92390446162806,8.355774431613751",
+      "startLcPosition": "56",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Karlsruhe-Süd - Schleifweg",
+      "startTimestamp": "2025-09-15T12:50:36+02:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36.5",
+      "coordinate": {
+        "lat": 48.92390446162806,
+        "long": 8.355774431613751
+      },
+      "description": [
+        "Beginn: 15.09.25 um 12:50 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 15.09.2025, 12:50",
+        "A5: Karlsruhe -> Basel, zwischen 4.3 km hinter AS Karlsruhe-Süd und 3.7 km vor Schleifweg",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.355774432,
+            48.923904462
+          ],
+          [
+            8.3553493,
+            48.922959701
           ],
           [
             8.354194,
@@ -348,8 +442,8 @@
             48.901813401
           ],
           [
-            8.336867699,
-            48.901580554
+            8.336008303,
+            48.901349981
           ]
         ]
       }
@@ -359,29 +453,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.25276295327329,8.600689393524938,49.274039176576245,8.616357892511354",
-      "point": "49.25276295327329,8.600689393524938",
-      "startLcPosition": "66",
+      "extent": "49.265359868911176,8.609220097809077,49.274039176576245,8.616357892511354",
+      "point": "49.265359868911176,8.609220097809077",
+      "startLcPosition": "68",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Kronau - Walldorf",
+      "title": "A5 | Lußhardt - Walldorf",
       "startTimestamp": "2025-09-15T09:18:54+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "36.900001525878906",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "60.5",
       "coordinate": {
-        "lat": 49.25276295327329,
-        "long": 8.600689393524938
+        "lat": 49.265359868911176,
+        "long": 8.609220097809077
       },
       "description": [
         "Beginn: 15.09.25 um 09:18 Uhr",
         "",
         "Angespannte Verkehrslage, seit 15.09.2025, 09:18",
-        "A5: Karlsruhe -> Heidelberg, zwischen 2.9 km hinter AS Kronau und 0.8 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 1.0 km hinter Lußhardt und 0.8 km vor AK Walldorf",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 36 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 60 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -391,92 +485,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.600689394,
-            49.252762953
-          ],
-          [
-            8.6007046,
-            49.252838701
-          ],
-          [
-            8.6007655,
-            49.253116201
-          ],
-          [
-            8.6009501,
-            49.253745101
-          ],
-          [
-            8.6011751,
-            49.254365501
-          ],
-          [
-            8.601594,
-            49.255384101
-          ],
-          [
-            8.6018051,
-            49.255810101
-          ],
-          [
-            8.602064,
-            49.256303601
-          ],
-          [
-            8.6023263,
-            49.256755301
-          ],
-          [
-            8.6025601,
-            49.257128201
-          ],
-          [
-            8.6030971,
-            49.257908801
-          ],
-          [
-            8.6034531,
-            49.258360401
-          ],
-          [
-            8.6040372,
-            49.259094301
-          ],
-          [
-            8.6048433,
-            49.260078901
-          ],
-          [
-            8.6053522,
-            49.260683801
-          ],
-          [
-            8.6055396,
-            49.260914901
-          ],
-          [
-            8.6058676,
-            49.261310901
-          ],
-          [
-            8.6060734,
-            49.261554801
-          ],
-          [
-            8.6060934,
-            49.261578501
-          ],
-          [
-            8.6068895,
-            49.262539701
-          ],
-          [
-            8.6074374,
-            49.263188801
-          ],
-          [
-            8.6077663,
-            49.263589001
+            8.609220098,
+            49.265359869
           ],
           [
             8.6092849,
@@ -538,29 +548,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.31412870704887,8.62942831116035,49.34253080530395,8.630955352524616",
-      "point": "49.31412870704887,8.62942831116035",
+      "extent": "49.30862757229433,8.628453531238533,49.335653777506316,8.63058959926491",
+      "point": "49.30862757229433,8.628453531238533",
       "startLcPosition": "70",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Walldorf/Wiesloch - Hardtwald",
       "startTimestamp": "2025-09-15T12:59:34+02:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "47.099998474121094",
+      "averageSpeed": "59.099998474121094",
       "coordinate": {
-        "lat": 49.31412870704887,
-        "long": 8.62942831116035
+        "lat": 49.30862757229433,
+        "long": 8.628453531238533
       },
       "description": [
         "Beginn: 15.09.25 um 12:59 Uhr",
         "",
         "Angespannte Verkehrslage, seit 15.09.2025, 12:59",
-        "A5: Karlsruhe -> Heidelberg, zwischen 1.4 km hinter AS Walldorf/Wiesloch und 0.8 km vor Hardtwald",
+        "A5: Karlsruhe -> Heidelberg, zwischen 0.8 km hinter AS Walldorf/Wiesloch und 1.6 km vor Hardtwald",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 47 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 59 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -570,8 +580,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.629428311,
-            49.314128707
+            8.628453531,
+            49.308627572
+          ],
+          [
+            8.6286785,
+            49.309570401
+          ],
+          [
+            8.6288855,
+            49.310481701
+          ],
+          [
+            8.6289981,
+            49.311034701
+          ],
+          [
+            8.6290703,
+            49.311394501
+          ],
+          [
+            8.6292338,
+            49.312414101
+          ],
+          [
+            8.6293435,
+            49.313225901
           ],
           [
             8.6294595,
@@ -666,48 +700,40 @@
             49.335375201
           ],
           [
-            8.6307041,
-            49.337809001
-          ],
-          [
-            8.6308696,
-            49.340907901
-          ],
-          [
-            8.630955353,
-            49.342530805
+            8.630589599,
+            49.335653778
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-09-15_13-02-41-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-09-15_13-02-41-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.5202063702073,8.637600224743549,49.54665410131214,8.627999022017184",
-      "point": "49.5202063702073,8.637600224743549",
-      "startLcPosition": "76",
+      "extent": "49.495077466900526,8.639284151267645,49.52170944470826,8.637169249295733",
+      "point": "49.495077466900526,8.639284151267645",
+      "startLcPosition": "75",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Darmstadt",
-      "title": "A5 | Hirschberg - Weinheim",
+      "title": "A5 | Ladenburg - Fliegwiese",
       "startTimestamp": "2025-09-15T13:02:41+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "52",
+      "averageSpeed": "54",
       "coordinate": {
-        "lat": 49.5202063702073,
-        "long": 8.637600224743549
+        "lat": 49.495077466900526,
+        "long": 8.639284151267645
       },
       "description": [
         "Beginn: 15.09.25 um 13:02 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 15.09.2025, 13:02",
-        "A5: Heidelberg -> Darmstadt, zwischen 1.3 km hinter AS Hirschberg und 0.3 km vor AK Weinheim",
+        "Angespannte Verkehrslage, seit 15.09.2025, 13:02",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.9 km hinter AS Ladenburg und 1.1 km vor Fliegwiese",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 52 km/h"
+        "Durchschnittsgeschwindigkeit: 54 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -717,8 +743,84 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.637600225,
-            49.52020637
+            8.639284151,
+            49.495077467
+          ],
+          [
+            8.6395257,
+            49.497429901
+          ],
+          [
+            8.6397658,
+            49.500558101
+          ],
+          [
+            8.6398397,
+            49.502440301
+          ],
+          [
+            8.6398446,
+            49.502897001
+          ],
+          [
+            8.6398597,
+            49.504303601
+          ],
+          [
+            8.6398601,
+            49.505223101
+          ],
+          [
+            8.6397993,
+            49.507138801
+          ],
+          [
+            8.6397181,
+            49.508306001
+          ],
+          [
+            8.6396775,
+            49.508918401
+          ],
+          [
+            8.6394888,
+            49.510836901
+          ],
+          [
+            8.6393968,
+            49.511597101
+          ],
+          [
+            8.6393823,
+            49.511707501
+          ],
+          [
+            8.6392108,
+            49.512879601
+          ],
+          [
+            8.6391456,
+            49.513323201
+          ],
+          [
+            8.6388789,
+            49.514899001
+          ],
+          [
+            8.6387703,
+            49.515510101
+          ],
+          [
+            8.6385635,
+            49.516471401
+          ],
+          [
+            8.6383303,
+            49.517496401
+          ],
+          [
+            8.6378688,
+            49.519228401
           ],
           [
             8.637352,
@@ -729,16 +831,51 @@
             49.521290501
           ],
           [
-            8.6370944,
-            49.521954901
-          ],
+            8.637169249,
+            49.521709445
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-09-15_13-02-41-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.52506506400928,8.636035273378576,49.55019749006421,8.627623756363343",
+      "point": "49.52506506400928,8.636035273378576",
+      "startLcPosition": "76",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Hirschberg - Hemsbach",
+      "startTimestamp": "2025-09-15T13:02:41+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "56.5",
+      "coordinate": {
+        "lat": 49.52506506400928,
+        "long": 8.636035273378576
+      },
+      "description": [
+        "Beginn: 15.09.25 um 13:02 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 15.09.2025, 13:02",
+        "A5: Heidelberg -> Darmstadt, zwischen 1.8 km hinter AS Hirschberg und 4.9 km vor AS Hemsbach",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 56 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            8.6368997,
-            49.522556301
-          ],
-          [
-            8.6364987,
-            49.523747301
+            8.636035273,
+            49.525065064
           ],
           [
             8.6359581,
@@ -825,8 +962,73 @@
             49.545583101
           ],
           [
-            8.627999022,
-            49.546654101
+            8.6279168,
+            49.547081401
+          ],
+          [
+            8.6278083,
+            49.547925301
+          ],
+          [
+            8.6276983,
+            49.548895301
+          ],
+          [
+            8.6276733,
+            49.549244601
+          ],
+          [
+            8.6276238,
+            49.550193401
+          ],
+          [
+            8.627623756,
+            49.55019749
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-15_13-21-59-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.49509541633598,8.6392859942359,49.49509541633598,8.6392859942359",
+      "point": "49.49509541633598,8.6392859942359",
+      "startLcPosition": "76",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Hirschberg - Hirschberg",
+      "startTimestamp": "2025-09-15T13:21:59+02:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "27",
+      "coordinate": {
+        "lat": 49.49509541633598,
+        "long": 8.6392859942359
+      },
+      "description": [
+        "Beginn: 15.09.25 um 13:21 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 15.09.2025, 13:21",
+        "A5: Heidelberg -> Darmstadt, 1.5 km vor AS Hirschberg, aus Richtung Ladenburg",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.639285994,
+            49.495095416
+          ],
+          [
+            8.639285994,
+            49.495095416
           ]
         ]
       }
@@ -836,29 +1038,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.85287240094176,8.604226099999899,49.848151644214006,8.611887743703441",
-      "point": "49.85287240094176,8.604226099999899",
+      "extent": "49.8557834164002,8.597532160730093,49.84570200632057,8.61705815135965",
+      "point": "49.8557834164002,8.597532160730093",
       "startLcPosition": "94",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
       "title": "A5 | Darmstädter Kreuz - Darmstadt-Eberstadt",
       "startTimestamp": "2025-09-15T13:06:59+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "50.79999923706055",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "35.29999923706055",
       "coordinate": {
-        "lat": 49.85287240094176,
-        "long": 8.604226099999899
+        "lat": 49.8557834164002,
+        "long": 8.597532160730093
       },
       "description": [
         "Beginn: 15.09.25 um 13:06 Uhr",
         "",
         "Angespannte Verkehrslage, seit 15.09.2025, 13:06",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.8 km hinter AK Darmstädter Kreuz und 5.0 km vor AS Darmstadt-Eberstadt",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.2 km hinter AK Darmstädter Kreuz und 4.5 km vor AS Darmstadt-Eberstadt",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 50 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 35 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -867,6 +1069,90 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            8.597532161,
+            49.855783416
+          ],
+          [
+            8.5976317,
+            49.855673601
+          ],
+          [
+            8.5977885,
+            49.855506601
+          ],
+          [
+            8.5980837,
+            49.855286301
+          ],
+          [
+            8.5983158,
+            49.855145801
+          ],
+          [
+            8.5984977,
+            49.855049501
+          ],
+          [
+            8.5987347,
+            49.854940301
+          ],
+          [
+            8.5989892,
+            49.854834001
+          ],
+          [
+            8.5992224,
+            49.854747501
+          ],
+          [
+            8.5994547,
+            49.854670601
+          ],
+          [
+            8.6000714,
+            49.854512601
+          ],
+          [
+            8.6005658,
+            49.854396401
+          ],
+          [
+            8.6010333,
+            49.854296601
+          ],
+          [
+            8.6014321,
+            49.854217601
+          ],
+          [
+            8.6018407,
+            49.854129701
+          ],
+          [
+            8.6021791,
+            49.854032501
+          ],
+          [
+            8.6025214,
+            49.853906501
+          ],
+          [
+            8.6027725,
+            49.853793201
+          ],
+          [
+            8.6029757,
+            49.853680501
+          ],
+          [
+            8.6032082,
+            49.853530501
+          ],
+          [
+            8.6038755,
+            49.853103901
+          ],
           [
             8.6042261,
             49.852872401
@@ -916,14 +1202,38 @@
             49.848574801
           ],
           [
-            8.611887744,
-            49.848151644
+            8.6121012,
+            49.848038501
+          ],
+          [
+            8.6130475,
+            49.847557001
+          ],
+          [
+            8.6138195,
+            49.847173701
+          ],
+          [
+            8.6146674,
+            49.846775301
+          ],
+          [
+            8.6157022,
+            49.846301901
+          ],
+          [
+            8.6166856,
+            49.845863201
+          ],
+          [
+            8.617058151,
+            49.845702006
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-09-15_12-40-07-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-09-15_12-40-07-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -944,7 +1254,9 @@
         "Hindernis, seit 15.09.2025, 12:40",
         "A5: Darmstadt -> Frankfurt, zwischen 0.6 km hinter AS Frankfurt am Main-Flughafen-Nord und 0.1 km vor AS Frankfurt am Main-Niederrad",
         "",
-        "Gefahr durch Personen auf der Fahrbahn"
+        "Gefahr durch Personen auf der Fahrbahn",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1109,7 +1421,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-09-15_12-40-07-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2025-09-15_12-40-07-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1255,20 +1567,20 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-09-15_13-05-12-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-09-15_13-05-12-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.70871110796774,9.0624233266264,50.64383703166673,8.990600261555883",
-      "point": "50.70871110796774,9.0624233266264",
+      "extent": "50.708692337865145,9.062392807475291,50.64380513294969,8.990438127116555",
+      "point": "50.708692337865145,9.062392807475291",
       "startLcPosition": "131",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Krachgarten - Hegberg",
       "startTimestamp": "2025-09-15T13:05:12+02:00",
       "coordinate": {
-        "lat": 50.70871110796774,
-        "long": 9.0624233266264
+        "lat": 50.708692337865145,
+        "long": 9.062392807475291
       },
       "description": [
         "Beginn: 15.09.25 um 13:05 Uhr",
@@ -1278,7 +1590,7 @@
         "",
         "Gefahr durch Gegenstände auf der Fahrbahn",
         "",
-        "A5 Kassel Richtung Frankfurt\nzwischen Ohmtal-Dreieck und Homberg (Ohm)\nGefahr durch Unterlegkeil auf der Fahrbahn, Gefahr durch 1 defekten LKW"
+        "A5 Kassel Richtung Frankfurt zwischen Ohmtal-Dreieck und Homberg (Ohm) Gefahr durch Unterlegkeil auf der Fahrbahn, Gefahr durch 1 defekten LKW"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1288,8 +1600,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.062423327,
-            50.708711108
+            9.062392807,
+            50.708692338
           ],
           [
             9.0623108,
@@ -1768,8 +2080,8 @@
             50.643940701
           ],
           [
-            8.990600262,
-            50.643837032
+            8.990438127,
+            50.643805133
           ]
         ]
       }
