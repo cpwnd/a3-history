@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-09-20_07-33-03-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-09-20_07-33-03-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -50,29 +50,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.676374029484364,7.29097678588063,50.712118728523215,7.244086246414117",
-      "point": "50.676374029484364,7.29097678588063",
+      "extent": "50.678858171484094,7.283624045619566,50.712118728523215,7.244086246414117",
+      "point": "50.678858171484094,7.283624045619566",
       "startLcPosition": "199",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Logebachtal - Bonn/Siegburg",
       "startTimestamp": "2025-09-20T04:50:00+02:00",
-      "delayTimeValue": "7",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "31.799999237060547",
+      "delayTimeValue": "20",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12.399999618530273",
       "coordinate": {
-        "lat": 50.676374029484364,
-        "long": 7.29097678588063
+        "lat": 50.678858171484094,
+        "long": 7.283624045619566
       },
       "description": [
         "Beginn: 20.09.25 um 04:50 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.09.2025, 04:50",
-        "A3: Frankfurt -> Köln, zwischen 0.4 km hinter Logebachtal und 7.5 km vor AK Bonn/Siegburg",
+        "A3: Frankfurt -> Köln, zwischen 1.0 km hinter Logebachtal und 7.5 km vor AK Bonn/Siegburg",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 7 Minuten",
-        "Durchschnittsgeschwindigkeit: 31 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 20 Minuten",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -82,28 +82,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.290976786,
-            50.676374029
-          ],
-          [
-            7.2902019,
-            50.676616801
-          ],
-          [
-            7.2862931,
-            50.677847801
-          ],
-          [
-            7.2853428,
-            50.678171301
-          ],
-          [
-            7.28445,
-            50.678513201
-          ],
-          [
-            7.2837755,
-            50.678790401
+            7.283624046,
+            50.678858171
           ],
           [
             7.2831198,
@@ -304,6 +284,51 @@
           [
             7.244086246,
             50.712118729
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-20_07-50-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.67878595886525,7.28378630886029,50.67878595886525,7.28378630886029",
+      "point": "50.67878595886525,7.28378630886029",
+      "startLcPosition": "200",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Siebengebirge - Siebengebirge",
+      "startTimestamp": "2025-09-20T08:17:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
+      "coordinate": {
+        "lat": 50.67878595886525,
+        "long": 7.28378630886029
+      },
+      "description": [
+        "Beginn: 20.09.25 um 08:17 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.09.2025, 08:17",
+        "A3: Frankfurt -> Köln, 1.0 km vor AS Siebengebirge, aus Richtung Logebachtal",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.283786309,
+            50.678785959
+          ],
+          [
+            7.283786309,
+            50.678785959
           ]
         ]
       }
