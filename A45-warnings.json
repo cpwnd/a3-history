@@ -165,29 +165,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.418444247581505,7.551178429374057,51.42996550093382,7.5392443999990615",
-      "point": "51.418444247581505,7.551178429374057",
+      "extent": "51.4200523657651,7.550398605913242,51.42996550093382,7.5392443999990615",
+      "point": "51.4200523657651,7.550398605913242",
       "startLcPosition": "101",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Schwerte-Ergste - Westhofener Kreuz",
       "startTimestamp": "2025-09-20T16:00:28+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "2",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "32.5",
+      "averageSpeed": "28.700000762939453",
       "coordinate": {
-        "lat": 51.418444247581505,
-        "long": 7.551178429374057
+        "lat": 51.4200523657651,
+        "long": 7.550398605913242
       },
       "description": [
         "Beginn: 20.09.25 um 16:00 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.09.2025, 16:00",
-        "A45: Hagen -> Dortmund, zwischen 1.0 km hinter AS Schwerte-Ergste und 0.6 km vor AK Westhofener Kreuz",
+        "A45: Hagen -> Dortmund, zwischen 1.1 km hinter AS Schwerte-Ergste und 0.6 km vor AK Westhofener Kreuz",
         "",
         "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 32 km/h"
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -197,16 +197,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.551178429,
-            51.418444248
-          ],
-          [
-            7.5510321,
-            51.418800801
-          ],
-          [
-            7.5507485,
-            51.419415801
+            7.550398606,
+            51.420052366
           ],
           [
             7.5502167,
@@ -275,6 +267,51 @@
           [
             7.5392444,
             51.429965501
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-20_16-33-23-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.4200523657651,7.550398605913242,51.4200523657651,7.550398605913242",
+      "point": "51.4200523657651,7.550398605913242",
+      "startLcPosition": "102",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Westhofener Kreuz - Westhofener Kreuz",
+      "startTimestamp": "2025-09-20T16:36:27+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "21",
+      "coordinate": {
+        "lat": 51.4200523657651,
+        "long": 7.550398605913242
+      },
+      "description": [
+        "Beginn: 20.09.25 um 16:36 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.09.2025, 16:36",
+        "A45: Hagen -> Dortmund, 1.9 km vor AK Westhofener Kreuz, aus Richtung Schwerte-Ergste",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.550398606,
+            51.420052366
+          ],
+          [
+            7.550398606,
+            51.420052366
           ]
         ]
       }
