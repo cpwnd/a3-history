@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-09-21_08-56-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-09-21_08-56-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -57,9 +57,9 @@
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Neuwied - Epgert",
       "startTimestamp": "2025-09-21T09:21:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "60.20000076293945",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36.79999923706055",
       "coordinate": {
         "lat": 50.56737564189778,
         "long": 7.520165631446667
@@ -70,11 +70,11 @@
         "Zusammengesetzte Verkehrsinformation, seit 21.09.2025, 09:21",
         "A3: Frankfurt -> Köln, zwischen 0.6 km hinter AS Neuwied und 2.2 km vor Epgert",
         "",
-        "Gefahr durch eine ungesicherte Unfallstelle",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 60 km/h"
+        "Gefahr durch eine ungesicherte Unfallstelle"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -188,6 +188,51 @@
           [
             7.50003352,
             50.574571107
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-21_09-32-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.56737564189778,7.520165631446667,50.56737564189778,7.520165631446667",
+      "point": "50.56737564189778,7.520165631446667",
+      "startLcPosition": "193",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Epgert - Epgert",
+      "startTimestamp": "2025-09-21T09:33:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "18",
+      "coordinate": {
+        "lat": 50.56737564189778,
+        "long": 7.520165631446667
+      },
+      "description": [
+        "Beginn: 21.09.25 um 09:33 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 21.09.2025, 09:33",
+        "A3: Frankfurt -> Köln, 3.3 km vor Epgert, aus Richtung Neuwied",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.520165631,
+            50.567375642
+          ],
+          [
+            7.520165631,
+            50.567375642
           ]
         ]
       }
