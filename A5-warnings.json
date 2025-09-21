@@ -922,16 +922,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.969804500945074,8.431995299999869,48.987365600945026,8.43647989999987",
+      "extent": "48.969804500945074,8.431995299999869,48.98467880068416,8.436691389396909",
       "point": "48.969804500945074,8.431995299999869",
       "startLcPosition": "57",
       "display_type": "WARNING",
       "subtitle": " Basel -> Heidelberg",
       "title": "A5 | Ettlingen - Karlsruhe-Mitte",
       "startTimestamp": "2025-09-21T18:22:00+02:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "22.700000762939453",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "30.5",
       "coordinate": {
         "lat": 48.969804500945074,
         "long": 8.431995299999869
@@ -940,11 +940,11 @@
         "Beginn: 21.09.25 um 18:22 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 21.09.2025, 18:22",
-        "A5: Basel -> Heidelberg, zwischen 2.2 km hinter AS Ettlingen und 0.4 km vor AS Karlsruhe-Mitte",
+        "A5: Basel -> Heidelberg, zwischen 2.2 km hinter AS Ettlingen und 0.7 km vor AS Karlsruhe-Mitte",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 22 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 30 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1142,71 +1142,18 @@
             48.984633901
           ],
           [
-            8.4366262,
-            48.985408601
-          ],
-          [
-            8.4365861,
-            48.985858201
-          ],
-          [
-            8.4364799,
-            48.987365601
+            8.436691389,
+            48.984678801
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-09-21_20-42-00-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2025-09-21_18-25-24-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.969804500945074,8.431995299999869,48.969804500945074,8.431995299999869",
-      "point": "48.969804500945074,8.431995299999869",
-      "startLcPosition": "58",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Karlsruhe - Karlsruhe",
-      "startTimestamp": "2025-09-21T21:07:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17",
-      "coordinate": {
-        "lat": 48.969804500945074,
-        "long": 8.431995299999869
-      },
-      "description": [
-        "Beginn: 21.09.25 um 21:07 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 21.09.2025, 21:07",
-        "A5: Karlsruhe -> Heidelberg, 0.7 km vor AD Karlsruhe, aus Richtung Ettlingen",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.4319953,
-            48.969804501
-          ],
-          [
-            8.4319953,
-            48.969804501
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-09-21_18-25-24-000.f_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.9784952201988,8.4372273418803,48.99995959023229,8.446027650952235",
+      "extent": "48.9784952201988,8.4372273418803,48.9931774450382,8.437112078358817",
       "point": "48.9784952201988,8.4372273418803",
       "startLcPosition": "58",
       "display_type": "WARNING",
@@ -1220,10 +1167,8 @@
       "description": [
         "Beginn: 21.09.25 um 18:25 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 21.09.2025, 18:25",
-        "A5: Karlsruhe -> Heidelberg, zwischen 0.4 km hinter AD Karlsruhe und 0.5 km vor AS Karlsruhe-Durlach",
-        "",
-        "A5 Richtung Heidelberg zwischen Ausfahrt Karlsruhe-Mitte und Karlsruhe-Durlach Gefahr durch brennendes Fahrzeug, bitte vorsichtig fahren, Rettungsfahrzeuge im Einsatz, Gasse für Rettungs- und Einsatzfahrzeuge bilden, linker Fahrstreifen wieder befahrbar"
+        "Hindernis, seit 21.09.2025, 18:25",
+        "A5: Karlsruhe -> Heidelberg, zwischen 0.4 km hinter AD Karlsruhe und 1.5 km vor AS Karlsruhe-Durlach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1345,68 +1290,8 @@
             48.993121301
           ],
           [
-            8.4372251,
-            48.993365301
-          ],
-          [
-            8.4373324,
-            48.993540401
-          ],
-          [
-            8.4374308,
-            48.993691901
-          ],
-          [
-            8.4378076,
-            48.994181001
-          ],
-          [
-            8.4380521,
-            48.994466301
-          ],
-          [
-            8.438353,
-            48.994781001
-          ],
-          [
-            8.438703,
-            48.995114601
-          ],
-          [
-            8.4390051,
-            48.995370301
-          ],
-          [
-            8.439399,
-            48.995686301
-          ],
-          [
-            8.4398919,
-            48.996046901
-          ],
-          [
-            8.4403502,
-            48.996337701
-          ],
-          [
-            8.4407159,
-            48.996569401
-          ],
-          [
-            8.4422468,
-            48.997548101
-          ],
-          [
-            8.443514,
-            48.998350901
-          ],
-          [
-            8.4459886,
-            48.999934401
-          ],
-          [
-            8.446027651,
-            48.99995959
+            8.437112078,
+            48.993177445
           ]
         ]
       }
