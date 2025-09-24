@@ -365,29 +365,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.94418939892216,12.58321523088964,48.94540062859944,12.595236608003287",
-      "point": "48.94418939892216,12.58321523088964",
+      "extent": "48.94477375282881,12.574245988189952,48.94540062859944,12.595236608003287",
+      "point": "48.94477375282881,12.574245988189952",
       "startLcPosition": "33",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
       "title": "A3 | Kirchroth - Straubing",
       "startTimestamp": "2025-09-24T21:03:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "54.5",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "46.099998474121094",
       "coordinate": {
-        "lat": 48.94418939892216,
-        "long": 12.58321523088964
+        "lat": 48.94477375282881,
+        "long": 12.574245988189952
       },
       "description": [
         "Beginn: 24.09.25 um 21:03 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.09.2025, 21:03",
-        "A3: Nürnberg -> Passau, zwischen 3.6 km hinter AS Kirchroth und 1.9 km vor AS Straubing",
+        "A3: Nürnberg -> Passau, zwischen 2.9 km hinter AS Kirchroth und 1.9 km vor AS Straubing",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 54 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 46 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -397,8 +397,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            12.583215231,
-            48.944189399
+            12.574245988,
+            48.944773753
+          ],
+          [
+            12.5752132,
+            48.944624601
+          ],
+          [
+            12.5767143,
+            48.944418601
+          ],
+          [
+            12.5784399,
+            48.944280001
+          ],
+          [
+            12.5798778,
+            48.944197201
+          ],
+          [
+            12.5814016,
+            48.944170101
+          ],
+          [
+            12.5831278,
+            48.944185901
           ],
           [
             12.5844802,
@@ -431,274 +455,6 @@
           [
             12.595236608,
             48.945400629
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-09-24_21-29-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.14452576227914,11.85760368689068,49.089499400944746,11.888161300019842",
-      "point": "49.14452576227914,11.85760368689068",
-      "startLcPosition": "56",
-      "display_type": "WARNING",
-      "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Kühberg - Riedtal",
-      "startTimestamp": "2025-09-24T21:29:30+02:00",
-      "coordinate": {
-        "lat": 49.14452576227914,
-        "long": 11.85760368689068
-      },
-      "description": [
-        "Beginn: 24.09.25 um 21:29 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 24.09.2025, 21:29",
-        "A3: Nürnberg -> Passau, zwischen 3.4 km hinter Kühberg und 6.1 km vor Riedtal"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            11.857603687,
-            49.144525762
-          ],
-          [
-            11.8578082,
-            49.144372901
-          ],
-          [
-            11.8584787,
-            49.143823701
-          ],
-          [
-            11.8589032,
-            49.143435301
-          ],
-          [
-            11.8591015,
-            49.143244901
-          ],
-          [
-            11.8594889,
-            49.142852301
-          ],
-          [
-            11.8599036,
-            49.142401301
-          ],
-          [
-            11.8605182,
-            49.141663701
-          ],
-          [
-            11.8613568,
-            49.140496001
-          ],
-          [
-            11.8622901,
-            49.138730901
-          ],
-          [
-            11.8629099,
-            49.137564901
-          ],
-          [
-            11.8634429,
-            49.136728001
-          ],
-          [
-            11.8640699,
-            49.135850001
-          ],
-          [
-            11.8645407,
-            49.135302101
-          ],
-          [
-            11.8653678,
-            49.134384401
-          ],
-          [
-            11.8661729,
-            49.133558801
-          ],
-          [
-            11.8672263,
-            49.132434201
-          ],
-          [
-            11.8676011,
-            49.131990901
-          ],
-          [
-            11.8677859,
-            49.131753501
-          ],
-          [
-            11.868475,
-            49.130801301
-          ],
-          [
-            11.8690232,
-            49.129984201
-          ],
-          [
-            11.8695523,
-            49.128961901
-          ],
-          [
-            11.8699413,
-            49.128081501
-          ],
-          [
-            11.8701031,
-            49.127700401
-          ],
-          [
-            11.8704066,
-            49.126723601
-          ],
-          [
-            11.8705388,
-            49.126180401
-          ],
-          [
-            11.8706073,
-            49.125941501
-          ],
-          [
-            11.870788,
-            49.124800001
-          ],
-          [
-            11.8708182,
-            49.124586701
-          ],
-          [
-            11.8712565,
-            49.121490201
-          ],
-          [
-            11.8714449,
-            49.120454101
-          ],
-          [
-            11.8718511,
-            49.118889201
-          ],
-          [
-            11.8722167,
-            49.117898601
-          ],
-          [
-            11.8724374,
-            49.117217201
-          ],
-          [
-            11.8728745,
-            49.116050301
-          ],
-          [
-            11.8732539,
-            49.115208301
-          ],
-          [
-            11.8733762,
-            49.114929001
-          ],
-          [
-            11.8741267,
-            49.113455301
-          ],
-          [
-            11.8752717,
-            49.111552001
-          ],
-          [
-            11.8765914,
-            49.109673301
-          ],
-          [
-            11.8780224,
-            49.107866501
-          ],
-          [
-            11.8796008,
-            49.106133501
-          ],
-          [
-            11.880322,
-            49.105356301
-          ],
-          [
-            11.8807005,
-            49.104905901
-          ],
-          [
-            11.8823866,
-            49.102752301
-          ],
-          [
-            11.8833161,
-            49.101334301
-          ],
-          [
-            11.8841932,
-            49.099710001
-          ],
-          [
-            11.8846605,
-            49.098625601
-          ],
-          [
-            11.8852094,
-            49.097054501
-          ],
-          [
-            11.8855018,
-            49.096079701
-          ],
-          [
-            11.886065,
-            49.093517501
-          ],
-          [
-            11.8862786,
-            49.092732301
-          ],
-          [
-            11.8865488,
-            49.091975301
-          ],
-          [
-            11.8867483,
-            49.091536001
-          ],
-          [
-            11.8869526,
-            49.091148001
-          ],
-          [
-            11.88716,
-            49.090802201
-          ],
-          [
-            11.8874542,
-            49.090351701
-          ],
-          [
-            11.8877493,
-            49.089976601
-          ],
-          [
-            11.8881613,
-            49.089499401
           ]
         ]
       }
@@ -983,9 +739,9 @@
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Merker Wald - Epgert",
       "startTimestamp": "2025-09-24T21:04:30+02:00",
-      "delayTimeValue": "13",
+      "delayTimeValue": "17",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9.600000381469727",
+      "averageSpeed": "7.5",
       "coordinate": {
         "lat": 50.56130240464129,
         "long": 7.534570801989787
@@ -999,8 +755,8 @@
         "Gefahr durch eine ungesicherte Unfallstelle",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 13 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Reisezeitverlust: 17 Minuten",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1085,6 +841,51 @@
       }
     },
     {
+      "identifier": "undefined--vi-avl.2025-09-24_21-09-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.5613129469098,7.534531820071285,50.5613129469098,7.534531820071285",
+      "point": "50.5613129469098,7.534531820071285",
+      "startLcPosition": "192",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Neuwied - Neuwied",
+      "startTimestamp": "2025-09-24T21:39:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "7",
+      "coordinate": {
+        "lat": 50.5613129469098,
+        "long": 7.534531820071285
+      },
+      "description": [
+        "Beginn: 24.09.25 um 21:39 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.09.2025, 21:39",
+        "A3: Frankfurt -> Köln, 0.7 km vor AS Neuwied, aus Richtung Merker Wald",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.53453182,
+            50.561312947
+          ],
+          [
+            7.53453182,
+            50.561312947
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-zus.2025-09-24_20-51-05-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -1164,175 +965,6 @@
           [
             7.50003352,
             50.574571107
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-24_21-09-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.5613129469098,7.534531820071285,50.5613129469098,7.534531820071285",
-      "point": "50.5613129469098,7.534531820071285",
-      "startLcPosition": "192",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Neuwied - Neuwied",
-      "startTimestamp": "2025-09-24T21:32:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10",
-      "coordinate": {
-        "lat": 50.5613129469098,
-        "long": 7.534531820071285
-      },
-      "description": [
-        "Beginn: 24.09.25 um 21:32 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.09.2025, 21:32",
-        "A3: Frankfurt -> Köln, 0.7 km vor AS Neuwied, aus Richtung Merker Wald",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.53453182,
-            50.561312947
-          ],
-          [
-            7.53453182,
-            50.561312947
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-24_20-49-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.64175602579359,7.344570509959192,50.64890112974762,7.331763450761669",
-      "point": "50.64175602579359,7.344570509959192",
-      "startLcPosition": "197",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Hambitz - Bad Honnef/Linz",
-      "startTimestamp": "2025-09-24T20:49:00+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "20.200000762939453",
-      "coordinate": {
-        "lat": 50.64175602579359,
-        "long": 7.344570509959192
-      },
-      "description": [
-        "Beginn: 24.09.25 um 20:49 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.09.2025, 20:49",
-        "A3: Frankfurt -> Köln, zwischen 1.2 km hinter Hambitz und 0.2 km vor AS Bad Honnef/Linz",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.34457051,
-            50.641756026
-          ],
-          [
-            7.3422149,
-            50.642944301
-          ],
-          [
-            7.3406302,
-            50.643740601
-          ],
-          [
-            7.3397503,
-            50.644189601
-          ],
-          [
-            7.3388578,
-            50.644638501
-          ],
-          [
-            7.3353245,
-            50.646480801
-          ],
-          [
-            7.3335064,
-            50.647610801
-          ],
-          [
-            7.3331571,
-            50.647851301
-          ],
-          [
-            7.3324804,
-            50.648333101
-          ],
-          [
-            7.331763451,
-            50.64890113
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-24_21-28-00-000.f_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.641778378900575,7.344526199651344,50.641778378900575,7.344526199651344",
-      "point": "50.641778378900575,7.344526199651344",
-      "startLcPosition": "198",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Bad Honnef/Linz - Bad Honnef/Linz",
-      "startTimestamp": "2025-09-24T21:32:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "19",
-      "coordinate": {
-        "lat": 50.641778378900575,
-        "long": 7.344526199651344
-      },
-      "description": [
-        "Beginn: 24.09.25 um 21:32 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.09.2025, 21:32",
-        "A3: Frankfurt -> Köln, 1.4 km vor AS Bad Honnef/Linz, aus Richtung Hambitz",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 19 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.3445262,
-            50.641778379
-          ],
-          [
-            7.3445262,
-            50.641778379
           ]
         ]
       }
