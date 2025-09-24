@@ -1,6 +1,59 @@
 {
   "warning": [
     {
+      "identifier": "undefined--vi-hind.2025-09-24_23-15-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.55393633369308,8.627632044922152,49.55230251854746,8.627479901079191",
+      "point": "49.55393633369308,8.627632044922152",
+      "startLcPosition": "80",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Hemsbach - Weinheim",
+      "startTimestamp": "2025-09-24T23:15:30+02:00",
+      "coordinate": {
+        "lat": 49.55393633369308,
+        "long": 8.627632044922152
+      },
+      "description": [
+        "Beginn: 24.09.25 um 23:15 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 24.09.2025, 23:15",
+        "A5: Darmstadt -> Heidelberg, zwischen 4.5 km hinter AS Hemsbach und 0.4 km vor AK Weinheim",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.627632045,
+            49.553936334
+          ],
+          [
+            8.6276035,
+            49.553719301
+          ],
+          [
+            8.6275347,
+            49.553083701
+          ],
+          [
+            8.6274846,
+            49.552429001
+          ],
+          [
+            8.627479901,
+            49.552302519
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-hind.2025-09-24_22-24-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -302,29 +355,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.45513337116414,8.713541331816888,50.471286563858456,8.725313763536512",
-      "point": "50.45513337116414,8.713541331816888",
+      "extent": "50.453276799239354,8.710011777125015,50.470585623266174,8.724947191512658",
+      "point": "50.453276799239354,8.710011777125015",
       "startLcPosition": "119",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Butzbach - Gambacher Kreuz",
       "startTimestamp": "2025-09-24T22:44:00+02:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "26.600000381469727",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "35.099998474121094",
       "coordinate": {
-        "lat": 50.45513337116414,
-        "long": 8.713541331816888
+        "lat": 50.453276799239354,
+        "long": 8.710011777125015
       },
       "description": [
         "Beginn: 24.09.25 um 22:44 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 24.09.2025, 22:44",
-        "A5: Frankfurt -> Kassel, zwischen 2.5 km hinter AS Butzbach und 0.4 km vor AK Gambacher Kreuz",
+        "A5: Frankfurt -> Kassel, zwischen 2.2 km hinter AS Butzbach und 0.4 km vor AK Gambacher Kreuz",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 35 km/h",
         "",
         "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
       ],
@@ -336,8 +389,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.713541332,
-            50.455133371
+            8.710011777,
+            50.453276799
+          ],
+          [
+            8.710349,
+            50.453425601
+          ],
+          [
+            8.7109054,
+            50.453683201
+          ],
+          [
+            8.7121145,
+            50.454312801
+          ],
+          [
+            8.7125186,
+            50.454538001
+          ],
+          [
+            8.7134459,
+            50.455072601
           ],
           [
             8.7141152,
@@ -456,61 +529,8 @@
             50.470440401
           ],
           [
-            8.7250053,
-            50.470698301
-          ],
-          [
-            8.7251198,
-            50.470920201
-          ],
-          [
-            8.725313764,
-            50.471286564
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-09-24_23-05-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.455165126580944,8.713591199758147,50.455165126580944,8.713591199758147",
-      "point": "50.455165126580944,8.713591199758147",
-      "startLcPosition": "120",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Gambacher Kreuz - Gambacher Kreuz",
-      "startTimestamp": "2025-09-24T23:06:30+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "27",
-      "coordinate": {
-        "lat": 50.455165126580944,
-        "long": 8.713591199758147
-      },
-      "description": [
-        "Beginn: 24.09.25 um 23:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.09.2025, 23:06",
-        "A5: Frankfurt -> Kassel, 2.4 km vor AK Gambacher Kreuz, aus Richtung Butzbach",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 27 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.7135912,
-            50.455165127
-          ],
-          [
-            8.7135912,
-            50.455165127
+            8.724947192,
+            50.470585623
           ]
         ]
       }
