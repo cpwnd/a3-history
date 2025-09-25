@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-09-25_23-58-00-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-09-26_00-53-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.769731072366056,9.583605203874468,49.76921145737401,9.585939443137299",
-      "point": "49.769731072366056,9.583605203874468",
-      "startLcPosition": "132",
+      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "261",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Würzburg",
-      "title": "A3 | Wertheim/Lengfurt - Fronberg",
-      "startTimestamp": "2025-09-25T23:58:00+02:00",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Knauheide - Knauheide",
+      "startTimestamp": "2025-09-26T01:06:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "16",
       "coordinate": {
-        "lat": 49.769731072366056,
-        "long": 9.583605203874468
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
       },
       "description": [
-        "Beginn: 25.09.25 um 23:58 Uhr",
+        "Beginn: 26.09.25 um 01:06 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 25.09.2025, 23:58",
-        "A3: Frankfurt -> Würzburg, zwischen 0.1 km hinter AS Wertheim/Lengfurt und 9.7 km vor Fronberg",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 26.09.2025, 01:06",
+        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,24 +35,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.583605204,
-            49.769731072
+            6.165717281,
+            51.898399017
           ],
           [
-            9.5838872,
-            49.769656001
+            6.165717281,
+            51.898399017
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-26_00-53-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "262",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Elten - Elten",
+      "startTimestamp": "2025-09-26T00:53:30+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "32.5",
+      "coordinate": {
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
+      },
+      "description": [
+        "Beginn: 26.09.25 um 00:53 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.09.2025, 00:53",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 32 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165717281,
+            51.898399017
           ],
           [
-            9.5847334,
-            49.769453801
+            6.1665101,
+            51.897629501
           ],
           [
-            9.5855912,
-            49.769273201
+            6.1668453,
+            51.897289501
           ],
           [
-            9.585939443,
-            49.769211457
+            6.1686237,
+            51.895575501
+          ],
+          [
+            6.1688771,
+            51.895327101
           ]
         ]
       }
