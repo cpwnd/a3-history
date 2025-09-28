@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-09-28_23-22-00-000.f.de0",
+      "identifier": "undefined--vi-zus.2025-09-28_23-28-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.22581362629057,7.667475240410835,51.23213007716484,7.658525778600616",
-      "point": "51.22581362629057,7.667475240410835",
-      "startLcPosition": "1000",
+      "extent": "51.22650540067099,7.666985166819877,51.22900147372726,7.664447022773831",
+      "point": "51.22650540067099,7.666985166819877",
+      "startLcPosition": "86",
       "display_type": "WARNING",
-      "subtitle": " km 54.24 --> km 53.28",
-      "title": "Baustelle",
-      "startTimestamp": "2025-09-28T23:22:00+02:00",
+      "subtitle": " Gießen -> Hagen",
+      "title": "A45 | Sauerland - Lüdenscheid",
+      "startTimestamp": "2025-09-28T23:28:00+02:00",
       "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "44.900001525878906",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "25.799999237060547",
       "coordinate": {
-        "lat": 51.22581362629057,
-        "long": 7.667475240410835
+        "lat": 51.22650540067099,
+        "long": 7.666985166819877
       },
       "description": [
-        "Beginn: 28.09.25 um 23:22 Uhr",
+        "Beginn: 28.09.25 um 23:28 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 28.09.2025, 23:22",
-        "A45: km 54.24 --> km 53.28",
+        "Zusammengesetzte Verkehrsinformation, seit 28.09.2025, 23:28",
+        "A45: Gießen -> Hagen, zwischen 0.4 km hinter Sauerland und 0.5 km vor AS Lüdenscheid",
         "",
-        "Langsamer Verkehr",
+        "Stockender Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,20 +37,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.66747524,
-            51.225813626
-          ],
-          [
-            7.6673857,
-            51.225968101
-          ],
-          [
-            7.6672228,
-            51.226203001
-          ],
-          [
-            7.6670461,
-            51.226430001
+            7.666985167,
+            51.226505401
           ],
           [
             7.6667007,
@@ -77,40 +65,53 @@
             51.228342501
           ],
           [
-            7.6642094,
-            51.229194601
+            7.664447023,
+            51.229001474
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-09-28_23-29-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.22650540067099,7.666985166819877,51.22650540067099,7.666985166819877",
+      "point": "51.22650540067099,7.666985166819877",
+      "startLcPosition": "87",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Hagen",
+      "title": "A45 | Lüdenscheid - Lüdenscheid",
+      "startTimestamp": "2025-09-28T23:29:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "11",
+      "coordinate": {
+        "lat": 51.22650540067099,
+        "long": 7.666985166819877
+      },
+      "description": [
+        "Beginn: 28.09.25 um 23:29 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 28.09.2025, 23:29",
+        "A45: Gießen -> Hagen, 0.9 km vor AS Lüdenscheid, aus Richtung Sauerland",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.666985167,
+            51.226505401
           ],
           [
-            7.6635244,
-            51.229680801
-          ],
-          [
-            7.6629524,
-            51.230043001
-          ],
-          [
-            7.6622997,
-            51.230427901
-          ],
-          [
-            7.661486,
-            51.230869001
-          ],
-          [
-            7.6607379,
-            51.231240101
-          ],
-          [
-            7.6602525,
-            51.231473801
-          ],
-          [
-            7.6592696,
-            51.231868001
-          ],
-          [
-            7.658525779,
-            51.232130077
+            7.666985167,
+            51.226505401
           ]
         ]
       }
