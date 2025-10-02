@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-10-02_10-00-59-000.f_003.de0",
+      "identifier": "undefined--vi-avl.2025-10-02_12-22-08-000.f_014.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.38374226192681,8.936187686861421,50.38542393750647,8.936159986449765",
-      "point": "50.38374226192681,8.936187686861421",
-      "startLcPosition": "15",
+      "extent": "49.99678334229995,9.015915673274922,49.99678334229995,9.015915673274922",
+      "point": "49.99678334229995,9.015915673274922",
+      "startLcPosition": "0",
       "display_type": "WARNING",
-      "subtitle": " Aschaffenburg -> Gießen",
-      "title": "A45 | Auf der Nachtweide - Wölfersheim",
-      "startTimestamp": "2025-10-02T10:00:59+02:00",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Seligenstädter Dreieck - Seligenstädter Dreieck",
+      "startTimestamp": "2025-10-02T12:30:57+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "14",
       "coordinate": {
-        "lat": 50.38374226192681,
-        "long": 8.936187686861421
+        "lat": 49.99678334229995,
+        "long": 9.015915673274922
       },
       "description": [
-        "Beginn: 02.10.25 um 10:00 Uhr",
+        "Beginn: 02.10.25 um 12:30 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 02.10.2025, 10:00",
-        "A45: Aschaffenburg -> Gießen, zwischen 4.2 km hinter Auf der Nachtweide und 7.8 km vor AS Wölfersheim",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 02.10.2025, 12:30",
+        "A45: Gießen -> Aschaffenburg, 0.4 km vor AD Seligenstädter Dreieck, aus Richtung Mainhausen",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,48 +35,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.936187687,
-            50.383742262
+            9.015915673,
+            49.996783342
           ],
           [
-            8.9361879,
-            50.383830801
-          ],
-          [
-            8.936159986,
-            50.385423938
+            9.015915673,
+            49.996783342
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-02_12-11-49-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-10-02_12-22-56-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.52773332211637,8.610603496188663,50.52818630093869,8.603837899999888",
-      "point": "50.52773332211637,8.610603496188663",
-      "startLcPosition": "23",
+      "extent": "50.526476575357236,8.622687297204063,50.52801675630076,8.606704965087072",
+      "point": "50.526476575357236,8.622687297204063",
+      "startLcPosition": "22",
       "display_type": "WARNING",
       "subtitle": " Aschaffenburg -> Gießen",
-      "title": "A45 | Pfaffenpfad - Gießen-Lützellinden",
-      "startTimestamp": "2025-10-02T12:11:49+02:00",
-      "delayTimeValue": "0",
+      "title": "A45 | Gießener Südkreuz - Gießen-Lützellinden",
+      "startTimestamp": "2025-10-02T12:22:56+02:00",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "34.29999923706055",
+      "averageSpeed": "39.29999923706055",
       "coordinate": {
-        "lat": 50.52773332211637,
-        "long": 8.610603496188663
+        "lat": 50.526476575357236,
+        "long": 8.622687297204063
       },
       "description": [
-        "Beginn: 02.10.25 um 12:11 Uhr",
+        "Beginn: 02.10.25 um 12:22 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 02.10.2025, 12:11",
-        "A45: Aschaffenburg -> Gießen, zwischen 0.6 km hinter Pfaffenpfad und 0.4 km vor AS Gießen-Lützellinden",
+        "Angespannte Verkehrslage, seit 02.10.2025, 12:22",
+        "A45: Aschaffenburg -> Gießen, zwischen 1.3 km hinter AK Gießener Südkreuz und 0.6 km vor AS Gießen-Lützellinden",
         "",
         "Stockender Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 34 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 39 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -82,8 +82,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.610603496,
-            50.527733322
+            8.622687297,
+            50.526476575
+          ],
+          [
+            8.6224099,
+            50.526512101
+          ],
+          [
+            8.6207141,
+            50.526733601
+          ],
+          [
+            8.618009,
+            50.527041001
+          ],
+          [
+            8.6167157,
+            50.527176201
+          ],
+          [
+            8.615717,
+            50.527275601
+          ],
+          [
+            8.6137774,
+            50.527460901
+          ],
+          [
+            8.6117922,
+            50.527635701
           ],
           [
             8.6092958,
@@ -94,42 +122,38 @@
             50.528014201
           ],
           [
-            8.605855,
-            50.528068301
-          ],
-          [
-            8.6038379,
-            50.528186301
+            8.606704965,
+            50.528016756
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-02_12-11-49-000.f_015.de0",
+      "identifier": "undefined--vi-avl.2025-10-02_12-30-00-000.f_018.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.52773332211637,8.610603496188663,50.52773332211637,8.610603496188663",
-      "point": "50.52773332211637,8.610603496188663",
-      "startLcPosition": "24",
+      "extent": "50.526503146056896,8.622479823636896,50.526503146056896,8.622479823636896",
+      "point": "50.526503146056896,8.622479823636896",
+      "startLcPosition": "23",
       "display_type": "WARNING",
       "subtitle": " Aschaffenburg -> Gießen",
-      "title": "A45 | Gießen-Lützellinden - Gießen-Lützellinden",
-      "startTimestamp": "2025-10-02T12:11:49+02:00",
+      "title": "A45 | Pfaffenpfad - Pfaffenpfad",
+      "startTimestamp": "2025-10-02T12:30:57+02:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "12",
+      "averageSpeed": "21",
       "coordinate": {
-        "lat": 50.52773332211637,
-        "long": 8.610603496188663
+        "lat": 50.526503146056896,
+        "long": 8.622479823636896
       },
       "description": [
-        "Beginn: 02.10.25 um 12:11 Uhr",
+        "Beginn: 02.10.25 um 12:30 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 02.10.2025, 12:11",
-        "A45: Aschaffenburg -> Gießen, 0.9 km vor AS Gießen-Lützellinden, aus Richtung Pfaffenpfad",
+        "Angespannte Verkehrslage, seit 02.10.2025, 12:30",
+        "A45: Aschaffenburg -> Gießen, 0.3 km vor Pfaffenpfad, aus Richtung Gießener Südkreuz",
         "",
         "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -139,12 +163,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.610603496,
-            50.527733322
+            8.622479824,
+            50.526503146
           ],
           [
-            8.610603496,
-            50.527733322
+            8.622479824,
+            50.526503146
           ]
         ]
       }
@@ -154,27 +178,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.273757579094706,7.598928474041893,51.273757579094706,7.598928474041893",
-      "point": "51.273757579094706,7.598928474041893",
+      "extent": "51.27208913319118,7.600193374558646,51.27208913319118,7.600193374558646",
+      "point": "51.27208913319118,7.600193374558646",
       "startLcPosition": "92",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Rehweg - Rehweg",
-      "startTimestamp": "2025-10-02T12:11:04+02:00",
+      "startTimestamp": "2025-10-02T12:25:33+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "2",
+      "averageSpeed": "3",
       "coordinate": {
-        "lat": 51.273757579094706,
-        "long": 7.598928474041893
+        "lat": 51.27208913319118,
+        "long": 7.600193374558646
       },
       "description": [
-        "Beginn: 02.10.25 um 12:11 Uhr",
+        "Beginn: 02.10.25 um 12:25 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 02.10.2025, 12:11",
-        "A45: Hagen -> Gießen, 0.6 km vor Rehweg, aus Richtung Kaltenborn",
+        "Angespannte Verkehrslage, seit 02.10.2025, 12:25",
+        "A45: Hagen -> Gießen, 0.4 km vor Rehweg, aus Richtung Kaltenborn",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 2 km/h"
+        "Durchschnittsgeschwindigkeit: 3 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -184,12 +208,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.598928474,
-            51.273757579
+            7.600193375,
+            51.272089133
           ],
           [
-            7.598928474,
-            51.273757579
+            7.600193375,
+            51.272089133
           ]
         ]
       }
@@ -199,29 +223,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.27413762186218,7.5985480854926495,51.2648062046249,7.602437327354894",
-      "point": "51.27413762186218,7.5985480854926495",
+      "extent": "51.27254346926392,7.59992076709214,51.2648062046249,7.602437327354894",
+      "point": "51.27254346926392,7.59992076709214",
       "startLcPosition": "93",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Kaltenborn - Lüdenscheid-Nord",
       "startTimestamp": "2025-10-02T06:08:30+02:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "10",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "5.199999809265137",
+      "averageSpeed": "4.800000190734863",
       "coordinate": {
-        "lat": 51.27413762186218,
-        "long": 7.5985480854926495
+        "lat": 51.27254346926392,
+        "long": 7.59992076709214
       },
       "description": [
         "Beginn: 02.10.25 um 06:08 Uhr",
         "",
         "Angespannte Verkehrslage, seit 02.10.2025, 06:08",
-        "A45: Hagen -> Gießen, zwischen 2.5 km hinter Kaltenborn und 1.0 km vor AS Lüdenscheid-Nord",
+        "A45: Hagen -> Gießen, zwischen 2.7 km hinter Kaltenborn und 1.0 km vor AS Lüdenscheid-Nord",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 11 Minuten",
-        "Durchschnittsgeschwindigkeit: 5 km/h"
+        "Reisezeitverlust: 10 Minuten",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -231,20 +255,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.598548085,
-            51.274137622
-          ],
-          [
-            7.5985729,
-            51.274123501
-          ],
-          [
-            7.5991844,
-            51.273494201
-          ],
-          [
-            7.599753,
-            51.272811301
+            7.599920767,
+            51.272543469
           ],
           [
             7.6000806,
@@ -278,31 +290,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-02_12-11-49-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-10-02_12-29-11-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.28862772853979,7.567827874363199,51.28862772853979,7.567827874363199",
-      "point": "51.28862772853979,7.567827874363199",
-      "startLcPosition": "94",
+      "extent": "51.498788950300224,7.3855309249037,51.508386173057374,7.3896896354490496",
+      "point": "51.498788950300224,7.3855309249037",
+      "startLcPosition": "108",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Rölveder Mühle - Rölveder Mühle",
-      "startTimestamp": "2025-10-02T12:11:49+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Dortmund-West - Dortmund-Hafen",
+      "startTimestamp": "2025-10-02T12:29:11+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54.79999923706055",
       "coordinate": {
-        "lat": 51.28862772853979,
-        "long": 7.567827874363199
+        "lat": 51.498788950300224,
+        "long": 7.3855309249037
       },
       "description": [
-        "Beginn: 02.10.25 um 12:11 Uhr",
+        "Beginn: 02.10.25 um 12:29 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 02.10.2025, 12:11",
-        "A45: Hagen -> Gießen, 0.1 km vor Rölveder Mühle, aus Richtung Brunsbecke",
+        "Angespannte Verkehrslage, seit 02.10.2025, 12:29",
+        "A45: Hagen -> Dortmund, zwischen 0.1 km hinter AK Dortmund-West und 1.2 km vor AS Dortmund-Hafen",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -312,44 +326,148 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.567827874,
-            51.288627729
+            7.385530925,
+            51.49878895
           ],
           [
-            7.567827874,
-            51.288627729
+            7.3855348,
+            51.498858401
+          ],
+          [
+            7.3855859,
+            51.499398601
+          ],
+          [
+            7.3856703,
+            51.499949301
+          ],
+          [
+            7.3857746,
+            51.500498201
+          ],
+          [
+            7.385897,
+            51.501010401
+          ],
+          [
+            7.3859779,
+            51.501290601
+          ],
+          [
+            7.3860505,
+            51.501539401
+          ],
+          [
+            7.386132,
+            51.501791301
+          ],
+          [
+            7.3862876,
+            51.502222901
+          ],
+          [
+            7.3863464,
+            51.502384101
+          ],
+          [
+            7.3864439,
+            51.502631401
+          ],
+          [
+            7.3866924,
+            51.503202601
+          ],
+          [
+            7.3867887,
+            51.503410401
+          ],
+          [
+            7.3869297,
+            51.503698201
+          ],
+          [
+            7.3870794,
+            51.503983901
+          ],
+          [
+            7.3873471,
+            51.504452701
+          ],
+          [
+            7.3875592,
+            51.504817001
+          ],
+          [
+            7.3878371,
+            51.505265301
+          ],
+          [
+            7.3881272,
+            51.505712501
+          ],
+          [
+            7.3885285,
+            51.506326101
+          ],
+          [
+            7.3889155,
+            51.506930501
+          ],
+          [
+            7.3892126,
+            51.507424601
+          ],
+          [
+            7.3893855,
+            51.507742801
+          ],
+          [
+            7.3894689,
+            51.507904601
+          ],
+          [
+            7.3895552,
+            51.508055001
+          ],
+          [
+            7.3896818,
+            51.508367301
+          ],
+          [
+            7.389689635,
+            51.508386173
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-02_12-11-49-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-10-02_12-09-23-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.28862772853979,7.567827874363199,51.288460000934634,7.571817899999118",
-      "point": "51.28862772853979,7.567827874363199",
-      "startLcPosition": "95",
+      "extent": "51.565966851842816,7.360319182867883,51.5820531234725,7.366739390037713",
+      "point": "51.565966851842816,7.360319182867883",
+      "startLcPosition": "112",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Brunsbecke - Rehweg",
-      "startTimestamp": "2025-10-02T12:11:49+02:00",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Castrop-Rauxel-Ost - Dortmund-Nordwest",
+      "startTimestamp": "2025-10-02T12:09:23+02:00",
       "delayTimeValue": "0",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "18",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "55.5",
       "coordinate": {
-        "lat": 51.28862772853979,
-        "long": 7.567827874363199
+        "lat": 51.565966851842816,
+        "long": 7.360319182867883
       },
       "description": [
-        "Beginn: 02.10.25 um 12:11 Uhr",
+        "Beginn: 02.10.25 um 12:09 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 02.10.2025, 12:11",
-        "A45: Hagen -> Gießen, zwischen 4.9 km hinter Brunsbecke und 3.2 km vor Rehweg",
+        "Angespannte Verkehrslage, seit 02.10.2025, 12:09",
+        "A45: Hagen -> Dortmund, zwischen 0.5 km hinter AK Castrop-Rauxel-Ost und 0.4 km vor AK Dortmund-Nordwest",
         "",
-        "Im Stillstand",
+        "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 18 km/h"
+        "Durchschnittsgeschwindigkeit: 55 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -359,32 +477,124 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.567827874,
-            51.288627729
+            7.360319183,
+            51.565966852
           ],
           [
-            7.5678875,
-            51.288625801
+            7.3607579,
+            51.566862601
           ],
           [
-            7.5687912,
-            51.288598401
+            7.3609308,
+            51.567199401
           ],
           [
-            7.5695861,
-            51.288575801
+            7.3612506,
+            51.567835701
           ],
           [
-            7.57056,
-            51.288536701
+            7.3614482,
+            51.568249801
           ],
           [
-            7.5714041,
-            51.288495101
+            7.3616083,
+            51.568581901
           ],
           [
-            7.5718179,
-            51.288460001
+            7.3617613,
+            51.568905901
+          ],
+          [
+            7.362072,
+            51.569565201
+          ],
+          [
+            7.362227,
+            51.569899101
+          ],
+          [
+            7.3623741,
+            51.570229801
+          ],
+          [
+            7.3628387,
+            51.571276801
+          ],
+          [
+            7.3630663,
+            51.571807801
+          ],
+          [
+            7.3632371,
+            51.572200501
+          ],
+          [
+            7.3634989,
+            51.572791901
+          ],
+          [
+            7.3636297,
+            51.573117501
+          ],
+          [
+            7.3637644,
+            51.573469101
+          ],
+          [
+            7.363883,
+            51.573753701
+          ],
+          [
+            7.3642099,
+            51.574641401
+          ],
+          [
+            7.3645093,
+            51.575441301
+          ],
+          [
+            7.3648316,
+            51.576316401
+          ],
+          [
+            7.3648891,
+            51.576495901
+          ],
+          [
+            7.3649258,
+            51.576601101
+          ],
+          [
+            7.3650592,
+            51.576990201
+          ],
+          [
+            7.365118,
+            51.577171101
+          ],
+          [
+            7.3653708,
+            51.577873901
+          ],
+          [
+            7.3655074,
+            51.578254701
+          ],
+          [
+            7.3658147,
+            51.579335401
+          ],
+          [
+            7.3663489,
+            51.580948201
+          ],
+          [
+            7.3664186,
+            51.581176601
+          ],
+          [
+            7.36673939,
+            51.582053123
           ]
         ]
       }
