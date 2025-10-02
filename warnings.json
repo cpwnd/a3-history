@@ -129,33 +129,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-10-02_06-32-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-10-02_06-42-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.21517064838264,6.9250307287785615,51.206599496823294,6.932113843263059",
-      "point": "51.21517064838264,6.9250307287785615",
-      "startLcPosition": "222",
+      "extent": "51.52081501735684,6.814097568076234,51.52081501735684,6.814097568076234",
+      "point": "51.52081501735684,6.814097568076234",
+      "startLcPosition": "233",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Stindertal / Stinderhof - Hilden",
-      "startTimestamp": "2025-10-02T06:32:00+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "50.599998474121094",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Oberhausen-Holten - Oberhausen-Holten",
+      "startTimestamp": "2025-10-02T06:42:00+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "16",
       "coordinate": {
-        "lat": 51.21517064838264,
-        "long": 6.9250307287785615
+        "lat": 51.52081501735684,
+        "long": 6.814097568076234
       },
       "description": [
-        "Beginn: 02.10.25 um 06:32 Uhr",
+        "Beginn: 02.10.25 um 06:42 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 02.10.2025, 06:32",
-        "A3: Oberhausen -> Köln, zwischen 2.7 km hinter Stindertal / Stinderhof und 1.4 km vor AK Hilden",
+        "Angespannte Verkehrslage, seit 02.10.2025, 06:42",
+        "A3: Arnheim -> Oberhausen, 0.9 km vor AS Oberhausen-Holten, aus Richtung Oberhausen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 50 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -165,16 +163,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.925030729,
-            51.215170648
+            6.814097568,
+            51.520815017
           ],
           [
-            6.9320191,
-            51.206720501
-          ],
-          [
-            6.932113843,
-            51.206599497
+            6.814097568,
+            51.520815017
           ]
         ]
       }
@@ -184,16 +178,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.52114749097753,6.814107092122823,51.444709348545786,6.799427699571163",
+      "extent": "51.52114749097753,6.814107092122823,51.44392688242567,6.799969681612801",
       "point": "51.52114749097753,6.814107092122823",
       "startLcPosition": "234",
       "display_type": "WARNING",
       "subtitle": " Arnheim -> Köln",
       "title": "A3 | Oberhausen - Duisburg-Wedau",
       "startTimestamp": "2025-10-02T05:26:32+02:00",
-      "delayTimeValue": "9",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "36.5",
+      "delayTimeValue": "16",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "25.700000762939453",
       "coordinate": {
         "lat": 51.52114749097753,
         "long": 6.814107092122823
@@ -202,11 +196,11 @@
         "Beginn: 02.10.25 um 05:26 Uhr",
         "",
         "Angespannte Verkehrslage, seit 02.10.2025, 05:26",
-        "A3: Arnheim -> Köln, zwischen 2.2 km hinter AK Oberhausen und 4.4 km vor AS Duisburg-Wedau",
+        "A3: Arnheim -> Köln, zwischen 2.2 km hinter AK Oberhausen und 4.3 km vor AS Duisburg-Wedau",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 9 Minuten",
-        "Durchschnittsgeschwindigkeit: 36 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 16 Minuten",
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -756,8 +750,16 @@
             51.444861501
           ],
           [
-            6.7994277,
-            51.444709349
+            6.799599,
+            51.444413501
+          ],
+          [
+            6.7998908,
+            51.444012601
+          ],
+          [
+            6.799969682,
+            51.443926882
           ]
         ]
       }
