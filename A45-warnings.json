@@ -1,6 +1,51 @@
 {
   "warning": [
     {
+      "identifier": "undefined--vi-avl.2025-10-04_10-41-11-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.95432655467571,7.8514824345319205,50.95432655467571,7.8514824345319205",
+      "point": "50.95432655467571,7.8514824345319205",
+      "startLcPosition": "67",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Großmicke - Großmicke",
+      "startTimestamp": "2025-10-04T10:41:11+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "25",
+      "coordinate": {
+        "lat": 50.95432655467571,
+        "long": 7.8514824345319205
+      },
+      "description": [
+        "Beginn: 04.10.25 um 10:41 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 04.10.2025, 10:41",
+        "A45: Hagen -> Gießen, 0.9 km vor Großmicke, aus Richtung Brüner Höhe",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 25 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.851482435,
+            50.954326555
+          ],
+          [
+            7.851482435,
+            50.954326555
+          ]
+        ]
+      }
+    },
+    {
       "identifier": "undefined--vi-avl.2025-10-04_10-29-45-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -12,9 +57,9 @@
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Brüner Höhe - Unterm Hipperich",
       "startTimestamp": "2025-10-04T10:29:45+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "49.29999923706055",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "32.5",
       "coordinate": {
         "lat": 50.95436789679215,
         "long": 7.851427554724991
@@ -25,9 +70,9 @@
         "Angespannte Verkehrslage, seit 04.10.2025, 10:29",
         "A45: Hagen -> Gießen, zwischen 1.1 km hinter Brüner Höhe und 1.0 km vor Unterm Hipperich",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 49 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 32 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -79,51 +124,6 @@
           [
             7.864197116,
             50.949427037
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-10-04_10-29-13-000.f_011.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.23068056854311,7.661833605652474,51.23068056854311,7.661833605652474",
-      "point": "51.23068056854311,7.661833605652474",
-      "startLcPosition": "87",
-      "display_type": "WARNING",
-      "subtitle": " Gießen -> Hagen",
-      "title": "A45 | Lüdenscheid - Lüdenscheid",
-      "startTimestamp": "2025-10-04T10:31:29+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8",
-      "coordinate": {
-        "lat": 51.23068056854311,
-        "long": 7.661833605652474
-      },
-      "description": [
-        "Beginn: 04.10.25 um 10:31 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 04.10.2025, 10:31",
-        "A45: Gießen -> Hagen, 0.3 km vor AS Lüdenscheid, aus Richtung Sauerland",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.661833606,
-            51.230680569
-          ],
-          [
-            7.661833606,
-            51.230680569
           ]
         ]
       }
