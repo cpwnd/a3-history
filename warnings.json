@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.81460585445124,12.9547144609678,48.81639579201736,12.947567508808122",
-      "point": "48.81460585445124,12.9547144609678",
+      "extent": "48.81327519165314,12.959592637463237,48.81639579201736,12.947567508808122",
+      "point": "48.81327519165314,12.959592637463237",
       "startLcPosition": "25",
       "display_type": "WARNING",
       "subtitle": " Passau -> Nürnberg",
       "title": "A3 | Isarblick - Deggendorf",
       "startTimestamp": "2025-10-06T01:20:30+02:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "47",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "37.70000076293945",
       "coordinate": {
-        "lat": 48.81460585445124,
-        "long": 12.9547144609678
+        "lat": 48.81327519165314,
+        "long": 12.959592637463237
       },
       "description": [
         "Beginn: 06.10.25 um 01:20 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 06.10.2025, 01:20",
-        "A3: Passau -> Nürnberg, zwischen 2.1 km hinter Isarblick und 0.6 km vor AK Deggendorf",
+        "A3: Passau -> Nürnberg, zwischen 1.7 km hinter Isarblick und 0.6 km vor AK Deggendorf",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 47 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 37 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            12.954714461,
-            48.814605854
+            12.959592637,
+            48.813275192
+          ],
+          [
+            12.9588801,
+            48.813496001
+          ],
+          [
+            12.9563187,
+            48.814205101
           ],
           [
             12.9486342,
@@ -52,28 +60,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-10-06_00-42-00-000.f_003.de0",
+      "identifier": "undefined--vi-avl.2025-10-06_01-41-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.91469172230263,7.106270102618483,50.9158941009367,7.102635599997568",
-      "point": "50.91469172230263,7.106270102618483",
-      "startLcPosition": "208",
+      "extent": "48.81327519165314,12.959592637463237,48.81327519165314,12.959592637463237",
+      "point": "48.81327519165314,12.959592637463237",
+      "startLcPosition": "26",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Königsforst - Köln-Heumar",
-      "startTimestamp": "2025-10-06T00:42:00+02:00",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Deggendorf - Deggendorf",
+      "startTimestamp": "2025-10-06T01:41:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "27",
       "coordinate": {
-        "lat": 50.91469172230263,
-        "long": 7.106270102618483
+        "lat": 48.81327519165314,
+        "long": 12.959592637463237
       },
       "description": [
-        "Beginn: 06.10.25 um 00:42 Uhr",
+        "Beginn: 06.10.25 um 01:41 Uhr",
         "",
-        "Hindernis, seit 06.10.2025, 00:42",
-        "A3: Frankfurt -> Köln, zwischen AS Königsforst und 3.2 km vor AD Köln-Heumar",
+        "Angespannte Verkehrslage, seit 06.10.2025, 01:41",
+        "A3: Passau -> Nürnberg, 1.6 km vor AK Deggendorf, aus Richtung Isarblick",
         "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -83,32 +94,61 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.106270103,
-            50.914691722
+            12.959592637,
+            48.813275192
           ],
           [
-            7.1060799,
-            50.914782701
+            12.959592637,
+            48.813275192
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-10-06_01-37-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.8606963881726,12.855080266866002,48.861734644801025,12.852815661429892",
+      "point": "48.8606963881726,12.855080266866002",
+      "startLcPosition": "28",
+      "display_type": "WARNING",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Offenberg - Schwarzach",
+      "startTimestamp": "2025-10-06T01:37:30+02:00",
+      "coordinate": {
+        "lat": 48.8606963881726,
+        "long": 12.855080266866002
+      },
+      "description": [
+        "Beginn: 06.10.25 um 01:37 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 06.10.2025, 01:37",
+        "A3: Passau -> Nürnberg, zwischen 0.2 km hinter Offenberg und 5.7 km vor AS Schwarzach",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.855080267,
+            48.860696388
           ],
           [
-            7.1056246,
-            50.914968101
+            12.8545628,
+            48.860921101
           ],
           [
-            7.1047455,
-            50.915292901
+            12.8531623,
+            48.861560301
           ],
           [
-            7.1040264,
-            50.915526401
-          ],
-          [
-            7.1032795,
-            50.915728501
-          ],
-          [
-            7.1026356,
-            50.915894101
+            12.852815661,
+            48.861734645
           ]
         ]
       }
@@ -167,6 +207,118 @@
           [
             7.0122702,
             51.020188501
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-06_01-40-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "261",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Knauheide - Knauheide",
+      "startTimestamp": "2025-10-06T01:40:30+02:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "19",
+      "coordinate": {
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
+      },
+      "description": [
+        "Beginn: 06.10.25 um 01:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.10.2025, 01:40",
+        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 19 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165717281,
+            51.898399017
+          ],
+          [
+            6.165717281,
+            51.898399017
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-06_01-40-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89836112503476,6.165756320916883,51.89423936175908,6.16999216220693",
+      "point": "51.89836112503476,6.165756320916883",
+      "startLcPosition": "262",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Elten - Elten",
+      "startTimestamp": "2025-10-06T01:40:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "31.600000381469727",
+      "coordinate": {
+        "lat": 51.89836112503476,
+        "long": 6.165756320916883
+      },
+      "description": [
+        "Beginn: 06.10.25 um 01:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.10.2025, 01:40",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.2 km vor AS Elten",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 31 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165756321,
+            51.898361125
+          ],
+          [
+            6.1665101,
+            51.897629501
+          ],
+          [
+            6.1668453,
+            51.897289501
+          ],
+          [
+            6.1686237,
+            51.895575501
+          ],
+          [
+            6.1688771,
+            51.895327101
+          ],
+          [
+            6.1696626,
+            51.894557001
+          ],
+          [
+            6.169992162,
+            51.894239362
           ]
         ]
       }
