@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.935480998753924,7.881794536307909,50.95006815612393,7.861635193396912",
-      "point": "50.935480998753924,7.881794536307909",
-      "startLcPosition": "65",
+      "extent": "50.93371095368734,7.883668302951163,50.945194544469004,7.875180720133296",
+      "point": "50.93371095368734,7.883668302951163",
+      "startLcPosition": "64",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Hagen",
-      "title": "A45 | Löffelberg - Brüner Höhe",
+      "title": "A45 | Freudenberg - Großmicke",
       "startTimestamp": "2025-10-08T03:12:30+02:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "64.9000015258789",
+      "averageSpeed": "66.69999694824219",
       "coordinate": {
-        "lat": 50.935480998753924,
-        "long": 7.881794536307909
+        "lat": 50.93371095368734,
+        "long": 7.883668302951163
       },
       "description": [
         "Beginn: 08.10.25 um 03:12 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.10.2025, 03:12",
-        "A45: Gießen -> Hagen, zwischen 0.2 km hinter Löffelberg und 2.0 km vor Brüner Höhe",
+        "A45: Gießen -> Hagen, zwischen 3.4 km hinter AS Freudenberg und 1.1 km vor Großmicke",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 64 km/h"
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 66 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.881794536,
-            50.935480999
+            7.883668303,
+            50.933710954
+          ],
+          [
+            7.8835756,
+            50.933789101
+          ],
+          [
+            7.8830059,
+            50.934276401
+          ],
+          [
+            7.8824738,
+            50.934776701
           ],
           [
             7.8817656,
@@ -101,72 +113,108 @@
             50.944482401
           ],
           [
-            7.8749196,
-            50.945425401
+            7.87518072,
+            50.945194544
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-08_06-06-30-000.f_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.26777951573601,7.601606521056783,51.26777951573601,7.601606521056783",
+      "point": "51.26777951573601,7.601606521056783",
+      "startLcPosition": "91",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Sterbecker Siepen - Sterbecker Siepen",
+      "startTimestamp": "2025-10-08T06:10:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "8",
+      "coordinate": {
+        "lat": 51.26777951573601,
+        "long": 7.601606521056783
+      },
+      "description": [
+        "Beginn: 08.10.25 um 06:10 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.10.2025, 06:10",
+        "A45: Hagen -> Gießen, in Höhe Sterbecker Siepen, aus Richtung Rehweg",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.601606521,
+            51.267779516
           ],
           [
-            7.8745767,
-            50.945687001
+            7.601606521,
+            51.267779516
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-08_06-06-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.26799242109912,7.601550515400853,51.26477980331403,7.602446133122416",
+      "point": "51.26799242109912,7.601550515400853",
+      "startLcPosition": "92",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Rehweg - Lüdenscheid-Nord",
+      "startTimestamp": "2025-10-08T06:06:30+02:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "13.100000381469727",
+      "coordinate": {
+        "lat": 51.26799242109912,
+        "long": 7.601550515400853
+      },
+      "description": [
+        "Beginn: 08.10.25 um 06:06 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.10.2025, 06:06",
+        "A45: Hagen -> Gießen, zwischen Rehweg und 0.9 km vor AS Lüdenscheid-Nord",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 13 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.601550515,
+            51.267992421
           ],
           [
-            7.8744601,
-            50.945781201
+            7.60197,
+            51.266397701
           ],
           [
-            7.8740779,
-            50.946045001
+            7.6023363,
+            51.265109101
           ],
           [
-            7.8735166,
-            50.946410901
-          ],
-          [
-            7.8724071,
-            50.947040701
-          ],
-          [
-            7.8712674,
-            50.947593801
-          ],
-          [
-            7.8705359,
-            50.947895801
-          ],
-          [
-            7.8699798,
-            50.948099501
-          ],
-          [
-            7.8694178,
-            50.948293201
-          ],
-          [
-            7.8684102,
-            50.948598701
-          ],
-          [
-            7.867223,
-            50.948914101
-          ],
-          [
-            7.8654901,
-            50.949297401
-          ],
-          [
-            7.8642285,
-            50.949543601
-          ],
-          [
-            7.8639548,
-            50.949602701
-          ],
-          [
-            7.8620591,
-            50.949973101
-          ],
-          [
-            7.861635193,
-            50.950068156
+            7.602446133,
+            51.264779803
           ]
         ]
       }
