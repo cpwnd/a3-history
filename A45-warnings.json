@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-10-09_23-34-30-000.f_003.de0",
+      "identifier": "undefined--vi-avl.2025-10-10_00-06-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.08366190094079,9.035624100000007,50.048896912009226,9.051411793196433",
-      "point": "50.08366190094079,9.035624100000007",
-      "startLcPosition": "4",
+      "extent": "50.249710053560825,8.993863886814157,50.249710053560825,8.993863886814157",
+      "point": "50.249710053560825,8.993863886814157",
+      "startLcPosition": "11",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Alzenau-Mitte - Karlstein",
-      "startTimestamp": "2025-10-09T23:34:30+02:00",
+      "title": "A45 | Langen-Bergheim - Langen-Bergheim",
+      "startTimestamp": "2025-10-10T00:06:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "16",
       "coordinate": {
-        "lat": 50.08366190094079,
-        "long": 9.035624100000007
+        "lat": 50.249710053560825,
+        "long": 8.993863886814157
       },
       "description": [
-        "Beginn: 09.10.25 um 23:34 Uhr",
+        "Beginn: 10.10.25 um 00:06 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 09.10.2025, 23:34",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.2 km hinter AS Alzenau-Mitte und 0.3 km vor AS Karlstein",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 10.10.2025, 00:06",
+        "A45: Gießen -> Aschaffenburg, 0.1 km vor Langen-Bergheim, aus Richtung Altenstadt",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,196 +35,198 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0356241,
-            50.083661901
+            8.993863887,
+            50.249710054
           ],
           [
-            9.0356576,
-            50.083068701
+            8.993863887,
+            50.249710054
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-10_00-06-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.249710053560825,8.993863886814157,50.247250375894,8.996183329910423",
+      "point": "50.249710053560825,8.993863886814157",
+      "startLcPosition": "12",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Altenstadt - Hammersbach",
+      "startTimestamp": "2025-10-10T00:06:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "26",
+      "coordinate": {
+        "lat": 50.249710053560825,
+        "long": 8.993863886814157
+      },
+      "description": [
+        "Beginn: 10.10.25 um 00:06 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.10.2025, 00:06",
+        "A45: Gießen -> Aschaffenburg, zwischen 4.9 km hinter AS Altenstadt und 0.5 km vor AS Hammersbach",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 26 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.993863887,
+            50.249710054
           ],
           [
-            9.0356698,
-            50.082801701
+            8.9946058,
+            50.248881601
           ],
           [
-            9.0356925,
-            50.081805101
+            8.9956245,
+            50.247813701
           ],
           [
-            9.0356967,
-            50.081562401
+            8.996015,
+            50.247416201
           ],
           [
-            9.0357153,
-            50.080955801
+            8.99618333,
+            50.247250376
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-10_00-05-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.417584993940984,8.8216874405275,50.423760626368704,8.805512547037665",
+      "point": "50.417584993940984,8.8216874405275",
+      "startLcPosition": "16",
+      "display_type": "WARNING",
+      "subtitle": " Aschaffenburg -> Gießen",
+      "title": "A45 | Wölfersheim - Stauferburg",
+      "startTimestamp": "2025-10-10T00:05:00+02:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "72.9000015258789",
+      "coordinate": {
+        "lat": 50.417584993940984,
+        "long": 8.8216874405275
+      },
+      "description": [
+        "Beginn: 10.10.25 um 00:05 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.10.2025, 00:05",
+        "A45: Aschaffenburg -> Gießen, zwischen 2.1 km hinter AS Wölfersheim und 1.9 km vor Stauferburg",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 72 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.821687441,
+            50.417584994
           ],
           [
-            9.0357392,
-            50.080305001
+            8.8205372,
+            50.417663501
           ],
           [
-            9.0357623,
-            50.079666701
+            8.8193014,
+            50.417779401
           ],
           [
-            9.0357748,
-            50.079418101
+            8.8182793,
+            50.417902801
           ],
           [
-            9.0357887,
-            50.079026501
+            8.8171819,
+            50.418075401
           ],
           [
-            9.0358319,
-            50.078400001
+            8.8162052,
+            50.418265701
           ],
           [
-            9.0359216,
-            50.077324201
+            8.8154282,
+            50.418440801
           ],
           [
-            9.0360121,
-            50.076537501
+            8.8145187,
+            50.418675101
           ],
           [
-            9.0361788,
-            50.075401301
+            8.8136389,
+            50.418938401
           ],
           [
-            9.0364102,
-            50.074109101
+            8.8129489,
+            50.419166401
           ],
           [
-            9.0365783,
-            50.073359101
+            8.8121867,
+            50.419443801
           ],
           [
-            9.0367813,
-            50.072571601
+            8.8115492,
+            50.419702701
           ],
           [
-            9.0370531,
-            50.071546401
+            8.8108377,
+            50.420017101
           ],
           [
-            9.037543,
-            50.070020401
+            8.8102159,
+            50.420315601
           ],
           [
-            9.0378762,
-            50.069078001
+            8.8095961,
+            50.420639401
           ],
           [
-            9.0384167,
-            50.067700001
+            8.808941,
+            50.421025301
           ],
           [
-            9.0387812,
-            50.066849401
+            8.8083193,
+            50.421409801
           ],
           [
-            9.039322,
-            50.065654001
+            8.8076895,
+            50.421846501
           ],
           [
-            9.03945,
-            50.065400001
+            8.807017,
+            50.422349301
           ],
           [
-            9.0400333,
-            50.064250001
+            8.8064986,
+            50.422783701
           ],
           [
-            9.0403323,
-            50.063685801
+            8.8058331,
+            50.423417501
           ],
           [
-            9.0407466,
-            50.062936701
-          ],
-          [
-            9.0411056,
-            50.062321101
-          ],
-          [
-            9.0415785,
-            50.061564901
-          ],
-          [
-            9.0423333,
-            50.060350001
-          ],
-          [
-            9.043198,
-            50.059111701
-          ],
-          [
-            9.0441253,
-            50.057843601
-          ],
-          [
-            9.0446332,
-            50.057170901
-          ],
-          [
-            9.0453253,
-            50.056284801
-          ],
-          [
-            9.0458712,
-            50.055584101
-          ],
-          [
-            9.0462129,
-            50.055166701
-          ],
-          [
-            9.0466862,
-            50.054580901
-          ],
-          [
-            9.0471712,
-            50.053991801
-          ],
-          [
-            9.0476434,
-            50.053420701
-          ],
-          [
-            9.0479201,
-            50.053089801
-          ],
-          [
-            9.048314,
-            50.052612501
-          ],
-          [
-            9.0487,
-            50.052133301
-          ],
-          [
-            9.0492333,
-            50.051500001
-          ],
-          [
-            9.0496472,
-            50.051008401
-          ],
-          [
-            9.0499711,
-            50.050627701
-          ],
-          [
-            9.0501949,
-            50.050374801
-          ],
-          [
-            9.0504997,
-            50.049986101
-          ],
-          [
-            9.051411793,
-            50.048896912
+            8.805512547,
+            50.423760626
           ]
         ]
       }
@@ -230,8 +236,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.94809680415974,7.869613537296653,50.93010905752416,7.888125883918784",
-      "point": "50.94809680415974,7.869613537296653",
+      "extent": "50.94588531598166,7.8740506863392765,50.93010905752416,7.888125883918784",
+      "point": "50.94588531598166,7.8740506863392765",
       "startLcPosition": "67",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
@@ -239,20 +245,20 @@
       "startTimestamp": "2025-10-09T23:30:00+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "66.0999984741211",
+      "averageSpeed": "62.400001525878906",
       "coordinate": {
-        "lat": 50.94809680415974,
-        "long": 7.869613537296653
+        "lat": 50.94588531598166,
+        "long": 7.8740506863392765
       },
       "description": [
         "Beginn: 09.10.25 um 23:30 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.10.2025, 23:30",
-        "A45: Hagen -> Gießen, zwischen 0.6 km hinter Großmicke und 2.8 km vor AS Freudenberg",
+        "A45: Hagen -> Gießen, zwischen 1.0 km hinter Großmicke und 2.8 km vor AS Freudenberg",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 66 km/h"
+        "Durchschnittsgeschwindigkeit: 62 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -262,32 +268,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.869613537,
-            50.948096804
-          ],
-          [
-            7.8699086,
-            50.947993301
-          ],
-          [
-            7.8704629,
-            50.947782901
-          ],
-          [
-            7.8711575,
-            50.947493201
-          ],
-          [
-            7.8723015,
-            50.946960701
-          ],
-          [
-            7.873386,
-            50.946323301
-          ],
-          [
-            7.8739596,
-            50.945949301
+            7.874050686,
+            50.945885316
           ],
           [
             7.8744372,
