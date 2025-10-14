@@ -502,8 +502,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.689376849928664,7.520832360355128,47.66576372217607,7.5249441527713214",
-      "point": "47.689376849928664,7.520832360355128",
+      "extent": "47.690925710172536,7.52060744834383,47.66576372217607,7.5249441527713214",
+      "point": "47.690925710172536,7.52060744834383",
       "startLcPosition": "6",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
@@ -511,20 +511,20 @@
       "startTimestamp": "2025-10-14T18:15:25+02:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "64.9000015258789",
+      "averageSpeed": "65.4000015258789",
       "coordinate": {
-        "lat": 47.689376849928664,
-        "long": 7.520832360355128
+        "lat": 47.690925710172536,
+        "long": 7.52060744834383
       },
       "description": [
         "Beginn: 14.10.25 um 18:15 Uhr",
         "",
         "Angespannte Verkehrslage, seit 14.10.2025, 18:15",
-        "A5: Karlsruhe -> Basel, zwischen 2.0 km hinter Rheinaue und 6.9 km vor AD Weil am Rhein",
+        "A5: Karlsruhe -> Basel, zwischen 1.8 km hinter Rheinaue und 6.9 km vor AD Weil am Rhein",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 64 km/h"
+        "Durchschnittsgeschwindigkeit: 65 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -534,8 +534,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.52083236,
-            47.68937685
+            7.520607448,
+            47.69092571
+          ],
+          [
+            7.5206115,
+            47.690878101
+          ],
+          [
+            7.5207114,
+            47.690147101
           ],
           [
             7.5208718,
@@ -641,7 +649,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-14_19-21-32-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-10-14_19-32-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -651,21 +659,21 @@
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Neuenburg - Neuenburg",
-      "startTimestamp": "2025-10-14T19:21:32+02:00",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "14",
+      "startTimestamp": "2025-10-14T19:32:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
         "lat": 47.84089778928552,
         "long": 7.566390322888466
       },
       "description": [
-        "Beginn: 14.10.25 um 19:21 Uhr",
+        "Beginn: 14.10.25 um 19:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 14.10.2025, 19:21",
+        "Angespannte Verkehrslage, seit 14.10.2025, 19:32",
         "A5: Karlsruhe -> Basel, 1.2 km vor Neuenburg, aus Richtung Streitkopf",
         "",
-        "Langsamer Verkehr",
-        "Durchschnittsgeschwindigkeit: 14 km/h"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -690,16 +698,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.840862016190385,7.5663845353436505,47.81630620619815,7.554510302444217",
+      "extent": "47.840862016190385,7.5663845353436505,47.81771792855927,7.555543066984928",
       "point": "47.840862016190385,7.5663845353436505",
       "startLcPosition": "15",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Streitkopf - Müllheim/Neuenburg",
       "startTimestamp": "2025-10-14T18:11:49+02:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "43.099998474121094",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "30.299999237060547",
       "coordinate": {
         "lat": 47.840862016190385,
         "long": 7.5663845353436505
@@ -708,11 +716,11 @@
         "Beginn: 14.10.25 um 18:11 Uhr",
         "",
         "Angespannte Verkehrslage, seit 14.10.2025, 18:11",
-        "A5: Karlsruhe -> Basel, zwischen 3.6 km hinter Streitkopf und 0.3 km vor AS Müllheim/Neuenburg",
+        "A5: Karlsruhe -> Basel, zwischen 3.6 km hinter Streitkopf und 0.5 km vor AS Müllheim/Neuenburg",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 43 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 30 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -786,12 +794,81 @@
             47.819083001
           ],
           [
-            7.5553376,
-            47.817435701
+            7.555543067,
+            47.817717929
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-10-14_19-27-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.34666480094377,8.631178999999909,49.353225800943754,8.631528799999913",
+      "point": "49.34666480094377,8.631178999999909",
+      "startLcPosition": "70",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Heidelberg",
+      "title": "A5 | Walldorf/Wiesloch - Heidelberg/Schwetzingen",
+      "startTimestamp": "2025-10-14T19:27:00+02:00",
+      "coordinate": {
+        "lat": 49.34666480094377,
+        "long": 8.631178999999909
+      },
+      "description": [
+        "Beginn: 14.10.25 um 19:27 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 14.10.2025, 19:27",
+        "A5: Karlsruhe -> Heidelberg, zwischen 5.0 km hinter AS Walldorf/Wiesloch und 1.9 km vor AS Heidelberg/Schwetzingen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.631179,
+            49.346664801
           ],
           [
-            7.554510302,
-            47.816306206
+            8.6311977,
+            49.347134001
+          ],
+          [
+            8.6312723,
+            49.348403601
+          ],
+          [
+            8.6313515,
+            49.349928101
+          ],
+          [
+            8.6313774,
+            49.350416301
+          ],
+          [
+            8.6314042,
+            49.350901601
+          ],
+          [
+            8.6314459,
+            49.351711601
+          ],
+          [
+            8.6314791,
+            49.352305401
+          ],
+          [
+            8.6315091,
+            49.352859901
+          ],
+          [
+            8.6315288,
+            49.353225801
           ]
         ]
       }
@@ -894,29 +971,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.16936249825945,8.610001126984058,50.19562059515145,8.636086134520665",
-      "point": "50.16936249825945,8.610001126984058",
+      "extent": "50.17576141599277,8.613538975110561,50.19655043724228,8.637704061558033",
+      "point": "50.17576141599277,8.613538975110561",
       "startLcPosition": "111",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Taunusblick - Bad Homburger Kreuz",
       "startTimestamp": "2025-10-14T18:43:50+02:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "25.5",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "53.900001525878906",
       "coordinate": {
-        "lat": 50.16936249825945,
-        "long": 8.610001126984058
+        "lat": 50.17576141599277,
+        "long": 8.613538975110561
       },
       "description": [
         "Beginn: 14.10.25 um 18:43 Uhr",
         "",
         "Angespannte Verkehrslage, seit 14.10.2025, 18:43",
-        "A5: Frankfurt -> Kassel, zwischen 1.8 km hinter Taunusblick und 0.9 km vor AK Bad Homburger Kreuz",
+        "A5: Frankfurt -> Kassel, zwischen 2.5 km hinter Taunusblick und 0.7 km vor AK Bad Homburger Kreuz",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 25 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 53 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -926,32 +1003,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.610001127,
-            50.169362498
-          ],
-          [
-            8.6106028,
-            50.170458401
-          ],
-          [
-            8.6111627,
-            50.171453901
-          ],
-          [
-            8.6127354,
-            50.174293601
-          ],
-          [
-            8.6127929,
-            50.174403701
-          ],
-          [
-            8.6131526,
-            50.175055401
-          ],
-          [
-            8.6134449,
-            50.175590901
+            8.613538975,
+            50.175761416
           ],
           [
             8.6142214,
@@ -1086,38 +1139,46 @@
             50.195006801
           ],
           [
-            8.636086135,
-            50.195620595
+            8.6362099,
+            50.195691701
+          ],
+          [
+            8.637068,
+            50.196185701
+          ],
+          [
+            8.637704062,
+            50.196550437
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-14_19-21-32-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-10-14_19-32-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.16936249825945,8.610001126984058,50.16936249825945,8.610001126984058",
-      "point": "50.16936249825945,8.610001126984058",
+      "extent": "50.17576141599277,8.613538975110561,50.17576141599277,8.613538975110561",
+      "point": "50.17576141599277,8.613538975110561",
       "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Bad Homburger Kreuz - Bad Homburger Kreuz",
-      "startTimestamp": "2025-10-14T19:21:32+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17",
+      "startTimestamp": "2025-10-14T19:32:30+02:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "16",
       "coordinate": {
-        "lat": 50.16936249825945,
-        "long": 8.610001126984058
+        "lat": 50.17576141599277,
+        "long": 8.613538975110561
       },
       "description": [
-        "Beginn: 14.10.25 um 19:21 Uhr",
+        "Beginn: 14.10.25 um 19:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 14.10.2025, 19:21",
-        "A5: Frankfurt -> Kassel, 4.4 km vor AK Bad Homburger Kreuz, aus Richtung Taunusblick",
+        "Angespannte Verkehrslage, seit 14.10.2025, 19:32",
+        "A5: Frankfurt -> Kassel, 3.7 km vor AK Bad Homburger Kreuz, aus Richtung Taunusblick",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1127,12 +1188,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.610001127,
-            50.169362498
+            8.613538975,
+            50.175761416
           ],
           [
-            8.610001127,
-            50.169362498
+            8.613538975,
+            50.175761416
           ]
         ]
       }
@@ -1142,27 +1203,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.30463405759752,8.67863016204828,50.30463405759752,8.67863016204828",
-      "point": "50.30463405759752,8.67863016204828",
+      "extent": "50.300260916083666,8.674955268959186,50.300260916083666,8.674955268959186",
+      "point": "50.300260916083666,8.674955268959186",
       "startLcPosition": "115",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Friedberg - Friedberg",
-      "startTimestamp": "2025-10-14T19:21:32+02:00",
+      "startTimestamp": "2025-10-14T19:32:30+02:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17",
+      "averageSpeed": "23",
       "coordinate": {
-        "lat": 50.30463405759752,
-        "long": 8.67863016204828
+        "lat": 50.300260916083666,
+        "long": 8.674955268959186
       },
       "description": [
-        "Beginn: 14.10.25 um 19:21 Uhr",
+        "Beginn: 14.10.25 um 19:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 14.10.2025, 19:21",
-        "A5: Kassel -> Frankfurt, 2.0 km vor AS Friedberg, aus Richtung Wetterau",
+        "Angespannte Verkehrslage, seit 14.10.2025, 19:32",
+        "A5: Kassel -> Frankfurt, 1.5 km vor AS Friedberg, aus Richtung Wetterau",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Durchschnittsgeschwindigkeit: 23 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1172,12 +1233,104 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.678630162,
-            50.304634058
+            8.674955269,
+            50.300260916
           ],
           [
-            8.678630162,
-            50.304634058
+            8.674955269,
+            50.300260916
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-10-14_07-48-37-000.f_012.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.275064227105865,8.666097016919789,50.26438312721531,8.662691397766833",
+      "point": "50.275064227105865,8.666097016919789",
+      "startLcPosition": "115",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Friedberg - Schäferborn",
+      "startTimestamp": "2025-10-14T07:48:37+02:00",
+      "coordinate": {
+        "lat": 50.275064227105865,
+        "long": 8.666097016919789
+      },
+      "description": [
+        "Beginn: 14.10.25 um 07:48 Uhr",
+        "",
+        "Hindernis, seit 14.10.2025, 07:48",
+        "A5: Kassel -> Frankfurt, zwischen 1.4 km hinter AS Friedberg und 1.5 km vor Schäferborn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.666097017,
+            50.275064227
+          ],
+          [
+            8.6660396,
+            50.274897601
+          ],
+          [
+            8.6659286,
+            50.274575501
+          ],
+          [
+            8.6655978,
+            50.273573701
+          ],
+          [
+            8.6652224,
+            50.272475201
+          ],
+          [
+            8.6648446,
+            50.271352101
+          ],
+          [
+            8.6642223,
+            50.269533601
+          ],
+          [
+            8.6636083,
+            50.267720201
+          ],
+          [
+            8.6633453,
+            50.266953301
+          ],
+          [
+            8.6631681,
+            50.266430101
+          ],
+          [
+            8.663104,
+            50.266225001
+          ],
+          [
+            8.6629221,
+            50.265545701
+          ],
+          [
+            8.6628308,
+            50.265190601
+          ],
+          [
+            8.6627596,
+            50.264846901
+          ],
+          [
+            8.662691398,
+            50.264383127
           ]
         ]
       }
@@ -1187,29 +1340,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.30445088596605,8.678426582424702,50.2697824466322,8.664307453411089",
-      "point": "50.30445088596605,8.678426582424702",
+      "extent": "50.30017700380897,8.674904749711294,50.2697824466322,8.664307453411089",
+      "point": "50.30017700380897,8.674904749711294",
       "startLcPosition": "116",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Wetterau - Schäferborn",
       "startTimestamp": "2025-10-14T14:40:57+02:00",
-      "delayTimeValue": "12",
+      "delayTimeValue": "7",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17.299999237060547",
+      "averageSpeed": "22.899999618530273",
       "coordinate": {
-        "lat": 50.30445088596605,
-        "long": 8.678426582424702
+        "lat": 50.30017700380897,
+        "long": 8.674904749711294
       },
       "description": [
         "Beginn: 14.10.25 um 14:40 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 14.10.2025, 14:40",
-        "A5: Kassel -> Frankfurt, zwischen 6.1 km hinter Wetterau und 2.1 km vor Schäferborn",
+        "A5: Kassel -> Frankfurt, zwischen 6.7 km hinter Wetterau und 2.1 km vor Schäferborn",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 12 Minuten",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Reisezeitverlust: 7 Minuten",
+        "Durchschnittsgeschwindigkeit: 22 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1219,36 +1372,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.678426582,
-            50.304450886
-          ],
-          [
-            8.678262,
-            50.304302801
-          ],
-          [
-            8.6776832,
-            50.303750601
-          ],
-          [
-            8.6771288,
-            50.303185201
-          ],
-          [
-            8.6766144,
-            50.302604701
-          ],
-          [
-            8.6761339,
-            50.302012401
-          ],
-          [
-            8.675688,
-            50.301409101
-          ],
-          [
-            8.6752773,
-            50.300795801
+            8.67490475,
+            50.300177004
           ],
           [
             8.6749024,
@@ -1377,6 +1502,48 @@
           [
             8.664307453,
             50.269782447
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-10-14_11-22-43-000.f_023.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.80509513864136,9.503799998020163,50.80503685748941,9.503673862817783",
+      "point": "50.80509513864136,9.503799998020163",
+      "startLcPosition": "141",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Hattenbacher Dreieck - Barnholz",
+      "startTimestamp": "2025-10-14T11:22:43+02:00",
+      "coordinate": {
+        "lat": 50.80509513864136,
+        "long": 9.503799998020163
+      },
+      "description": [
+        "Beginn: 14.10.25 um 11:22 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 14.10.2025, 11:22",
+        "A5: Kassel -> Frankfurt, zwischen 2.9 km hinter AD Hattenbacher Dreieck und 0.5 km vor Barnholz",
+        "",
+        "A5 Kassel Richtung Frankfurt zwischen Hattenbacher Dreieck und Alsfeld-Ost vorausgegangener Unfall in der Gegenrichtung, Bergungsarbeiten, linker Fahrstreifen gesperrt"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.503799998,
+            50.805095139
+          ],
+          [
+            9.503673863,
+            50.805036857
           ]
         ]
       }
@@ -2613,114 +2780,6 @@
           [
             9.503799998,
             50.805095139
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-10-14_19-21-32-000.f_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.59452368385589,7.603949220416036,47.59452368385589,7.603949220416036",
-      "point": "47.59452368385589,7.603949220416036",
-      "startLcPosition": "1000",
-      "display_type": "WARNING",
-      "subtitle": "",
-      "title": "Baustelle",
-      "startTimestamp": "2025-10-14T19:21:32+02:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3",
-      "coordinate": {
-        "lat": 47.59452368385589,
-        "long": 7.603949220416036
-      },
-      "description": [
-        "Beginn: 14.10.25 um 19:21 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 14.10.2025, 19:21",
-        "A5 S",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 3 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.60394922,
-            47.594523684
-          ],
-          [
-            7.60394922,
-            47.594523684
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-10-14_19-21-32-000.f_004.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.59452368385589,7.603949220416036,47.59288263062517,7.603824772909095",
-      "point": "47.59452368385589,7.603949220416036",
-      "startLcPosition": "1000",
-      "display_type": "WARNING",
-      "subtitle": " km 813.12 --> km 813.30",
-      "title": "Baustelle",
-      "startTimestamp": "2025-10-14T19:21:32+02:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "5.300000190734863",
-      "coordinate": {
-        "lat": 47.59452368385589,
-        "long": 7.603949220416036
-      },
-      "description": [
-        "Beginn: 14.10.25 um 19:21 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 14.10.2025, 19:21",
-        "A5: km 813.12 --> km 813.30",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 5 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.60394922,
-            47.594523684
-          ],
-          [
-            7.6039659,
-            47.594176101
-          ],
-          [
-            7.6039448,
-            47.593678801
-          ],
-          [
-            7.6039092,
-            47.593344801
-          ],
-          [
-            7.6038587,
-            47.593024501
-          ],
-          [
-            7.603824773,
-            47.592882631
           ]
         ]
       }
