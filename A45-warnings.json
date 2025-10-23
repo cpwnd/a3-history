@@ -1,28 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-10-23_20-36-04-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-10-23_20-52-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.05664610336589,7.761046611256906,51.03446040214756,7.8180262401600755",
-      "point": "51.05664610336589,7.761046611256906",
-      "startLcPosition": "76",
+      "extent": "51.04992780009247,7.78712831685569,51.04992780009247,7.78712831685569",
+      "point": "51.04992780009247,7.78712831685569",
+      "startLcPosition": "74",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Brachtsiepen - Olpe",
-      "startTimestamp": "2025-10-23T20:36:04+02:00",
+      "title": "A45 | Kattenschoß - Kattenschoß",
+      "startTimestamp": "2025-10-23T21:06:30+02:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5",
       "coordinate": {
-        "lat": 51.05664610336589,
-        "long": 7.761046611256906
+        "lat": 51.04992780009247,
+        "long": 7.78712831685569
       },
       "description": [
-        "Beginn: 23.10.25 um 20:36 Uhr",
+        "Beginn: 23.10.25 um 21:06 Uhr",
         "",
-        "Hindernis, seit 23.10.2025, 20:36",
-        "A45: Hagen -> Gießen, zwischen 5.5 km hinter Brachtsiepen und 0.6 km vor AS Olpe",
+        "Angespannte Verkehrslage, seit 23.10.2025, 21:06",
+        "A45: Hagen -> Gießen, 0.8 km vor Kattenschoß, aus Richtung Drolshagen",
         "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -32,84 +35,57 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.761046611,
-            51.056646103
+            7.787128317,
+            51.0499278
           ],
           [
-            7.7616253,
-            51.056660001
-          ],
+            7.787128317,
+            51.0499278
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-10-23_20-52-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.04990099849816,7.787234221440505,51.04225353510913,7.80052967585818",
+      "point": "51.04990099849816,7.787234221440505",
+      "startLcPosition": "75",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Drolshagen - Olpe",
+      "startTimestamp": "2025-10-23T20:52:00+02:00",
+      "delayTimeValue": "14",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5.199999809265137",
+      "coordinate": {
+        "lat": 51.04990099849816,
+        "long": 7.787234221440505
+      },
+      "description": [
+        "Beginn: 23.10.25 um 20:52 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 23.10.2025, 20:52",
+        "A45: Hagen -> Gießen, zwischen 1.7 km hinter AS Drolshagen und 2.1 km vor AS Olpe",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 14 Minuten",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            7.7625212,
-            51.056664301
-          ],
-          [
-            7.7634169,
-            51.056651701
-          ],
-          [
-            7.7641207,
-            51.056630301
-          ],
-          [
-            7.7653458,
-            51.056559001
-          ],
-          [
-            7.7657171,
-            51.056531101
-          ],
-          [
-            7.7666849,
-            51.056458301
-          ],
-          [
-            7.7676276,
-            51.056350901
-          ],
-          [
-            7.7685115,
-            51.056235701
-          ],
-          [
-            7.7698596,
-            51.056025601
-          ],
-          [
-            7.7717076,
-            51.055660001
-          ],
-          [
-            7.7740497,
-            51.055079901
-          ],
-          [
-            7.7760976,
-            51.054441901
-          ],
-          [
-            7.7780973,
-            51.053671001
-          ],
-          [
-            7.7796812,
-            51.052957501
-          ],
-          [
-            7.7819007,
-            51.051876401
-          ],
-          [
-            7.7836058,
-            51.051097001
-          ],
-          [
-            7.7848945,
-            51.050590101
-          ],
-          [
-            7.7866,
-            51.050061501
+            7.787234221,
+            51.049900998
           ],
           [
             7.7881284,
@@ -164,52 +140,8 @@
             51.042406501
           ],
           [
-            7.8013964,
-            51.041577701
-          ],
-          [
-            7.8025191,
-            51.040798401
-          ],
-          [
-            7.8035972,
-            51.040136501
-          ],
-          [
-            7.804804,
-            51.039495501
-          ],
-          [
-            7.8060663,
-            51.038875301
-          ],
-          [
-            7.8074855,
-            51.038250301
-          ],
-          [
-            7.8095144,
-            51.037534001
-          ],
-          [
-            7.814296,
-            51.036030401
-          ],
-          [
-            7.8155465,
-            51.035543301
-          ],
-          [
-            7.8170689,
-            51.034905001
-          ],
-          [
-            7.8178916,
-            51.034527001
-          ],
-          [
-            7.81802624,
-            51.034460402
+            7.800529676,
+            51.042253535
           ]
         ]
       }
