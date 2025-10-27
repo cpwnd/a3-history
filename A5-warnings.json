@@ -5,16 +5,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.39397724429076,7.8400078950161305,48.41485754226416,7.874827354799787",
+      "extent": "48.39397724429076,7.8400078950161305,48.4134852717261,7.873058866481501",
       "point": "48.39397724429076,7.8400078950161305",
       "startLcPosition": "36",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Lahr - Offenburg",
       "startTimestamp": "2025-10-27T19:15:30+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "38.099998474121094",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "30.700000762939453",
       "coordinate": {
         "lat": 48.39397724429076,
         "long": 7.8400078950161305
@@ -23,11 +23,11 @@
         "Beginn: 27.10.25 um 19:15 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 27.10.2025, 19:15",
-        "A5: Basel -> Karlsruhe, zwischen 5.1 km hinter AS Lahr und 6.9 km vor AS Offenburg",
+        "A5: Basel -> Karlsruhe, zwischen 5.1 km hinter AS Lahr und 7.1 km vor AS Offenburg",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 38 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 30 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -169,16 +169,8 @@
             48.413427801
           ],
           [
-            7.8736247,
-            48.413915601
-          ],
-          [
-            7.874395,
-            48.414513301
-          ],
-          [
-            7.874827355,
-            48.414857542
+            7.873058866,
+            48.413485272
           ]
         ]
       }
@@ -288,117 +280,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-27_18-06-21-000.f_011.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.90214718915458,8.338992766608287,48.90214718915458,8.338992766608287",
-      "point": "48.90214718915458,8.338992766608287",
-      "startLcPosition": "55",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Schleifweg - Schleifweg",
-      "startTimestamp": "2025-10-27T20:06:30+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "19",
-      "coordinate": {
-        "lat": 48.90214718915458,
-        "long": 8.338992766608287
-      },
-      "description": [
-        "Beginn: 27.10.25 um 20:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 27.10.2025, 20:06",
-        "A5: Karlsruhe -> Basel, 3.9 km vor Schleifweg, aus Richtung Karlsruhe-Süd",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 19 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.338992767,
-            48.902147189
-          ],
-          [
-            8.338992767,
-            48.902147189
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-10-27_18-04-22-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.90214718915458,8.338992766608287,48.89917467845887,8.327938027235188",
-      "point": "48.90214718915458,8.338992766608287",
-      "startLcPosition": "56",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Karlsruhe-Süd - Schleifweg",
-      "startTimestamp": "2025-10-27T18:04:22+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "26",
-      "coordinate": {
-        "lat": 48.90214718915458,
-        "long": 8.338992766608287
-      },
-      "description": [
-        "Beginn: 27.10.25 um 18:04 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 27.10.2025, 18:04",
-        "A5: Karlsruhe -> Basel, zwischen 7.1 km hinter AS Karlsruhe-Süd und 3.1 km vor Schleifweg",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h",
-        "",
-        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.338992767,
-            48.902147189
-          ],
-          [
-            8.3388508,
-            48.902108101
-          ],
-          [
-            8.3377356,
-            48.901813401
-          ],
-          [
-            8.3341419,
-            48.900849201
-          ],
-          [
-            8.327978,
-            48.899185301
-          ],
-          [
-            8.327938027,
-            48.899174678
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-10-27_06-47-06-000.f_010.de0",
+      "identifier": "undefined--vi-hind.2025-10-27_06-47-06-000.f_011.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -759,71 +641,11 @@
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-10-27_18-31-34-000.f_007.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.90134998084542,8.336008303176076,48.896440485412455,8.317723794104285",
-      "point": "48.90134998084542,8.336008303176076",
-      "startLcPosition": "56",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Karlsruhe-Süd - Schleifweg",
-      "startTimestamp": "2025-10-27T18:31:34+01:00",
-      "coordinate": {
-        "lat": 48.90134998084542,
-        "long": 8.336008303176076
-      },
-      "description": [
-        "Beginn: 27.10.25 um 18:31 Uhr",
-        "",
-        "Unfall, seit 27.10.2025, 18:31",
-        "A5: Karlsruhe -> Basel, zwischen 7.4 km hinter AS Karlsruhe-Süd und 2.3 km vor Schleifweg"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.336008303,
-            48.901349981
-          ],
-          [
-            8.3341419,
-            48.900849201
-          ],
-          [
-            8.327978,
-            48.899185301
-          ],
-          [
-            8.3242623,
-            48.898197801
-          ],
-          [
-            8.3205593,
-            48.897205401
-          ],
-          [
-            8.3182796,
-            48.896585401
-          ],
-          [
-            8.317723794,
-            48.896440485
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2025-10-27_20-06-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.34164529688842,8.63073185120394,49.33576614398118,8.630420087315729",
+      "extent": "49.34164529688842,8.63073185120394,49.334309836247655,8.630342697046444",
       "point": "49.34164529688842,8.63073185120394",
       "startLcPosition": "71",
       "display_type": "WARNING",
@@ -831,8 +653,8 @@
       "title": "A5 | Hardtwald - Walldorf/Wiesloch",
       "startTimestamp": "2025-10-27T20:06:00+01:00",
       "delayTimeValue": "0",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "44.900001525878906",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "57.70000076293945",
       "coordinate": {
         "lat": 49.34164529688842,
         "long": 8.63073185120394
@@ -841,11 +663,11 @@
         "Beginn: 27.10.25 um 20:06 Uhr",
         "",
         "Angespannte Verkehrslage, seit 27.10.2025, 20:06",
-        "A5: Heidelberg -> Karlsruhe, zwischen 0.9 km hinter Hardtwald und 3.8 km vor AS Walldorf/Wiesloch",
+        "A5: Heidelberg -> Karlsruhe, zwischen 0.9 km hinter Hardtwald und 3.7 km vor AS Walldorf/Wiesloch",
         "",
-        "Stockender Verkehr",
+        "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 44 km/h"
+        "Durchschnittsgeschwindigkeit: 57 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -879,8 +701,16 @@
             49.337019001
           ],
           [
-            8.630420087,
-            49.335766144
+            8.6304031,
+            49.335398001
+          ],
+          [
+            8.6303649,
+            49.334731501
+          ],
+          [
+            8.630342697,
+            49.334309836
           ]
         ]
       }
