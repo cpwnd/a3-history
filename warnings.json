@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-10-30_00-06-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-10-30_00-06-30-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -12,9 +12,9 @@
       "subtitle": " Linz -> Passau",
       "title": "A3 | Rottal-West - Passau-Süd",
       "startTimestamp": "2025-10-30T00:06:30+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "8.199999809265137",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "13.199999809265137",
       "coordinate": {
         "lat": 48.45647119602376,
         "long": 13.375836452694164
@@ -25,9 +25,9 @@
         "Angespannte Verkehrslage, seit 30.10.2025, 00:06",
         "A3: Linz -> Passau, zwischen Rottal-West und 9.0 km vor AS Passau-Süd",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 13 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -76,33 +76,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-10-29_23-59-30-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-10-30_00-31-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.73832263710897,10.783034868494166,49.73658770515519,10.760976423978457",
-      "point": "49.73832263710897,10.783034868494166",
-      "startLcPosition": "101",
+      "extent": "50.301511643212976,8.23529084926063,50.301511643212976,8.23529084926063",
+      "point": "50.301511643212976,8.23529084926063",
+      "startLcPosition": "175",
       "display_type": "WARNING",
-      "subtitle": " Nürnberg -> Würzburg",
-      "title": "A3 | Höchstadt-Nord - Steigerwald",
-      "startTimestamp": "2025-10-29T23:59:30+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "56.400001525878906",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bad Camberg - Bad Camberg",
+      "startTimestamp": "2025-10-30T00:31:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "21",
       "coordinate": {
-        "lat": 49.73832263710897,
-        "long": 10.783034868494166
+        "lat": 50.301511643212976,
+        "long": 8.23529084926063
       },
       "description": [
-        "Beginn: 29.10.25 um 23:59 Uhr",
+        "Beginn: 30.10.25 um 00:31 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 29.10.2025, 23:59",
-        "A3: Nürnberg -> Würzburg, zwischen 0.5 km hinter AS Höchstadt-Nord und 2.5 km vor Steigerwald",
+        "Angespannte Verkehrslage, seit 30.10.2025, 00:31",
+        "A3: Köln -> Frankfurt, 0.1 km vor Bad Camberg, aus Richtung Limburg-Süd",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 56 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -112,80 +110,114 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.783034868,
-            49.738322637
+            8.235290849,
+            50.301511643
           ],
           [
-            10.7804615,
-            49.738256501
+            8.235290849,
+            50.301511643
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-30_00-31-30-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.301511643212976,8.23529084926063,50.297822000939796,8.237167199999767",
+      "point": "50.301511643212976,8.23529084926063",
+      "startLcPosition": "176",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Limburg-Süd - Idstein",
+      "startTimestamp": "2025-10-30T00:31:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "34.599998474121094",
+      "coordinate": {
+        "lat": 50.301511643212976,
+        "long": 8.23529084926063
+      },
+      "description": [
+        "Beginn: 30.10.25 um 00:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 30.10.2025, 00:31",
+        "A3: Köln -> Frankfurt, zwischen 14.4 km hinter AS Limburg-Süd und 9.8 km vor AS Idstein",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 34 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.235290849,
+            50.301511643
           ],
           [
-            10.7789643,
-            49.738203101
+            8.2371672,
+            50.297822001
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-10-30_00-31-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.9008635439945,7.144263616588886,50.903315204460384,7.135096846888586",
+      "point": "50.9008635439945,7.144263616588886",
+      "startLcPosition": "207",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Königsforst - Königsforst",
+      "startTimestamp": "2025-10-30T00:31:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "45.29999923706055",
+      "coordinate": {
+        "lat": 50.9008635439945,
+        "long": 7.144263616588886
+      },
+      "description": [
+        "Beginn: 30.10.25 um 00:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 30.10.2025, 00:31",
+        "A3: Frankfurt -> Köln, zwischen 0.7 km hinter Königsforst und 2.4 km vor AS Königsforst",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 45 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.144263617,
+            50.900863544
           ],
           [
-            10.7777107,
-            49.738148101
+            7.1406899,
+            50.901816101
           ],
           [
-            10.7774109,
-            49.738133701
+            7.1378148,
+            50.902601101
           ],
           [
-            10.7759705,
-            49.738054201
-          ],
-          [
-            10.7736618,
-            49.737878001
-          ],
-          [
-            10.7719686,
-            49.737747901
-          ],
-          [
-            10.7708612,
-            49.737653401
-          ],
-          [
-            10.769149,
-            49.737484701
-          ],
-          [
-            10.7678344,
-            49.737334801
-          ],
-          [
-            10.7667208,
-            49.737186801
-          ],
-          [
-            10.765608,
-            49.737080701
-          ],
-          [
-            10.765446,
-            49.737064801
-          ],
-          [
-            10.7653159,
-            49.737052101
-          ],
-          [
-            10.7645754,
-            49.736978701
-          ],
-          [
-            10.7633401,
-            49.736851901
-          ],
-          [
-            10.7620831,
-            49.736714201
-          ],
-          [
-            10.760976424,
-            49.736587705
+            7.135096847,
+            50.903315204
           ]
         ]
       }
@@ -300,118 +332,6 @@
           [
             6.973886726,
             51.132266609
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-10-29_23-50-30-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
-      "point": "51.89839901701434,6.165717280673193",
-      "startLcPosition": "261",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Knauheide - Knauheide",
-      "startTimestamp": "2025-10-30T00:08:30+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "23",
-      "coordinate": {
-        "lat": 51.89839901701434,
-        "long": 6.165717280673193
-      },
-      "description": [
-        "Beginn: 30.10.25 um 00:08 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 30.10.2025, 00:08",
-        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.165717281,
-            51.898399017
-          ],
-          [
-            6.165717281,
-            51.898399017
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-10-29_23-49-30-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89836112503476,6.165756320916883,51.89423936175908,6.16999216220693",
-      "point": "51.89836112503476,6.165756320916883",
-      "startLcPosition": "262",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Elten - Elten",
-      "startTimestamp": "2025-10-29T23:49:30+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "32.099998474121094",
-      "coordinate": {
-        "lat": 51.89836112503476,
-        "long": 6.165756320916883
-      },
-      "description": [
-        "Beginn: 29.10.25 um 23:49 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.10.2025, 23:49",
-        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.2 km vor AS Elten",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 32 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.165756321,
-            51.898361125
-          ],
-          [
-            6.1665101,
-            51.897629501
-          ],
-          [
-            6.1668453,
-            51.897289501
-          ],
-          [
-            6.1686237,
-            51.895575501
-          ],
-          [
-            6.1688771,
-            51.895327101
-          ],
-          [
-            6.1696626,
-            51.894557001
-          ],
-          [
-            6.169992162,
-            51.894239362
           ]
         ]
       }
