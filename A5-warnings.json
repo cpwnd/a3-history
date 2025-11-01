@@ -1,131 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-11-01_16-25-30-000.f_007.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.681561569415074,8.599613544672476,49.67991723691958,8.599330887517915",
-      "point": "49.681561569415074,8.599613544672476",
-      "startLcPosition": "85",
-      "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Heidelberg",
-      "title": "A5 | Bergstraße - Bensheim",
-      "startTimestamp": "2025-11-01T16:25:30+01:00",
-      "coordinate": {
-        "lat": 49.681561569415074,
-        "long": 8.599613544672476
-      },
-      "description": [
-        "Beginn: 01.11.25 um 16:25 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 01.11.2025, 16:25",
-        "A5: Darmstadt -> Heidelberg, zwischen 1.0 km hinter Bergstraße und 0.8 km vor AS Bensheim",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.599613545,
-            49.681561569
-          ],
-          [
-            8.5995976,
-            49.681498301
-          ],
-          [
-            8.5994578,
-            49.680809301
-          ],
-          [
-            8.5993713,
-            49.680260101
-          ],
-          [
-            8.599330888,
-            49.679917237
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-11-01_16-18-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.590647587616054,7.60338818028996,47.590647587616054,7.60338818028996",
-      "point": "47.590647587616054,7.60338818028996",
-      "startLcPosition": "1000",
-      "display_type": "WARNING",
-      "subtitle": "",
-      "title": "Baustelle",
-      "startTimestamp": "2025-11-01T17:35:34+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "4",
-      "coordinate": {
-        "lat": 47.590647587616054,
-        "long": 7.60338818028996
-      },
-      "description": [
-        "Beginn: 01.11.25 um 17:35 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 01.11.2025, 17:35",
-        "A5 N",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 4 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.60338818,
-            47.590647588
-          ],
-          [
-            7.60338818,
-            47.590647588
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2025-11-01_16-06-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.59072396414007,7.603408565859455,47.59784270094862,7.60332699999922",
-      "point": "47.59072396414007,7.603408565859455",
+      "extent": "47.59035544050385,7.603310062854293,47.59736174746839,7.603448703650382",
+      "point": "47.59035544050385,7.603310062854293",
       "startLcPosition": "1000",
       "display_type": "WARNING",
-      "subtitle": " km 813.54 --> km 812.74",
+      "subtitle": " km 813.58 --> km 812.80",
       "title": "Baustelle",
       "startTimestamp": "2025-11-01T16:06:30+01:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8.300000190734863",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "11.399999618530273",
       "coordinate": {
-        "lat": 47.59072396414007,
-        "long": 7.603408565859455
+        "lat": 47.59035544050385,
+        "long": 7.603310062854293
       },
       "description": [
         "Beginn: 01.11.25 um 16:06 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.11.2025, 16:06",
-        "A5: km 813.54 --> km 812.74",
+        "A5: km 813.58 --> km 812.80",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -135,8 +37,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.603408566,
-            47.590723964
+            7.603310063,
+            47.590355441
+          ],
+          [
+            7.6034015,
+            47.590697401
           ],
           [
             7.6034576,
@@ -211,12 +117,53 @@
             47.597255601
           ],
           [
-            7.603419,
-            47.597511201
+            7.603448704,
+            47.597361747
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-01_16-18-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.590311175784755,7.603298226952012,47.590311175784755,7.603298226952012",
+      "point": "47.590311175784755,7.603298226952012",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": "",
+      "title": "Baustelle",
+      "startTimestamp": "2025-11-01T17:42:00+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "4",
+      "coordinate": {
+        "lat": 47.590311175784755,
+        "long": 7.603298226952012
+      },
+      "description": [
+        "Beginn: 01.11.25 um 17:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.11.2025, 17:42",
+        "A5 N",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603298227,
+            47.590311176
           ],
           [
-            7.603327,
-            47.597842701
+            7.603298227,
+            47.590311176
           ]
         ]
       }
