@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.60056540265597,8.630848576454914,49.61058071676384,8.628476227643244",
-      "point": "49.60056540265597,8.630848576454914",
+      "extent": "49.59704256375655,8.631069639116655,49.61058071676384,8.628476227643244",
+      "point": "49.59704256375655,8.631069639116655",
       "startLcPosition": "80",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Darmstadt",
       "title": "A5 | Hemsbach - Fuchsbuckel",
       "startTimestamp": "2025-11-01T09:08:30+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "49.900001525878906",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 49.60056540265597,
-        "long": 8.630848576454914
+        "lat": 49.59704256375655,
+        "long": 8.631069639116655
       },
       "description": [
         "Beginn: 01.11.25 um 09:08 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.11.2025, 09:08",
-        "A5: Heidelberg -> Darmstadt, zwischen 0.8 km hinter AS Hemsbach und 1.4 km vor Fuchsbuckel",
+        "A5: Heidelberg -> Darmstadt, zwischen 0.4 km hinter AS Hemsbach und 1.4 km vor Fuchsbuckel",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 49 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.630848576,
-            49.600565403
+            8.631069639,
+            49.597042564
+          ],
+          [
+            8.6310668,
+            49.597075201
+          ],
+          [
+            8.631041,
+            49.597372301
+          ],
+          [
+            8.6309732,
+            49.598290301
+          ],
+          [
+            8.6308936,
+            49.599870101
           ],
           [
             8.6307983,
@@ -87,6 +103,51 @@
           [
             8.628476228,
             49.610580717
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-01_09-28-30-000.f_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.59711440605093,8.631063395468589,49.59711440605093,8.631063395468589",
+      "point": "49.59711440605093,8.631063395468589",
+      "startLcPosition": "81",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Fuchsbuckel - Fuchsbuckel",
+      "startTimestamp": "2025-11-01T09:36:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "23",
+      "coordinate": {
+        "lat": 49.59711440605093,
+        "long": 8.631063395468589
+      },
+      "description": [
+        "Beginn: 01.11.25 um 09:36 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.11.2025, 09:36",
+        "A5: Heidelberg -> Darmstadt, 2.9 km vor Fuchsbuckel, aus Richtung Hemsbach",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.631063395,
+            49.597114406
+          ],
+          [
+            8.631063395,
+            49.597114406
           ]
         ]
       }
