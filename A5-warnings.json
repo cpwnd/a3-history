@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-11-01_16-06-30-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-11-01_16-30-05-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.591764837441865,7.603690266112989,47.59717485194939,7.60348937430167",
-      "point": "47.591764837441865,7.603690266112989",
-      "startLcPosition": "1000",
+      "extent": "49.26040196422859,8.605115090093484,49.26979768229106,8.612914045043222",
+      "point": "49.26040196422859,8.605115090093484",
+      "startLcPosition": "68",
       "display_type": "WARNING",
-      "subtitle": " km 813.42 --> km 812.82",
-      "title": "Baustelle",
-      "startTimestamp": "2025-11-01T16:06:30+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "10.399999618530273",
+      "subtitle": " Karlsruhe -> Heidelberg",
+      "title": "A5 | Lußhardt - Walldorf",
+      "startTimestamp": "2025-11-01T16:30:05+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "65.5999984741211",
       "coordinate": {
-        "lat": 47.591764837441865,
-        "long": 7.603690266112989
+        "lat": 49.26040196422859,
+        "long": 8.605115090093484
       },
       "description": [
-        "Beginn: 01.11.25 um 16:06 Uhr",
+        "Beginn: 01.11.25 um 16:30 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 01.11.2025, 16:06",
-        "A5: km 813.42 --> km 812.82",
+        "Angespannte Verkehrslage, seit 01.11.2025, 16:30",
+        "A5: Karlsruhe -> Heidelberg, zwischen 0.4 km hinter Lußhardt und 1.4 km vor AK Walldorf",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 65 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,68 +37,125 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.603690266,
-            47.591764837
+            8.60511509,
+            49.260401964
           ],
           [
-            7.6036936,
-            47.591777301
+            8.6053522,
+            49.260683801
           ],
           [
-            7.6038925,
-            47.592568801
+            8.6055396,
+            49.260914901
           ],
           [
-            7.6039325,
-            47.592819801
+            8.6058676,
+            49.261310901
           ],
           [
-            7.6040062,
-            47.593241901
+            8.6060734,
+            49.261554801
           ],
           [
-            7.6040559,
-            47.593674101
+            8.6060934,
+            49.261578501
           ],
           [
-            7.6040933,
-            47.594063901
+            8.6068895,
+            49.262539701
           ],
           [
-            7.6040537,
-            47.594329801
+            8.6074374,
+            49.263188801
           ],
           [
-            7.6040069,
-            47.595006101
+            8.6077663,
+            49.263589001
           ],
           [
-            7.6039276,
-            47.595452501
+            8.6092849,
+            49.265438801
           ],
           [
-            7.6038258,
-            47.595963801
+            8.6093949,
+            49.265571001
           ],
           [
-            7.6036821,
-            47.596511201
+            8.6100007,
+            49.266309701
           ],
           [
-            7.6036599,
-            47.596595801
+            8.6101326,
+            49.266462701
           ],
           [
-            7.6036144,
-            47.596724101
+            8.6104936,
+            49.266904501
           ],
           [
-            7.6035592,
-            47.596886801
+            8.6106456,
+            49.267082701
           ],
           [
-            7.603489374,
-            47.597174852
+            8.6117756,
+            49.268424701
+          ],
+          [
+            8.612914045,
+            49.269797682
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-11-01_16-25-30-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.681561569415074,8.599613544672476,49.67991723691958,8.599330887517915",
+      "point": "49.681561569415074,8.599613544672476",
+      "startLcPosition": "85",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Bergstraße - Bensheim",
+      "startTimestamp": "2025-11-01T16:25:30+01:00",
+      "coordinate": {
+        "lat": 49.681561569415074,
+        "long": 8.599613544672476
+      },
+      "description": [
+        "Beginn: 01.11.25 um 16:25 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 01.11.2025, 16:25",
+        "A5: Darmstadt -> Heidelberg, zwischen 1.0 km hinter Bergstraße und 0.8 km vor AS Bensheim",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.599613545,
+            49.681561569
+          ],
+          [
+            8.5995976,
+            49.681498301
+          ],
+          [
+            8.5994578,
+            49.680809301
+          ],
+          [
+            8.5993713,
+            49.680260101
+          ],
+          [
+            8.599330888,
+            49.679917237
           ]
         ]
       }
@@ -114,7 +171,7 @@
       "display_type": "WARNING",
       "subtitle": "",
       "title": "Baustelle",
-      "startTimestamp": "2025-11-01T16:22:30+01:00",
+      "startTimestamp": "2025-11-01T16:32:30+01:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "averageSpeed": "5",
       "coordinate": {
@@ -122,9 +179,9 @@
         "long": 7.603668953582081
       },
       "description": [
-        "Beginn: 01.11.25 um 16:22 Uhr",
+        "Beginn: 01.11.25 um 16:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 01.11.2025, 16:22",
+        "Angespannte Verkehrslage, seit 01.11.2025, 16:32",
         "A5 N",
         "",
         "Stockender Verkehr",
