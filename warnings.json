@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-11-04_18-32-19-000.f_006.de0",
+      "identifier": "undefined--vi-avl.2025-11-04_20-06-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.886742439169964,7.177847735043326,50.88576240093684,7.1795930999979465",
-      "point": "50.886742439169964,7.177847735043326",
-      "startLcPosition": "207",
+      "extent": "51.89839901701434,6.165717280673193,51.89839901701434,6.165717280673193",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "261",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Königsforst - Rösrath",
-      "startTimestamp": "2025-11-04T18:32:19+01:00",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Knauheide - Knauheide",
+      "startTimestamp": "2025-11-04T20:06:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "14",
       "coordinate": {
-        "lat": 50.886742439169964,
-        "long": 7.177847735043326
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
       },
       "description": [
-        "Beginn: 04.11.25 um 18:32 Uhr",
+        "Beginn: 04.11.25 um 20:06 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 04.11.2025, 18:32",
-        "A3: Köln -> Frankfurt, zwischen 2.2 km hinter Königsforst und 0.4 km vor AS Rösrath",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 04.11.2025, 20:06",
+        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,16 +35,71 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.177847735,
-            50.886742439
+            6.165717281,
+            51.898399017
           ],
           [
-            7.1781555,
-            50.886569501
+            6.165717281,
+            51.898399017
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-04_20-05-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89839901701434,6.165717280673193,51.89532710093108,6.168877099986451",
+      "point": "51.89839901701434,6.165717280673193",
+      "startLcPosition": "262",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Elten - Elten",
+      "startTimestamp": "2025-11-04T20:05:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "26.899999618530273",
+      "coordinate": {
+        "lat": 51.89839901701434,
+        "long": 6.165717280673193
+      },
+      "description": [
+        "Beginn: 04.11.25 um 20:05 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 04.11.2025, 20:05",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 1.4 km vor AS Elten",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 26 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165717281,
+            51.898399017
           ],
           [
-            7.1795931,
-            50.885762401
+            6.1665101,
+            51.897629501
+          ],
+          [
+            6.1668453,
+            51.897289501
+          ],
+          [
+            6.1686237,
+            51.895575501
+          ],
+          [
+            6.1688771,
+            51.895327101
           ]
         ]
       }
