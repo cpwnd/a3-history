@@ -1,33 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-11-10_04-55-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-11-10_06-11-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.51690030706085,6.815098968649238,51.49162670093345,6.816839799995747",
-      "point": "51.51690030706085,6.815098968649238",
-      "startLcPosition": "234",
+      "extent": "51.504891092976194,6.8227992341272605,51.504891092976194,6.8227992341272605",
+      "point": "51.504891092976194,6.8227992341272605",
+      "startLcPosition": "232",
       "display_type": "WARNING",
-      "subtitle": " Arnheim -> Köln",
-      "title": "A3 | Oberhausen - Oberhausen-West",
-      "startTimestamp": "2025-11-10T04:55:00+01:00",
-      "delayTimeValue": "3",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Oberhausen-West - Oberhausen-West",
+      "startTimestamp": "2025-11-10T06:13:30+01:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "39.20000076293945",
+      "averageSpeed": "21",
       "coordinate": {
-        "lat": 51.51690030706085,
-        "long": 6.815098968649238
+        "lat": 51.504891092976194,
+        "long": 6.8227992341272605
       },
       "description": [
-        "Beginn: 10.11.25 um 04:55 Uhr",
+        "Beginn: 10.11.25 um 06:13 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 10.11.2025, 04:55",
-        "A3: Arnheim -> Köln, zwischen 2.7 km hinter AK Oberhausen und 0.5 km vor AK Oberhausen-West",
+        "Angespannte Verkehrslage, seit 10.11.2025, 06:13",
+        "A3: Oberhausen -> Köln, 2.0 km vor AK Oberhausen-West, aus Richtung Oberhausen-Holten",
         "",
         "Stockender Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 39 km/h"
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,108 +35,100 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.815098969,
-            51.516900307
+            6.822799234,
+            51.504891093
           ],
           [
-            6.815339,
-            51.516452801
+            6.822799234,
+            51.504891093
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-10_06-13-30-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.52874484175288,6.818811043190764,51.52874484175288,6.818811043190764",
+      "point": "51.52874484175288,6.818811043190764",
+      "startLcPosition": "233",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Oberhausen-Holten - Oberhausen-Holten",
+      "startTimestamp": "2025-11-10T06:13:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "9",
+      "coordinate": {
+        "lat": 51.52874484175288,
+        "long": 6.818811043190764
+      },
+      "description": [
+        "Beginn: 10.11.25 um 06:13 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.11.2025, 06:13",
+        "A3: Arnheim -> Oberhausen, 1.9 km vor AS Oberhausen-Holten, aus Richtung Oberhausen",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.818811043,
+            51.528744842
           ],
           [
-            6.8155662,
-            51.516068101
-          ],
+            6.818811043,
+            51.528744842
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-11-10_06-06-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.504891092976194,6.8227992341272605,51.49162670093345,6.816839799995747",
+      "point": "51.504891092976194,6.8227992341272605",
+      "startLcPosition": "233",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Köln",
+      "title": "A3 | Oberhausen-Holten - Oberhausen-West",
+      "startTimestamp": "2025-11-10T06:06:30+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "31.600000381469727",
+      "coordinate": {
+        "lat": 51.504891092976194,
+        "long": 6.8227992341272605
+      },
+      "description": [
+        "Beginn: 10.11.25 um 06:06 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 10.11.2025, 06:06",
+        "A3: Arnheim -> Köln, zwischen 1.0 km hinter AS Oberhausen-Holten und 0.5 km vor AK Oberhausen-West",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 31 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            6.8159851,
-            51.515448501
-          ],
-          [
-            6.8161292,
-            51.515249801
-          ],
-          [
-            6.8162704,
-            51.515055101
-          ],
-          [
-            6.8166071,
-            51.514611401
-          ],
-          [
-            6.8168792,
-            51.514252901
-          ],
-          [
-            6.8173737,
-            51.513632901
-          ],
-          [
-            6.8178007,
-            51.513094601
-          ],
-          [
-            6.8179218,
-            51.512941601
-          ],
-          [
-            6.8186664,
-            51.512013301
-          ],
-          [
-            6.8196429,
-            51.510778101
-          ],
-          [
-            6.8201328,
-            51.510174401
-          ],
-          [
-            6.8211053,
-            51.508961101
-          ],
-          [
-            6.8211768,
-            51.508871301
-          ],
-          [
-            6.8215071,
-            51.508440601
-          ],
-          [
-            6.8217897,
-            51.508064401
-          ],
-          [
-            6.8221535,
-            51.507524501
-          ],
-          [
-            6.8223811,
-            51.507002101
-          ],
-          [
-            6.8224357,
-            51.506862301
-          ],
-          [
-            6.8225862,
-            51.506422101
-          ],
-          [
-            6.8226857,
-            51.506028201
-          ],
-          [
-            6.822744,
-            51.505696201
-          ],
-          [
-            6.8227903,
-            51.505250001
-          ],
-          [
-            6.8228048,
-            51.505007901
+            6.822799234,
+            51.504891093
           ],
           [
             6.8227974,
@@ -203,6 +193,61 @@
           [
             6.8168398,
             51.491626701
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-10_06-13-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.52874484175288,6.818811043190764,51.52757015612339,6.8175382108675056",
+      "point": "51.52874484175288,6.818811043190764",
+      "startLcPosition": "234",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Oberhausen - Oberhausen-Holten",
+      "startTimestamp": "2025-11-10T06:13:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "9.199999809265137",
+      "coordinate": {
+        "lat": 51.52874484175288,
+        "long": 6.818811043190764
+      },
+      "description": [
+        "Beginn: 10.11.25 um 06:13 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.11.2025, 06:13",
+        "A3: Arnheim -> Oberhausen, zwischen 1.3 km hinter AK Oberhausen und 1.7 km vor AS Oberhausen-Holten",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.818811043,
+            51.528744842
+          ],
+          [
+            6.8186407,
+            51.528590801
+          ],
+          [
+            6.817772,
+            51.527797001
+          ],
+          [
+            6.817538211,
+            51.527570156
           ]
         ]
       }
