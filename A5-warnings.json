@@ -1,33 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-11-12_23-01-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-11-12_23-32-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.069426515727464,7.810727658068788,48.07997258393407,7.804065685750983",
-      "point": "48.069426515727464,7.810727658068788",
-      "startLcPosition": "29",
+      "extent": "47.60147708265374,7.601845484129208,47.60147708265374,7.601845484129208",
+      "point": "47.60147708265374,7.601845484129208",
+      "startLcPosition": "1",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Freiburg-Nord - Teningen",
-      "startTimestamp": "2025-11-12T23:01:30+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "56.599998474121094",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein - Weil am Rhein",
+      "startTimestamp": "2025-11-12T23:32:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 48.069426515727464,
-        "long": 7.810727658068788
+        "lat": 47.60147708265374,
+        "long": 7.601845484129208
       },
       "description": [
-        "Beginn: 12.11.25 um 23:01 Uhr",
+        "Beginn: 12.11.25 um 23:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 12.11.2025, 23:01",
-        "A5: Basel -> Karlsruhe, zwischen 0.9 km hinter AS Freiburg-Nord und 4.1 km vor AS Teningen",
+        "Angespannte Verkehrslage, seit 12.11.2025, 23:32",
+        "A5: Karlsruhe -> Basel, 0.4 km vor Weil am Rhein, aus Richtung Weil am Rhein/Hüningen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 56 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,12 +35,114 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.810727658,
-            48.069426516
+            7.601845484,
+            47.601477083
           ],
           [
-            7.8104878,
-            48.070016901
+            7.601845484,
+            47.601477083
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-12_23-32-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.60157234155499,7.6018058297324025,47.59953008713504,7.602538391979631",
+      "point": "47.60157234155499,7.6018058297324025",
+      "startLcPosition": "3",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Krebsbach - Weil am Rhein",
+      "startTimestamp": "2025-11-12T23:32:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "17",
+      "coordinate": {
+        "lat": 47.60157234155499,
+        "long": 7.6018058297324025
+      },
+      "description": [
+        "Beginn: 12.11.25 um 23:32 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.11.2025, 23:32",
+        "A5: Karlsruhe -> Basel, zwischen 1.5 km hinter Krebsbach und 0.2 km vor Weil am Rhein",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 17 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.60180583,
+            47.601572342
+          ],
+          [
+            7.601865,
+            47.601430201
+          ],
+          [
+            7.60218,
+            47.600619001
+          ],
+          [
+            7.6024754,
+            47.599729601
+          ],
+          [
+            7.602538392,
+            47.599530087
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-12_23-01-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.07102099456275,7.810064412119455,48.07997258393407,7.804065685750983",
+      "point": "48.07102099456275,7.810064412119455",
+      "startLcPosition": "29",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Freiburg-Nord - Teningen",
+      "startTimestamp": "2025-11-12T23:01:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "57.29999923706055",
+      "coordinate": {
+        "lat": 48.07102099456275,
+        "long": 7.810064412119455
+      },
+      "description": [
+        "Beginn: 12.11.25 um 23:01 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.11.2025, 23:01",
+        "A5: Basel -> Karlsruhe, zwischen 1.1 km hinter AS Freiburg-Nord und 4.1 km vor AS Teningen",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 57 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.810064412,
+            48.071020995
           ],
           [
             7.8100257,
@@ -83,6 +183,222 @@
           [
             7.804065686,
             48.079972584
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-12_23-31-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.73787357589237,9.25739663871425,50.73195620772382,9.232863065686086",
+      "point": "50.73787357589237,9.25739663871425",
+      "startLcPosition": "135",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Alsfeld-Ost - Dottenberg",
+      "startTimestamp": "2025-11-12T23:31:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "53.70000076293945",
+      "coordinate": {
+        "lat": 50.73787357589237,
+        "long": 9.25739663871425
+      },
+      "description": [
+        "Beginn: 12.11.25 um 23:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.11.2025, 23:31",
+        "A5: Kassel -> Frankfurt, zwischen 3.4 km hinter AS Alsfeld-Ost und 9.3 km vor Dottenberg",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 53 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.257396639,
+            50.737873576
+          ],
+          [
+            9.2571237,
+            50.737821101
+          ],
+          [
+            9.2563921,
+            50.737688701
+          ],
+          [
+            9.2556383,
+            50.737564301
+          ],
+          [
+            9.2549082,
+            50.737445901
+          ],
+          [
+            9.2539721,
+            50.737304701
+          ],
+          [
+            9.2523103,
+            50.737064201
+          ],
+          [
+            9.2511002,
+            50.736902901
+          ],
+          [
+            9.2501432,
+            50.736774701
+          ],
+          [
+            9.2483649,
+            50.736537601
+          ],
+          [
+            9.2480148,
+            50.736495401
+          ],
+          [
+            9.2476467,
+            50.736447301
+          ],
+          [
+            9.2462973,
+            50.736268101
+          ],
+          [
+            9.245724,
+            50.736185601
+          ],
+          [
+            9.2450781,
+            50.736085301
+          ],
+          [
+            9.2443886,
+            50.735973401
+          ],
+          [
+            9.2427648,
+            50.735651701
+          ],
+          [
+            9.2425589,
+            50.735606201
+          ],
+          [
+            9.2418692,
+            50.735445801
+          ],
+          [
+            9.2414628,
+            50.735351001
+          ],
+          [
+            9.2408784,
+            50.735194701
+          ],
+          [
+            9.2404487,
+            50.735075701
+          ],
+          [
+            9.2396313,
+            50.734839401
+          ],
+          [
+            9.2390782,
+            50.734671001
+          ],
+          [
+            9.2384922,
+            50.734478501
+          ],
+          [
+            9.2378511,
+            50.734247301
+          ],
+          [
+            9.2374898,
+            50.734113301
+          ],
+          [
+            9.2365204,
+            50.733721101
+          ],
+          [
+            9.235741,
+            50.733404101
+          ],
+          [
+            9.2347757,
+            50.732957401
+          ],
+          [
+            9.2338336,
+            50.732481801
+          ],
+          [
+            9.2330696,
+            50.732072601
+          ],
+          [
+            9.232863066,
+            50.731956208
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-12_23-27-30-000.f_006.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59487390094862,7.603921599999228,47.59487390094862,7.603921599999228",
+      "point": "47.59487390094862,7.603921599999228",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": "",
+      "title": "Baustelle",
+      "startTimestamp": "2025-11-12T23:30:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5",
+      "coordinate": {
+        "lat": 47.59487390094862,
+        "long": 7.603921599999228
+      },
+      "description": [
+        "Beginn: 12.11.25 um 23:30 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.11.2025, 23:30",
+        "A5 S",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6039216,
+            47.594873901
+          ],
+          [
+            7.6039216,
+            47.594873901
           ]
         ]
       }
