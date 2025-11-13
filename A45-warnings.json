@@ -1,26 +1,26 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-11-13_19-58-00-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-11-13_21-25-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.51915527824533,7.3850502974379895,51.5203712535667,7.383046577803022",
-      "point": "51.51915527824533,7.3850502974379895",
-      "startLcPosition": "109",
+      "extent": "51.123227036555484,7.668438492357028,51.124874292807576,7.668971600095076",
+      "point": "51.123227036555484,7.668438492357028",
+      "startLcPosition": "80",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Dortmund-Hafen - Kirchlinde",
-      "startTimestamp": "2025-11-13T19:58:00+01:00",
+      "subtitle": " Gießen -> Hagen",
+      "title": "A45 | Rothenstein - Drögenpütt",
+      "startTimestamp": "2025-11-13T21:25:00+01:00",
       "coordinate": {
-        "lat": 51.51915527824533,
-        "long": 7.3850502974379895
+        "lat": 51.123227036555484,
+        "long": 7.668438492357028
       },
       "description": [
-        "Beginn: 13.11.25 um 19:58 Uhr",
+        "Beginn: 13.11.25 um 21:25 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 13.11.2025, 19:58",
-        "A45: Hagen -> Dortmund, zwischen 0.1 km hinter AS Dortmund-Hafen und 2.1 km vor Kirchlinde",
+        "Fahrzeug-Hindernis, seit 13.11.2025, 21:25",
+        "A45: Gießen -> Hagen, zwischen 0.2 km hinter Rothenstein und 3.4 km vor Drögenpütt",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -31,28 +31,116 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.385050297,
-            51.519155278
+            7.668438492,
+            51.123227037
           ],
           [
-            7.3849928,
-            51.519192401
+            7.6685038,
+            51.123374901
           ],
           [
-            7.3846628,
-            51.519401601
+            7.6688819,
+            51.124498101
           ],
           [
-            7.3840759,
-            51.519763201
+            7.6689716,
+            51.124874293
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-13_21-34-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.26469179893826,7.6024754856058605,51.26469179893826,7.6024754856058605",
+      "point": "51.26469179893826,7.6024754856058605",
+      "startLcPosition": "90",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Lüdenscheid-Nord - Lüdenscheid-Nord",
+      "startTimestamp": "2025-11-13T21:36:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "8",
+      "coordinate": {
+        "lat": 51.26469179893826,
+        "long": 7.6024754856058605
+      },
+      "description": [
+        "Beginn: 13.11.25 um 21:36 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 13.11.2025, 21:36",
+        "A45: Hagen -> Gießen, 0.9 km vor AS Lüdenscheid-Nord, aus Richtung Sterbecker Siepen",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.602475486,
+            51.264691799
           ],
           [
-            7.3837407,
-            51.519957801
+            7.602475486,
+            51.264691799
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-13_21-34-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.26469179893826,7.6024754856058605,51.263860400934774,7.60281269999918",
+      "point": "51.26469179893826,7.6024754856058605",
+      "startLcPosition": "91",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Gießen",
+      "title": "A45 | Sterbecker Siepen - Lüdenscheid-Nord",
+      "startTimestamp": "2025-11-13T21:34:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "8.300000190734863",
+      "coordinate": {
+        "lat": 51.26469179893826,
+        "long": 7.6024754856058605
+      },
+      "description": [
+        "Beginn: 13.11.25 um 21:34 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 13.11.2025, 21:34",
+        "A45: Hagen -> Gießen, zwischen 0.3 km hinter Sterbecker Siepen und 0.8 km vor AS Lüdenscheid-Nord",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.602475486,
+            51.264691799
           ],
           [
-            7.383046578,
-            51.520371254
+            7.6025568,
+            51.264448001
+          ],
+          [
+            7.6028127,
+            51.263860401
           ]
         ]
       }
