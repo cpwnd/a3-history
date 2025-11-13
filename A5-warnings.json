@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.87463191513259,8.256454780988253,48.88792250094535,8.28657719999983",
-      "point": "48.87463191513259,8.256454780988253",
+      "extent": "48.87316311523846,8.255026601100631,48.88844881048432,8.288401870091642",
+      "point": "48.87316311523846,8.255026601100631",
       "startLcPosition": "53",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
@@ -14,20 +14,20 @@
       "startTimestamp": "2025-11-13T11:48:28+01:00",
       "delayTimeValue": "3",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "37",
+      "averageSpeed": "41.79999923706055",
       "coordinate": {
-        "lat": 48.87463191513259,
-        "long": 8.256454780988253
+        "lat": 48.87316311523846,
+        "long": 8.255026601100631
       },
       "description": [
         "Beginn: 13.11.25 um 11:48 Uhr",
         "",
         "Angespannte Verkehrslage, seit 13.11.2025, 11:48",
-        "A5: Basel -> Karlsruhe, zwischen 1.6 km hinter AS Rastatt-Nord und 0.2 km vor Silbergrund",
+        "A5: Basel -> Karlsruhe, zwischen 1.4 km hinter AS Rastatt-Nord und Silbergrund",
         "",
         "Stockender Verkehr",
         "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 37 km/h"
+        "Durchschnittsgeschwindigkeit: 41 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.256454781,
-            48.874631915
+            8.255026601,
+            48.873163115
+          ],
+          [
+            8.2556046,
+            48.873775501
+          ],
+          [
+            8.2562962,
+            48.874479501
           ],
           [
             8.256741,
@@ -163,33 +171,37 @@
           [
             8.2865772,
             48.887922501
+          ],
+          [
+            8.28840187,
+            48.88844881
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-11-13_12-30-06-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-11-13_12-40-54-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.87463191513259,8.256454780988253,48.87463191513259,8.256454780988253",
-      "point": "48.87463191513259,8.256454780988253",
+      "extent": "48.87600976284956,8.25803189421758,48.87600976284956,8.25803189421758",
+      "point": "48.87600976284956,8.25803189421758",
       "startLcPosition": "54",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Silbergrund - Silbergrund",
-      "startTimestamp": "2025-11-13T12:30:06+01:00",
+      "startTimestamp": "2025-11-13T12:40:54+01:00",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "averageSpeed": "24",
       "coordinate": {
-        "lat": 48.87463191513259,
-        "long": 8.256454780988253
+        "lat": 48.87600976284956,
+        "long": 8.25803189421758
       },
       "description": [
-        "Beginn: 13.11.25 um 12:30 Uhr",
+        "Beginn: 13.11.25 um 12:40 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.11.2025, 12:30",
-        "A5: Basel -> Karlsruhe, 2.9 km vor Silbergrund, aus Richtung Rastatt-Nord",
+        "Angespannte Verkehrslage, seit 13.11.2025, 12:40",
+        "A5: Basel -> Karlsruhe, 2.7 km vor Silbergrund, aus Richtung Rastatt-Nord",
         "",
         "Stockender Verkehr",
         "Durchschnittsgeschwindigkeit: 24 km/h"
@@ -202,12 +214,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.256454781,
-            48.874631915
+            8.258031894,
+            48.876009763
           ],
           [
-            8.256454781,
-            48.874631915
+            8.258031894,
+            48.876009763
           ]
         ]
       }
@@ -297,113 +309,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-unf.2025-11-13_12-26-17-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.069197871211685,8.50799574072073,49.07324830464986,8.511108394756842",
-      "point": "49.069197871211685,8.50799574072073",
-      "startLcPosition": "61",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Karlsruhe-Nord - Bruchsal",
-      "startTimestamp": "2025-11-13T12:26:17+01:00",
-      "coordinate": {
-        "lat": 49.069197871211685,
-        "long": 8.50799574072073
-      },
-      "description": [
-        "Beginn: 13.11.25 um 12:26 Uhr",
-        "",
-        "Unfall, seit 13.11.2025, 12:26",
-        "A5: Karlsruhe -> Heidelberg, zwischen 6.7 km hinter AS Karlsruhe-Nord und 9.3 km vor AS Bruchsal"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.507995741,
-            49.069197871
-          ],
-          [
-            8.5081849,
-            49.069462701
-          ],
-          [
-            8.5087694,
-            49.070266101
-          ],
-          [
-            8.5089064,
-            49.070469801
-          ],
-          [
-            8.5090539,
-            49.070680001
-          ],
-          [
-            8.5094605,
-            49.071255401
-          ],
-          [
-            8.5099183,
-            49.071867301
-          ],
-          [
-            8.510155,
-            49.072166301
-          ],
-          [
-            8.510399,
-            49.072461201
-          ],
-          [
-            8.5106231,
-            49.072723301
-          ],
-          [
-            8.5108845,
-            49.073011401
-          ],
-          [
-            8.511108395,
-            49.073248305
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2025-11-13_12-18-43-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.044743524051235,8.490592627486626,49.06313715791744,8.503661380301965",
-      "point": "49.044743524051235,8.490592627486626",
+      "extent": "49.04339140298206,8.489695153639596,49.06190785326979,8.502782182977395",
+      "point": "49.04339140298206,8.489695153639596",
       "startLcPosition": "61",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Karlsruhe-Nord - Kreuzlach",
       "startTimestamp": "2025-11-13T12:18:43+01:00",
-      "delayTimeValue": "3",
+      "delayTimeValue": "5",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "33.5",
+      "averageSpeed": "20",
       "coordinate": {
-        "lat": 49.044743524051235,
-        "long": 8.490592627486626
+        "lat": 49.04339140298206,
+        "long": 8.489695153639596
       },
       "description": [
         "Beginn: 13.11.25 um 12:18 Uhr",
         "",
         "Angespannte Verkehrslage, seit 13.11.2025, 12:18",
-        "A5: Karlsruhe -> Heidelberg, zwischen 3.7 km hinter AS Karlsruhe-Nord und 0.8 km vor Kreuzlach",
+        "A5: Karlsruhe -> Heidelberg, zwischen 3.5 km hinter AS Karlsruhe-Nord und 0.9 km vor Kreuzlach",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 33 km/h"
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -413,8 +345,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.490592627,
-            49.044743524
+            8.489695154,
+            49.043391403
+          ],
+          [
+            8.4902853,
+            49.044288101
           ],
           [
             8.4916393,
@@ -453,42 +389,38 @@
             49.061089401
           ],
           [
-            8.5033415,
-            49.062690101
-          ],
-          [
-            8.50366138,
-            49.063137158
+            8.502782183,
+            49.061907853
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-11-13_12-27-50-000.f_006.de0",
+      "identifier": "undefined--vi-avl.2025-11-13_12-39-23-000.f_011.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.044743524051235,8.490592627486626,49.044743524051235,8.490592627486626",
-      "point": "49.044743524051235,8.490592627486626",
+      "extent": "49.04339140298206,8.489695153639596,49.04339140298206,8.489695153639596",
+      "point": "49.04339140298206,8.489695153639596",
       "startLcPosition": "62",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Kreuzlach - Kreuzlach",
-      "startTimestamp": "2025-11-13T12:30:06+01:00",
+      "startTimestamp": "2025-11-13T12:40:14+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "25",
+      "averageSpeed": "20",
       "coordinate": {
-        "lat": 49.044743524051235,
-        "long": 8.490592627486626
+        "lat": 49.04339140298206,
+        "long": 8.489695153639596
       },
       "description": [
-        "Beginn: 13.11.25 um 12:30 Uhr",
+        "Beginn: 13.11.25 um 12:40 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.11.2025, 12:30",
-        "A5: Karlsruhe -> Heidelberg, 3.1 km vor Kreuzlach, aus Richtung Karlsruhe-Nord",
+        "Angespannte Verkehrslage, seit 13.11.2025, 12:40",
+        "A5: Karlsruhe -> Heidelberg, 3.2 km vor Kreuzlach, aus Richtung Karlsruhe-Nord",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 25 km/h"
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -498,12 +430,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.490592627,
-            49.044743524
+            8.489695154,
+            49.043391403
           ],
           [
-            8.490592627,
-            49.044743524
+            8.489695154,
+            49.043391403
           ]
         ]
       }
@@ -554,7 +486,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-11-13_12-29-24-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2025-11-13_12-29-24-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -728,27 +660,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.510660345619385,8.747219376439478,50.510660345619385,8.747219376439478",
-      "point": "50.510660345619385,8.747219376439478",
+      "extent": "50.51574625668396,8.75209404297292,50.51574625668396,8.75209404297292",
+      "point": "50.51574625668396,8.75209404297292",
       "startLcPosition": "120",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Gambacher Kreuz - Gambacher Kreuz",
-      "startTimestamp": "2025-11-13T12:30:06+01:00",
+      "startTimestamp": "2025-11-13T12:39:23+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "11",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 50.510660345619385,
-        "long": 8.747219376439478
+        "lat": 50.51574625668396,
+        "long": 8.75209404297292
       },
       "description": [
-        "Beginn: 13.11.25 um 12:30 Uhr",
+        "Beginn: 13.11.25 um 12:39 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 13.11.2025, 12:30",
-        "A5: Kassel -> Frankfurt, 4.3 km vor AK Gambacher Kreuz, aus Richtung Limes",
+        "Angespannte Verkehrslage, seit 13.11.2025, 12:39",
+        "A5: Kassel -> Frankfurt, 5.0 km vor AK Gambacher Kreuz, aus Richtung Limes",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 11 km/h"
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -758,12 +690,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.747219376,
-            50.510660346
+            8.752094043,
+            50.515746257
           ],
           [
-            8.747219376,
-            50.510660346
+            8.752094043,
+            50.515746257
           ]
         ]
       }
@@ -773,29 +705,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.510660345619385,8.747219376439478,50.47858461708717,8.728969681959358",
-      "point": "50.510660345619385,8.747219376439478",
+      "extent": "50.51571494063698,8.752066279814136,50.47796996846713,8.728647487656813",
+      "point": "50.51571494063698,8.752066279814136",
       "startLcPosition": "121",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Limes - Gambacher Kreuz",
       "startTimestamp": "2025-11-13T08:20:04+01:00",
-      "delayTimeValue": "16",
+      "delayTimeValue": "18",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "12.800000190734863",
+      "averageSpeed": "13.199999809265137",
       "coordinate": {
-        "lat": 50.510660345619385,
-        "long": 8.747219376439478
+        "lat": 50.51571494063698,
+        "long": 8.752066279814136
       },
       "description": [
         "Beginn: 13.11.25 um 08:20 Uhr",
         "",
         "Angespannte Verkehrslage, seit 13.11.2025, 08:20",
-        "A5: Kassel -> Frankfurt, zwischen 1.3 km hinter Limes und 0.5 km vor AK Gambacher Kreuz",
+        "A5: Kassel -> Frankfurt, zwischen 0.6 km hinter Limes und 0.4 km vor AK Gambacher Kreuz",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 16 Minuten",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
+        "Reisezeitverlust: 18 Minuten",
+        "Durchschnittsgeschwindigkeit: 13 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -805,8 +737,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.747219376,
-            50.510660346
+            8.75206628,
+            50.515714941
+          ],
+          [
+            8.75189,
+            50.515516101
+          ],
+          [
+            8.7510117,
+            50.514574301
+          ],
+          [
+            8.7501096,
+            50.513622101
+          ],
+          [
+            8.7491688,
+            50.512697201
+          ],
+          [
+            8.7487086,
+            50.512253001
+          ],
+          [
+            8.7482074,
+            50.511738701
+          ],
+          [
+            8.7475491,
+            50.511061601
           ],
           [
             8.7469628,
@@ -909,8 +869,79 @@
             50.479915201
           ],
           [
-            8.728969682,
-            50.478584617
+            8.7286745,
+            50.478021101
+          ],
+          [
+            8.728647488,
+            50.477969968
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-13_12-40-54-000.f_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59705340958059,7.603327679473785,47.59558040094862,7.603796099999223",
+      "point": "47.59705340958059,7.603327679473785",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.83 --> km 813.00",
+      "title": "Baustelle",
+      "startTimestamp": "2025-11-13T12:40:54+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "10.5",
+      "coordinate": {
+        "lat": 47.59705340958059,
+        "long": 7.603327679473785
+      },
+      "description": [
+        "Beginn: 13.11.25 um 12:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 13.11.2025, 12:40",
+        "A5: km 812.83 --> km 813.00",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603327679,
+            47.59705341
+          ],
+          [
+            7.6034406,
+            47.596700101
+          ],
+          [
+            7.6035053,
+            47.596509101
+          ],
+          [
+            7.6035294,
+            47.596432001
+          ],
+          [
+            7.6035636,
+            47.596329401
+          ],
+          [
+            7.6036995,
+            47.595884401
+          ],
+          [
+            7.6037961,
+            47.595580401
           ]
         ]
       }
