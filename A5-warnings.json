@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-11-15_22-36-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-11-15_23-06-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -11,21 +11,21 @@
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Rastatt-Nord - Rastatt-Nord",
-      "startTimestamp": "2025-11-15T22:41:30+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "16",
+      "startTimestamp": "2025-11-15T23:06:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20",
       "coordinate": {
         "lat": 48.87671159166938,
         "long": 8.258627528271838
       },
       "description": [
-        "Beginn: 15.11.25 um 22:41 Uhr",
+        "Beginn: 15.11.25 um 23:06 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 15.11.2025, 22:41",
+        "Angespannte Verkehrslage, seit 15.11.2025, 23:06",
         "A5: Karlsruhe -> Basel, 1.8 km vor AS Rastatt-Nord, aus Richtung Silbergrund",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 16 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -50,7 +50,7 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.87671159166938,8.258627528271838,48.87133456129431,8.25319114252355",
+      "extent": "48.87671159166938,8.258627528271838,48.86983066689456,8.251925030495954",
       "point": "48.87671159166938,8.258627528271838",
       "startLcPosition": "54",
       "display_type": "WARNING",
@@ -58,8 +58,8 @@
       "title": "A5 | Silbergrund - Rastatt-Nord",
       "startTimestamp": "2025-11-15T22:30:00+01:00",
       "delayTimeValue": "1",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "24.600000381469727",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "34.29999923706055",
       "coordinate": {
         "lat": 48.87671159166938,
         "long": 8.258627528271838
@@ -68,11 +68,11 @@
         "Beginn: 15.11.25 um 22:30 Uhr",
         "",
         "Angespannte Verkehrslage, seit 15.11.2025, 22:30",
-        "A5: Karlsruhe -> Basel, zwischen 2.6 km hinter Silbergrund und 1.1 km vor AS Rastatt-Nord",
+        "A5: Karlsruhe -> Basel, zwischen 2.6 km hinter Silbergrund und 0.9 km vor AS Rastatt-Nord",
         "",
-        "Im Stillstand",
+        "Stockender Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 24 km/h"
+        "Durchschnittsgeschwindigkeit: 34 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -122,8 +122,16 @@
             48.871664601
           ],
           [
-            8.253191143,
-            48.871334561
+            8.252872,
+            48.870956701
+          ],
+          [
+            8.2519445,
+            48.869854401
+          ],
+          [
+            8.25192503,
+            48.869830667
           ]
         ]
       }
