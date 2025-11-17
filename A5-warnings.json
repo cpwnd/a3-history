@@ -182,16 +182,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.0477058303676,8.601651678686215,50.06211003887726,8.608850575887871",
+      "extent": "50.0477058303676,8.601651678686215,50.06056100109952,8.608073343170501",
       "point": "50.0477058303676,8.601651678686215",
       "startLcPosition": "104",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Frankfurt",
       "title": "A5 | Zeppelinheim - Frankfurt am Main-Niederrad",
       "startTimestamp": "2025-11-17T05:10:00+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "49.29999923706055",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "28.299999237060547",
       "coordinate": {
         "lat": 50.0477058303676,
         "long": 8.601651678686215
@@ -200,11 +200,11 @@
         "Beginn: 17.11.25 um 05:10 Uhr",
         "",
         "Angespannte Verkehrslage, seit 17.11.2025, 05:10",
-        "A5: Darmstadt -> Frankfurt, zwischen 1.5 km hinter AS Zeppelinheim und 2.7 km vor AS Frankfurt am Main-Niederrad",
+        "A5: Darmstadt -> Frankfurt, zwischen 1.5 km hinter AS Zeppelinheim und 2.9 km vor AS Frankfurt am Main-Niederrad",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 49 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -258,20 +258,53 @@
             50.060466901
           ],
           [
-            8.608255,
-            50.060921301
+            8.608073343,
+            50.060561001
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-17_05-36-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.0477143940625,8.60165594667588,50.0477143940625,8.60165594667588",
+      "point": "50.0477143940625,8.60165594667588",
+      "startLcPosition": "105",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Frankfurt",
+      "title": "A5 | Frankfurter Kreuz - Frankfurter Kreuz",
+      "startTimestamp": "2025-11-17T05:40:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "27",
+      "coordinate": {
+        "lat": 50.0477143940625,
+        "long": 8.60165594667588
+      },
+      "description": [
+        "Beginn: 17.11.25 um 05:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 17.11.2025, 05:40",
+        "A5: Darmstadt -> Frankfurt, 0.6 km vor AK Frankfurter Kreuz, aus Richtung Zeppelinheim",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.601655947,
+            50.047714394
           ],
           [
-            8.6084663,
-            50.061360701
-          ],
-          [
-            8.6087124,
-            50.061840201
-          ],
-          [
-            8.608850576,
-            50.062110039
+            8.601655947,
+            50.047714394
           ]
         ]
       }
