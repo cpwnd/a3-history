@@ -1,33 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-11-18_23-39-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-11-19_00-13-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.59640670289178,7.60370953241724,47.59831530094861,7.603191299999225",
-      "point": "47.59640670289178,7.60370953241724",
-      "startLcPosition": "1000",
+      "extent": "47.60321520804987,7.600996722890849,47.60321520804987,7.600996722890849",
+      "point": "47.60321520804987,7.600996722890849",
+      "startLcPosition": "2",
       "display_type": "WARNING",
-      "subtitle": " km 812.90 --> km 812.69",
-      "title": "Baustelle",
-      "startTimestamp": "2025-11-18T23:39:30+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "9.5",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein/Hüningen - Weil am Rhein/Hüningen",
+      "startTimestamp": "2025-11-19T00:13:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "7",
       "coordinate": {
-        "lat": 47.59640670289178,
-        "long": 7.60370953241724
+        "lat": 47.60321520804987,
+        "long": 7.600996722890849
       },
       "description": [
-        "Beginn: 18.11.25 um 23:39 Uhr",
+        "Beginn: 19.11.25 um 00:13 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.11.2025, 23:39",
-        "A5: km 812.90 --> km 812.69",
+        "Angespannte Verkehrslage, seit 19.11.2025, 00:13",
+        "A5: Karlsruhe -> Basel, 0.2 km vor AS Weil am Rhein/Hüningen, aus Richtung Krebsbach",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 9 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,40 +35,99 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.603709532,
-            47.596406703
+            7.600996723,
+            47.603215208
           ],
           [
-            7.6036821,
-            47.596511201
+            7.600996723,
+            47.603215208
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-19_00-13-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.603223553624396,7.6009917547893275,47.59855078235599,7.602847270786142",
+      "point": "47.603223553624396,7.6009917547893275",
+      "startLcPosition": "3",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Krebsbach - Weil am Rhein",
+      "startTimestamp": "2025-11-19T00:13:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20.899999618530273",
+      "coordinate": {
+        "lat": 47.603223553624396,
+        "long": 7.6009917547893275
+      },
+      "description": [
+        "Beginn: 19.11.25 um 00:13 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 19.11.2025, 00:13",
+        "A5: Karlsruhe -> Basel, zwischen 1.3 km hinter Krebsbach und 0.1 km vor Weil am Rhein",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.600991755,
+            47.603223554
           ],
           [
-            7.6036599,
-            47.596595801
+            7.6010356,
+            47.603149901
           ],
           [
-            7.6036144,
-            47.596724101
+            7.6012646,
+            47.602718201
           ],
           [
-            7.6035592,
-            47.596886801
+            7.6014979,
+            47.602246901
           ],
           [
-            7.6034698,
-            47.597255601
+            7.6017078,
+            47.601776001
           ],
           [
-            7.603419,
-            47.597511201
+            7.6017842,
+            47.601624301
           ],
           [
-            7.603327,
-            47.597842701
+            7.601865,
+            47.601430201
           ],
           [
-            7.6031913,
-            47.598315301
+            7.60218,
+            47.600619001
+          ],
+          [
+            7.6024754,
+            47.599729601
+          ],
+          [
+            7.6026559,
+            47.599157901
+          ],
+          [
+            7.6027982,
+            47.598703601
+          ],
+          [
+            7.602847271,
+            47.598550782
           ]
         ]
       }
