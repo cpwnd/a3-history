@@ -1,77 +1,30 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-11-28_14-39-28-000.f_011.de0",
+      "identifier": "undefined--vi-avl.2025-11-28_14-45-18-000.f_013.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.00644406556996,9.023320505930354,50.00644406556996,9.023320505930354",
-      "point": "50.00644406556996,9.023320505930354",
+      "extent": "50.00362273071194,9.02033568537054,50.00362273071194,9.02033568537054",
+      "point": "50.00362273071194,9.02033568537054",
       "startLcPosition": "0",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
       "title": "A45 | Seligenstädter Dreieck - Seligenstädter Dreieck",
-      "startTimestamp": "2025-11-28T14:39:28+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 50.00644406556996,
-        "long": 9.023320505930354
+        "lat": 50.00362273071194,
+        "long": 9.02033568537054
       },
       "description": [
-        "Beginn: 28.11.25 um 14:39 Uhr",
+        "Beginn: 28.11.25 um 14:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:39",
-        "A45: Gießen -> Aschaffenburg, 1.6 km vor AD Seligenstädter Dreieck, aus Richtung Mainhausen",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
+        "A45: Gießen -> Aschaffenburg, 1.3 km vor AD Seligenstädter Dreieck, aus Richtung Mainhausen",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.023320506,
-            50.006444066
-          ],
-          [
-            9.023320506,
-            50.006444066
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-11-28_14-35-46-000.f_024.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.00644406556996,9.023320505930354,49.99677463979115,9.015912149595634",
-      "point": "50.00644406556996,9.023320505930354",
-      "startLcPosition": "1",
-      "display_type": "WARNING",
-      "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Mainhausen - Seligenstädter Dreieck",
-      "startTimestamp": "2025-11-28T14:35:46+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "25.200000762939453",
-      "coordinate": {
-        "lat": 50.00644406556996,
-        "long": 9.023320505930354
-      },
-      "description": [
-        "Beginn: 28.11.25 um 14:35 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:35",
-        "A45: Gießen -> Aschaffenburg, zwischen 0.4 km hinter AS Mainhausen und 0.4 km vor AD Seligenstädter Dreieck",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 2 Minuten",
+        "Stockender Verkehr",
         "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
@@ -82,32 +35,55 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.023320506,
-            50.006444066
+            9.020335685,
+            50.003622731
           ],
           [
-            9.0230472,
-            50.006222901
-          ],
+            9.020335685,
+            50.003622731
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-28_14-35-46-000.f_024.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.00362273071194,9.02033568537054,49.99677463979115,9.015912149595634",
+      "point": "50.00362273071194,9.02033568537054",
+      "startLcPosition": "1",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Mainhausen - Seligenstädter Dreieck",
+      "startTimestamp": "2025-11-28T14:35:46+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36.20000076293945",
+      "coordinate": {
+        "lat": 50.00362273071194,
+        "long": 9.02033568537054
+      },
+      "description": [
+        "Beginn: 28.11.25 um 14:35 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:35",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.8 km hinter AS Mainhausen und 0.4 km vor AD Seligenstädter Dreieck",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            9.0225099,
-            50.005761401
-          ],
-          [
-            9.0219743,
-            50.005271801
-          ],
-          [
-            9.0212623,
-            50.004598101
-          ],
-          [
-            9.0205485,
-            50.003857501
-          ],
-          [
-            9.0204619,
-            50.003762701
+            9.020335685,
+            50.003622731
           ],
           [
             9.0197023,
@@ -173,26 +149,26 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.63736902544862,8.32605826398705,50.63736902544862,8.32605826398705",
-      "point": "50.63736902544862,8.32605826398705",
+      "extent": "50.643987174668865,8.32475406846014,50.643987174668865,8.32475406846014",
+      "point": "50.643987174668865,8.32475406846014",
       "startLcPosition": "33",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Volkersbach - Volkersbach",
-      "startTimestamp": "2025-11-28T14:39:28+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "15",
       "coordinate": {
-        "lat": 50.63736902544862,
-        "long": 8.32605826398705
+        "lat": 50.643987174668865,
+        "long": 8.32475406846014
       },
       "description": [
-        "Beginn: 28.11.25 um 14:39 Uhr",
+        "Beginn: 28.11.25 um 14:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:39",
-        "A45: Hagen -> Gießen, 2.3 km vor Volkersbach, aus Richtung Ebersbach",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
+        "A45: Hagen -> Gießen, 3.0 km vor Volkersbach, aus Richtung Ebersbach",
         "",
-        "Stockender Verkehr",
+        "Im Stillstand",
         "Durchschnittsgeschwindigkeit: 15 km/h"
       ],
       "routeRecommendation": [],
@@ -203,12 +179,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.326058264,
-            50.637369025
+            8.324754068,
+            50.643987175
           ],
           [
-            8.326058264,
-            50.637369025
+            8.324754068,
+            50.643987175
           ]
         ]
       }
@@ -218,29 +194,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.63736902544862,8.32605826398705,50.62887501286773,8.334854838285",
-      "point": "50.63736902544862,8.32605826398705",
-      "startLcPosition": "34",
+      "extent": "50.64425657983051,8.324732333267907,50.629006389437535,8.334638882995508",
+      "point": "50.64425657983051,8.324732333267907",
+      "startLcPosition": "35",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Ebersbach - Volkersbach",
+      "title": "A45 | Hohenrain - Volkersbach",
       "startTimestamp": "2025-11-28T14:37:39+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "26",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "16.700000762939453",
       "coordinate": {
-        "lat": 50.63736902544862,
-        "long": 8.32605826398705
+        "lat": 50.64425657983051,
+        "long": 8.324732333267907
       },
       "description": [
         "Beginn: 28.11.25 um 14:37 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 28.11.2025, 14:37",
-        "A45: Hagen -> Gießen, zwischen 0.8 km hinter Ebersbach und 1.2 km vor Volkersbach",
+        "A45: Hagen -> Gießen, zwischen 0.5 km hinter Hohenrain und 1.2 km vor Volkersbach",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -250,8 +226,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.326058264,
-            50.637369025
+            8.324732333,
+            50.64425658
+          ],
+          [
+            8.3247436,
+            50.644151601
+          ],
+          [
+            8.3247668,
+            50.643787201
+          ],
+          [
+            8.3247877,
+            50.643202201
+          ],
+          [
+            8.3248073,
+            50.642534201
+          ],
+          [
+            8.3248223,
+            50.641702601
+          ],
+          [
+            8.3248442,
+            50.641162101
+          ],
+          [
+            8.3248814,
+            50.640882901
+          ],
+          [
+            8.3250581,
+            50.639862101
+          ],
+          [
+            8.3251754,
+            50.639427201
+          ],
+          [
+            8.3252772,
+            50.639118001
+          ],
+          [
+            8.3254337,
+            50.638677201
+          ],
+          [
+            8.3256073,
+            50.638253201
+          ],
+          [
+            8.3257995,
+            50.637854401
+          ],
+          [
+            8.3260151,
+            50.637440101
           ],
           [
             8.3265268,
@@ -290,12 +322,8 @@
             50.629812001
           ],
           [
-            8.33465,
-            50.628999001
-          ],
-          [
-            8.334854838,
-            50.628875013
+            8.334638883,
+            50.629006389
           ]
         ]
       }
@@ -305,27 +333,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.23049841301722,7.662169627671057,51.23049841301722,7.662169627671057",
-      "point": "51.23049841301722,7.662169627671057",
+      "extent": "51.22900147372727,7.664447022773815,51.22900147372727,7.664447022773815",
+      "point": "51.22900147372727,7.664447022773815",
       "startLcPosition": "87",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Hagen",
       "title": "A45 | Lüdenscheid - Lüdenscheid",
-      "startTimestamp": "2025-11-28T14:35:46+01:00",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "3",
+      "averageSpeed": "4",
       "coordinate": {
-        "lat": 51.23049841301722,
-        "long": 7.662169627671057
+        "lat": 51.22900147372727,
+        "long": 7.664447022773815
       },
       "description": [
-        "Beginn: 28.11.25 um 14:35 Uhr",
+        "Beginn: 28.11.25 um 14:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:35",
-        "A45: Gießen -> Hagen, 0.3 km vor AS Lüdenscheid, aus Richtung Sauerland",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
+        "A45: Gießen -> Hagen, 0.5 km vor AS Lüdenscheid, aus Richtung Sauerland",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 3 km/h"
+        "Durchschnittsgeschwindigkeit: 4 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -335,12 +363,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.662169628,
-            51.230498413
+            7.664447023,
+            51.229001474
           ],
           [
-            7.662169628,
-            51.230498413
+            7.664447023,
+            51.229001474
           ]
         ]
       }
@@ -356,7 +384,7 @@
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
       "title": "A45 | Rehweg - Rehweg",
-      "startTimestamp": "2025-11-28T14:39:28+01:00",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "3",
       "coordinate": {
@@ -364,9 +392,9 @@
         "long": 7.600193374558646
       },
       "description": [
-        "Beginn: 28.11.25 um 14:39 Uhr",
+        "Beginn: 28.11.25 um 14:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:39",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
         "A45: Hagen -> Gießen, 0.4 km vor Rehweg, aus Richtung Kaltenborn",
         "",
         "Im Stillstand",
@@ -466,156 +494,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-11-28_14-39-28-000.f_018.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.413130798034075,7.551629327700602,51.425128903007234,7.546299274522001",
-      "point": "51.413130798034075,7.551629327700602",
-      "startLcPosition": "101",
-      "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Schwerte-Ergste - Westhofener Kreuz",
-      "startTimestamp": "2025-11-28T14:39:28+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "63",
-      "coordinate": {
-        "lat": 51.413130798034075,
-        "long": 7.551629327700602
-      },
-      "description": [
-        "Beginn: 28.11.25 um 14:39 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:39",
-        "A45: Hagen -> Dortmund, zwischen 0.4 km hinter AS Schwerte-Ergste und 1.3 km vor AK Westhofener Kreuz",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 63 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.551629328,
-            51.413130798
-          ],
-          [
-            7.5516971,
-            51.413455401
-          ],
-          [
-            7.5517917,
-            51.414074201
-          ],
-          [
-            7.5518584,
-            51.414784401
-          ],
-          [
-            7.5518594,
-            51.415362701
-          ],
-          [
-            7.5518344,
-            51.415832801
-          ],
-          [
-            7.5517872,
-            51.416286601
-          ],
-          [
-            7.5516299,
-            51.417052901
-          ],
-          [
-            7.5516011,
-            51.417202501
-          ],
-          [
-            7.5512863,
-            51.418181401
-          ],
-          [
-            7.5510321,
-            51.418800801
-          ],
-          [
-            7.5507485,
-            51.419415801
-          ],
-          [
-            7.5502167,
-            51.420383301
-          ],
-          [
-            7.5494981,
-            51.421477701
-          ],
-          [
-            7.5487667,
-            51.422500001
-          ],
-          [
-            7.5479704,
-            51.423412001
-          ],
-          [
-            7.54726,
-            51.424194401
-          ],
-          [
-            7.5471205,
-            51.424336801
-          ],
-          [
-            7.5464577,
-            51.424984901
-          ],
-          [
-            7.5464488,
-            51.424993701
-          ],
-          [
-            7.546299275,
-            51.425128903
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-zus.2025-11-28_14-32-05-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.43405319022945,7.528284222176237,51.43977513676214,7.515122146285785",
-      "point": "51.43405319022945,7.528284222176237",
+      "extent": "51.433366070551116,7.530190656708571,51.43977513676214,7.515122146285785",
+      "point": "51.433366070551116,7.530190656708571",
       "startLcPosition": "102",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Westhofener Kreuz - Dortmund-Süd",
       "startTimestamp": "2025-11-28T14:32:05+01:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "38.5",
+      "averageSpeed": "48.099998474121094",
       "coordinate": {
-        "lat": 51.43405319022945,
-        "long": 7.528284222176237
+        "lat": 51.433366070551116,
+        "long": 7.530190656708571
       },
       "description": [
         "Beginn: 28.11.25 um 14:32 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 28.11.2025, 14:32",
-        "A45: Hagen -> Dortmund, zwischen 0.3 km hinter AK Westhofener Kreuz und 2.1 km vor AS Dortmund-Süd",
+        "A45: Hagen -> Dortmund, zwischen 0.2 km hinter AK Westhofener Kreuz und 2.1 km vor AS Dortmund-Süd",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 38 km/h"
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 48 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -625,8 +530,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.528284222,
-            51.43405319
+            7.530190657,
+            51.433366071
+          ],
+          [
+            7.5294674,
+            51.433621701
+          ],
+          [
+            7.528694,
+            51.433901601
           ],
           [
             7.5274159,
@@ -708,76 +621,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-11-28_14-35-46-000.f_021.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.44244053922173,7.471080280812052,51.44244053922173,7.471080280812052",
-      "point": "51.44244053922173,7.471080280812052",
-      "startLcPosition": "103",
-      "display_type": "WARNING",
-      "subtitle": " Dortmund -> Hagen",
-      "title": "A45 | Dortmund-Süd - Dortmund-Süd",
-      "startTimestamp": "2025-11-28T14:39:28+01:00",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "23",
-      "coordinate": {
-        "lat": 51.44244053922173,
-        "long": 7.471080280812052
-      },
-      "description": [
-        "Beginn: 28.11.25 um 14:39 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:39",
-        "A45: Dortmund -> Hagen, 1.0 km vor AS Dortmund-Süd, aus Richtung Flöz Mausegatt",
-        "",
-        "Langsamer Verkehr",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.471080281,
-            51.442440539
-          ],
-          [
-            7.471080281,
-            51.442440539
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2025-11-28_14-39-28-000.f_027.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.43405319022945,7.528284222176237,51.43405319022945,7.528284222176237",
-      "point": "51.43405319022945,7.528284222176237",
+      "extent": "51.433353038820755,7.530228435478786,51.433353038820755,7.530228435478786",
+      "point": "51.433353038820755,7.530228435478786",
       "startLcPosition": "103",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Dortmund-Süd - Dortmund-Süd",
-      "startTimestamp": "2025-11-28T14:39:28+01:00",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "25",
+      "averageSpeed": "24",
       "coordinate": {
-        "lat": 51.43405319022945,
-        "long": 7.528284222176237
+        "lat": 51.433353038820755,
+        "long": 7.530228435478786
       },
       "description": [
-        "Beginn: 28.11.25 um 14:39 Uhr",
+        "Beginn: 28.11.25 um 14:45 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.11.2025, 14:39",
-        "A45: Hagen -> Dortmund, 3.3 km vor AS Dortmund-Süd, aus Richtung Westhofener Kreuz",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
+        "A45: Hagen -> Dortmund, 3.4 km vor AS Dortmund-Süd, aus Richtung Westhofener Kreuz",
         "",
         "Langsamer Verkehr",
-        "Durchschnittsgeschwindigkeit: 25 km/h"
+        "Durchschnittsgeschwindigkeit: 24 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -787,12 +655,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.528284222,
-            51.43405319
+            7.530228435,
+            51.433353039
           ],
           [
-            7.528284222,
-            51.43405319
+            7.530228435,
+            51.433353039
           ]
         ]
       }
@@ -802,8 +670,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.49337940093344,7.386418399998706,51.50838617305739,7.3896896354490496",
-      "point": "51.49337940093344,7.386418399998706",
+      "extent": "51.49154332635499,7.387312612091237,51.50838617305739,7.3896896354490496",
+      "point": "51.49154332635499,7.387312612091237",
       "startLcPosition": "107",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
@@ -811,20 +679,20 @@
       "startTimestamp": "2025-11-28T14:05:01+01:00",
       "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "43.900001525878906",
+      "averageSpeed": "41.20000076293945",
       "coordinate": {
-        "lat": 51.49337940093344,
-        "long": 7.386418399998706
+        "lat": 51.49154332635499,
+        "long": 7.387312612091237
       },
       "description": [
         "Beginn: 28.11.25 um 14:05 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 28.11.2025, 14:05",
-        "A45: Hagen -> Dortmund, zwischen 1.6 km hinter AS Dortmund-Eichlinghofen und 1.2 km vor AS Dortmund-Hafen",
+        "A45: Hagen -> Dortmund, zwischen 1.4 km hinter AS Dortmund-Eichlinghofen und 1.2 km vor AS Dortmund-Hafen",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 43 km/h"
+        "Durchschnittsgeschwindigkeit: 41 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -833,6 +701,30 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            7.387312612,
+            51.491543326
+          ],
+          [
+            7.3872978,
+            51.491567701
+          ],
+          [
+            7.3870124,
+            51.492102701
+          ],
+          [
+            7.3868804,
+            51.492351801
+          ],
+          [
+            7.3866895,
+            51.492751201
+          ],
+          [
+            7.3865226,
+            51.493132501
+          ],
           [
             7.3864184,
             51.493379401
@@ -997,8 +889,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.52938090481055,7.376684748164922,51.5820531234725,7.366739390037713",
-      "point": "51.52938090481055,7.376684748164922",
+      "extent": "51.5191488130974,7.385060310961922,51.5820531234725,7.366739390037713",
+      "point": "51.5191488130974,7.385060310961922",
       "startLcPosition": "109",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
@@ -1006,20 +898,20 @@
       "startTimestamp": "2025-11-28T11:46:57+01:00",
       "delayTimeValue": "8",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "33.400001525878906",
+      "averageSpeed": "35.70000076293945",
       "coordinate": {
-        "lat": 51.52938090481055,
-        "long": 7.376684748164922
+        "lat": 51.5191488130974,
+        "long": 7.385060310961922
       },
       "description": [
         "Beginn: 28.11.25 um 11:46 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.11.2025, 11:46",
-        "A45: Hagen -> Dortmund, zwischen 1.4 km hinter AS Dortmund-Hafen und 0.4 km vor AK Dortmund-Nordwest",
+        "A45: Hagen -> Dortmund, zwischen 0.1 km hinter AS Dortmund-Hafen und 0.4 km vor AK Dortmund-Nordwest",
         "",
         "Stockender Verkehr",
         "Reisezeitverlust: 8 Minuten",
-        "Durchschnittsgeschwindigkeit: 33 km/h"
+        "Durchschnittsgeschwindigkeit: 35 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1029,8 +921,124 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.376684748,
-            51.529380905
+            7.385060311,
+            51.519148813
+          ],
+          [
+            7.3849928,
+            51.519192401
+          ],
+          [
+            7.3846628,
+            51.519401601
+          ],
+          [
+            7.3840759,
+            51.519763201
+          ],
+          [
+            7.3837407,
+            51.519957801
+          ],
+          [
+            7.3828771,
+            51.520472201
+          ],
+          [
+            7.3822456,
+            51.520865701
+          ],
+          [
+            7.3816934,
+            51.521239601
+          ],
+          [
+            7.3812463,
+            51.521585401
+          ],
+          [
+            7.38043,
+            51.522262801
+          ],
+          [
+            7.3797092,
+            51.522985201
+          ],
+          [
+            7.379386,
+            51.523327701
+          ],
+          [
+            7.3791944,
+            51.523560201
+          ],
+          [
+            7.3790119,
+            51.523795901
+          ],
+          [
+            7.3788498,
+            51.524023301
+          ],
+          [
+            7.378568,
+            51.524447501
+          ],
+          [
+            7.3783832,
+            51.524754701
+          ],
+          [
+            7.3782702,
+            51.524970101
+          ],
+          [
+            7.3781749,
+            51.525148401
+          ],
+          [
+            7.3780465,
+            51.525420401
+          ],
+          [
+            7.377919,
+            51.525720901
+          ],
+          [
+            7.3778022,
+            51.526014001
+          ],
+          [
+            7.3776796,
+            51.526356901
+          ],
+          [
+            7.3775122,
+            51.526871801
+          ],
+          [
+            7.3773822,
+            51.527297601
+          ],
+          [
+            7.377258,
+            51.527722501
+          ],
+          [
+            7.3770518,
+            51.528382101
+          ],
+          [
+            7.3769374,
+            51.528725901
+          ],
+          [
+            7.3768558,
+            51.528954201
+          ],
+          [
+            7.3767246,
+            51.529286801
           ],
           [
             7.3766258,
@@ -1460,33 +1468,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-11-28_14-36-50-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-11-28_14-45-18-000.f_017.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.51879673611574,7.3853146066637025,51.511065190722526,7.390062471626347",
-      "point": "51.51879673611574,7.3853146066637025",
+      "extent": "51.51915527824532,7.38505029743801,51.51915527824532,7.38505029743801",
+      "point": "51.51915527824532,7.38505029743801",
       "startLcPosition": "110",
       "display_type": "WARNING",
-      "subtitle": " Dortmund -> Hagen",
-      "title": "A45 | Kirchlinde - Dortmund-West",
-      "startTimestamp": "2025-11-28T14:36:50+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "42",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Kirchlinde - Kirchlinde",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "28",
       "coordinate": {
-        "lat": 51.51879673611574,
-        "long": 7.3853146066637025
+        "lat": 51.51915527824532,
+        "long": 7.38505029743801
       },
       "description": [
-        "Beginn: 28.11.25 um 14:36 Uhr",
+        "Beginn: 28.11.25 um 14:45 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 28.11.2025, 14:36",
-        "A45: Dortmund -> Hagen, zwischen 2.3 km hinter Kirchlinde und 1.5 km vor AK Dortmund-West",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
+        "A45: Hagen -> Dortmund, 2.3 km vor Kirchlinde, aus Richtung Dortmund-Hafen",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 42 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1496,104 +1502,57 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.385314607,
-            51.518796736
+            7.385050297,
+            51.519155278
           ],
           [
-            7.385815,
-            51.518439301
+            7.385050297,
+            51.519155278
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-28_14-45-18-000.f_033.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.5618308020768,7.358168339962967,51.5618308020768,7.358168339962967",
+      "point": "51.5618308020768,7.358168339962967",
+      "startLcPosition": "112",
+      "display_type": "WARNING",
+      "subtitle": " Dortmund -> Hagen",
+      "title": "A45 | Castrop-Rauxel-Ost - Castrop-Rauxel-Ost",
+      "startTimestamp": "2025-11-28T14:45:18+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "27",
+      "coordinate": {
+        "lat": 51.5618308020768,
+        "long": 7.358168339962967
+      },
+      "description": [
+        "Beginn: 28.11.25 um 14:45 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 28.11.2025, 14:45",
+        "A45: Dortmund -> Hagen, in Höhe AK Castrop-Rauxel-Ost, aus Richtung Dortmund-Nordwest",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.35816834,
+            51.561830802
           ],
           [
-            7.3861447,
-            51.518186701
-          ],
-          [
-            7.3865032,
-            51.517891801
-          ],
-          [
-            7.3869819,
-            51.517462601
-          ],
-          [
-            7.3872785,
-            51.517172001
-          ],
-          [
-            7.3873222,
-            51.517128801
-          ],
-          [
-            7.3877161,
-            51.516713501
-          ],
-          [
-            7.387839,
-            51.516573701
-          ],
-          [
-            7.3879771,
-            51.516413301
-          ],
-          [
-            7.3883008,
-            51.516006801
-          ],
-          [
-            7.3884895,
-            51.515753301
-          ],
-          [
-            7.3886948,
-            51.515412201
-          ],
-          [
-            7.3889158,
-            51.515057001
-          ],
-          [
-            7.3891932,
-            51.514545101
-          ],
-          [
-            7.3893056,
-            51.514333201
-          ],
-          [
-            7.3895287,
-            51.513842401
-          ],
-          [
-            7.3897115,
-            51.513309801
-          ],
-          [
-            7.3898284,
-            51.512909401
-          ],
-          [
-            7.3898771,
-            51.512701301
-          ],
-          [
-            7.3899564,
-            51.512317801
-          ],
-          [
-            7.3900065,
-            51.511947501
-          ],
-          [
-            7.3900502,
-            51.511541201
-          ],
-          [
-            7.3900667,
-            51.511133301
-          ],
-          [
-            7.390062472,
-            51.511065191
+            7.35816834,
+            51.561830802
           ]
         ]
       }
@@ -1603,29 +1562,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.56070673014834,7.357801399966096,51.55105867142114,7.3578105503144675",
-      "point": "51.56070673014834,7.357801399966096",
-      "startLcPosition": "112",
+      "extent": "51.5618308020768,7.358168339962967,51.54794915243687,7.35902586303539",
+      "point": "51.5618308020768,7.358168339962967",
+      "startLcPosition": "113",
       "display_type": "WARNING",
       "subtitle": " Dortmund -> Hagen",
-      "title": "A45 | Castrop-Rauxel-Ost - Westerfilde",
+      "title": "A45 | Dortmund-Nordwest - Westerfilde",
       "startTimestamp": "2025-11-28T14:38:39+01:00",
-      "delayTimeValue": "0",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "49.70000076293945",
+      "averageSpeed": "45.099998474121094",
       "coordinate": {
-        "lat": 51.56070673014834,
-        "long": 7.357801399966096
+        "lat": 51.5618308020768,
+        "long": 7.358168339962967
       },
       "description": [
         "Beginn: 28.11.25 um 14:38 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.11.2025, 14:38",
-        "A45: Dortmund -> Hagen, zwischen 0.1 km hinter AK Castrop-Rauxel-Ost und 1.8 km vor Westerfilde",
+        "A45: Dortmund -> Hagen, zwischen 2.7 km hinter AK Dortmund-Nordwest und 1.4 km vor Westerfilde",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 49 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 45 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1635,8 +1594,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.3578014,
-            51.56070673
+            7.35816834,
+            51.561830802
+          ],
+          [
+            7.3579268,
+            51.561112801
+          ],
+          [
+            7.35782,
+            51.560775901
           ],
           [
             7.3577019,
@@ -1711,8 +1678,40 @@
             51.551218401
           ],
           [
-            7.35781055,
-            51.551058671
+            7.3579577,
+            51.550578501
+          ],
+          [
+            7.3580822,
+            51.550194201
+          ],
+          [
+            7.358183,
+            51.549933201
+          ],
+          [
+            7.3583234,
+            51.549547201
+          ],
+          [
+            7.3584368,
+            51.549263701
+          ],
+          [
+            7.3585002,
+            51.549099001
+          ],
+          [
+            7.3588035,
+            51.548416601
+          ],
+          [
+            7.3589987,
+            51.548002801
+          ],
+          [
+            7.359025863,
+            51.547949152
           ]
         ]
       }
