@@ -1,28 +1,28 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-11-29_17-45-34-000.f_005.de0",
+      "identifier": "undefined--vi-hind.2025-11-29_18-12-42-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.99122600073125,9.10137014796565,49.995504314465336,9.125990503504552",
-      "point": "49.99122600073125,9.10137014796565",
-      "startLcPosition": "148",
+      "extent": "48.994841700945166,12.128425900030098,48.994714971371245,12.127573024084338",
+      "point": "48.994841700945166,12.128425900030098",
+      "startLcPosition": "43",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Würzburg",
-      "title": "A3 | Strietwald-Süd - Aschaffenburg-Ost",
-      "startTimestamp": "2025-11-29T17:45:34+01:00",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Regensburg-Burgweinting - Regensburg-Universität",
+      "startTimestamp": "2025-11-29T18:12:42+01:00",
       "coordinate": {
-        "lat": 49.99122600073125,
-        "long": 9.10137014796565
+        "lat": 48.994841700945166,
+        "long": 12.128425900030098
       },
       "description": [
-        "Beginn: 29.11.25 um 17:45 Uhr",
+        "Beginn: 29.11.25 um 18:12 Uhr",
         "",
-        "Hindernis, seit 29.11.2025, 17:45",
-        "A3: Frankfurt -> Würzburg, zwischen 0.1 km hinter Strietwald-Süd und 3.3 km vor AS Aschaffenburg-Ost",
+        "Hindernis, seit 29.11.2025, 18:12",
+        "A3: Passau -> Nürnberg, zwischen 0.4 km hinter AS Regensburg-Burgweinting und 1.8 km vor AS Regensburg-Universität",
         "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Gefahr durch Personen auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -32,20 +32,90 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.101370148,
-            49.991226001
+            12.1284259,
+            48.994841701
           ],
           [
-            9.1015237,
-            49.991239901
+            12.127573024,
+            48.994714971
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-11-29_18-12-42-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.994466627960065,12.12671637955189,48.994756300945156,12.128643800030098",
+      "point": "48.994466627960065,12.12671637955189",
+      "startLcPosition": "44",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Passau",
+      "title": "A3 | Regensburg-Universität - Regensburg-Burgweinting",
+      "startTimestamp": "2025-11-29T18:12:42+01:00",
+      "coordinate": {
+        "lat": 48.994466627960065,
+        "long": 12.12671637955189
+      },
+      "description": [
+        "Beginn: 29.11.25 um 18:12 Uhr",
+        "",
+        "Hindernis, seit 29.11.2025, 18:12",
+        "A3: Nürnberg -> Passau, zwischen 1.7 km hinter AS Regensburg-Universität und 0.4 km vor AS Regensburg-Burgweinting",
+        "",
+        "Gefahr durch Personen auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.12671638,
+            48.994466628
           ],
           [
-            9.1035678,
-            49.991496401
-          ],
+            12.1286438,
+            48.994756301
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-unf.2025-11-29_17-45-34-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.99154935625241,9.103936796957475,49.99557223314089,9.130330531077663",
+      "point": "49.99154935625241,9.103936796957475",
+      "startLcPosition": "148",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Strietwald-Süd - Aschaffenburg-Ost",
+      "startTimestamp": "2025-11-29T17:45:34+01:00",
+      "coordinate": {
+        "lat": 49.99154935625241,
+        "long": 9.103936796957475
+      },
+      "description": [
+        "Beginn: 29.11.25 um 17:45 Uhr",
+        "",
+        "Unfall, seit 29.11.2025, 17:45",
+        "A3: Frankfurt -> Würzburg, zwischen 0.3 km hinter Strietwald-Süd und 3.0 km vor AS Aschaffenburg-Ost"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            9.1038008,
-            49.991529301
+            9.103936797,
+            49.991549356
           ],
           [
             9.1047495,
@@ -104,34 +174,46 @@
             49.995466501
           ],
           [
-            9.125990504,
-            49.995504314
+            9.1273154,
+            49.995561401
+          ],
+          [
+            9.1301079,
+            49.995582801
+          ],
+          [
+            9.130330531,
+            49.995572233
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-11-29_17-09-16-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-11-29_17-58-12-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.303015100939774,8.234514499999765,50.30146803061646,8.235304827361347",
-      "point": "50.303015100939774,8.234514499999765",
-      "startLcPosition": "176",
+      "extent": "49.987572254139515,9.043317640337126,49.987572254139515,9.043317640337126",
+      "point": "49.987572254139515,9.043317640337126",
+      "startLcPosition": "150",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Limburg-Süd - Bad Camberg",
-      "startTimestamp": "2025-11-29T17:09:16+01:00",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Stockstadt - Stockstadt",
+      "startTimestamp": "2025-11-29T18:25:35+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
-        "lat": 50.303015100939774,
-        "long": 8.234514499999765
+        "lat": 49.987572254139515,
+        "long": 9.043317640337126
       },
       "description": [
-        "Beginn: 29.11.25 um 17:09 Uhr",
+        "Beginn: 29.11.25 um 18:25 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 29.11.2025, 17:09",
-        "A3: Köln -> Frankfurt, zwischen 14.2 km hinter AS Limburg-Süd und 0.1 km vor Bad Camberg",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 29.11.2025, 18:25",
+        "A3: Frankfurt -> Würzburg, 0.6 km vor AS Stockstadt, aus Richtung Seligenstädter Dreieck",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -141,12 +223,128 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.2345145,
-            50.303015101
+            9.04331764,
+            49.987572254
           ],
           [
-            8.235304827,
-            50.301468031
+            9.04331764,
+            49.987572254
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-11-29_17-29-25-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.92943960986374,7.054701415536794,50.94759279577241,7.038690198194581",
+      "point": "50.92943960986374,7.054701415536794",
+      "startLcPosition": "209",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Köln-Heumar - Köln-Ost",
+      "startTimestamp": "2025-11-29T17:29:25+01:00",
+      "coordinate": {
+        "lat": 50.92943960986374,
+        "long": 7.054701415536794
+      },
+      "description": [
+        "Beginn: 29.11.25 um 17:29 Uhr",
+        "",
+        "Hindernis, seit 29.11.2025, 17:29",
+        "A3: Frankfurt -> Köln, zwischen 0.7 km hinter AD Köln-Heumar und 0.6 km vor AK Köln-Ost"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.054701416,
+            50.92943961
+          ],
+          [
+            7.0542843,
+            50.929841701
+          ],
+          [
+            7.0537008,
+            50.930382201
+          ],
+          [
+            7.0523016,
+            50.931688301
+          ],
+          [
+            7.0514143,
+            50.932501401
+          ],
+          [
+            7.0513379,
+            50.932568401
+          ],
+          [
+            7.0472805,
+            50.936499801
+          ],
+          [
+            7.0457853,
+            50.937902301
+          ],
+          [
+            7.0447595,
+            50.938962801
+          ],
+          [
+            7.0437855,
+            50.940042901
+          ],
+          [
+            7.0430164,
+            50.940940501
+          ],
+          [
+            7.0422808,
+            50.941847001
+          ],
+          [
+            7.0420039,
+            50.942208701
+          ],
+          [
+            7.0415652,
+            50.942781701
+          ],
+          [
+            7.0408009,
+            50.943780001
+          ],
+          [
+            7.0403172,
+            50.944458401
+          ],
+          [
+            7.039913,
+            50.945046901
+          ],
+          [
+            7.0392933,
+            50.946262501
+          ],
+          [
+            7.0390794,
+            50.946658001
+          ],
+          [
+            7.0389157,
+            50.947051101
+          ],
+          [
+            7.038690198,
+            50.947592796
           ]
         ]
       }
@@ -156,28 +354,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.19784565046394,6.937445218994718,51.11571243345,6.985590527388784",
-      "point": "51.19784565046394,6.937445218994718",
+      "extent": "51.20385464457595,6.93405560825226,51.115638285225224,6.985641976408686",
+      "point": "51.20385464457595,6.93405560825226",
       "startLcPosition": "222",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Stindertal / Stinderhof - Langenfeld",
       "startTimestamp": "2025-11-29T14:53:43+01:00",
-      "delayTimeValue": "9",
+      "delayTimeValue": "10",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "39.900001525878906",
+      "averageSpeed": "39.400001525878906",
       "coordinate": {
-        "lat": 51.19784565046394,
-        "long": 6.937445218994718
+        "lat": 51.20385464457595,
+        "long": 6.93405560825226
       },
       "description": [
         "Beginn: 29.11.25 um 14:53 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 29.11.2025, 14:53",
-        "A3: Oberhausen -> Köln, zwischen 4.8 km hinter Stindertal / Stinderhof und 0.2 km vor AD Langenfeld",
+        "A3: Oberhausen -> Köln, zwischen 4.1 km hinter Stindertal / Stinderhof und 0.2 km vor AD Langenfeld",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 9 Minuten",
+        "Reisezeitverlust: 10 Minuten",
         "Durchschnittsgeschwindigkeit: 39 km/h"
       ],
       "routeRecommendation": [],
@@ -188,8 +386,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.937445219,
-            51.19784565
+            6.934055608,
+            51.203854645
+          ],
+          [
+            6.9342994,
+            51.203472801
+          ],
+          [
+            6.9345503,
+            51.203039401
+          ],
+          [
+            6.9346717,
+            51.202829701
+          ],
+          [
+            6.9360486,
+            51.200351901
+          ],
+          [
+            6.9361845,
+            51.200107001
+          ],
+          [
+            6.9363742,
+            51.199762701
           ],
           [
             6.9391059,
@@ -444,295 +666,8 @@
             51.116083001
           ],
           [
-            6.985590527,
-            51.115712433
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-11-29_17-46-17-000.f_004.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.256304748718705,6.913964210435028,51.256304748718705,6.913964210435028",
-      "point": "51.256304748718705,6.913964210435028",
-      "startLcPosition": "222",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Stindertal / Stinderhof - Stindertal / Stinderhof",
-      "startTimestamp": "2025-11-29T18:06:07+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "27",
-      "coordinate": {
-        "lat": 51.256304748718705,
-        "long": 6.913964210435028
-      },
-      "description": [
-        "Beginn: 29.11.25 um 18:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.11.2025, 18:06",
-        "A3: Oberhausen -> Köln, 2.2 km vor Stindertal / Stinderhof, aus Richtung Mettmann",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 27 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.91396421,
-            51.256304749
-          ],
-          [
-            6.91396421,
-            51.256304749
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-11-29_14-53-43-000.f_017.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.256313640991074,6.91396631463071,51.21828982614201,6.922450381155935",
-      "point": "51.256313640991074,6.91396631463071",
-      "startLcPosition": "223",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Mettmann - Hilden",
-      "startTimestamp": "2025-11-29T14:53:43+01:00",
-      "delayTimeValue": "7",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "26.899999618530273",
-      "coordinate": {
-        "lat": 51.256313640991074,
-        "long": 6.91396631463071
-      },
-      "description": [
-        "Beginn: 29.11.25 um 14:53 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.11.2025, 14:53",
-        "A3: Oberhausen -> Köln, zwischen 0.4 km hinter AS Mettmann und 2.9 km vor AK Hilden",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 7 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.913966315,
-            51.256313641
-          ],
-          [
-            6.9136612,
-            51.255024201
-          ],
-          [
-            6.9131573,
-            51.252864401
-          ],
-          [
-            6.9120951,
-            51.248311201
-          ],
-          [
-            6.9106199,
-            51.242152801
-          ],
-          [
-            6.9104496,
-            51.241442001
-          ],
-          [
-            6.9102218,
-            51.240490901
-          ],
-          [
-            6.9100974,
-            51.239864001
-          ],
-          [
-            6.9100218,
-            51.239227101
-          ],
-          [
-            6.9099947,
-            51.238958101
-          ],
-          [
-            6.9099416,
-            51.238010101
-          ],
-          [
-            6.9100011,
-            51.236844201
-          ],
-          [
-            6.9101576,
-            51.235796701
-          ],
-          [
-            6.9102549,
-            51.235187901
-          ],
-          [
-            6.9103963,
-            51.234694001
-          ],
-          [
-            6.9105739,
-            51.234001401
-          ],
-          [
-            6.910848,
-            51.233318501
-          ],
-          [
-            6.911028,
-            51.232959701
-          ],
-          [
-            6.9113499,
-            51.232294601
-          ],
-          [
-            6.9118888,
-            51.231386701
-          ],
-          [
-            6.9124842,
-            51.230428701
-          ],
-          [
-            6.9133562,
-            51.229278101
-          ],
-          [
-            6.9141293,
-            51.228324901
-          ],
-          [
-            6.9180676,
-            51.223586701
-          ],
-          [
-            6.922450381,
-            51.218289826
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-11-29_18-05-04-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.43901371992712,6.806449302318574,51.446092363510125,6.798940297912194",
-      "point": "51.43901371992712,6.806449302318574",
-      "startLcPosition": "229",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
-      "startTimestamp": "2025-11-29T18:05:04+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55",
-      "coordinate": {
-        "lat": 51.43901371992712,
-        "long": 6.806449302318574
-      },
-      "description": [
-        "Beginn: 29.11.25 um 18:05 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.11.2025, 18:05",
-        "A3: Köln -> Oberhausen, zwischen 3.6 km hinter AS Duisburg-Wedau und 3.8 km vor AS Oberhausen-Lirich",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 55 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.806449302,
-            51.43901372
-          ],
-          [
-            6.8060866,
-            51.439386701
-          ],
-          [
-            6.8057034,
-            51.439721201
-          ],
-          [
-            6.8052123,
-            51.440106601
-          ],
-          [
-            6.8047503,
-            51.440439801
-          ],
-          [
-            6.8042729,
-            51.440772701
-          ],
-          [
-            6.8032396,
-            51.441427101
-          ],
-          [
-            6.8024259,
-            51.441949201
-          ],
-          [
-            6.8010907,
-            51.442905401
-          ],
-          [
-            6.8005072,
-            51.443455601
-          ],
-          [
-            6.8001702,
-            51.443830301
-          ],
-          [
-            6.7999821,
-            51.444040501
-          ],
-          [
-            6.799686,
-            51.444432601
-          ],
-          [
-            6.7994176,
-            51.444873701
-          ],
-          [
-            6.7991609,
-            51.445441601
-          ],
-          [
-            6.798940298,
-            51.446092364
+            6.985641976,
+            51.115638285
           ]
         ]
       }
@@ -742,29 +677,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.52236079666283,6.814534337180559,51.537502300933184,6.8358212999959145",
-      "point": "51.52236079666283,6.814534337180559",
+      "extent": "51.527301512338916,6.817543042370972,51.537502300933184,6.8358212999959145",
+      "point": "51.527301512338916,6.817543042370972",
       "startLcPosition": "233",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
       "title": "A3 | Oberhausen-Holten - Dinslaken-Süd",
       "startTimestamp": "2025-11-29T15:49:53+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "35.79999923706055",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "43.400001525878906",
       "coordinate": {
-        "lat": 51.52236079666283,
-        "long": 6.814534337180559
+        "lat": 51.527301512338916,
+        "long": 6.817543042370972
       },
       "description": [
         "Beginn: 29.11.25 um 15:49 Uhr",
         "",
         "Angespannte Verkehrslage, seit 29.11.2025, 15:49",
-        "A3: Oberhausen -> Arnheim, zwischen 1.1 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd",
+        "A3: Oberhausen -> Arnheim, zwischen 1.7 km hinter AS Oberhausen-Holten und 3.5 km vor AS Dinslaken-Süd",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 35 km/h"
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 43 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -774,44 +709,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.814534337,
-            51.522360797
-          ],
-          [
-            6.8145512,
-            51.522434601
-          ],
-          [
-            6.8146345,
-            51.522721501
-          ],
-          [
-            6.8147656,
-            51.523123401
-          ],
-          [
-            6.8149696,
-            51.523644101
-          ],
-          [
-            6.8151965,
-            51.524132601
-          ],
-          [
-            6.8154525,
-            51.524589201
-          ],
-          [
-            6.8159646,
-            51.525449301
-          ],
-          [
-            6.8164466,
-            51.526080301
-          ],
-          [
-            6.8173036,
-            51.527073701
+            6.817543042,
+            51.527301512
           ],
           [
             6.8179931,
@@ -920,51 +819,6 @@
           [
             6.8358213,
             51.537502301
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-11-29_18-06-07-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.522342998236994,6.814530270600224,51.522342998236994,6.814530270600224",
-      "point": "51.522342998236994,6.814530270600224",
-      "startLcPosition": "234",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Arnheim",
-      "title": "A3 | Oberhausen - Oberhausen",
-      "startTimestamp": "2025-11-29T18:06:07+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "29",
-      "coordinate": {
-        "lat": 51.522342998236994,
-        "long": 6.814530270600224
-      },
-      "description": [
-        "Beginn: 29.11.25 um 18:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 29.11.2025, 18:06",
-        "A3: Oberhausen -> Arnheim, 2.2 km vor AK Oberhausen, aus Richtung Oberhausen-Holten",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.814530271,
-            51.522342998
-          ],
-          [
-            6.814530271,
-            51.522342998
           ]
         ]
       }
