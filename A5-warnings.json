@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-11-29_09-04-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-11-29_09-04-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-11-28_12-46-09-000.f_040.de0",
+      "identifier": "undefined--vi-hind.2025-11-28_12-46-09-000.f_041.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -235,27 +235,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-11-29_09-10-00-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2025-11-29_09-37-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.20016666256289,8.592544124763444,49.19935460094431,8.591990599999912",
-      "point": "49.20016666256289,8.592544124763444",
-      "startLcPosition": "66",
+      "extent": "47.598383741357395,7.602900908108169,47.59640356018629,7.603538880267607",
+      "point": "47.598383741357395,7.602900908108169",
+      "startLcPosition": "1000",
       "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Kronau - Bruchsal",
-      "startTimestamp": "2025-11-29T09:10:00+01:00",
+      "subtitle": " km 812.67 --> km 812.90",
+      "title": "Baustelle",
+      "startTimestamp": "2025-11-29T09:37:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "11.600000381469727",
       "coordinate": {
-        "lat": 49.20016666256289,
-        "long": 8.592544124763444
+        "lat": 47.598383741357395,
+        "long": 7.602900908108169
       },
       "description": [
-        "Beginn: 29.11.25 um 09:10 Uhr",
+        "Beginn: 29.11.25 um 09:37 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 29.11.2025, 09:10",
-        "A5: Heidelberg -> Karlsruhe, zwischen 3.1 km hinter AS Kronau und 4.9 km vor Bruchsal",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 29.11.2025, 09:37",
+        "A5: km 812.67 --> km 812.90",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -265,12 +271,77 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.592544125,
-            49.200166663
+            7.602900908,
+            47.598383741
           ],
           [
-            8.5919906,
-            49.199354601
+            7.6029111,
+            47.598352001
+          ],
+          [
+            7.6030663,
+            47.597871201
+          ],
+          [
+            7.6034406,
+            47.596700101
+          ],
+          [
+            7.6035053,
+            47.596509101
+          ],
+          [
+            7.6035294,
+            47.596432001
+          ],
+          [
+            7.60353888,
+            47.59640356
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-11-29_09-39-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.591649750487235,7.603659481366061,47.591649750487235,7.603659481366061",
+      "point": "47.591649750487235,7.603659481366061",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": "",
+      "title": "Baustelle",
+      "startTimestamp": "2025-11-29T09:42:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "4",
+      "coordinate": {
+        "lat": 47.591649750487235,
+        "long": 7.603659481366061
+      },
+      "description": [
+        "Beginn: 29.11.25 um 09:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 29.11.2025, 09:42",
+        "A5 N",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603659481,
+            47.59164975
+          ],
+          [
+            7.603659481,
+            47.59164975
           ]
         ]
       }
