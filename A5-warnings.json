@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.1269116314785,8.59119608154686,50.14280926331284,8.59535957426771",
-      "point": "50.1269116314785,8.59119608154686",
+      "extent": "50.12432199116433,8.592799526230902,50.14280926331284,8.59535957426771",
+      "point": "50.12432199116433,8.592799526230902",
       "startLcPosition": "109",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Westkreuz Frankfurt am Main - Taunusblick",
       "startTimestamp": "2025-12-05T06:28:00+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "26.200000762939453",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "20.200000762939453",
       "coordinate": {
-        "lat": 50.1269116314785,
-        "long": 8.59119608154686
+        "lat": 50.12432199116433,
+        "long": 8.592799526230902
       },
       "description": [
         "Beginn: 05.12.25 um 06:28 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 05.12.2025, 06:28",
-        "A5: Frankfurt -> Kassel, zwischen 1.5 km hinter AK Westkreuz Frankfurt am Main und 1.4 km vor Taunusblick",
+        "A5: Frankfurt -> Kassel, zwischen 1.2 km hinter AK Westkreuz Frankfurt am Main und 1.4 km vor Taunusblick",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h",
+        "Im Stillstand",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h",
         "",
         "Gefahr durch eine ungesicherte Unfallstelle"
       ],
@@ -39,8 +39,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.591196082,
-            50.126911631
+            8.592799526,
+            50.124321991
+          ],
+          [
+            8.5927335,
+            50.124424701
+          ],
+          [
+            8.5922746,
+            50.125123701
+          ],
+          [
+            8.5920197,
+            50.125520701
+          ],
+          [
+            8.5917669,
+            50.125910901
+          ],
+          [
+            8.5914778,
+            50.126392101
+          ],
+          [
+            8.5912808,
+            50.126754601
           ],
           [
             8.5911415,
@@ -182,100 +206,6 @@
       }
     },
     {
-      "identifier": "NLW_2025_001203--vi-unf.2025-12-05_05-33-00-291.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.14073094900177,8.594332046227285,50.14115444624898,8.5945665767333",
-      "point": "50.14073094900177,8.594332046227285",
-      "startLcPosition": "110",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Nordwestkreuz Frankfurt am Main - Taunusblick",
-      "startTimestamp": "2025-12-05T06:28:00+01:00",
-      "coordinate": {
-        "lat": 50.14073094900177,
-        "long": 8.594332046227285
-      },
-      "description": [
-        "Beginn: 05.12.25 um 06:28 Uhr",
-        "",
-        "Ereignismeldung:",
-        "- Unfall",
-        "2 Fahrstreifen gesperrt",
-        "",
-        "A5: Frankfurt -> Kassel, zwischen 0.7 km hinter AK Nordwestkreuz Frankfurt am Main und 1.6 km vor Taunusblick",
-        " ",
-        "Ereignisnummer: NLW_2025_001203"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "eva",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.594332046,
-            50.140730949
-          ],
-          [
-            8.594383572,
-            50.140824719
-          ],
-          [
-            8.594566577,
-            50.141154446
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-12-05_06-32-00-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.12687764265726,8.591214418669677,50.12687764265726,8.591214418669677",
-      "point": "50.12687764265726,8.591214418669677",
-      "startLcPosition": "110",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Nordwestkreuz Frankfurt am Main - Nordwestkreuz Frankfurt am Main",
-      "startTimestamp": "2025-12-05T06:37:30+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "26",
-      "coordinate": {
-        "lat": 50.12687764265726,
-        "long": 8.591214418669677
-      },
-      "description": [
-        "Beginn: 05.12.25 um 06:37 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 05.12.2025, 06:37",
-        "A5: Frankfurt -> Kassel, 0.9 km vor AK Nordwestkreuz Frankfurt am Main, aus Richtung Westkreuz Frankfurt am Main",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 26 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.591214419,
-            50.126877643
-          ],
-          [
-            8.591214419,
-            50.126877643
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-hind.2025-12-05_06-24-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -361,6 +291,100 @@
           [
             8.598287957,
             50.14810999
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-05_06-32-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.12435523872155,8.59277815331497,50.12435523872155,8.59277815331497",
+      "point": "50.12435523872155,8.59277815331497",
+      "startLcPosition": "110",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Nordwestkreuz Frankfurt am Main - Nordwestkreuz Frankfurt am Main",
+      "startTimestamp": "2025-12-05T06:46:00+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "20",
+      "coordinate": {
+        "lat": 50.12435523872155,
+        "long": 8.59277815331497
+      },
+      "description": [
+        "Beginn: 05.12.25 um 06:46 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 05.12.2025, 06:46",
+        "A5: Frankfurt -> Kassel, 1.2 km vor AK Nordwestkreuz Frankfurt am Main, aus Richtung Westkreuz Frankfurt am Main",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.592778153,
+            50.124355239
+          ],
+          [
+            8.592778153,
+            50.124355239
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "NLW_2025_001203--vi-unf.2025-12-05_05-33-00-291.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.14073094900177,8.594332046227285,50.14115444624898,8.5945665767333",
+      "point": "50.14073094900177,8.594332046227285",
+      "startLcPosition": "110",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Nordwestkreuz Frankfurt am Main - Taunusblick",
+      "startTimestamp": "2025-12-05T06:28:00+01:00",
+      "coordinate": {
+        "lat": 50.14073094900177,
+        "long": 8.594332046227285
+      },
+      "description": [
+        "Beginn: 05.12.25 um 06:28 Uhr",
+        "",
+        "Ereignismeldung:",
+        "- Unfall",
+        "2 Fahrstreifen gesperrt",
+        "",
+        "A5: Frankfurt -> Kassel, zwischen 0.7 km hinter AK Nordwestkreuz Frankfurt am Main und 1.6 km vor Taunusblick",
+        " ",
+        "Ereignisnummer: NLW_2025_001203"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "eva",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.594332046,
+            50.140730949
+          ],
+          [
+            8.594383572,
+            50.140824719
+          ],
+          [
+            8.594566577,
+            50.141154446
           ]
         ]
       }
