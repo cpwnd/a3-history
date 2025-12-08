@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2025-12-08_20-34-30-000.f_003.de0",
+      "identifier": "undefined--vi-zus.2025-12-08_20-34-30-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -401,7 +401,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-12-08_20-56-00-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2025-12-08_20-56-00-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -806,74 +806,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-12-08_21-59-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.90098092343896,8.606311194520874,49.89941101395926,8.605997089761464",
-      "point": "49.90098092343896,8.606311194520874",
-      "startLcPosition": "97",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Darmstadt",
-      "title": "A5 | Brühlgraben - Weiterstadt",
-      "startTimestamp": "2025-12-08T21:59:30+01:00",
-      "coordinate": {
-        "lat": 49.90098092343896,
-        "long": 8.606311194520874
-      },
-      "description": [
-        "Beginn: 08.12.25 um 21:59 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 08.12.2025, 21:59",
-        "A5: Frankfurt -> Darmstadt, zwischen 0.7 km hinter Brühlgraben und 0.1 km vor AS Weiterstadt",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.606311195,
-            49.900980923
-          ],
-          [
-            8.60599709,
-            49.899411014
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-zus.2025-12-08_20-05-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.12276145657485,8.593811899257565,50.13614408783087,8.591703757034642",
-      "point": "50.12276145657485,8.593811899257565",
+      "extent": "50.121325733221944,8.59474457921051,50.13614408783087,8.591703757034642",
+      "point": "50.121325733221944,8.59474457921051",
       "startLcPosition": "109",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Westkreuz Frankfurt am Main - Taunusblick",
       "startTimestamp": "2025-12-08T20:05:30+01:00",
-      "delayTimeValue": "0",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55.400001525878906",
+      "averageSpeed": "42.70000076293945",
       "coordinate": {
-        "lat": 50.12276145657485,
-        "long": 8.593811899257565
+        "lat": 50.121325733221944,
+        "long": 8.59474457921051
       },
       "description": [
         "Beginn: 08.12.25 um 20:05 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.12.2025, 20:05",
-        "A5: Frankfurt -> Kassel, zwischen 1.0 km hinter AK Westkreuz Frankfurt am Main und 2.2 km vor Taunusblick",
+        "A5: Frankfurt -> Kassel, zwischen 0.9 km hinter AK Westkreuz Frankfurt am Main und 2.2 km vor Taunusblick",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 55 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 42 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -883,8 +842,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.593811899,
-            50.122761457
+            8.594744579,
+            50.121325733
+          ],
+          [
+            8.5945973,
+            50.121555601
+          ],
+          [
+            8.5942517,
+            50.122084101
           ],
           [
             8.5937098,
@@ -1026,7 +993,52 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-12-08_21-49-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-12-08_22-30-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.11874400010478,8.59644802750261,50.11874400010478,8.59644802750261",
+      "point": "50.11874400010478,8.59644802750261",
+      "startLcPosition": "110",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Nordwestkreuz Frankfurt am Main - Nordwestkreuz Frankfurt am Main",
+      "startTimestamp": "2025-12-08T22:30:30+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "28",
+      "coordinate": {
+        "lat": 50.11874400010478,
+        "long": 8.59644802750261
+      },
+      "description": [
+        "Beginn: 08.12.25 um 22:30 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.12.2025, 22:30",
+        "A5: Frankfurt -> Kassel, 1.9 km vor AK Nordwestkreuz Frankfurt am Main, aus Richtung Westkreuz Frankfurt am Main",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.596448028,
+            50.118744
+          ],
+          [
+            8.596448028,
+            50.118744
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-12-08_21-49-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
