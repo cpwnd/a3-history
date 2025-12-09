@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-12-09_19-32-31-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2025-12-09_19-32-31-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -46,27 +46,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-12-09_18-01-09-000.f_003.de0",
+      "identifier": "undefined--vi-zus.2025-12-09_19-59-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.748439256917614,9.849146236647591,49.74850521177357,9.848681551733142",
-      "point": "49.748439256917614,9.849146236647591",
-      "startLcPosition": "127",
+      "extent": "49.78583923255039,10.191612527365688,49.78149111188463,10.212786530274963",
+      "point": "49.78583923255039,10.191612527365688",
+      "startLcPosition": "121",
       "display_type": "WARNING",
-      "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Würzburg-Heidingsfeld - Würzburg/Kist",
-      "startTimestamp": "2025-12-09T18:01:09+01:00",
+      "subtitle": " Würzburg -> Nürnberg",
+      "title": "A3 | Hunnenhügel - Haidt",
+      "startTimestamp": "2025-12-09T19:59:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.79999923706055",
       "coordinate": {
-        "lat": 49.748439256917614,
-        "long": 9.849146236647591
+        "lat": 49.78583923255039,
+        "long": 10.191612527365688
       },
       "description": [
-        "Beginn: 09.12.25 um 18:01 Uhr",
+        "Beginn: 09.12.25 um 19:59 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 09.12.2025, 18:01",
-        "A3: Würzburg -> Frankfurt, zwischen 6.0 km hinter AS Würzburg-Heidingsfeld und 0.3 km vor AS Würzburg/Kist",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Zusammengesetzte Verkehrsinformation, seit 09.12.2025, 19:59",
+        "A3: Würzburg -> Nürnberg, zwischen 0.6 km hinter Hunnenhügel und 2.4 km vor Haidt",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 38 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -76,16 +82,191 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.849146237,
-            49.748439257
+            10.191612527,
+            49.785839233
           ],
           [
-            9.8488585,
-            49.748482301
+            10.1943562,
+            49.785070901
           ],
           [
-            9.848681552,
-            49.748505212
+            10.1970018,
+            49.784418401
+          ],
+          [
+            10.1997044,
+            49.783857701
+          ],
+          [
+            10.2009531,
+            49.783536601
+          ],
+          [
+            10.2019463,
+            49.783305701
+          ],
+          [
+            10.2027251,
+            49.783126301
+          ],
+          [
+            10.2044063,
+            49.782777401
+          ],
+          [
+            10.2055721,
+            49.782567101
+          ],
+          [
+            10.2064484,
+            49.782398001
+          ],
+          [
+            10.2084487,
+            49.782070101
+          ],
+          [
+            10.2089197,
+            49.782002601
+          ],
+          [
+            10.20961,
+            49.781897401
+          ],
+          [
+            10.2096795,
+            49.781887501
+          ],
+          [
+            10.2119978,
+            49.781591301
+          ],
+          [
+            10.21278653,
+            49.781491112
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-09_19-59-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.772557355778545,9.70972807075946,49.77599134296141,9.727440374740242",
+      "point": "49.772557355778545,9.70972807075946",
+      "startLcPosition": "132",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Wertheim/Lengfurt - Helmstadt",
+      "startTimestamp": "2025-12-09T19:59:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "70.80000305175781",
+      "coordinate": {
+        "lat": 49.772557355778545,
+        "long": 9.70972807075946
+      },
+      "description": [
+        "Beginn: 09.12.25 um 19:59 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 09.12.2025, 19:59",
+        "A3: Frankfurt -> Würzburg, zwischen 9.5 km hinter AS Wertheim/Lengfurt und 3.6 km vor AS Helmstadt",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 70 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.709728071,
+            49.772557356
+          ],
+          [
+            9.7098821,
+            49.772584801
+          ],
+          [
+            9.7113241,
+            49.772859001
+          ],
+          [
+            9.7120211,
+            49.773002201
+          ],
+          [
+            9.7124431,
+            49.773093801
+          ],
+          [
+            9.7134704,
+            49.773329501
+          ],
+          [
+            9.714315,
+            49.773538501
+          ],
+          [
+            9.7159481,
+            49.773983101
+          ],
+          [
+            9.7174806,
+            49.774442501
+          ],
+          [
+            9.7182843,
+            49.774681501
+          ],
+          [
+            9.7188297,
+            49.774823101
+          ],
+          [
+            9.7198444,
+            49.775096001
+          ],
+          [
+            9.7207861,
+            49.775312201
+          ],
+          [
+            9.7217013,
+            49.775491501
+          ],
+          [
+            9.7227055,
+            49.775660401
+          ],
+          [
+            9.7234518,
+            49.775756901
+          ],
+          [
+            9.7246995,
+            49.775889301
+          ],
+          [
+            9.7254349,
+            49.775941801
+          ],
+          [
+            9.7261913,
+            49.775972401
+          ],
+          [
+            9.7269265,
+            49.775991001
+          ],
+          [
+            9.727440375,
+            49.775991343
           ]
         ]
       }
