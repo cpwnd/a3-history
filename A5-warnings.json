@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-12-11_13-58-43-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-12-11_15-13-56-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.74877540094222,8.592760699999896,49.74717818797356,8.59244830411864",
-      "point": "49.74877540094222,8.592760699999896",
-      "startLcPosition": "90",
+      "extent": "48.83994444420757,8.226897047163693,48.83994444420757,8.226897047163693",
+      "point": "48.83994444420757,8.226897047163693",
+      "startLcPosition": "52",
       "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Heidelberg",
-      "title": "A5 | Erlensee - Alsbach",
-      "startTimestamp": "2025-12-11T13:58:43+01:00",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Rastatt-Süd - Rastatt-Süd",
+      "startTimestamp": "2025-12-11T15:17:14+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "24",
       "coordinate": {
-        "lat": 49.74877540094222,
-        "long": 8.592760699999896
+        "lat": 48.83994444420757,
+        "long": 8.226897047163693
       },
       "description": [
-        "Beginn: 11.12.25 um 13:58 Uhr",
+        "Beginn: 11.12.25 um 15:17 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 11.12.2025, 13:58",
-        "A5: Darmstadt -> Heidelberg, zwischen 2.3 km hinter Erlensee und 0.1 km vor Alsbach",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 11.12.2025, 15:17",
+        "A5: Karlsruhe -> Basel, 2.1 km vor AS Rastatt-Süd, aus Richtung Rastatt-Nord",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 24 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,12 +35,147 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.5927607,
-            49.748775401
+            8.226897047,
+            48.839944444
           ],
           [
-            8.592448304,
-            49.747178188
+            8.226897047,
+            48.839944444
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-11_15-13-56-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.83994444420757,8.226897047163693,48.82817159451069,8.214232768902496",
+      "point": "48.83994444420757,8.226897047163693",
+      "startLcPosition": "53",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Rastatt-Nord - Rastatt-Süd",
+      "startTimestamp": "2025-12-11T15:13:56+01:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "23.799999237060547",
+      "coordinate": {
+        "lat": 48.83994444420757,
+        "long": 8.226897047163693
+      },
+      "description": [
+        "Beginn: 11.12.25 um 15:13 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 11.12.2025, 15:13",
+        "A5: Karlsruhe -> Basel, zwischen 2.9 km hinter AS Rastatt-Nord und 0.5 km vor AS Rastatt-Süd",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.226897047,
+            48.839944444
+          ],
+          [
+            8.2266803,
+            48.839680601
+          ],
+          [
+            8.2260905,
+            48.838974901
+          ],
+          [
+            8.2259193,
+            48.838770001
+          ],
+          [
+            8.2252312,
+            48.837946501
+          ],
+          [
+            8.2243215,
+            48.836877001
+          ],
+          [
+            8.2241466,
+            48.836674801
+          ],
+          [
+            8.2233996,
+            48.835819701
+          ],
+          [
+            8.2225751,
+            48.834916501
+          ],
+          [
+            8.2221196,
+            48.834457101
+          ],
+          [
+            8.2217188,
+            48.834057601
+          ],
+          [
+            8.2212624,
+            48.833616901
+          ],
+          [
+            8.2208278,
+            48.833230301
+          ],
+          [
+            8.2203254,
+            48.832751801
+          ],
+          [
+            8.2198046,
+            48.832291601
+          ],
+          [
+            8.2192707,
+            48.831840101
+          ],
+          [
+            8.2187307,
+            48.831385501
+          ],
+          [
+            8.2183456,
+            48.831078301
+          ],
+          [
+            8.2179724,
+            48.830784701
+          ],
+          [
+            8.2172105,
+            48.830203901
+          ],
+          [
+            8.2165396,
+            48.829718501
+          ],
+          [
+            8.2161599,
+            48.829447401
+          ],
+          [
+            8.2149464,
+            48.828629001
+          ],
+          [
+            8.214232769,
+            48.828171595
           ]
         ]
       }
@@ -46,31 +185,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.08751485295712,8.618059623193139,50.145744892056236,8.596983505743964",
-      "point": "50.08751485295712,8.618059623193139",
-      "startLcPosition": "107",
+      "extent": "50.069383605703074,8.612481880276162,50.145558570132636,8.596879889338496",
+      "point": "50.069383605703074,8.612481880276162",
+      "startLcPosition": "106",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Kassel",
-      "title": "A5 | Frankfurt am Main-Niederrad - Taunusblick",
+      "title": "A5 | Frankfurt am Main-Flughafen-Nord - Taunusblick",
       "startTimestamp": "2025-12-11T13:59:17+01:00",
-      "delayTimeValue": "11",
+      "delayTimeValue": "17",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "28.100000381469727",
+      "averageSpeed": "25.200000762939453",
       "coordinate": {
-        "lat": 50.08751485295712,
-        "long": 8.618059623193139
+        "lat": 50.069383605703074,
+        "long": 8.612481880276162
       },
       "description": [
         "Beginn: 11.12.25 um 13:59 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 11.12.2025, 13:59",
-        "A5: Darmstadt -> Kassel, zwischen 0.2 km hinter AS Frankfurt am Main-Niederrad und 1.0 km vor Taunusblick",
+        "A5: Darmstadt -> Kassel, zwischen 1.4 km hinter AS Frankfurt am Main-Flughafen-Nord und 1.1 km vor Taunusblick",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 11 Minuten",
-        "Durchschnittsgeschwindigkeit: 28 km/h",
-        "",
-        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
+        "Reisezeitverlust: 17 Minuten",
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -80,8 +217,148 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.618059623,
-            50.087514853
+            8.61248188,
+            50.069383606
+          ],
+          [
+            8.6125878,
+            50.069597601
+          ],
+          [
+            8.6131183,
+            50.070657301
+          ],
+          [
+            8.6134253,
+            50.071245001
+          ],
+          [
+            8.6141435,
+            50.072704801
+          ],
+          [
+            8.6147415,
+            50.073906501
+          ],
+          [
+            8.6151253,
+            50.074676401
+          ],
+          [
+            8.6152833,
+            50.074986601
+          ],
+          [
+            8.6153782,
+            50.075173001
+          ],
+          [
+            8.6154715,
+            50.075382701
+          ],
+          [
+            8.6156834,
+            50.075784701
+          ],
+          [
+            8.6159753,
+            50.076310001
+          ],
+          [
+            8.6161207,
+            50.076601201
+          ],
+          [
+            8.6162992,
+            50.077017801
+          ],
+          [
+            8.616613,
+            50.077655001
+          ],
+          [
+            8.6169746,
+            50.078390101
+          ],
+          [
+            8.6174686,
+            50.079455201
+          ],
+          [
+            8.6176637,
+            50.079940301
+          ],
+          [
+            8.6179278,
+            50.080692001
+          ],
+          [
+            8.6180687,
+            50.081176701
+          ],
+          [
+            8.6181195,
+            50.081355101
+          ],
+          [
+            8.6181974,
+            50.081680401
+          ],
+          [
+            8.6182198,
+            50.081802401
+          ],
+          [
+            8.6182818,
+            50.082139201
+          ],
+          [
+            8.6183422,
+            50.082506601
+          ],
+          [
+            8.6184014,
+            50.082919701
+          ],
+          [
+            8.618434,
+            50.083223101
+          ],
+          [
+            8.618452,
+            50.083509701
+          ],
+          [
+            8.6184637,
+            50.083694701
+          ],
+          [
+            8.6184756,
+            50.084343501
+          ],
+          [
+            8.6184657,
+            50.084627101
+          ],
+          [
+            8.6184437,
+            50.085135101
+          ],
+          [
+            8.6184182,
+            50.085414401
+          ],
+          [
+            8.6183748,
+            50.085801601
+          ],
+          [
+            8.6183109,
+            50.086247301
+          ],
+          [
+            8.6181074,
+            50.087301201
           ],
           [
             8.6179955,
@@ -540,38 +817,38 @@
             50.145164601
           ],
           [
-            8.596983506,
-            50.145744892
+            8.596879889,
+            50.14555857
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-12-11_14-50-48-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2025-12-11_15-03-33-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.08748814645663,8.618065595317503,50.08748814645663,8.618065595317503",
-      "point": "50.08748814645663,8.618065595317503",
-      "startLcPosition": "108",
+      "extent": "50.0694350227105,8.612507329701913,50.0694350227105,8.612507329701913",
+      "point": "50.0694350227105,8.612507329701913",
+      "startLcPosition": "107",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Frankfurt am Main-Westhafen - Frankfurt am Main-Westhafen",
-      "startTimestamp": "2025-12-11T14:51:32+01:00",
+      "subtitle": " Darmstadt -> Frankfurt",
+      "title": "A5 | Frankfurt am Main-Niederrad - Frankfurt am Main-Niederrad",
+      "startTimestamp": "2025-12-11T15:17:14+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "20",
+      "averageSpeed": "21",
       "coordinate": {
-        "lat": 50.08748814645663,
-        "long": 8.618065595317503
+        "lat": 50.0694350227105,
+        "long": 8.612507329701913
       },
       "description": [
-        "Beginn: 11.12.25 um 14:51 Uhr",
+        "Beginn: 11.12.25 um 15:17 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 11.12.2025, 14:51",
-        "A5: Frankfurt -> Kassel, 0.6 km vor AS Frankfurt am Main-Westhafen, aus Richtung Frankfurt am Main-Niederrad",
+        "Angespannte Verkehrslage, seit 11.12.2025, 15:17",
+        "A5: Darmstadt -> Frankfurt, 1.8 km vor AS Frankfurt am Main-Niederrad, aus Richtung Frankfurt am Main-Flughafen-Nord",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
+        "Durchschnittsgeschwindigkeit: 21 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -581,38 +858,39 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.618065595,
-            50.087488146
+            8.61250733,
+            50.069435023
           ],
           [
-            8.618065595,
-            50.087488146
+            8.61250733,
+            50.069435023
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-12-11_14-31-55-000.f_001.de0",
+      "identifier": "undefined--vi-zus.2025-12-11_14-58-40-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.13785852286874,8.592638889606953,50.197823025277124,8.639915820477366",
-      "point": "50.13785852286874,8.592638889606953",
+      "extent": "50.140216228558245,8.593936058946422,50.15097658349274,8.599862419598352",
+      "point": "50.140216228558245,8.593936058946422",
       "startLcPosition": "110",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Nordwestkreuz Frankfurt am Main - Bad Homburger Kreuz",
-      "startTimestamp": "2025-12-11T14:31:55+01:00",
+      "title": "A5 | Nordwestkreuz Frankfurt am Main - Taunusblick",
+      "startTimestamp": "2025-12-11T14:58:40+01:00",
       "coordinate": {
-        "lat": 50.13785852286874,
-        "long": 8.592638889606953
+        "lat": 50.140216228558245,
+        "long": 8.593936058946422
       },
       "description": [
-        "Beginn: 11.12.25 um 14:31 Uhr",
+        "Beginn: 11.12.25 um 14:58 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 11.12.2025, 14:31",
-        "A5: Frankfurt -> Kassel, zwischen 0.4 km hinter AK Nordwestkreuz Frankfurt am Main und 0.5 km vor AK Bad Homburger Kreuz",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Zusammengesetzte Verkehrsinformation, seit 11.12.2025, 14:58",
+        "A5: Frankfurt -> Kassel, zwischen 0.7 km hinter AK Nordwestkreuz Frankfurt am Main und 0.4 km vor Taunusblick",
+        "",
+        "A5 Frankfurt Richtung Kassel zwischen Nordwestkreuz Frankfurt und Bad Homburger Kreuz Bergungsarbeiten, 1 defektes Fahrzeug auf dem Standstreifen"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -622,24 +900,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.59263889,
-            50.137858523
-          ],
-          [
-            8.5927831,
-            50.138122901
-          ],
-          [
-            8.5930424,
-            50.138524001
-          ],
-          [
-            8.5932281,
-            50.138930301
-          ],
-          [
-            8.5936351,
-            50.139674101
+            8.593936059,
+            50.140216229
           ],
           [
             8.5942134,
@@ -686,246 +948,14 @@
             50.150186901
           ],
           [
-            8.6000176,
-            50.151259901
-          ],
-          [
-            8.6008939,
-            50.152835201
-          ],
-          [
-            8.6013339,
-            50.153633201
-          ],
-          [
-            8.6017529,
-            50.154403301
-          ],
-          [
-            8.6023182,
-            50.155430301
-          ],
-          [
-            8.60285,
-            50.156392301
-          ],
-          [
-            8.6031085,
-            50.156863901
-          ],
-          [
-            8.6040237,
-            50.158534201
-          ],
-          [
-            8.6054649,
-            50.161141101
-          ],
-          [
-            8.606531,
-            50.163072801
-          ],
-          [
-            8.6069725,
-            50.163844401
-          ],
-          [
-            8.607015,
-            50.163926001
-          ],
-          [
-            8.6076438,
-            50.165092301
-          ],
-          [
-            8.6082326,
-            50.166161801
-          ],
-          [
-            8.6096165,
-            50.168661901
-          ],
-          [
-            8.6106028,
-            50.170458401
-          ],
-          [
-            8.6111627,
-            50.171453901
-          ],
-          [
-            8.6127354,
-            50.174293601
-          ],
-          [
-            8.6127929,
-            50.174403701
-          ],
-          [
-            8.6131526,
-            50.175055401
-          ],
-          [
-            8.6134449,
-            50.175590901
-          ],
-          [
-            8.6142214,
-            50.176998301
-          ],
-          [
-            8.6148254,
-            50.178091801
-          ],
-          [
-            8.6151581,
-            50.178710201
-          ],
-          [
-            8.6157641,
-            50.179810501
-          ],
-          [
-            8.6162698,
-            50.180719401
-          ],
-          [
-            8.6166142,
-            50.181339101
-          ],
-          [
-            8.6170466,
-            50.182091601
-          ],
-          [
-            8.6173211,
-            50.182525901
-          ],
-          [
-            8.6176492,
-            50.182997601
-          ],
-          [
-            8.6179646,
-            50.183420001
-          ],
-          [
-            8.6181766,
-            50.183699001
-          ],
-          [
-            8.6186321,
-            50.184240101
-          ],
-          [
-            8.6191222,
-            50.184777601
-          ],
-          [
-            8.6195228,
-            50.185192301
-          ],
-          [
-            8.6199419,
-            50.185592101
-          ],
-          [
-            8.6203679,
-            50.185988501
-          ],
-          [
-            8.6208407,
-            50.186393101
-          ],
-          [
-            8.6214716,
-            50.186903101
-          ],
-          [
-            8.6217837,
-            50.187143401
-          ],
-          [
-            8.6222861,
-            50.187507201
-          ],
-          [
-            8.6228004,
-            50.187871401
-          ],
-          [
-            8.6236699,
-            50.188433901
-          ],
-          [
-            8.6239239,
-            50.188581201
-          ],
-          [
-            8.6248032,
-            50.189091101
-          ],
-          [
-            8.6266571,
-            50.190164601
-          ],
-          [
-            8.6283555,
-            50.191144201
-          ],
-          [
-            8.6289608,
-            50.191496201
-          ],
-          [
-            8.6294469,
-            50.191778901
-          ],
-          [
-            8.6303701,
-            50.192312101
-          ],
-          [
-            8.6310381,
-            50.192706901
-          ],
-          [
-            8.6325553,
-            50.193578501
-          ],
-          [
-            8.6342102,
-            50.194538701
-          ],
-          [
-            8.6350178,
-            50.195006801
-          ],
-          [
-            8.6362099,
-            50.195691701
-          ],
-          [
-            8.637068,
-            50.196185701
-          ],
-          [
-            8.6381705,
-            50.196817901
-          ],
-          [
-            8.6394093,
-            50.197524901
-          ],
-          [
-            8.63991582,
-            50.197823025
+            8.59986242,
+            50.150976583
           ]
         ]
       }
     },
     {
-      "identifier": "NLW_2025_001297--vi-gen.2025-12-11_13-30-00-172.de0",
+      "identifier": "NLW_2025_001297--vi-gen.2025-12-11_14-02-00-294.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1025,9 +1055,9 @@
       "subtitle": " km 812.67 --> km 812.90",
       "title": "Baustelle",
       "startTimestamp": "2025-12-11T14:51:32+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "11.300000190734863",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "7.199999809265137",
       "coordinate": {
         "lat": 47.598383741357395,
         "long": 7.602900908108169
@@ -1038,9 +1068,9 @@
         "Angespannte Verkehrslage, seit 11.12.2025, 14:51",
         "A5: km 812.67 --> km 812.90",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 11 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
