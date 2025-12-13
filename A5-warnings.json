@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-12-13_14-47-55-000.f_007.de0",
+      "identifier": "undefined--vi-hind.2025-12-13_14-47-55-000.f_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -58,33 +58,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2025-12-13_14-41-01-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-12-13_15-39-32-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.074997514730754,8.512715351901495,49.00274654200146,8.450069165703832",
-      "point": "49.074997514730754,8.512715351901495",
-      "startLcPosition": "64",
+      "extent": "49.07734786110538,8.51570576987401,49.07734786110538,8.51570576987401",
+      "point": "49.07734786110538,8.51570576987401",
+      "startLcPosition": "63",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Bruchsal - Karlsruhe-Mitte",
-      "startTimestamp": "2025-12-13T14:41:01+01:00",
-      "delayTimeValue": "14",
+      "title": "A5 | Höfenschlag - Höfenschlag",
+      "startTimestamp": "2025-12-13T15:41:10+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "29.799999237060547",
+      "averageSpeed": "27",
       "coordinate": {
-        "lat": 49.074997514730754,
-        "long": 8.512715351901495
+        "lat": 49.07734786110538,
+        "long": 8.51570576987401
       },
       "description": [
-        "Beginn: 13.12.25 um 14:41 Uhr",
+        "Beginn: 13.12.25 um 15:41 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 13.12.2025, 14:41",
-        "A5: Heidelberg -> Karlsruhe, zwischen 9.1 km hinter AS Bruchsal und 1.7 km vor AS Karlsruhe-Mitte",
+        "Angespannte Verkehrslage, seit 13.12.2025, 15:41",
+        "A5: Heidelberg -> Karlsruhe, 0.8 km vor Höfenschlag, aus Richtung Bruchsal",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 14 Minuten",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
+        "Durchschnittsgeschwindigkeit: 27 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -94,8 +92,77 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.512715352,
-            49.074997515
+            8.51570577,
+            49.077347861
+          ],
+          [
+            8.51570577,
+            49.077347861
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-12-13_14-41-01-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.077299548046604,8.51564429856685,49.00065640614488,8.446807860982256",
+      "point": "49.077299548046604,8.51564429856685",
+      "startLcPosition": "64",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Bruchsal - Karlsruhe-Mitte",
+      "startTimestamp": "2025-12-13T14:41:01+01:00",
+      "delayTimeValue": "17",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "26.899999618530273",
+      "coordinate": {
+        "lat": 49.077299548046604,
+        "long": 8.51564429856685
+      },
+      "description": [
+        "Beginn: 13.12.25 um 14:41 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 13.12.2025, 14:41",
+        "A5: Heidelberg -> Karlsruhe, zwischen 8.7 km hinter AS Bruchsal und 1.4 km vor AS Karlsruhe-Mitte",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 17 Minuten",
+        "Durchschnittsgeschwindigkeit: 26 km/h",
+        "",
+        "Gefahr durch ein defektes Fahrzeugs auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.515644299,
+            49.077299548
+          ],
+          [
+            8.5153203,
+            49.077044901
+          ],
+          [
+            8.515101,
+            49.076876301
+          ],
+          [
+            8.5142516,
+            49.076203301
+          ],
+          [
+            8.5133116,
+            49.075463501
+          ],
+          [
+            8.512838,
+            49.075099301
           ],
           [
             8.5124876,
@@ -510,8 +577,16 @@
             49.003047401
           ],
           [
-            8.450069166,
-            49.002746542
+            8.4482783,
+            49.001601901
+          ],
+          [
+            8.4475491,
+            49.001132001
+          ],
+          [
+            8.446807861,
+            49.000656406
           ]
         ]
       }
