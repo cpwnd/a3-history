@@ -1,27 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-12-14_21-35-00-000.f_005.de0",
+      "identifier": "undefined--vi-avl.2025-12-14_22-41-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.42295142972832,7.927778520393064,50.42414250093918,7.927619599999594",
-      "point": "50.42295142972832,7.927778520393064",
-      "startLcPosition": "180",
+      "extent": "48.45758743969853,13.375651548971637,48.4598517009486,13.37518560018693",
+      "point": "48.45758743969853,13.375651548971637",
+      "startLcPosition": "3",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Nentershausen - Heiligenroth",
-      "startTimestamp": "2025-12-14T21:35:00+01:00",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Rottal-West - Passau-Süd",
+      "startTimestamp": "2025-12-14T22:41:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "7.400000095367432",
       "coordinate": {
-        "lat": 50.42295142972832,
-        "long": 7.927778520393064
+        "lat": 48.45758743969853,
+        "long": 13.375651548971637
       },
       "description": [
-        "Beginn: 14.12.25 um 21:35 Uhr",
+        "Beginn: 14.12.25 um 22:41 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 14.12.2025, 21:35",
-        "A3: Frankfurt -> Köln, zwischen 0.1 km hinter Nentershausen und 5.8 km vor Heiligenroth",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 14.12.2025, 22:41",
+        "A3: Linz -> Passau, zwischen 0.2 km hinter Rottal-West und 9.0 km vor AS Passau-Süd",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,16 +37,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.92777852,
-            50.42295143
+            13.375651549,
+            48.45758744
           ],
           [
-            7.927743,
-            50.423195901
+            13.3756409,
+            48.457642201
           ],
           [
-            7.9276196,
-            50.424142501
+            13.3754919,
+            48.458500201
+          ],
+          [
+            13.3754062,
+            48.458919401
+          ],
+          [
+            13.3753257,
+            48.459264801
+          ],
+          [
+            13.3752829,
+            48.459448801
+          ],
+          [
+            13.3751856,
+            48.459851701
           ]
         ]
       }
@@ -551,51 +573,6 @@
           [
             7.2706714,
             50.690115901
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2025-12-14_21-35-00-000.f_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.851149903852054,6.292148327735066,51.85018374292454,6.294315403340507",
-      "point": "51.851149903852054,6.292148327735066",
-      "startLcPosition": "258",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Emmerich - Emmerich-Ost",
-      "startTimestamp": "2025-12-14T21:35:00+01:00",
-      "coordinate": {
-        "lat": 51.851149903852054,
-        "long": 6.292148327735066
-      },
-      "description": [
-        "Beginn: 14.12.25 um 21:35 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 14.12.2025, 21:35",
-        "A3: Arnheim -> Oberhausen, zwischen 3.7 km hinter AS Emmerich und AS Emmerich-Ost",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.292148328,
-            51.851149904
-          ],
-          [
-            6.2933877,
-            51.850598701
-          ],
-          [
-            6.294315403,
-            51.850183743
           ]
         ]
       }
