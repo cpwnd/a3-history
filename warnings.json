@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.38392184514002,8.083493578343777,50.394549226743926,8.077039294725612",
-      "point": "50.38392184514002,8.083493578343777",
+      "extent": "50.38249378417784,8.084489155444425,50.394549226743926,8.077039294725612",
+      "point": "50.38249378417784,8.084489155444425",
       "startLcPosition": "176",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Limburg-Süd - Limburg",
       "startTimestamp": "2025-12-14T09:48:00+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "38.79999923706055",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "31.200000762939453",
       "coordinate": {
-        "lat": 50.38392184514002,
-        "long": 8.083493578343777
+        "lat": 50.38249378417784,
+        "long": 8.084489155444425
       },
       "description": [
         "Beginn: 14.12.25 um 09:48 Uhr",
         "",
         "Angespannte Verkehrslage, seit 14.12.2025, 09:48",
-        "A3: Frankfurt -> Köln, zwischen 0.2 km hinter AS Limburg-Süd und Limburg",
+        "A3: Frankfurt -> Köln, zwischen 0.1 km hinter AS Limburg-Süd und Limburg",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 38 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 31 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.083493578,
-            50.383921845
+            8.084489155,
+            50.382493784
+          ],
+          [
+            8.0843444,
+            50.382667001
+          ],
+          [
+            8.083844,
+            50.383350601
           ],
           [
             8.0817372,
@@ -71,6 +79,51 @@
           [
             8.077039295,
             50.394549227
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-14_10-35-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.38257310078209,8.084422871535248,50.38257310078209,8.084422871535248",
+      "point": "50.38257310078209,8.084422871535248",
+      "startLcPosition": "177",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Limburg - Limburg",
+      "startTimestamp": "2025-12-14T10:42:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "21",
+      "coordinate": {
+        "lat": 50.38257310078209,
+        "long": 8.084422871535248
+      },
+      "description": [
+        "Beginn: 14.12.25 um 10:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 14.12.2025, 10:42",
+        "A3: Frankfurt -> Köln, 1.5 km vor Limburg, aus Richtung Limburg-Süd",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 21 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.084422872,
+            50.382573101
+          ],
+          [
+            8.084422872,
+            50.382573101
           ]
         ]
       }
