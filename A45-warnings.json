@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2025-12-22_08-14-00-000.f_006.de0",
+      "identifier": "undefined--vi-avl.2025-12-22_10-16-12-000.f_007.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.88365080093688,7.932734799999577,50.88257013879887,7.933912135707334",
-      "point": "50.88365080093688,7.932734799999577",
-      "startLcPosition": "62",
+      "extent": "51.23028880817461,7.662535570641566,51.23028880817461,7.662535570641566",
+      "point": "51.23028880817461,7.662535570641566",
+      "startLcPosition": "87",
       "display_type": "WARNING",
-      "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Am Lindenberg - Siegerland",
-      "startTimestamp": "2025-12-22T08:14:00+01:00",
+      "subtitle": " Gießen -> Hagen",
+      "title": "A45 | Lüdenscheid - Lüdenscheid",
+      "startTimestamp": "2025-12-22T10:22:00+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "7",
       "coordinate": {
-        "lat": 50.88365080093688,
-        "long": 7.932734799999577
+        "lat": 51.23028880817461,
+        "long": 7.662535570641566
       },
       "description": [
-        "Beginn: 22.12.25 um 08:14 Uhr",
+        "Beginn: 22.12.25 um 10:22 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 22.12.2025, 08:14",
-        "A45: Hagen -> Gießen, zwischen 1.0 km hinter Am Lindenberg und 0.1 km vor Siegerland",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 22.12.2025, 10:22",
+        "A45: Gießen -> Hagen, 0.3 km vor AS Lüdenscheid, aus Richtung Sauerland",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,16 +35,79 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.9327348,
-            50.883650801
+            7.662535571,
+            51.230288808
           ],
           [
-            7.9335225,
-            50.882901601
+            7.662535571,
+            51.230288808
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-22_10-15-45-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.23028880817461,7.662535570641566,51.23213007716484,7.658525778600621",
+      "point": "51.23028880817461,7.662535570641566",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 53.63 --> km 53.28",
+      "title": "Baustelle",
+      "startTimestamp": "2025-12-22T10:15:45+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "13.199999809265137",
+      "coordinate": {
+        "lat": 51.23028880817461,
+        "long": 7.662535570641566
+      },
+      "description": [
+        "Beginn: 22.12.25 um 10:15 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.12.2025, 10:15",
+        "A45: km 53.63 --> km 53.28",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 13 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.662535571,
+            51.230288808
           ],
           [
-            7.933912136,
-            50.882570139
+            7.6622997,
+            51.230427901
+          ],
+          [
+            7.661486,
+            51.230869001
+          ],
+          [
+            7.6607379,
+            51.231240101
+          ],
+          [
+            7.6602525,
+            51.231473801
+          ],
+          [
+            7.6592696,
+            51.231868001
+          ],
+          [
+            7.658525779,
+            51.232130077
           ]
         ]
       }
