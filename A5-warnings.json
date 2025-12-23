@@ -1,31 +1,28 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-12-23_09-38-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2025-12-23_10-03-08-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.591325575069675,7.603572635896529,47.591325575069675,7.603572635896529",
-      "point": "47.591325575069675,7.603572635896529",
-      "startLcPosition": "1000",
+      "extent": "48.505516645599364,7.9072587490892285,48.506878454762635,7.908039120342143",
+      "point": "48.505516645599364,7.9072587490892285",
+      "startLcPosition": "41",
       "display_type": "WARNING",
-      "subtitle": "",
-      "title": "Baustelle",
-      "startTimestamp": "2025-12-23T09:48:08+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "7",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Gottswald - Appenweier",
+      "startTimestamp": "2025-12-23T10:03:08+01:00",
       "coordinate": {
-        "lat": 47.591325575069675,
-        "long": 7.603572635896529
+        "lat": 48.505516645599364,
+        "long": 7.9072587490892285
       },
       "description": [
-        "Beginn: 23.12.25 um 09:48 Uhr",
+        "Beginn: 23.12.25 um 10:03 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 23.12.2025, 09:48",
-        "A5 N",
+        "Hindernis, seit 23.12.2025, 10:03",
+        "A5: Basel -> Karlsruhe, zwischen 0.7 km hinter Gottswald und 3.7 km vor AS Appenweier",
         "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 7 km/h"
+        "Gefahr durch Gegenstände auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -35,12 +32,65 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.603572636,
-            47.591325575
+            7.907258749,
+            48.505516646
           ],
           [
-            7.603572636,
-            47.591325575
+            7.9075982,
+            48.506115401
+          ],
+          [
+            7.9079713,
+            48.506773101
+          ],
+          [
+            7.90803912,
+            48.506878455
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-12-23_10-11-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.67383402287455,8.05386937390287,48.67442583806062,8.054511153043636",
+      "point": "48.67383402287455,8.05386937390287",
+      "startLcPosition": "45",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Feldmatt - Brachfeld",
+      "startTimestamp": "2025-12-23T10:11:30+01:00",
+      "coordinate": {
+        "lat": 48.67383402287455,
+        "long": 8.05386937390287
+      },
+      "description": [
+        "Beginn: 23.12.25 um 10:11 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 23.12.2025, 10:11",
+        "A5: Basel -> Karlsruhe, zwischen 2.1 km hinter Feldmatt und 0.1 km vor Brachfeld",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.053869374,
+            48.673834023
+          ],
+          [
+            8.0542378,
+            48.674170201
+          ],
+          [
+            8.054511153,
+            48.674425838
           ]
         ]
       }
