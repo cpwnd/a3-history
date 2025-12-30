@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2025-12-30_11-42-34-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-12-30_12-11-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -11,21 +11,21 @@
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Weil am Rhein - Weil am Rhein",
-      "startTimestamp": "2025-12-30T11:42:34+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "7",
+      "startTimestamp": "2025-12-30T12:11:30+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
         "lat": 47.59975877310853,
         "long": 7.602465711101567
       },
       "description": [
-        "Beginn: 30.12.25 um 11:42 Uhr",
+        "Beginn: 30.12.25 um 12:11 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:42",
+        "Angespannte Verkehrslage, seit 30.12.2025, 12:11",
         "A5: Karlsruhe -> Basel, 0.2 km vor Weil am Rhein, aus Richtung Weil am Rhein/Hüningen",
         "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 7 km/h"
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -46,26 +46,375 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2025-12-30_11-39-00-000.f.de0",
+      "identifier": "undefined--vi-avl.2025-12-30_11-39-00-000.f_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.09529742213027,7.7943559045906605,48.10713337855404,7.790530659436196",
-      "point": "48.09529742213027,7.7943559045906605",
-      "startLcPosition": "29",
+      "extent": "47.599714849741844,7.602480057377049,47.59688633382728,7.6033810785458975",
+      "point": "47.599714849741844,7.602480057377049",
+      "startLcPosition": "2",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Freiburg-Nord - Teningen",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein/Hüningen - Weil am Rhein/Basel",
       "startTimestamp": "2025-12-30T11:39:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "14.600000381469727",
       "coordinate": {
-        "lat": 48.09529742213027,
-        "long": 7.7943559045906605
+        "lat": 47.599714849741844,
+        "long": 7.602480057377049
       },
       "description": [
         "Beginn: 30.12.25 um 11:39 Uhr",
         "",
-        "Hindernis, seit 30.12.2025, 11:39",
-        "A5: Basel -> Karlsruhe, zwischen 4.0 km hinter AS Freiburg-Nord und 0.9 km vor AS Teningen",
+        "Angespannte Verkehrslage, seit 30.12.2025, 11:39",
+        "A5: Karlsruhe -> Basel, zwischen 0.2 km hinter AS Weil am Rhein/Hüningen und Weil am Rhein/Basel",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.602480057,
+            47.59971485
+          ],
+          [
+            7.6026559,
+            47.599157901
+          ],
+          [
+            7.6027982,
+            47.598703601
+          ],
+          [
+            7.6029111,
+            47.598352001
+          ],
+          [
+            7.6030663,
+            47.597871201
+          ],
+          [
+            7.603381079,
+            47.596886334
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2025-12-30_11-31-41-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.03436551121537,7.800700404862515,48.07423389647515,7.808326851915535",
+      "point": "48.03436551121537,7.800700404862515",
+      "startLcPosition": "27",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Freiburg-Mitte - Teningen",
+      "startTimestamp": "2025-12-30T11:31:41+01:00",
+      "delayTimeValue": "13",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "17.799999237060547",
+      "coordinate": {
+        "lat": 48.03436551121537,
+        "long": 7.800700404862515
+      },
+      "description": [
+        "Beginn: 30.12.25 um 11:31 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 30.12.2025, 11:31",
+        "A5: Basel -> Karlsruhe, zwischen 1.7 km hinter AS Freiburg-Mitte und 4.8 km vor AS Teningen",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 13 Minuten",
+        "Durchschnittsgeschwindigkeit: 17 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.800700405,
+            48.034365511
+          ],
+          [
+            7.8009989,
+            48.034636601
+          ],
+          [
+            7.8013337,
+            48.034929801
+          ],
+          [
+            7.8016989,
+            48.035279001
+          ],
+          [
+            7.8019219,
+            48.035486801
+          ],
+          [
+            7.803094,
+            48.036640601
+          ],
+          [
+            7.8039656,
+            48.037552001
+          ],
+          [
+            7.8048935,
+            48.038619101
+          ],
+          [
+            7.8057317,
+            48.039617501
+          ],
+          [
+            7.8062405,
+            48.040265901
+          ],
+          [
+            7.8067254,
+            48.040917201
+          ],
+          [
+            7.8077055,
+            48.042325301
+          ],
+          [
+            7.8087559,
+            48.044013201
+          ],
+          [
+            7.8093421,
+            48.045088501
+          ],
+          [
+            7.8097623,
+            48.045899801
+          ],
+          [
+            7.8099656,
+            48.046329301
+          ],
+          [
+            7.8104015,
+            48.047267801
+          ],
+          [
+            7.8108838,
+            48.048442001
+          ],
+          [
+            7.8112727,
+            48.049467601
+          ],
+          [
+            7.8116074,
+            48.050469801
+          ],
+          [
+            7.811852,
+            48.051307501
+          ],
+          [
+            7.8120706,
+            48.052144501
+          ],
+          [
+            7.8122541,
+            48.052972101
+          ],
+          [
+            7.8124753,
+            48.054060301
+          ],
+          [
+            7.8126286,
+            48.055076101
+          ],
+          [
+            7.8127118,
+            48.055838601
+          ],
+          [
+            7.8127843,
+            48.056618601
+          ],
+          [
+            7.8128461,
+            48.057601301
+          ],
+          [
+            7.8128679,
+            48.058157201
+          ],
+          [
+            7.8128679,
+            48.058934101
+          ],
+          [
+            7.8128458,
+            48.059691001
+          ],
+          [
+            7.8128113,
+            48.060625501
+          ],
+          [
+            7.8127513,
+            48.061309001
+          ],
+          [
+            7.8127384,
+            48.061456001
+          ],
+          [
+            7.8126548,
+            48.062121001
+          ],
+          [
+            7.8125882,
+            48.062671301
+          ],
+          [
+            7.81246,
+            48.063450401
+          ],
+          [
+            7.8123314,
+            48.064146501
+          ],
+          [
+            7.8121944,
+            48.064759201
+          ],
+          [
+            7.8120539,
+            48.065405901
+          ],
+          [
+            7.8117216,
+            48.066640801
+          ],
+          [
+            7.8113797,
+            48.067769901
+          ],
+          [
+            7.8109492,
+            48.068881201
+          ],
+          [
+            7.8104878,
+            48.070016901
+          ],
+          [
+            7.8100257,
+            48.071112801
+          ],
+          [
+            7.8096657,
+            48.071846001
+          ],
+          [
+            7.809246,
+            48.072630801
+          ],
+          [
+            7.8087366,
+            48.073554901
+          ],
+          [
+            7.8084028,
+            48.074113801
+          ],
+          [
+            7.808326852,
+            48.074233896
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-30_11-52-00-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.03431772480062,7.800647254847638,48.03431772480062,7.800647254847638",
+      "point": "48.03431772480062,7.800647254847638",
+      "startLcPosition": "28",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Schauinsland - Schauinsland",
+      "startTimestamp": "2025-12-30T12:11:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "18",
+      "coordinate": {
+        "lat": 48.03431772480062,
+        "long": 7.800647254847638
+      },
+      "description": [
+        "Beginn: 30.12.25 um 12:11 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 30.12.2025, 12:11",
+        "A5: Basel -> Karlsruhe, 1.9 km vor Schauinsland, aus Richtung Freiburg-Mitte",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.800647255,
+            48.034317725
+          ],
+          [
+            7.800647255,
+            48.034317725
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2025-12-30_11-51-08-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.06805244928952,7.811270247121502,48.07997258393407,7.804065685750983",
+      "point": "48.06805244928952,7.811270247121502",
+      "startLcPosition": "29",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Freiburg-Nord - Teningen",
+      "startTimestamp": "2025-12-30T11:51:08+01:00",
+      "coordinate": {
+        "lat": 48.06805244928952,
+        "long": 7.811270247121502
+      },
+      "description": [
+        "Beginn: 30.12.25 um 11:51 Uhr",
+        "",
+        "Hindernis, seit 30.12.2025, 11:51",
+        "A5: Basel -> Karlsruhe, zwischen 0.7 km hinter AS Freiburg-Nord und 4.1 km vor AS Teningen",
         "",
         "Gefahr durch eine ungesicherte Unfallstelle"
       ],
@@ -77,97 +426,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.794355905,
-            48.095297422
+            7.811270247,
+            48.068052449
           ],
           [
-            7.7942448,
-            48.095530801
-          ],
-          [
-            7.79392,
-            48.096292501
-          ],
-          [
-            7.7936913,
-            48.096864401
-          ],
-          [
-            7.7933536,
-            48.097718101
-          ],
-          [
-            7.7929277,
-            48.098831101
-          ],
-          [
-            7.7925328,
-            48.099989401
-          ],
-          [
-            7.7920855,
-            48.101412801
-          ],
-          [
-            7.7916412,
-            48.103008201
-          ],
-          [
-            7.791222,
-            48.104542601
-          ],
-          [
-            7.7905474,
-            48.107074901
-          ],
-          [
-            7.790530659,
-            48.107133379
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2025-12-30_11-31-41-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.06946991654293,7.810710025652164,48.100905279712464,7.792244990315326",
-      "point": "48.06946991654293,7.810710025652164",
-      "startLcPosition": "29",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Freiburg-Nord - Teningen",
-      "startTimestamp": "2025-12-30T11:31:41+01:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "26.600000381469727",
-      "coordinate": {
-        "lat": 48.06946991654293,
-        "long": 7.810710025652164
-      },
-      "description": [
-        "Beginn: 30.12.25 um 11:31 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 30.12.2025, 11:31",
-        "A5: Basel -> Karlsruhe, zwischen 0.9 km hinter AS Freiburg-Nord und 1.6 km vor AS Teningen",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 26 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.810710026,
-            48.069469917
+            7.8109492,
+            48.068881201
           ],
           [
             7.8104878,
@@ -210,116 +474,40 @@
             48.077487001
           ],
           [
-            7.8031952,
-            48.081044301
-          ],
-          [
-            7.8017646,
-            48.082825301
-          ],
-          [
-            7.8017235,
-            48.082883001
-          ],
-          [
-            7.800631,
-            48.084400201
-          ],
-          [
-            7.799912,
-            48.085415901
-          ],
-          [
-            7.7988922,
-            48.086930501
-          ],
-          [
-            7.7984117,
-            48.087669701
-          ],
-          [
-            7.7979433,
-            48.088445701
-          ],
-          [
-            7.7971611,
-            48.089762401
-          ],
-          [
-            7.7966839,
-            48.090613501
-          ],
-          [
-            7.7964058,
-            48.091109501
-          ],
-          [
-            7.7959024,
-            48.092047101
-          ],
-          [
-            7.7946048,
-            48.094774601
-          ],
-          [
-            7.7942448,
-            48.095530801
-          ],
-          [
-            7.79392,
-            48.096292501
-          ],
-          [
-            7.7936913,
-            48.096864401
-          ],
-          [
-            7.7933536,
-            48.097718101
-          ],
-          [
-            7.7929277,
-            48.098831101
-          ],
-          [
-            7.7925328,
-            48.099989401
-          ],
-          [
-            7.79224499,
-            48.10090528
+            7.804065686,
+            48.079972584
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-12-30_11-31-41-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2025-12-30_12-03-11-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.11028451997505,7.789382786838658,48.097050935804226,7.793430781252033",
-      "point": "48.11028451997505,7.789382786838658",
+      "extent": "48.0867536009476,7.798794999999526,48.06992010740119,7.8103513732266485",
+      "point": "48.0867536009476,7.798794999999526",
       "startLcPosition": "30",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Teningen - Freiburg-Nord",
-      "startTimestamp": "2025-12-30T11:31:41+01:00",
-      "delayTimeValue": "0",
+      "startTimestamp": "2025-12-30T12:03:11+01:00",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "65.19999694824219",
+      "averageSpeed": "47.400001525878906",
       "coordinate": {
-        "lat": 48.11028451997505,
-        "long": 7.789382786838658
+        "lat": 48.0867536009476,
+        "long": 7.798794999999526
       },
       "description": [
-        "Beginn: 30.12.25 um 11:31 Uhr",
+        "Beginn: 30.12.25 um 12:03 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:31",
-        "A5: Karlsruhe -> Basel, zwischen 0.6 km hinter AS Teningen und 4.2 km vor AS Freiburg-Nord",
+        "Angespannte Verkehrslage, seit 30.12.2025, 12:03",
+        "A5: Karlsruhe -> Basel, zwischen 3.3 km hinter AS Teningen und 1.0 km vor AS Freiburg-Nord",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 65 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 47 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -329,125 +517,112 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.789382787,
-            48.11028452
+            7.798795,
+            48.086753601
           ],
           [
-            7.7895534,
-            48.109755901
+            7.7997324,
+            48.085359401
           ],
           [
-            7.7897407,
-            48.109190701
+            7.8004987,
+            48.084276201
           ],
           [
-            7.7903808,
-            48.107057901
+            7.8013628,
+            48.083091201
           ],
           [
-            7.7910557,
-            48.104526501
+            7.8015677,
+            48.082828301
           ],
           [
-            7.7914636,
-            48.103000601
+            7.8016059,
+            48.082779201
           ],
           [
-            7.7919317,
-            48.101387801
+            7.801813,
+            48.082513701
           ],
           [
-            7.7923784,
-            48.099956801
+            7.8030166,
+            48.080969501
           ],
           [
-            7.792771,
-            48.098815701
+            7.8058988,
+            48.077420501
           ],
           [
-            7.7931804,
-            48.097679101
+            7.806304,
+            48.076865701
           ],
           [
-            7.793430781,
-            48.097050936
+            7.8071618,
+            48.075685201
+          ],
+          [
+            7.8076731,
+            48.074934801
+          ],
+          [
+            7.8082238,
+            48.074069401
+          ],
+          [
+            7.8085705,
+            48.073501401
+          ],
+          [
+            7.8090774,
+            48.072590001
+          ],
+          [
+            7.8094858,
+            48.071823801
+          ],
+          [
+            7.8098335,
+            48.071109801
+          ],
+          [
+            7.8103369,
+            48.069956401
+          ],
+          [
+            7.810351373,
+            48.069920107
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-12-30_11-38-00-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2025-12-30_11-43-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.069426515727464,7.810727658068788,48.069426515727464,7.810727658068788",
-      "point": "48.069426515727464,7.810727658068788",
-      "startLcPosition": "30",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Teningen - Teningen",
-      "startTimestamp": "2025-12-30T11:42:34+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 48.069426515727464,
-        "long": 7.810727658068788
-      },
-      "description": [
-        "Beginn: 30.12.25 um 11:42 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:42",
-        "A5: Basel -> Karlsruhe, 5.4 km vor AS Teningen, aus Richtung Freiburg-Nord",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.810727658,
-            48.069426516
-          ],
-          [
-            7.810727658,
-            48.069426516
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-12-30_11-31-41-000.f_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.121259060055635,7.784896140024376,48.112610151466455,7.788590491996145",
-      "point": "48.121259060055635,7.784896140024376",
-      "startLcPosition": "31",
+      "extent": "48.42909846045469,7.8893593709271945,48.418007867857995,7.878413242976177",
+      "point": "48.42909846045469,7.8893593709271945",
+      "startLcPosition": "39",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Riegel - Freiburg-Nord",
-      "startTimestamp": "2025-12-30T11:31:41+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "60.79999923706055",
+      "title": "A5 | Offenburg - Unditz",
+      "startTimestamp": "2025-12-30T11:43:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "33.599998474121094",
       "coordinate": {
-        "lat": 48.121259060055635,
-        "long": 7.784896140024376
+        "lat": 48.42909846045469,
+        "long": 7.8893593709271945
       },
       "description": [
-        "Beginn: 30.12.25 um 11:31 Uhr",
+        "Beginn: 30.12.25 um 11:43 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:31",
-        "A5: Karlsruhe -> Basel, zwischen 4.1 km hinter AS Riegel und 6.0 km vor AS Freiburg-Nord",
+        "Angespannte Verkehrslage, seit 30.12.2025, 11:43",
+        "A5: Karlsruhe -> Basel, zwischen 4.9 km hinter AS Offenburg und 2.4 km vor Unditz",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 60 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 33 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -457,72 +632,207 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.78489614,
-            48.12125906
+            7.889359371,
+            48.42909846
           ],
           [
-            7.7849546,
-            48.121143101
+            7.8892304,
+            48.428944501
           ],
           [
-            7.7855901,
-            48.119862401
+            7.888276,
+            48.427824201
           ],
           [
-            7.7863543,
-            48.118180601
+            7.8873668,
+            48.426802801
           ],
           [
-            7.7866244,
-            48.117574501
+            7.8860684,
+            48.425377701
           ],
           [
-            7.7870319,
-            48.116617901
+            7.8852352,
+            48.424490101
           ],
           [
-            7.787536,
-            48.115377501
+            7.8838828,
+            48.423111401
           ],
           [
-            7.7878392,
-            48.114617301
+            7.8829469,
+            48.422180701
           ],
           [
-            7.7881211,
-            48.113857601
+            7.8824812,
+            48.421732901
           ],
           [
-            7.788590492,
-            48.112610151
+            7.8816863,
+            48.420965001
+          ],
+          [
+            7.880985,
+            48.420310501
+          ],
+          [
+            7.8806627,
+            48.420014801
+          ],
+          [
+            7.8802772,
+            48.419658501
+          ],
+          [
+            7.8795566,
+            48.419017501
+          ],
+          [
+            7.8789769,
+            48.418499601
+          ],
+          [
+            7.878413243,
+            48.418007868
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-12-30_11-33-30-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2025-12-30_11-43-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.255182954209516,8.601511276846457,49.26976605744104,8.612887821618282",
-      "point": "49.255182954209516,8.601511276846457",
+      "extent": "48.410804079611395,7.869142461087835,48.39986603481773,7.8505089182555645",
+      "point": "48.410804079611395,7.869142461087835",
+      "startLcPosition": "39",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Offenburg - Lahr",
+      "startTimestamp": "2025-12-30T11:43:00+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "63.099998474121094",
+      "coordinate": {
+        "lat": 48.410804079611395,
+        "long": 7.869142461087835
+      },
+      "description": [
+        "Beginn: 30.12.25 um 11:43 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 30.12.2025, 11:43",
+        "A5: Karlsruhe -> Basel, zwischen 7.5 km hinter AS Offenburg und 6.1 km vor AS Lahr",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 63 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.869142461,
+            48.41080408
+          ],
+          [
+            7.8684815,
+            48.410343401
+          ],
+          [
+            7.8678532,
+            48.409910601
+          ],
+          [
+            7.8671708,
+            48.409447401
+          ],
+          [
+            7.8664591,
+            48.408976701
+          ],
+          [
+            7.8656295,
+            48.408430201
+          ],
+          [
+            7.8638131,
+            48.407279601
+          ],
+          [
+            7.8624612,
+            48.406437801
+          ],
+          [
+            7.8608946,
+            48.405502501
+          ],
+          [
+            7.8591992,
+            48.404516701
+          ],
+          [
+            7.8575576,
+            48.403600301
+          ],
+          [
+            7.8561202,
+            48.402810901
+          ],
+          [
+            7.8543811,
+            48.401917201
+          ],
+          [
+            7.8539416,
+            48.401684501
+          ],
+          [
+            7.8537203,
+            48.401564601
+          ],
+          [
+            7.8527236,
+            48.401034401
+          ],
+          [
+            7.8525137,
+            48.400918901
+          ],
+          [
+            7.850508918,
+            48.399866035
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2025-12-30_12-09-25-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.251234157325975,8.600439599703705,49.266767859901094,8.610381948202441",
+      "point": "49.251234157325975,8.600439599703705",
       "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Kronau - Walldorf",
-      "startTimestamp": "2025-12-30T11:33:30+01:00",
+      "startTimestamp": "2025-12-30T12:09:25+01:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "60.400001525878906",
+      "averageSpeed": "60.29999923706055",
       "coordinate": {
-        "lat": 49.255182954209516,
-        "long": 8.601511276846457
+        "lat": 49.251234157325975,
+        "long": 8.600439599703705
       },
       "description": [
-        "Beginn: 30.12.25 um 11:33 Uhr",
+        "Beginn: 30.12.25 um 12:09 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:33",
-        "A5: Karlsruhe -> Heidelberg, zwischen 3.2 km hinter AS Kronau und 1.4 km vor AK Walldorf",
+        "Angespannte Verkehrslage, seit 30.12.2025, 12:09",
+        "A5: Karlsruhe -> Heidelberg, zwischen 2.7 km hinter AS Kronau und 1.8 km vor AK Walldorf",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
@@ -536,8 +846,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.601511277,
-            49.255182954
+            8.6004396,
+            49.251234157
+          ],
+          [
+            8.6004528,
+            49.251388801
+          ],
+          [
+            8.6005114,
+            49.251876301
+          ],
+          [
+            8.6007046,
+            49.252838701
+          ],
+          [
+            8.6007655,
+            49.253116201
+          ],
+          [
+            8.6009501,
+            49.253745101
+          ],
+          [
+            8.6011751,
+            49.254365501
           ],
           [
             8.601594,
@@ -624,324 +958,40 @@
             49.266462701
           ],
           [
-            8.6104936,
-            49.266904501
-          ],
-          [
-            8.6106456,
-            49.267082701
-          ],
-          [
-            8.6117756,
-            49.268424701
-          ],
-          [
-            8.612887822,
-            49.269766057
+            8.610381948,
+            49.26676786
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2025-12-30_11-38-00-000.f_016.de0",
+      "identifier": "undefined--vi-avl.2025-12-30_12-01-08-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.403117650829444,8.637166172065323,49.403117650829444,8.637166172065323",
-      "point": "49.403117650829444,8.637166172065323",
-      "startLcPosition": "72",
-      "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Heidelberg/Schwetzingen - Heidelberg/Schwetzingen",
-      "startTimestamp": "2025-12-30T11:42:34+01:00",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "21",
-      "coordinate": {
-        "lat": 49.403117650829444,
-        "long": 8.637166172065323
-      },
-      "description": [
-        "Beginn: 30.12.25 um 11:42 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:42",
-        "A5: Heidelberg -> Karlsruhe, 3.7 km vor AS Heidelberg/Schwetzingen, aus Richtung Heidelberg",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.637166172,
-            49.403117651
-          ],
-          [
-            8.637166172,
-            49.403117651
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-12-30_11-33-01-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.403117650829444,8.637166172065323,49.37808587741692,8.633911033387664",
-      "point": "49.403117650829444,8.637166172065323",
+      "extent": "49.37579099805488,8.632943190110138,49.35747089049012,8.631582099875871",
+      "point": "49.37579099805488,8.632943190110138",
       "startLcPosition": "73",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Karlsruhe",
-      "title": "A5 | Heidelberg - Heidelberg/Schwetzingen",
-      "startTimestamp": "2025-12-30T11:33:01+01:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "29.899999618530273",
-      "coordinate": {
-        "lat": 49.403117650829444,
-        "long": 8.637166172065323
-      },
-      "description": [
-        "Beginn: 30.12.25 um 11:33 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:33",
-        "A5: Darmstadt -> Karlsruhe, zwischen 1.7 km hinter AK Heidelberg und 0.9 km vor AS Heidelberg/Schwetzingen",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.637166172,
-            49.403117651
-          ],
-          [
-            8.6371966,
-            49.402914001
-          ],
-          [
-            8.6372965,
-            49.402082401
-          ],
-          [
-            8.6373515,
-            49.401701101
-          ],
-          [
-            8.6374145,
-            49.401219901
-          ],
-          [
-            8.6375158,
-            49.400445201
-          ],
-          [
-            8.6377234,
-            49.398853401
-          ],
-          [
-            8.6381347,
-            49.395730701
-          ],
-          [
-            8.6384017,
-            49.393666201
-          ],
-          [
-            8.6384796,
-            49.393060401
-          ],
-          [
-            8.6385545,
-            49.392486601
-          ],
-          [
-            8.6385933,
-            49.392179901
-          ],
-          [
-            8.6386236,
-            49.391955101
-          ],
-          [
-            8.6386824,
-            49.391517101
-          ],
-          [
-            8.6387349,
-            49.391082301
-          ],
-          [
-            8.6387639,
-            49.390766201
-          ],
-          [
-            8.6387794,
-            49.390493801
-          ],
-          [
-            8.63879,
-            49.390272601
-          ],
-          [
-            8.6387986,
-            49.389878101
-          ],
-          [
-            8.6387867,
-            49.389443201
-          ],
-          [
-            8.6387592,
-            49.388975401
-          ],
-          [
-            8.6386933,
-            49.388325601
-          ],
-          [
-            8.6386199,
-            49.387844501
-          ],
-          [
-            8.6385688,
-            49.387583901
-          ],
-          [
-            8.6385122,
-            49.387308301
-          ],
-          [
-            8.6384446,
-            49.387020101
-          ],
-          [
-            8.6383668,
-            49.386722301
-          ],
-          [
-            8.6383149,
-            49.386541001
-          ],
-          [
-            8.6382583,
-            49.386353001
-          ],
-          [
-            8.638119,
-            49.385924001
-          ],
-          [
-            8.6380025,
-            49.385610201
-          ],
-          [
-            8.6379132,
-            49.385368101
-          ],
-          [
-            8.6377978,
-            49.385090201
-          ],
-          [
-            8.6376109,
-            49.384669101
-          ],
-          [
-            8.6373993,
-            49.384233501
-          ],
-          [
-            8.6372232,
-            49.383901601
-          ],
-          [
-            8.6370271,
-            49.383549901
-          ],
-          [
-            8.6365993,
-            49.382802601
-          ],
-          [
-            8.6363191,
-            49.382313201
-          ],
-          [
-            8.635653,
-            49.381149801
-          ],
-          [
-            8.6352651,
-            49.380472301
-          ],
-          [
-            8.6351158,
-            49.380211501
-          ],
-          [
-            8.6347831,
-            49.379631101
-          ],
-          [
-            8.6342976,
-            49.378784201
-          ],
-          [
-            8.6340721,
-            49.378384701
-          ],
-          [
-            8.6340047,
-            49.378263201
-          ],
-          [
-            8.633911033,
-            49.378085877
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2025-12-30_11-39-00-000.f_010.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.599714849741844,7.602480057377049,47.59632940094862,7.603563599999228",
-      "point": "47.599714849741844,7.602480057377049",
-      "startLcPosition": "1000",
-      "display_type": "WARNING",
-      "subtitle": " km 812.52 --> km 812.91",
-      "title": "Baustelle",
-      "startTimestamp": "2025-12-30T11:39:00+01:00",
+      "title": "A5 | Heidelberg - Hardtwald",
+      "startTimestamp": "2025-12-30T12:01:08+01:00",
       "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "10.800000190734863",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "55.099998474121094",
       "coordinate": {
-        "lat": 47.599714849741844,
-        "long": 7.602480057377049
+        "lat": 49.37579099805488,
+        "long": 8.632943190110138
       },
       "description": [
-        "Beginn: 30.12.25 um 11:39 Uhr",
+        "Beginn: 30.12.25 um 12:01 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 30.12.2025, 11:39",
-        "A5: km 812.52 --> km 812.91",
+        "Angespannte Verkehrslage, seit 30.12.2025, 12:01",
+        "A5: Darmstadt -> Karlsruhe, zwischen 4.8 km hinter AK Heidelberg und 0.8 km vor Hardtwald",
         "",
-        "Stockender Verkehr",
+        "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
+        "Durchschnittsgeschwindigkeit: 55 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -951,40 +1001,80 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.602480057,
-            47.59971485
+            8.63294319,
+            49.375790998
           ],
           [
-            7.6026559,
-            47.599157901
+            8.6328458,
+            49.375490501
           ],
           [
-            7.6027982,
-            47.598703601
+            8.632732,
+            49.375063601
           ],
           [
-            7.6029111,
-            47.598352001
+            8.632632,
+            49.374653001
           ],
           [
-            7.6030663,
-            47.597871201
+            8.6324993,
+            49.373858001
           ],
           [
-            7.6034406,
-            47.596700101
+            8.6324374,
+            49.373349901
           ],
           [
-            7.6035053,
-            47.596509101
+            8.6324085,
+            49.373034901
           ],
           [
-            7.6035294,
-            47.596432001
+            8.6323622,
+            49.372228301
           ],
           [
-            7.6035636,
-            47.596329401
+            8.6322942,
+            49.370975101
+          ],
+          [
+            8.6322819,
+            49.370738301
+          ],
+          [
+            8.6322206,
+            49.369561101
+          ],
+          [
+            8.6321468,
+            49.368185801
+          ],
+          [
+            8.6320264,
+            49.365888701
+          ],
+          [
+            8.6319971,
+            49.365322701
+          ],
+          [
+            8.6319352,
+            49.364238501
+          ],
+          [
+            8.6319057,
+            49.363642001
+          ],
+          [
+            8.6318563,
+            49.362711901
+          ],
+          [
+            8.6317279,
+            49.360257401
+          ],
+          [
+            8.6315821,
+            49.35747089
           ]
         ]
       }
