@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-01_21-43-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-01-01_21-43-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -42,45 +42,50 @@
       }
     },
     {
-      "identifier": "NLW_2025_001453--vi-hind.2026-01-01_21-03-00-294.de0",
+      "identifier": "undefined--vi-hind.2026-01-01_21-58-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.03045700993944,8.93910299986523,50.03045700993944,8.93910299986523",
-      "point": "50.03045700993944,8.93910299986523",
-      "startLcPosition": "154",
+      "extent": "49.88093419006247,9.430465395565275,49.8804564999551,9.432624847425307",
+      "point": "49.88093419006247,9.430465395565275",
+      "startLcPosition": "136",
       "display_type": "WARNING",
-      "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 Seligenstadt | Weiskirchen",
-      "startTimestamp": "2025-12-29T08:32:00+01:00",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Spessart - Bärenroth",
+      "startTimestamp": "2026-01-01T21:58:30+01:00",
       "coordinate": {
-        "lat": 50.03045700993944,
-        "long": 8.93910299986523
+        "lat": 49.88093419006247,
+        "long": 9.430465395565275
       },
       "description": [
-        "Beginn: 29.12.25 um 08:32 Uhr",
+        "Beginn: 01.01.26 um 21:58 Uhr",
         "",
-        "Ereignismeldung:",
-        "- Ausfall Notrufsäule (einzel)",
-        "",
-        "A3: Würzburg -> Frankfurt, 3.7 km vor Weiskirchen, aus Richtung Seligenstadt",
-        " ",
-        "Ereignisnummer: NLW_2025_001453"
+        "Fahrzeug-Hindernis, seit 01.01.2026, 21:58",
+        "A3: Frankfurt -> Würzburg, zwischen 3.2 km hinter Spessart und 8.2 km vor Kohlsberg-Süd",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": [],
-      "source": "eva",
+      "source": "tomtom",
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            8.939103,
-            50.03045701
+            9.430465396,
+            49.88093419
           ],
           [
-            8.939103,
-            50.03045701
+            9.4317354,
+            49.880663601
+          ],
+          [
+            9.4322095,
+            49.880553501
+          ],
+          [
+            9.432624847,
+            49.8804565
           ]
         ]
       }
@@ -177,6 +182,122 @@
           [
             6.819270957,
             51.528896005
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-01_22-27-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89840069464824,6.165719616420279,51.89840069464824,6.165719616420279",
+      "point": "51.89840069464824,6.165719616420279",
+      "startLcPosition": "261",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Knauheide - Knauheide",
+      "startTimestamp": "2026-01-01T22:32:30+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "23",
+      "coordinate": {
+        "lat": 51.89840069464824,
+        "long": 6.165719616420279
+      },
+      "description": [
+        "Beginn: 01.01.26 um 22:32 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.01.2026, 22:32",
+        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165719616,
+            51.898400695
+          ],
+          [
+            6.165719616,
+            51.898400695
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-01_22-26-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.89836274669365,6.16575851434623,51.89157099220738,6.172738243555849",
+      "point": "51.89836274669365,6.16575851434623",
+      "startLcPosition": "262",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Elten - Elten",
+      "startTimestamp": "2026-01-01T22:26:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "51.099998474121094",
+      "coordinate": {
+        "lat": 51.89836274669365,
+        "long": 6.16575851434623
+      },
+      "description": [
+        "Beginn: 01.01.26 um 22:26 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.01.2026, 22:26",
+        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 0.9 km vor AS Elten",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 51 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.165758514,
+            51.898362747
+          ],
+          [
+            6.1665101,
+            51.897629501
+          ],
+          [
+            6.1668453,
+            51.897289501
+          ],
+          [
+            6.1686237,
+            51.895575501
+          ],
+          [
+            6.1688771,
+            51.895327101
+          ],
+          [
+            6.1696626,
+            51.894557001
+          ],
+          [
+            6.1714999,
+            51.892786101
+          ],
+          [
+            6.172738244,
+            51.891570992
           ]
         ]
       }
