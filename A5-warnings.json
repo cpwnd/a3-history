@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-04_17-46-00-000.f_006.de0",
+      "identifier": "undefined--vi-avl.2026-01-04_19-21-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.660908912567905,8.039026570157525,48.66027234312046,8.038448682616776",
-      "point": "48.660908912567905,8.039026570157525",
-      "startLcPosition": "46",
+      "extent": "47.59286548858405,7.603940477151233,47.59286548858405,7.603940477151233",
+      "point": "47.59286548858405,7.603940477151233",
+      "startLcPosition": "1000",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Brachfeld - Feldmatt",
-      "startTimestamp": "2026-01-04T17:46:00+01:00",
+      "subtitle": "",
+      "title": "Baustelle",
+      "startTimestamp": "2026-01-04T19:21:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "6",
       "coordinate": {
-        "lat": 48.660908912567905,
-        "long": 8.039026570157525
+        "lat": 47.59286548858405,
+        "long": 7.603940477151233
       },
       "description": [
-        "Beginn: 04.01.26 um 17:46 Uhr",
+        "Beginn: 04.01.26 um 19:21 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 04.01.2026, 17:46",
-        "A5: Karlsruhe -> Basel, zwischen 2.0 km hinter Brachfeld und 0.2 km vor Feldmatt",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 04.01.2026, 19:21",
+        "A5 N",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 6 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,46 +35,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.03902657,
-            48.660908913
+            7.603940477,
+            47.592865489
           ],
           [
-            8.0389882,
-            48.660867601
-          ],
-          [
-            8.0386821,
-            48.660546601
-          ],
-          [
-            8.038448683,
-            48.660272343
+            7.603940477,
+            47.592865489
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-04_16-20-00-000.f_005.de0",
+      "identifier": "undefined--vi-avl.2026-01-04_19-20-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.596272906448036,8.814023211076925,50.59717690093833,8.814466099999946",
-      "point": "50.596272906448036,8.814023211076925",
-      "startLcPosition": "124",
+      "extent": "47.597871200948624,7.603066299999224,47.59632940094862,7.603563599999228",
+      "point": "47.597871200948624,7.603066299999224",
+      "startLcPosition": "1000",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Reiskirchen - Reiskirchener Dreieck",
-      "startTimestamp": "2026-01-04T16:20:00+01:00",
+      "subtitle": " km 812.73 --> km 812.91",
+      "title": "Baustelle",
+      "startTimestamp": "2026-01-04T19:20:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "10.199999809265137",
       "coordinate": {
-        "lat": 50.596272906448036,
-        "long": 8.814023211076925
+        "lat": 47.597871200948624,
+        "long": 7.603066299999224
       },
       "description": [
-        "Beginn: 04.01.26 um 16:20 Uhr",
+        "Beginn: 04.01.26 um 19:20 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 04.01.2026, 16:20",
-        "A5: Frankfurt -> Kassel, zwischen 0.1 km hinter AS Reiskirchen und 1.6 km vor AD Reiskirchener Dreieck",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 04.01.2026, 19:20",
+        "A5: km 812.73 --> km 812.91",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -80,12 +82,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.814023211,
-            50.596272906
+            7.6030663,
+            47.597871201
           ],
           [
-            8.8144661,
-            50.597176901
+            7.6034406,
+            47.596700101
+          ],
+          [
+            7.6035053,
+            47.596509101
+          ],
+          [
+            7.6035294,
+            47.596432001
+          ],
+          [
+            7.6035636,
+            47.596329401
           ]
         ]
       }
