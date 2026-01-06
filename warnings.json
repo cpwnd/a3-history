@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.45130820713138,13.376106469589947,48.459220524571634,13.375336019430383",
-      "point": "48.45130820713138,13.376106469589947",
+      "extent": "48.449074419032804,13.37592836185012,48.4598517009486,13.37518560018693",
+      "point": "48.449074419032804,13.37592836185012",
       "startLcPosition": "2",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
-      "title": "A3 | Pocking - Rottal-Ost",
+      "title": "A3 | Pocking - Passau-Süd",
       "startTimestamp": "2026-01-06T11:13:00+01:00",
-      "delayTimeValue": "1",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "15.699999809265137",
+      "averageSpeed": "14.600000381469727",
       "coordinate": {
-        "lat": 48.45130820713138,
-        "long": 13.376106469589947
+        "lat": 48.449074419032804,
+        "long": 13.37592836185012
       },
       "description": [
         "Beginn: 06.01.26 um 11:13 Uhr",
         "",
         "Angespannte Verkehrslage, seit 06.01.2026, 11:13",
-        "A3: Linz -> Passau, zwischen 1.8 km hinter AS Pocking und 0.1 km vor Rottal-Ost",
+        "A3: Linz -> Passau, zwischen 1.5 km hinter AS Pocking und 9.0 km vor AS Passau-Süd",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.37610647,
-            48.451308207
+            13.375928362,
+            48.449074419
+          ],
+          [
+            13.3759979,
+            48.449662601
+          ],
+          [
+            13.3760549,
+            48.450436301
+          ],
+          [
+            13.3760854,
+            48.450850501
           ],
           [
             13.3761194,
@@ -93,14 +105,108 @@
             48.458919401
           ],
           [
-            13.375336019,
-            48.459220525
+            13.3753257,
+            48.459264801
+          ],
+          [
+            13.3752829,
+            48.459448801
+          ],
+          [
+            13.3751856,
+            48.459851701
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-06_10-20-30-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2026-01-06_11-21-30-000.f_006.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.449074419032804,13.37592836185012,48.449074419032804,13.37592836185012",
+      "point": "48.449074419032804,13.37592836185012",
+      "startLcPosition": "3",
+      "display_type": "WARNING",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Rottal-West - Rottal-West",
+      "startTimestamp": "2026-01-06T11:41:30+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "10",
+      "coordinate": {
+        "lat": 48.449074419032804,
+        "long": 13.37592836185012
+      },
+      "description": [
+        "Beginn: 06.01.26 um 11:41 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.01.2026, 11:41",
+        "A3: Linz -> Passau, 0.8 km vor Rottal-West, aus Richtung Pocking",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 10 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.375928362,
+            48.449074419
+          ],
+          [
+            13.375928362,
+            48.449074419
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-06_11-31-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.52532404342079,11.06902871252479,49.52597737773911,11.067797293748944",
+      "point": "49.52532404342079,11.06902871252479",
+      "startLcPosition": "82",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Würzburg",
+      "title": "A3 | Nürnberg-Nord - Neunhof",
+      "startTimestamp": "2026-01-06T11:31:30+01:00",
+      "coordinate": {
+        "lat": 49.52532404342079,
+        "long": 11.06902871252479
+      },
+      "description": [
+        "Beginn: 06.01.26 um 11:31 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 06.01.2026, 11:31",
+        "A3: Nürnberg -> Würzburg, zwischen 5.5 km hinter AS Nürnberg-Nord und 0.1 km vor Neunhof",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.069028713,
+            49.525324043
+          ],
+          [
+            11.067797294,
+            49.525977378
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-06_10-20-30-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -153,101 +259,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-06_09-09-30-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.053898711581816,8.631966506039873,50.05436569731056,8.633652889444155",
-      "point": "50.053898711581816,8.631966506039873",
-      "startLcPosition": "162",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Frankfurter Kreuz - Stadtwald",
-      "startTimestamp": "2026-01-06T09:09:30+01:00",
-      "coordinate": {
-        "lat": 50.053898711581816,
-        "long": 8.631966506039873
-      },
-      "description": [
-        "Beginn: 06.01.26 um 09:09 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 06.01.2026, 09:09",
-        "A3: Köln -> Frankfurt, zwischen 2.0 km hinter AK Frankfurter Kreuz und 0.1 km vor Stadtwald",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.631966506,
-            50.053898712
-          ],
-          [
-            8.6322425,
-            50.053973201
-          ],
-          [
-            8.6328542,
-            50.054137601
-          ],
-          [
-            8.633652889,
-            50.054365697
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-01-06_10-25-30-000.f_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.04284019080397,8.411905382097281,50.043588580490514,8.409448559612905",
-      "point": "50.04284019080397,8.411905382097281",
-      "startLcPosition": "166",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Raunheim - Wiesbadener Kreuz",
-      "startTimestamp": "2026-01-06T10:25:30+01:00",
-      "coordinate": {
-        "lat": 50.04284019080397,
-        "long": 8.411905382097281
-      },
-      "description": [
-        "Beginn: 06.01.26 um 10:25 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 06.01.2026, 10:25",
-        "A3: Frankfurt -> Köln, zwischen 5.0 km hinter AS Raunheim und 2.1 km vor AK Wiesbadener Kreuz",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.411905382,
-            50.042840191
-          ],
-          [
-            8.4115056,
-            50.042960701
-          ],
-          [
-            8.40944856,
-            50.04358858
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-01-06_10-30-30-000.f_004.de0",
+      "identifier": "undefined--vi-hind.2026-01-06_10-30-30-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -300,79 +312,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-06_11-07-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.610004765749814,7.427141644632197,50.60842664781821,7.4279219218585455",
-      "point": "50.610004765749814,7.427141644632197",
-      "startLcPosition": "196",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Pfaffenbach - Neustadt (Wied)",
-      "startTimestamp": "2026-01-06T11:07:30+01:00",
-      "coordinate": {
-        "lat": 50.610004765749814,
-        "long": 7.427141644632197
-      },
-      "description": [
-        "Beginn: 06.01.26 um 11:07 Uhr",
-        "",
-        "Hindernis, seit 06.01.2026, 11:07",
-        "A3: Köln -> Frankfurt, zwischen 1.0 km hinter Pfaffenbach und 0.6 km vor AS Neustadt (Wied)",
-        "",
-        "Gefahr durch Gegenstände auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.427141645,
-            50.610004766
-          ],
-          [
-            7.4276859,
-            50.608931901
-          ],
-          [
-            7.427921922,
-            50.608426648
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2026-01-06_10-20-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.54595193730903,6.822520953531622,51.560700668395874,6.807628791527361",
-      "point": "51.54595193730903,6.822520953531622",
+      "extent": "51.54375313064494,6.825198076481922,51.560700668395874,6.807628791527361",
+      "point": "51.54375313064494,6.825198076481922",
       "startLcPosition": "234",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
       "title": "A3 | Oberhausen - Sippenwies",
       "startTimestamp": "2026-01-06T10:20:30+01:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "6",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "21.799999237060547",
+      "averageSpeed": "19",
       "coordinate": {
-        "lat": 51.54595193730903,
-        "long": 6.822520953531622
+        "lat": 51.54375313064494,
+        "long": 6.825198076481922
       },
       "description": [
         "Beginn: 06.01.26 um 10:20 Uhr",
         "",
         "Angespannte Verkehrslage, seit 06.01.2026, 10:20",
-        "A3: Oberhausen -> Arnheim, zwischen 1.8 km hinter AK Oberhausen und 2.1 km vor Sippenwies",
+        "A3: Oberhausen -> Arnheim, zwischen 1.5 km hinter AK Oberhausen und 2.1 km vor Sippenwies",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
+        "Reisezeitverlust: 6 Minuten",
+        "Durchschnittsgeschwindigkeit: 19 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -382,8 +348,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.822520954,
-            51.545951937
+            6.825198076,
+            51.543753131
+          ],
+          [
+            6.8250592,
+            51.543869201
+          ],
+          [
+            6.8240359,
+            51.544703501
           ],
           [
             6.8218686,
@@ -461,27 +435,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.54598061093004,6.8224861575301405,51.54598061093004,6.8224861575301405",
-      "point": "51.54598061093004,6.8224861575301405",
+      "extent": "51.543760335594534,6.825189455886683,51.543760335594534,6.825189455886683",
+      "point": "51.543760335594534,6.825189455886683",
       "startLcPosition": "235",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Arnheim",
       "title": "A3 | Dinslaken-Süd - Dinslaken-Süd",
-      "startTimestamp": "2026-01-06T11:16:30+01:00",
+      "startTimestamp": "2026-01-06T11:41:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "16",
+      "averageSpeed": "14",
       "coordinate": {
-        "lat": 51.54598061093004,
-        "long": 6.8224861575301405
+        "lat": 51.543760335594534,
+        "long": 6.825189455886683
       },
       "description": [
-        "Beginn: 06.01.26 um 11:16 Uhr",
+        "Beginn: 06.01.26 um 11:41 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 06.01.2026, 11:16",
-        "A3: Oberhausen -> Arnheim, 1.8 km vor AS Dinslaken-Süd, aus Richtung Oberhausen",
+        "Angespannte Verkehrslage, seit 06.01.2026, 11:41",
+        "A3: Oberhausen -> Arnheim, 2.1 km vor AS Dinslaken-Süd, aus Richtung Oberhausen",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 16 km/h"
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -491,12 +465,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.822486158,
-            51.545980611
+            6.825189456,
+            51.543760336
           ],
           [
-            6.822486158,
-            51.545980611
+            6.825189456,
+            51.543760336
           ]
         ]
       }
