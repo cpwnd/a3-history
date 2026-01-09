@@ -1,74 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-09_19-22-06-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.561837114808455,7.956485221625088,48.56336479510698,7.957372241455967",
-      "point": "48.561837114808455,7.956485221625088",
-      "startLcPosition": "42",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Appenweier - Achern",
-      "startTimestamp": "2026-01-09T19:22:06+01:00",
-      "coordinate": {
-        "lat": 48.561837114808455,
-        "long": 7.956485221625088
-      },
-      "description": [
-        "Beginn: 09.01.26 um 19:22 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 09.01.2026, 19:22",
-        "A5: Basel -> Karlsruhe, zwischen 3.4 km hinter AS Appenweier und 10.5 km vor AS Achern",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.956485222,
-            48.561837115
-          ],
-          [
-            7.957372241,
-            48.563364795
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-avl.2026-01-09_16-10-21-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.35733265938689,8.631747902562282,49.3704835760121,8.63244571150497",
-      "point": "49.35733265938689,8.631747902562282",
+      "extent": "49.3545923616927,8.631603880920185,49.373128757332594,8.632590994138141",
+      "point": "49.3545923616927,8.631603880920185",
       "startLcPosition": "71",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Hardtwald - Heidelberg/Schwetzingen",
+      "subtitle": " Karlsruhe -> Darmstadt",
+      "title": "A5 | Hardtwald - Heidelberg",
       "startTimestamp": "2026-01-09T16:10:21+01:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "72.9000015258789",
+      "averageSpeed": "68.5",
       "coordinate": {
-        "lat": 49.35733265938689,
-        "long": 8.631747902562282
+        "lat": 49.3545923616927,
+        "long": 8.631603880920185
       },
       "description": [
         "Beginn: 09.01.26 um 16:10 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.01.2026, 16:10",
-        "A5: Karlsruhe -> Heidelberg, zwischen 0.8 km hinter Hardtwald und AS Heidelberg/Schwetzingen",
+        "A5: Karlsruhe -> Darmstadt, zwischen 0.5 km hinter Hardtwald und 5.1 km vor AK Heidelberg",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 72 km/h"
+        "Durchschnittsgeschwindigkeit: 68 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -78,8 +37,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.631747903,
-            49.357332659
+            8.631603881,
+            49.354592362
+          ],
+          [
+            8.6316287,
+            49.355081901
+          ],
+          [
+            8.6316478,
+            49.355453101
+          ],
+          [
+            8.631746,
+            49.357296701
           ],
           [
             8.631749,
@@ -142,8 +113,69 @@
             49.369561201
           ],
           [
-            8.632445712,
-            49.370483576
+            8.6324592,
+            49.370736901
+          ],
+          [
+            8.6324721,
+            49.370979301
+          ],
+          [
+            8.632536,
+            49.372230001
+          ],
+          [
+            8.6325837,
+            49.373053201
+          ],
+          [
+            8.632590994,
+            49.373128757
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-09_20-58-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.132168808060165,8.590271959159464,50.1324250395929,8.59029323986525",
+      "point": "50.132168808060165,8.590271959159464",
+      "startLcPosition": "109",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Westkreuz Frankfurt am Main - Nordwestkreuz Frankfurt am Main",
+      "startTimestamp": "2026-01-09T20:58:30+01:00",
+      "coordinate": {
+        "lat": 50.132168808060165,
+        "long": 8.590271959159464
+      },
+      "description": [
+        "Beginn: 09.01.26 um 20:58 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 09.01.2026, 20:58",
+        "A5: Frankfurt -> Kassel, zwischen 2.1 km hinter AK Westkreuz Frankfurt am Main und 0.3 km vor AK Nordwestkreuz Frankfurt am Main",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.590271959,
+            50.132168808
+          ],
+          [
+            8.5902786,
+            50.132227401
+          ],
+          [
+            8.59029324,
+            50.13242504
           ]
         ]
       }
