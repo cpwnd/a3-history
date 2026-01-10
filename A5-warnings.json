@@ -1,33 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2026-01-10_10-11-00-000.f_003.de0",
+      "identifier": "undefined--vi-avl.2026-01-10_10-28-00-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.71146553823223,9.153889337994302,50.72753483880332,9.223393731522602",
-      "point": "50.71146553823223,9.153889337994302",
-      "startLcPosition": "132",
+      "extent": "47.60321520804985,7.600996722890863,47.60321520804985,7.600996722890863",
+      "point": "47.60321520804985,7.600996722890863",
+      "startLcPosition": "2",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Dottenberg - Pfefferhöhe",
-      "startTimestamp": "2026-01-10T10:11:00+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "64.9000015258789",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein/Hüningen - Weil am Rhein/Hüningen",
+      "startTimestamp": "2026-01-10T10:36:00+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 50.71146553823223,
-        "long": 9.153889337994302
+        "lat": 47.60321520804985,
+        "long": 7.600996722890863
       },
       "description": [
-        "Beginn: 10.01.26 um 10:11 Uhr",
+        "Beginn: 10.01.26 um 10:36 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 10.01.2026, 10:11",
-        "A5: Frankfurt -> Kassel, zwischen 2.9 km hinter Dottenberg und 1.3 km vor Pfefferhöhe",
+        "Angespannte Verkehrslage, seit 10.01.2026, 10:36",
+        "A5: Karlsruhe -> Basel, 0.2 km vor AS Weil am Rhein/Hüningen, aus Richtung Krebsbach",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 64 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +35,209 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.153889338,
-            50.711465538
+            7.600996723,
+            47.603215208
+          ],
+          [
+            7.600996723,
+            47.603215208
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-10_10-36-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.88934954146616,8.29110608022324,48.88869076644363,8.28867030309908",
+      "point": "48.88934954146616,8.29110608022324",
+      "startLcPosition": "56",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Karlsruhe-Süd - Silbergrund",
+      "startTimestamp": "2026-01-10T10:36:00+01:00",
+      "coordinate": {
+        "lat": 48.88934954146616,
+        "long": 8.29110608022324
+      },
+      "description": [
+        "Beginn: 10.01.26 um 10:36 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 10.01.2026, 10:36",
+        "A5: Karlsruhe -> Basel, zwischen 10.9 km hinter AS Karlsruhe-Süd und Silbergrund",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.29110608,
+            48.889349541
+          ],
+          [
+            8.2892751,
+            48.888860301
+          ],
+          [
+            8.288670303,
+            48.888690766
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-10_10-25-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.522675911595904,8.758494868415307,50.522151823154935,8.757955713352846",
+      "point": "50.522675911595904,8.758494868415307",
+      "startLcPosition": "123",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Fernwald - Limes",
+      "startTimestamp": "2026-01-10T10:25:30+01:00",
+      "coordinate": {
+        "lat": 50.522675911595904,
+        "long": 8.758494868415307
+      },
+      "description": [
+        "Beginn: 10.01.26 um 10:25 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 10.01.2026, 10:25",
+        "A5: Kassel -> Frankfurt, zwischen 3.0 km hinter AS Fernwald und 0.1 km vor Limes",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.758494868,
+            50.522675912
+          ],
+          [
+            8.7583086,
+            50.522499301
+          ],
+          [
+            8.7580784,
+            50.522272601
+          ],
+          [
+            8.757955713,
+            50.522151823
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-10_10-11-00-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.71410193154486,9.141527156279928,50.736787355479336,9.25108590633132",
+      "point": "50.71410193154486,9.141527156279928",
+      "startLcPosition": "132",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Dottenberg - Alsfeld-Ost",
+      "startTimestamp": "2026-01-10T10:11:00+01:00",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54.900001525878906",
+      "coordinate": {
+        "lat": 50.71410193154486,
+        "long": 9.141527156279928
+      },
+      "description": [
+        "Beginn: 10.01.26 um 10:11 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.01.2026, 10:11",
+        "A5: Frankfurt -> Kassel, zwischen 2.0 km hinter Dottenberg und 3.9 km vor AS Alsfeld-Ost",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.141527156,
+            50.714101932
+          ],
+          [
+            9.1415381,
+            50.714099301
+          ],
+          [
+            9.1429931,
+            50.713731201
+          ],
+          [
+            9.1443711,
+            50.713372201
+          ],
+          [
+            9.1457056,
+            50.713035901
+          ],
+          [
+            9.146156,
+            50.712919801
+          ],
+          [
+            9.1471647,
+            50.712635401
+          ],
+          [
+            9.1481766,
+            50.712380301
+          ],
+          [
+            9.1489068,
+            50.712199901
+          ],
+          [
+            9.1495161,
+            50.712068301
+          ],
+          [
+            9.1502355,
+            50.711927501
+          ],
+          [
+            9.1507166,
+            50.711841601
+          ],
+          [
+            9.1512112,
+            50.711769701
+          ],
+          [
+            9.1519559,
+            50.711662401
+          ],
+          [
+            9.1529961,
+            50.711545201
+          ],
+          [
+            9.1537554,
+            50.711476001
           ],
           [
             9.1545081,
@@ -381,8 +580,259 @@
             50.727514601
           ],
           [
-            9.223393732,
-            50.727534839
+            9.2242307,
+            50.727814201
+          ],
+          [
+            9.2251267,
+            50.728114001
+          ],
+          [
+            9.2258458,
+            50.728364301
+          ],
+          [
+            9.2266911,
+            50.728687901
+          ],
+          [
+            9.2277768,
+            50.729130301
+          ],
+          [
+            9.2287286,
+            50.729563701
+          ],
+          [
+            9.2293345,
+            50.729855501
+          ],
+          [
+            9.2301296,
+            50.730271001
+          ],
+          [
+            9.2309218,
+            50.730710201
+          ],
+          [
+            9.231485,
+            50.731025001
+          ],
+          [
+            9.2321749,
+            50.731417001
+          ],
+          [
+            9.2327128,
+            50.731727801
+          ],
+          [
+            9.233152,
+            50.731972101
+          ],
+          [
+            9.2339042,
+            50.732385001
+          ],
+          [
+            9.2348386,
+            50.732855601
+          ],
+          [
+            9.2354053,
+            50.733125001
+          ],
+          [
+            9.2358366,
+            50.733321101
+          ],
+          [
+            9.2366049,
+            50.733642201
+          ],
+          [
+            9.2370635,
+            50.733826501
+          ],
+          [
+            9.2378636,
+            50.734130501
+          ],
+          [
+            9.238278,
+            50.734280401
+          ],
+          [
+            9.2385696,
+            50.734379601
+          ],
+          [
+            9.2391646,
+            50.734579601
+          ],
+          [
+            9.2397031,
+            50.734753801
+          ],
+          [
+            9.2401868,
+            50.734898101
+          ],
+          [
+            9.2409457,
+            50.735105901
+          ],
+          [
+            9.2418866,
+            50.735348201
+          ],
+          [
+            9.2426226,
+            50.735519601
+          ],
+          [
+            9.24293,
+            50.735583401
+          ],
+          [
+            9.2443758,
+            50.735855701
+          ],
+          [
+            9.2450398,
+            50.735964901
+          ],
+          [
+            9.2457673,
+            50.736075201
+          ],
+          [
+            9.2463212,
+            50.736147101
+          ],
+          [
+            9.2476871,
+            50.736333001
+          ],
+          [
+            9.2480494,
+            50.736380501
+          ],
+          [
+            9.250158,
+            50.736661101
+          ],
+          [
+            9.251085906,
+            50.736787355
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-10_10-20-00-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.60322355362439,7.6009917547893275,47.59632940094862,7.603563599999228",
+      "point": "47.60322355362439,7.6009917547893275",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.11 --> km 812.91",
+      "title": "Baustelle",
+      "startTimestamp": "2026-01-10T10:20:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "15.699999809265137",
+      "coordinate": {
+        "lat": 47.60322355362439,
+        "long": 7.6009917547893275
+      },
+      "description": [
+        "Beginn: 10.01.26 um 10:20 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.01.2026, 10:20",
+        "A5: km 812.11 --> km 812.91",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 15 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.600991755,
+            47.603223554
+          ],
+          [
+            7.6010356,
+            47.603149901
+          ],
+          [
+            7.6012646,
+            47.602718201
+          ],
+          [
+            7.6014979,
+            47.602246901
+          ],
+          [
+            7.6017078,
+            47.601776001
+          ],
+          [
+            7.6017842,
+            47.601624301
+          ],
+          [
+            7.601865,
+            47.601430201
+          ],
+          [
+            7.60218,
+            47.600619001
+          ],
+          [
+            7.6024754,
+            47.599729601
+          ],
+          [
+            7.6026559,
+            47.599157901
+          ],
+          [
+            7.6027982,
+            47.598703601
+          ],
+          [
+            7.6029111,
+            47.598352001
+          ],
+          [
+            7.6030663,
+            47.597871201
+          ],
+          [
+            7.6034406,
+            47.596700101
+          ],
+          [
+            7.6035053,
+            47.596509101
+          ],
+          [
+            7.6035294,
+            47.596432001
+          ],
+          [
+            7.6035636,
+            47.596329401
           ]
         ]
       }
