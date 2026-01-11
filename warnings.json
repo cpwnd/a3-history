@@ -1,27 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-11_07-43-30-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2026-01-11_08-37-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.89834569259475,9.391937825654665,49.89711220980235,9.393702665338754",
-      "point": "49.89834569259475,9.391937825654665",
-      "startLcPosition": "137",
+      "extent": "48.449593939952116,13.37598978257179,48.45758743969853,13.375651548971637",
+      "point": "48.449593939952116,13.37598978257179",
+      "startLcPosition": "2",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Würzburg",
-      "title": "A3 | Rohrbrunn - Spessart",
-      "startTimestamp": "2026-01-11T07:43:30+01:00",
+      "subtitle": " Linz -> Passau",
+      "title": "A3 | Pocking - Rottal-Ost",
+      "startTimestamp": "2026-01-11T08:37:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "29.5",
       "coordinate": {
-        "lat": 49.89834569259475,
-        "long": 9.391937825654665
+        "lat": 48.449593939952116,
+        "long": 13.37598978257179
       },
       "description": [
-        "Beginn: 11.01.26 um 07:43 Uhr",
+        "Beginn: 11.01.26 um 08:37 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 11.01.2026, 07:43",
-        "A3: Frankfurt -> Würzburg, zwischen 0.1 km hinter AS Rohrbrunn und Spessart",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 11.01.2026, 08:37",
+        "A3: Linz -> Passau, zwischen 1.6 km hinter AS Pocking und 0.3 km vor Rottal-Ost",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,30 +37,70 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.391937826,
-            49.898345693
+            13.375989783,
+            48.44959394
           ],
           [
-            9.3923452,
-            49.898101801
+            13.3759979,
+            48.449662601
           ],
           [
-            9.3928709,
-            49.897749201
+            13.3760549,
+            48.450436301
           ],
           [
-            9.3934675,
-            49.897307001
+            13.3760854,
+            48.450850501
           ],
           [
-            9.393702665,
-            49.89711221
+            13.3761194,
+            48.451589101
+          ],
+          [
+            13.376141,
+            48.452878801
+          ],
+          [
+            13.3761295,
+            48.453277701
+          ],
+          [
+            13.3761168,
+            48.453469301
+          ],
+          [
+            13.3760568,
+            48.454371001
+          ],
+          [
+            13.3760373,
+            48.454617101
+          ],
+          [
+            13.3760053,
+            48.455020001
+          ],
+          [
+            13.3759271,
+            48.455742801
+          ],
+          [
+            13.3758284,
+            48.456535901
+          ],
+          [
+            13.3757258,
+            48.457205601
+          ],
+          [
+            13.375651549,
+            48.45758744
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-11_08-03-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2026-01-11_08-03-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -690,6 +736,59 @@
           [
             9.2609804,
             49.984338001
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-11_07-43-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.89834569259475,9.391937825654665,49.89711220980235,9.393702665338754",
+      "point": "49.89834569259475,9.391937825654665",
+      "startLcPosition": "137",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Würzburg",
+      "title": "A3 | Rohrbrunn - Spessart",
+      "startTimestamp": "2026-01-11T07:43:30+01:00",
+      "coordinate": {
+        "lat": 49.89834569259475,
+        "long": 9.391937825654665
+      },
+      "description": [
+        "Beginn: 11.01.26 um 07:43 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 11.01.2026, 07:43",
+        "A3: Frankfurt -> Würzburg, zwischen 0.1 km hinter AS Rohrbrunn und Spessart",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.391937826,
+            49.898345693
+          ],
+          [
+            9.3923452,
+            49.898101801
+          ],
+          [
+            9.3928709,
+            49.897749201
+          ],
+          [
+            9.3934675,
+            49.897307001
+          ],
+          [
+            9.393702665,
+            49.89711221
           ]
         ]
       }
