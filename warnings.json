@@ -593,7 +593,56 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-18_18-01-00-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2026-01-18_18-38-00-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.578587976593184,10.930067473108515,49.58001868305676,10.929201344073356",
+      "point": "49.578587976593184,10.930067473108515",
+      "startLcPosition": "86",
+      "display_type": "WARNING",
+      "subtitle": " Nürnberg -> Würzburg",
+      "title": "A3 | Erlangen-Frauenaurach - Aurach",
+      "startTimestamp": "2026-01-18T18:38:00+01:00",
+      "coordinate": {
+        "lat": 49.578587976593184,
+        "long": 10.930067473108515
+      },
+      "description": [
+        "Beginn: 18.01.26 um 18:38 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 18.01.2026, 18:38",
+        "A3: Nürnberg -> Würzburg, zwischen 1.7 km hinter AS Erlangen-Frauenaurach und 0.2 km vor Aurach",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.930067473,
+            49.578587977
+          ],
+          [
+            10.9298158,
+            49.578978601
+          ],
+          [
+            10.9292211,
+            49.579981201
+          ],
+          [
+            10.929201344,
+            49.580018683
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-18_18-01-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1412,29 +1461,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.10638971209786,8.346980338828889,50.12467097699212,8.340918668398954",
-      "point": "50.10638971209786,8.346980338828889",
+      "extent": "50.10173931693946,8.349580103202326,50.12126398028332,8.341446323363732",
+      "point": "50.10173931693946,8.349580103202326",
       "startLcPosition": "170",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Medenbach - Niedernhausen",
       "startTimestamp": "2026-01-18T18:25:30+01:00",
-      "delayTimeValue": "18",
+      "delayTimeValue": "7",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6.599999904632568",
+      "averageSpeed": "16.5",
       "coordinate": {
-        "lat": 50.10638971209786,
-        "long": 8.346980338828889
+        "lat": 50.10173931693946,
+        "long": 8.349580103202326
       },
       "description": [
         "Beginn: 18.01.26 um 18:25 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 18.01.2026, 18:25",
-        "A3: Frankfurt -> Köln, zwischen 1.3 km hinter Medenbach und 2.2 km vor AS Niedernhausen",
+        "A3: Frankfurt -> Köln, zwischen 0.7 km hinter Medenbach und 2.5 km vor AS Niedernhausen",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 18 Minuten",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
+        "Reisezeitverlust: 7 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1444,8 +1493,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.346980339,
-            50.106389712
+            8.349580103,
+            50.101739317
+          ],
+          [
+            8.3487759,
+            50.103178401
+          ],
+          [
+            8.3487171,
+            50.103283801
           ],
           [
             8.3435635,
@@ -1496,28 +1553,53 @@
             50.120419901
           ],
           [
-            8.3413563,
-            50.122298101
+            8.341446323,
+            50.12126398
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-18_18-38-00-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.14930501000493,8.31889856945325,50.14930501000493,8.31889856945325",
+      "point": "50.14930501000493,8.31889856945325",
+      "startLcPosition": "171",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Niedernhausen - Niedernhausen",
+      "startTimestamp": "2026-01-18T18:42:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "5",
+      "coordinate": {
+        "lat": 50.14930501000493,
+        "long": 8.31889856945325
+      },
+      "description": [
+        "Beginn: 18.01.26 um 18:42 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 18.01.2026, 18:42",
+        "A3: Köln -> Frankfurt, 1.1 km vor AS Niedernhausen, aus Richtung Theißtal",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 5 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.318898569,
+            50.14930501
           ],
           [
-            8.3413113,
-            50.122764401
-          ],
-          [
-            8.3412365,
-            50.123228201
-          ],
-          [
-            8.3410918,
-            50.123954901
-          ],
-          [
-            8.3409356,
-            50.124614401
-          ],
-          [
-            8.340918668,
-            50.124670977
+            8.318898569,
+            50.14930501
           ]
         ]
       }
@@ -1527,27 +1609,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.10638971209786,8.346980338828889,50.10638971209786,8.346980338828889",
-      "point": "50.10638971209786,8.346980338828889",
+      "extent": "50.10173931693946,8.349580103202326,50.10173931693946,8.349580103202326",
+      "point": "50.10173931693946,8.349580103202326",
       "startLcPosition": "171",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Niedernhausen - Niedernhausen",
-      "startTimestamp": "2026-01-18T18:37:00+01:00",
+      "startTimestamp": "2026-01-18T18:42:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "7",
+      "averageSpeed": "17",
       "coordinate": {
-        "lat": 50.10638971209786,
-        "long": 8.346980338828889
+        "lat": 50.10173931693946,
+        "long": 8.349580103202326
       },
       "description": [
-        "Beginn: 18.01.26 um 18:37 Uhr",
+        "Beginn: 18.01.26 um 18:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.01.2026, 18:37",
-        "A3: Frankfurt -> Köln, 4.3 km vor AS Niedernhausen, aus Richtung Medenbach",
+        "Angespannte Verkehrslage, seit 18.01.2026, 18:42",
+        "A3: Frankfurt -> Köln, 4.8 km vor AS Niedernhausen, aus Richtung Medenbach",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 7 km/h"
+        "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1557,37 +1639,37 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.346980339,
-            50.106389712
+            8.349580103,
+            50.101739317
           ],
           [
-            8.346980339,
-            50.106389712
+            8.349580103,
+            50.101739317
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-unf.2026-01-18_18-25-30-000.f_002.de0",
+      "identifier": "undefined--vi-unf.2026-01-18_18-25-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.14557845019275,8.325549542302113,50.05958560094088,8.384466699999832",
-      "point": "50.14557845019275,8.325549542302113",
+      "extent": "50.14862483574586,8.321370462535933,50.13543599438284,8.33408345724796",
+      "point": "50.14862483574586,8.321370462535933",
       "startLcPosition": "172",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Theißtal - Wiesbadener Kreuz",
+      "title": "A3 | Theißtal - Medenbach",
       "startTimestamp": "2026-01-18T18:25:30+01:00",
       "coordinate": {
-        "lat": 50.14557845019275,
-        "long": 8.325549542302113
+        "lat": 50.14862483574586,
+        "long": 8.321370462535933
       },
       "description": [
         "Beginn: 18.01.26 um 18:25 Uhr",
         "",
         "Unfall, seit 18.01.2026, 18:25",
-        "A3: Köln -> Frankfurt, zwischen 3.4 km hinter Theißtal und 0.5 km vor AK Wiesbadener Kreuz"
+        "A3: Köln -> Frankfurt, zwischen 2.9 km hinter Theißtal und 4.6 km vor Medenbach"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1597,8 +1679,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.325549542,
-            50.14557845
+            8.321370463,
+            50.148624836
+          ],
+          [
+            8.3215768,
+            50.148540301
+          ],
+          [
+            8.3220065,
+            50.148340201
+          ],
+          [
+            8.322376,
+            50.148145001
+          ],
+          [
+            8.322718,
+            50.147954201
+          ],
+          [
+            8.322994,
+            50.147773101
+          ],
+          [
+            8.3232308,
+            50.147601701
+          ],
+          [
+            8.3234576,
+            50.147427001
+          ],
+          [
+            8.3236916,
+            50.147227001
+          ],
+          [
+            8.3244037,
+            50.146599801
           ],
           [
             8.3257982,
@@ -1657,294 +1775,222 @@
             50.136510601
           ],
           [
-            8.3349873,
-            50.134143401
-          ],
-          [
-            8.3364291,
-            50.132058501
-          ],
-          [
-            8.3366096,
-            50.131797501
-          ],
-          [
-            8.3368211,
-            50.131507201
-          ],
-          [
-            8.3374612,
-            50.130580001
-          ],
-          [
-            8.3382766,
-            50.129392501
-          ],
-          [
-            8.3387791,
-            50.128682801
-          ],
-          [
-            8.339204,
-            50.128013501
-          ],
-          [
-            8.3398035,
-            50.126944401
-          ],
-          [
-            8.3400553,
-            50.126387101
-          ],
-          [
-            8.3402855,
-            50.125827101
-          ],
-          [
-            8.340522,
-            50.125173101
-          ],
-          [
-            8.3406992,
-            50.124605301
-          ],
-          [
-            8.3408766,
-            50.123936801
-          ],
-          [
-            8.34099,
-            50.123229601
-          ],
-          [
-            8.3410536,
-            50.122736501
-          ],
-          [
-            8.3411019,
-            50.122268801
-          ],
-          [
-            8.3411443,
-            50.120615901
-          ],
-          [
-            8.3411765,
-            50.119247001
-          ],
-          [
-            8.3412054,
-            50.118884801
-          ],
-          [
-            8.3412628,
-            50.118237601
-          ],
-          [
-            8.3413589,
-            50.117602801
-          ],
-          [
-            8.3414691,
-            50.117061501
-          ],
-          [
-            8.3416047,
-            50.116481601
-          ],
-          [
-            8.3418796,
-            50.115574301
-          ],
-          [
-            8.3420468,
-            50.115102701
-          ],
-          [
-            8.3423331,
-            50.114396801
-          ],
-          [
-            8.3426483,
-            50.113719801
-          ],
-          [
-            8.3433155,
-            50.112506201
-          ],
-          [
-            8.343406,
-            50.112341401
-          ],
-          [
-            8.3484923,
-            50.103258901
-          ],
-          [
-            8.3485536,
-            50.103149601
-          ],
-          [
-            8.3495002,
-            50.101460001
-          ],
-          [
-            8.350694,
-            50.099310801
-          ],
-          [
-            8.351608,
-            50.097644701
-          ],
-          [
-            8.3538429,
-            50.093670101
-          ],
-          [
-            8.3543815,
-            50.092718601
-          ],
-          [
-            8.354972,
-            50.091657101
-          ],
-          [
-            8.356026,
-            50.089826401
-          ],
-          [
-            8.3568035,
-            50.088611001
-          ],
-          [
-            8.3572818,
-            50.087930201
-          ],
-          [
-            8.3576511,
-            50.087385701
-          ],
-          [
-            8.361799,
-            50.081865601
-          ],
-          [
-            8.3626503,
-            50.080726701
-          ],
-          [
-            8.3636417,
-            50.079420101
-          ],
-          [
-            8.3640068,
-            50.078959501
-          ],
-          [
-            8.3647513,
-            50.078086301
-          ],
-          [
-            8.3656748,
-            50.077155501
-          ],
-          [
-            8.3658398,
-            50.076992501
-          ],
-          [
-            8.3666701,
-            50.076252601
-          ],
-          [
-            8.3683956,
-            50.074896601
-          ],
-          [
-            8.3703445,
-            50.073397001
-          ],
-          [
-            8.3708704,
-            50.072982701
-          ],
-          [
-            8.3729623,
-            50.071344001
-          ],
-          [
-            8.3732567,
-            50.071113401
-          ],
-          [
-            8.373408,
-            50.070993801
-          ],
-          [
-            8.3744466,
-            50.070197001
-          ],
-          [
-            8.3749505,
-            50.069810101
-          ],
-          [
-            8.3755683,
-            50.069335301
-          ],
-          [
-            8.3764319,
-            50.068621801
-          ],
-          [
-            8.3769255,
-            50.068190601
-          ],
-          [
-            8.3773834,
-            50.067772101
-          ],
-          [
-            8.3779865,
-            50.067184001
-          ],
-          [
-            8.3783318,
-            50.066814801
-          ],
-          [
-            8.3785905,
-            50.066530701
-          ],
-          [
-            8.3814977,
-            50.063115201
-          ],
-          [
-            8.3817717,
-            50.062802201
-          ],
-          [
-            8.3825785,
-            50.061825801
-          ],
-          [
-            8.3832739,
-            50.061002901
-          ],
-          [
-            8.3838531,
-            50.060315801
-          ],
-          [
-            8.3844667,
-            50.059585601
+            8.334083457,
+            50.135435994
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-18_17-36-35-000.f_005.de0",
+      "identifier": "undefined--vi-hind.2026-01-18_17-31-00-000.f_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.1686686139476,8.293212764048327,50.16983697513995,8.291882940055892",
+      "point": "50.1686686139476,8.293212764048327",
+      "startLcPosition": "172",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Theißtal - Idstein",
+      "startTimestamp": "2026-01-18T17:31:00+01:00",
+      "coordinate": {
+        "lat": 50.1686686139476,
+        "long": 8.293212764048327
+      },
+      "description": [
+        "Beginn: 18.01.26 um 17:31 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 18.01.2026, 17:31",
+        "A3: Frankfurt -> Köln, zwischen 0.2 km hinter Theißtal und 5.9 km vor AS Idstein",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.293212764,
+            50.168668614
+          ],
+          [
+            8.2929762,
+            50.168904101
+          ],
+          [
+            8.2926044,
+            50.169232101
+          ],
+          [
+            8.2922553,
+            50.169527601
+          ],
+          [
+            8.29188294,
+            50.169836975
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2026-01-18_18-37-33-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.14931165212364,8.318857872520882,50.14082846246072,8.330337472743308",
+      "point": "50.14931165212364,8.318857872520882",
+      "startLcPosition": "172",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Theißtal - Medenbach",
+      "startTimestamp": "2026-01-18T18:37:33+01:00",
+      "delayTimeValue": "8",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "8.5",
+      "coordinate": {
+        "lat": 50.14931165212364,
+        "long": 8.318857872520882
+      },
+      "description": [
+        "Beginn: 18.01.26 um 18:37 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 18.01.2026, 18:37",
+        "A3: Köln -> Frankfurt, zwischen 2.7 km hinter Theißtal und 5.3 km vor Medenbach",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 8 Minuten",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.318857873,
+            50.149311652
+          ],
+          [
+            8.3190469,
+            50.149280801
+          ],
+          [
+            8.3194095,
+            50.149214301
+          ],
+          [
+            8.3198505,
+            50.149116001
+          ],
+          [
+            8.3203205,
+            50.148991001
+          ],
+          [
+            8.3207841,
+            50.148845701
+          ],
+          [
+            8.3211826,
+            50.148701801
+          ],
+          [
+            8.3215768,
+            50.148540301
+          ],
+          [
+            8.3220065,
+            50.148340201
+          ],
+          [
+            8.322376,
+            50.148145001
+          ],
+          [
+            8.322718,
+            50.147954201
+          ],
+          [
+            8.322994,
+            50.147773101
+          ],
+          [
+            8.3232308,
+            50.147601701
+          ],
+          [
+            8.3234576,
+            50.147427001
+          ],
+          [
+            8.3236916,
+            50.147227001
+          ],
+          [
+            8.3244037,
+            50.146599801
+          ],
+          [
+            8.3257982,
+            50.145356801
+          ],
+          [
+            8.3263117,
+            50.144894501
+          ],
+          [
+            8.3268597,
+            50.144398401
+          ],
+          [
+            8.3272587,
+            50.144029301
+          ],
+          [
+            8.3274881,
+            50.143824801
+          ],
+          [
+            8.3285644,
+            50.142855501
+          ],
+          [
+            8.3288218,
+            50.142615201
+          ],
+          [
+            8.3291118,
+            50.142351601
+          ],
+          [
+            8.3294104,
+            50.142052001
+          ],
+          [
+            8.3296502,
+            50.141783401
+          ],
+          [
+            8.3298681,
+            50.141501401
+          ],
+          [
+            8.3301185,
+            50.141145201
+          ],
+          [
+            8.330337473,
+            50.140828462
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-18_17-36-35-000.f_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -2171,9 +2217,9 @@
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Logebachtal - Bonn/Siegburg",
       "startTimestamp": "2026-01-18T16:53:30+01:00",
-      "delayTimeValue": "20",
+      "delayTimeValue": "12",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10.300000190734863",
+      "averageSpeed": "16.200000762939453",
       "coordinate": {
         "lat": 50.68030174742138,
         "long": 7.281016085390379
@@ -2185,8 +2231,8 @@
         "A3: Frankfurt -> Köln, zwischen 1.3 km hinter Logebachtal und 8.0 km vor AK Bonn/Siegburg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 20 Minuten",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
+        "Reisezeitverlust: 12 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2361,21 +2407,21 @@
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Siebengebirge - Siebengebirge",
-      "startTimestamp": "2026-01-18T18:37:00+01:00",
+      "startTimestamp": "2026-01-18T18:42:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10",
+      "averageSpeed": "16",
       "coordinate": {
         "lat": 50.68038804755188,
         "long": 7.280892005514777
       },
       "description": [
-        "Beginn: 18.01.26 um 18:37 Uhr",
+        "Beginn: 18.01.26 um 18:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.01.2026, 18:37",
+        "Angespannte Verkehrslage, seit 18.01.2026, 18:42",
         "A3: Frankfurt -> Köln, 0.7 km vor AS Siebengebirge, aus Richtung Logebachtal",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2634,7 +2680,7 @@
       }
     },
     {
-      "identifier": "NLR_2026_000180--vi-unf.2026-01-18_17-04-00-228.de0",
+      "identifier": "NLR_2026_000180--vi-unf.2026-01-18_17-36-00-256.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -3276,29 +3322,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.17375572286115,6.9508607296679505,51.117187960579535,6.984450642033786",
-      "point": "51.17375572286115,6.9508607296679505",
+      "extent": "51.165337900935356,6.956958199996737,51.11552055272206,6.985712547652806",
+      "point": "51.165337900935356,6.956958199996737",
       "startLcPosition": "221",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Hilden - Langenfeld",
       "startTimestamp": "2026-01-18T17:25:00+01:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "48.900001525878906",
+      "averageSpeed": "50.20000076293945",
       "coordinate": {
-        "lat": 51.17375572286115,
-        "long": 6.9508607296679505
+        "lat": 51.165337900935356,
+        "long": 6.956958199996737
       },
       "description": [
         "Beginn: 18.01.26 um 17:25 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 18.01.2026, 17:25",
-        "A3: Oberhausen -> Köln, zwischen 2.5 km hinter AK Hilden und 0.4 km vor AD Langenfeld",
+        "A3: Oberhausen -> Köln, zwischen 3.5 km hinter AK Hilden und 0.2 km vor AD Langenfeld",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 48 km/h"
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 50 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3307,38 +3353,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            6.95086073,
-            51.173755723
-          ],
-          [
-            6.9509585,
-            51.173581801
-          ],
-          [
-            6.9513993,
-            51.172817701
-          ],
-          [
-            6.9515119,
-            51.172634201
-          ],
-          [
-            6.9521411,
-            51.171688001
-          ],
-          [
-            6.9547548,
-            51.168243001
-          ],
-          [
-            6.955025,
-            51.167871301
-          ],
-          [
-            6.9568196,
-            51.165532801
-          ],
           [
             6.9569582,
             51.165337901
@@ -3496,8 +3510,24 @@
             51.117955301
           ],
           [
-            6.984450642,
-            51.117187961
+            6.9848602,
+            51.116708101
+          ],
+          [
+            6.9850922,
+            51.116400301
+          ],
+          [
+            6.9853334,
+            51.116083001
+          ],
+          [
+            6.9856539,
+            51.115621101
+          ],
+          [
+            6.985712548,
+            51.115520553
           ]
         ]
       }
@@ -3507,29 +3537,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.4193615799434,6.7970663281594605,51.435584466790736,6.8082746327120285",
-      "point": "51.4193615799434,6.7970663281594605",
+      "extent": "51.41600386765509,6.798038169620018,51.43264338101689,6.808166026456411",
+      "point": "51.41600386765509,6.798038169620018",
       "startLcPosition": "229",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Duisburg-Wedau - Kaiserberg",
       "startTimestamp": "2026-01-18T16:04:30+01:00",
-      "delayTimeValue": "4",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "21.5",
+      "averageSpeed": "23.799999237060547",
       "coordinate": {
-        "lat": 51.4193615799434,
-        "long": 6.7970663281594605
+        "lat": 51.41600386765509,
+        "long": 6.798038169620018
       },
       "description": [
         "Beginn: 18.01.26 um 16:04 Uhr",
         "",
         "Angespannte Verkehrslage, seit 18.01.2026, 16:04",
-        "A3: Köln -> Oberhausen, zwischen 1.2 km hinter AS Duisburg-Wedau und 1.4 km vor AK Kaiserberg",
+        "A3: Köln -> Oberhausen, zwischen 0.8 km hinter AS Duisburg-Wedau und 1.7 km vor AK Kaiserberg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3539,8 +3569,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.797066328,
-            51.41936158
+            6.79803817,
+            51.416003868
+          ],
+          [
+            6.7979283,
+            51.416265801
+          ],
+          [
+            6.7977877,
+            51.416613901
+          ],
+          [
+            6.7975865,
+            51.417081801
+          ],
+          [
+            6.797406,
+            51.417537501
+          ],
+          [
+            6.7972665,
+            51.417940601
+          ],
+          [
+            6.7971473,
+            51.418422301
+          ],
+          [
+            6.7970872,
+            51.418832301
+          ],
+          [
+            6.7970644,
+            51.419266901
           ],
           [
             6.7970741,
@@ -3627,32 +3689,8 @@
             51.432393401
           ],
           [
-            6.8082012,
-            51.432863601
-          ],
-          [
-            6.8083211,
-            51.433453301
-          ],
-          [
-            6.8083663,
-            51.433761001
-          ],
-          [
-            6.8083915,
-            51.434285401
-          ],
-          [
-            6.808371,
-            51.434999701
-          ],
-          [
-            6.8083354,
-            51.435281201
-          ],
-          [
-            6.808274633,
-            51.435584467
+            6.808166026,
+            51.432643381
           ]
         ]
       }
@@ -3662,27 +3700,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.4193615799434,6.7970663281594605,51.4193615799434,6.7970663281594605",
-      "point": "51.4193615799434,6.7970663281594605",
+      "extent": "51.41600386765509,6.798038169620018,51.41600386765509,6.798038169620018",
+      "point": "51.41600386765509,6.798038169620018",
       "startLcPosition": "230",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Kaiserberg - Kaiserberg",
-      "startTimestamp": "2026-01-18T18:37:00+01:00",
+      "startTimestamp": "2026-01-18T18:42:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13",
+      "averageSpeed": "24",
       "coordinate": {
-        "lat": 51.4193615799434,
-        "long": 6.7970663281594605
+        "lat": 51.41600386765509,
+        "long": 6.798038169620018
       },
       "description": [
-        "Beginn: 18.01.26 um 18:37 Uhr",
+        "Beginn: 18.01.26 um 18:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.01.2026, 18:37",
-        "A3: Köln -> Oberhausen, 3.4 km vor AK Kaiserberg, aus Richtung Duisburg-Wedau",
+        "Angespannte Verkehrslage, seit 18.01.2026, 18:42",
+        "A3: Köln -> Oberhausen, 3.8 km vor AK Kaiserberg, aus Richtung Duisburg-Wedau",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Durchschnittsgeschwindigkeit: 24 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -3692,12 +3730,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.797066328,
-            51.41936158
+            6.79803817,
+            51.416003868
           ],
           [
-            6.797066328,
-            51.41936158
+            6.79803817,
+            51.416003868
           ]
         ]
       }
