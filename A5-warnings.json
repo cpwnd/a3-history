@@ -1,16 +1,16 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-18_15-04-00-000.f_004.de0",
+      "identifier": "undefined--vi-hind.2026-01-18_15-04-00-000.f_007.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.67383402287455,8.05386937390287,48.676054659281874,8.056232077044971",
+      "extent": "48.67383402287455,8.05386937390287,48.67442583806062,8.054511153043636",
       "point": "48.67383402287455,8.05386937390287",
       "startLcPosition": "45",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Feldmatt - Bühl",
+      "title": "A5 | Feldmatt - Brachfeld",
       "startTimestamp": "2026-01-18T15:04:00+01:00",
       "coordinate": {
         "lat": 48.67383402287455,
@@ -20,7 +20,7 @@
         "Beginn: 18.01.26 um 15:04 Uhr",
         "",
         "Fahrzeug-Hindernis, seit 18.01.2026, 15:04",
-        "A5: Basel -> Karlsruhe, zwischen 2.1 km hinter Feldmatt und 6.6 km vor AS Bühl",
+        "A5: Basel -> Karlsruhe, zwischen 2.1 km hinter Feldmatt und 0.1 km vor Brachfeld",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -39,44 +39,38 @@
             48.674170201
           ],
           [
-            8.0556568,
-            48.675497201
-          ],
-          [
-            8.056232077,
-            48.676054659
+            8.054511153,
+            48.674425838
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-01-18_16-10-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-01-18_16-32-34-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.59857715724747,7.6028388017030455,47.59632940094862,7.603563599999228",
-      "point": "47.59857715724747,7.6028388017030455",
-      "startLcPosition": "1000",
+      "extent": "50.70520040093779,9.054390300000007,50.70520040093779,9.054390300000007",
+      "point": "50.70520040093779,9.054390300000007",
+      "startLcPosition": "130",
       "display_type": "WARNING",
-      "subtitle": " km 812.65 --> km 812.91",
-      "title": "Baustelle",
-      "startTimestamp": "2026-01-18T16:10:30+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "15",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Homberg (Ohm) - Homberg (Ohm)",
+      "startTimestamp": "2026-01-18T16:32:34+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "26",
       "coordinate": {
-        "lat": 47.59857715724747,
-        "long": 7.6028388017030455
+        "lat": 50.70520040093779,
+        "long": 9.054390300000007
       },
       "description": [
-        "Beginn: 18.01.26 um 16:10 Uhr",
+        "Beginn: 18.01.26 um 16:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 18.01.2026, 16:10",
-        "A5: km 812.65 --> km 812.91",
+        "Angespannte Verkehrslage, seit 18.01.2026, 16:32",
+        "A5: Kassel -> Frankfurt, 8.4 km vor AS Homberg (Ohm), aus Richtung Ohmtal-Dreieck",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 15 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 26 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -86,13 +80,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.602838802,
-            47.598577157
+            9.0543903,
+            50.705200401
           ],
           [
-            7.6029111,
-            47.598352001
-          ],
+            9.0543903,
+            50.705200401
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-18_16-30-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.597871200948624,7.603066299999224,47.59632940094862,7.603563599999228",
+      "point": "47.597871200948624,7.603066299999224",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.73 --> km 812.91",
+      "title": "Baustelle",
+      "startTimestamp": "2026-01-18T16:30:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "8.399999618530273",
+      "coordinate": {
+        "lat": 47.597871200948624,
+        "long": 7.603066299999224
+      },
+      "description": [
+        "Beginn: 18.01.26 um 16:30 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 18.01.2026, 16:30",
+        "A5: km 812.73 --> km 812.91",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 8 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             7.6030663,
             47.597871201
