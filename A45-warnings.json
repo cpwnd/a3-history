@@ -12,9 +12,9 @@
       "subtitle": " Aschaffenburg -> Gießen",
       "title": "A45 | Mainhausen - Kleinostheim",
       "startTimestamp": "2026-01-23T08:24:20+01:00",
-      "delayTimeValue": "2",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "13.100000381469727",
+      "averageSpeed": "16.5",
       "coordinate": {
         "lat": 50.01008280094109,
         "long": 9.02900530000001
@@ -26,8 +26,8 @@
         "A45: Aschaffenburg -> Gießen, zwischen 0.2 km hinter AS Mainhausen und 1.2 km vor AS Kleinostheim",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 13 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -86,7 +86,7 @@
       "display_type": "WARNING",
       "subtitle": " Aschaffenburg -> Gießen",
       "title": "A45 | Kleinostheim - Kleinostheim",
-      "startTimestamp": "2026-01-23T08:31:19+01:00",
+      "startTimestamp": "2026-01-23T08:48:07+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
       "averageSpeed": "9",
       "coordinate": {
@@ -94,9 +94,9 @@
         "long": 9.028932723343809
       },
       "description": [
-        "Beginn: 23.01.26 um 08:31 Uhr",
+        "Beginn: 23.01.26 um 08:48 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 23.01.2026, 08:31",
+        "Angespannte Verkehrslage, seit 23.01.2026, 08:48",
         "A45: Aschaffenburg -> Gießen, 1.9 km vor AS Kleinostheim, aus Richtung Mainhausen",
         "",
         "Im Stillstand",
@@ -121,23 +121,23 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2026-01-23_06-22-00-000.f.de0",
+      "identifier": "undefined--vi-zus.2026-01-23_06-22-00-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.60759838660493,8.433609207530095,50.618549000938216,8.386228799999822",
-      "point": "50.60759838660493,8.433609207530095",
+      "extent": "50.60752588959905,8.433988149165486,50.618549000938216,8.386228799999822",
+      "point": "50.60752588959905,8.433988149165486",
       "startLcPosition": "29",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Hagen",
       "title": "A45 | Wetzlarer Kreuz - Ehringshausen",
       "startTimestamp": "2026-01-23T06:22:00+01:00",
-      "delayTimeValue": "7",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "22.200000762939453",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "29.899999618530273",
       "coordinate": {
-        "lat": 50.60759838660493,
-        "long": 8.433609207530095
+        "lat": 50.60752588959905,
+        "long": 8.433988149165486
       },
       "description": [
         "Beginn: 23.01.26 um 06:22 Uhr",
@@ -145,9 +145,9 @@
         "Zusammengesetzte Verkehrsinformation, seit 23.01.2026, 06:22",
         "A45: Gießen -> Hagen, zwischen 4.2 km hinter AK Wetzlarer Kreuz und 0.2 km vor AS Ehringshausen",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 7 Minuten",
-        "Durchschnittsgeschwindigkeit: 22 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 5 Minuten",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -157,8 +157,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.433609208,
-            50.607598387
+            8.433988149,
+            50.60752589
           ],
           [
             8.4333828,
@@ -387,51 +387,6 @@
           [
             8.3862288,
             50.618549001
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2026-01-23_06-46-30-000.f_004.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.607629456371534,8.433446803618324,50.607629456371534,8.433446803618324",
-      "point": "50.607629456371534,8.433446803618324",
-      "startLcPosition": "30",
-      "display_type": "WARNING",
-      "subtitle": " Gießen -> Hagen",
-      "title": "A45 | Lemperberg - Lemperberg",
-      "startTimestamp": "2026-01-23T08:32:13+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "28",
-      "coordinate": {
-        "lat": 50.607629456371534,
-        "long": 8.433446803618324
-      },
-      "description": [
-        "Beginn: 23.01.26 um 08:32 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 23.01.2026, 08:32",
-        "A45: Gießen -> Hagen, 1.5 km vor Lemperberg, aus Richtung Wetzlarer Kreuz",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 28 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.433446804,
-            50.607629456
-          ],
-          [
-            8.433446804,
-            50.607629456
           ]
         ]
       }
@@ -957,7 +912,52 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2026-01-23_02-52-30-000.f_013.de0",
+      "identifier": "undefined--vi-avl.2026-01-23_06-46-30-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.60753106799766,8.433961081944133,50.60753106799766,8.433961081944133",
+      "point": "50.60753106799766,8.433961081944133",
+      "startLcPosition": "30",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Hagen",
+      "title": "A45 | Lemperberg - Lemperberg",
+      "startTimestamp": "2026-01-23T08:48:07+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "28",
+      "coordinate": {
+        "lat": 50.60753106799766,
+        "long": 8.433961081944133
+      },
+      "description": [
+        "Beginn: 23.01.26 um 08:48 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 23.01.2026, 08:48",
+        "A45: Gießen -> Hagen, 1.6 km vor Lemperberg, aus Richtung Wetzlarer Kreuz",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.433961082,
+            50.607531068
+          ],
+          [
+            8.433961082,
+            50.607531068
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2026-01-23_02-52-30-000.f_014.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1451,7 +1451,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2026-01-23_07-41-02-000.f_002.de0",
+      "identifier": "undefined--vi-zus.2026-01-23_07-41-02-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1557,31 +1557,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-01-23_06-51-00-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2026-01-23_08-47-12-000.f_004.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.660702387474814,8.315787987364283,50.660702387474814,8.315787987364283",
-      "point": "50.660702387474814,8.315787987364283",
-      "startLcPosition": "36",
+      "extent": "50.65067312519912,8.321543834585956,50.65067312519912,8.321543834585956",
+      "point": "50.65067312519912,8.321543834585956",
+      "startLcPosition": "35",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Herborn-Süd - Herborn-Süd",
-      "startTimestamp": "2026-01-23T08:31:19+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "22",
+      "title": "A45 | Hohenrain - Hohenrain",
+      "startTimestamp": "2026-01-23T08:47:12+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "29",
       "coordinate": {
-        "lat": 50.660702387474814,
-        "long": 8.315787987364283
+        "lat": 50.65067312519912,
+        "long": 8.321543834585956
       },
       "description": [
-        "Beginn: 23.01.26 um 08:31 Uhr",
+        "Beginn: 23.01.26 um 08:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 23.01.2026, 08:31",
-        "A45: Hagen -> Gießen, in Höhe AS Herborn-Süd, aus Richtung Am Rehberg",
+        "Angespannte Verkehrslage, seit 23.01.2026, 08:47",
+        "A45: Hagen -> Gießen, 0.3 km vor Hohenrain, aus Richtung Herborn-Süd",
         "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 22 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 29 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1591,12 +1591,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.315787987,
-            50.660702387
+            8.321543835,
+            50.650673125
           ],
           [
-            8.315787987,
-            50.660702387
+            8.321543835,
+            50.650673125
           ]
         ]
       }
@@ -1606,29 +1606,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.66073501935523,8.315720383929984,50.62495841614433,8.347539749308922",
-      "point": "50.66073501935523,8.315720383929984",
-      "startLcPosition": "37",
+      "extent": "50.64913408268129,8.322536446010501,50.62501555276421,8.346891477419327",
+      "point": "50.64913408268129,8.322536446010501",
+      "startLcPosition": "36",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Gießen",
-      "title": "A45 | Am Rehberg - Volkersbach",
+      "title": "A45 | Herborn-Süd - Volkersbach",
       "startTimestamp": "2026-01-23T06:01:30+01:00",
-      "delayTimeValue": "9",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "22.799999237060547",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "28.700000762939453",
       "coordinate": {
-        "lat": 50.66073501935523,
-        "long": 8.315720383929984
+        "lat": 50.64913408268129,
+        "long": 8.322536446010501
       },
       "description": [
         "Beginn: 23.01.26 um 06:01 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 23.01.2026, 06:01",
-        "A45: Hagen -> Gießen, zwischen 2.0 km hinter Am Rehberg und 0.1 km vor Volkersbach",
+        "A45: Hagen -> Gießen, zwischen 1.4 km hinter AS Herborn-Süd und 0.2 km vor Volkersbach",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 9 Minuten",
-        "Durchschnittsgeschwindigkeit: 22 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 28 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1638,108 +1638,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.315720384,
-            50.660735019
-          ],
-          [
-            8.3162429,
-            50.660482801
-          ],
-          [
-            8.3165931,
-            50.660296101
-          ],
-          [
-            8.317126,
-            50.660005701
-          ],
-          [
-            8.3180365,
-            50.659426501
-          ],
-          [
-            8.3185033,
-            50.659072601
-          ],
-          [
-            8.3189006,
-            50.658707901
-          ],
-          [
-            8.3191114,
-            50.658487701
-          ],
-          [
-            8.3194241,
-            50.658116701
-          ],
-          [
-            8.3196269,
-            50.657821501
-          ],
-          [
-            8.3198629,
-            50.657395401
-          ],
-          [
-            8.3199884,
-            50.657110401
-          ],
-          [
-            8.3200559,
-            50.656917401
-          ],
-          [
-            8.3201851,
-            50.656447701
-          ],
-          [
-            8.3202853,
-            50.655860101
-          ],
-          [
-            8.3203804,
-            50.654522301
-          ],
-          [
-            8.320426,
-            50.654091401
-          ],
-          [
-            8.3204893,
-            50.653661401
-          ],
-          [
-            8.3205703,
-            50.653232501
-          ],
-          [
-            8.320669,
-            50.652805201
-          ],
-          [
-            8.3207569,
-            50.652466401
-          ],
-          [
-            8.3208829,
-            50.652064401
-          ],
-          [
-            8.3210209,
-            50.651704901
-          ],
-          [
-            8.3213379,
-            50.651017801
-          ],
-          [
-            8.321805,
-            50.650236001
-          ],
-          [
-            8.3223538,
-            50.649398401
+            8.322536446,
+            50.649134083
           ],
           [
             8.3230667,
@@ -1918,12 +1818,8 @@
             50.625111301
           ],
           [
-            8.3470769,
-            50.624995601
-          ],
-          [
-            8.347539749,
-            50.624958416
+            8.346891477,
+            50.625015553
           ]
         ]
       }
