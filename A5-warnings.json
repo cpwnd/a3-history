@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-23_11-57-21-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2026-01-23_11-57-21-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -886,7 +886,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-01-23_10-14-35-000.f_006.de0",
+      "identifier": "undefined--vi-hind.2026-01-23_10-14-35-000.f_007.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1206,33 +1206,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-01-23_12-01-25-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-01-23_12-37-48-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.25772511062868,8.602721878292698,49.244980547187254,8.60072725399011",
-      "point": "49.25772511062868,8.602721878292698",
-      "startLcPosition": "69",
+      "extent": "49.26086781998531,8.605256651657715,49.26086781998531,8.605256651657715",
+      "point": "49.26086781998531,8.605256651657715",
+      "startLcPosition": "68",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Walldorf - Kronau",
-      "startTimestamp": "2026-01-23T12:01:25+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "46.900001525878906",
+      "title": "A5 | Lußhardt - Lußhardt",
+      "startTimestamp": "2026-01-23T12:37:48+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "23",
       "coordinate": {
-        "lat": 49.25772511062868,
-        "long": 8.602721878292698
+        "lat": 49.26086781998531,
+        "long": 8.605256651657715
       },
       "description": [
-        "Beginn: 23.01.26 um 12:01 Uhr",
+        "Beginn: 23.01.26 um 12:37 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 23.01.2026, 12:01",
-        "A5: Heidelberg -> Karlsruhe, zwischen 2.9 km hinter AK Walldorf und 2.0 km vor AS Kronau",
+        "Angespannte Verkehrslage, seit 23.01.2026, 12:37",
+        "A5: Heidelberg -> Karlsruhe, 0.4 km vor Lußhardt, aus Richtung Walldorf",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 46 km/h"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 23 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1242,8 +1240,67 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.602721878,
-            49.257725111
+            8.605256652,
+            49.26086782
+          ],
+          [
+            8.605256652,
+            49.26086782
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-23_12-01-25-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.260643767911134,8.605070398040422,49.244926776655035,8.60073434915619",
+      "point": "49.260643767911134,8.605070398040422",
+      "startLcPosition": "69",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Walldorf - Kronau",
+      "startTimestamp": "2026-01-23T12:01:25+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "36.400001525878906",
+      "coordinate": {
+        "lat": 49.260643767911134,
+        "long": 8.605070398040422
+      },
+      "description": [
+        "Beginn: 23.01.26 um 12:01 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 23.01.2026, 12:01",
+        "A5: Heidelberg -> Karlsruhe, zwischen 2.5 km hinter AK Walldorf und 2.0 km vor AS Kronau",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 36 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.605070398,
+            49.260643768
+          ],
+          [
+            8.6050321,
+            49.260597601
+          ],
+          [
+            8.6040619,
+            49.259428201
+          ],
+          [
+            8.6032417,
+            49.258421901
           ],
           [
             8.6025623,
@@ -1342,8 +1399,12 @@
             49.245736801
           ],
           [
-            8.600727254,
-            49.244980547
+            8.6007297,
+            49.244961701
+          ],
+          [
+            8.600734349,
+            49.244926777
           ]
         ]
       }
