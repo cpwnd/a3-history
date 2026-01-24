@@ -1063,29 +1063,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.681338761348016,7.279729818531597,50.71211872852321,7.244086246414133",
-      "point": "50.681338761348016,7.279729818531597",
+      "extent": "50.68469425544319,7.276367811591138,50.71211872852321,7.244086246414133",
+      "point": "50.68469425544319,7.276367811591138",
       "startLcPosition": "195",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Logebachtal - Bonn/Siegburg",
       "startTimestamp": "2026-01-24T13:41:27+01:00",
-      "delayTimeValue": "13",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "16.600000381469727",
+      "averageSpeed": "20.600000381469727",
       "coordinate": {
-        "lat": 50.681338761348016,
-        "long": 7.279729818531597
+        "lat": 50.68469425544319,
+        "long": 7.276367811591138
       },
       "description": [
         "Beginn: 24.01.26 um 13:41 Uhr",
         "",
         "Angespannte Verkehrslage, seit 24.01.2026, 13:41",
-        "A3: Frankfurt -> Köln, zwischen 1.4 km hinter Logebachtal und 7.5 km vor AK Bonn/Siegburg",
+        "A3: Frankfurt -> Köln, zwischen 1.8 km hinter Logebachtal und 7.5 km vor AK Bonn/Siegburg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 13 Minuten",
-        "Durchschnittsgeschwindigkeit: 16 km/h"
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1095,12 +1095,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.279729819,
-            50.681338761
-          ],
-          [
-            7.2764438,
-            50.684618401
+            7.276367812,
+            50.684694255
           ],
           [
             7.2759923,
@@ -1278,27 +1274,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.68132359114945,7.279745016933495,50.68132359114945,7.279745016933495",
-      "point": "50.68132359114945,7.279745016933495",
+      "extent": "50.684830793419316,7.27623103183597,50.684830793419316,7.27623103183597",
+      "point": "50.684830793419316,7.27623103183597",
       "startLcPosition": "196",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Siebengebirge - Siebengebirge",
-      "startTimestamp": "2026-01-24T16:38:00+01:00",
+      "startTimestamp": "2026-01-24T16:41:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "17",
+      "averageSpeed": "9",
       "coordinate": {
-        "lat": 50.68132359114945,
-        "long": 7.279745016933495
+        "lat": 50.684830793419316,
+        "long": 7.27623103183597
       },
       "description": [
-        "Beginn: 24.01.26 um 16:38 Uhr",
+        "Beginn: 24.01.26 um 16:41 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 24.01.2026, 16:38",
-        "A3: Frankfurt -> Köln, 0.6 km vor AS Siebengebirge, aus Richtung Logebachtal",
+        "Angespannte Verkehrslage, seit 24.01.2026, 16:41",
+        "A3: Frankfurt -> Köln, 0.2 km vor AS Siebengebirge, aus Richtung Logebachtal",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 17 km/h"
+        "Durchschnittsgeschwindigkeit: 9 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1308,12 +1304,57 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.279745017,
-            50.681323591
+            7.276231032,
+            50.684830793
           ],
           [
-            7.279745017,
-            50.681323591
+            7.276231032,
+            50.684830793
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-01-24_16-40-34-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.687181533679585,7.273597270418494,50.686330793870454,7.27445070232114",
+      "point": "50.687181533679585,7.273597270418494",
+      "startLcPosition": "197",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Bonn/Siegburg - Siebengebirge",
+      "startTimestamp": "2026-01-24T16:40:34+01:00",
+      "coordinate": {
+        "lat": 50.687181533679585,
+        "long": 7.273597270418494
+      },
+      "description": [
+        "Beginn: 24.01.26 um 16:40 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 24.01.2026, 16:40",
+        "A3: Köln -> Frankfurt, zwischen 11.0 km hinter AK Bonn/Siegburg und 0.1 km vor AS Siebengebirge",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.27359727,
+            50.687181534
+          ],
+          [
+            7.2741694,
+            50.686611401
+          ],
+          [
+            7.274450702,
+            50.686330794
           ]
         ]
       }
@@ -1393,27 +1434,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.07932089889618,6.98810010013581,51.07932089889618,6.98810010013581",
-      "point": "51.07932089889618,6.98810010013581",
+      "extent": "51.077771897640716,6.98803781722398,51.077771897640716,6.98803781722398",
+      "point": "51.077771897640716,6.98803781722398",
       "startLcPosition": "211",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Leverkusen-Opladen - Leverkusen-Opladen",
-      "startTimestamp": "2026-01-24T16:38:00+01:00",
+      "startTimestamp": "2026-01-24T16:41:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "12",
+      "averageSpeed": "17",
       "coordinate": {
-        "lat": 51.07932089889618,
-        "long": 6.98810010013581
+        "lat": 51.077771897640716,
+        "long": 6.98803781722398
       },
       "description": [
-        "Beginn: 24.01.26 um 16:38 Uhr",
+        "Beginn: 24.01.26 um 16:41 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 24.01.2026, 16:38",
-        "A3: Oberhausen -> Köln, 2.6 km vor AS Leverkusen-Opladen, aus Richtung Reusrather Heide",
+        "Angespannte Verkehrslage, seit 24.01.2026, 16:41",
+        "A3: Oberhausen -> Köln, 2.5 km vor AS Leverkusen-Opladen, aus Richtung Reusrather Heide",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
+        "Durchschnittsgeschwindigkeit: 17 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1423,12 +1464,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.9881001,
-            51.079320899
+            6.988037817,
+            51.077771898
           ],
           [
-            6.9881001,
-            51.079320899
+            6.988037817,
+            51.077771898
           ]
         ]
       }
@@ -1438,31 +1479,31 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.07942874651627,6.988104436728885,51.030556051894884,7.00995053544611",
-      "point": "51.07942874651627,6.988104436728885",
+      "extent": "51.077924681814494,6.988043959905953,51.030556051894884,7.00995053544611",
+      "point": "51.077924681814494,6.988043959905953",
       "startLcPosition": "212",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Reusrather Heide - Leverkusen-Zentrum",
       "startTimestamp": "2026-01-24T04:39:30+01:00",
-      "delayTimeValue": "26",
+      "delayTimeValue": "17",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "12.100000381469727",
+      "averageSpeed": "16.899999618530273",
       "coordinate": {
-        "lat": 51.07942874651627,
-        "long": 6.988104436728885
+        "lat": 51.077924681814494,
+        "long": 6.988043959905953
       },
       "description": [
         "Beginn: 24.01.26 um 04:39 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 24.01.2026, 04:39",
-        "A3: Oberhausen -> Köln, zwischen 0.6 km hinter Reusrather Heide und 0.8 km vor AS Leverkusen-Zentrum",
+        "A3: Oberhausen -> Köln, zwischen 0.8 km hinter Reusrather Heide und 0.8 km vor AS Leverkusen-Zentrum",
         "",
         "Gefahr durch eine ungesicherte Unfallstelle",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 26 Minuten",
-        "Durchschnittsgeschwindigkeit: 12 km/h"
+        "Reisezeitverlust: 17 Minuten",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1472,12 +1513,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.988104437,
-            51.079428747
-          ],
-          [
-            6.9880548,
-            51.078194301
+            6.98804396,
+            51.077924682
           ],
           [
             6.9880116,
@@ -1739,8 +1776,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.13456784125773,6.972777241189024,51.11877168841542,6.983005587340146",
-      "point": "51.13456784125773,6.972777241189024",
+      "extent": "51.13581109704191,6.972316585180501,51.11849410879162,6.983276065290074",
+      "point": "51.13581109704191,6.972316585180501",
       "startLcPosition": "216",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
@@ -1748,20 +1785,20 @@
       "startTimestamp": "2026-01-24T12:29:12+01:00",
       "delayTimeValue": "0",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "55.599998474121094",
+      "averageSpeed": "53",
       "coordinate": {
-        "lat": 51.13456784125773,
-        "long": 6.972777241189024
+        "lat": 51.13581109704191,
+        "long": 6.972316585180501
       },
       "description": [
         "Beginn: 24.01.26 um 12:29 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 24.01.2026, 12:29",
-        "A3: Oberhausen -> Köln, zwischen 2.7 km hinter Ohligser Heide und 0.6 km vor AD Langenfeld",
+        "A3: Oberhausen -> Köln, zwischen 2.6 km hinter Ohligser Heide und 0.6 km vor AD Langenfeld",
         "",
         "Langsamer Verkehr",
         "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 55 km/h"
+        "Durchschnittsgeschwindigkeit: 53 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1771,8 +1808,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.972777241,
-            51.134567841
+            6.972316585,
+            51.135811097
           ],
           [
             6.9734925,
@@ -1839,8 +1876,12 @@
             51.121158501
           ],
           [
-            6.983005587,
-            51.118771688
+            6.9831723,
+            51.118601701
+          ],
+          [
+            6.983276065,
+            51.118494109
           ]
         ]
       }
@@ -1886,122 +1927,6 @@
           [
             6.6157966,
             51.724777587
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2026-01-24_16-38-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89840069464824,6.165719616420279,51.89840069464824,6.165719616420279",
-      "point": "51.89840069464824,6.165719616420279",
-      "startLcPosition": "257",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Knauheide - Knauheide",
-      "startTimestamp": "2026-01-24T16:38:00+01:00",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "22",
-      "coordinate": {
-        "lat": 51.89840069464824,
-        "long": 6.165719616420279
-      },
-      "description": [
-        "Beginn: 24.01.26 um 16:38 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 24.01.2026, 16:38",
-        "A3: Arnheim -> Oberhausen, 0.1 km vor Knauheide, aus Richtung Elten",
-        "",
-        "Langsamer Verkehr",
-        "Durchschnittsgeschwindigkeit: 22 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.165719616,
-            51.898400695
-          ],
-          [
-            6.165719616,
-            51.898400695
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2026-01-24_16-37-07-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.89836274669365,6.16575851434623,51.890339475920875,6.173993224612372",
-      "point": "51.89836274669365,6.16575851434623",
-      "startLcPosition": "258",
-      "display_type": "WARNING",
-      "subtitle": " Arnheim -> Oberhausen",
-      "title": "A3 | Elten - Elten",
-      "startTimestamp": "2026-01-24T16:37:07+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "51.79999923706055",
-      "coordinate": {
-        "lat": 51.89836274669365,
-        "long": 6.16575851434623
-      },
-      "description": [
-        "Beginn: 24.01.26 um 16:37 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 24.01.2026, 16:37",
-        "A3: Arnheim -> Oberhausen, zwischen 0.4 km hinter Elten und 0.7 km vor AS Elten",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 51 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.165758514,
-            51.898362747
-          ],
-          [
-            6.1665101,
-            51.897629501
-          ],
-          [
-            6.1668453,
-            51.897289501
-          ],
-          [
-            6.1686237,
-            51.895575501
-          ],
-          [
-            6.1688771,
-            51.895327101
-          ],
-          [
-            6.1696626,
-            51.894557001
-          ],
-          [
-            6.1714999,
-            51.892786101
-          ],
-          [
-            6.173993225,
-            51.890339476
           ]
         ]
       }
