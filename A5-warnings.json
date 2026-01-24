@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-01-24_11-46-37-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-01-24_12-05-13-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.63300076720266,7.569555104470432,47.634153896338326,7.568419328319711",
-      "point": "47.63300076720266,7.569555104470432",
-      "startLcPosition": "4",
+      "extent": "47.60111694744367,7.601986641833312,47.60111694744367,7.601986641833312",
+      "point": "47.60111694744367,7.601986641833312",
+      "startLcPosition": "1",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Weil am Rhein - Efringen-Kirchen",
-      "startTimestamp": "2026-01-24T11:46:37+01:00",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein - Weil am Rhein",
+      "startTimestamp": "2026-01-24T12:11:00+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "13",
       "coordinate": {
-        "lat": 47.63300076720266,
-        "long": 7.569555104470432
+        "lat": 47.60111694744367,
+        "long": 7.601986641833312
       },
       "description": [
-        "Beginn: 24.01.26 um 11:46 Uhr",
+        "Beginn: 24.01.26 um 12:11 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 24.01.2026, 11:46",
-        "A5: Basel -> Karlsruhe, zwischen 1.8 km hinter AD Weil am Rhein und 6.2 km vor AS Efringen-Kirchen",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 24.01.2026, 12:11",
+        "A5: Karlsruhe -> Basel, 0.4 km vor Weil am Rhein, aus Richtung Weil am Rhein/Hüningen",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 13 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,20 +35,83 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.569555104,
-            47.633000767
+            7.601986642,
+            47.601116947
           ],
           [
-            7.5694654,
-            47.633098601
+            7.601986642,
+            47.601116947
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-24_12-03-38-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.60110824595513,7.601990020751866,47.59688633382728,7.6033810785458975",
+      "point": "47.60110824595513,7.601990020751866",
+      "startLcPosition": "2",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein/Hüningen - Weil am Rhein/Basel",
+      "startTimestamp": "2026-01-24T12:03:38+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "18.799999237060547",
+      "coordinate": {
+        "lat": 47.60110824595513,
+        "long": 7.601990020751866
+      },
+      "description": [
+        "Beginn: 24.01.26 um 12:03 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.01.2026, 12:03",
+        "A5: Karlsruhe -> Basel, zwischen AS Weil am Rhein/Hüningen und Weil am Rhein/Basel",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.601990021,
+            47.601108246
           ],
           [
-            7.5688839,
-            47.633698201
+            7.60218,
+            47.600619001
           ],
           [
-            7.568419328,
-            47.634153896
+            7.6024754,
+            47.599729601
+          ],
+          [
+            7.6026559,
+            47.599157901
+          ],
+          [
+            7.6027982,
+            47.598703601
+          ],
+          [
+            7.6029111,
+            47.598352001
+          ],
+          [
+            7.6030663,
+            47.597871201
+          ],
+          [
+            7.603381079,
+            47.596886334
           ]
         ]
       }
