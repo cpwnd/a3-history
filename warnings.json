@@ -1,65 +1,6 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2026-01-25_00-12-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.45758743969853,13.375651548971637,48.459220524571634,13.375336019430383",
-      "point": "48.45758743969853,13.375651548971637",
-      "startLcPosition": "3",
-      "display_type": "WARNING",
-      "subtitle": " Linz -> Passau",
-      "title": "A3 | Rottal-West - Rottal-Ost",
-      "startTimestamp": "2026-01-25T00:12:00+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "8.300000190734863",
-      "coordinate": {
-        "lat": 48.45758743969853,
-        "long": 13.375651548971637
-      },
-      "description": [
-        "Beginn: 25.01.26 um 00:12 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 25.01.2026, 00:12",
-        "A3: Linz -> Passau, zwischen 0.2 km hinter Rottal-West und 0.1 km vor Rottal-Ost",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.375651549,
-            48.45758744
-          ],
-          [
-            13.3756409,
-            48.457642201
-          ],
-          [
-            13.3754919,
-            48.458500201
-          ],
-          [
-            13.3754062,
-            48.458919401
-          ],
-          [
-            13.375336019,
-            48.459220525
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "undefined--vi-hind.2026-01-25_00-01-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
@@ -582,33 +523,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-01-24_04-39-30-000.f_004.de0",
+      "identifier": "undefined--vi-avl.2026-01-25_00-32-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.05280288916061,6.994699336004026,51.028875166879764,7.010344747123027",
-      "point": "51.05280288916061,6.994699336004026",
-      "startLcPosition": "211",
+      "extent": "51.047912591522746,7.001776885037481,51.047912591522746,7.001776885037481",
+      "point": "51.047912591522746,7.001776885037481",
+      "startLcPosition": "210",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Leverkusen-Opladen - Leverkusen-Zentrum",
-      "startTimestamp": "2026-01-24T04:39:30+01:00",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "32",
+      "title": "A3 | Leverkusen - Leverkusen",
+      "startTimestamp": "2026-01-25T00:32:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "27",
       "coordinate": {
-        "lat": 51.05280288916061,
-        "long": 6.994699336004026
+        "lat": 51.047912591522746,
+        "long": 7.001776885037481
       },
       "description": [
-        "Beginn: 24.01.26 um 04:39 Uhr",
+        "Beginn: 25.01.26 um 00:32 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 24.01.2026, 04:39",
-        "A3: Oberhausen -> Köln, zwischen 0.4 km hinter AS Leverkusen-Opladen und 0.6 km vor AS Leverkusen-Zentrum",
+        "Angespannte Verkehrslage, seit 25.01.2026, 00:32",
+        "A3: Oberhausen -> Köln, 0.8 km vor AK Leverkusen, aus Richtung Leverkusen-Opladen",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 4 Minuten",
-        "Durchschnittsgeschwindigkeit: 32 km/h"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 27 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -618,28 +557,55 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.994699336,
-            51.052802889
+            7.001776885,
+            51.047912592
           ],
           [
-            6.9949534,
-            51.052588501
-          ],
+            7.001776885,
+            51.047912592
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-01-24_04-39-30-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.047912591522746,7.001776885037481,51.028875166879764,7.010344747123027",
+      "point": "51.047912591522746,7.001776885037481",
+      "startLcPosition": "211",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Leverkusen-Opladen - Leverkusen-Zentrum",
+      "startTimestamp": "2026-01-24T04:39:30+01:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "26.700000762939453",
+      "coordinate": {
+        "lat": 51.047912591522746,
+        "long": 7.001776885037481
+      },
+      "description": [
+        "Beginn: 24.01.26 um 04:39 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 24.01.2026, 04:39",
+        "A3: Oberhausen -> Köln, zwischen 1.1 km hinter AS Leverkusen-Opladen und 0.6 km vor AS Leverkusen-Zentrum",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 26 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            6.9955571,
-            51.052127901
-          ],
-          [
-            6.9977717,
-            51.050595301
-          ],
-          [
-            6.9997382,
-            51.049283401
-          ],
-          [
-            7.0006933,
-            51.048638101
+            7.001776885,
+            51.047912592
           ],
           [
             7.0018738,
