@@ -1,26 +1,26 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-02-01_06-33-30-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-02-01_07-14-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.15525213680257,7.759385619077104,48.15446650094743,7.75990529999948",
-      "point": "48.15525213680257,7.759385619077104",
-      "startLcPosition": "32",
+      "extent": "49.85094484185187,8.60732501418401,49.85209553635119,8.605605620604045",
+      "point": "49.85094484185187,8.60732501418401",
+      "startLcPosition": "93",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Herbolzheim - Riegel",
-      "startTimestamp": "2026-02-01T06:33:30+01:00",
+      "subtitle": " Heidelberg -> Darmstadt",
+      "title": "A5 | Darmstadt-Eberstadt - Darmstädter Kreuz",
+      "startTimestamp": "2026-02-01T07:14:30+01:00",
       "coordinate": {
-        "lat": 48.15525213680257,
-        "long": 7.759385619077104
+        "lat": 49.85094484185187,
+        "long": 8.60732501418401
       },
       "description": [
-        "Beginn: 01.02.26 um 06:33 Uhr",
+        "Beginn: 01.02.26 um 07:14 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 01.02.2026, 06:33",
-        "A5: Karlsruhe -> Basel, zwischen 8.2 km hinter AS Herbolzheim und AS Riegel",
+        "Fahrzeug-Hindernis, seit 01.02.2026, 07:14",
+        "A5: Heidelberg -> Darmstadt, zwischen 5.4 km hinter AS Darmstadt-Eberstadt und 0.9 km vor AK Darmstädter Kreuz",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -31,12 +31,69 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.759385619,
-            48.155252137
+            8.607325014,
+            49.850944842
           ],
           [
-            7.7599053,
-            48.154466501
+            8.6072778,
+            49.850974201
+          ],
+          [
+            8.6063945,
+            49.851549501
+          ],
+          [
+            8.6057922,
+            49.851962101
+          ],
+          [
+            8.605605621,
+            49.852095536
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-01_07-53-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.865815420925124,8.599682772174686,49.865815420925124,8.599682772174686",
+      "point": "49.865815420925124,8.599682772174686",
+      "startLcPosition": "94",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Darmstädter Kreuz - Darmstädter Kreuz",
+      "startTimestamp": "2026-02-01T07:53:30+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "14",
+      "coordinate": {
+        "lat": 49.865815420925124,
+        "long": 8.599682772174686
+      },
+      "description": [
+        "Beginn: 01.02.26 um 07:53 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.02.2026, 07:53",
+        "A5: Darmstadt -> Heidelberg, 1.0 km vor AK Darmstädter Kreuz, aus Richtung Darmstädter Nordkreuz",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.599682772,
+            49.865815421
+          ],
+          [
+            8.599682772,
+            49.865815421
           ]
         ]
       }
