@@ -5,29 +5,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.245213567405415,8.600930066158902,49.274039176576245,8.616357892511354",
-      "point": "49.245213567405415,8.600930066158902",
+      "extent": "49.246083123419055,8.6008201522158,49.274039176576245,8.616357892511354",
+      "point": "49.246083123419055,8.6008201522158",
       "startLcPosition": "66",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Kronau - Walldorf",
       "startTimestamp": "2026-02-01T12:07:30+01:00",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "47.29999923706055",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "38.5",
       "coordinate": {
-        "lat": 49.245213567405415,
-        "long": 8.600930066158902
+        "lat": 49.246083123419055,
+        "long": 8.6008201522158
       },
       "description": [
         "Beginn: 01.02.26 um 12:07 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.02.2026, 12:07",
-        "A5: Karlsruhe -> Heidelberg, zwischen 2.0 km hinter AS Kronau und 0.8 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 2.1 km hinter AS Kronau und 0.8 km vor AK Walldorf",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 2 Minuten",
-        "Durchschnittsgeschwindigkeit: 47 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 38 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.600930066,
-            49.245213567
+            8.600820152,
+            49.246083123
           ],
           [
             8.6008197,
@@ -235,47 +235,6 @@
           [
             8.616357893,
             49.274039177
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-02-01_11-18-00-000.f_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.97425113196683,8.603580008479845,49.975157660610456,8.603361782113414",
-      "point": "49.97425113196683,8.603580008479845",
-      "startLcPosition": "99",
-      "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Frankfurt",
-      "title": "A5 | Gräfenhausen - Langen/Mörfelden",
-      "startTimestamp": "2026-02-01T11:18:00+01:00",
-      "coordinate": {
-        "lat": 49.97425113196683,
-        "long": 8.603580008479845
-      },
-      "description": [
-        "Beginn: 01.02.26 um 11:18 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 01.02.2026, 11:18",
-        "A5: Darmstadt -> Frankfurt, zwischen 3.1 km hinter Gräfenhausen und 0.9 km vor AS Langen/Mörfelden",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.603580008,
-            49.974251132
-          ],
-          [
-            8.603361782,
-            49.975157661
           ]
         ]
       }
