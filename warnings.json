@@ -1,27 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-02-07_05-57-00-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2026-02-07_06-49-30-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.97688282931737,9.275791265090236,49.97651987140616,9.276897574110496",
-      "point": "49.97688282931737,9.275791265090236",
-      "startLcPosition": "135",
+      "extent": "50.970789226018645,7.029548459047519,50.970789226018645,7.029548459047519",
+      "point": "50.970789226018645,7.029548459047519",
+      "startLcPosition": "207",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Würzburg",
-      "title": "A3 | Röthenwald - Weibersbrunn",
-      "startTimestamp": "2026-02-07T05:57:00+01:00",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Köln-Dellbrück - Köln-Dellbrück",
+      "startTimestamp": "2026-02-07T06:58:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
       "coordinate": {
-        "lat": 49.97688282931737,
-        "long": 9.275791265090236
+        "lat": 50.970789226018645,
+        "long": 7.029548459047519
       },
       "description": [
-        "Beginn: 07.02.26 um 05:57 Uhr",
+        "Beginn: 07.02.26 um 06:58 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 07.02.2026, 05:57",
-        "A3: Frankfurt -> Würzburg, zwischen 1.1 km hinter Röthenwald und 6.6 km vor AS Weibersbrunn",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 07.02.2026, 06:58",
+        "A3: Oberhausen -> Köln, 0.5 km vor AS Köln-Dellbrück, aus Richtung Köln-Mülheim",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,16 +35,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.275791265,
-            49.976882829
+            7.029548459,
+            50.970789226
           ],
           [
-            9.2760925,
-            49.976783001
-          ],
-          [
-            9.276897574,
-            49.976519871
+            7.029548459,
+            50.970789226
           ]
         ]
       }
@@ -50,29 +50,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.96662157432512,7.031134650075543,50.947507986705574,7.038476934032516",
-      "point": "50.96662157432512,7.031134650075543",
-      "startLcPosition": "207",
+      "extent": "50.970789226018645,7.029548459047519,50.947507986705574,7.038476934032516",
+      "point": "50.970789226018645,7.029548459047519",
+      "startLcPosition": "208",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Frankfurt",
-      "title": "A3 | Köln-Dellbrück - Köln-Heumar",
+      "title": "A3 | Köln-Mülheim - Köln-Heumar",
       "startTimestamp": "2026-02-07T05:22:00+01:00",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "31.399999618530273",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "18.100000381469727",
       "coordinate": {
-        "lat": 50.96662157432512,
-        "long": 7.031134650075543
+        "lat": 50.970789226018645,
+        "long": 7.029548459047519
       },
       "description": [
         "Beginn: 07.02.26 um 05:22 Uhr",
         "",
         "Angespannte Verkehrslage, seit 07.02.2026, 05:22",
-        "A3: Oberhausen -> Frankfurt, zwischen AS Köln-Dellbrück und 3.1 km vor AD Köln-Heumar",
+        "A3: Oberhausen -> Frankfurt, zwischen 1.7 km hinter AS Köln-Mülheim und 3.1 km vor AD Köln-Heumar",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 31 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 7 Minuten",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -82,8 +82,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.03113465,
-            50.966621574
+            7.029548459,
+            50.970789226
+          ],
+          [
+            7.0296861,
+            50.970427001
+          ],
+          [
+            7.0304,
+            50.968544301
+          ],
+          [
+            7.031018,
+            50.966924001
           ],
           [
             7.0317209,
@@ -164,6 +176,47 @@
           [
             7.038476934,
             50.947507987
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-02-07_06-32-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.085372202613954,6.9886017184321885,51.08619003403399,6.988635370305777",
+      "point": "51.085372202613954,6.9886017184321885",
+      "startLcPosition": "212",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Reusrather Heide - Bergische Landstraße",
+      "startTimestamp": "2026-02-07T06:32:30+01:00",
+      "coordinate": {
+        "lat": 51.085372202613954,
+        "long": 6.9886017184321885
+      },
+      "description": [
+        "Beginn: 07.02.26 um 06:32 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 07.02.2026, 06:32",
+        "A3: Köln -> Oberhausen, zwischen Reusrather Heide und 2.1 km vor Bergische Landstraße",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.988601718,
+            51.085372203
+          ],
+          [
+            6.98863537,
+            51.086190034
           ]
         ]
       }
