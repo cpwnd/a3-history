@@ -407,27 +407,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-08_07-44-00-000.f_001.de0",
+      "identifier": "undefined--vi-avl.2026-02-08_08-17-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.67542556281317,7.293379287199861,50.674696410893816,7.295668866828057",
-      "point": "50.67542556281317,7.293379287199861",
-      "startLcPosition": "196",
+      "extent": "50.96308911387503,7.032494052994801,50.96308911387503,7.032494052994801",
+      "point": "50.96308911387503,7.032494052994801",
+      "startLcPosition": "206",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Siebengebirge - Logebachtal",
-      "startTimestamp": "2026-02-08T07:44:00+01:00",
+      "title": "A3 | Köln-Ost - Köln-Ost",
+      "startTimestamp": "2026-02-08T08:38:00+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "22",
       "coordinate": {
-        "lat": 50.67542556281317,
-        "long": 7.293379287199861
+        "lat": 50.96308911387503,
+        "long": 7.032494052994801
       },
       "description": [
-        "Beginn: 08.02.26 um 07:44 Uhr",
+        "Beginn: 08.02.26 um 08:38 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 08.02.2026, 07:44",
-        "A3: Köln -> Frankfurt, zwischen 1.8 km hinter AS Siebengebirge und Logebachtal",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 08.02.2026, 08:38",
+        "A3: Köln -> Frankfurt, 1.2 km vor AK Köln-Ost, aus Richtung Köln-Dellbrück",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 22 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -437,20 +441,123 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.293379287,
-            50.675425563
+            7.032494053,
+            50.963089114
           ],
           [
-            7.2940736,
-            50.675205201
+            7.032494053,
+            50.963089114
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-08_08-08-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.96308038789723,7.032497480679386,50.94804156234924,7.038276317815583",
+      "point": "50.96308038789723,7.032497480679386",
+      "startLcPosition": "207",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Frankfurt",
+      "title": "A3 | Köln-Dellbrück - Köln-Heumar",
+      "startTimestamp": "2026-02-08T08:08:00+01:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "22.200000762939453",
+      "coordinate": {
+        "lat": 50.96308038789723,
+        "long": 7.032497480679386
+      },
+      "description": [
+        "Beginn: 08.02.26 um 08:08 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.02.2026, 08:08",
+        "A3: Oberhausen -> Frankfurt, zwischen 0.4 km hinter AS Köln-Dellbrück und 3.1 km vor AD Köln-Heumar",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 22 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.032497481,
+            50.963080388
           ],
           [
-            7.2949885,
-            50.674920701
+            7.0325945,
+            50.962833401
           ],
           [
-            7.295668867,
-            50.674696411
+            7.032969,
+            50.961841401
+          ],
+          [
+            7.0332755,
+            50.961029301
+          ],
+          [
+            7.0333507,
+            50.960830001
+          ],
+          [
+            7.0336646,
+            50.960006701
+          ],
+          [
+            7.0345219,
+            50.957827501
+          ],
+          [
+            7.0348272,
+            50.957028801
+          ],
+          [
+            7.0351346,
+            50.956233401
+          ],
+          [
+            7.0354316,
+            50.955456501
+          ],
+          [
+            7.0362049,
+            50.953417101
+          ],
+          [
+            7.0365327,
+            50.952565901
+          ],
+          [
+            7.0367465,
+            50.951997901
+          ],
+          [
+            7.037056,
+            50.951215501
+          ],
+          [
+            7.0372828,
+            50.950642601
+          ],
+          [
+            7.0375846,
+            50.949856601
+          ],
+          [
+            7.0379731,
+            50.948848001
+          ],
+          [
+            7.038276318,
+            50.948041562
           ]
         ]
       }
