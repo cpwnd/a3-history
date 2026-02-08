@@ -1,33 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2026-02-08_10-28-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-02-08_15-39-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.17433845204023,7.750530819809905,48.23923643214045,7.754052214027081",
-      "point": "48.17433845204023,7.750530819809905",
-      "startLcPosition": "31",
+      "extent": "47.59975877310853,7.602465711101567,47.59975877310853,7.602465711101567",
+      "point": "47.59975877310853,7.602465711101567",
+      "startLcPosition": "1",
       "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Riegel - Rust",
-      "startTimestamp": "2026-02-08T10:28:30+01:00",
-      "delayTimeValue": "15",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Weil am Rhein - Weil am Rhein",
+      "startTimestamp": "2026-02-08T15:41:34+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "4",
       "coordinate": {
-        "lat": 48.17433845204023,
-        "long": 7.750530819809905
+        "lat": 47.59975877310853,
+        "long": 7.602465711101567
       },
       "description": [
-        "Beginn: 08.02.26 um 10:28 Uhr",
+        "Beginn: 08.02.26 um 15:41 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 08.02.2026, 10:28",
-        "A5: Basel -> Karlsruhe, zwischen 2.3 km hinter AS Riegel und 1.5 km vor AS Rust",
+        "Angespannte Verkehrslage, seit 08.02.2026, 15:41",
+        "A5: Karlsruhe -> Basel, 0.2 km vor Weil am Rhein, aus Richtung Weil am Rhein/Hüningen",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 15 Minuten",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +35,59 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.75053082,
-            48.174338452
+            7.602465711,
+            47.599758773
+          ],
+          [
+            7.602465711,
+            47.599758773
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2026-02-08_10-28-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.1726388332854,7.751122980159867,48.240148554806694,7.754468331899791",
+      "point": "48.1726388332854,7.751122980159867",
+      "startLcPosition": "31",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Riegel - Rust",
+      "startTimestamp": "2026-02-08T10:28:30+01:00",
+      "delayTimeValue": "15",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "24.700000762939453",
+      "coordinate": {
+        "lat": 48.1726388332854,
+        "long": 7.751122980159867
+      },
+      "description": [
+        "Beginn: 08.02.26 um 10:28 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 08.02.2026, 10:28",
+        "A5: Basel -> Karlsruhe, zwischen 2.1 km hinter AS Riegel und 1.4 km vor AS Rust",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 15 Minuten",
+        "Durchschnittsgeschwindigkeit: 24 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.75112298,
+            48.172638833
+          ],
+          [
+            7.7509968,
+            48.172976401
           ],
           [
             7.7502002,
@@ -201,84 +250,12 @@
             48.237936901
           ],
           [
-            7.754052214,
-            48.239236432
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-02-08_14-20-00-000.f_009.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.22857571519461,7.749940220128293,48.24007982319978,7.754436392632436",
-      "point": "48.22857571519461,7.749940220128293",
-      "startLcPosition": "32",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Herbolzheim - Rust",
-      "startTimestamp": "2026-02-08T14:20:00+01:00",
-      "coordinate": {
-        "lat": 48.22857571519461,
-        "long": 7.749940220128293
-      },
-      "description": [
-        "Beginn: 08.02.26 um 14:20 Uhr",
-        "",
-        "Hindernis, seit 08.02.2026, 14:20",
-        "A5: Basel -> Karlsruhe, zwischen 0.1 km hinter AS Herbolzheim und 1.4 km vor AS Rust"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.74994022,
-            48.228575715
-          ],
-          [
-            7.7499781,
-            48.228696101
-          ],
-          [
-            7.7501764,
-            48.229371901
-          ],
-          [
-            7.7505303,
-            48.230410601
-          ],
-          [
-            7.7510802,
-            48.231955701
-          ],
-          [
-            7.7519253,
-            48.234176701
-          ],
-          [
-            7.7522917,
-            48.235130901
-          ],
-          [
-            7.7527266,
-            48.236196001
-          ],
-          [
-            7.7534796,
-            48.237936901
-          ],
-          [
             7.754194,
             48.239558201
           ],
           [
-            7.754436393,
-            48.240079823
+            7.754468332,
+            48.240148555
           ]
         ]
       }
@@ -288,27 +265,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.174434914140825,7.75049781753823,48.174434914140825,7.75049781753823",
-      "point": "48.174434914140825,7.75049781753823",
+      "extent": "48.1726388332854,7.751122980159867,48.1726388332854,7.751122980159867",
+      "point": "48.1726388332854,7.751122980159867",
       "startLcPosition": "32",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Herbolzheim - Herbolzheim",
-      "startTimestamp": "2026-02-08T15:07:30+01:00",
+      "startTimestamp": "2026-02-08T15:42:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "8",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 48.174434914140825,
-        "long": 7.75049781753823
+        "lat": 48.1726388332854,
+        "long": 7.751122980159867
       },
       "description": [
-        "Beginn: 08.02.26 um 15:07 Uhr",
+        "Beginn: 08.02.26 um 15:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.02.2026, 15:07",
-        "A5: Basel -> Karlsruhe, 6.0 km vor AS Herbolzheim, aus Richtung Riegel",
+        "Angespannte Verkehrslage, seit 08.02.2026, 15:42",
+        "A5: Basel -> Karlsruhe, 6.2 km vor AS Herbolzheim, aus Richtung Riegel",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 8 km/h"
+        "Durchschnittsgeschwindigkeit: 25 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -318,12 +295,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.750497818,
-            48.174434914
+            7.75112298,
+            48.172638833
           ],
           [
-            7.750497818,
-            48.174434914
+            7.75112298,
+            48.172638833
           ]
         ]
       }
@@ -333,27 +310,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.26275340166918,7.7687064890292685,48.26275340166918,7.7687064890292685",
-      "point": "48.26275340166918,7.7687064890292685",
+      "extent": "48.26128180808422,7.767514177058941,48.26128180808422,7.767514177058941",
+      "point": "48.26128180808422,7.767514177058941",
       "startLcPosition": "33",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Rust - Rust",
-      "startTimestamp": "2026-02-08T15:07:30+01:00",
+      "startTimestamp": "2026-02-08T15:42:30+01:00",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23",
+      "averageSpeed": "19",
       "coordinate": {
-        "lat": 48.26275340166918,
-        "long": 7.7687064890292685
+        "lat": 48.26128180808422,
+        "long": 7.767514177058941
       },
       "description": [
-        "Beginn: 08.02.26 um 15:07 Uhr",
+        "Beginn: 08.02.26 um 15:42 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.02.2026, 15:07",
-        "A5: Karlsruhe -> Basel, 1.3 km vor AS Rust, aus Richtung Ettenheim",
+        "Angespannte Verkehrslage, seit 08.02.2026, 15:42",
+        "A5: Karlsruhe -> Basel, 1.2 km vor AS Rust, aus Richtung Ettenheim",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Durchschnittsgeschwindigkeit: 19 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -363,12 +340,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.768706489,
-            48.262753402
+            7.767514177,
+            48.261281808
           ],
           [
-            7.768706489,
-            48.262753402
+            7.767514177,
+            48.261281808
           ]
         ]
       }
@@ -378,29 +355,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.262714058415995,7.768673839784975,48.19426233509148,7.745993203496548",
-      "point": "48.262714058415995,7.768673839784975",
+      "extent": "48.261162462965835,7.767419874934228,48.19118604037194,7.746348406676045",
+      "point": "48.261162462965835,7.767419874934228",
       "startLcPosition": "34",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Ettenheim - Riegel",
       "startTimestamp": "2026-02-08T12:09:30+01:00",
-      "delayTimeValue": "17",
+      "delayTimeValue": "21",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "23",
+      "averageSpeed": "19.100000381469727",
       "coordinate": {
-        "lat": 48.262714058415995,
-        "long": 7.768673839784975
+        "lat": 48.261162462965835,
+        "long": 7.767419874934228
       },
       "description": [
         "Beginn: 08.02.26 um 12:09 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.02.2026, 12:09",
-        "A5: Karlsruhe -> Basel, zwischen 2.0 km hinter AS Ettenheim und 4.6 km vor AS Riegel",
+        "A5: Karlsruhe -> Basel, zwischen 2.2 km hinter AS Ettenheim und 4.2 km vor AS Riegel",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 17 Minuten",
-        "Durchschnittsgeschwindigkeit: 23 km/h"
+        "Reisezeitverlust: 21 Minuten",
+        "Durchschnittsgeschwindigkeit: 19 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -410,12 +387,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.76867384,
-            48.262714058
-          ],
-          [
-            7.7680895,
-            48.262009901
+            7.767419875,
+            48.261162463
           ],
           [
             7.7670592,
@@ -602,14 +575,18 @@
             48.196527301
           ],
           [
-            7.745993203,
-            48.194262335
+            7.7460556,
+            48.193553901
+          ],
+          [
+            7.746348407,
+            48.19118604
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-08_12-59-00-000.f_004.de0",
+      "identifier": "undefined--vi-hind.2026-02-08_12-59-00-000.f_006.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -650,53 +627,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-08_15-07-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.14293735943423,8.557022400050643,49.143454700944496,8.557344299999896",
-      "point": "49.14293735943423,8.557022400050643",
-      "startLcPosition": "63",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Höfenschlag - Bruchsal",
-      "startTimestamp": "2026-02-08T15:07:30+01:00",
-      "coordinate": {
-        "lat": 49.14293735943423,
-        "long": 8.557022400050643
-      },
-      "description": [
-        "Beginn: 08.02.26 um 15:07 Uhr",
-        "",
-        "Hindernis, seit 08.02.2026, 15:07",
-        "A5: Karlsruhe -> Heidelberg, zwischen 8.9 km hinter Höfenschlag und 0.5 km vor AS Bruchsal",
-        "",
-        "Gefahr durch Gegenstände auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.5570224,
-            49.142937359
-          ],
-          [
-            8.5570502,
-            49.142973701
-          ],
-          [
-            8.5573443,
-            49.143454701
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-02-08_15-00-35-000.f_003.de0",
+      "identifier": "undefined--vi-hind.2026-02-08_15-00-35-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -741,131 +672,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-08_14-10-00-000.f_005.de0",
+      "identifier": "undefined--vi-avl.2026-02-08_15-32-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.6238890009382,8.89804079999997,50.62344720220376,8.896891836649981",
-      "point": "50.6238890009382,8.89804079999997",
-      "startLcPosition": "127",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Grünberg - Reinhardshain",
-      "startTimestamp": "2026-02-08T14:10:00+01:00",
-      "coordinate": {
-        "lat": 50.6238890009382,
-        "long": 8.89804079999997
-      },
-      "description": [
-        "Beginn: 08.02.26 um 14:10 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 08.02.2026, 14:10",
-        "A5: Kassel -> Frankfurt, zwischen 2.0 km hinter AS Grünberg und 0.1 km vor Reinhardshain",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.8980408,
-            50.623889001
-          ],
-          [
-            8.8975198,
-            50.623675501
-          ],
-          [
-            8.896891837,
-            50.623447202
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-02-08_14-25-06-000.f_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.715462268434905,9.114461849922238,50.71521901943661,9.112429867411702",
-      "point": "50.715462268434905,9.114461849922238",
-      "startLcPosition": "134",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Pfefferhöhe - Krachgarten",
-      "startTimestamp": "2026-02-08T14:25:06+01:00",
-      "coordinate": {
-        "lat": 50.715462268434905,
-        "long": 9.114461849922238
-      },
-      "description": [
-        "Beginn: 08.02.26 um 14:25 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 08.02.2026, 14:25",
-        "A5: Kassel -> Frankfurt, zwischen 9.7 km hinter Pfefferhöhe und 0.3 km vor Krachgarten",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.11446185,
-            50.715462268
-          ],
-          [
-            9.1144447,
-            50.715460701
-          ],
-          [
-            9.1136752,
-            50.715378201
-          ],
-          [
-            9.1124841,
-            50.715225801
-          ],
-          [
-            9.112429867,
-            50.715219019
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2026-02-08_14-51-30-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.599714849741844,7.602480057377049,47.59632940094862,7.603563599999228",
-      "point": "47.599714849741844,7.602480057377049",
+      "extent": "47.590576764079124,7.603369242653157,47.590576764079124,7.603369242653157",
+      "point": "47.590576764079124,7.603369242653157",
       "startLcPosition": "1000",
       "display_type": "WARNING",
-      "subtitle": " km 812.52 --> km 812.91",
+      "subtitle": "",
       "title": "Baustelle",
-      "startTimestamp": "2026-02-08T14:51:30+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "20.399999618530273",
+      "startTimestamp": "2026-02-08T15:41:34+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "1",
       "coordinate": {
-        "lat": 47.599714849741844,
-        "long": 7.602480057377049
+        "lat": 47.590576764079124,
+        "long": 7.603369242653157
       },
       "description": [
-        "Beginn: 08.02.26 um 14:51 Uhr",
+        "Beginn: 08.02.26 um 15:41 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 08.02.2026, 14:51",
-        "A5: km 812.52 --> km 812.91",
+        "Angespannte Verkehrslage, seit 08.02.2026, 15:41",
+        "A5 N",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 20 km/h"
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 1 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -875,8 +706,178 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.602480057,
-            47.59971485
+            7.603369243,
+            47.590576764
+          ],
+          [
+            7.603369243,
+            47.590576764
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-08_15-19-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59059446996368,7.60337397705776,47.59692626649863,7.603549633305663",
+      "point": "47.59059446996368,7.60337397705776",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 813.56 --> km 812.84",
+      "title": "Baustelle",
+      "startTimestamp": "2026-02-08T15:19:00+01:00",
+      "delayTimeValue": "9",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "4.099999904632568",
+      "coordinate": {
+        "lat": 47.59059446996368,
+        "long": 7.60337397705776
+      },
+      "description": [
+        "Beginn: 08.02.26 um 15:19 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.02.2026, 15:19",
+        "A5: km 813.56 --> km 812.84",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 4 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603373977,
+            47.59059447
+          ],
+          [
+            7.6034015,
+            47.590697401
+          ],
+          [
+            7.6034576,
+            47.590908301
+          ],
+          [
+            7.6034603,
+            47.590919601
+          ],
+          [
+            7.6035766,
+            47.591339901
+          ],
+          [
+            7.6036936,
+            47.591777301
+          ],
+          [
+            7.6037559,
+            47.592020001
+          ],
+          [
+            7.6039325,
+            47.592819801
+          ],
+          [
+            7.6040062,
+            47.593241901
+          ],
+          [
+            7.6040559,
+            47.593674101
+          ],
+          [
+            7.6040933,
+            47.594063901
+          ],
+          [
+            7.6040537,
+            47.594329801
+          ],
+          [
+            7.6040069,
+            47.595006101
+          ],
+          [
+            7.6039276,
+            47.595452501
+          ],
+          [
+            7.6038258,
+            47.595963801
+          ],
+          [
+            7.6036821,
+            47.596511201
+          ],
+          [
+            7.6036599,
+            47.596595801
+          ],
+          [
+            7.6036144,
+            47.596724101
+          ],
+          [
+            7.6035592,
+            47.596886801
+          ],
+          [
+            7.603549633,
+            47.596926266
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-08_15-29-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.59974121742861,7.602471541839731,47.59558040094862,7.603796099999227",
+      "point": "47.59974121742861,7.602471541839731",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " km 812.52 --> km 813.00",
+      "title": "Baustelle",
+      "startTimestamp": "2026-02-08T15:29:00+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "12.699999809265137",
+      "coordinate": {
+        "lat": 47.59974121742861,
+        "long": 7.602471541839731
+      },
+      "description": [
+        "Beginn: 08.02.26 um 15:29 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.02.2026, 15:29",
+        "A5: km 812.52 --> km 813.00",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.602471542,
+            47.599741217
+          ],
+          [
+            7.6024754,
+            47.599729601
           ],
           [
             7.6026559,
@@ -909,6 +910,14 @@
           [
             7.6035636,
             47.596329401
+          ],
+          [
+            7.6036995,
+            47.595884401
+          ],
+          [
+            7.6037961,
+            47.595580401
           ]
         ]
       }
