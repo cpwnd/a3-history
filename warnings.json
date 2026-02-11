@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLNB_2026_000474--vi-hind.2026-02-11_22-25-00-256.de0",
+      "identifier": "NLNB_2026_000474--vi-hind.2026-02-11_22-56-00-161.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -477,7 +477,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2026-02-11_23-02-00-000.f_002.de0",
+      "identifier": "undefined--vi-zus.2026-02-11_23-02-00-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -561,27 +561,33 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-11_22-03-30-000.f_007.de0",
+      "identifier": "undefined--vi-avl.2026-02-12_00-21-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.15650810481484,6.963897516388858,51.1576985072363,6.962984920235457",
-      "point": "51.15650810481484,6.963897516388858",
-      "startLcPosition": "215",
+      "extent": "51.32538626079241,6.891301002887472,51.32652435397675,6.889827870893942",
+      "point": "51.32538626079241,6.891301002887472",
+      "startLcPosition": "220",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Solingen - Ohligser Heide",
-      "startTimestamp": "2026-02-11T22:03:30+01:00",
+      "title": "A3 | Ratingen-Ost - Hösel",
+      "startTimestamp": "2026-02-12T00:21:30+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "11.199999809265137",
       "coordinate": {
-        "lat": 51.15650810481484,
-        "long": 6.963897516388858
+        "lat": 51.32538626079241,
+        "long": 6.891301002887472
       },
       "description": [
-        "Beginn: 11.02.26 um 22:03 Uhr",
+        "Beginn: 12.02.26 um 00:21 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 11.02.2026, 22:03",
-        "A3: Köln -> Oberhausen, zwischen 4.1 km hinter AS Solingen und 0.1 km vor Ohligser Heide",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 12.02.2026, 00:21",
+        "A3: Köln -> Oberhausen, zwischen 3.2 km hinter AK Ratingen-Ost und Hösel",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -591,16 +597,240 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.963897516,
-            51.156508105
+            6.891301003,
+            51.325386261
           ],
           [
-            6.9632052,
-            51.157404501
+            6.889827871,
+            51.326524354
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-12_00-21-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.32538626079241,6.891301002887472,51.32538626079241,6.891301002887472",
+      "point": "51.32538626079241,6.891301002887472",
+      "startLcPosition": "221",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Hösel - Hösel",
+      "startTimestamp": "2026-02-12T00:21:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "11",
+      "coordinate": {
+        "lat": 51.32538626079241,
+        "long": 6.891301002887472
+      },
+      "description": [
+        "Beginn: 12.02.26 um 00:21 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.02.2026, 00:21",
+        "A3: Köln -> Oberhausen, 0.2 km vor Hösel, aus Richtung Ratingen-Ost",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 11 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.891301003,
+            51.325386261
           ],
           [
-            6.96298492,
-            51.157698507
+            6.891301003,
+            51.325386261
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-12_00-19-30-000.f_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.462124715975705,6.8126780070746795,51.445905139784486,6.798908828055819",
+      "point": "51.462124715975705,6.8126780070746795",
+      "startLcPosition": "227",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Oberhausen-Lirich - Duisburg-Wedau",
+      "startTimestamp": "2026-02-12T00:19:30+01:00",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "39",
+      "coordinate": {
+        "lat": 51.462124715975705,
+        "long": 6.8126780070746795
+      },
+      "description": [
+        "Beginn: 12.02.26 um 00:19 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 12.02.2026, 00:19",
+        "A3: Oberhausen -> Köln, zwischen 1.6 km hinter AS Oberhausen-Lirich und 4.6 km vor AS Duisburg-Wedau",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 39 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.812678007,
+            51.462124716
+          ],
+          [
+            6.812532,
+            51.462006701
+          ],
+          [
+            6.8122792,
+            51.461825301
+          ],
+          [
+            6.8114678,
+            51.461322601
+          ],
+          [
+            6.8105755,
+            51.460835701
+          ],
+          [
+            6.8099604,
+            51.460542701
+          ],
+          [
+            6.8092932,
+            51.460270101
+          ],
+          [
+            6.8084563,
+            51.459971201
+          ],
+          [
+            6.8060584,
+            51.459152001
+          ],
+          [
+            6.8051398,
+            51.458783801
+          ],
+          [
+            6.8041123,
+            51.458291601
+          ],
+          [
+            6.8035922,
+            51.458006301
+          ],
+          [
+            6.8032034,
+            51.457767701
+          ],
+          [
+            6.8026877,
+            51.457432201
+          ],
+          [
+            6.8022097,
+            51.457083801
+          ],
+          [
+            6.8015562,
+            51.456559101
+          ],
+          [
+            6.8011805,
+            51.456212901
+          ],
+          [
+            6.8007853,
+            51.455802301
+          ],
+          [
+            6.8005601,
+            51.455544201
+          ],
+          [
+            6.8001625,
+            51.455009401
+          ],
+          [
+            6.7998728,
+            51.454548501
+          ],
+          [
+            6.7996061,
+            51.454079101
+          ],
+          [
+            6.7993858,
+            51.453588601
+          ],
+          [
+            6.7992119,
+            51.453116001
+          ],
+          [
+            6.7990188,
+            51.452611101
+          ],
+          [
+            6.7988856,
+            51.452103801
+          ],
+          [
+            6.7987473,
+            51.451586701
+          ],
+          [
+            6.7986359,
+            51.451065301
+          ],
+          [
+            6.7984914,
+            51.450177701
+          ],
+          [
+            6.7984306,
+            51.449655601
+          ],
+          [
+            6.7984121,
+            51.449192901
+          ],
+          [
+            6.7984227,
+            51.448777201
+          ],
+          [
+            6.7985073,
+            51.447968001
+          ],
+          [
+            6.7987327,
+            51.446670001
+          ],
+          [
+            6.7988315,
+            51.446165201
+          ],
+          [
+            6.798908828,
+            51.44590514
           ]
         ]
       }
