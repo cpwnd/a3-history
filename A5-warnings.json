@@ -1,33 +1,27 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2026-02-21_00-06-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_00-33-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.59533695275802,7.603948126508264,47.59692626649863,7.603549633305663",
-      "point": "47.59533695275802,7.603948126508264",
-      "startLcPosition": "1000",
+      "extent": "48.951107696719255,8.374670279038556,48.95232066555954,8.375969058440894",
+      "point": "48.951107696719255,8.374670279038556",
+      "startLcPosition": "55",
       "display_type": "WARNING",
-      "subtitle": " km 813.03 --> km 812.84",
-      "title": "Baustelle",
-      "startTimestamp": "2026-02-21T00:06:00+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "10.600000381469727",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Schleifweg - Karlsruhe-Süd",
+      "startTimestamp": "2026-02-21T00:33:30+01:00",
       "coordinate": {
-        "lat": 47.59533695275802,
-        "long": 7.603948126508264
+        "lat": 48.951107696719255,
+        "long": 8.374670279038556
       },
       "description": [
-        "Beginn: 21.02.26 um 00:06 Uhr",
+        "Beginn: 21.02.26 um 00:33 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 21.02.2026, 00:06",
-        "A5: km 813.03 --> km 812.84",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 10 km/h"
+        "Fahrzeug-Hindernis, seit 21.02.2026, 00:33",
+        "A5: Basel -> Karlsruhe, zwischen 10.1 km hinter Schleifweg und 0.8 km vor AS Karlsruhe-Süd",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,36 +31,65 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.603948127,
-            47.595336953
+            8.374670279,
+            48.951107697
           ],
           [
-            7.6039276,
-            47.595452501
+            8.3756641,
+            48.952040001
           ],
           [
-            7.6038258,
-            47.595963801
+            8.3759113,
+            48.952267501
           ],
           [
-            7.6036821,
-            47.596511201
+            8.375969058,
+            48.952320666
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-02-21_00-33-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.52726616178689,8.635012868643022,49.52673049655977,8.635223544127983",
+      "point": "49.52726616178689,8.635012868643022",
+      "startLcPosition": "77",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Fliegwiese - Hirschberg",
+      "startTimestamp": "2026-02-21T00:33:30+01:00",
+      "coordinate": {
+        "lat": 49.52726616178689,
+        "long": 8.635012868643022
+      },
+      "description": [
+        "Beginn: 21.02.26 um 00:33 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 21.02.2026, 00:33",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.5 km hinter Fliegwiese und 2.0 km vor AS Hirschberg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.635012869,
+            49.527266162
           ],
           [
-            7.6036599,
-            47.596595801
+            8.6351221,
+            49.527001401
           ],
           [
-            7.6036144,
-            47.596724101
-          ],
-          [
-            7.6035592,
-            47.596886801
-          ],
-          [
-            7.603549633,
-            47.596926266
+            8.635223544,
+            49.526730497
           ]
         ]
       }
