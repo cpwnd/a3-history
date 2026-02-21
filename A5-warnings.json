@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-hind.2026-02-21_16-13-36-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_16-13-36-000.f_006.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -99,7 +99,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_15-48-54-000.f_008.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_15-48-54-000.f_016.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -140,7 +140,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_15-13-12-000.f_008.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_15-13-12-000.f_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -189,7 +189,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_16-19-00-000.f_006.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_16-19-00-000.f_013.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -262,7 +262,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_15-38-00-000.f_013.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_15-38-00-000.f_023.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -307,31 +307,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-02-21_14-55-10-000.f_002.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_16-49-15-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.44717940094339,8.645835899999915,49.44717940094339,8.645835899999915",
-      "point": "49.44717940094339,8.645835899999915",
-      "startLcPosition": "73",
+      "extent": "49.29249140624313,8.624448805983663,49.29093709192797,8.624068206208552",
+      "point": "49.29249140624313,8.624448805983663",
+      "startLcPosition": "70",
       "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Heidelberg",
-      "title": "A5 | Heidelberg - Heidelberg",
-      "startTimestamp": "2026-02-21T16:27:00+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "18",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Walldorf/Wiesloch - Walldorf",
+      "startTimestamp": "2026-02-21T16:49:15+01:00",
       "coordinate": {
-        "lat": 49.44717940094339,
-        "long": 8.645835899999915
+        "lat": 49.29249140624313,
+        "long": 8.624448805983663
       },
       "description": [
-        "Beginn: 21.02.26 um 16:27 Uhr",
+        "Beginn: 21.02.26 um 16:49 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 21.02.2026, 16:27",
-        "A5: Darmstadt -> Heidelberg, 3.4 km vor AK Heidelberg, aus Richtung Dossenheim",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 18 km/h"
+        "Fahrzeug-Hindernis, seit 21.02.2026, 16:49",
+        "A5: Heidelberg -> Karlsruhe, zwischen 1.0 km hinter AS Walldorf/Wiesloch und 1.1 km vor AK Walldorf",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -341,12 +337,65 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.6458359,
-            49.447179401
+            8.624448806,
+            49.292491406
           ],
           [
-            8.6458359,
-            49.447179401
+            8.6243908,
+            49.292247501
+          ],
+          [
+            8.6242673,
+            49.291728501
+          ],
+          [
+            8.624068206,
+            49.290937092
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-21_14-55-10-000.f_002.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.45086166303493,8.646504788642353,49.45086166303493,8.646504788642353",
+      "point": "49.45086166303493,8.646504788642353",
+      "startLcPosition": "74",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Dossenheim - Dossenheim",
+      "startTimestamp": "2026-02-21T16:52:11+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
+      "coordinate": {
+        "lat": 49.45086166303493,
+        "long": 8.646504788642353
+      },
+      "description": [
+        "Beginn: 21.02.26 um 16:52 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 21.02.2026, 16:52",
+        "A5: Darmstadt -> Heidelberg, 0.2 km vor AS Dossenheim, aus Richtung Ladenburg",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.646504789,
+            49.450861663
+          ],
+          [
+            8.646504789,
+            49.450861663
           ]
         ]
       }
@@ -356,29 +405,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.44845835612929,8.646116599370526,49.42891815128161,8.63587312330666",
-      "point": "49.44845835612929,8.646116599370526",
-      "startLcPosition": "74",
+      "extent": "49.4518045763813,8.646586439883952,49.42895251957434,8.635889445797215",
+      "point": "49.4518045763813,8.646586439883952",
+      "startLcPosition": "75",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
-      "title": "A5 | Dossenheim - Heidelberg",
+      "title": "A5 | Ladenburg - Heidelberg",
       "startTimestamp": "2026-02-21T14:48:48+01:00",
-      "delayTimeValue": "6",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "18.200000762939453",
+      "averageSpeed": "14.100000381469727",
       "coordinate": {
-        "lat": 49.44845835612929,
-        "long": 8.646116599370526
+        "lat": 49.4518045763813,
+        "long": 8.646586439883952
       },
       "description": [
         "Beginn: 21.02.26 um 14:48 Uhr",
         "",
         "Angespannte Verkehrslage, seit 21.02.2026, 14:48",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.1 km hinter AS Dossenheim und 1.2 km vor AK Heidelberg",
+        "A5: Darmstadt -> Heidelberg, zwischen 2.9 km hinter AS Ladenburg und 1.2 km vor AK Heidelberg",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 18 km/h"
+        "Reisezeitverlust: 9 Minuten",
+        "Durchschnittsgeschwindigkeit: 14 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -388,8 +437,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.646116599,
-            49.448458356
+            8.64658644,
+            49.451804576
+          ],
+          [
+            8.6465535,
+            49.451344101
+          ],
+          [
+            8.6464868,
+            49.450683501
+          ],
+          [
+            8.6463001,
+            49.449410501
+          ],
+          [
+            8.6462484,
+            49.449112601
+          ],
+          [
+            8.6462392,
+            49.449066801
+          ],
+          [
+            8.646185,
+            49.448770001
           ],
           [
             8.6458359,
@@ -488,14 +561,14 @@
             49.429277101
           ],
           [
-            8.635873123,
-            49.428918151
+            8.635889446,
+            49.42895252
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_15-48-54-000.f_010.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_15-48-54-000.f_018.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -536,26 +609,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_13-46-23-000.f_029.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_16-29-03-000.f_005.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.47480674796149,8.727173409365506,50.47627357628501,8.72794291642769",
-      "point": "50.47480674796149,8.727173409365506",
-      "startLcPosition": "120",
+      "extent": "50.2531384522126,8.662919556404999,50.25420862641491,8.6629021364417",
+      "point": "50.2531384522126,8.662919556404999",
+      "startLcPosition": "114",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Gambacher Kreuz - Limes",
-      "startTimestamp": "2026-02-21T13:46:23+01:00",
+      "title": "A5 | Schäferborn - Friedberg",
+      "startTimestamp": "2026-02-21T16:29:03+01:00",
       "coordinate": {
-        "lat": 50.47480674796149,
-        "long": 8.727173409365506
+        "lat": 50.2531384522126,
+        "long": 8.662919556404999
       },
       "description": [
-        "Beginn: 21.02.26 um 13:46 Uhr",
+        "Beginn: 21.02.26 um 16:29 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 21.02.2026, 13:46",
-        "A5: Frankfurt -> Kassel, zwischen 0.1 km hinter AK Gambacher Kreuz und 5.3 km vor Limes",
+        "Fahrzeug-Hindernis, seit 21.02.2026, 16:29",
+        "A5: Frankfurt -> Kassel, zwischen 0.2 km hinter Schäferborn und 3.7 km vor AS Friedberg",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -566,26 +639,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.727173409,
-            50.474806748
+            8.662919556,
+            50.253138452
           ],
           [
-            8.727174,
-            50.474807901
+            8.6629026,
+            50.254072801
           ],
           [
-            8.7275226,
-            50.475473501
-          ],
-          [
-            8.727942916,
-            50.476273576
+            8.662902136,
+            50.254208626
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-02-21_16-08-39-000.f_004.de0",
+      "identifier": "undefined--vi-hind.2026-02-21_16-08-39-000.f_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -634,32 +703,32 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-02-21_16-25-01-000.f_003.de0",
+      "identifier": "undefined--vi-avl.2026-02-21_16-37-00-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.597871200948624,7.603066299999224,47.59632940094862,7.603563599999228",
-      "point": "47.597871200948624,7.603066299999224",
+      "extent": "47.591658603330224,7.603661849418921,47.59647756718681,7.603690929414505",
+      "point": "47.591658603330224,7.603661849418921",
       "startLcPosition": "1000",
       "display_type": "WARNING",
-      "subtitle": " km 812.73 --> km 812.91",
+      "subtitle": " km 813.44 --> km 812.90",
       "title": "Baustelle",
-      "startTimestamp": "2026-02-21T16:25:01+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "10.899999618530273",
+      "startTimestamp": "2026-02-21T16:37:00+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "10.100000381469727",
       "coordinate": {
-        "lat": 47.597871200948624,
-        "long": 7.603066299999224
+        "lat": 47.591658603330224,
+        "long": 7.603661849418921
       },
       "description": [
-        "Beginn: 21.02.26 um 16:25 Uhr",
+        "Beginn: 21.02.26 um 16:37 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 21.02.2026, 16:25",
-        "A5: km 812.73 --> km 812.91",
+        "Angespannte Verkehrslage, seit 21.02.2026, 16:37",
+        "A5: km 813.44 --> km 812.90",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
         "Durchschnittsgeschwindigkeit: 10 km/h"
       ],
       "routeRecommendation": [],
@@ -670,67 +739,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.6030663,
-            47.597871201
+            7.603661849,
+            47.591658603
           ],
           [
-            7.6034406,
-            47.596700101
+            7.6036936,
+            47.591777301
           ],
           [
-            7.6035053,
-            47.596509101
-          ],
-          [
-            7.6035294,
-            47.596432001
-          ],
-          [
-            7.6035636,
-            47.596329401
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2026-02-21_15-59-08-000.f_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "47.592429304360806,7.603846275673175,47.59647756718681,7.603690929414505",
-      "point": "47.592429304360806,7.603846275673175",
-      "startLcPosition": "1000",
-      "display_type": "WARNING",
-      "subtitle": " km 813.35 --> km 812.90",
-      "title": "Baustelle",
-      "startTimestamp": "2026-02-21T15:59:08+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "21",
-      "coordinate": {
-        "lat": 47.592429304360806,
-        "long": 7.603846275673175
-      },
-      "description": [
-        "Beginn: 21.02.26 um 15:59 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 21.02.2026, 15:59",
-        "A5: km 813.35 --> km 812.90",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 21 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.603846276,
-            47.592429304
+            7.6037559,
+            47.592020001
           ],
           [
             7.6039325,
@@ -767,6 +785,51 @@
           [
             7.603690929,
             47.596477567
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-02-21_16-38-11-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.591649750487235,7.603659481366061,47.591649750487235,7.603659481366061",
+      "point": "47.591649750487235,7.603659481366061",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": "",
+      "title": "Baustelle",
+      "startTimestamp": "2026-02-21T16:52:11+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "7",
+      "coordinate": {
+        "lat": 47.591649750487235,
+        "long": 7.603659481366061
+      },
+      "description": [
+        "Beginn: 21.02.26 um 16:52 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 21.02.2026, 16:52",
+        "A5 N",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 7 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.603659481,
+            47.59164975
+          ],
+          [
+            7.603659481,
+            47.59164975
           ]
         ]
       }
