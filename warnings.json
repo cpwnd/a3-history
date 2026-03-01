@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-03-01_14-30-00-262.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-03-01_15-02-00-240.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,7 +290,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-01_14-33-57-000.f_023.de0",
+      "identifier": "undefined--vi-hind.2026-03-01_14-33-57-000.f_028.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -335,33 +335,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-03-01_15-36-35-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-03-01_16-15-51-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.067374416991356,8.82639313921139,50.06766006647356,8.791336367873054",
-      "point": "50.067374416991356,8.82639313921139",
-      "startLcPosition": "152",
+      "extent": "49.89583287856248,9.395348619716346,49.89719878430415,9.393880410035974",
+      "point": "49.89583287856248,9.395348619716346",
+      "startLcPosition": "131",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Frankfurt",
-      "title": "A3 | Obertshausen - Hainbach",
-      "startTimestamp": "2026-03-01T15:36:35+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "60.20000076293945",
+      "title": "A3 | Kohlsberg-Süd - Rohrbrunn",
+      "startTimestamp": "2026-03-01T16:15:51+01:00",
       "coordinate": {
-        "lat": 50.067374416991356,
-        "long": 8.82639313921139
+        "lat": 49.89583287856248,
+        "long": 9.395348619716346
       },
       "description": [
-        "Beginn: 01.03.26 um 15:36 Uhr",
+        "Beginn: 01.03.26 um 16:15 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 01.03.2026, 15:36",
-        "A3: Würzburg -> Frankfurt, zwischen AS Obertshausen und 2.0 km vor Hainbach",
-        "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 60 km/h"
+        "Fahrzeug-Hindernis, seit 01.03.2026, 16:15",
+        "A3: Würzburg -> Frankfurt, zwischen 11.4 km hinter Kohlsberg-Süd und 0.2 km vor AS Rohrbrunn",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -371,48 +365,108 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.826393139,
-            50.067374417
+            9.39534862,
+            49.895832879
           ],
           [
-            8.826222,
-            50.067401701
+            9.3949248,
+            49.896251301
           ],
           [
-            8.8253312,
-            50.067531701
+            9.3942472,
+            49.896899901
           ],
           [
-            8.8245727,
-            50.067623001
+            9.39388041,
+            49.897198784
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-01_15-45-02-000.f_006.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.991662456634295,9.075140376116748,49.99159961815431,9.073779872777093",
+      "point": "49.991662456634295,9.075140376116748",
+      "startLcPosition": "144",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Strietwald-Süd - Stockstadt",
+      "startTimestamp": "2026-03-01T15:45:02+01:00",
+      "coordinate": {
+        "lat": 49.991662456634295,
+        "long": 9.075140376116748
+      },
+      "description": [
+        "Beginn: 01.03.26 um 15:45 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 01.03.2026, 15:45",
+        "A3: Würzburg -> Frankfurt, zwischen 1.7 km hinter Strietwald-Süd und 1.6 km vor AS Stockstadt",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.075140376,
+            49.991662457
           ],
           [
-            8.8232079,
-            50.067756301
+            9.0741138,
+            49.991615401
           ],
           [
-            8.8229254,
-            50.067774601
-          ],
+            9.073779873,
+            49.991599618
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-03-01_15-36-35-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.067955897710505,8.814221097953247,50.06762136756273,8.789087606211387",
+      "point": "50.067955897710505,8.814221097953247",
+      "startLcPosition": "152",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Frankfurt",
+      "title": "A3 | Obertshausen - Hainbach",
+      "startTimestamp": "2026-03-01T15:36:35+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "59.79999923706055",
+      "coordinate": {
+        "lat": 50.067955897710505,
+        "long": 8.814221097953247
+      },
+      "description": [
+        "Beginn: 01.03.26 um 15:36 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.03.2026, 15:36",
+        "A3: Würzburg -> Frankfurt, zwischen 0.9 km hinter AS Obertshausen und 1.8 km vor Hainbach",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 59 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            8.822036,
-            50.067839901
-          ],
-          [
-            8.8212595,
-            50.067878001
-          ],
-          [
-            8.819809,
-            50.067938701
-          ],
-          [
-            8.8185409,
-            50.067963901
-          ],
-          [
-            8.8158962,
-            50.067976201
+            8.814221098,
+            50.067955898
           ],
           [
             8.8120133,
@@ -443,14 +497,18 @@
             50.067678301
           ],
           [
-            8.791336368,
-            50.067660066
+            8.7906389,
+            50.067653901
+          ],
+          [
+            8.789087606,
+            50.067621368
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-01_15-35-00-000.f_005.de0",
+      "identifier": "undefined--vi-hind.2026-03-01_15-35-00-000.f_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -491,78 +549,26 @@
       }
     },
     {
-      "identifier": "undefined--vi-zus.2026-03-01_15-04-32-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-03-01_14-23-38-000.f_019.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.771715439073205,7.236504931874392,50.77419730364019,7.239066276347087",
-      "point": "50.771715439073205,7.236504931874392",
-      "startLcPosition": "196",
+      "extent": "50.29938409271635,8.236619423583921,50.30069317163663,8.235957785304885",
+      "point": "50.29938409271635,8.236619423583921",
+      "startLcPosition": "170",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Siebengebirge - Bonn/Siegburg",
-      "startTimestamp": "2026-03-01T15:04:32+01:00",
+      "title": "A3 | Bad Camberg - Limburg-Süd",
+      "startTimestamp": "2026-03-01T14:23:38+01:00",
       "coordinate": {
-        "lat": 50.771715439073205,
-        "long": 7.236504931874392
+        "lat": 50.29938409271635,
+        "long": 8.236619423583921
       },
       "description": [
-        "Beginn: 01.03.26 um 15:04 Uhr",
+        "Beginn: 01.03.26 um 14:23 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 01.03.2026, 15:04",
-        "A3: Frankfurt -> Köln, zwischen 10.6 km hinter AS Siebengebirge und 0.2 km vor AK Bonn/Siegburg",
-        "",
-        "Gefahr durch Gegenstände auf der Fahrbahn",
-        "",
-        "A3, Frankfurt Richtung Köln, im Bereich Kreuz Bonn/Siegburg, Gefahr durch defektes Fahrzeug"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.236504932,
-            50.771715439
-          ],
-          [
-            7.2367047,
-            50.771908701
-          ],
-          [
-            7.2378021,
-            50.772970401
-          ],
-          [
-            7.239066276,
-            50.774197304
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-03-01_14-28-35-000.f_026.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.809020192797625,7.2189646907795515,50.80941591160829,7.218571718882112",
-      "point": "50.809020192797625,7.2189646907795515",
-      "startLcPosition": "198",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Siegburg - Lohmar",
-      "startTimestamp": "2026-03-01T14:28:35+01:00",
-      "coordinate": {
-        "lat": 50.809020192797625,
-        "long": 7.2189646907795515
-      },
-      "description": [
-        "Beginn: 01.03.26 um 14:28 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 01.03.2026, 14:28",
-        "A3: Frankfurt -> Köln, zwischen Siegburg und 1.8 km vor AS Lohmar",
+        "Fahrzeug-Hindernis, seit 01.03.2026, 14:23",
+        "A3: Frankfurt -> Köln, zwischen 0.1 km hinter AS Bad Camberg und 14.5 km vor AS Limburg-Süd",
         "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
@@ -573,263 +579,46 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.218964691,
-            50.809020193
+            8.236619424,
+            50.299384093
           ],
           [
-            7.218571719,
-            50.809415912
+            8.235957785,
+            50.300693172
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-avl.2026-03-01_14-46-24-000.f_009.de0",
+      "identifier": "undefined--vi-zus.2026-03-01_16-01-00-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.092834797712094,6.988554945794406,51.13367731997376,6.973363645484543",
-      "point": "51.092834797712094,6.988554945794406",
-      "startLcPosition": "212",
+      "extent": "50.69887160437893,7.2620456933543505,50.70985484993072,7.24603364495544",
+      "point": "50.69887160437893,7.2620456933543505",
+      "startLcPosition": "196",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Reusrather Heide - Ohligser Heide",
-      "startTimestamp": "2026-03-01T14:46:24+01:00",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "29.799999237060547",
-      "coordinate": {
-        "lat": 51.092834797712094,
-        "long": 6.988554945794406
-      },
-      "description": [
-        "Beginn: 01.03.26 um 14:46 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 01.03.2026, 14:46",
-        "A3: Köln -> Oberhausen, zwischen 0.9 km hinter Reusrather Heide und 2.8 km vor Ohligser Heide",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 6 Minuten",
-        "Durchschnittsgeschwindigkeit: 29 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.988554946,
-            51.092834798
-          ],
-          [
-            6.9885051,
-            51.094412001
-          ],
-          [
-            6.9884597,
-            51.095827001
-          ],
-          [
-            6.988377,
-            51.098068401
-          ],
-          [
-            6.9883333,
-            51.099253401
-          ],
-          [
-            6.98814,
-            51.104492901
-          ],
-          [
-            6.9881083,
-            51.105366701
-          ],
-          [
-            6.9880027,
-            51.108151401
-          ],
-          [
-            6.9880001,
-            51.108218101
-          ],
-          [
-            6.9878955,
-            51.110157601
-          ],
-          [
-            6.9878391,
-            51.110559301
-          ],
-          [
-            6.9877604,
-            51.111068701
-          ],
-          [
-            6.9876061,
-            51.111743001
-          ],
-          [
-            6.9875658,
-            51.111919001
-          ],
-          [
-            6.9873468,
-            51.112648201
-          ],
-          [
-            6.9870227,
-            51.113484101
-          ],
-          [
-            6.9867129,
-            51.114233801
-          ],
-          [
-            6.9862023,
-            51.115173501
-          ],
-          [
-            6.9859814,
-            51.115536001
-          ],
-          [
-            6.9858283,
-            51.115779301
-          ],
-          [
-            6.9855739,
-            51.116152501
-          ],
-          [
-            6.9851985,
-            51.116661701
-          ],
-          [
-            6.9850179,
-            51.116892701
-          ],
-          [
-            6.9847686,
-            51.117201701
-          ],
-          [
-            6.9843975,
-            51.117631701
-          ],
-          [
-            6.9840264,
-            51.118038501
-          ],
-          [
-            6.9836526,
-            51.118423501
-          ],
-          [
-            6.983401,
-            51.118675201
-          ],
-          [
-            6.9814946,
-            51.120609301
-          ],
-          [
-            6.9813145,
-            51.120808601
-          ],
-          [
-            6.9808866,
-            51.121246301
-          ],
-          [
-            6.9803515,
-            51.121775101
-          ],
-          [
-            6.9797098,
-            51.122425701
-          ],
-          [
-            6.979154,
-            51.122985001
-          ],
-          [
-            6.9782619,
-            51.123932901
-          ],
-          [
-            6.9773536,
-            51.125004501
-          ],
-          [
-            6.9770772,
-            51.125372601
-          ],
-          [
-            6.9769473,
-            51.125546901
-          ],
-          [
-            6.9766982,
-            51.125901401
-          ],
-          [
-            6.9758528,
-            51.127295801
-          ],
-          [
-            6.9754324,
-            51.128154801
-          ],
-          [
-            6.975263,
-            51.128591201
-          ],
-          [
-            6.9751087,
-            51.128985401
-          ],
-          [
-            6.9737358,
-            51.132673501
-          ],
-          [
-            6.973363645,
-            51.13367732
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2026-03-01_10-36-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.16385457261827,6.958083717223777,51.11965144890851,6.982142751753664",
-      "point": "51.16385457261827,6.958083717223777",
-      "startLcPosition": "217",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Hilden - Langenfeld",
-      "startTimestamp": "2026-03-01T10:36:00+01:00",
-      "delayTimeValue": "3",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Siebengebirge - Bonn/Siegburg",
+      "startTimestamp": "2026-03-01T16:01:00+01:00",
+      "delayTimeValue": "1",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "48.400001525878906",
+      "averageSpeed": "44",
       "coordinate": {
-        "lat": 51.16385457261827,
-        "long": 6.958083717223777
+        "lat": 50.69887160437893,
+        "long": 7.2620456933543505
       },
       "description": [
-        "Beginn: 01.03.26 um 10:36 Uhr",
+        "Beginn: 01.03.26 um 16:01 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 01.03.2026, 10:36",
-        "A3: Oberhausen -> Köln, zwischen 3.7 km hinter AK Hilden und 0.7 km vor AD Langenfeld",
+        "Zusammengesetzte Verkehrsinformation, seit 01.03.2026, 16:01",
+        "A3: Frankfurt -> Köln, zwischen 1.7 km hinter AS Siebengebirge und 7.7 km vor AK Bonn/Siegburg",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle",
         "",
         "Langsamer Verkehr",
-        "Reisezeitverlust: 3 Minuten",
-        "Durchschnittsgeschwindigkeit: 48 km/h"
+        "Reisezeitverlust: 1 Minuten",
+        "Durchschnittsgeschwindigkeit: 44 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -839,138 +628,528 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.958083717,
-            51.163854573
+            7.262045693,
+            50.698871604
           ],
           [
-            6.9580981,
-            51.163835901
+            7.2618237,
+            50.699054401
           ],
           [
-            6.959567,
-            51.161892001
+            7.2613538,
+            50.699413901
           ],
           [
-            6.9596618,
-            51.161766901
+            7.261004,
+            50.699669601
           ],
           [
-            6.9604126,
-            51.160763001
+            7.2603075,
+            50.700160201
           ],
           [
-            6.9629577,
-            51.157380301
+            7.2597188,
+            50.700540201
           ],
           [
-            6.9643266,
-            51.155612101
+            7.2589497,
+            50.701012401
           ],
           [
-            6.9647294,
-            51.155026101
+            7.2582104,
+            50.701434401
           ],
           [
-            6.9652269,
-            51.154260401
+            7.256018,
+            50.702637801
           ],
           [
-            6.9657195,
-            51.153319501
+            7.2557266,
+            50.702800801
           ],
           [
-            6.9659123,
-            51.152951701
+            7.2543428,
+            50.703574001
           ],
           [
-            6.9669185,
-            51.150554001
+            7.253567,
+            50.704020601
           ],
           [
-            6.9685413,
-            51.145998401
+            7.2528432,
+            50.704451301
           ],
           [
-            6.9702498,
-            51.141388501
+            7.2522408,
+            50.704830101
           ],
           [
-            6.9702855,
-            51.141291901
+            7.2515915,
+            50.705253501
           ],
           [
-            6.9734925,
-            51.132637301
+            7.2509966,
+            50.705654701
           ],
           [
-            6.9748711,
-            51.128957701
+            7.2505579,
+            50.705968201
           ],
           [
-            6.9750295,
-            51.128552501
+            7.249837,
+            50.706498801
           ],
           [
-            6.9751962,
-            51.128117201
+            7.2493693,
+            50.706853501
           ],
           [
-            6.9755071,
-            51.127486701
+            7.2488874,
+            50.707238601
           ],
           [
-            6.9756298,
-            51.127238001
+            7.2482752,
+            50.707746001
           ],
           [
-            6.9764859,
-            51.125852301
+            7.2477657,
+            50.708188601
           ],
           [
-            6.9767328,
-            51.125477001
+            7.2473748,
+            50.708539401
           ],
           [
-            6.9768274,
-            51.125342601
+            7.2469623,
+            50.708928001
           ],
           [
-            6.9768642,
-            51.125290201
+            7.2463671,
+            50.709509301
           ],
           [
-            6.9771259,
-            51.124941201
-          ],
-          [
-            6.978047,
-            51.123898201
-          ],
-          [
-            6.9786526,
-            51.123223601
-          ],
-          [
-            6.9794821,
-            51.122381201
-          ],
-          [
-            6.9801469,
-            51.121691701
-          ],
-          [
-            6.9806646,
-            51.121158501
-          ],
-          [
-            6.982142752,
-            51.119651449
+            7.246033645,
+            50.70985485
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-01_15-19-50-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-03-01_16-16-21-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.75471898716448,7.230861144862605,50.766803421213005,7.2315168958614615",
+      "point": "50.75471898716448,7.230861144862605",
+      "startLcPosition": "196",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Siebengebirge - Bonn/Siegburg",
+      "startTimestamp": "2026-03-01T16:16:21+01:00",
+      "delayTimeValue": "0",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "54",
+      "coordinate": {
+        "lat": 50.75471898716448,
+        "long": 7.230861144862605
+      },
+      "description": [
+        "Beginn: 01.03.26 um 16:16 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.03.2026, 16:16",
+        "A3: Frankfurt -> Köln, zwischen 8.5 km hinter AS Siebengebirge und 1.2 km vor AK Bonn/Siegburg",
+        "",
+        "Langsamer Verkehr",
+        "Reisezeitverlust: 0 Minuten",
+        "Durchschnittsgeschwindigkeit: 54 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.230861145,
+            50.754718987
+          ],
+          [
+            7.2304365,
+            50.755364001
+          ],
+          [
+            7.2300948,
+            50.755942101
+          ],
+          [
+            7.2298408,
+            50.756424101
+          ],
+          [
+            7.2296015,
+            50.756970401
+          ],
+          [
+            7.229426,
+            50.757438901
+          ],
+          [
+            7.2292829,
+            50.757872401
+          ],
+          [
+            7.2291461,
+            50.758385601
+          ],
+          [
+            7.2290415,
+            50.758904801
+          ],
+          [
+            7.2289752,
+            50.759373201
+          ],
+          [
+            7.2289315,
+            50.759819301
+          ],
+          [
+            7.2289206,
+            50.760295801
+          ],
+          [
+            7.2289342,
+            50.760828801
+          ],
+          [
+            7.2289637,
+            50.761254701
+          ],
+          [
+            7.2290425,
+            50.761806701
+          ],
+          [
+            7.2291166,
+            50.762194601
+          ],
+          [
+            7.2292426,
+            50.762696801
+          ],
+          [
+            7.2293829,
+            50.763151201
+          ],
+          [
+            7.2295334,
+            50.763573901
+          ],
+          [
+            7.2296691,
+            50.763901401
+          ],
+          [
+            7.2298568,
+            50.764310301
+          ],
+          [
+            7.2300438,
+            50.764673501
+          ],
+          [
+            7.2302431,
+            50.765029601
+          ],
+          [
+            7.2304638,
+            50.765384701
+          ],
+          [
+            7.2306964,
+            50.765738701
+          ],
+          [
+            7.2309322,
+            50.766065101
+          ],
+          [
+            7.2312087,
+            50.766434301
+          ],
+          [
+            7.2315099,
+            50.766795601
+          ],
+          [
+            7.231516896,
+            50.766803421
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-01_16-08-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.7045512889242,7.2526841920351215,50.71469730319911,7.242381399625409",
+      "point": "50.7045512889242,7.2526841920351215",
+      "startLcPosition": "196",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Siebengebirge - Bonn/Siegburg",
+      "startTimestamp": "2026-03-01T16:08:30+01:00",
+      "coordinate": {
+        "lat": 50.7045512889242,
+        "long": 7.2526841920351215
+      },
+      "description": [
+        "Beginn: 01.03.26 um 16:08 Uhr",
+        "",
+        "Hindernis, seit 01.03.2026, 16:08",
+        "A3: Frankfurt -> Köln, zwischen 2.6 km hinter AS Siebengebirge und 7.1 km vor AK Bonn/Siegburg",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.252684192,
+            50.704551289
+          ],
+          [
+            7.2522408,
+            50.704830101
+          ],
+          [
+            7.2515915,
+            50.705253501
+          ],
+          [
+            7.2509966,
+            50.705654701
+          ],
+          [
+            7.2505579,
+            50.705968201
+          ],
+          [
+            7.249837,
+            50.706498801
+          ],
+          [
+            7.2493693,
+            50.706853501
+          ],
+          [
+            7.2488874,
+            50.707238601
+          ],
+          [
+            7.2482752,
+            50.707746001
+          ],
+          [
+            7.2477657,
+            50.708188601
+          ],
+          [
+            7.2473748,
+            50.708539401
+          ],
+          [
+            7.2469623,
+            50.708928001
+          ],
+          [
+            7.2463671,
+            50.709509301
+          ],
+          [
+            7.2458735,
+            50.710020801
+          ],
+          [
+            7.2454381,
+            50.710497001
+          ],
+          [
+            7.2450026,
+            50.710994401
+          ],
+          [
+            7.2444776,
+            50.711615301
+          ],
+          [
+            7.2439772,
+            50.712259001
+          ],
+          [
+            7.2435728,
+            50.712821601
+          ],
+          [
+            7.2431901,
+            50.713374801
+          ],
+          [
+            7.2428208,
+            50.713957801
+          ],
+          [
+            7.2424632,
+            50.714548401
+          ],
+          [
+            7.2423814,
+            50.714697303
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-03-01_16-15-00-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.69887160437893,7.2620456933543505,50.69887160437893,7.2620456933543505",
+      "point": "50.69887160437893,7.2620456933543505",
+      "startLcPosition": "197",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Bonn/Siegburg - Bonn/Siegburg",
+      "startTimestamp": "2026-03-01T16:17:10+01:00",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "26",
+      "coordinate": {
+        "lat": 50.69887160437893,
+        "long": 7.2620456933543505
+      },
+      "description": [
+        "Beginn: 01.03.26 um 16:17 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.03.2026, 16:17",
+        "A3: Frankfurt -> Köln, 9.4 km vor AK Bonn/Siegburg, aus Richtung Siebengebirge",
+        "",
+        "Langsamer Verkehr",
+        "Durchschnittsgeschwindigkeit: 26 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.262045693,
+            50.698871604
+          ],
+          [
+            7.262045693,
+            50.698871604
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-01_16-10-05-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.36030426722791,6.832480364384635,51.361730534396706,6.830955339496749",
+      "point": "51.36030426722791,6.832480364384635",
+      "startLcPosition": "222",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Breitscheid - Entenfang",
+      "startTimestamp": "2026-03-01T16:10:05+01:00",
+      "coordinate": {
+        "lat": 51.36030426722791,
+        "long": 6.832480364384635
+      },
+      "description": [
+        "Beginn: 01.03.26 um 16:10 Uhr",
+        "",
+        "Hindernis, seit 01.03.2026, 16:10",
+        "A3: Köln -> Oberhausen, zwischen 2.1 km hinter AK Breitscheid und 0.6 km vor Entenfang",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.832480364,
+            51.360304267
+          ],
+          [
+            6.8313608,
+            51.361312901
+          ],
+          [
+            6.830955339,
+            51.361730534
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-01_16-09-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.35147641809488,6.851964153110085,51.35203507110132,6.850473677182309",
+      "point": "51.35147641809488,6.851964153110085",
+      "startLcPosition": "222",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Breitscheid - Entenfang",
+      "startTimestamp": "2026-03-01T16:09:00+01:00",
+      "coordinate": {
+        "lat": 51.35147641809488,
+        "long": 6.851964153110085
+      },
+      "description": [
+        "Beginn: 01.03.26 um 16:09 Uhr",
+        "",
+        "Hindernis, seit 01.03.2026, 16:09",
+        "A3: Köln -> Oberhausen, zwischen 0.4 km hinter AK Breitscheid und 2.3 km vor Entenfang",
+        "",
+        "Gefahr durch Gegenstände auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.851964153,
+            51.351476418
+          ],
+          [
+            6.850473677,
+            51.352035071
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-01_15-19-50-000.f_011.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1023,28 +1202,27 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-01_15-11-05-000.f_001.de0",
+      "identifier": "undefined--vi-hind.2026-03-01_15-50-30-000.f_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.47129479094994,6.816279207407612,51.46114763597258,6.811147153084782",
-      "point": "51.47129479094994,6.816279207407612",
-      "startLcPosition": "227",
+      "extent": "51.51562553287189,6.816119385500753,51.51693142257249,6.815344468915695",
+      "point": "51.51562553287189,6.816119385500753",
+      "startLcPosition": "229",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-Lirich - Kaiserberg",
-      "startTimestamp": "2026-03-01T15:11:05+01:00",
+      "subtitle": " Oberhausen -> Arnheim",
+      "title": "A3 | Oberhausen-Holten - Oberhausen",
+      "startTimestamp": "2026-03-01T15:50:30+01:00",
       "coordinate": {
-        "lat": 51.47129479094994,
-        "long": 6.816279207407612
+        "lat": 51.51562553287189,
+        "long": 6.816119385500753
       },
       "description": [
-        "Beginn: 01.03.26 um 15:11 Uhr",
+        "Beginn: 01.03.26 um 15:50 Uhr",
         "",
-        "Hindernis, seit 01.03.2026, 15:11",
-        "A3: Oberhausen -> Köln, zwischen 0.5 km hinter AS Oberhausen-Lirich und 2.1 km vor AK Kaiserberg",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Fahrzeug-Hindernis, seit 01.03.2026, 15:50",
+        "A3: Oberhausen -> Arnheim, zwischen 0.3 km hinter AS Oberhausen-Holten und 2.8 km vor AK Oberhausen",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1054,262 +1232,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.816279207,
-            51.471294791
+            6.816119386,
+            51.515625533
           ],
           [
-            6.8163366,
-            51.470698301
+            6.8158006,
+            51.516109301
           ],
           [
-            6.8163785,
-            51.470053901
+            6.8155701,
+            51.516491301
           ],
           [
-            6.8163563,
-            51.469199401
-          ],
-          [
-            6.8162701,
-            51.468379101
-          ],
-          [
-            6.816019,
-            51.467105601
-          ],
-          [
-            6.8159667,
-            51.466840501
-          ],
-          [
-            6.8156363,
-            51.465810701
-          ],
-          [
-            6.8153241,
-            51.465084301
-          ],
-          [
-            6.8149865,
-            51.464505701
-          ],
-          [
-            6.8144559,
-            51.463771401
-          ],
-          [
-            6.8142594,
-            51.463532101
-          ],
-          [
-            6.8139396,
-            51.463173401
-          ],
-          [
-            6.8134116,
-            51.462727801
-          ],
-          [
-            6.8131532,
-            51.462508801
-          ],
-          [
-            6.812532,
-            51.462006701
-          ],
-          [
-            6.8122792,
-            51.461825301
-          ],
-          [
-            6.8114678,
-            51.461322601
-          ],
-          [
-            6.811147153,
-            51.461147636
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-avl.2026-03-01_15-28-08-000.f_003.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.48342980093352,6.813147899995705,51.48342980093352,6.813147899995705",
-      "point": "51.48342980093352,6.813147899995705",
-      "startLcPosition": "227",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-Lirich - Oberhausen-Lirich",
-      "startTimestamp": "2026-03-01T15:42:30+01:00",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "6",
-      "coordinate": {
-        "lat": 51.48342980093352,
-        "long": 6.813147899995705
-      },
-      "description": [
-        "Beginn: 01.03.26 um 15:42 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 01.03.2026, 15:42",
-        "A3: Oberhausen -> Köln, 0.9 km vor AS Oberhausen-Lirich, aus Richtung Oberhausen-West",
-        "",
-        "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 6 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.8131479,
-            51.483429801
-          ],
-          [
-            6.8131479,
-            51.483429801
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-zus.2026-03-01_15-22-34-000.f.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.48342980093352,6.813147899995705,51.469444696086626,6.8163626727539715",
-      "point": "51.48342980093352,6.813147899995705",
-      "startLcPosition": "228",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Oberhausen-West - Kaiserberg",
-      "startTimestamp": "2026-03-01T15:22:34+01:00",
-      "delayTimeValue": "8",
-      "abnormalTrafficType": "STATIONARY_TRAFFIC",
-      "averageSpeed": "10.399999618530273",
-      "coordinate": {
-        "lat": 51.48342980093352,
-        "long": 6.813147899995705
-      },
-      "description": [
-        "Beginn: 01.03.26 um 15:22 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 01.03.2026, 15:22",
-        "A3: Oberhausen -> Köln, zwischen 0.5 km hinter AK Oberhausen-West und 3.1 km vor AK Kaiserberg",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 8 Minuten",
-        "Durchschnittsgeschwindigkeit: 10 km/h",
-        "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.8131479,
-            51.483429801
-          ],
-          [
-            6.8131032,
-            51.483119701
-          ],
-          [
-            6.8130469,
-            51.482526201
-          ],
-          [
-            6.8130477,
-            51.482120801
-          ],
-          [
-            6.8130632,
-            51.481524801
-          ],
-          [
-            6.8131389,
-            51.480770301
-          ],
-          [
-            6.8132791,
-            51.480030501
-          ],
-          [
-            6.8134923,
-            51.479211101
-          ],
-          [
-            6.8136538,
-            51.478760401
-          ],
-          [
-            6.8141165,
-            51.477644401
-          ],
-          [
-            6.8146816,
-            51.476394701
-          ],
-          [
-            6.8148812,
-            51.475914401
-          ],
-          [
-            6.8150791,
-            51.475461701
-          ],
-          [
-            6.81514,
-            51.475291801
-          ],
-          [
-            6.8153958,
-            51.474592001
-          ],
-          [
-            6.8156677,
-            51.473798701
-          ],
-          [
-            6.8158093,
-            51.473386401
-          ],
-          [
-            6.8159557,
-            51.472891501
-          ],
-          [
-            6.8160918,
-            51.472354001
-          ],
-          [
-            6.8162004,
-            51.471815701
-          ],
-          [
-            6.8162725,
-            51.471364501
-          ],
-          [
-            6.8163366,
-            51.470698301
-          ],
-          [
-            6.8163785,
-            51.470053901
-          ],
-          [
-            6.816362673,
-            51.469444696
+            6.815344469,
+            51.516931423
           ]
         ]
       }
@@ -1319,7 +1255,7 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.53671113671889,6.830350267778303,51.52599094568966,6.816136089690039",
+      "extent": "51.53671113671889,6.830350267778303,51.527471856566955,6.817436902961044",
       "point": "51.53671113671889,6.830350267778303",
       "startLcPosition": "230",
       "display_type": "WARNING",
@@ -1327,8 +1263,8 @@
       "title": "A3 | Oberhausen - Oberhausen-Holten",
       "startTimestamp": "2026-03-01T10:54:00+01:00",
       "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "37.20000076293945",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "42.5",
       "coordinate": {
         "lat": 51.53671113671889,
         "long": 6.830350267778303
@@ -1337,11 +1273,11 @@
         "Beginn: 01.03.26 um 10:54 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.03.2026, 10:54",
-        "A3: Arnheim -> Oberhausen, zwischen 0.1 km hinter AK Oberhausen und 1.5 km vor AS Oberhausen-Holten",
+        "A3: Arnheim -> Oberhausen, zwischen 0.1 km hinter AK Oberhausen und 1.7 km vor AS Oberhausen-Holten",
         "",
-        "Stockender Verkehr",
+        "Langsamer Verkehr",
         "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 37 km/h"
+        "Durchschnittsgeschwindigkeit: 42 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1439,20 +1375,53 @@
             51.527797001
           ],
           [
-            6.8171018,
-            51.527146701
+            6.817436903,
+            51.527471857
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-01_15-50-30-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.51424587798267,6.816884801451871,51.513423435163794,6.817539857574223",
+      "point": "51.51424587798267,6.816884801451871",
+      "startLcPosition": "230",
+      "display_type": "WARNING",
+      "subtitle": " Arnheim -> Oberhausen",
+      "title": "A3 | Oberhausen - Oberhausen-Holten",
+      "startTimestamp": "2026-03-01T15:50:30+01:00",
+      "coordinate": {
+        "lat": 51.51424587798267,
+        "long": 6.816884801451871
+      },
+      "description": [
+        "Beginn: 01.03.26 um 15:50 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 01.03.2026, 15:50",
+        "A3: Arnheim -> Oberhausen, zwischen 3.0 km hinter AK Oberhausen und AS Oberhausen-Holten",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.816884801,
+            51.514245878
           ],
           [
-            6.816856,
-            51.526848301
+            6.8173737,
+            51.513632901
           ],
           [
-            6.8163177,
-            51.526219701
-          ],
-          [
-            6.81613609,
-            51.525990946
+            6.817539858,
+            51.513423435
           ]
         ]
       }
