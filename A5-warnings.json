@@ -1,28 +1,31 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2026-03-04_04-51-30-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-03-04_06-07-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.98016290094784,7.734071399999447,47.95071930094791,7.6647581999993335",
-      "point": "47.98016290094784,7.734071399999447",
+      "extent": "47.98027479597656,7.734228052937981,47.98027479597656,7.734228052937981",
+      "point": "47.98027479597656,7.734228052937981",
       "startLcPosition": "24",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Freiburg-Süd - Seltenbach",
-      "startTimestamp": "2026-03-04T04:51:30+01:00",
+      "title": "A5 | Freiburg-Süd - Freiburg-Süd",
+      "startTimestamp": "2026-03-04T06:07:30+01:00",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "18",
       "coordinate": {
-        "lat": 47.98016290094784,
-        "long": 7.734071399999447
+        "lat": 47.98027479597656,
+        "long": 7.734228052937981
       },
       "description": [
-        "Beginn: 04.03.26 um 04:51 Uhr",
+        "Beginn: 04.03.26 um 06:07 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 04.03.2026, 04:51",
-        "A5: Karlsruhe -> Basel, zwischen AS Freiburg-Süd und 0.9 km vor Seltenbach",
+        "Angespannte Verkehrslage, seit 04.03.2026, 06:07",
+        "A5: Karlsruhe -> Basel, in Höhe AS Freiburg-Süd, aus Richtung Moos",
         "",
-        "A5 Karlsruhe Richtung Basel\nzwischen Freiburg-Süd und Bad Krozingen\ndefekter LKW, Bergungsarbeiten auf dem rechten Fahrstreifen und dem Standstreifen, bitte vorsichtig fahren"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 18 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -31,6 +34,57 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            7.734228053,
+            47.980274796
+          ],
+          [
+            7.734228053,
+            47.980274796
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2026-03-04_06-02-30-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.98021218098333,7.734140391999082,47.971129264039746,7.720141597275727",
+      "point": "47.98021218098333,7.734140391999082",
+      "startLcPosition": "24",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Freiburg-Süd - Bad Krozingen",
+      "startTimestamp": "2026-03-04T06:02:30+01:00",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "30.799999237060547",
+      "coordinate": {
+        "lat": 47.98021218098333,
+        "long": 7.734140391999082
+      },
+      "description": [
+        "Beginn: 04.03.26 um 06:02 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 04.03.2026, 06:02",
+        "A5: Karlsruhe -> Basel, zwischen AS Freiburg-Süd und 4.5 km vor AS Bad Krozingen",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 30 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.734140392,
+            47.980212181
+          ],
           [
             7.7340714,
             47.980162901
@@ -96,6 +150,76 @@
             47.971286101
           ],
           [
+            7.720141597,
+            47.971129264
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-zus.2026-03-04_04-51-30-000.f_003.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "47.97503188749784,7.726523588654084,47.96736890779448,7.713414712217822",
+      "point": "47.97503188749784,7.726523588654084",
+      "startLcPosition": "24",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Freiburg-Süd - Bad Krozingen",
+      "startTimestamp": "2026-03-04T04:51:30+01:00",
+      "coordinate": {
+        "lat": 47.97503188749784,
+        "long": 7.726523588654084
+      },
+      "description": [
+        "Beginn: 04.03.26 um 04:51 Uhr",
+        "",
+        "Zusammengesetzte Verkehrsinformation, seit 04.03.2026, 04:51",
+        "A5: Karlsruhe -> Basel, zwischen 0.8 km hinter AS Freiburg-Süd und 3.8 km vor AS Bad Krozingen",
+        "",
+        "A5 Karlsruhe Richtung Basel\nzwischen Freiburg-Süd und Bad Krozingen\ndefekter LKW, Bergungsarbeiten auf dem rechten Fahrstreifen und dem Standstreifen, bitte vorsichtig fahren"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.726523589,
+            47.975031887
+          ],
+          [
+            7.7262623,
+            47.974862201
+          ],
+          [
+            7.7255918,
+            47.974422301
+          ],
+          [
+            7.7253017,
+            47.974245001
+          ],
+          [
+            7.724676,
+            47.973865701
+          ],
+          [
+            7.723317,
+            47.973024901
+          ],
+          [
+            7.7218828,
+            47.972159801
+          ],
+          [
+            7.7204106,
+            47.971286101
+          ],
+          [
             7.7192431,
             47.970605401
           ],
@@ -116,194 +240,42 @@
             47.968316601
           ],
           [
-            7.7132599,
-            47.967285101
-          ],
-          [
-            7.71125,
-            47.966237201
-          ],
-          [
-            7.7092435,
-            47.965217901
-          ],
-          [
-            7.7074743,
-            47.964336401
-          ],
-          [
-            7.7058477,
-            47.963549401
-          ],
-          [
-            7.7044568,
-            47.962894001
-          ],
-          [
-            7.7041717,
-            47.962759301
-          ],
-          [
-            7.7027421,
-            47.962096101
-          ],
-          [
-            7.7021737,
-            47.961834701
-          ],
-          [
-            7.7007222,
-            47.961180101
-          ],
-          [
-            7.6985012,
-            47.960204601
-          ],
-          [
-            7.6980567,
-            47.960009301
-          ],
-          [
-            7.6955926,
-            47.958972501
-          ],
-          [
-            7.695493,
-            47.958932201
-          ],
-          [
-            7.6936358,
-            47.958166001
-          ],
-          [
-            7.6926465,
-            47.957768601
-          ],
-          [
-            7.6916505,
-            47.957382001
-          ],
-          [
-            7.6891472,
-            47.956454901
-          ],
-          [
-            7.6881415,
-            47.956085801
-          ],
-          [
-            7.6867411,
-            47.955605001
-          ],
-          [
-            7.6855287,
-            47.955209201
-          ],
-          [
-            7.6839459,
-            47.954719101
-          ],
-          [
-            7.6823991,
-            47.954284801
-          ],
-          [
-            7.6807133,
-            47.953812001
-          ],
-          [
-            7.678949,
-            47.953360101
-          ],
-          [
-            7.677387,
-            47.952970001
-          ],
-          [
-            7.6759045,
-            47.952643501
-          ],
-          [
-            7.6757794,
-            47.952620401
-          ],
-          [
-            7.6747683,
-            47.952402501
-          ],
-          [
-            7.6734297,
-            47.952141201
-          ],
-          [
-            7.6706773,
-            47.951640801
-          ],
-          [
-            7.6702146,
-            47.951558701
-          ],
-          [
-            7.6696748,
-            47.951461701
-          ],
-          [
-            7.6689377,
-            47.951342301
-          ],
-          [
-            7.6685037,
-            47.951271001
-          ],
-          [
-            7.6672558,
-            47.951086501
-          ],
-          [
-            7.6669315,
-            47.951038801
-          ],
-          [
-            7.6654543,
-            47.950821601
-          ],
-          [
-            7.6651264,
-            47.950773401
-          ],
-          [
-            7.6650689,
-            47.950765001
-          ],
-          [
-            7.6647582,
-            47.950719301
+            7.713414712,
+            47.967368908
           ]
         ]
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-04_04-37-00-000.f.de0",
+      "identifier": "undefined--vi-zus.2026-03-04_05-56-30-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.156964402763215,8.602939671095438,50.156964402763215,8.602939671095438",
-      "point": "50.156964402763215,8.602939671095438",
+      "extent": "50.18198850530221,8.616761737379445,50.15130650839976,8.599816377500455",
+      "point": "50.18198850530221,8.616761737379445",
       "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Bad Homburger Kreuz - Taunusblick",
-      "startTimestamp": "2026-03-04T04:37:00+01:00",
+      "title": "A5 | Bad Homburger Kreuz - Nordwestkreuz Frankfurt am Main",
+      "startTimestamp": "2026-03-04T05:56:30+01:00",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "37.5",
       "coordinate": {
-        "lat": 50.156964402763215,
-        "long": 8.602939671095438
+        "lat": 50.18198850530221,
+        "long": 8.616761737379445
       },
       "description": [
-        "Beginn: 04.03.26 um 04:37 Uhr",
+        "Beginn: 04.03.26 um 05:56 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 04.03.2026, 04:37",
-        "A5: Kassel -> Frankfurt, zwischen 5.9 km hinter AK Bad Homburger Kreuz und 0.3 km vor Taunusblick",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Zusammengesetzte Verkehrsinformation, seit 04.03.2026, 05:56",
+        "A5: Kassel -> Frankfurt, zwischen 3.0 km hinter AK Bad Homburger Kreuz und 2.0 km vor AK Nordwestkreuz Frankfurt am Main",
+        "",
+        "Stockender Verkehr",
+        "Reisezeitverlust: 4 Minuten",
+        "Durchschnittsgeschwindigkeit: 37 km/h",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -313,12 +285,202 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.602939671,
-            50.156964403
+            8.616761737,
+            50.181988505
           ],
           [
-            8.602939671,
-            50.156964403
+            8.616427,
+            50.181401701
+          ],
+          [
+            8.6160781,
+            50.180781701
+          ],
+          [
+            8.6155807,
+            50.179869701
+          ],
+          [
+            8.6150149,
+            50.178848901
+          ],
+          [
+            8.6146456,
+            50.178179501
+          ],
+          [
+            8.6140375,
+            50.177074401
+          ],
+          [
+            8.6132378,
+            50.175640601
+          ],
+          [
+            8.6129416,
+            50.175103401
+          ],
+          [
+            8.6125074,
+            50.174345401
+          ],
+          [
+            8.6109372,
+            50.171504601
+          ],
+          [
+            8.6103495,
+            50.170386601
+          ],
+          [
+            8.6094434,
+            50.168759901
+          ],
+          [
+            8.608039,
+            50.166216501
+          ],
+          [
+            8.6074319,
+            50.165108201
+          ],
+          [
+            8.606801,
+            50.163969201
+          ],
+          [
+            8.6067641,
+            50.163891801
+          ],
+          [
+            8.6063533,
+            50.163170801
+          ],
+          [
+            8.6052348,
+            50.161141101
+          ],
+          [
+            8.6040544,
+            50.158976801
+          ],
+          [
+            8.6039384,
+            50.158780701
+          ],
+          [
+            8.6038386,
+            50.158601301
+          ],
+          [
+            8.6029076,
+            50.156906001
+          ],
+          [
+            8.6026482,
+            50.156433701
+          ],
+          [
+            8.602141,
+            50.155533001
+          ],
+          [
+            8.6014915,
+            50.154343701
+          ],
+          [
+            8.6003253,
+            50.152262001
+          ],
+          [
+            8.5998443,
+            50.151357401
+          ],
+          [
+            8.599816378,
+            50.151306508
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-04_06-03-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.155999740999754,8.602403826999618,50.14510354424678,8.596403496658208",
+      "point": "50.155999740999754,8.602403826999618",
+      "startLcPosition": "112",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Bad Homburger Kreuz - Nordwestkreuz Frankfurt am Main",
+      "startTimestamp": "2026-03-04T06:03:00+01:00",
+      "coordinate": {
+        "lat": 50.155999740999754,
+        "long": 8.602403826999618
+      },
+      "description": [
+        "Beginn: 04.03.26 um 06:03 Uhr",
+        "",
+        "Hindernis, seit 04.03.2026, 06:03",
+        "A5: Kassel -> Frankfurt, zwischen 6.0 km hinter AK Bad Homburger Kreuz und 1.2 km vor AK Nordwestkreuz Frankfurt am Main",
+        "",
+        "Gefahr durch eine ungesicherte Unfallstelle"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.602403827,
+            50.155999741
+          ],
+          [
+            8.602141,
+            50.155533001
+          ],
+          [
+            8.6014915,
+            50.154343701
+          ],
+          [
+            8.6003253,
+            50.152262001
+          ],
+          [
+            8.5998443,
+            50.151357401
+          ],
+          [
+            8.5994648,
+            50.150665701
+          ],
+          [
+            8.5992135,
+            50.150207501
+          ],
+          [
+            8.5984048,
+            50.148738101
+          ],
+          [
+            8.5978323,
+            50.147732401
+          ],
+          [
+            8.5972706,
+            50.146719801
+          ],
+          [
+            8.5964434,
+            50.145175301
+          ],
+          [
+            8.596403497,
+            50.145103544
           ]
         ]
       }
