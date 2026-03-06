@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2026-03-06_08-51-18-000.f.de0",
+      "identifier": "undefined--vi-avl.2026-03-06_09-10-47-000.f.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.0142595342451,8.464698953033405,49.004556013166585,8.452897532647",
-      "point": "49.0142595342451,8.464698953033405",
-      "startLcPosition": "61",
+      "extent": "49.02485489574971,8.475775136720166,49.00349019528052,8.45123072291481",
+      "point": "49.02485489574971,8.475775136720166",
+      "startLcPosition": "62",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Karlsruhe-Nord - Karlsruhe-Durlach",
-      "startTimestamp": "2026-03-06T08:51:18+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "66.4000015258789",
+      "title": "A5 | Kreuzlach - Karlsruhe-Durlach",
+      "startTimestamp": "2026-03-06T09:10:47+01:00",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "34.400001525878906",
       "coordinate": {
-        "lat": 49.0142595342451,
-        "long": 8.464698953033405
+        "lat": 49.02485489574971,
+        "long": 8.475775136720166
       },
       "description": [
-        "Beginn: 06.03.26 um 08:51 Uhr",
+        "Beginn: 06.03.26 um 09:10 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 06.03.2026, 08:51",
-        "A5: Heidelberg -> Karlsruhe, zwischen 0.2 km hinter AS Karlsruhe-Nord und 0.3 km vor AS Karlsruhe-Durlach",
+        "Angespannte Verkehrslage, seit 06.03.2026, 09:10",
+        "A5: Heidelberg -> Karlsruhe, zwischen 5.5 km hinter Kreuzlach und 0.1 km vor AS Karlsruhe-Durlach",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 66 km/h"
+        "Stockender Verkehr",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 34 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.464698953,
-            49.014259534
+            8.475775137,
+            49.024854896
+          ],
+          [
+            8.4754662,
+            49.024560301
+          ],
+          [
+            8.4752594,
+            49.024363001
+          ],
+          [
+            8.474385,
+            49.023523901
+          ],
+          [
+            8.4738814,
+            49.023043901
+          ],
+          [
+            8.473101,
+            49.022304701
+          ],
+          [
+            8.4724498,
+            49.021676801
+          ],
+          [
+            8.4717599,
+            49.021019001
+          ],
+          [
+            8.4715406,
+            49.020807101
+          ],
+          [
+            8.4704548,
+            49.019767501
+          ],
+          [
+            8.4702362,
+            49.019559501
+          ],
+          [
+            8.4680534,
+            49.017464901
+          ],
+          [
+            8.4668332,
+            49.016302501
+          ],
+          [
+            8.4661068,
+            49.015603501
+          ],
+          [
+            8.4654003,
+            49.014934701
           ],
           [
             8.4646341,
@@ -113,8 +169,61 @@
             49.004909701
           ],
           [
-            8.452897533,
-            49.004556013
+            8.4527242,
+            49.004444601
+          ],
+          [
+            8.4519946,
+            49.003979801
+          ],
+          [
+            8.451230723,
+            49.003490195
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-hind.2026-03-06_09-24-40-000.f_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.2531384522126,8.662919556404999,50.25420862641491,8.6629021364417",
+      "point": "50.2531384522126,8.662919556404999",
+      "startLcPosition": "114",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Kassel",
+      "title": "A5 | Schäferborn - Friedberg",
+      "startTimestamp": "2026-03-06T09:24:40+01:00",
+      "coordinate": {
+        "lat": 50.2531384522126,
+        "long": 8.662919556404999
+      },
+      "description": [
+        "Beginn: 06.03.26 um 09:24 Uhr",
+        "",
+        "Fahrzeug-Hindernis, seit 06.03.2026, 09:24",
+        "A5: Frankfurt -> Kassel, zwischen 0.2 km hinter Schäferborn und 3.7 km vor AS Friedberg",
+        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.662919556,
+            50.253138452
+          ],
+          [
+            8.6629026,
+            50.254072801
+          ],
+          [
+            8.662902136,
+            50.254208626
           ]
         ]
       }
