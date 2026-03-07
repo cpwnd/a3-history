@@ -1,33 +1,33 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-avl.2026-03-07_18-35-30-000.f_002.de0",
+      "identifier": "undefined--vi-avl.2026-03-07_18-35-30-000.f_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.527076275135265,8.617671587060222,50.52818630093869,8.603837899999888",
-      "point": "50.527076275135265,8.617671587060222",
-      "startLcPosition": "23",
+      "extent": "50.526295884778655,8.62409811133173,50.52818630093869,8.603837899999888",
+      "point": "50.526295884778655,8.62409811133173",
+      "startLcPosition": "22",
       "display_type": "WARNING",
       "subtitle": " Aschaffenburg -> Gießen",
-      "title": "A45 | Pfaffenpfad - Gießen-Lützellinden",
+      "title": "A45 | Gießener Südkreuz - Gießen-Lützellinden",
       "startTimestamp": "2026-03-07T18:35:30+01:00",
-      "delayTimeValue": "0",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "53.400001525878906",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "20.700000762939453",
       "coordinate": {
-        "lat": 50.527076275135265,
-        "long": 8.617671587060222
+        "lat": 50.526295884778655,
+        "long": 8.62409811133173
       },
       "description": [
         "Beginn: 07.03.26 um 18:35 Uhr",
         "",
         "Angespannte Verkehrslage, seit 07.03.2026, 18:35",
-        "A45: Aschaffenburg -> Gießen, zwischen 0.1 km hinter Pfaffenpfad und 0.4 km vor AS Gießen-Lützellinden",
+        "A45: Aschaffenburg -> Gießen, zwischen 1.2 km hinter AK Gießener Südkreuz und 0.4 km vor AS Gießen-Lützellinden",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 0 Minuten",
-        "Durchschnittsgeschwindigkeit: 53 km/h"
+        "Im Stillstand",
+        "Reisezeitverlust: 3 Minuten",
+        "Durchschnittsgeschwindigkeit: 20 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,8 +37,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.617671587,
-            50.527076275
+            8.624098111,
+            50.526295885
+          ],
+          [
+            8.6224099,
+            50.526512101
+          ],
+          [
+            8.6207141,
+            50.526733601
+          ],
+          [
+            8.618009,
+            50.527041001
           ],
           [
             8.6167157,
@@ -76,27 +88,31 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-07_17-28-25-000.f_020.de0",
+      "identifier": "undefined--vi-avl.2026-03-07_18-42-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.59106273946164,8.521343980608211,50.592087949859135,8.518233390863148",
-      "point": "50.59106273946164,8.521343980608211",
-      "startLcPosition": "26",
+      "extent": "50.5263065141102,8.624015122561236,50.5263065141102,8.624015122561236",
+      "point": "50.5263065141102,8.624015122561236",
+      "startLcPosition": "23",
       "display_type": "WARNING",
-      "subtitle": " Gießen -> Hagen",
-      "title": "A45 | Wetzlar-Ost - Wetzlarer Kreuz",
-      "startTimestamp": "2026-03-07T17:28:25+01:00",
+      "subtitle": " Aschaffenburg -> Gießen",
+      "title": "A45 | Pfaffenpfad - Pfaffenpfad",
+      "startTimestamp": "2026-03-07T18:50:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "12",
       "coordinate": {
-        "lat": 50.59106273946164,
-        "long": 8.521343980608211
+        "lat": 50.5263065141102,
+        "long": 8.624015122561236
       },
       "description": [
-        "Beginn: 07.03.26 um 17:28 Uhr",
+        "Beginn: 07.03.26 um 18:50 Uhr",
         "",
-        "Fahrzeug-Hindernis, seit 07.03.2026, 17:28",
-        "A45: Gießen -> Hagen, zwischen 3.0 km hinter AS Wetzlar-Ost und 2.2 km vor AK Wetzlarer Kreuz",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
+        "Angespannte Verkehrslage, seit 07.03.2026, 18:50",
+        "A45: Aschaffenburg -> Gießen, 0.4 km vor Pfaffenpfad, aus Richtung Gießener Südkreuz",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 12 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -106,20 +122,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.521343981,
-            50.591062739
+            8.624015123,
+            50.526306514
           ],
           [
-            8.5211273,
-            50.591140001
-          ],
-          [
-            8.5195117,
-            50.591692101
-          ],
-          [
-            8.518233391,
-            50.59208795
+            8.624015123,
+            50.526306514
           ]
         ]
       }
