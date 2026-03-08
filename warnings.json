@@ -294,31 +294,31 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.748083640722726,10.623021649603048,49.75465295413411,10.610676151341856",
-      "point": "49.748083640722726,10.623021649603048",
+      "extent": "49.74615264152573,10.626925350103146,49.75639632043504,10.607301182255517",
+      "point": "49.74615264152573,10.626925350103146",
       "startLcPosition": "103",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Würzburg",
       "title": "A3 | Schlüsselfeld - Dreifrankenstein-Nord",
       "startTimestamp": "2026-03-08T22:28:00+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "41.599998474121094",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "33.900001525878906",
       "coordinate": {
-        "lat": 49.748083640722726,
-        "long": 10.623021649603048
+        "lat": 49.74615264152573,
+        "long": 10.626925350103146
       },
       "description": [
         "Beginn: 08.03.26 um 22:28 Uhr",
         "",
         "Zusammengesetzte Verkehrsinformation, seit 08.03.2026, 22:28",
-        "A3: Nürnberg -> Würzburg, zwischen 0.8 km hinter AS Schlüsselfeld und 1.9 km vor Dreifrankenstein-Nord",
+        "A3: Nürnberg -> Würzburg, zwischen 0.5 km hinter AS Schlüsselfeld und 1.6 km vor Dreifrankenstein-Nord",
         "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 41 km/h",
+        "Gefahr durch eine ungesicherte Unfallstelle",
         "",
-        "Gefahr durch eine ungesicherte Unfallstelle"
+        "Im Stillstand",
+        "Reisezeitverlust: 2 Minuten",
+        "Durchschnittsgeschwindigkeit: 33 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -328,8 +328,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            10.62302165,
-            49.748083641
+            10.62692535,
+            49.746152642
+          ],
+          [
+            10.6264862,
+            49.746351901
+          ],
+          [
+            10.6253551,
+            49.746877001
+          ],
+          [
+            10.6236269,
+            49.747769201
+          ],
+          [
+            10.6231959,
+            49.747991701
           ],
           [
             10.618957,
@@ -344,8 +360,12 @@
             49.752297901
           ],
           [
-            10.610676151,
-            49.754652954
+            10.6087948,
+            49.755652301
+          ],
+          [
+            10.607301182,
+            49.75639632
           ]
         ]
       }
@@ -413,7 +433,7 @@
       }
     },
     {
-      "identifier": "undefined--vi-hind.2026-03-08_22-13-00-000.f.de0",
+      "identifier": "undefined--vi-hind.2026-03-08_22-13-00-000.f_001.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -453,55 +473,6 @@
           [
             8.40944856,
             50.04358858
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "undefined--vi-hind.2026-03-08_22-08-00-000.f_001.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.165783900940404,8.295429599999796,50.16447703868236,8.296766064235845",
-      "point": "50.165783900940404,8.295429599999796",
-      "startLcPosition": "168",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Theißtal - Niedernhausen",
-      "startTimestamp": "2026-03-08T22:08:00+01:00",
-      "coordinate": {
-        "lat": 50.165783900940404,
-        "long": 8.295429599999796
-      },
-      "description": [
-        "Beginn: 08.03.26 um 22:08 Uhr",
-        "",
-        "Fahrzeug-Hindernis, seit 08.03.2026, 22:08",
-        "A3: Köln -> Frankfurt, zwischen 0.1 km hinter Theißtal und 3.5 km vor AS Niedernhausen",
-        "Gefahr durch ein defektes Fahrzeug auf der Fahrbahn"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "tomtom",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.2954296,
-            50.165783901
-          ],
-          [
-            8.2956807,
-            50.165517101
-          ],
-          [
-            8.2962963,
-            50.164883301
-          ],
-          [
-            8.296766064,
-            50.164477039
           ]
         ]
       }
