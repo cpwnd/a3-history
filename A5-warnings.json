@@ -1,33 +1,100 @@
 {
   "warning": [
     {
-      "identifier": "undefined--vi-zus.2026-03-11_20-34-00-000.f.de0",
+      "identifier": "NLW_2026_000805--vi-hind.2026-03-11_20-20-00-337.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.63995165630045,7.560791656242752,47.613175611457216,7.590291674135235",
-      "point": "47.63995165630045,7.560791656242752",
-      "startLcPosition": "5",
+      "extent": "50.08262613223365,8.618249061710923,50.07909764075459,8.617189278662211",
+      "point": "50.08262613223365,8.618249061710923",
+      "startLcPosition": "107",
       "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Efringen-Kirchen - Krebsbach",
-      "startTimestamp": "2026-03-11T20:34:00+01:00",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "68.5",
+      "subtitle": " Frankfurt -> Darmstadt",
+      "title": "A5 | Frankfurt am Main-Niederrad - Frankfurt am Main-Flughafen-Nord",
+      "startTimestamp": "2026-03-11T21:16:00+01:00",
       "coordinate": {
-        "lat": 47.63995165630045,
-        "long": 7.560791656242752
+        "lat": 50.08262613223365,
+        "long": 8.618249061710923
       },
       "description": [
-        "Beginn: 11.03.26 um 20:34 Uhr",
+        "Beginn: 11.03.26 um 21:16 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 11.03.2026, 20:34",
-        "A5: Karlsruhe -> Basel, zwischen 5.3 km hinter AS Efringen-Kirchen und 0.1 km vor Krebsbach",
+        "Ereignismeldung:",
+        "- Fahrbahnschäden",
+        "3 Fahrstreifen gesperrt",
         "",
-        "Langsamer Verkehr",
-        "Reisezeitverlust: 1 Minuten",
-        "Durchschnittsgeschwindigkeit: 68 km/h"
+        "A5: Frankfurt -> Darmstadt, zwischen 0.3 km hinter AS Frankfurt am Main-Niederrad und 2.5 km vor AS Frankfurt am Main-Flughafen-Nord",
+        " ",
+        "Ereignisnummer: NLW_2026_000805"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "eva",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.618249062,
+            50.082626132
+          ],
+          [
+            8.618239922,
+            50.08254777
+          ],
+          [
+            8.618140996,
+            50.08201547
+          ],
+          [
+            8.618022764,
+            50.081418453
+          ],
+          [
+            8.617780467,
+            50.080582286
+          ],
+          [
+            8.617586989,
+            50.080042661
+          ],
+          [
+            8.61728413,
+            50.07930224
+          ],
+          [
+            8.617189279,
+            50.079097641
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-03-11_21-10-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.10287234793023,8.607641387513764,50.10287234793023,8.607641387513764",
+      "point": "50.10287234793023,8.607641387513764",
+      "startLcPosition": "108",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Frankfurt am Main-Westhafen - Frankfurt am Main-Westhafen",
+      "startTimestamp": "2026-03-11T21:26:30+01:00",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "16",
+      "coordinate": {
+        "lat": 50.10287234793023,
+        "long": 8.607641387513764
+      },
+      "description": [
+        "Beginn: 11.03.26 um 21:26 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 11.03.2026, 21:26",
+        "A5: Kassel -> Frankfurt, 1.3 km vor AS Frankfurt am Main-Westhafen, aus Richtung Westkreuz Frankfurt am Main",
+        "",
+        "Im Stillstand",
+        "Durchschnittsgeschwindigkeit: 16 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -37,172 +104,219 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.560791656,
-            47.639951656
+            8.607641388,
+            50.102872348
           ],
           [
-            7.5612186,
-            47.639688601
+            8.607641388,
+            50.102872348
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "undefined--vi-avl.2026-03-11_21-07-00-000.f.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.102747337053245,8.607778250270817,50.0807974612123,8.61771859911071",
+      "point": "50.102747337053245,8.607778250270817",
+      "startLcPosition": "109",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Darmstadt",
+      "title": "A5 | Westkreuz Frankfurt am Main - Frankfurt am Main-Flughafen-Nord",
+      "startTimestamp": "2026-03-11T21:07:00+01:00",
+      "delayTimeValue": "8",
+      "abnormalTrafficType": "STATIONARY_TRAFFIC",
+      "averageSpeed": "15.699999809265137",
+      "coordinate": {
+        "lat": 50.102747337053245,
+        "long": 8.607778250270817
+      },
+      "description": [
+        "Beginn: 11.03.26 um 21:07 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 11.03.2026, 21:07",
+        "A5: Kassel -> Darmstadt, zwischen 1.4 km hinter AK Westkreuz Frankfurt am Main und 2.7 km vor AS Frankfurt am Main-Flughafen-Nord",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 8 Minuten",
+        "Durchschnittsgeschwindigkeit: 15 km/h"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "tomtom",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.60777825,
+            50.102747337
           ],
           [
-            7.5619609,
-            47.639202301
+            8.6082658,
+            50.102302001
           ],
           [
-            7.562164,
-            47.639064401
+            8.6094232,
+            50.101326501
           ],
           [
-            7.5630002,
-            47.638491101
+            8.6097682,
+            50.101028201
           ],
           [
-            7.564156,
-            47.637656301
+            8.6105361,
+            50.100385401
           ],
           [
-            7.5651826,
-            47.636847301
+            8.6110135,
+            50.099982301
           ],
           [
-            7.5660592,
-            47.636144201
+            8.6119173,
+            50.099217901
           ],
           [
-            7.5669431,
-            47.635363001
+            8.6124936,
+            50.098707701
           ],
           [
-            7.5678605,
-            47.634513101
+            8.6127851,
+            50.098431501
           ],
           [
-            7.5687325,
-            47.633651301
+            8.6133148,
+            50.097905001
           ],
           [
-            7.5693113,
-            47.633057401
+            8.6138385,
+            50.097322101
           ],
           [
-            7.5700413,
-            47.632254001
+            8.6143295,
+            50.096708601
           ],
           [
-            7.5708091,
-            47.631362301
+            8.6145474,
+            50.096447001
           ],
           [
-            7.5711307,
-            47.630984101
+            8.6148484,
+            50.096042501
           ],
           [
-            7.5718203,
-            47.630129801
+            8.6151592,
+            50.095586801
           ],
           [
-            7.5725008,
-            47.629254001
+            8.6154464,
+            50.095136101
           ],
           [
-            7.5731852,
-            47.628349301
+            8.6158095,
+            50.094483301
           ],
           [
-            7.5737831,
-            47.627557001
+            8.6160362,
+            50.094069701
           ],
           [
-            7.5747032,
-            47.626341801
+            8.6162257,
+            50.093637001
           ],
           [
-            7.5748728,
-            47.626121601
+            8.6163315,
+            50.093345401
           ],
           [
-            7.5752706,
-            47.625602001
+            8.6164406,
+            50.093147901
           ],
           [
-            7.576099,
-            47.624572001
+            8.6166789,
+            50.092499501
           ],
           [
-            7.5761704,
-            47.624489301
+            8.6167152,
+            50.092381401
           ],
           [
-            7.5767171,
-            47.623825001
+            8.616862,
+            50.091892901
           ],
           [
-            7.5775478,
-            47.622883901
+            8.61695,
+            50.091568501
           ],
           [
-            7.5790134,
-            47.621341501
+            8.6169874,
+            50.091425401
           ],
           [
-            7.5795115,
-            47.620877701
+            8.6170864,
+            50.091074101
           ],
           [
-            7.5801421,
-            47.620289701
+            8.6171937,
+            50.090561201
           ],
           [
-            7.5803451,
-            47.620110301
+            8.6177521,
+            50.087798301
           ],
           [
-            7.5807888,
-            47.619721301
+            8.6179435,
+            50.086944301
           ],
           [
-            7.5811812,
-            47.619377201
+            8.6180635,
+            50.086265301
           ],
           [
-            7.5829627,
-            47.617946101
+            8.6181401,
+            50.085799401
           ],
           [
-            7.5837293,
-            47.617377701
+            8.6181783,
+            50.085488201
           ],
           [
-            7.5846205,
-            47.616741901
+            8.618209,
+            50.085147701
           ],
           [
-            7.5854085,
-            47.616208801
+            8.6182372,
+            50.084650001
           ],
           [
-            7.5859322,
-            47.615866501
+            8.6182302,
+            50.083702601
           ],
           [
-            7.5861948,
-            47.615695601
+            8.6181733,
+            50.083016101
           ],
           [
-            7.5871593,
-            47.615076301
+            8.6181233,
+            50.082555101
           ],
           [
-            7.5891155,
-            47.613886301
+            8.6180859,
+            50.082323101
           ],
           [
-            7.5901264,
-            47.613275801
+            8.6179767,
+            50.081793601
           ],
           [
-            7.590291674,
-            47.613175611
+            8.6178541,
+            50.081284601
+          ],
+          [
+            8.617718599,
+            50.080797461
           ]
         ]
       }
