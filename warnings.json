@@ -294,29 +294,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.801886845087814,7.225687888831629,50.78209204052759,7.242089084647891",
-      "point": "50.801886845087814,7.225687888831629",
+      "extent": "50.80388840567207,7.223771718032126,50.78209204052759,7.242089084647891",
+      "point": "50.80388840567207,7.223771718032126",
       "startLcPosition": "198",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Siegburg - Bonn/Siegburg",
       "startTimestamp": "2026-03-21T06:48:00Z",
-      "delayTimeValue": "7",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "averageSpeed": "15",
       "coordinate": {
-        "lat": 50.801886845087814,
-        "long": 7.225687888831629
+        "lat": 50.80388840567207,
+        "long": 7.223771718032126
       },
       "description": [
         "Beginn: 21.03.26 um 07:48 Uhr",
         "",
         "Angespannte Verkehrslage, seit 21.03.2026, 06:48",
-        "A3: Köln -> Frankfurt, zwischen 0.9 km hinter Siegburg und 0.7 km vor AK Bonn/Siegburg",
+        "A3: Köln -> Frankfurt, zwischen 0.6 km hinter Siegburg und 0.7 km vor AK Bonn/Siegburg",
         "",
         "Im Stillstand",
         "Durchschnittsgeschwindigkeit: 15 km/h",
-        "Reisezeitverlust: 7 Minuten"
+        "Reisezeitverlust: 9 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -326,8 +326,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.225687889,
-            50.801886845
+            7.223771718,
+            50.803888406
+          ],
+          [
+            7.2246649,
+            50.802987701
           ],
           [
             7.2260481,
@@ -409,27 +413,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.179121881809564,6.947887686600071,51.124804060210664,6.977247015276561",
-      "point": "51.179121881809564,6.947887686600071",
+      "extent": "51.1858242266944,6.944171721870425,51.12590880311739,6.976450993464496",
+      "point": "51.1858242266944,6.944171721870425",
       "startLcPosition": "217",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
       "title": "A3 | Hilden - Solingen",
       "startTimestamp": "2026-03-21T07:40:00Z",
-      "delayTimeValue": "18",
+      "delayTimeValue": "23",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 51.179121881809564,
-        "long": 6.947887686600071
+        "lat": 51.1858242266944,
+        "long": 6.944171721870425
       },
       "description": [
         "Beginn: 21.03.26 um 08:40 Uhr",
         "",
         "Angespannte Verkehrslage, seit 21.03.2026, 07:40",
-        "A3: Oberhausen -> Köln, zwischen 1.8 km hinter AK Hilden und 0.4 km vor AS Solingen",
+        "A3: Oberhausen -> Köln, zwischen 1.0 km hinter AK Hilden und 0.6 km vor AS Solingen",
         "",
         "Im Stillstand",
-        "Reisezeitverlust: 18 Minuten (abnehmend)"
+        "Reisezeitverlust: 23 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -439,8 +443,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.947887687,
-            51.179121882
+            6.944171722,
+            51.185824227
+          ],
+          [
+            6.9442401,
+            51.185706501
+          ],
+          [
+            6.9449949,
+            51.184334501
+          ],
+          [
+            6.9451081,
+            51.184140301
           ],
           [
             6.9507559,
@@ -583,119 +599,8 @@
             51.127238001
           ],
           [
-            6.9764859,
-            51.125852301
-          ],
-          [
-            6.9767328,
-            51.125477001
-          ],
-          [
-            6.9768274,
-            51.125342601
-          ],
-          [
-            6.9768642,
-            51.125290201
-          ],
-          [
-            6.9771259,
-            51.124941201
-          ],
-          [
-            6.977247015,
-            51.12480406
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-03-21_10-15-00-000_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.19589842398657,6.938532997099878,51.18463555666336,6.944829279657009",
-      "point": "51.19589842398657,6.938532997099878",
-      "startLcPosition": "218",
-      "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Stindertal / Stinderhof - Ohligser Heide",
-      "startTimestamp": "2026-03-21T10:15:00Z",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "25",
-      "coordinate": {
-        "lat": 51.19589842398657,
-        "long": 6.938532997099878
-      },
-      "description": [
-        "Beginn: 21.03.26 um 11:15 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 21.03.2026, 10:15",
-        "A3: Oberhausen -> Köln, zwischen 5.0 km hinter Stindertal / Stinderhof und 3.2 km vor Ohligser Heide",
-        "",
-        "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 25 km/h",
-        "Reisezeitverlust: 2 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.938532997,
-            51.195898424
-          ],
-          [
-            6.9391059,
-            51.194872801
-          ],
-          [
-            6.9394243,
-            51.194308201
-          ],
-          [
-            6.9397109,
-            51.193780201
-          ],
-          [
-            6.9398229,
-            51.193564201
-          ],
-          [
-            6.9399456,
-            51.193344701
-          ],
-          [
-            6.9406822,
-            51.192026601
-          ],
-          [
-            6.9415751,
-            51.190435101
-          ],
-          [
-            6.9420745,
-            51.189518301
-          ],
-          [
-            6.9427837,
-            51.188267101
-          ],
-          [
-            6.9434961,
-            51.186987401
-          ],
-          [
-            6.9442401,
-            51.185706501
-          ],
-          [
-            6.94482928,
-            51.184635557
+            6.976450993,
+            51.125908803
           ]
         ]
       }
@@ -705,29 +610,29 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.4661885160835,11.219239735763669,49.44002767761386,11.225483371199475",
-      "point": "49.4661885160835,11.219239735763669",
+      "extent": "49.4654518746295,11.22557051547096,49.438248151998515,11.223493104765167",
+      "point": "49.4654518746295,11.22557051547096",
       "startLcPosition": "1000",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
       "title": "Verkehrsmeldung",
       "startTimestamp": "2026-03-21T09:57:00Z",
-      "delayTimeValue": "5",
+      "delayTimeValue": "4",
       "abnormalTrafficType": "SLOW_TRAFFIC",
       "averageSpeed": "30",
       "coordinate": {
-        "lat": 49.4661885160835,
-        "long": 11.219239735763669
+        "lat": 49.4654518746295,
+        "long": 11.22557051547096
       },
       "description": [
         "Beginn: 21.03.26 um 10:57 Uhr",
         "",
         "Angespannte Verkehrslage, seit 21.03.2026, 09:57",
-        "Von A3: Nürnberg -> Passau, 2.0 km vor AK Nürnberg, aus Richtung Nürnberg-Mögeldorf; in A3: AK Nürnberg auf die A9 in Richtung Nürnberg; nach A9: Halle/Leipzig -> Nürnberg, 2.4 km vor Brunn, aus Richtung Nürnberg",
+        "Von A3: Nürnberg -> Passau, 1.6 km vor AK Nürnberg, aus Richtung Nürnberg-Mögeldorf; in A3: AK Nürnberg auf die A9 in Richtung Nürnberg; nach A9: Halle/Leipzig -> Nürnberg, 2.1 km vor Brunn, aus Richtung Nürnberg",
         "",
         "Stockender Verkehr",
         "Durchschnittsgeschwindigkeit: 30 km/h",
-        "Reisezeitverlust: 5 Minuten (zunehmend)"
+        "Reisezeitverlust: 4 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -737,44 +642,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.219239736,
-            49.466188516
-          ],
-          [
-            11.2197442,
-            49.466181201
-          ],
-          [
-            11.2203258,
-            49.466160901
-          ],
-          [
-            11.2210967,
-            49.466112501
-          ],
-          [
-            11.2217036,
-            49.466064601
-          ],
-          [
-            11.2224362,
-            49.465984501
-          ],
-          [
-            11.2230715,
-            49.465892301
-          ],
-          [
-            11.2232533,
-            49.465865001
-          ],
-          [
-            11.2241642,
-            49.465728301
-          ],
-          [
-            11.2249215,
-            49.465589201
+            11.225570515,
+            49.465451875
           ],
           [
             11.225672,
@@ -965,8 +834,12 @@
             49.442185101
           ],
           [
-            11.225483371,
-            49.440027678
+            11.2241915,
+            49.438875701
+          ],
+          [
+            11.223493105,
+            49.438248152
           ]
         ]
       }
