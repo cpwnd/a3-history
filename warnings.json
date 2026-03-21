@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-03-21_18-19-00-248.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-03-21_18-50-00-259.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,31 +290,33 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-03-21_18-14-00-000_004.de0",
+      "identifier": "INRIX--vi-avl.2026-03-21_18-29-00-000_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.10210039348088,6.988228273903472,51.14213744164444,6.970226526996401",
-      "point": "51.10210039348088,6.988228273903472",
-      "startLcPosition": "212",
+      "extent": "51.00952185011467,7.014644682002709,51.0305770752142,7.01022734791622",
+      "point": "51.00952185011467,7.014644682002709",
+      "startLcPosition": "208",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Reusrather Heide - Ohligser Heide",
-      "startTimestamp": "2026-03-21T18:14:00Z",
-      "delayTimeValue": "13",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "title": "A3 | Köln-Mülheim - Leverkusen",
+      "startTimestamp": "2026-03-21T18:29:00Z",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "30",
       "coordinate": {
-        "lat": 51.10210039348088,
-        "long": 6.988228273903472
+        "lat": 51.00952185011467,
+        "long": 7.014644682002709
       },
       "description": [
-        "Beginn: 21.03.26 um 19:14 Uhr",
+        "Beginn: 21.03.26 um 19:29 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 21.03.2026, 18:14",
-        "A3: Köln -> Oberhausen, zwischen 1.9 km hinter Reusrather Heide und 1.9 km vor Ohligser Heide",
+        "Angespannte Verkehrslage, seit 21.03.2026, 18:29",
+        "A3: Köln -> Oberhausen, zwischen 3.0 km hinter AS Köln-Mülheim und 1.3 km vor AK Leverkusen",
         "",
-        "Im Stillstand",
-        "Reisezeitverlust: 13 Minuten (zunehmend)"
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 30 km/h",
+        "Reisezeitverlust: 3 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -324,16 +326,125 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.988228274,
-            51.102100393
+            7.014644682,
+            51.00952185
           ],
           [
-            6.98814,
-            51.104492901
+            7.014628,
+            51.009974201
           ],
           [
-            6.9881083,
-            51.105366701
+            7.014558,
+            51.010627001
+          ],
+          [
+            7.0144296,
+            51.011567201
+          ],
+          [
+            7.0144165,
+            51.011662801
+          ],
+          [
+            7.0141625,
+            51.012928701
+          ],
+          [
+            7.0140185,
+            51.013601001
+          ],
+          [
+            7.0138782,
+            51.014134401
+          ],
+          [
+            7.0133633,
+            51.016477401
+          ],
+          [
+            7.0133047,
+            51.016730801
+          ],
+          [
+            7.0132236,
+            51.017081001
+          ],
+          [
+            7.0131048,
+            51.017620101
+          ],
+          [
+            7.0126993,
+            51.019460701
+          ],
+          [
+            7.0122882,
+            51.021294301
+          ],
+          [
+            7.0121333,
+            51.022037501
+          ],
+          [
+            7.0118083,
+            51.023497001
+          ],
+          [
+            7.0116172,
+            51.024354901
+          ],
+          [
+            7.0111736,
+            51.026346701
+          ],
+          [
+            7.0109775,
+            51.027245301
+          ],
+          [
+            7.010227348,
+            51.030577075
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-03-21_18-14-00-000_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.10594217138112,6.988086478728271,51.140238813171024,6.970930620194966",
+      "point": "51.10594217138112,6.988086478728271",
+      "startLcPosition": "213",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Bergische Landstraße - Ohligser Heide",
+      "startTimestamp": "2026-03-21T18:14:00Z",
+      "delayTimeValue": "16",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 51.10594217138112,
+        "long": 6.988086478728271
+      },
+      "description": [
+        "Beginn: 21.03.26 um 19:14 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 21.03.2026, 18:14",
+        "A3: Köln -> Oberhausen, zwischen 0.1 km hinter Bergische Landstraße und 2.1 km vor Ohligser Heide",
+        "",
+        "Im Stillstand",
+        "Reisezeitverlust: 16 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.988086479,
+            51.105942171
           ],
           [
             6.9880027,
@@ -484,16 +595,8 @@
             51.132673501
           ],
           [
-            6.9705187,
-            51.141349501
-          ],
-          [
-            6.9704803,
-            51.141453101
-          ],
-          [
-            6.970226527,
-            51.142137442
+            6.97093062,
+            51.140238813
           ]
         ]
       }
@@ -503,29 +606,27 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.15417668874416,6.965270727669459,51.118689168442025,6.9830865177449795",
-      "point": "51.15417668874416,6.965270727669459",
-      "startLcPosition": "216",
+      "extent": "51.163883083329075,6.958061755434858,51.13819534599198,6.97143308970178",
+      "point": "51.163883083329075,6.958061755434858",
+      "startLcPosition": "217",
       "display_type": "WARNING",
       "subtitle": " Oberhausen -> Köln",
-      "title": "A3 | Ohligser Heide - Langenfeld",
+      "title": "A3 | Hilden - Solingen",
       "startTimestamp": "2026-03-21T07:40:00Z",
-      "delayTimeValue": "9",
+      "delayTimeValue": "12",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "20",
       "coordinate": {
-        "lat": 51.15417668874416,
-        "long": 6.965270727669459
+        "lat": 51.163883083329075,
+        "long": 6.958061755434858
       },
       "description": [
         "Beginn: 21.03.26 um 08:40 Uhr",
         "",
         "Angespannte Verkehrslage, seit 21.03.2026, 07:40",
-        "A3: Oberhausen -> Köln, zwischen 0.5 km hinter Ohligser Heide und 0.6 km vor AD Langenfeld",
+        "A3: Oberhausen -> Köln, zwischen 3.7 km hinter AK Hilden und 2.0 km vor AS Solingen",
         "",
         "Im Stillstand",
-        "Durchschnittsgeschwindigkeit: 20 km/h",
-        "Reisezeitverlust: 9 Minuten (zunehmend)"
+        "Reisezeitverlust: 12 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -535,8 +636,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.965270728,
-            51.154176689
+            6.958061755,
+            51.163883083
+          ],
+          [
+            6.9580981,
+            51.163835901
+          ],
+          [
+            6.959567,
+            51.161892001
+          ],
+          [
+            6.9596618,
+            51.161766901
+          ],
+          [
+            6.9604126,
+            51.160763001
+          ],
+          [
+            6.9629577,
+            51.157380301
+          ],
+          [
+            6.9643266,
+            51.155612101
+          ],
+          [
+            6.9647294,
+            51.155026101
+          ],
+          [
+            6.9652269,
+            51.154260401
           ],
           [
             6.9657195,
@@ -563,72 +696,8 @@
             51.141291901
           ],
           [
-            6.9734925,
-            51.132637301
-          ],
-          [
-            6.9748711,
-            51.128957701
-          ],
-          [
-            6.9750295,
-            51.128552501
-          ],
-          [
-            6.9751962,
-            51.128117201
-          ],
-          [
-            6.9755071,
-            51.127486701
-          ],
-          [
-            6.9756298,
-            51.127238001
-          ],
-          [
-            6.9764859,
-            51.125852301
-          ],
-          [
-            6.9767328,
-            51.125477001
-          ],
-          [
-            6.9768274,
-            51.125342601
-          ],
-          [
-            6.9768642,
-            51.125290201
-          ],
-          [
-            6.9771259,
-            51.124941201
-          ],
-          [
-            6.978047,
-            51.123898201
-          ],
-          [
-            6.9786526,
-            51.123223601
-          ],
-          [
-            6.9794821,
-            51.122381201
-          ],
-          [
-            6.9801469,
-            51.121691701
-          ],
-          [
-            6.9806646,
-            51.121158501
-          ],
-          [
-            6.983086518,
-            51.118689168
+            6.97143309,
+            51.138195346
           ]
         ]
       }
