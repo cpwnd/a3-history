@@ -1,31 +1,29 @@
 {
   "warning": [
     {
-      "identifier": "INRIX--vi-avl.2026-03-22_10-20-00-000_003.de0",
+      "identifier": "INRIX--vi-zus.2026-03-22_10-57-06-000.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.87244694960696,8.60112080101935,49.85464036381977,8.597176212809584",
-      "point": "49.87244694960696,8.60112080101935",
-      "startLcPosition": "1000",
+      "extent": "49.867698838512695,8.600104195063162,49.86271015140031,8.598965837966649",
+      "point": "49.867698838512695,8.600104195063162",
+      "startLcPosition": "95",
       "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Heidelberg",
-      "title": "Verkehrsmeldung",
-      "startTimestamp": "2026-03-22T10:20:00Z",
-      "delayTimeValue": "23",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Darmstädter Nordkreuz - Darmstädter Kreuz",
+      "startTimestamp": "2026-03-22T10:57:06Z",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
       "coordinate": {
-        "lat": 49.87244694960696,
-        "long": 8.60112080101935
+        "lat": 49.867698838512695,
+        "long": 8.600104195063162
       },
       "description": [
-        "Beginn: 22.03.26 um 11:20 Uhr",
+        "Beginn: 22.03.26 um 11:57 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.03.2026, 10:20",
-        "Von A5: Frankfurt -> Heidelberg, zwischen 2.9 km hinter AS Weiterstadt und AK Darmstädter Kreuz nach Abfahrt von der A5: AK Darmstädter Kreuz (aus Richtung Darmstädter Nordkreuz)",
-        "",
-        "Im Stillstand",
-        "Reisezeitverlust: 23 Minuten (zunehmend)"
+        "Zusammengesetzte Verkehrsinformation, seit 22.03.2026, 10:57",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.3 km hinter AK Darmstädter Nordkreuz und 0.6 km vor AK Darmstädter Kreuz",
+        "Reisezeitverlust: 1 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -35,8 +33,75 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.601120801,
-            49.87244695
+            8.600104195,
+            49.867698839
+          ],
+          [
+            8.5997432,
+            49.866087301
+          ],
+          [
+            8.5996761,
+            49.865785401
+          ],
+          [
+            8.5989908,
+            49.862824701
+          ],
+          [
+            8.598965838,
+            49.862710151
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-03-22_11-05-00-000_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.87633914136939,8.601767691351546,49.860691862918436,8.598475544688894",
+      "point": "49.87633914136939,8.601767691351546",
+      "startLcPosition": "96",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Heidelberg",
+      "title": "A5 | Weiterstadt - Darmstädter Kreuz",
+      "startTimestamp": "2026-03-22T11:05:00Z",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "20",
+      "coordinate": {
+        "lat": 49.87633914136939,
+        "long": 8.601767691351546
+      },
+      "description": [
+        "Beginn: 22.03.26 um 12:05 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.03.2026, 11:05",
+        "A5: Frankfurt -> Heidelberg, zwischen 2.5 km hinter AS Weiterstadt und 0.4 km vor AK Darmstädter Kreuz",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 20 km/h",
+        "Reisezeitverlust: 3 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.601767691,
+            49.876339141
+          ],
+          [
+            8.6015381,
+            49.874909101
+          ],
+          [
+            8.6012279,
+            49.872984801
           ],
           [
             8.6008844,
@@ -67,24 +132,12 @@
             49.861036101
           ],
           [
-            8.5984992,
-            49.860460701
+            8.5985172,
+            49.860794801
           ],
           [
-            8.5978348,
-            49.857558101
-          ],
-          [
-            8.5975591,
-            49.856336701
-          ],
-          [
-            8.597423,
-            49.855733801
-          ],
-          [
-            8.597176213,
-            49.854640364
+            8.598475545,
+            49.860691863
           ]
         ]
       }
