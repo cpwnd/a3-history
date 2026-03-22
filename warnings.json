@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-03-22_14-04-00-236.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-03-22_14-35-00-258.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,31 +290,29 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-03-22_13-40-00-000_004.de0",
+      "identifier": "INRIX--vi-avl.2026-03-22_14-43-00-000_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.690134855433975,7.270935762909379,50.763500577895314,7.229507293541071",
-      "point": "50.690134855433975,7.270935762909379",
+      "extent": "50.68833306487464,7.2727319380658715,50.711029967932795,7.244972526877079",
+      "point": "50.68833306487464,7.2727319380658715",
       "startLcPosition": "196",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
       "title": "A3 | Siebengebirge - Bonn/Siegburg",
-      "startTimestamp": "2026-03-22T13:40:00Z",
-      "delayTimeValue": "10",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "startTimestamp": "2026-03-22T14:43:00Z",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
       "coordinate": {
-        "lat": 50.690134855433975,
-        "long": 7.270935762909379
+        "lat": 50.68833306487464,
+        "long": 7.2727319380658715
       },
       "description": [
-        "Beginn: 22.03.26 um 14:40 Uhr",
+        "Beginn: 22.03.26 um 15:43 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 22.03.2026, 13:40",
-        "A3: Frankfurt -> Köln, zwischen 0.5 km hinter AS Siebengebirge und 1.6 km vor AK Bonn/Siegburg",
-        "",
-        "Stockender Verkehr",
-        "Reisezeitverlust: 10 Minuten (abnehmend)"
+        "Angespannte Verkehrslage, seit 22.03.2026, 14:43",
+        "A3: Frankfurt -> Köln, zwischen 0.3 km hinter AS Siebengebirge und 7.6 km vor AK Bonn/Siegburg",
+        "Reisezeitverlust: 5 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -324,8 +322,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.270935763,
-            50.690134855
+            7.272731938,
+            50.688333065
+          ],
+          [
+            7.2725082,
+            50.688557701
+          ],
+          [
+            7.271198,
+            50.689876101
           ],
           [
             7.2708893,
@@ -472,68 +478,51 @@
             50.710994401
           ],
           [
-            7.2444776,
-            50.711615301
-          ],
+            7.244972527,
+            50.711029968
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-03-22_13-40-00-000_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.724045357536106,7.239431967633223,50.77057184993811,7.235322883715006",
+      "point": "50.724045357536106,7.239431967633223",
+      "startLcPosition": "196",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Siebengebirge - Bonn/Siegburg",
+      "startTimestamp": "2026-03-22T13:40:00Z",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40",
+      "coordinate": {
+        "lat": 50.724045357536106,
+        "long": 7.239431967633223
+      },
+      "description": [
+        "Beginn: 22.03.26 um 14:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 22.03.2026, 13:40",
+        "A3: Frankfurt -> Köln, zwischen 5.0 km hinter AS Siebengebirge und 0.7 km vor AK Bonn/Siegburg",
+        "",
+        "Stockender Verkehr",
+        "Durchschnittsgeschwindigkeit: 40 km/h",
+        "Reisezeitverlust: 5 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            7.2439772,
-            50.712259001
-          ],
-          [
-            7.2435728,
-            50.712821601
-          ],
-          [
-            7.2431901,
-            50.713374801
-          ],
-          [
-            7.2428208,
-            50.713957801
-          ],
-          [
-            7.2424632,
-            50.714548401
-          ],
-          [
-            7.2420837,
-            50.715239201
-          ],
-          [
-            7.2416711,
-            50.716050101
-          ],
-          [
-            7.241326,
-            50.716819001
-          ],
-          [
-            7.2410406,
-            50.717534801
-          ],
-          [
-            7.2407895,
-            50.718237001
-          ],
-          [
-            7.2405795,
-            50.718913101
-          ],
-          [
-            7.2405165,
-            50.719135401
-          ],
-          [
-            7.2403631,
-            50.719697401
-          ],
-          [
-            7.2402228,
-            50.720277401
-          ],
-          [
-            7.2396071,
-            50.723185401
+            7.239431968,
+            50.724045358
           ],
           [
             7.2391407,
@@ -736,8 +725,64 @@
             50.763151201
           ],
           [
-            7.229507294,
-            50.763500578
+            7.2295334,
+            50.763573901
+          ],
+          [
+            7.2296691,
+            50.763901401
+          ],
+          [
+            7.2298568,
+            50.764310301
+          ],
+          [
+            7.2300438,
+            50.764673501
+          ],
+          [
+            7.2302431,
+            50.765029601
+          ],
+          [
+            7.2304638,
+            50.765384701
+          ],
+          [
+            7.2306964,
+            50.765738701
+          ],
+          [
+            7.2309322,
+            50.766065101
+          ],
+          [
+            7.2312087,
+            50.766434301
+          ],
+          [
+            7.2315099,
+            50.766795601
+          ],
+          [
+            7.2318256,
+            50.767148501
+          ],
+          [
+            7.2321501,
+            50.767486001
+          ],
+          [
+            7.2325031,
+            50.767831601
+          ],
+          [
+            7.2348356,
+            50.770100401
+          ],
+          [
+            7.235322884,
+            50.77057185
           ]
         ]
       }
@@ -747,8 +792,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.00422983972984,7.014356301058863,51.0305770752142,7.01022734791622",
-      "point": "51.00422983972984,7.014356301058863",
+      "extent": "51.002177159470705,7.01394159133123,51.03313333947016,7.0096935236020865",
+      "point": "51.002177159470705,7.01394159133123",
       "startLcPosition": "208",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
@@ -756,20 +801,20 @@
       "startTimestamp": "2026-03-22T13:52:00Z",
       "delayTimeValue": "2",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35",
+      "averageSpeed": "45",
       "coordinate": {
-        "lat": 51.00422983972984,
-        "long": 7.014356301058863
+        "lat": 51.002177159470705,
+        "long": 7.01394159133123
       },
       "description": [
         "Beginn: 22.03.26 um 14:52 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.03.2026, 13:52",
-        "A3: Köln -> Oberhausen, zwischen 2.4 km hinter AS Köln-Mülheim und 1.3 km vor AK Leverkusen",
+        "A3: Köln -> Oberhausen, zwischen 2.1 km hinter AS Köln-Mülheim und 1.0 km vor AK Leverkusen",
         "",
         "Stockender Verkehr",
-        "Durchschnittsgeschwindigkeit: 35 km/h",
-        "Reisezeitverlust: 2 Minuten (zunehmend)"
+        "Durchschnittsgeschwindigkeit: 45 km/h",
+        "Reisezeitverlust: 2 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -779,8 +824,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.014356301,
-            51.00422984
+            7.013941591,
+            51.002177159
+          ],
+          [
+            7.0141981,
+            51.003337801
+          ],
+          [
+            7.0142475,
+            51.003624901
           ],
           [
             7.0145395,
@@ -875,8 +928,16 @@
             51.027245301
           ],
           [
-            7.010227348,
-            51.030577075
+            7.0100579,
+            51.031329601
+          ],
+          [
+            7.0099962,
+            51.031624701
+          ],
+          [
+            7.009693524,
+            51.033133339
           ]
         ]
       }
