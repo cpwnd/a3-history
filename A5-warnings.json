@@ -5,28 +5,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.20468892754853,7.745638429441848,48.116724502455426,7.786986489850829",
-      "point": "48.20468892754853,7.745638429441848",
+      "extent": "48.20887333217709,7.745858687039795,48.116724502455426,7.786986489850829",
+      "point": "48.20887333217709,7.745858687039795",
       "startLcPosition": "32",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Herbolzheim - Teningen",
       "startTimestamp": "2026-03-28T10:17:00Z",
-      "delayTimeValue": "66",
+      "delayTimeValue": "51",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 48.20468892754853,
-        "long": 7.745638429441848
+        "lat": 48.20887333217709,
+        "long": 7.745858687039795
       },
       "description": [
         "Beginn: 28.03.26 um 11:17 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.03.2026, 10:17",
-        "A5: Karlsruhe -> Basel, zwischen 2.6 km hinter AS Herbolzheim und 0.2 km vor AS Teningen",
+        "A5: Karlsruhe -> Basel, zwischen 2.1 km hinter AS Herbolzheim und 0.2 km vor AS Teningen",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 66 Minuten (zunehmend)"
+        "- Reisezeitverlust: 51 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.745638429,
-            48.204688928
+            7.745858687,
+            48.208873332
+          ],
+          [
+            7.7458432,
+            48.208699201
+          ],
+          [
+            7.7457047,
+            48.206489501
+          ],
+          [
+            7.7456528,
+            48.205247901
           ],
           [
             7.7456216,
@@ -303,28 +315,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.84236859347908,8.228926988883071,48.80679559573206,8.179989238676347",
-      "point": "48.84236859347908,8.228926988883071",
+      "extent": "48.830144073239175,8.217127807604907,48.80679559573206,8.179989238676347",
+      "point": "48.830144073239175,8.217127807604907",
       "startLcPosition": "53",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Rastatt-Nord - Baden-Baden",
       "startTimestamp": "2026-03-28T07:47:00Z",
-      "delayTimeValue": "11",
+      "delayTimeValue": "7",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 48.84236859347908,
-        "long": 8.228926988883071
+        "lat": 48.830144073239175,
+        "long": 8.217127807604907
       },
       "description": [
         "Beginn: 28.03.26 um 08:47 Uhr",
         "",
         "Angespannte Verkehrslage, seit 28.03.2026, 07:47",
-        "A5: Karlsruhe -> Basel, zwischen 2.6 km hinter AS Rastatt-Nord und Baden-Baden",
+        "A5: Karlsruhe -> Basel, zwischen 4.2 km hinter AS Rastatt-Nord und Baden-Baden",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 11 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 25 km/h",
+        "- Reisezeitverlust: 7 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -334,92 +348,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.228926989,
-            48.842368593
-          ],
-          [
-            8.2284589,
-            48.841810401
-          ],
-          [
-            8.2278987,
-            48.841163701
-          ],
-          [
-            8.2266803,
-            48.839680601
-          ],
-          [
-            8.2260905,
-            48.838974901
-          ],
-          [
-            8.2259193,
-            48.838770001
-          ],
-          [
-            8.2252312,
-            48.837946501
-          ],
-          [
-            8.2243215,
-            48.836877001
-          ],
-          [
-            8.2241466,
-            48.836674801
-          ],
-          [
-            8.2233996,
-            48.835819701
-          ],
-          [
-            8.2225751,
-            48.834916501
-          ],
-          [
-            8.2221196,
-            48.834457101
-          ],
-          [
-            8.2217188,
-            48.834057601
-          ],
-          [
-            8.2212624,
-            48.833616901
-          ],
-          [
-            8.2208278,
-            48.833230301
-          ],
-          [
-            8.2203254,
-            48.832751801
-          ],
-          [
-            8.2198046,
-            48.832291601
-          ],
-          [
-            8.2192707,
-            48.831840101
-          ],
-          [
-            8.2187307,
-            48.831385501
-          ],
-          [
-            8.2183456,
-            48.831078301
-          ],
-          [
-            8.2179724,
-            48.830784701
-          ],
-          [
-            8.2172105,
-            48.830203901
+            8.217127808,
+            48.830144073
           ],
           [
             8.2165396,
@@ -557,197 +487,33 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-03-28_11-15-00-000_008.de0",
+      "identifier": "INRIX--vi-avl.2026-03-28_11-47-00-000_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.42438789928029,8.634179575653782,49.403350748257395,8.637131343968614",
-      "point": "49.42438789928029,8.634179575653782",
-      "startLcPosition": "74",
-      "display_type": "WARNING",
-      "subtitle": " Darmstadt -> Karlsruhe",
-      "title": "A5 | Dossenheim - Heidelberg/Schwetzingen",
-      "startTimestamp": "2026-03-28T11:15:00Z",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "30",
-      "coordinate": {
-        "lat": 49.42438789928029,
-        "long": 8.634179575653782
-      },
-      "description": [
-        "Beginn: 28.03.26 um 12:15 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 28.03.2026, 11:15",
-        "A5: Darmstadt -> Karlsruhe, zwischen 2.9 km hinter AS Dossenheim und 3.7 km vor AS Heidelberg/Schwetzingen",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 30 km/h",
-        "- Reisezeitverlust: 3 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.634179576,
-            49.424387899
-          ],
-          [
-            8.6339435,
-            49.423370601
-          ],
-          [
-            8.633776,
-            49.422597401
-          ],
-          [
-            8.6336427,
-            49.421459301
-          ],
-          [
-            8.6335592,
-            49.420721901
-          ],
-          [
-            8.633499,
-            49.419838001
-          ],
-          [
-            8.6334842,
-            49.418637201
-          ],
-          [
-            8.6335073,
-            49.417916701
-          ],
-          [
-            8.6335592,
-            49.417146601
-          ],
-          [
-            8.6336674,
-            49.416023501
-          ],
-          [
-            8.6338053,
-            49.415200701
-          ],
-          [
-            8.6338594,
-            49.414877501
-          ],
-          [
-            8.6339196,
-            49.414573601
-          ],
-          [
-            8.6340832,
-            49.413809301
-          ],
-          [
-            8.6343614,
-            49.412737801
-          ],
-          [
-            8.6344439,
-            49.412458301
-          ],
-          [
-            8.6346166,
-            49.411833301
-          ],
-          [
-            8.6351163,
-            49.410524201
-          ],
-          [
-            8.6352217,
-            49.410254201
-          ],
-          [
-            8.6353515,
-            49.409925201
-          ],
-          [
-            8.6354699,
-            49.409626601
-          ],
-          [
-            8.635778,
-            49.408849801
-          ],
-          [
-            8.6361037,
-            49.408051801
-          ],
-          [
-            8.6362786,
-            49.407596001
-          ],
-          [
-            8.6365095,
-            49.406862201
-          ],
-          [
-            8.6366294,
-            49.406417401
-          ],
-          [
-            8.6367292,
-            49.405986401
-          ],
-          [
-            8.6368116,
-            49.405587401
-          ],
-          [
-            8.636886,
-            49.405109101
-          ],
-          [
-            8.6370046,
-            49.404199001
-          ],
-          [
-            8.637131344,
-            49.403350748
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-03-28_11-23-00-000_011.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.16785346679724,8.608942872258888,50.13888852889065,8.592973268194955",
-      "point": "50.16785346679724,8.608942872258888",
+      "extent": "50.16373102228967,8.606672492937175,50.14173750776256,8.594545723718529",
+      "point": "50.16373102228967,8.606672492937175",
       "startLcPosition": "112",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Bad Homburger Kreuz - Nordwestkreuz Frankfurt am Main",
-      "startTimestamp": "2026-03-28T11:23:00Z",
+      "startTimestamp": "2026-03-28T11:47:00Z",
       "delayTimeValue": "2",
       "abnormalTrafficType": "HEAVY_TRAFFIC",
-      "averageSpeed": "45",
+      "averageSpeed": "40",
       "coordinate": {
-        "lat": 50.16785346679724,
-        "long": 8.608942872258888
+        "lat": 50.16373102228967,
+        "long": 8.606672492937175
       },
       "description": [
-        "Beginn: 28.03.26 um 12:23 Uhr",
+        "Beginn: 28.03.26 um 12:47 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 28.03.2026, 11:23",
-        "A5: Kassel -> Frankfurt, zwischen 4.6 km hinter AK Bad Homburger Kreuz und 0.5 km vor AK Nordwestkreuz Frankfurt am Main",
+        "Angespannte Verkehrslage, seit 28.03.2026, 11:47",
+        "A5: Kassel -> Frankfurt, zwischen 5.1 km hinter AK Bad Homburger Kreuz und 0.8 km vor AK Nordwestkreuz Frankfurt am Main",
         "",
         "Ereignismeldung:",
         "- Langsamer Verkehr",
-        "- Durchschnittsgeschwindigkeit: 45 km/h",
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
         "- Reisezeitverlust: 2 Minuten"
       ],
       "routeRecommendation": [],
@@ -758,24 +524,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.608942872,
-            50.167853467
-          ],
-          [
-            8.608039,
-            50.166216501
-          ],
-          [
-            8.6074319,
-            50.165108201
-          ],
-          [
-            8.606801,
-            50.163969201
-          ],
-          [
-            8.6067641,
-            50.163891801
+            8.606672493,
+            50.163731022
           ],
           [
             8.6063533,
@@ -854,24 +604,108 @@
             50.143066401
           ],
           [
-            8.5945208,
-            50.141692301
+            8.594545724,
+            50.141737508
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-03-28_11-20-00-000_007.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.86257650994274,8.598936715672744,49.840198204504375,8.594252554798414",
+      "point": "49.86257650994274,8.598936715672744",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Verkehrsmeldung",
+      "startTimestamp": "2026-03-28T11:20:00Z",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20",
+      "coordinate": {
+        "lat": 49.86257650994274,
+        "long": 8.598936715672744
+      },
+      "description": [
+        "Beginn: 28.03.26 um 12:20 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 28.03.2026, 11:20",
+        "Von A5: Darmstadt -> Heidelberg, 0.6 km vor AK Darmstädter Kreuz, aus Richtung Darmstädter Nordkreuz; in A5: AK Darmstädter Kreuz auf die A67 in Richtung Mannheim; nach A67: Darmstadt -> Mannheim, 3.3 km vor Pfungstadt, aus Richtung Darmstädter Kreuz",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 5 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.598936716,
+            49.86257651
           ],
           [
-            8.593995,
-            50.140771201
+            8.5988105,
+            49.861997301
           ],
           [
-            8.5932324,
-            50.139374201
+            8.59862,
+            49.861036101
           ],
           [
-            8.593004,
-            50.138943101
+            8.5984992,
+            49.860460701
           ],
           [
-            8.592973268,
-            50.138888529
+            8.5978348,
+            49.857558101
+          ],
+          [
+            8.5975591,
+            49.856336701
+          ],
+          [
+            8.597423,
+            49.855733801
+          ],
+          [
+            8.597091,
+            49.854262801
+          ],
+          [
+            8.5967834,
+            49.852801201
+          ],
+          [
+            8.5966692,
+            49.852258901
+          ],
+          [
+            8.5964028,
+            49.850992901
+          ],
+          [
+            8.5959972,
+            49.849008501
+          ],
+          [
+            8.5958709,
+            49.848370901
+          ],
+          [
+            8.5956929,
+            49.847472001
+          ],
+          [
+            8.594252555,
+            49.840198205
           ]
         ]
       }
