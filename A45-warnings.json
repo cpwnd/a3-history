@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLWF_2026_000498--vi-hind.2026-04-01_12-52-00-417.de0",
+      "identifier": "NLWF_2026_000498--vi-hind.2026-04-01_14-34-02-529.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -878,28 +878,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.377254209194255,7.524253780758114,51.42826849273407,7.5421901735148555",
-      "point": "51.377254209194255,7.524253780758114",
+      "extent": "51.376158818845454,7.5238949703140054,51.428739698746725,7.541415801737414",
+      "point": "51.376158818845454,7.5238949703140054",
       "startLcPosition": "98",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Hagen - Westhofener Kreuz",
       "startTimestamp": "2026-04-01T10:03:00Z",
-      "delayTimeValue": "11",
+      "delayTimeValue": "8",
       "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35",
       "coordinate": {
-        "lat": 51.377254209194255,
-        "long": 7.524253780758114
+        "lat": 51.376158818845454,
+        "long": 7.5238949703140054
       },
       "description": [
         "Beginn: 01.04.26 um 12:03 Uhr",
         "",
         "Angespannte Verkehrslage, seit 01.04.2026, 10:03",
-        "A45: Hagen -> Dortmund, zwischen 1.1 km hinter AK Hagen und 0.8 km vor AK Westhofener Kreuz",
+        "A45: Hagen -> Dortmund, zwischen 1.0 km hinter AK Hagen und 0.8 km vor AK Westhofener Kreuz",
         "",
         "Ereignismeldung:",
         "- Stockender Verkehr",
-        "- Reisezeitverlust: 11 Minuten (abnehmend)"
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 8 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -909,8 +911,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.524253781,
-            51.377254209
+            7.52389497,
+            51.376158819
+          ],
+          [
+            7.5239302,
+            51.376239201
+          ],
+          [
+            7.5240111,
+            51.376444601
+          ],
+          [
+            7.5241484,
+            51.376864501
+          ],
+          [
+            7.5242205,
+            51.377123001
           ],
           [
             7.5242709,
@@ -1233,14 +1251,162 @@
             51.427989901
           ],
           [
-            7.542190174,
-            51.428268493
+            7.5419639,
+            51.428415801
+          ],
+          [
+            7.541415802,
+            51.428739699
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-04-01_12-16-00-000_010.de0",
+      "identifier": "INRIX--vi-avl.2026-04-01_13-22-00-000_020.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.4430648753935,7.475184385812339,51.44169252916581,7.45231210703525",
+      "point": "51.4430648753935,7.475184385812339",
+      "startLcPosition": "103",
+      "display_type": "WARNING",
+      "subtitle": " Hagen -> Dortmund",
+      "title": "A45 | Dortmund-Süd - Flöz Mausegatt",
+      "startTimestamp": "2026-04-01T13:22:00Z",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20",
+      "coordinate": {
+        "lat": 51.4430648753935,
+        "long": 7.475184385812339
+      },
+      "description": [
+        "Beginn: 01.04.26 um 15:22 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 01.04.2026, 13:22",
+        "A45: Hagen -> Dortmund, zwischen 0.7 km hinter AS Dortmund-Süd und 0.7 km vor Flöz Mausegatt",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 3 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.475184386,
+            51.443064875
+          ],
+          [
+            7.4746354,
+            51.443008201
+          ],
+          [
+            7.4738572,
+            51.442920601
+          ],
+          [
+            7.4730954,
+            51.442831701
+          ],
+          [
+            7.4723508,
+            51.442747901
+          ],
+          [
+            7.471402,
+            51.442634101
+          ],
+          [
+            7.4701447,
+            51.442471601
+          ],
+          [
+            7.4694091,
+            51.442376901
+          ],
+          [
+            7.4674582,
+            51.442136001
+          ],
+          [
+            7.4667295,
+            51.442050601
+          ],
+          [
+            7.4659928,
+            51.441974001
+          ],
+          [
+            7.4648149,
+            51.441859301
+          ],
+          [
+            7.463536,
+            51.441755001
+          ],
+          [
+            7.4623287,
+            51.441680801
+          ],
+          [
+            7.4619694,
+            51.441659801
+          ],
+          [
+            7.4611421,
+            51.441616001
+          ],
+          [
+            7.4603219,
+            51.441586601
+          ],
+          [
+            7.4594825,
+            51.441560301
+          ],
+          [
+            7.4587744,
+            51.441557701
+          ],
+          [
+            7.4583745,
+            51.441550901
+          ],
+          [
+            7.4569277,
+            51.441547501
+          ],
+          [
+            7.4553181,
+            51.441569701
+          ],
+          [
+            7.4543519,
+            51.441586601
+          ],
+          [
+            7.4534607,
+            51.441629801
+          ],
+          [
+            7.4527573,
+            51.441664201
+          ],
+          [
+            7.452312107,
+            51.441692529
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-04-01_12-16-00-000_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -1267,7 +1433,7 @@
         "Ereignismeldung:",
         "- Stockender Verkehr",
         "- Durchschnittsgeschwindigkeit: 30 km/h",
-        "- Reisezeitverlust: 3 Minuten"
+        "- Reisezeitverlust: 3 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
