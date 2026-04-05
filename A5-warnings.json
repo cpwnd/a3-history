@@ -5,28 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.26073285011862,8.60514429686691,49.24628747508303,8.600547234373085",
-      "point": "49.26073285011862,8.60514429686691",
+      "extent": "49.2646725174865,8.608406525904625,49.24628747508303,8.600547234373085",
+      "point": "49.2646725174865,8.608406525904625",
       "startLcPosition": "69",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
       "title": "A5 | Walldorf - Kronau",
       "startTimestamp": "2026-04-05T21:34:00Z",
-      "delayTimeValue": "20",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "15",
       "coordinate": {
-        "lat": 49.26073285011862,
-        "long": 8.60514429686691
+        "lat": 49.2646725174865,
+        "long": 8.608406525904625
       },
       "description": [
         "Beginn: 05.04.26 um 23:34 Uhr",
         "",
         "Angespannte Verkehrslage, seit 05.04.2026, 21:34",
-        "A5: Heidelberg -> Karlsruhe, zwischen 2.5 km hinter AK Walldorf und 2.2 km vor AS Kronau",
+        "A5: Heidelberg -> Karlsruhe, zwischen 2.0 km hinter AK Walldorf und 2.2 km vor AS Kronau",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 20 Minuten (abnehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 15 km/h",
+        "- Reisezeitverlust: 7 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +38,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.605144297,
-            49.26073285
+            8.608406526,
+            49.264672517
+          ],
+          [
+            8.6072529,
+            49.263280201
+          ],
+          [
+            8.6054572,
+            49.261103601
+          ],
+          [
+            8.6052409,
+            49.260849301
           ],
           [
             8.6050321,
