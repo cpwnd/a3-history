@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-04-08_03-04-00-368.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-04-08_05-09-00-487.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,47 +290,277 @@
       }
     },
     {
-      "identifier": "NLW_2026_001089--vi-zus.2026-04-08_03-19-00-176.de0",
+      "identifier": "INRIX--vi-avl.2026-04-08_03-57-00-000_014.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.58093238448799,7.476929260624424,50.58093238448799,7.476929260624424",
-      "point": "50.58093238448799,7.476929260624424",
-      "startLcPosition": "190",
+      "extent": "50.026400080011506,8.47844554764932,50.046028776371166,8.40132697766224",
+      "point": "50.026400080011506,8.47844554764932",
+      "startLcPosition": "161",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Fernthal - Fernthal",
-      "startTimestamp": "2026-04-07T17:16:00+02:00",
+      "title": "A3 | Mönchhof-Dreieck - Wiesbadener Kreuz",
+      "startTimestamp": "2026-04-08T03:57:00Z",
+      "delayTimeValue": "40",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 50.58093238448799,
-        "long": 7.476929260624424
+        "lat": 50.026400080011506,
+        "long": 8.47844554764932
       },
       "description": [
-        "Beginn: 07.04.26 um 17:16 Uhr",
+        "Beginn: 08.04.26 um 05:57 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.04.2026, 03:57",
+        "A3: Frankfurt -> Köln, zwischen 1.0 km hinter AD Mönchhof-Dreieck und 1.5 km vor AK Wiesbadener Kreuz",
         "",
         "Ereignismeldung:",
-        "- Rauchentwicklung aufgrund von Brand",
-        "- Fahrbahnschäden",
-        "2 Fahrstreifen gesperrt",
-        "",
-        "A3: Frankfurt -> Köln, 3.8 km vor Fernthal, aus Richtung Epgert",
-        " ",
-        "Ereignisnummer: NLW_2026_001089"
+        "- Im Stillstand",
+        "- Reisezeitverlust: 40 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
       "lorryParkingFeatureIcons": [],
-      "source": "eva",
+      "source": "inrix",
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.476929261,
-            50.580932384
+            8.478445548,
+            50.02640008
           ],
           [
-            7.476929261,
-            50.580932384
+            8.4772028,
+            50.026643101
+          ],
+          [
+            8.475839,
+            50.026914001
+          ],
+          [
+            8.4702206,
+            50.028036501
+          ],
+          [
+            8.4658368,
+            50.028907101
+          ],
+          [
+            8.4629617,
+            50.029476901
+          ],
+          [
+            8.4617171,
+            50.029749801
+          ],
+          [
+            8.4606988,
+            50.029977501
+          ],
+          [
+            8.4589609,
+            50.030372701
+          ],
+          [
+            8.4586177,
+            50.030454701
+          ],
+          [
+            8.4561485,
+            50.031054101
+          ],
+          [
+            8.4540493,
+            50.031547801
+          ],
+          [
+            8.4512727,
+            50.032288301
+          ],
+          [
+            8.4496571,
+            50.032704301
+          ],
+          [
+            8.4485655,
+            50.032980101
+          ],
+          [
+            8.4406622,
+            50.035064901
+          ],
+          [
+            8.4359235,
+            50.036293501
+          ],
+          [
+            8.4353385,
+            50.036452901
+          ],
+          [
+            8.4315582,
+            50.037430101
+          ],
+          [
+            8.4297778,
+            50.037888901
+          ],
+          [
+            8.4238262,
+            50.039419101
+          ],
+          [
+            8.4235708,
+            50.039489701
+          ],
+          [
+            8.4209114,
+            50.040215801
+          ],
+          [
+            8.4185317,
+            50.040884201
+          ],
+          [
+            8.4159803,
+            50.041611801
+          ],
+          [
+            8.4136635,
+            50.042310201
+          ],
+          [
+            8.4115056,
+            50.042960701
+          ],
+          [
+            8.4090016,
+            50.043725001
+          ],
+          [
+            8.4068005,
+            50.044378901
+          ],
+          [
+            8.4055003,
+            50.044770801
+          ],
+          [
+            8.4033836,
+            50.045408901
+          ],
+          [
+            8.401326978,
+            50.046028776
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-04-08_04-34-00-000_009.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.59104372213586,7.452346964525959,50.580771309001925,7.479503036952964",
+      "point": "50.59104372213586,7.452346964525959",
+      "startLcPosition": "190",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Frankfurt",
+      "title": "A3 | Fernthal - Epgert",
+      "startTimestamp": "2026-04-08T04:34:00Z",
+      "delayTimeValue": "10",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 50.59104372213586,
+        "long": 7.452346964525959
+      },
+      "description": [
+        "Beginn: 08.04.26 um 06:34 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.04.2026, 04:34",
+        "A3: Köln -> Frankfurt, zwischen 1.6 km hinter Fernthal und Epgert",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Reisezeitverlust: 10 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.452346965,
+            50.591043722
+          ],
+          [
+            7.4530946,
+            50.590582401
+          ],
+          [
+            7.4619115,
+            50.585148701
+          ],
+          [
+            7.4628687,
+            50.584603701
+          ],
+          [
+            7.4638516,
+            50.584070201
+          ],
+          [
+            7.4651255,
+            50.583428901
+          ],
+          [
+            7.4662385,
+            50.582907601
+          ],
+          [
+            7.4672723,
+            50.582452501
+          ],
+          [
+            7.4682665,
+            50.582072301
+          ],
+          [
+            7.4692338,
+            50.581757601
+          ],
+          [
+            7.4701816,
+            50.581506401
+          ],
+          [
+            7.4712252,
+            50.581289501
+          ],
+          [
+            7.4721252,
+            50.581143201
+          ],
+          [
+            7.4732242,
+            50.581019001
+          ],
+          [
+            7.4742484,
+            50.580949901
+          ],
+          [
+            7.4754205,
+            50.580909001
+          ],
+          [
+            7.4766192,
+            50.580871201
+          ],
+          [
+            7.479503037,
+            50.580771309
           ]
         ]
       }
