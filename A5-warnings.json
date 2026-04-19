@@ -1,97 +1,19 @@
 {
   "warning": [
     {
-      "identifier": "INRIX--vi-avl.2026-04-19_19-25-00-000_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.548764840108696,8.784984295370782,50.56157498655024,8.79296290014974",
-      "point": "50.548764840108696,8.784984295370782",
-      "startLcPosition": "123",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Fernwald - Reiskirchen",
-      "startTimestamp": "2026-04-19T19:25:00Z",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 50.548764840108696,
-        "long": 8.784984295370782
-      },
-      "description": [
-        "Beginn: 19.04.26 um 21:25 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 19.04.2026, 19:25",
-        "A5: Frankfurt -> Kassel, zwischen 0.5 km hinter AS Fernwald und 4.0 km vor AS Reiskirchen",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 20 km/h",
-        "- Reisezeitverlust: 3 Minuten (abnehmend)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.784984295,
-            50.54876484
-          ],
-          [
-            8.785147,
-            50.548978601
-          ],
-          [
-            8.7854682,
-            50.549409201
-          ],
-          [
-            8.7857917,
-            50.549883801
-          ],
-          [
-            8.7862211,
-            50.550560901
-          ],
-          [
-            8.7875993,
-            50.552841201
-          ],
-          [
-            8.7890165,
-            50.555147901
-          ],
-          [
-            8.7890794,
-            50.555259801
-          ],
-          [
-            8.7919731,
-            50.559963501
-          ],
-          [
-            8.7929629,
-            50.561574987
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "INRIX--vi-zus.2026-04-19_19-21-47-000.de0",
-      "icon": "250",
+      "icon": "101",
       "isBlocked": "false",
       "future": false,
       "extent": "50.54704211484166,8.783684249337346,50.597040618543005,8.814399330794426",
       "point": "50.54704211484166,8.783684249337346",
       "startLcPosition": "123",
-      "display_type": "CLOSURE",
+      "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Fernwald - Reiskirchener Dreieck",
       "startTimestamp": "2026-04-19T19:21:47Z",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
       "coordinate": {
         "lat": 50.54704211484166,
         "long": 8.783684249337346
@@ -99,10 +21,13 @@
       "description": [
         "Beginn: 19.04.26 um 21:21 Uhr",
         "",
-        "Fahrbahnmanagement, seit 19.04.2026, 19:21",
+        "Zusammengesetzte Verkehrsinformation, seit 19.04.2026, 19:21",
         "A5: Frankfurt -> Kassel, zwischen 0.3 km hinter AS Fernwald und 1.6 km vor AD Reiskirchener Dreieck",
         "",
-        "Ereignismeldung:"
+        "Ereignismeldung:",
+        "- Unfall",
+        "- Verkehr wird um die Unfallstelle geleitet",
+        "- Reisezeitverlust: 1 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
