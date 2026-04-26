@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-04-26_22-50-00-621.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-04-26_23-21-00-461.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,32 +290,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-04-26_21-43-00-000_003.de0",
+      "identifier": "INRIX--vi-avl.2026-04-26_23-05-00-000_002.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.67335877531054,7.299182262039629,50.677946691134,7.2860026081501115",
-      "point": "50.67335877531054,7.299182262039629",
-      "startLcPosition": "194",
+      "extent": "50.02714384413973,8.49479432115967,50.02566750359815,8.485793125051774",
+      "point": "50.02714384413973,8.49479432115967",
+      "startLcPosition": "160",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Bad Honnef/Linz - Siebengebirge",
-      "startTimestamp": "2026-04-26T21:43:00Z",
-      "delayTimeValue": "13",
+      "title": "A3 | Kelsterbach - Raunheim",
+      "startTimestamp": "2026-04-26T23:05:00Z",
+      "delayTimeValue": "4",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
-        "lat": 50.67335877531054,
-        "long": 7.299182262039629
+        "lat": 50.02714384413973,
+        "long": 8.49479432115967
       },
       "description": [
-        "Beginn: 26.04.26 um 23:43 Uhr",
+        "Beginn: 27.04.26 um 01:05 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 26.04.2026, 21:43",
-        "A3: Frankfurt -> Köln, zwischen 3.4 km hinter AS Bad Honnef/Linz und 1.2 km vor AS Siebengebirge",
+        "Angespannte Verkehrslage, seit 26.04.2026, 23:05",
+        "A3: Frankfurt -> Köln, zwischen 4.2 km hinter AS Kelsterbach und 0.7 km vor AS Raunheim",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 13 Minuten (abnehmend)"
+        "- Durchschnittsgeschwindigkeit: 10 km/h",
+        "- Reisezeitverlust: 4 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -325,20 +327,122 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.299182262,
-            50.673358775
+            8.494794321,
+            50.027143844
           ],
           [
-            7.299125,
-            50.673393101
+            8.4943097,
+            50.026989501
           ],
           [
-            7.2987818,
-            50.673589001
+            8.4935559,
+            50.026767001
           ],
           [
-            7.2982298,
-            50.673876101
+            8.4932285,
+            50.026674801
+          ],
+          [
+            8.4928925,
+            50.026591001
+          ],
+          [
+            8.4923841,
+            50.026459601
+          ],
+          [
+            8.4919313,
+            50.026359401
+          ],
+          [
+            8.4916717,
+            50.026306401
+          ],
+          [
+            8.4908226,
+            50.026147301
+          ],
+          [
+            8.4903159,
+            50.026063601
+          ],
+          [
+            8.4897921,
+            50.025970701
+          ],
+          [
+            8.4891043,
+            50.025890901
+          ],
+          [
+            8.488516,
+            50.025828601
+          ],
+          [
+            8.4879342,
+            50.025774501
+          ],
+          [
+            8.4874714,
+            50.025739401
+          ],
+          [
+            8.4869418,
+            50.025706001
+          ],
+          [
+            8.4865114,
+            50.025686701
+          ],
+          [
+            8.48586,
+            50.025667701
+          ],
+          [
+            8.485793125,
+            50.025667504
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-04-26_21-43-00-000_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.673933810481444,7.29810437725239,50.677946691134,7.2860026081501115",
+      "point": "50.673933810481444,7.29810437725239",
+      "startLcPosition": "194",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Bad Honnef/Linz - Siebengebirge",
+      "startTimestamp": "2026-04-26T21:43:00Z",
+      "delayTimeValue": "13",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 50.673933810481444,
+        "long": 7.29810437725239
+      },
+      "description": [
+        "Beginn: 26.04.26 um 23:43 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.04.2026, 21:43",
+        "A3: Frankfurt -> Köln, zwischen 3.5 km hinter AS Bad Honnef/Linz und 1.2 km vor AS Siebengebirge",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Reisezeitverlust: 13 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.298104377,
+            50.67393381
           ],
           [
             7.2979264,
@@ -388,7 +492,7 @@
       }
     },
     {
-      "identifier": "NLR_2026_001338--vi-hind.2026-04-26_22-26-00-181.de0",
+      "identifier": "NLR_2026_001338--vi-zus.2026-04-26_23-35-00-206.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
