@@ -12,9 +12,9 @@
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Efringen-Kirchen - Bad Bellingen",
       "startTimestamp": "2026-05-06T05:50:00Z",
-      "delayTimeValue": "6",
+      "delayTimeValue": "8",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "25",
+      "averageSpeed": "20",
       "coordinate": {
         "lat": 47.68255715354585,
         "long": 7.522716953468606
@@ -27,8 +27,8 @@
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Durchschnittsgeschwindigkeit: 25 km/h",
-        "- Reisezeitverlust: 6 Minuten (abnehmend)"
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 8 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -201,34 +201,110 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-05-06_08-55-00-000_009.de0",
+      "identifier": "INRIX--vi-avl.2026-05-06_10-28-00-000_009.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.64304348828211,8.60926362629417,49.61986324423534,8.62168503917393",
-      "point": "49.64304348828211,8.60926362629417",
-      "startLcPosition": "82",
+      "extent": "48.13622731443164,7.7756146661196395,48.12216325746036,7.7844402854416375",
+      "point": "48.13622731443164,7.7756146661196395",
+      "startLcPosition": "31",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Riegel - Teningen",
+      "startTimestamp": "2026-05-06T10:28:00Z",
+      "delayTimeValue": "1",
+      "abnormalTrafficType": "HEAVY_TRAFFIC",
+      "averageSpeed": "40",
+      "coordinate": {
+        "lat": 48.13622731443164,
+        "long": 7.7756146661196395
+      },
+      "description": [
+        "Beginn: 06.05.26 um 12:28 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.05.2026, 10:28",
+        "A5: Karlsruhe -> Basel, zwischen 2.3 km hinter AS Riegel und 0.8 km vor AS Teningen",
+        "",
+        "Ereignismeldung:",
+        "- Langsamer Verkehr",
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
+        "- Reisezeitverlust: 1 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.775614666,
+            48.136227314
+          ],
+          [
+            7.7767705,
+            48.134682601
+          ],
+          [
+            7.7793462,
+            48.130975401
+          ],
+          [
+            7.7806937,
+            48.128860501
+          ],
+          [
+            7.7821284,
+            48.126428901
+          ],
+          [
+            7.7828929,
+            48.125103801
+          ],
+          [
+            7.783748,
+            48.123528001
+          ],
+          [
+            7.7843418,
+            48.122358601
+          ],
+          [
+            7.784440285,
+            48.122163257
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-05-06_10-53-00-000_013.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.541420117669524,8.629154264259606,49.52321284224957,8.636491214803456",
+      "point": "49.541420117669524,8.629154264259606",
+      "startLcPosition": "79",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
-      "title": "A5 | Heppenheim - Hemsbach",
-      "startTimestamp": "2026-05-06T08:55:00Z",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "20",
+      "title": "A5 | Weinheim - Hirschberg",
+      "startTimestamp": "2026-05-06T10:53:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 49.64304348828211,
-        "long": 8.60926362629417
+        "lat": 49.541420117669524,
+        "long": 8.629154264259606
       },
       "description": [
-        "Beginn: 06.05.26 um 10:55 Uhr",
+        "Beginn: 06.05.26 um 12:53 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 06.05.2026, 08:55",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.4 km hinter AS Heppenheim und 3.1 km vor AS Hemsbach",
+        "Angespannte Verkehrslage, seit 06.05.2026, 10:53",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.9 km hinter AK Weinheim und 1.6 km vor AS Hirschberg",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Durchschnittsgeschwindigkeit: 20 km/h",
-        "- Reisezeitverlust: 6 Minuten (zunehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 25 km/h",
+        "- Reisezeitverlust: 4 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -238,242 +314,86 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.609263626,
-            49.643043488
+            8.629154264,
+            49.541420118
           ],
           [
-            8.6092634,
-            49.643031001
+            8.629191,
+            49.541302401
           ],
           [
-            8.6093027,
-            49.641237901
+            8.6294964,
+            49.540461001
           ],
           [
-            8.6093634,
-            49.640476801
+            8.6295674,
+            49.540259001
           ],
           [
-            8.6094496,
-            49.639727001
+            8.6300148,
+            49.539058501
           ],
           [
-            8.6096786,
-            49.638335201
+            8.6303174,
+            49.538271101
           ],
           [
-            8.6098991,
-            49.637359701
+            8.630455,
+            49.537931501
           ],
           [
-            8.6099305,
-            49.637218401
+            8.6304892,
+            49.537839901
           ],
           [
-            8.6101303,
-            49.636463401
+            8.630862,
+            49.536926901
           ],
           [
-            8.6103971,
-            49.635588101
+            8.6316058,
+            49.535174301
           ],
           [
-            8.6107124,
-            49.634675201
+            8.6318144,
+            49.534673801
           ],
           [
-            8.6107506,
-            49.634584101
+            8.6332333,
+            49.531433801
           ],
           [
-            8.6110899,
-            49.633711701
+            8.6341179,
+            49.529424201
           ],
           [
-            8.611433,
-            49.632932001
+            8.6344215,
+            49.528699501
           ],
           [
-            8.6120688,
-            49.631629201
+            8.6351221,
+            49.527001401
           ],
           [
-            8.6128621,
-            49.630217201
+            8.6356551,
+            49.525578001
           ],
           [
-            8.6136536,
-            49.628976401
+            8.635785,
+            49.525257601
           ],
           [
-            8.614238,
-            49.628144101
+            8.6363211,
+            49.523729301
           ],
           [
-            8.6147813,
-            49.627406901
-          ],
-          [
-            8.6153654,
-            49.626671201
-          ],
-          [
-            8.6157465,
-            49.626212101
-          ],
-          [
-            8.6164589,
-            49.625380101
-          ],
-          [
-            8.6168762,
-            49.624905401
-          ],
-          [
-            8.6172455,
-            49.624503901
-          ],
-          [
-            8.6174556,
-            49.624282001
-          ],
-          [
-            8.6188969,
-            49.622762701
-          ],
-          [
-            8.619688,
-            49.621946101
-          ],
-          [
-            8.6210894,
-            49.620500801
-          ],
-          [
-            8.6213405,
-            49.620233501
-          ],
-          [
-            8.621685039,
-            49.619863244
+            8.636491215,
+            49.523212842
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-zus.2026-05-06_08-57-34-000.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.4349978982988,8.695526053017408,50.406850598995085,8.700438207762602",
-      "point": "50.4349978982988,8.695526053017408",
-      "startLcPosition": "119",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Butzbach - Bad Nauheim",
-      "startTimestamp": "2026-05-06T08:57:34Z",
-      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
-      "coordinate": {
-        "lat": 50.4349978982988,
-        "long": 8.695526053017408
-      },
-      "description": [
-        "Beginn: 06.05.26 um 10:57 Uhr",
-        "",
-        "Zusammengesetzte Verkehrsinformation, seit 06.05.2026, 08:57",
-        "A5: Kassel -> Frankfurt, zwischen 0.3 km hinter AS Butzbach und 0.1 km vor AS Bad Nauheim",
-        "",
-        "Ereignismeldung:",
-        "- Fahrstreifen gesperrt"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.695526053,
-            50.434997898
-          ],
-          [
-            8.6956712,
-            50.434176701
-          ],
-          [
-            8.6959905,
-            50.432347301
-          ],
-          [
-            8.6962608,
-            50.430743301
-          ],
-          [
-            8.6965433,
-            50.429139601
-          ],
-          [
-            8.6968486,
-            50.427387801
-          ],
-          [
-            8.6972859,
-            50.424898001
-          ],
-          [
-            8.6977191,
-            50.422404401
-          ],
-          [
-            8.6979443,
-            50.421127901
-          ],
-          [
-            8.6984134,
-            50.418428501
-          ],
-          [
-            8.6986641,
-            50.416991001
-          ],
-          [
-            8.6989193,
-            50.415546801
-          ],
-          [
-            8.6991579,
-            50.414125301
-          ],
-          [
-            8.6994572,
-            50.412422501
-          ],
-          [
-            8.6994857,
-            50.412260401
-          ],
-          [
-            8.7000391,
-            50.409079801
-          ],
-          [
-            8.7001991,
-            50.408160501
-          ],
-          [
-            8.7003177,
-            50.407536201
-          ],
-          [
-            8.700438208,
-            50.406850599
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "NLW_2026_001443--vi-hind.2026-05-06_08-44-00-326.de0",
+      "identifier": "NLW_2026_001443--vi-hind.2026-05-06_10-52-00-406.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -551,7 +471,7 @@
       }
     },
     {
-      "identifier": "NLW_2026_001449--vi-unf.2026-05-06_08-59-00-180.de0",
+      "identifier": "NLW_2026_001449--vi-unf.2026-05-06_11-04-00-197.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -603,220 +523,6 @@
           [
             8.718431981,
             50.459350045
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-05-06_08-44-00-000_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.489596597514335,8.734781006678363,50.45770388188871,8.716683107030985",
-      "point": "50.489596597514335,8.734781006678363",
-      "startLcPosition": "121",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Limes - Butzbach",
-      "startTimestamp": "2026-05-06T08:44:00Z",
-      "delayTimeValue": "13",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "coordinate": {
-        "lat": 50.489596597514335,
-        "long": 8.734781006678363
-      },
-      "description": [
-        "Beginn: 06.05.26 um 10:44 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 06.05.2026, 08:44",
-        "A5: Kassel -> Frankfurt, zwischen 3.8 km hinter Limes und 2.9 km vor AS Butzbach",
-        "",
-        "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 13 Minuten (zunehmend)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.734781007,
-            50.489596598
-          ],
-          [
-            8.7347548,
-            50.489547901
-          ],
-          [
-            8.7337756,
-            50.487694701
-          ],
-          [
-            8.732812,
-            50.485858101
-          ],
-          [
-            8.7327484,
-            50.485737601
-          ],
-          [
-            8.7310298,
-            50.482497901
-          ],
-          [
-            8.7303122,
-            50.481122001
-          ],
-          [
-            8.7296667,
-            50.479915201
-          ],
-          [
-            8.7286745,
-            50.478021101
-          ],
-          [
-            8.7273554,
-            50.475524001
-          ],
-          [
-            8.7268804,
-            50.474610601
-          ],
-          [
-            8.726673,
-            50.474224601
-          ],
-          [
-            8.7264607,
-            50.473822501
-          ],
-          [
-            8.7255831,
-            50.472144401
-          ],
-          [
-            8.7252671,
-            50.471550701
-          ],
-          [
-            8.7249481,
-            50.470951101
-          ],
-          [
-            8.7248995,
-            50.470859701
-          ],
-          [
-            8.7247584,
-            50.470594801
-          ],
-          [
-            8.7246134,
-            50.470322601
-          ],
-          [
-            8.724411,
-            50.469921501
-          ],
-          [
-            8.7242995,
-            50.469696901
-          ],
-          [
-            8.7237313,
-            50.468632101
-          ],
-          [
-            8.7230099,
-            50.467249501
-          ],
-          [
-            8.7225549,
-            50.466394501
-          ],
-          [
-            8.7219888,
-            50.465328901
-          ],
-          [
-            8.7218171,
-            50.464995601
-          ],
-          [
-            8.7213768,
-            50.464166601
-          ],
-          [
-            8.7209222,
-            50.463294701
-          ],
-          [
-            8.7207637,
-            50.462978701
-          ],
-          [
-            8.7206957,
-            50.462852601
-          ],
-          [
-            8.7205476,
-            50.462580401
-          ],
-          [
-            8.7202239,
-            50.462003301
-          ],
-          [
-            8.7200432,
-            50.461704401
-          ],
-          [
-            8.7198116,
-            50.461368901
-          ],
-          [
-            8.7196994,
-            50.461188401
-          ],
-          [
-            8.7195262,
-            50.460915901
-          ],
-          [
-            8.7191284,
-            50.460359001
-          ],
-          [
-            8.7188008,
-            50.459944101
-          ],
-          [
-            8.7184627,
-            50.459520701
-          ],
-          [
-            8.7180898,
-            50.459104001
-          ],
-          [
-            8.71775,
-            50.458739301
-          ],
-          [
-            8.7173756,
-            50.458360201
-          ],
-          [
-            8.7169908,
-            50.457979301
-          ],
-          [
-            8.716683107,
-            50.457703882
           ]
         ]
       }

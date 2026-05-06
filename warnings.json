@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-05-06_08-46-00-687.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-05-06_10-54-00-626.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,32 +290,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-05-06_04-48-00-000_031.de0",
+      "identifier": "INRIX--vi-avl.2026-05-06_04-48-00-000_032.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.989928110820316,7.012721688951223,51.02856249933555,7.010680945408912",
-      "point": "50.989928110820316,7.012721688951223",
+      "extent": "50.984361113248966,7.01594401115608,51.0305770752142,7.01022734791622",
+      "point": "50.984361113248966,7.01594401115608",
       "startLcPosition": "208",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Köln-Mülheim - Leverkusen",
       "startTimestamp": "2026-05-06T04:48:00Z",
-      "delayTimeValue": "10",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35",
       "coordinate": {
-        "lat": 50.989928110820316,
-        "long": 7.012721688951223
+        "lat": 50.984361113248966,
+        "long": 7.01594401115608
       },
       "description": [
         "Beginn: 06.05.26 um 06:48 Uhr",
         "",
         "Angespannte Verkehrslage, seit 06.05.2026, 04:48",
-        "A3: Köln -> Oberhausen, zwischen 0.8 km hinter AS Köln-Mülheim und 1.5 km vor AK Leverkusen",
+        "A3: Köln -> Oberhausen, zwischen 0.1 km hinter AS Köln-Mülheim und 1.3 km vor AK Leverkusen",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten (zunehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 5 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -325,8 +327,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.012721689,
-            50.989928111
+            7.015944011,
+            50.984361113
+          ],
+          [
+            7.0158764,
+            50.984436201
+          ],
+          [
+            7.0152439,
+            50.985190801
+          ],
+          [
+            7.0147744,
+            50.985781501
+          ],
+          [
+            7.0145612,
+            50.986102401
+          ],
+          [
+            7.0141987,
+            50.986711201
+          ],
+          [
+            7.0139674,
+            50.987121501
+          ],
+          [
+            7.0138766,
+            50.987282601
+          ],
+          [
+            7.01351,
+            50.987996201
+          ],
+          [
+            7.0133338,
+            50.988343901
+          ],
+          [
+            7.0131213,
+            50.988812901
+          ],
+          [
+            7.0128279,
+            50.989600601
           ],
           [
             7.0126436,
@@ -485,36 +531,41 @@
             51.027245301
           ],
           [
-            7.010680945,
-            51.028562499
+            7.010227348,
+            51.030577075
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-zus.2026-05-06_08-57-37-000.de0",
+      "identifier": "INRIX--vi-avl.2026-05-06_10-13-00-000_018.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.02655311921866,7.011128554398821,51.03725802412781,7.00880764953999",
-      "point": "51.02655311921866,7.011128554398821",
-      "startLcPosition": "209",
+      "extent": "51.168576564240624,6.954501747033296,51.12514092611863,6.976976135273214",
+      "point": "51.168576564240624,6.954501747033296",
+      "startLcPosition": "217",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Leverkusen-Zentrum - Leverkusen",
-      "startTimestamp": "2026-05-06T08:57:37Z",
-      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Hilden - Solingen",
+      "startTimestamp": "2026-05-06T10:13:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40",
       "coordinate": {
-        "lat": 51.02655311921866,
-        "long": 7.011128554398821
+        "lat": 51.168576564240624,
+        "long": 6.954501747033296
       },
       "description": [
-        "Beginn: 06.05.26 um 10:57 Uhr",
+        "Beginn: 06.05.26 um 12:13 Uhr",
         "",
-        "Zusammengesetzte Verkehrsinformation, seit 06.05.2026, 08:57",
-        "A3: Köln -> Oberhausen, zwischen 0.3 km hinter AS Leverkusen-Zentrum und 0.5 km vor AK Leverkusen",
+        "Angespannte Verkehrslage, seit 06.05.2026, 10:13",
+        "A3: Oberhausen -> Köln, zwischen 3.1 km hinter AK Hilden und 0.5 km vor AS Solingen",
         "",
-        "Ereignismeldung:"
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
+        "- Reisezeitverlust: 4 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -524,28 +575,513 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.011128554,
-            51.026553119
+            6.954501747,
+            51.168576564
           ],
           [
-            7.0109775,
-            51.027245301
+            6.9547548,
+            51.168243001
           ],
           [
-            7.0100579,
-            51.031329601
+            6.955025,
+            51.167871301
           ],
           [
-            7.0099962,
-            51.031624701
+            6.9568196,
+            51.165532801
           ],
           [
-            7.0095269,
-            51.033963801
+            6.9569582,
+            51.165337901
           ],
           [
-            7.00880765,
-            51.037258024
+            6.9570856,
+            51.165168801
+          ],
+          [
+            6.9571635,
+            51.165066801
+          ],
+          [
+            6.957493,
+            51.164646301
+          ],
+          [
+            6.9576337,
+            51.164450301
+          ],
+          [
+            6.9577032,
+            51.164358101
+          ],
+          [
+            6.9579653,
+            51.164008301
+          ],
+          [
+            6.9580981,
+            51.163835901
+          ],
+          [
+            6.959567,
+            51.161892001
+          ],
+          [
+            6.9596618,
+            51.161766901
+          ],
+          [
+            6.9604126,
+            51.160763001
+          ],
+          [
+            6.9629577,
+            51.157380301
+          ],
+          [
+            6.9643266,
+            51.155612101
+          ],
+          [
+            6.9647294,
+            51.155026101
+          ],
+          [
+            6.9652269,
+            51.154260401
+          ],
+          [
+            6.9657195,
+            51.153319501
+          ],
+          [
+            6.9659123,
+            51.152951701
+          ],
+          [
+            6.9669185,
+            51.150554001
+          ],
+          [
+            6.9685413,
+            51.145998401
+          ],
+          [
+            6.9702498,
+            51.141388501
+          ],
+          [
+            6.9702855,
+            51.141291901
+          ],
+          [
+            6.9734925,
+            51.132637301
+          ],
+          [
+            6.9748711,
+            51.128957701
+          ],
+          [
+            6.9750295,
+            51.128552501
+          ],
+          [
+            6.9751962,
+            51.128117201
+          ],
+          [
+            6.9755071,
+            51.127486701
+          ],
+          [
+            6.9756298,
+            51.127238001
+          ],
+          [
+            6.9764859,
+            51.125852301
+          ],
+          [
+            6.9767328,
+            51.125477001
+          ],
+          [
+            6.9768274,
+            51.125342601
+          ],
+          [
+            6.9768642,
+            51.125290201
+          ],
+          [
+            6.976976135,
+            51.125140926
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-05-06_10-25-00-000_014.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.41576010167875,6.798140417634981,51.4302628925295,6.807014402578228",
+      "point": "51.41576010167875,6.798140417634981",
+      "startLcPosition": "225",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Duisburg-Wedau - Kaiserberg",
+      "startTimestamp": "2026-05-06T10:25:00Z",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "30",
+      "coordinate": {
+        "lat": 51.41576010167875,
+        "long": 6.798140417634981
+      },
+      "description": [
+        "Beginn: 06.05.26 um 12:25 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.05.2026, 10:25",
+        "A3: Köln -> Oberhausen, zwischen 0.8 km hinter AS Duisburg-Wedau und 2.0 km vor AK Kaiserberg",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 2 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.798140418,
+            51.415760102
+          ],
+          [
+            6.7979283,
+            51.416265801
+          ],
+          [
+            6.7977877,
+            51.416613901
+          ],
+          [
+            6.7975865,
+            51.417081801
+          ],
+          [
+            6.797406,
+            51.417537501
+          ],
+          [
+            6.7972665,
+            51.417940601
+          ],
+          [
+            6.7971473,
+            51.418422301
+          ],
+          [
+            6.7970872,
+            51.418832301
+          ],
+          [
+            6.7970644,
+            51.419266901
+          ],
+          [
+            6.7970741,
+            51.419743201
+          ],
+          [
+            6.7971382,
+            51.420150101
+          ],
+          [
+            6.7972449,
+            51.420643501
+          ],
+          [
+            6.7973696,
+            51.421044401
+          ],
+          [
+            6.7975794,
+            51.421527901
+          ],
+          [
+            6.7978003,
+            51.421952801
+          ],
+          [
+            6.7980356,
+            51.422321601
+          ],
+          [
+            6.7982824,
+            51.422672801
+          ],
+          [
+            6.7986144,
+            51.423068401
+          ],
+          [
+            6.7990453,
+            51.423516601
+          ],
+          [
+            6.7994548,
+            51.423873101
+          ],
+          [
+            6.8003718,
+            51.424632101
+          ],
+          [
+            6.8016267,
+            51.425668501
+          ],
+          [
+            6.8034579,
+            51.427142201
+          ],
+          [
+            6.8052833,
+            51.428622901
+          ],
+          [
+            6.8060057,
+            51.429227001
+          ],
+          [
+            6.806604,
+            51.429791801
+          ],
+          [
+            6.807014403,
+            51.430262893
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-05-06_11-05-00-000_008.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.460126568162906,6.808891314413101,51.43908623590352,6.806260322351079",
+      "point": "51.460126568162906,6.808891314413101",
+      "startLcPosition": "227",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Oberhausen-Lirich - Duisburg-Wedau",
+      "startTimestamp": "2026-05-06T11:05:00Z",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
+      "coordinate": {
+        "lat": 51.460126568162906,
+        "long": 6.808891314413101
+      },
+      "description": [
+        "Beginn: 06.05.26 um 13:05 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 06.05.2026, 11:05",
+        "A3: Oberhausen -> Köln, zwischen 1.9 km hinter AS Oberhausen-Lirich und 3.6 km vor AS Duisburg-Wedau",
+        "",
+        "Ereignismeldung:",
+        "- Reisezeitverlust: 2 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.808891314,
+            51.460126568
+          ],
+          [
+            6.8084563,
+            51.459971201
+          ],
+          [
+            6.8060584,
+            51.459152001
+          ],
+          [
+            6.8051398,
+            51.458783801
+          ],
+          [
+            6.8041123,
+            51.458291601
+          ],
+          [
+            6.8035922,
+            51.458006301
+          ],
+          [
+            6.8032034,
+            51.457767701
+          ],
+          [
+            6.8026877,
+            51.457432201
+          ],
+          [
+            6.8022097,
+            51.457083801
+          ],
+          [
+            6.8015562,
+            51.456559101
+          ],
+          [
+            6.8011805,
+            51.456212901
+          ],
+          [
+            6.8007853,
+            51.455802301
+          ],
+          [
+            6.8005601,
+            51.455544201
+          ],
+          [
+            6.8001625,
+            51.455009401
+          ],
+          [
+            6.7998728,
+            51.454548501
+          ],
+          [
+            6.7996061,
+            51.454079101
+          ],
+          [
+            6.7993858,
+            51.453588601
+          ],
+          [
+            6.7992119,
+            51.453116001
+          ],
+          [
+            6.7990188,
+            51.452611101
+          ],
+          [
+            6.7988856,
+            51.452103801
+          ],
+          [
+            6.7987473,
+            51.451586701
+          ],
+          [
+            6.7986359,
+            51.451065301
+          ],
+          [
+            6.7984914,
+            51.450177701
+          ],
+          [
+            6.7984306,
+            51.449655601
+          ],
+          [
+            6.7984121,
+            51.449192901
+          ],
+          [
+            6.7984227,
+            51.448777201
+          ],
+          [
+            6.7985073,
+            51.447968001
+          ],
+          [
+            6.7987327,
+            51.446670001
+          ],
+          [
+            6.7988315,
+            51.446165201
+          ],
+          [
+            6.7989323,
+            51.445826201
+          ],
+          [
+            6.7990789,
+            51.445432301
+          ],
+          [
+            6.7993396,
+            51.444861501
+          ],
+          [
+            6.799599,
+            51.444413501
+          ],
+          [
+            6.7998908,
+            51.444012601
+          ],
+          [
+            6.8004226,
+            51.443434701
+          ],
+          [
+            6.8010057,
+            51.442879801
+          ],
+          [
+            6.8014743,
+            51.442521901
+          ],
+          [
+            6.8019774,
+            51.442154701
+          ],
+          [
+            6.8031672,
+            51.441400901
+          ],
+          [
+            6.8041734,
+            51.440752601
+          ],
+          [
+            6.804667,
+            51.440414801
+          ],
+          [
+            6.8051495,
+            51.440070801
+          ],
+          [
+            6.8056123,
+            51.439696901
+          ],
+          [
+            6.8059896,
+            51.439346401
+          ],
+          [
+            6.806260322,
+            51.439086236
           ]
         ]
       }
@@ -555,30 +1091,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.491205963778775,6.816888784871321,51.530537003338964,6.821108336494603",
-      "point": "51.491205963778775,6.816888784871321",
+      "extent": "51.49866351489784,6.820538878298728,51.530537003338964,6.821108336494603",
+      "point": "51.49866351489784,6.820538878298728",
       "startLcPosition": "228",
       "display_type": "WARNING",
       "subtitle": " Köln -> Arnheim",
       "title": "A3 | Oberhausen-West - Oberhausen",
       "startTimestamp": "2026-05-06T04:25:00Z",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "30",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35",
       "coordinate": {
-        "lat": 51.491205963778775,
-        "long": 6.816888784871321
+        "lat": 51.49866351489784,
+        "long": 6.820538878298728
       },
       "description": [
         "Beginn: 06.05.26 um 06:25 Uhr",
         "",
         "Angespannte Verkehrslage, seit 06.05.2026, 04:25",
-        "A3: Köln -> Arnheim, zwischen 0.4 km hinter AK Oberhausen-West und 1.2 km vor AK Oberhausen",
+        "A3: Köln -> Arnheim, zwischen 1.3 km hinter AK Oberhausen-West und 1.2 km vor AK Oberhausen",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Durchschnittsgeschwindigkeit: 30 km/h",
-        "- Reisezeitverlust: 6 Minuten (zunehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 4 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -588,32 +1124,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.816888785,
-            51.491205964
-          ],
-          [
-            6.8169379,
-            51.491302401
-          ],
-          [
-            6.8172877,
-            51.492009101
-          ],
-          [
-            6.8181676,
-            51.493793301
-          ],
-          [
-            6.8187383,
-            51.494976001
-          ],
-          [
-            6.8188377,
-            51.495190101
-          ],
-          [
-            6.8203338,
-            51.498244801
+            6.820538878,
+            51.498663515
           ],
           [
             6.8208302,
