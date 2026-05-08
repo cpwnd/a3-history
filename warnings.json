@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-05-08_19-14-00-303.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-05-08_20-18-00-401.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -294,28 +294,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.4562961466417,7.774899759025286,50.44550201128865,7.816248582561013",
-      "point": "50.4562961466417,7.774899759025286",
+      "extent": "50.453012658659496,7.777617315833753,50.44550201128865,7.816248582561013",
+      "point": "50.453012658659496,7.777617315833753",
       "startLcPosition": "180",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
       "title": "A3 | Dernbach - Montabaur",
       "startTimestamp": "2026-05-08T18:04:00Z",
-      "delayTimeValue": "21",
+      "delayTimeValue": "14",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 50.4562961466417,
-        "long": 7.774899759025286
+        "lat": 50.453012658659496,
+        "long": 7.777617315833753
       },
       "description": [
         "Beginn: 08.05.26 um 20:04 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.05.2026, 18:04",
-        "A3: Köln -> Frankfurt, zwischen 0.6 km hinter AD Dernbach und 1.8 km vor AS Montabaur",
+        "A3: Köln -> Frankfurt, zwischen 1.0 km hinter AD Dernbach und 1.8 km vor AS Montabaur",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 21 Minuten (abnehmend)"
+        "- Reisezeitverlust: 14 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -325,48 +325,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.774899759,
-            50.456296147
-          ],
-          [
-            7.7750588,
-            50.456165701
-          ],
-          [
-            7.775301,
-            50.455956001
-          ],
-          [
-            7.775489,
-            50.455777301
-          ],
-          [
-            7.775661,
-            50.455602701
-          ],
-          [
-            7.7758236,
-            50.455431101
-          ],
-          [
-            7.7760915,
-            50.455131001
-          ],
-          [
-            7.7762694,
-            50.454921401
-          ],
-          [
-            7.7764026,
-            50.454752901
-          ],
-          [
-            7.7768149,
-            50.454177201
-          ],
-          [
-            7.7771488,
-            50.453694301
+            7.777617316,
+            50.453012659
           ],
           [
             7.7783648,
@@ -567,6 +527,102 @@
           [
             7.816248583,
             50.445502011
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-05-08_20-30-00-000_001.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.29998392297297,6.896066353153478,51.28875439325697,6.899007274285081",
+      "point": "51.29998392297297,6.896066353153478",
+      "startLcPosition": "221",
+      "display_type": "WARNING",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Hösel - Mettmann",
+      "startTimestamp": "2026-05-08T20:30:00Z",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "10",
+      "coordinate": {
+        "lat": 51.29998392297297,
+        "long": 6.896066353153478
+      },
+      "description": [
+        "Beginn: 08.05.26 um 22:30 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 08.05.2026, 20:30",
+        "A3: Oberhausen -> Köln, zwischen 3.2 km hinter Hösel und 3.5 km vor AS Mettmann",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 10 km/h",
+        "- Reisezeitverlust: 7 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.896066353,
+            51.299983923
+          ],
+          [
+            6.8960904,
+            51.299049901
+          ],
+          [
+            6.8961355,
+            51.298579201
+          ],
+          [
+            6.8961965,
+            51.298093901
+          ],
+          [
+            6.8963092,
+            51.297537201
+          ],
+          [
+            6.896551,
+            51.296615201
+          ],
+          [
+            6.8966084,
+            51.296416401
+          ],
+          [
+            6.8968149,
+            51.295701801
+          ],
+          [
+            6.8968891,
+            51.295477101
+          ],
+          [
+            6.8973337,
+            51.294047701
+          ],
+          [
+            6.8976333,
+            51.293026201
+          ],
+          [
+            6.8982765,
+            51.291026301
+          ],
+          [
+            6.8984567,
+            51.290466201
+          ],
+          [
+            6.899007274,
+            51.288754393
           ]
         ]
       }
