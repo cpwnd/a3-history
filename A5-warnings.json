@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLW_2026_001443--vi-hind.2026-05-10_10-50-00-214.de0",
+      "identifier": "NLW_2026_001443--vi-hind.2026-05-10_11-54-00-197.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -83,28 +83,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.53519076857676,8.77191368498477,50.56842867743254,8.797720719782696",
-      "point": "50.53519076857676,8.77191368498477",
+      "extent": "50.52622989736451,8.76245012993487,50.56512483289094,8.795199890533393",
+      "point": "50.52622989736451,8.76245012993487",
       "startLcPosition": "122",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Kassel",
       "title": "A5 | Limes - Reiskirchen",
       "startTimestamp": "2026-05-10T10:16:00Z",
-      "delayTimeValue": "21",
+      "delayTimeValue": "30",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 50.53519076857676,
-        "long": 8.77191368498477
+        "lat": 50.52622989736451,
+        "long": 8.76245012993487
       },
       "description": [
         "Beginn: 10.05.26 um 12:16 Uhr",
         "",
         "Angespannte Verkehrslage, seit 10.05.2026, 10:16",
-        "A5: Frankfurt -> Kassel, zwischen 1.8 km hinter Limes und 3.2 km vor AS Reiskirchen",
+        "A5: Frankfurt -> Kassel, zwischen 0.6 km hinter Limes und 3.6 km vor AS Reiskirchen",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 21 Minuten (abnehmend)"
+        "- Reisezeitverlust: 30 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -114,8 +114,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.771913685,
-            50.535190769
+            8.76245013,
+            50.526229897
+          ],
+          [
+            8.7628367,
+            50.526594501
+          ],
+          [
+            8.7650964,
+            50.528733501
+          ],
+          [
+            8.7695978,
+            50.532998001
           ],
           [
             8.7726873,
@@ -222,32 +234,69 @@
             50.564075501
           ],
           [
-            8.795295,
-            50.565267201
+            8.795199891,
+            50.565124833
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "NLW_2026_001506--vi-unf.2026-05-10_11-55-00-316.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.560019349517056,8.791906878426323,50.555122995605494,8.788905862771747",
+      "point": "50.560019349517056,8.791906878426323",
+      "startLcPosition": "124",
+      "display_type": "WARNING",
+      "subtitle": " Kassel -> Frankfurt",
+      "title": "A5 | Reiskirchen - Fernwald",
+      "startTimestamp": "2026-05-10T13:20:00+02:00",
+      "coordinate": {
+        "lat": 50.560019349517056,
+        "long": 8.791906878426323
+      },
+      "description": [
+        "Beginn: 10.05.26 um 13:20 Uhr",
+        "",
+        "Ereignismeldung:",
+        "- Unfall",
+        "2 Fahrstreifen gesperrt",
+        "",
+        "A5: Kassel -> Frankfurt, zwischen 4.2 km hinter AS Reiskirchen und 1.2 km vor AS Fernwald",
+        " ",
+        "Ereignisnummer: NLW_2026_001506"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "eva",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.791906878,
+            50.56001935
           ],
           [
-            8.7956031,
-            50.565718201
+            8.790554767,
+            50.557814629
           ],
           [
-            8.7961111,
-            50.566416701
+            8.789756902,
+            50.556503868
           ],
           [
-            8.7966957,
-            50.567190001
+            8.789281723,
+            50.555721659
           ],
           [
-            8.797126,
-            50.567727901
+            8.789039608,
+            50.555328837
           ],
           [
-            8.7972845,
-            50.567908201
-          ],
-          [
-            8.79772072,
-            50.568428677
+            8.788905863,
+            50.555122996
           ]
         ]
       }
