@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_000689--vi-zus.2026-05-11_23-01-00-408.de0",
+      "identifier": "NLSB_2026_000689--vi-zus.2026-05-12_00-04-00-440.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -290,7 +290,7 @@
       }
     },
     {
-      "identifier": "NLNB_2026_001521--vi-zus.2026-05-11_22-36-00-169.de0",
+      "identifier": "NLNB_2026_001521--vi-zus.2026-05-11_23-39-00-179.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -310,7 +310,7 @@
         "",
         "Ereignismeldung:",
         "- Unfall mit Gefahrenstoffen",
-        "Vollsperrung",
+        "2 Fahrstreifen gesperrt",
         "",
         "A3: Frankfurt -> Würzburg, zwischen 0.2 km hinter AS Würzburg/Kist und 5.0 km vor AS Würzburg-Heidingsfeld",
         " ",
@@ -391,28 +391,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.74702570074876,9.812619789733143,49.746090862429696,9.864218718794797",
-      "point": "49.74702570074876,9.812619789733143",
-      "startLcPosition": "126",
+      "extent": "49.748684174328815,9.825461781987114,49.74584403389793,9.867352364590191",
+      "point": "49.748684174328815,9.825461781987114",
+      "startLcPosition": "125",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Würzburg",
-      "title": "A3 | Helmstadt - Würzburg-Heidingsfeld",
+      "title": "A3 | Würzburg-West - Würzburg-Heidingsfeld",
       "startTimestamp": "2026-05-11T21:40:00Z",
-      "delayTimeValue": "31",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "20",
       "coordinate": {
-        "lat": 49.74702570074876,
-        "long": 9.812619789733143
+        "lat": 49.748684174328815,
+        "long": 9.825461781987114
       },
       "description": [
         "Beginn: 11.05.26 um 23:40 Uhr",
         "",
         "Angespannte Verkehrslage, seit 11.05.2026, 21:40",
-        "A3: Frankfurt -> Würzburg, zwischen 3.7 km hinter AS Helmstadt und 4.9 km vor AS Würzburg-Heidingsfeld",
+        "A3: Frankfurt -> Würzburg, zwischen 0.5 km hinter AD Würzburg-West und 4.6 km vor AS Würzburg-Heidingsfeld",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 31 Minuten (zunehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 7 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -422,40 +424,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.81261979,
-            49.747025701
-          ],
-          [
-            9.8129411,
-            49.747036601
-          ],
-          [
-            9.8145688,
-            49.747153701
-          ],
-          [
-            9.8158288,
-            49.747291401
-          ],
-          [
-            9.817757,
-            49.747549101
-          ],
-          [
-            9.81909,
-            49.747758101
-          ],
-          [
-            9.8213256,
-            49.748100301
-          ],
-          [
-            9.8227391,
-            49.748317001
-          ],
-          [
-            9.8241149,
-            49.748507001
+            9.825461782,
+            49.748684174
           ],
           [
             9.8258117,
@@ -574,8 +544,16 @@
             49.746127701
           ],
           [
-            9.864218719,
-            49.746090862
+            9.8653215,
+            49.745983501
+          ],
+          [
+            9.8667969,
+            49.745874901
+          ],
+          [
+            9.867352365,
+            49.745844034
           ]
         ]
       }
