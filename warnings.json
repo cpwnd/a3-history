@@ -5,8 +5,8 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.43846652737094,13.375976764091778,48.458790648542696,13.3754325220727",
-      "point": "48.43846652737094,13.375976764091778",
+      "extent": "48.43576725409036,13.377036027171172,48.458790648542696,13.3754325220727",
+      "point": "48.43576725409036,13.377036027171172",
       "startLcPosition": "2",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
@@ -15,18 +15,18 @@
       "delayTimeValue": "10",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 48.43846652737094,
-        "long": 13.375976764091778
+        "lat": 48.43576725409036,
+        "long": 13.377036027171172
       },
       "description": [
         "Beginn: 26.07.26 um 09:03 Uhr",
         "",
         "Angespannte Verkehrslage, seit 26.07.2026, 07:03",
-        "A3: Linz -> Passau, zwischen 0.3 km hinter AS Pocking und 0.1 km vor Rottal-Ost",
+        "A3: Linz -> Passau, zwischen AS Pocking und 0.1 km vor Rottal-Ost",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten (abnehmend)"
+        "- Reisezeitverlust: 10 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +36,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.375976764,
-            48.438466527
+            13.377036027,
+            48.435767254
+          ],
+          [
+            13.3769736,
+            48.435890001
+          ],
+          [
+            13.3767686,
+            48.436328701
+          ],
+          [
+            13.3765049,
+            48.436935601
+          ],
+          [
+            13.3763902,
+            48.437252401
+          ],
+          [
+            13.3761825,
+            48.437808401
+          ],
+          [
+            13.3760188,
+            48.438325201
           ],
           [
             13.3759235,
@@ -147,32 +171,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-07-26_08-33-00-000_004.de0",
+      "identifier": "INRIX--vi-avl.2026-07-26_11-36-00-000_017.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.7781634197769,13.027453536953779,48.81236633486115,12.962388403541075",
+      "extent": "48.7781634197769,13.027453536953779,48.79350986376694,12.998976363763749",
       "point": "48.7781634197769,13.027453536953779",
       "startLcPosition": "23",
       "display_type": "WARNING",
       "subtitle": " Passau -> Nürnberg",
-      "title": "A3 | Hengersberg - Deggendorf",
-      "startTimestamp": "2026-07-26T08:33:00Z",
-      "delayTimeValue": "10",
+      "title": "A3 | Hengersberg - Isarblick",
+      "startTimestamp": "2026-07-26T11:36:00Z",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "15",
       "coordinate": {
         "lat": 48.7781634197769,
         "long": 13.027453536953779
       },
       "description": [
-        "Beginn: 26.07.26 um 10:33 Uhr",
+        "Beginn: 26.07.26 um 13:36 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 08:33",
-        "A3: Passau -> Nürnberg, zwischen 1.3 km hinter AS Hengersberg und 1.8 km vor AK Deggendorf",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:36",
+        "A3: Passau -> Nürnberg, zwischen 1.3 km hinter AS Hengersberg und 1.9 km vor Isarblick",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 15 km/h",
+        "- Reisezeitverlust: 9 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -282,20 +308,52 @@
             48.792277301
           ],
           [
-            12.998942,
-            48.793527601
-          ],
+            12.998976364,
+            48.793509864
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-07-26_08-33-00-000_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.799111672315036,12.988928410940819,48.81236633486115,12.962388403541075",
+      "point": "48.799111672315036,12.988928410940819",
+      "startLcPosition": "24",
+      "display_type": "WARNING",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Seebach - Deggendorf",
+      "startTimestamp": "2026-07-26T08:33:00Z",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35",
+      "coordinate": {
+        "lat": 48.799111672315036,
+        "long": 12.988928410940819
+      },
+      "description": [
+        "Beginn: 26.07.26 um 10:33 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.07.2026, 08:33",
+        "A3: Passau -> Nürnberg, zwischen 2.0 km hinter Seebach und 1.8 km vor AK Deggendorf",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 3 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            12.9975301,
-            48.794307901
-          ],
-          [
-            12.9964669,
-            48.794915401
-          ],
-          [
-            12.9906612,
-            48.798204701
+            12.988928411,
+            48.799111672
           ],
           [
             12.9877816,
@@ -361,34 +419,32 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-07-26_10-00-00-000_007.de0",
+      "identifier": "INRIX--vi-avl.2026-07-26_11-09-00-000_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.49933506044593,11.13513665624564,49.46519228958798,11.208777015253613",
-      "point": "49.49933506044593,11.13513665624564",
-      "startLcPosition": "80",
+      "extent": "49.321395945791245,11.464794595743923,49.35301053224197,11.437282329097416",
+      "point": "49.321395945791245,11.464794595743923",
+      "startLcPosition": "68",
       "display_type": "WARNING",
-      "subtitle": " Würzburg -> Passau",
-      "title": "A3 | Nürnberg-Nord - Nürnberg",
-      "startTimestamp": "2026-07-26T10:00:00Z",
-      "delayTimeValue": "5",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "45",
+      "subtitle": " Passau -> Nürnberg",
+      "title": "A3 | Neumarkt/Oberpfalz - Eichenäcker",
+      "startTimestamp": "2026-07-26T11:09:00Z",
+      "delayTimeValue": "15",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 49.49933506044593,
-        "long": 11.13513665624564
+        "lat": 49.321395945791245,
+        "long": 11.464794595743923
       },
       "description": [
-        "Beginn: 26.07.26 um 12:00 Uhr",
+        "Beginn: 26.07.26 um 13:09 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 10:00",
-        "A3: Würzburg -> Passau, zwischen 0.1 km hinter AS Nürnberg-Nord und 2.8 km vor AK Nürnberg",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:09",
+        "A3: Passau -> Nürnberg, zwischen 1.0 km hinter AS Neumarkt/Oberpfalz und 0.3 km vor Eichenäcker",
         "",
         "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 45 km/h",
-        "- Reisezeitverlust: 5 Minuten (zunehmend)"
+        "- Im Stillstand",
+        "- Reisezeitverlust: 15 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -398,16 +454,236 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.135136656,
-            49.49933506
+            11.464794596,
+            49.321395946
           ],
           [
-            11.1362891,
-            49.498967001
+            11.4646027,
+            49.321511701
           ],
           [
-            11.1371455,
-            49.498665901
+            11.4628559,
+            49.322643101
+          ],
+          [
+            11.4621315,
+            49.323157901
+          ],
+          [
+            11.4614425,
+            49.323678701
+          ],
+          [
+            11.4603285,
+            49.324549801
+          ],
+          [
+            11.4598174,
+            49.324982801
+          ],
+          [
+            11.4592667,
+            49.325487601
+          ],
+          [
+            11.4590026,
+            49.325720901
+          ],
+          [
+            11.4582837,
+            49.326408801
+          ],
+          [
+            11.4575331,
+            49.327204801
+          ],
+          [
+            11.4568687,
+            49.328025101
+          ],
+          [
+            11.4562382,
+            49.328933701
+          ],
+          [
+            11.4557142,
+            49.329782201
+          ],
+          [
+            11.455457,
+            49.330248401
+          ],
+          [
+            11.4552285,
+            49.330701301
+          ],
+          [
+            11.4550015,
+            49.331224501
+          ],
+          [
+            11.4545818,
+            49.332316801
+          ],
+          [
+            11.4541855,
+            49.333588701
+          ],
+          [
+            11.4537079,
+            49.335186401
+          ],
+          [
+            11.4535118,
+            49.335792401
+          ],
+          [
+            11.4532908,
+            49.336346801
+          ],
+          [
+            11.4531176,
+            49.336770201
+          ],
+          [
+            11.4529596,
+            49.337062501
+          ],
+          [
+            11.4527049,
+            49.337512201
+          ],
+          [
+            11.4521334,
+            49.338407201
+          ],
+          [
+            11.4516939,
+            49.338989101
+          ],
+          [
+            11.4515539,
+            49.339150701
+          ],
+          [
+            11.4510913,
+            49.339684401
+          ],
+          [
+            11.4504153,
+            49.340373201
+          ],
+          [
+            11.449694,
+            49.341022201
+          ],
+          [
+            11.4489531,
+            49.341616401
+          ],
+          [
+            11.4482418,
+            49.342128901
+          ],
+          [
+            11.4469713,
+            49.342951601
+          ],
+          [
+            11.446714,
+            49.343105501
+          ],
+          [
+            11.4458841,
+            49.343608901
+          ],
+          [
+            11.4450825,
+            49.344122401
+          ],
+          [
+            11.4435702,
+            49.345157801
+          ],
+          [
+            11.442403,
+            49.346093501
+          ],
+          [
+            11.4412957,
+            49.347103801
+          ],
+          [
+            11.440262,
+            49.348220601
+          ],
+          [
+            11.4397628,
+            49.348828201
+          ],
+          [
+            11.439261,
+            49.349506401
+          ],
+          [
+            11.4386539,
+            49.350416601
+          ],
+          [
+            11.4381007,
+            49.351381601
+          ],
+          [
+            11.4376236,
+            49.352362901
+          ],
+          [
+            11.437282329,
+            49.353010532
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-07-26_11-31-00-000_027.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.4982316593248,11.138241227134092,49.48386394191907,11.167500904109719",
+      "point": "49.4982316593248,11.138241227134092",
+      "startLcPosition": "80",
+      "display_type": "WARNING",
+      "subtitle": " Würzburg -> Nürnberg",
+      "title": "A3 | Nürnberg-Nord - Nürnberg/Behringersdorf",
+      "startTimestamp": "2026-07-26T11:31:00Z",
+      "delayTimeValue": "8",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "15",
+      "coordinate": {
+        "lat": 49.4982316593248,
+        "long": 11.138241227134092
+      },
+      "description": [
+        "Beginn: 26.07.26 um 13:31 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:31",
+        "A3: Würzburg -> Nürnberg, zwischen 0.4 km hinter AS Nürnberg-Nord und 1.0 km vor AS Nürnberg/Behringersdorf",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 15 km/h",
+        "- Reisezeitverlust: 8 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.138241227,
+            49.498231659
           ],
           [
             11.1383418,
@@ -482,512 +758,38 @@
             49.483865001
           ],
           [
-            11.1688399,
-            49.483119201
-          ],
-          [
-            11.170039,
-            49.482361401
-          ],
-          [
-            11.1708894,
-            49.481762701
-          ],
-          [
-            11.1722712,
-            49.480686501
-          ],
-          [
-            11.1738688,
-            49.479375001
-          ],
-          [
-            11.1746169,
-            49.478760201
-          ],
-          [
-            11.1765936,
-            49.477126901
-          ],
-          [
-            11.1775375,
-            49.476392201
-          ],
-          [
-            11.1782053,
-            49.475831801
-          ],
-          [
-            11.1791075,
-            49.475091801
-          ],
-          [
-            11.1808232,
-            49.473688501
-          ],
-          [
-            11.1833561,
-            49.471624901
-          ],
-          [
-            11.1836835,
-            49.471356201
-          ],
-          [
-            11.1848557,
-            49.470394501
-          ],
-          [
-            11.1850823,
-            49.470200701
-          ],
-          [
-            11.1857928,
-            49.469610701
-          ],
-          [
-            11.1862386,
-            49.469272501
-          ],
-          [
-            11.1868257,
-            49.468860501
-          ],
-          [
-            11.18723,
-            49.468590101
-          ],
-          [
-            11.1877561,
-            49.468263601
-          ],
-          [
-            11.1882632,
-            49.467965101
-          ],
-          [
-            11.1889251,
-            49.467606401
-          ],
-          [
-            11.1895655,
-            49.467291601
-          ],
-          [
-            11.1902099,
-            49.466983801
-          ],
-          [
-            11.1909779,
-            49.466659701
-          ],
-          [
-            11.1920212,
-            49.466261801
-          ],
-          [
-            11.1926885,
-            49.466026901
-          ],
-          [
-            11.1936561,
-            49.465734901
-          ],
-          [
-            11.1947303,
-            49.465452501
-          ],
-          [
-            11.1954482,
-            49.465291701
-          ],
-          [
-            11.1963274,
-            49.465115401
-          ],
-          [
-            11.1970277,
-            49.464995301
-          ],
-          [
-            11.1977418,
-            49.464896001
-          ],
-          [
-            11.1988701,
-            49.464759601
-          ],
-          [
-            11.2000362,
-            49.464667001
-          ],
-          [
-            11.2010469,
-            49.464631901
-          ],
-          [
-            11.2021148,
-            49.464620801
-          ],
-          [
-            11.2031172,
-            49.464643001
-          ],
-          [
-            11.2042548,
-            49.464707901
-          ],
-          [
-            11.2047283,
-            49.464748401
-          ],
-          [
-            11.2051343,
-            49.464780001
-          ],
-          [
-            11.2061799,
-            49.464894801
-          ],
-          [
-            11.2086917,
-            49.465181401
-          ],
-          [
-            11.208777015,
-            49.46519229
+            11.167500904,
+            49.483863942
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-07-26_10-30-00-000_006.de0",
+      "identifier": "INRIX--vi-avl.2026-07-26_10-55-00-000_014.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.029731784118525,8.501348331490412,50.03088231168768,8.456856206201794",
-      "point": "50.029731784118525,8.501348331490412",
-      "startLcPosition": "160",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Kelsterbach - Johannespfad",
-      "startTimestamp": "2026-07-26T10:30:00Z",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "50",
-      "coordinate": {
-        "lat": 50.029731784118525,
-        "long": 8.501348331490412
-      },
-      "description": [
-        "Beginn: 26.07.26 um 12:30 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 10:30",
-        "A3: Frankfurt -> Köln, zwischen 3.6 km hinter AS Kelsterbach und 3.5 km vor Johannespfad",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 50 km/h",
-        "- Reisezeitverlust: 2 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.501348331,
-            50.029731784
-          ],
-          [
-            8.4960715,
-            50.027617901
-          ],
-          [
-            8.4958182,
-            50.027519601
-          ],
-          [
-            8.4954064,
-            50.027362801
-          ],
-          [
-            8.4949628,
-            50.027197501
-          ],
-          [
-            8.4943097,
-            50.026989501
-          ],
-          [
-            8.4935559,
-            50.026767001
-          ],
-          [
-            8.4932285,
-            50.026674801
-          ],
-          [
-            8.4928925,
-            50.026591001
-          ],
-          [
-            8.4923841,
-            50.026459601
-          ],
-          [
-            8.4919313,
-            50.026359401
-          ],
-          [
-            8.4916717,
-            50.026306401
-          ],
-          [
-            8.4908226,
-            50.026147301
-          ],
-          [
-            8.4903159,
-            50.026063601
-          ],
-          [
-            8.4897921,
-            50.025970701
-          ],
-          [
-            8.4891043,
-            50.025890901
-          ],
-          [
-            8.488516,
-            50.025828601
-          ],
-          [
-            8.4879342,
-            50.025774501
-          ],
-          [
-            8.4874714,
-            50.025739401
-          ],
-          [
-            8.4869418,
-            50.025706001
-          ],
-          [
-            8.4865114,
-            50.025686701
-          ],
-          [
-            8.48586,
-            50.025667701
-          ],
-          [
-            8.4847772,
-            50.025664501
-          ],
-          [
-            8.4841614,
-            50.025679601
-          ],
-          [
-            8.4835238,
-            50.025707901
-          ],
-          [
-            8.4829951,
-            50.025742701
-          ],
-          [
-            8.4824409,
-            50.025786501
-          ],
-          [
-            8.4817751,
-            50.025850601
-          ],
-          [
-            8.4811764,
-            50.025920701
-          ],
-          [
-            8.4806098,
-            50.026001801
-          ],
-          [
-            8.480068,
-            50.026087201
-          ],
-          [
-            8.4795029,
-            50.026193301
-          ],
-          [
-            8.4772028,
-            50.026643101
-          ],
-          [
-            8.475839,
-            50.026914001
-          ],
-          [
-            8.4702206,
-            50.028036501
-          ],
-          [
-            8.4658368,
-            50.028907101
-          ],
-          [
-            8.4629617,
-            50.029476901
-          ],
-          [
-            8.4617171,
-            50.029749801
-          ],
-          [
-            8.4606988,
-            50.029977501
-          ],
-          [
-            8.4589609,
-            50.030372701
-          ],
-          [
-            8.4586177,
-            50.030454701
-          ],
-          [
-            8.456856206,
-            50.030882312
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-07-26_10-09-00-000_011.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.03805787925965,8.52221184170164,50.030903479374096,8.504273641355741",
-      "point": "50.03805787925965,8.52221184170164",
-      "startLcPosition": "160",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Kelsterbach - Mönchhof-Dreieck",
-      "startTimestamp": "2026-07-26T10:09:00Z",
-      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 50.03805787925965,
-        "long": 8.52221184170164
-      },
-      "description": [
-        "Beginn: 26.07.26 um 12:09 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 10:09",
-        "A3: Frankfurt -> Köln, zwischen 1.9 km hinter AS Kelsterbach und 1.0 km vor AD Mönchhof-Dreieck",
-        "",
-        "Ereignismeldung:",
-        "- Durchschnittsgeschwindigkeit: 20 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.522211842,
-            50.038057879
-          ],
-          [
-            8.5204739,
-            50.037362501
-          ],
-          [
-            8.519619,
-            50.037018801
-          ],
-          [
-            8.5187671,
-            50.036683901
-          ],
-          [
-            8.5170406,
-            50.035998201
-          ],
-          [
-            8.5163916,
-            50.035744101
-          ],
-          [
-            8.5156066,
-            50.035436701
-          ],
-          [
-            8.5153855,
-            50.035350101
-          ],
-          [
-            8.5145972,
-            50.035047801
-          ],
-          [
-            8.5138158,
-            50.034734601
-          ],
-          [
-            8.513507,
-            50.034612201
-          ],
-          [
-            8.5126245,
-            50.034257701
-          ],
-          [
-            8.504983,
-            50.031187601
-          ],
-          [
-            8.504273641,
-            50.030903479
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-07-26_09-41-00-000_024.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.12879705760714,8.338698202183892,50.060552113606185,8.38365389928657",
-      "point": "50.12879705760714,8.338698202183892",
+      "extent": "50.13577136700969,8.33384893991175,50.055345373268516,8.388125923719903",
+      "point": "50.13577136700969,8.33384893991175",
       "startLcPosition": "167",
       "display_type": "WARNING",
       "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Niedernhausen - Wiesbadener Kreuz",
-      "startTimestamp": "2026-07-26T09:41:00Z",
-      "delayTimeValue": "17",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "title": "A3 | Niedernhausen - Oberbach",
+      "startTimestamp": "2026-07-26T10:55:00Z",
+      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
+      "averageSpeed": "40",
       "coordinate": {
-        "lat": 50.12879705760714,
-        "long": 8.338698202183892
+        "lat": 50.13577136700969,
+        "long": 8.33384893991175
       },
       "description": [
-        "Beginn: 26.07.26 um 11:41 Uhr",
+        "Beginn: 26.07.26 um 12:55 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 09:41",
-        "A3: Köln -> Frankfurt, zwischen 1.7 km hinter AS Niedernhausen und 0.6 km vor AK Wiesbadener Kreuz",
+        "Angespannte Verkehrslage, seit 26.07.2026, 10:55",
+        "A3: Köln -> Frankfurt, zwischen 0.8 km hinter AS Niedernhausen und 2.1 km vor Oberbach",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 17 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 40 km/h"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -997,8 +799,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.338698202,
-            50.128797058
+            8.33384894,
+            50.135771367
+          ],
+          [
+            8.3349873,
+            50.134143401
+          ],
+          [
+            8.3364291,
+            50.132058501
+          ],
+          [
+            8.3366096,
+            50.131797501
+          ],
+          [
+            8.3368211,
+            50.131507201
+          ],
+          [
+            8.3374612,
+            50.130580001
+          ],
+          [
+            8.3382766,
+            50.129392501
           ],
           [
             8.3387791,
@@ -1253,139 +1079,61 @@
             50.061002901
           ],
           [
-            8.383653899,
-            50.060552114
+            8.3838531,
+            50.060315801
+          ],
+          [
+            8.3844667,
+            50.059585601
+          ],
+          [
+            8.3866056,
+            50.057123701
+          ],
+          [
+            8.3876752,
+            50.055868001
+          ],
+          [
+            8.3880455,
+            50.055439901
+          ],
+          [
+            8.388125924,
+            50.055345373
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-07-26_08-06-00-000_007.de0",
+      "identifier": "INRIX--vi-avl.2026-07-26_11-30-00-000_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.810033908049746,7.217662105643343,50.79253519399421,7.233888612821495",
-      "point": "50.810033908049746,7.217662105643343",
-      "startLcPosition": "199",
+      "extent": "50.74829864524874,7.235017773773586,50.77057184993811,7.235322883715006",
+      "point": "50.74829864524874,7.235017773773586",
+      "startLcPosition": "196",
       "display_type": "WARNING",
-      "subtitle": " Köln -> Frankfurt",
-      "title": "A3 | Lohmar - Bonn/Siegburg",
-      "startTimestamp": "2026-07-26T08:06:00Z",
-      "delayTimeValue": "5",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 50.810033908049746,
-        "long": 7.217662105643343
-      },
-      "description": [
-        "Beginn: 26.07.26 um 10:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 08:06",
-        "A3: Köln -> Frankfurt, zwischen 1.7 km hinter AS Lohmar und 2.0 km vor AK Bonn/Siegburg",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 20 km/h",
-        "- Reisezeitverlust: 5 Minuten (zunehmend)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.217662106,
-            50.810033908
-          ],
-          [
-            7.2189211,
-            50.808776401
-          ],
-          [
-            7.219232,
-            50.808465801
-          ],
-          [
-            7.2199846,
-            50.807704501
-          ],
-          [
-            7.2221862,
-            50.805477101
-          ],
-          [
-            7.2226584,
-            50.805003701
-          ],
-          [
-            7.222823,
-            50.804847001
-          ],
-          [
-            7.223092,
-            50.804581601
-          ],
-          [
-            7.2235242,
-            50.804138001
-          ],
-          [
-            7.2246649,
-            50.802987701
-          ],
-          [
-            7.2260481,
-            50.801499201
-          ],
-          [
-            7.2265027,
-            50.800995601
-          ],
-          [
-            7.2293159,
-            50.797814001
-          ],
-          [
-            7.2320762,
-            50.794634301
-          ],
-          [
-            7.233888613,
-            50.792535194
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-07-26_09-17-00-000_011.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.41576010167875,6.798140417634981,51.44683965612269,6.798779522417784",
-      "point": "51.41576010167875,6.798140417634981",
-      "startLcPosition": "225",
-      "display_type": "WARNING",
-      "subtitle": " Köln -> Oberhausen",
-      "title": "A3 | Duisburg-Wedau - Oberhausen-Lirich",
-      "startTimestamp": "2026-07-26T09:17:00Z",
-      "delayTimeValue": "11",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Siebengebirge - Bonn/Siegburg",
+      "startTimestamp": "2026-07-26T11:30:00Z",
+      "delayTimeValue": "4",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "30",
       "coordinate": {
-        "lat": 51.41576010167875,
-        "long": 6.798140417634981
+        "lat": 50.74829864524874,
+        "long": 7.235017773773586
       },
       "description": [
-        "Beginn: 26.07.26 um 11:17 Uhr",
+        "Beginn: 26.07.26 um 13:30 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 26.07.2026, 09:17",
-        "A3: Köln -> Oberhausen, zwischen 0.8 km hinter AS Duisburg-Wedau und 3.7 km vor AS Oberhausen-Lirich",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:30",
+        "A3: Frankfurt -> Köln, zwischen 7.8 km hinter AS Siebengebirge und 0.7 km vor AK Bonn/Siegburg",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 11 Minuten (abnehmend)"
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 4 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1395,40 +1143,416 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.798140418,
-            51.415760102
+            7.235017774,
+            50.748298645
           ],
           [
-            6.7979283,
-            51.416265801
+            7.2332802,
+            50.750977901
           ],
           [
-            6.7977877,
-            51.416613901
+            7.2312562,
+            50.754118901
           ],
           [
-            6.7975865,
-            51.417081801
+            7.2304365,
+            50.755364001
           ],
           [
-            6.797406,
-            51.417537501
+            7.2300948,
+            50.755942101
           ],
           [
-            6.7972665,
-            51.417940601
+            7.2298408,
+            50.756424101
           ],
           [
-            6.7971473,
-            51.418422301
+            7.2296015,
+            50.756970401
           ],
           [
-            6.7970872,
-            51.418832301
+            7.229426,
+            50.757438901
           ],
           [
-            6.7970644,
-            51.419266901
+            7.2292829,
+            50.757872401
+          ],
+          [
+            7.2291461,
+            50.758385601
+          ],
+          [
+            7.2290415,
+            50.758904801
+          ],
+          [
+            7.2289752,
+            50.759373201
+          ],
+          [
+            7.2289315,
+            50.759819301
+          ],
+          [
+            7.2289206,
+            50.760295801
+          ],
+          [
+            7.2289342,
+            50.760828801
+          ],
+          [
+            7.2289637,
+            50.761254701
+          ],
+          [
+            7.2290425,
+            50.761806701
+          ],
+          [
+            7.2291166,
+            50.762194601
+          ],
+          [
+            7.2292426,
+            50.762696801
+          ],
+          [
+            7.2293829,
+            50.763151201
+          ],
+          [
+            7.2295334,
+            50.763573901
+          ],
+          [
+            7.2296691,
+            50.763901401
+          ],
+          [
+            7.2298568,
+            50.764310301
+          ],
+          [
+            7.2300438,
+            50.764673501
+          ],
+          [
+            7.2302431,
+            50.765029601
+          ],
+          [
+            7.2304638,
+            50.765384701
+          ],
+          [
+            7.2306964,
+            50.765738701
+          ],
+          [
+            7.2309322,
+            50.766065101
+          ],
+          [
+            7.2312087,
+            50.766434301
+          ],
+          [
+            7.2315099,
+            50.766795601
+          ],
+          [
+            7.2318256,
+            50.767148501
+          ],
+          [
+            7.2321501,
+            50.767486001
+          ],
+          [
+            7.2325031,
+            50.767831601
+          ],
+          [
+            7.2348356,
+            50.770100401
+          ],
+          [
+            7.235322884,
+            50.77057185
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-07-26_11-28-00-000_014.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.033183010423116,7.009683557814485,51.05971548585264,6.989695237033204",
+      "point": "51.033183010423116,7.009683557814485",
+      "startLcPosition": "209",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Leverkusen-Zentrum - Reusrather Heide",
+      "startTimestamp": "2026-07-26T11:28:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "30",
+      "coordinate": {
+        "lat": 51.033183010423116,
+        "long": 7.009683557814485
+      },
+      "description": [
+        "Beginn: 26.07.26 um 13:28 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:28",
+        "A3: Köln -> Oberhausen, zwischen 1.0 km hinter AS Leverkusen-Zentrum und 2.8 km vor Reusrather Heide",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 4 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.009683558,
+            51.03318301
+          ],
+          [
+            7.0095269,
+            51.033963801
+          ],
+          [
+            7.0086117,
+            51.038155401
+          ],
+          [
+            7.0084681,
+            51.038885901
+          ],
+          [
+            7.0084497,
+            51.038970801
+          ],
+          [
+            7.0083098,
+            51.039598401
+          ],
+          [
+            7.0082016,
+            51.039956301
+          ],
+          [
+            7.0080831,
+            51.040312701
+          ],
+          [
+            7.0078921,
+            51.040846701
+          ],
+          [
+            7.0077437,
+            51.041192901
+          ],
+          [
+            7.0075337,
+            51.041676901
+          ],
+          [
+            7.0072998,
+            51.042146001
+          ],
+          [
+            7.0070271,
+            51.042627501
+          ],
+          [
+            7.0066763,
+            51.043202301
+          ],
+          [
+            7.0064695,
+            51.043518101
+          ],
+          [
+            7.0061471,
+            51.043973401
+          ],
+          [
+            7.0058405,
+            51.044377001
+          ],
+          [
+            7.0055518,
+            51.044774001
+          ],
+          [
+            7.005082,
+            51.045332401
+          ],
+          [
+            7.0045631,
+            51.045865101
+          ],
+          [
+            7.0040987,
+            51.046314601
+          ],
+          [
+            7.0036572,
+            51.046710401
+          ],
+          [
+            7.0034718,
+            51.046876601
+          ],
+          [
+            7.0030754,
+            51.047214001
+          ],
+          [
+            7.0028449,
+            51.047410201
+          ],
+          [
+            7.0021221,
+            51.047967001
+          ],
+          [
+            7.0009627,
+            51.048765601
+          ],
+          [
+            7.0008318,
+            51.048852701
+          ],
+          [
+            6.9992793,
+            51.049885201
+          ],
+          [
+            6.9981095,
+            51.050668701
+          ],
+          [
+            6.9966935,
+            51.051626601
+          ],
+          [
+            6.9960974,
+            51.052029801
+          ],
+          [
+            6.9951732,
+            51.052708301
+          ],
+          [
+            6.9946219,
+            51.053135301
+          ],
+          [
+            6.9939699,
+            51.053689701
+          ],
+          [
+            6.9934047,
+            51.054224001
+          ],
+          [
+            6.9926648,
+            51.054995901
+          ],
+          [
+            6.992013,
+            51.055746201
+          ],
+          [
+            6.9917177,
+            51.056109401
+          ],
+          [
+            6.9915133,
+            51.056389701
+          ],
+          [
+            6.9911798,
+            51.056847101
+          ],
+          [
+            6.9907195,
+            51.057587001
+          ],
+          [
+            6.9904668,
+            51.058070801
+          ],
+          [
+            6.9901867,
+            51.058607001
+          ],
+          [
+            6.9899704,
+            51.059080301
+          ],
+          [
+            6.9897651,
+            51.059540301
+          ],
+          [
+            6.989695237,
+            51.059715486
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-07-26_11-30-00-000_013.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "51.41963957270646,6.797071989569637,51.44510927006016,6.799311119769472",
+      "point": "51.41963957270646,6.797071989569637",
+      "startLcPosition": "225",
+      "display_type": "WARNING",
+      "subtitle": " Köln -> Oberhausen",
+      "title": "A3 | Duisburg-Wedau - Kaiserberg",
+      "startTimestamp": "2026-07-26T11:30:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "30",
+      "coordinate": {
+        "lat": 51.41963957270646,
+        "long": 6.797071989569637
+      },
+      "description": [
+        "Beginn: 26.07.26 um 13:30 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:30",
+        "A3: Köln -> Oberhausen, zwischen 1.2 km hinter AS Duisburg-Wedau und 0.1 km vor AK Kaiserberg",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 4 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.79707199,
+            51.419639573
           ],
           [
             6.7970741,
@@ -1619,47 +1743,41 @@
             51.444873701
           ],
           [
-            6.7991609,
-            51.445441601
-          ],
-          [
-            6.7989272,
-            51.446131001
-          ],
-          [
-            6.7988089,
-            51.446649801
-          ],
-          [
-            6.798779522,
-            51.446839656
+            6.79931112,
+            51.44510927
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-fbm.2026-07-26_07-11-27-000.de0",
+      "identifier": "INRIX--vi-avl.2026-07-26_11-09-00-000_013.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.7480045045671,6.591717844823518,51.81722618700337,6.440866964506608",
-      "point": "51.7480045045671,6.591717844823518",
-      "startLcPosition": "241",
+      "extent": "51.47720079390961,6.814317097821495,51.44076774192931,6.804149900759169",
+      "point": "51.47720079390961,6.814317097821495",
+      "startLcPosition": "228",
       "display_type": "WARNING",
-      "subtitle": " Oberhausen -> Arnheim",
-      "title": "A3 | Kranekamp - Kälberweide",
-      "startTimestamp": "2026-07-26T09:00:00Z",
+      "subtitle": " Oberhausen -> Köln",
+      "title": "A3 | Oberhausen-West - Duisburg-Wedau",
+      "startTimestamp": "2026-07-26T11:09:00Z",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 51.7480045045671,
-        "long": 6.591717844823518
+        "lat": 51.47720079390961,
+        "long": 6.814317097821495
       },
       "description": [
-        "Beginn: 26.07.26 um 11:00 Uhr",
+        "Beginn: 26.07.26 um 13:09 Uhr",
         "",
-        "Fahrbahnmanagement, seit 26.07.2026, 09:00",
-        "A3: Oberhausen -> Arnheim, zwischen 3.4 km hinter Kranekamp und 1.0 km vor Kälberweide",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:09",
+        "A3: Oberhausen -> Köln, zwischen 1.2 km hinter AK Oberhausen-West und 3.9 km vor AS Duisburg-Wedau",
         "",
-        "Ereignismeldung:"
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 25 km/h",
+        "- Reisezeitverlust: 7 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1669,360 +1787,608 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.591717845,
-            51.748004505
+            6.814317098,
+            51.477200794
           ],
           [
-            6.5908497,
-            51.748183401
+            6.8146816,
+            51.476394701
           ],
           [
-            6.5904767,
-            51.748253201
+            6.8148812,
+            51.475914401
           ],
           [
-            6.5901323,
-            51.748318201
+            6.8150791,
+            51.475461701
           ],
           [
-            6.589703,
-            51.748407801
+            6.81514,
+            51.475291801
           ],
           [
-            6.588841,
-            51.748572301
+            6.8153958,
+            51.474592001
           ],
           [
-            6.588317,
-            51.748673601
+            6.8156677,
+            51.473798701
           ],
           [
-            6.5784529,
-            51.750608201
+            6.8158093,
+            51.473386401
           ],
           [
-            6.575317,
-            51.751273501
+            6.8159557,
+            51.472891501
           ],
           [
-            6.5733165,
-            51.751717401
+            6.8160918,
+            51.472354001
           ],
           [
-            6.5716209,
-            51.752107001
+            6.8162004,
+            51.471815701
           ],
           [
-            6.5703426,
-            51.752450801
+            6.8162725,
+            51.471364501
           ],
           [
-            6.5691294,
-            51.752818301
+            6.8163366,
+            51.470698301
           ],
           [
-            6.5686203,
-            51.752974401
+            6.8163785,
+            51.470053901
           ],
           [
-            6.5675495,
-            51.753327001
+            6.8163563,
+            51.469199401
           ],
           [
-            6.5666982,
-            51.753639201
+            6.8162701,
+            51.468379101
           ],
           [
-            6.5658772,
-            51.753983601
+            6.816019,
+            51.467105601
           ],
           [
-            6.5649717,
-            51.754368501
+            6.8159667,
+            51.466840501
           ],
           [
-            6.5635153,
-            51.755062601
+            6.8156363,
+            51.465810701
           ],
           [
-            6.5627412,
-            51.755481801
+            6.8153241,
+            51.465084301
           ],
           [
-            6.5618952,
-            51.755949201
+            6.8149865,
+            51.464505701
           ],
           [
-            6.5587295,
-            51.757942001
+            6.8144559,
+            51.463771401
           ],
           [
-            6.5573566,
-            51.758819501
+            6.8142594,
+            51.463532101
           ],
           [
-            6.5546261,
-            51.760596101
+            6.8139396,
+            51.463173401
           ],
           [
-            6.552483,
-            51.762008901
+            6.8134116,
+            51.462727801
           ],
           [
-            6.5503174,
-            51.763419501
+            6.8131532,
+            51.462508801
           ],
           [
-            6.5480998,
-            51.764881601
+            6.812532,
+            51.462006701
           ],
           [
-            6.546317,
-            51.766019601
+            6.8122792,
+            51.461825301
           ],
           [
-            6.5451851,
-            51.766713401
+            6.8114678,
+            51.461322601
           ],
           [
-            6.5430955,
-            51.767958301
+            6.8105755,
+            51.460835701
           ],
           [
-            6.541595,
-            51.768784301
+            6.8099604,
+            51.460542701
           ],
           [
-            6.540044,
-            51.769592201
+            6.8092932,
+            51.460270101
           ],
           [
-            6.5369743,
-            51.771103601
+            6.8084563,
+            51.459971201
           ],
           [
-            6.5349132,
-            51.772039601
+            6.8060584,
+            51.459152001
           ],
           [
-            6.5326276,
-            51.773022801
+            6.8051398,
+            51.458783801
           ],
           [
-            6.5305316,
-            51.773861701
+            6.8041123,
+            51.458291601
           ],
           [
-            6.5284391,
-            51.774661901
+            6.8035922,
+            51.458006301
           ],
           [
-            6.5264387,
-            51.775371101
+            6.8032034,
+            51.457767701
           ],
           [
-            6.5242269,
-            51.776105201
+            6.8026877,
+            51.457432201
           ],
           [
-            6.5219113,
-            51.776824601
+            6.8022097,
+            51.457083801
           ],
           [
-            6.5195859,
-            51.777539501
+            6.8015562,
+            51.456559101
           ],
           [
-            6.5172255,
-            51.778220301
+            6.8011805,
+            51.456212901
           ],
           [
-            6.5145224,
-            51.779045101
+            6.8007853,
+            51.455802301
           ],
           [
-            6.5122343,
-            51.779746501
+            6.8005601,
+            51.455544201
           ],
           [
-            6.5115769,
-            51.779969601
+            6.8001625,
+            51.455009401
           ],
           [
-            6.510306,
-            51.780400101
+            6.7998728,
+            51.454548501
           ],
           [
-            6.5091201,
-            51.780833801
+            6.7996061,
+            51.454079101
           ],
           [
-            6.5085219,
-            51.781058001
+            6.7993858,
+            51.453588601
           ],
           [
-            6.5077188,
-            51.781411201
+            6.7992119,
+            51.453116001
           ],
           [
-            6.5069837,
-            51.781725201
+            6.7990188,
+            51.452611101
           ],
           [
-            6.5062797,
-            51.782092001
+            6.7988856,
+            51.452103801
           ],
           [
-            6.5055243,
-            51.782485101
+            6.7987473,
+            51.451586701
           ],
           [
-            6.5049673,
-            51.782810801
+            6.7986359,
+            51.451065301
           ],
           [
-            6.5041731,
-            51.783289001
+            6.7984914,
+            51.450177701
           ],
           [
-            6.503511,
-            51.783720101
+            6.7984306,
+            51.449655601
           ],
           [
-            6.5029427,
-            51.784126901
+            6.7984121,
+            51.449192901
           ],
           [
-            6.5023761,
-            51.784566001
+            6.7984227,
+            51.448777201
           ],
           [
-            6.5018481,
-            51.784976201
+            6.7985073,
+            51.447968001
           ],
           [
-            6.501322,
-            51.785437801
+            6.7987327,
+            51.446670001
           ],
           [
-            6.500629,
-            51.786100901
+            6.7988315,
+            51.446165201
           ],
           [
-            6.4999746,
-            51.786799501
+            6.7989323,
+            51.445826201
           ],
           [
-            6.4992164,
-            51.787690601
+            6.7990789,
+            51.445432301
           ],
           [
-            6.4985397,
-            51.788638301
+            6.7993396,
+            51.444861501
           ],
           [
-            6.4973004,
-            51.790538501
+            6.799599,
+            51.444413501
           ],
           [
-            6.4940568,
-            51.795175501
+            6.7998908,
+            51.444012601
           ],
           [
-            6.4930429,
-            51.796522501
+            6.8004226,
+            51.443434701
           ],
           [
-            6.4921256,
-            51.797534301
+            6.8010057,
+            51.442879801
           ],
           [
-            6.4911831,
-            51.798414801
+            6.8014743,
+            51.442521901
           ],
           [
-            6.4895655,
-            51.799808601
+            6.8019774,
+            51.442154701
           ],
           [
-            6.4877649,
-            51.801029701
+            6.8031672,
+            51.441400901
           ],
           [
-            6.4860068,
-            51.802030301
+            6.804149901,
+            51.440767742
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-07-26_11-39-00-000_004.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.03805787925965,8.52221184170164,50.031924541868435,8.452636703352136",
+      "point": "50.03805787925965,8.52221184170164",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " Frankfurt -> Köln",
+      "title": "A3 | Verkehrsmeldung",
+      "startTimestamp": "2026-07-26T11:39:00Z",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "HEAVY_TRAFFIC",
+      "averageSpeed": "50",
+      "coordinate": {
+        "lat": 50.03805787925965,
+        "long": 8.52221184170164
+      },
+      "description": [
+        "Beginn: 26.07.26 um 13:39 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 26.07.2026, 11:39",
+        "Von A3: Frankfurt -> Köln, zwischen 1.9 km hinter AS Kelsterbach und AD Mönchhof-Dreieck nach A3: Frankfurt -> Köln, zwischen AS Raunheim und 3.2 km vor Johannespfad",
+        "",
+        "Ereignismeldung:",
+        "- Langsamer Verkehr",
+        "- Durchschnittsgeschwindigkeit: 50 km/h",
+        "- Reisezeitverlust: 3 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.522211842,
+            50.038057879
+          ],
+          [
+            8.5204739,
+            50.037362501
+          ],
+          [
+            8.519619,
+            50.037018801
+          ],
+          [
+            8.5187671,
+            50.036683901
+          ],
+          [
+            8.5170406,
+            50.035998201
+          ],
+          [
+            8.5163916,
+            50.035744101
+          ],
+          [
+            8.5156066,
+            50.035436701
+          ],
+          [
+            8.5153855,
+            50.035350101
+          ],
+          [
+            8.5145972,
+            50.035047801
+          ],
+          [
+            8.5138158,
+            50.034734601
+          ],
+          [
+            8.513507,
+            50.034612201
+          ],
+          [
+            8.5126245,
+            50.034257701
+          ],
+          [
+            8.504983,
+            50.031187601
+          ],
+          [
+            8.5034623,
+            50.030578501
+          ],
+          [
+            8.5028698,
+            50.030341201
+          ],
+          [
+            8.5024599,
+            50.030263901
+          ],
+          [
+            8.5019051,
+            50.030078401
+          ],
+          [
+            8.4998922,
+            50.029491501
+          ],
+          [
+            8.4972786,
+            50.028729501
+          ],
+          [
+            8.4965813,
+            50.028572301
+          ],
+          [
+            8.4955194,
+            50.028275401
+          ],
+          [
+            8.4943691,
+            50.027967601
+          ],
+          [
+            8.4933208,
+            50.027679101
+          ],
+          [
+            8.492252,
+            50.027394501
+          ],
+          [
+            8.4911849,
+            50.027127701
+          ],
+          [
+            8.4908422,
+            50.027048101
+          ],
+          [
+            8.4904987,
+            50.026979601
+          ],
+          [
+            8.4901343,
+            50.026918301
+          ],
+          [
+            8.4897503,
+            50.026864901
+          ],
+          [
+            8.4891341,
+            50.026786401
+          ],
+          [
+            8.488514,
+            50.026704401
+          ],
+          [
+            8.4881096,
+            50.026640701
+          ],
+          [
+            8.4876865,
+            50.026566201
+          ],
+          [
+            8.4872775,
+            50.026474501
+          ],
+          [
+            8.4862253,
+            50.026228501
+          ],
+          [
+            8.4860202,
+            50.026173001
+          ],
+          [
+            8.4856511,
+            50.026074601
+          ],
+          [
+            8.4848861,
+            50.025970001
+          ],
+          [
+            8.4844253,
+            50.025929101
+          ],
+          [
+            8.4840051,
+            50.025911301
+          ],
+          [
+            8.483583,
+            50.025906401
+          ],
+          [
+            8.4831659,
+            50.025916301
+          ],
+          [
+            8.482776,
+            50.025938801
+          ],
+          [
+            8.4824136,
+            50.025967701
+          ],
+          [
+            8.4818418,
+            50.026027201
+          ],
+          [
+            8.4812874,
+            50.026094001
+          ],
+          [
+            8.4807433,
+            50.026165101
+          ],
+          [
+            8.4802084,
+            50.026245801
+          ],
+          [
+            8.4800374,
+            50.026274601
+          ],
+          [
+            8.4796011,
+            50.026354401
+          ],
+          [
+            8.4773722,
+            50.026791101
+          ],
+          [
+            8.4762145,
+            50.027016301
           ],
           [
-            6.4841646,
-            51.802857701
+            8.476003,
+            50.027057001
           ],
           [
-            6.4825686,
-            51.803524701
+            8.4731008,
+            50.027621801
           ],
           [
-            6.4809359,
-            51.804130201
+            8.470288,
+            50.028175301
           ],
           [
-            6.4791688,
-            51.804729601
+            8.4668206,
+            50.028858701
           ],
           [
-            6.4695713,
-            51.807867001
+            8.4659075,
+            50.029051101
           ],
           [
-            6.4655793,
-            51.809177201
+            8.4649775,
+            50.029224901
           ],
           [
-            6.4618507,
-            51.810399701
+            8.4640854,
+            50.029370401
           ],
           [
-            6.4594473,
-            51.811202401
+            8.4633097,
+            50.029508601
           ],
           [
-            6.4570288,
-            51.811994301
+            8.4627293,
+            50.029619101
           ],
           [
-            6.4521704,
-            51.813586401
+            8.4623582,
+            50.029685901
           ],
           [
-            6.4512528,
-            51.813884601
+            8.4620182,
+            50.029746401
           ],
           [
-            6.4480264,
-            51.814889501
+            8.4613785,
+            50.029858201
           ],
           [
-            6.4453251,
-            51.815773801
+            8.4606988,
+            50.029977501
           ],
           [
-            6.4435516,
-            51.816347901
+            8.4589609,
+            50.030372701
           ],
           [
-            6.4421874,
-            51.816795401
+            8.4586177,
+            50.030454701
           ],
           [
-            6.4415408,
-            51.817011101
+            8.4561485,
+            50.031054101
           ],
           [
-            6.4412751,
-            51.817096001
+            8.4540493,
+            50.031547801
           ],
           [
-            6.440866965,
-            51.817226187
+            8.452636703,
+            50.031924542
           ]
         ]
       }
