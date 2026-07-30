@@ -5,28 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.180032100682986,11.706661192804031,49.176913923289455,11.74781024403928",
-      "point": "49.180032100682986,11.706661192804031",
+      "extent": "49.17944173755085,11.723009659025161,49.17712331129891,11.75245486019002",
+      "point": "49.17944173755085,11.723009659025161",
       "startLcPosition": "58",
       "display_type": "WARNING",
       "subtitle": " Nürnberg -> Passau",
-      "title": "A3 | Spitzig Berg - Hüttberg",
+      "title": "A3 | Spitzig Berg - Kühberg",
       "startTimestamp": "2026-07-30T15:43:00Z",
-      "delayTimeValue": "14",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "20",
       "coordinate": {
-        "lat": 49.180032100682986,
-        "long": 11.706661192804031
+        "lat": 49.17944173755085,
+        "long": 11.723009659025161
       },
       "description": [
         "Beginn: 30.07.26 um 17:43 Uhr",
         "",
         "Angespannte Verkehrslage, seit 30.07.2026, 15:43",
-        "A3: Nürnberg -> Passau, zwischen 1.4 km hinter Spitzig Berg und Hüttberg",
+        "A3: Nürnberg -> Passau, zwischen 2.6 km hinter Spitzig Berg und 5.8 km vor Kühberg",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 14 Minuten (abnehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 5 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,36 +38,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.706661193,
-            49.180032101
-          ],
-          [
-            11.7069849,
-            49.179995401
-          ],
-          [
-            11.7115125,
-            49.179667901
-          ],
-          [
-            11.7119516,
-            49.179638801
-          ],
-          [
-            11.7134209,
-            49.179588801
-          ],
-          [
-            11.7156603,
-            49.179524501
-          ],
-          [
-            11.7178281,
-            49.179481901
-          ],
-          [
-            11.7187958,
-            49.179467501
+            11.723009659,
+            49.179441738
           ],
           [
             11.724921,
@@ -156,8 +130,16 @@
             49.176896801
           ],
           [
-            11.747810244,
-            49.176913923
+            11.7483973,
+            49.176922501
+          ],
+          [
+            11.750022,
+            49.176990901
+          ],
+          [
+            11.75245486,
+            49.177123311
           ]
         ]
       }
@@ -167,28 +149,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.54002502514367,11.025174625276732,49.528792102450645,11.061843527776157",
-      "point": "49.54002502514367,11.025174625276732",
+      "extent": "49.53943380979183,11.026915838904998,49.528322815932945,11.062860527877632",
+      "point": "49.53943380979183,11.026915838904998",
       "startLcPosition": "83",
       "display_type": "WARNING",
       "subtitle": " Würzburg -> Nürnberg",
       "title": "A3 | Fürth/Erlangen - Neunhof",
       "startTimestamp": "2026-07-30T17:56:00Z",
-      "delayTimeValue": "13",
+      "delayTimeValue": "8",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "15",
       "coordinate": {
-        "lat": 49.54002502514367,
-        "long": 11.025174625276732
+        "lat": 49.53943380979183,
+        "long": 11.026915838904998
       },
       "description": [
         "Beginn: 30.07.26 um 19:56 Uhr",
         "",
         "Angespannte Verkehrslage, seit 30.07.2026, 17:56",
-        "A3: Würzburg -> Nürnberg, zwischen 3.4 km hinter AK Fürth/Erlangen und 0.5 km vor Neunhof",
+        "A3: Würzburg -> Nürnberg, zwischen 3.5 km hinter AK Fürth/Erlangen und 0.4 km vor Neunhof",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 13 Minuten"
+        "- Durchschnittsgeschwindigkeit: 15 km/h",
+        "- Reisezeitverlust: 8 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -198,16 +182,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.025174625,
-            49.540025025
-          ],
-          [
-            11.0253391,
-            49.539968101
-          ],
-          [
-            11.02667,
-            49.539507301
+            11.026915839,
+            49.53943381
           ],
           [
             11.0300136,
@@ -258,156 +234,12 @@
             49.528823101
           ],
           [
-            11.061843528,
-            49.528792102
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-07-30_18-10-00-000_002.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.591561693097475,7.451829070631766,50.60010717146164,7.433250175611114",
-      "point": "50.591561693097475,7.451829070631766",
-      "startLcPosition": "189",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Köln",
-      "title": "A3 | Epgert - Neustadt (Wied)",
-      "startTimestamp": "2026-07-30T18:10:00Z",
-      "delayTimeValue": "6",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "15",
-      "coordinate": {
-        "lat": 50.591561693097475,
-        "long": 7.451829070631766
-      },
-      "description": [
-        "Beginn: 30.07.26 um 20:10 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 30.07.2026, 18:10",
-        "A3: Frankfurt -> Köln, zwischen 2.4 km hinter Epgert und 0.4 km vor AS Neustadt (Wied)",
-        "",
-        "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Durchschnittsgeschwindigkeit: 15 km/h",
-        "- Reisezeitverlust: 6 Minuten (abnehmend)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.451829071,
-            50.591561693
+            11.0621941,
+            49.528635801
           ],
           [
-            7.4488557,
-            50.593395001
-          ],
-          [
-            7.4466135,
-            50.594779301
-          ],
-          [
-            7.4448556,
-            50.595859601
-          ],
-          [
-            7.4443995,
-            50.596119501
-          ],
-          [
-            7.4438818,
-            50.596387501
-          ],
-          [
-            7.4433867,
-            50.596608301
-          ],
-          [
-            7.4428483,
-            50.596826601
-          ],
-          [
-            7.4424394,
-            50.596986301
-          ],
-          [
-            7.4420667,
-            50.597109501
-          ],
-          [
-            7.4417428,
-            50.597210101
-          ],
-          [
-            7.4413093,
-            50.597328601
-          ],
-          [
-            7.440881,
-            50.597436601
-          ],
-          [
-            7.4395211,
-            50.597751201
-          ],
-          [
-            7.4380579,
-            50.598098601
-          ],
-          [
-            7.4375693,
-            50.598216701
-          ],
-          [
-            7.4371031,
-            50.598334701
-          ],
-          [
-            7.4366699,
-            50.598462101
-          ],
-          [
-            7.4362552,
-            50.598594401
-          ],
-          [
-            7.4358972,
-            50.598723601
-          ],
-          [
-            7.4355431,
-            50.598862001
-          ],
-          [
-            7.4351918,
-            50.599011101
-          ],
-          [
-            7.43473,
-            50.599224701
-          ],
-          [
-            7.4342086,
-            50.599499601
-          ],
-          [
-            7.4337606,
-            50.599762601
-          ],
-          [
-            7.4333794,
-            50.600016401
-          ],
-          [
-            7.433250176,
-            50.600107171
+            11.062860528,
+            49.528322816
           ]
         ]
       }
