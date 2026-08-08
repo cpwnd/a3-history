@@ -1,7 +1,7 @@
 {
   "warning": [
     {
-      "identifier": "NLSB_2026_002581--vi-hind.2026-08-08_18-50-00-301.de0",
+      "identifier": "NLSB_2026_002581--vi-hind.2026-08-08_19-21-00-284.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -43,32 +43,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-08_05-29-00-000_011.de0",
+      "identifier": "INRIX--vi-avl.2026-08-08_05-29-00-000_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.45903836952149,6.805987536076995,51.44076774192931,6.804149900759165",
-      "point": "51.45903836952149,6.805987536076995",
+      "extent": "51.45645802155443,6.80158517027892,51.44076774192931,6.804149900759165",
+      "point": "51.45645802155443,6.80158517027892",
       "startLcPosition": "1000",
       "display_type": "WARNING",
       "subtitle": " Köln -> Oberhausen",
       "title": "A3 | Verkehrsmeldung",
       "startTimestamp": "2026-08-08T05:29:00Z",
-      "delayTimeValue": "10",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "6",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "15",
       "coordinate": {
-        "lat": 51.45903836952149,
-        "long": 6.805987536076995
+        "lat": 51.45645802155443,
+        "long": 6.80158517027892
       },
       "description": [
         "Beginn: 08.08.26 um 07:29 Uhr",
         "",
         "Angespannte Verkehrslage, seit 08.08.2026, 05:29",
-        "Von A3: Köln -> Oberhausen, 2.2 km vor AS Oberhausen-Lirich, aus Richtung Kaiserberg; in A3: AK Oberhausen-West auf die A42 in Richtung Dortmund; in A42: AK Oberhausen-West auf die A3 in Richtung Köln; nach A3: Oberhausen -> Köln, 3.9 km vor AS Duisburg-Wedau, aus Richtung Kaiserberg",
+        "Von A3: Köln -> Oberhausen, 2.6 km vor AS Oberhausen-Lirich, aus Richtung Kaiserberg; in A3: AK Oberhausen-West auf die A42 in Richtung Dortmund; in A42: AK Oberhausen-West auf die A3 in Richtung Köln; nach A3: Oberhausen -> Köln, 3.9 km vor AS Duisburg-Wedau, aus Richtung Kaiserberg",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten (abnehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 15 km/h",
+        "- Reisezeitverlust: 6 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -78,8 +80,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.805987536,
-            51.45903837
+            6.80158517,
+            51.456458022
+          ],
+          [
+            6.8016316,
+            51.456499701
+          ],
+          [
+            6.8022755,
+            51.457042301
+          ],
+          [
+            6.802764,
+            51.457391801
+          ],
+          [
+            6.8032672,
+            51.457718201
+          ],
+          [
+            6.8036511,
+            51.457962001
+          ],
+          [
+            6.8041967,
+            51.458254101
+          ],
+          [
+            6.8052022,
+            51.458725801
+          ],
+          [
+            6.805787,
+            51.458962101
           ],
           [
             6.8064049,
