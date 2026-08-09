@@ -5,16 +5,16 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.6876991126339,7.521368235615703,47.709008886771095,7.527928226965615",
+      "extent": "47.6876991126339,7.521368235615703,47.70831823037557,7.526990764905016",
       "point": "47.6876991126339,7.521368235615703",
       "startLcPosition": "5",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Efringen-Kirchen - Bad Bellingen",
       "startTimestamp": "2026-08-09T08:25:00Z",
-      "delayTimeValue": "6",
+      "delayTimeValue": "7",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "20",
+      "averageSpeed": "15",
       "coordinate": {
         "lat": 47.6876991126339,
         "long": 7.521368235615703
@@ -23,12 +23,12 @@
         "Beginn: 09.08.26 um 10:25 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.08.2026, 08:25",
-        "A5: Basel -> Karlsruhe, zwischen 1.1 km hinter AS Efringen-Kirchen und 3.8 km vor Bad Bellingen",
+        "A5: Basel -> Karlsruhe, zwischen 1.1 km hinter AS Efringen-Kirchen und 3.9 km vor Bad Bellingen",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Durchschnittsgeschwindigkeit: 20 km/h",
-        "- Reisezeitverlust: 6 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 15 km/h",
+        "- Reisezeitverlust: 7 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -150,16 +150,8 @@
             47.707989101
           ],
           [
-            7.5271546,
-            47.708446201
-          ],
-          [
-            7.5277527,
-            47.708891701
-          ],
-          [
-            7.527928227,
-            47.709008887
+            7.526990765,
+            47.70831823
           ]
         ]
       }
@@ -169,28 +161,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.21456018630546,7.746662564362257,48.25965156175537,7.766439885512686",
-      "point": "48.21456018630546,7.746662564362257",
+      "extent": "48.20550897047217,7.7458372138805585,48.239989289876256,7.754394322340308",
+      "point": "48.20550897047217,7.7458372138805585",
       "startLcPosition": "31",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Riegel - Ettenheim",
+      "title": "A5 | Riegel - Rust",
       "startTimestamp": "2026-08-09T09:59:00Z",
-      "delayTimeValue": "22",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "25",
       "coordinate": {
-        "lat": 48.21456018630546,
-        "long": 7.746662564362257
+        "lat": 48.20550897047217,
+        "long": 7.7458372138805585
       },
       "description": [
         "Beginn: 09.08.26 um 11:59 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.08.2026, 09:59",
-        "A5: Basel -> Karlsruhe, zwischen 6.8 km hinter AS Riegel und 2.3 km vor AS Ettenheim",
+        "A5: Basel -> Karlsruhe, zwischen 5.8 km hinter AS Riegel und 1.4 km vor AS Rust",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 22 Minuten (zunehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 25 km/h",
+        "- Reisezeitverlust: 7 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -200,8 +194,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.746662564,
-            48.214560186
+            7.745837214,
+            48.20550897
+          ],
+          [
+            7.7458778,
+            48.206468801
+          ],
+          [
+            7.746021,
+            48.208699501
+          ],
+          [
+            7.7461956,
+            48.210638301
+          ],
+          [
+            7.7462395,
+            48.211115001
+          ],
+          [
+            7.7463375,
+            48.212018601
+          ],
+          [
+            7.7465318,
+            48.213712001
           ],
           [
             7.7467831,
@@ -288,32 +306,50 @@
             48.239558201
           ],
           [
-            7.7545612,
-            48.240348401
-          ],
+            7.754394322,
+            48.23998929
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-09_11-25-00-000_005.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.251187760091646,7.760538285221753,48.37347083197011,7.810657372277824",
+      "point": "48.251187760091646,7.760538285221753",
+      "startLcPosition": "32",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Herbolzheim - Schutter",
+      "startTimestamp": "2026-08-09T11:25:00Z",
+      "delayTimeValue": "19",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "coordinate": {
+        "lat": 48.251187760091646,
+        "long": 7.760538285221753
+      },
+      "description": [
+        "Beginn: 09.08.26 um 13:25 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 09.08.2026, 11:25",
+        "A5: Basel -> Karlsruhe, zwischen 2.7 km hinter AS Herbolzheim und 4.7 km vor Schutter",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Reisezeitverlust: 19 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            7.7547331,
-            48.240724701
-          ],
-          [
-            7.7557485,
-            48.242722701
-          ],
-          [
-            7.757009,
-            48.245131301
-          ],
-          [
-            7.758381,
-            48.247575701
-          ],
-          [
-            7.759416,
-            48.249337701
-          ],
-          [
-            7.7603429,
-            48.250890001
+            7.760538285,
+            48.25118776
           ],
           [
             7.7608357,
@@ -356,52 +392,188 @@
             48.259258701
           ],
           [
-            7.766439886,
-            48.259651562
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-25-00-000_005.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.33218359282398,7.7892755336589055,48.375344601789536,7.813022141674143",
-      "point": "48.33218359282398,7.7892755336589055",
-      "startLcPosition": "35",
-      "display_type": "WARNING",
-      "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Mahlberg - Schutter",
-      "startTimestamp": "2026-08-09T11:25:00Z",
-      "delayTimeValue": "5",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40",
-      "coordinate": {
-        "lat": 48.33218359282398,
-        "long": 7.7892755336589055
-      },
-      "description": [
-        "Beginn: 09.08.26 um 13:25 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:25",
-        "A5: Basel -> Karlsruhe, zwischen 2.6 km hinter Mahlberg und 4.4 km vor Schutter",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 40 km/h",
-        "- Reisezeitverlust: 5 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+            7.7672118,
+            48.260651101
+          ],
           [
-            7.789275534,
-            48.332183593
+            7.7682341,
+            48.261957301
+          ],
+          [
+            7.7692871,
+            48.263250401
+          ],
+          [
+            7.7702959,
+            48.264439901
+          ],
+          [
+            7.7712405,
+            48.265535801
+          ],
+          [
+            7.7733453,
+            48.267944601
+          ],
+          [
+            7.7746133,
+            48.269424301
+          ],
+          [
+            7.7755268,
+            48.270509601
+          ],
+          [
+            7.7756759,
+            48.270691501
+          ],
+          [
+            7.77631,
+            48.271462801
+          ],
+          [
+            7.7764264,
+            48.271607401
+          ],
+          [
+            7.7775351,
+            48.273056001
+          ],
+          [
+            7.7787437,
+            48.274705501
+          ],
+          [
+            7.780617,
+            48.277487301
+          ],
+          [
+            7.7814176,
+            48.278748101
+          ],
+          [
+            7.7823856,
+            48.280383701
+          ],
+          [
+            7.7831246,
+            48.281694901
+          ],
+          [
+            7.7837068,
+            48.282784001
+          ],
+          [
+            7.7845339,
+            48.284414401
+          ],
+          [
+            7.7854082,
+            48.286277601
+          ],
+          [
+            7.7860438,
+            48.287784901
+          ],
+          [
+            7.7867386,
+            48.289500301
+          ],
+          [
+            7.7873826,
+            48.291296201
+          ],
+          [
+            7.7878722,
+            48.292771301
+          ],
+          [
+            7.7884332,
+            48.294699901
+          ],
+          [
+            7.7890695,
+            48.297128501
+          ],
+          [
+            7.7893005,
+            48.298142901
+          ],
+          [
+            7.7895954,
+            48.299629401
+          ],
+          [
+            7.7898233,
+            48.300996901
+          ],
+          [
+            7.7900009,
+            48.302480301
+          ],
+          [
+            7.7901531,
+            48.303850101
+          ],
+          [
+            7.7902843,
+            48.304965801
+          ],
+          [
+            7.7904204,
+            48.306760901
+          ],
+          [
+            7.7904666,
+            48.307985201
+          ],
+          [
+            7.7905238,
+            48.309184301
+          ],
+          [
+            7.7906013,
+            48.311085101
+          ],
+          [
+            7.7906066,
+            48.311835501
+          ],
+          [
+            7.7906219,
+            48.313951001
+          ],
+          [
+            7.7905932,
+            48.316150601
+          ],
+          [
+            7.7905373,
+            48.318464401
+          ],
+          [
+            7.7903934,
+            48.321626501
+          ],
+          [
+            7.790306,
+            48.322613501
+          ],
+          [
+            7.7902404,
+            48.323691301
+          ],
+          [
+            7.7900737,
+            48.325414701
+          ],
+          [
+            7.7898045,
+            48.328047901
+          ],
+          [
+            7.7896146,
+            48.329484701
           ],
           [
             7.7891858,
@@ -616,45 +788,41 @@
             48.373360301
           ],
           [
-            7.8123631,
-            48.374824501
-          ],
-          [
-            7.813022142,
-            48.375344602
+            7.810657372,
+            48.373470832
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-09_10-05-00-000_012.de0",
+      "identifier": "INRIX--vi-avl.2026-08-09_11-48-00-000_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.31254959025652,7.790438363365428,48.257580005311254,7.764689309031005",
-      "point": "48.31254959025652,7.790438363365428",
-      "startLcPosition": "36",
+      "extent": "48.252033508647315,7.760879030784294,48.220140591164586,7.7474950406414385",
+      "point": "48.252033508647315,7.760879030784294",
+      "startLcPosition": "34",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Lahr - Rust",
-      "startTimestamp": "2026-08-09T10:05:00Z",
-      "delayTimeValue": "7",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35",
+      "title": "A5 | Ettenheim - Riegel",
+      "startTimestamp": "2026-08-09T11:48:00Z",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "HEAVY_TRAFFIC",
+      "averageSpeed": "40",
       "coordinate": {
-        "lat": 48.31254959025652,
-        "long": 7.790438363365428
+        "lat": 48.252033508647315,
+        "long": 7.760879030784294
       },
       "description": [
-        "Beginn: 09.08.26 um 12:05 Uhr",
+        "Beginn: 09.08.26 um 13:48 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 10:05",
-        "A5: Karlsruhe -> Basel, zwischen 5.3 km hinter AS Lahr und 0.7 km vor AS Rust",
+        "Angespannte Verkehrslage, seit 09.08.2026, 11:48",
+        "A5: Karlsruhe -> Basel, zwischen 3.3 km hinter AS Ettenheim und 7.5 km vor AS Riegel",
         "",
         "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 35 km/h",
-        "- Reisezeitverlust: 7 Minuten (abnehmend)"
+        "- Langsamer Verkehr",
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
+        "- Reisezeitverlust: 3 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -664,8 +832,228 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.790438363,
-            48.31254959
+            7.760879031,
+            48.252033509
+          ],
+          [
+            7.7601766,
+            48.250933001
+          ],
+          [
+            7.7590339,
+            48.249043701
+          ],
+          [
+            7.7575351,
+            48.246450401
+          ],
+          [
+            7.7566052,
+            48.244759101
+          ],
+          [
+            7.7557228,
+            48.243071501
+          ],
+          [
+            7.7550521,
+            48.241747001
+          ],
+          [
+            7.7543953,
+            48.240385201
+          ],
+          [
+            7.754024,
+            48.239589801
+          ],
+          [
+            7.7532956,
+            48.237957901
+          ],
+          [
+            7.7525164,
+            48.236222401
+          ],
+          [
+            7.7520871,
+            48.235170801
+          ],
+          [
+            7.7516934,
+            48.234218601
+          ],
+          [
+            7.7511327,
+            48.232647201
+          ],
+          [
+            7.7508702,
+            48.231928801
+          ],
+          [
+            7.7504043,
+            48.230614701
+          ],
+          [
+            7.7502714,
+            48.230225601
+          ],
+          [
+            7.7500883,
+            48.229766801
+          ],
+          [
+            7.7495919,
+            48.228159401
+          ],
+          [
+            7.7491721,
+            48.226769701
+          ],
+          [
+            7.7489658,
+            48.226057601
+          ],
+          [
+            7.7483669,
+            48.223828301
+          ],
+          [
+            7.7477478,
+            48.221284801
+          ],
+          [
+            7.747495041,
+            48.220140591
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-09_11-41-00-000_014.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.345741221928165,7.78916649481426,48.30120749336325,7.789668503441423",
+      "point": "48.345741221928165,7.78916649481426",
+      "startLcPosition": "36",
+      "display_type": "WARNING",
+      "subtitle": " Karlsruhe -> Basel",
+      "title": "A5 | Lahr - Ettenheim",
+      "startTimestamp": "2026-08-09T11:41:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40",
+      "coordinate": {
+        "lat": 48.345741221928165,
+        "long": 7.78916649481426
+      },
+      "description": [
+        "Beginn: 09.08.26 um 13:41 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 09.08.2026, 11:41",
+        "A5: Karlsruhe -> Basel, zwischen 1.6 km hinter AS Lahr und 2.6 km vor AS Ettenheim",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
+        "- Reisezeitverlust: 4 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.789166495,
+            48.345741222
+          ],
+          [
+            7.7890623,
+            48.345268001
+          ],
+          [
+            7.7888516,
+            48.344067401
+          ],
+          [
+            7.7886996,
+            48.342953101
+          ],
+          [
+            7.7885783,
+            48.341713401
+          ],
+          [
+            7.7885048,
+            48.340385101
+          ],
+          [
+            7.7884808,
+            48.339095901
+          ],
+          [
+            7.7885745,
+            48.336829201
+          ],
+          [
+            7.7887442,
+            48.335193801
+          ],
+          [
+            7.7889047,
+            48.333821501
+          ],
+          [
+            7.7891594,
+            48.331820601
+          ],
+          [
+            7.7894583,
+            48.329475901
+          ],
+          [
+            7.7896203,
+            48.328049701
+          ],
+          [
+            7.7899001,
+            48.325411701
+          ],
+          [
+            7.7900687,
+            48.323677701
+          ],
+          [
+            7.7901413,
+            48.322586001
+          ],
+          [
+            7.790197,
+            48.321622001
+          ],
+          [
+            7.7902341,
+            48.320932501
+          ],
+          [
+            7.7903668,
+            48.318465801
+          ],
+          [
+            7.7904248,
+            48.316140901
+          ],
+          [
+            7.7904447,
+            48.313956301
+          ],
+          [
+            7.7904354,
+            48.313841101
           ],
           [
             7.7904412,
@@ -696,232 +1084,8 @@
             48.302470601
           ],
           [
-            7.7896458,
-            48.301011201
-          ],
-          [
-            7.7894122,
-            48.299672401
-          ],
-          [
-            7.7891031,
-            48.298159401
-          ],
-          [
-            7.7888711,
-            48.297150801
-          ],
-          [
-            7.7882793,
-            48.294751801
-          ],
-          [
-            7.7877057,
-            48.292797201
-          ],
-          [
-            7.7872069,
-            48.291322301
-          ],
-          [
-            7.7865562,
-            48.289497901
-          ],
-          [
-            7.7858786,
-            48.287803601
-          ],
-          [
-            7.7852347,
-            48.286319401
-          ],
-          [
-            7.7843618,
-            48.284455301
-          ],
-          [
-            7.7835461,
-            48.282829301
-          ],
-          [
-            7.7832282,
-            48.282239401
-          ],
-          [
-            7.7823858,
-            48.280712401
-          ],
-          [
-            7.781546,
-            48.279263601
-          ],
-          [
-            7.7804694,
-            48.277534401
-          ],
-          [
-            7.778596,
-            48.274756701
-          ],
-          [
-            7.7773749,
-            48.273111401
-          ],
-          [
-            7.7762641,
-            48.271665201
-          ],
-          [
-            7.7761478,
-            48.271520701
-          ],
-          [
-            7.7755219,
-            48.270752301
-          ],
-          [
-            7.7753667,
-            48.270572901
-          ],
-          [
-            7.774454,
-            48.269464901
-          ],
-          [
-            7.7731981,
-            48.267991701
-          ],
-          [
-            7.7710906,
-            48.265586501
-          ],
-          [
-            7.7701459,
-            48.264479001
-          ],
-          [
-            7.7691586,
-            48.263298201
-          ],
-          [
-            7.7680895,
-            48.262009901
-          ],
-          [
-            7.7670592,
-            48.260706001
-          ],
-          [
-            7.7659721,
-            48.259306501
-          ],
-          [
-            7.7648183,
-            48.257755601
-          ],
-          [
-            7.764689309,
-            48.257580005
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-01-00-000_020.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "48.68664870828713,8.06537048208575,48.67263859281732,8.05226670510438",
-      "point": "48.68664870828713,8.06537048208575",
-      "startLcPosition": "47",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Bühl - Feldmatt",
-      "startTimestamp": "2026-08-09T11:01:00Z",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
-      "averageSpeed": "25",
-      "coordinate": {
-        "lat": 48.68664870828713,
-        "long": 8.06537048208575
-      },
-      "description": [
-        "Beginn: 09.08.26 um 13:01 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:01",
-        "A5: Karlsruhe -> Basel, zwischen 5.2 km hinter AS Bühl und 1.9 km vor Feldmatt",
-        "",
-        "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Durchschnittsgeschwindigkeit: 25 km/h",
-        "- Reisezeitverlust: 3 Minuten (abnehmend)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.065370482,
-            48.686648708
-          ],
-          [
-            8.0646901,
-            48.685761501
-          ],
-          [
-            8.0641013,
-            48.684993801
-          ],
-          [
-            8.0627387,
-            48.683281901
-          ],
-          [
-            8.0618761,
-            48.682238201
-          ],
-          [
-            8.0608354,
-            48.681066101
-          ],
-          [
-            8.0592076,
-            48.679295001
-          ],
-          [
-            8.0577555,
-            48.677799701
-          ],
-          [
-            8.055965,
-            48.676050601
-          ],
-          [
-            8.0555229,
-            48.675624401
-          ],
-          [
-            8.054524,
-            48.674685401
-          ],
-          [
-            8.0540361,
-            48.674233601
-          ],
-          [
-            8.0534595,
-            48.673708401
-          ],
-          [
-            8.05305,
-            48.673335401
-          ],
-          [
-            8.052266705,
-            48.672638593
+            7.789668503,
+            48.301207493
           ]
         ]
       }
@@ -931,30 +1095,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.02550651527016,8.47644577662669,49.00075607545182,8.44696319895362",
-      "point": "49.02550651527016,8.47644577662669",
+      "extent": "49.03474196558817,8.483687857696962,49.00075607545182,8.44696319895362",
+      "point": "49.03474196558817,8.483687857696962",
       "startLcPosition": "62",
       "display_type": "WARNING",
       "subtitle": " Heidelberg -> Karlsruhe",
       "title": "A5 | Kreuzlach - Karlsruhe-Mitte",
       "startTimestamp": "2026-08-09T11:21:00Z",
-      "delayTimeValue": "4",
+      "delayTimeValue": "11",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "30",
       "coordinate": {
-        "lat": 49.02550651527016,
-        "long": 8.47644577662669
+        "lat": 49.03474196558817,
+        "long": 8.483687857696962
       },
       "description": [
         "Beginn: 09.08.26 um 13:21 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.08.2026, 11:21",
-        "A5: Heidelberg -> Karlsruhe, zwischen 5.4 km hinter Kreuzlach und 1.4 km vor AS Karlsruhe-Mitte",
+        "A5: Heidelberg -> Karlsruhe, zwischen 4.3 km hinter Kreuzlach und 1.4 km vor AS Karlsruhe-Mitte",
         "",
         "Ereignismeldung:",
         "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 30 km/h",
-        "- Reisezeitverlust: 4 Minuten (zunehmend)"
+        "- Reisezeitverlust: 11 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -964,8 +1126,68 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.476445777,
-            49.025506515
+            8.483687858,
+            49.034741966
+          ],
+          [
+            8.4831637,
+            49.033955301
+          ],
+          [
+            8.4827795,
+            49.033350101
+          ],
+          [
+            8.4825907,
+            49.033093801
+          ],
+          [
+            8.4822318,
+            49.032550301
+          ],
+          [
+            8.4815257,
+            49.031511801
+          ],
+          [
+            8.4808827,
+            49.030621901
+          ],
+          [
+            8.4803881,
+            49.029958501
+          ],
+          [
+            8.4796922,
+            49.029082401
+          ],
+          [
+            8.4794383,
+            49.028776701
+          ],
+          [
+            8.479192,
+            49.028479901
+          ],
+          [
+            8.4789153,
+            49.028156201
+          ],
+          [
+            8.4781781,
+            49.027327201
+          ],
+          [
+            8.4774993,
+            49.026597501
+          ],
+          [
+            8.4770652,
+            49.026146601
+          ],
+          [
+            8.4765396,
+            49.025598201
           ],
           [
             8.4759336,
@@ -1135,147 +1357,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-03-00-000_012.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.26137902479273,8.605925081880503,49.27426772054053,8.61653121080386",
-      "point": "49.26137902479273,8.605925081880503",
-      "startLcPosition": "68",
-      "display_type": "WARNING",
-      "subtitle": " Karlsruhe -> Heidelberg",
-      "title": "A5 | Lußhardt - Walldorf",
-      "startTimestamp": "2026-08-09T11:03:00Z",
-      "delayTimeValue": "1",
-      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
-      "coordinate": {
-        "lat": 49.26137902479273,
-        "long": 8.605925081880503
-      },
-      "description": [
-        "Beginn: 09.08.26 um 13:03 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:03",
-        "A5: Karlsruhe -> Heidelberg, zwischen 0.5 km hinter Lußhardt und 0.8 km vor AK Walldorf",
-        "",
-        "Ereignismeldung:",
-        "- Reisezeitverlust: 1 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.605925082,
-            49.261379025
-          ],
-          [
-            8.6060734,
-            49.261554801
-          ],
-          [
-            8.6060934,
-            49.261578501
-          ],
-          [
-            8.6068895,
-            49.262539701
-          ],
-          [
-            8.6074374,
-            49.263188801
-          ],
-          [
-            8.6077663,
-            49.263589001
-          ],
-          [
-            8.6092849,
-            49.265438801
-          ],
-          [
-            8.6093949,
-            49.265571001
-          ],
-          [
-            8.6100007,
-            49.266309701
-          ],
-          [
-            8.6101326,
-            49.266462701
-          ],
-          [
-            8.6104936,
-            49.266904501
-          ],
-          [
-            8.6106456,
-            49.267082701
-          ],
-          [
-            8.6117756,
-            49.268424701
-          ],
-          [
-            8.6134499,
-            49.270443901
-          ],
-          [
-            8.6135944,
-            49.270613301
-          ],
-          [
-            8.6143749,
-            49.271550801
-          ],
-          [
-            8.614747,
-            49.272018001
-          ],
-          [
-            8.6160344,
-            49.273612601
-          ],
-          [
-            8.616531211,
-            49.274267721
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "INRIX--vi-avl.2026-08-09_11-07-00-000_008.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.2769075463368,8.61834709307029,49.29895173119302,8.62614488070636",
-      "point": "49.2769075463368,8.61834709307029",
+      "extent": "49.27567756137413,8.617519677174867,49.29895173119302,8.62614488070636",
+      "point": "49.27567756137413,8.617519677174867",
       "startLcPosition": "68",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Lußhardt - Walldorf/Wiesloch",
       "startTimestamp": "2026-08-09T11:07:00Z",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35",
+      "delayTimeValue": "3",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "30",
       "coordinate": {
-        "lat": 49.2769075463368,
-        "long": 8.61834709307029
+        "lat": 49.27567756137413,
+        "long": 8.617519677174867
       },
       "description": [
         "Beginn: 09.08.26 um 13:07 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.08.2026, 11:07",
-        "A5: Karlsruhe -> Heidelberg, zwischen 2.4 km hinter Lußhardt und 0.3 km vor AS Walldorf/Wiesloch",
+        "A5: Karlsruhe -> Heidelberg, zwischen 2.3 km hinter Lußhardt und 0.3 km vor AS Walldorf/Wiesloch",
         "",
         "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 35 km/h",
-        "- Reisezeitverlust: 2 Minuten (zunehmend)"
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 3 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1285,8 +1394,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.618347093,
-            49.276907546
+            8.617519677,
+            49.275677561
+          ],
+          [
+            8.617568,
+            49.275745801
+          ],
+          [
+            8.6180688,
+            49.276487001
+          ],
+          [
+            8.6182608,
+            49.276777101
           ],
           [
             8.6184883,
@@ -1408,194 +1529,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-31-00-000_012.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "49.351371512297554,8.631254092673966,49.324730235527205,8.62983653775042",
-      "point": "49.351371512297554,8.631254092673966",
-      "startLcPosition": "72",
-      "display_type": "WARNING",
-      "subtitle": " Heidelberg -> Karlsruhe",
-      "title": "A5 | Heidelberg/Schwetzingen - Walldorf/Wiesloch",
-      "startTimestamp": "2026-08-09T11:31:00Z",
-      "delayTimeValue": "2",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40",
-      "coordinate": {
-        "lat": 49.351371512297554,
-        "long": 8.631254092673966
-      },
-      "description": [
-        "Beginn: 09.08.26 um 13:31 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:31",
-        "A5: Heidelberg -> Karlsruhe, zwischen 2.1 km hinter AS Heidelberg/Schwetzingen und 2.6 km vor AS Walldorf/Wiesloch",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 40 km/h",
-        "- Reisezeitverlust: 2 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.631254093,
-            49.351371512
-          ],
-          [
-            8.6312277,
-            49.350910501
-          ],
-          [
-            8.6311863,
-            49.350103601
-          ],
-          [
-            8.6311091,
-            49.348652201
-          ],
-          [
-            8.6310247,
-            49.347160701
-          ],
-          [
-            8.6309858,
-            49.346464201
-          ],
-          [
-            8.6309295,
-            49.345375901
-          ],
-          [
-            8.6309237,
-            49.345256801
-          ],
-          [
-            8.6309196,
-            49.345151201
-          ],
-          [
-            8.6309184,
-            49.345126301
-          ],
-          [
-            8.6308745,
-            49.344309201
-          ],
-          [
-            8.6308001,
-            49.342924001
-          ],
-          [
-            8.630716,
-            49.341348301
-          ],
-          [
-            8.6306927,
-            49.340907701
-          ],
-          [
-            8.6306314,
-            49.339599901
-          ],
-          [
-            8.630529,
-            49.337808301
-          ],
-          [
-            8.6304779,
-            49.337019001
-          ],
-          [
-            8.6304031,
-            49.335398001
-          ],
-          [
-            8.6303649,
-            49.334731501
-          ],
-          [
-            8.6301259,
-            49.330192201
-          ],
-          [
-            8.6301152,
-            49.329989501
-          ],
-          [
-            8.6300784,
-            49.329280901
-          ],
-          [
-            8.6300666,
-            49.329049301
-          ],
-          [
-            8.6299897,
-            49.327604101
-          ],
-          [
-            8.6299777,
-            49.327379201
-          ],
-          [
-            8.6299696,
-            49.327227701
-          ],
-          [
-            8.6299119,
-            49.326144001
-          ],
-          [
-            8.6298965,
-            49.325855201
-          ],
-          [
-            8.6298932,
-            49.325794101
-          ],
-          [
-            8.629836538,
-            49.324730236
-          ]
-        ]
-      }
-    },
-    {
       "identifier": "INRIX--vi-avl.2026-08-09_11-00-00-000_015.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.37308093759893,8.63258637766633,49.40209985341047,8.637484255867095",
-      "point": "49.37308093759893,8.63258637766633",
+      "extent": "49.38270343036338,8.636733335578207,49.40060080896601,8.63767550494962",
+      "point": "49.38270343036338,8.636733335578207",
       "startLcPosition": "72",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Darmstadt",
       "title": "A5 | Heidelberg/Schwetzingen - Heidelberg",
       "startTimestamp": "2026-08-09T11:00:00Z",
-      "delayTimeValue": "3",
+      "delayTimeValue": "2",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40",
+      "averageSpeed": "35",
       "coordinate": {
-        "lat": 49.37308093759893,
-        "long": 8.63258637766633
+        "lat": 49.38270343036338,
+        "long": 8.636733335578207
       },
       "description": [
         "Beginn: 09.08.26 um 13:00 Uhr",
         "",
         "Angespannte Verkehrslage, seit 09.08.2026, 11:00",
-        "A5: Karlsruhe -> Darmstadt, zwischen 0.3 km hinter AS Heidelberg/Schwetzingen und 1.8 km vor AK Heidelberg",
+        "A5: Karlsruhe -> Darmstadt, zwischen 1.4 km hinter AS Heidelberg/Schwetzingen und 2.0 km vor AK Heidelberg",
         "",
         "Ereignismeldung:",
         "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 40 km/h",
-        "- Reisezeitverlust: 3 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 2 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -1605,76 +1566,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.632586378,
-            49.373080938
-          ],
-          [
-            8.6326222,
-            49.373452001
-          ],
-          [
-            8.6326762,
-            49.373872201
-          ],
-          [
-            8.6328112,
-            49.374634401
-          ],
-          [
-            8.632961,
-            49.375243601
-          ],
-          [
-            8.6330161,
-            49.375467801
-          ],
-          [
-            8.6332123,
-            49.376069101
-          ],
-          [
-            8.6334646,
-            49.376747501
-          ],
-          [
-            8.6336592,
-            49.377203801
-          ],
-          [
-            8.633804,
-            49.377511501
-          ],
-          [
-            8.6339784,
-            49.377870301
-          ],
-          [
-            8.6342271,
-            49.378325501
-          ],
-          [
-            8.634478,
-            49.378764401
-          ],
-          [
-            8.6348821,
-            49.379469901
-          ],
-          [
-            8.6351026,
-            49.379854801
-          ],
-          [
-            8.6352643,
-            49.380137101
-          ],
-          [
-            8.6361598,
-            49.381701001
-          ],
-          [
-            8.6366032,
-            49.382475401
+            8.636733336,
+            49.38270343
           ],
           [
             8.6372824,
@@ -1821,14 +1714,14 @@
             49.400200301
           ],
           [
-            8.637484256,
-            49.402099853
+            8.637675505,
+            49.400600809
           ]
         ]
       }
     },
     {
-      "identifier": "NLW_2026_002476--vi-hind.2026-08-09_11-18-00-477.de0",
+      "identifier": "NLW_2026_002476--vi-hind.2026-08-09_11-50-00-347.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -2080,34 +1973,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-24-00-000_012.de0",
+      "identifier": "INRIX--vi-avl.2026-08-09_12-07-00-000_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.64000651660827,8.96353284546895,50.63163680519791,8.921676747885854",
-      "point": "50.64000651660827,8.96353284546895",
+      "extent": "50.6394432296951,8.953950976430033,50.63098306383364,8.919632250864622",
+      "point": "50.6394432296951,8.953950976430033",
       "startLcPosition": "128",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Finkenwald - Reinhardshain",
-      "startTimestamp": "2026-08-09T11:24:00Z",
-      "delayTimeValue": "2",
+      "startTimestamp": "2026-08-09T12:07:00Z",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "40",
+      "averageSpeed": "30",
       "coordinate": {
-        "lat": 50.64000651660827,
-        "long": 8.96353284546895
+        "lat": 50.6394432296951,
+        "long": 8.953950976430033
       },
       "description": [
-        "Beginn: 09.08.26 um 13:24 Uhr",
+        "Beginn: 09.08.26 um 14:07 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:24",
-        "A5: Kassel -> Frankfurt, zwischen Finkenwald und 2.1 km vor Reinhardshain",
+        "Angespannte Verkehrslage, seit 09.08.2026, 12:07",
+        "A5: Kassel -> Frankfurt, zwischen 0.7 km hinter Finkenwald und 1.9 km vor Reinhardshain",
         "",
         "Ereignismeldung:",
         "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 40 km/h",
-        "- Reisezeitverlust: 2 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 3 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2117,32 +2010,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.963532845,
-            50.640006517
-          ],
-          [
-            8.962819,
-            50.639964301
-          ],
-          [
-            8.9606542,
-            50.639830501
-          ],
-          [
-            8.9583495,
-            50.639703401
-          ],
-          [
-            8.9567053,
-            50.639609801
-          ],
-          [
-            8.9563578,
-            50.639585001
-          ],
-          [
-            8.954892,
-            50.639501501
+            8.953950976,
+            50.63944323
           ],
           [
             8.9531254,
@@ -2245,599 +2114,42 @@
             50.632129301
           ],
           [
-            8.921676748,
-            50.631636805
+            8.9215012,
+            50.631580701
+          ],
+          [
+            8.919632251,
+            50.630983064
           ]
         ]
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-09_10-06-00-000_012.de0",
+      "identifier": "INRIX--vi-avl.2026-08-09_11-24-00-000_015.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.64490837466384,8.995570645747085,50.6635058538132,9.020390354312603",
-      "point": "50.64490837466384,8.995570645747085",
-      "startLcPosition": "130",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Homberg (Ohm) - Ohmtal-Dreieck",
-      "startTimestamp": "2026-08-09T10:06:00Z",
-      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
-      "averageSpeed": "20",
-      "coordinate": {
-        "lat": 50.64490837466384,
-        "long": 8.995570645747085
-      },
-      "description": [
-        "Beginn: 09.08.26 um 12:06 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 10:06",
-        "A5: Frankfurt -> Kassel, zwischen 0.3 km hinter AS Homberg (Ohm) und 6.4 km vor AD Ohmtal-Dreieck",
-        "",
-        "Ereignismeldung:",
-        "- Durchschnittsgeschwindigkeit: 20 km/h"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.995570646,
-            50.644908375
-          ],
-          [
-            8.9958262,
-            50.644998401
-          ],
-          [
-            8.9964021,
-            50.645222901
-          ],
-          [
-            8.9970154,
-            50.645500801
-          ],
-          [
-            8.9975969,
-            50.645784801
-          ],
-          [
-            8.9979932,
-            50.646001001
-          ],
-          [
-            8.9983837,
-            50.646218401
-          ],
-          [
-            8.9991154,
-            50.646666501
-          ],
-          [
-            9.0001416,
-            50.647287001
-          ],
-          [
-            9.0009532,
-            50.647783601
-          ],
-          [
-            9.0012397,
-            50.647960901
-          ],
-          [
-            9.0031194,
-            50.649084001
-          ],
-          [
-            9.0045498,
-            50.649955701
-          ],
-          [
-            9.0058556,
-            50.650762901
-          ],
-          [
-            9.0069591,
-            50.651445701
-          ],
-          [
-            9.0078719,
-            50.651997101
-          ],
-          [
-            9.0104408,
-            50.653563201
-          ],
-          [
-            9.0109561,
-            50.653879901
-          ],
-          [
-            9.011334,
-            50.654102601
-          ],
-          [
-            9.0124214,
-            50.654767201
-          ],
-          [
-            9.0133064,
-            50.655329401
-          ],
-          [
-            9.0138338,
-            50.655695501
-          ],
-          [
-            9.0143345,
-            50.656059901
-          ],
-          [
-            9.0151334,
-            50.656681901
-          ],
-          [
-            9.015491,
-            50.656974601
-          ],
-          [
-            9.0158763,
-            50.657310401
-          ],
-          [
-            9.0162414,
-            50.657650001
-          ],
-          [
-            9.0164474,
-            50.657839301
-          ],
-          [
-            9.0167228,
-            50.658114201
-          ],
-          [
-            9.0171217,
-            50.658530901
-          ],
-          [
-            9.0176322,
-            50.659093001
-          ],
-          [
-            9.0181859,
-            50.659781301
-          ],
-          [
-            9.0187311,
-            50.660520201
-          ],
-          [
-            9.019178,
-            50.661204201
-          ],
-          [
-            9.0195695,
-            50.661899901
-          ],
-          [
-            9.0199593,
-            50.662657101
-          ],
-          [
-            9.0202714,
-            50.663281201
-          ],
-          [
-            9.020390354,
-            50.663505854
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-29-00-000_015.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.673657197521926,9.026423053613811,50.69434814494212,9.041530400950945",
-      "point": "50.673657197521926,9.026423053613811",
-      "startLcPosition": "130",
-      "display_type": "WARNING",
-      "subtitle": " Frankfurt -> Kassel",
-      "title": "A5 | Homberg (Ohm) - Ohmtal-Dreieck",
-      "startTimestamp": "2026-08-09T11:29:00Z",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "30",
-      "coordinate": {
-        "lat": 50.673657197521926,
-        "long": 9.026423053613811
-      },
-      "description": [
-        "Beginn: 09.08.26 um 13:29 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:29",
-        "A5: Frankfurt -> Kassel, zwischen 4.3 km hinter AS Homberg (Ohm) und 2.7 km vor AD Ohmtal-Dreieck",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 30 km/h",
-        "- Reisezeitverlust: 3 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.026423054,
-            50.673657198
-          ],
-          [
-            9.0307153,
-            50.679624501
-          ],
-          [
-            9.0308551,
-            50.679805001
-          ],
-          [
-            9.0310006,
-            50.679983701
-          ],
-          [
-            9.0312061,
-            50.680222301
-          ],
-          [
-            9.0314217,
-            50.680457301
-          ],
-          [
-            9.0316471,
-            50.680688601
-          ],
-          [
-            9.0319508,
-            50.680973901
-          ],
-          [
-            9.0322075,
-            50.681206101
-          ],
-          [
-            9.0324765,
-            50.681432701
-          ],
-          [
-            9.0327044,
-            50.681612801
-          ],
-          [
-            9.03294,
-            50.681788901
-          ],
-          [
-            9.0331832,
-            50.681960801
-          ],
-          [
-            9.0357651,
-            50.683758401
-          ],
-          [
-            9.0360072,
-            50.683935801
-          ],
-          [
-            9.0362406,
-            50.684117801
-          ],
-          [
-            9.036465,
-            50.684304301
-          ],
-          [
-            9.0366804,
-            50.684495001
-          ],
-          [
-            9.0368811,
-            50.684684701
-          ],
-          [
-            9.0370728,
-            50.684878201
-          ],
-          [
-            9.0372552,
-            50.685075101
-          ],
-          [
-            9.0374283,
-            50.685275501
-          ],
-          [
-            9.0376285,
-            50.685563901
-          ],
-          [
-            9.0380169,
-            50.686155501
-          ],
-          [
-            9.0381741,
-            50.686433501
-          ],
-          [
-            9.0383208,
-            50.686736001
-          ],
-          [
-            9.038635,
-            50.687566801
-          ],
-          [
-            9.0389676,
-            50.688511801
-          ],
-          [
-            9.0395211,
-            50.690086801
-          ],
-          [
-            9.0397482,
-            50.690722901
-          ],
-          [
-            9.0400257,
-            50.691447701
-          ],
-          [
-            9.0403445,
-            50.692222001
-          ],
-          [
-            9.0405865,
-            50.692741301
-          ],
-          [
-            9.0408322,
-            50.693208401
-          ],
-          [
-            9.0410938,
-            50.693655601
-          ],
-          [
-            9.0414622,
-            50.694247401
-          ],
-          [
-            9.041530401,
-            50.694348145
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-34-00-000_008.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.65356686335566,9.010198814579757,50.641145188029235,8.974105077884802",
-      "point": "50.65356686335566,9.010198814579757",
+      "extent": "50.698211568953056,9.044296231646557,50.64036376024224,8.968364817457077",
+      "point": "50.698211568953056,9.044296231646557",
       "startLcPosition": "131",
       "display_type": "WARNING",
       "subtitle": " Kassel -> Frankfurt",
       "title": "A5 | Ohmtal-Dreieck - Hegberg",
-      "startTimestamp": "2026-08-09T11:34:00Z",
-      "delayTimeValue": "3",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35",
-      "coordinate": {
-        "lat": 50.65356686335566,
-        "long": 9.010198814579757
-      },
-      "description": [
-        "Beginn: 09.08.26 um 13:34 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:34",
-        "A5: Kassel -> Frankfurt, zwischen 7.8 km hinter AD Ohmtal-Dreieck und 0.6 km vor Hegberg",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 35 km/h",
-        "- Reisezeitverlust: 3 Minuten"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.010198815,
-            50.653566863
-          ],
-          [
-            9.0077236,
-            50.652062301
-          ],
-          [
-            9.0068138,
-            50.651509201
-          ],
-          [
-            9.0057188,
-            50.650849701
-          ],
-          [
-            9.0044287,
-            50.650067201
-          ],
-          [
-            9.0030904,
-            50.649257401
-          ],
-          [
-            9.0011215,
-            50.648050201
-          ],
-          [
-            9.0008404,
-            50.647883801
-          ],
-          [
-            8.9999929,
-            50.647362401
-          ],
-          [
-            8.9991184,
-            50.646834301
-          ],
-          [
-            8.9981874,
-            50.646262801
-          ],
-          [
-            8.9974554,
-            50.645868301
-          ],
-          [
-            8.9969678,
-            50.645625301
-          ],
-          [
-            8.9963422,
-            50.645345601
-          ],
-          [
-            8.9957662,
-            50.645114201
-          ],
-          [
-            8.9951329,
-            50.644893701
-          ],
-          [
-            8.9946745,
-            50.644742601
-          ],
-          [
-            8.9941748,
-            50.644599201
-          ],
-          [
-            8.9934697,
-            50.644422001
-          ],
-          [
-            8.9928163,
-            50.644274601
-          ],
-          [
-            8.9924641,
-            50.644205001
-          ],
-          [
-            8.9915658,
-            50.644027301
-          ],
-          [
-            8.9911272,
-            50.643940701
-          ],
-          [
-            8.9902743,
-            50.643772901
-          ],
-          [
-            8.9896163,
-            50.643637501
-          ],
-          [
-            8.9881892,
-            50.643344101
-          ],
-          [
-            8.9866315,
-            50.643028201
-          ],
-          [
-            8.9861549,
-            50.642936101
-          ],
-          [
-            8.9854931,
-            50.642810601
-          ],
-          [
-            8.9847437,
-            50.642694701
-          ],
-          [
-            8.9838907,
-            50.642563301
-          ],
-          [
-            8.9818645,
-            50.642264601
-          ],
-          [
-            8.9798086,
-            50.641969101
-          ],
-          [
-            8.976975,
-            50.641558901
-          ],
-          [
-            8.9766893,
-            50.641519201
-          ],
-          [
-            8.974105078,
-            50.641145188
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-08-09_11-27-00-000_014.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "50.711460146887646,9.06742377984584,50.65743073954601,9.015798296434374",
-      "point": "50.711460146887646,9.06742377984584",
-      "startLcPosition": "132",
-      "display_type": "WARNING",
-      "subtitle": " Kassel -> Frankfurt",
-      "title": "A5 | Krachgarten - Homberg (Ohm)",
-      "startTimestamp": "2026-08-09T11:27:00Z",
-      "delayTimeValue": "10",
+      "startTimestamp": "2026-08-09T11:24:00Z",
+      "delayTimeValue": "15",
       "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
       "coordinate": {
-        "lat": 50.711460146887646,
-        "long": 9.06742377984584
+        "lat": 50.698211568953056,
+        "long": 9.044296231646557
       },
       "description": [
-        "Beginn: 09.08.26 um 13:27 Uhr",
+        "Beginn: 09.08.26 um 13:24 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 09.08.2026, 11:27",
-        "A5: Kassel -> Frankfurt, zwischen 3.1 km hinter Krachgarten und 2.3 km vor AS Homberg (Ohm)",
+        "Angespannte Verkehrslage, seit 09.08.2026, 11:24",
+        "A5: Kassel -> Frankfurt, zwischen 2.2 km hinter AD Ohmtal-Dreieck und 0.2 km vor Hegberg",
         "",
         "Ereignismeldung:",
-        "- Reisezeitverlust: 10 Minuten"
+        "- Reisezeitverlust: 15 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -2847,136 +2159,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.06742378,
-            50.711460147
-          ],
-          [
-            9.0665282,
-            50.711007501
-          ],
-          [
-            9.0655959,
-            50.710547601
-          ],
-          [
-            9.0648751,
-            50.710172701
-          ],
-          [
-            9.0645854,
-            50.710014501
-          ],
-          [
-            9.0643317,
-            50.709868301
-          ],
-          [
-            9.0638535,
-            50.709572001
-          ],
-          [
-            9.0629192,
-            50.708958601
-          ],
-          [
-            9.0623452,
-            50.708612901
-          ],
-          [
-            9.0615978,
-            50.708215801
-          ],
-          [
-            9.0606666,
-            50.707775301
-          ],
-          [
-            9.0593766,
-            50.707198601
-          ],
-          [
-            9.0579455,
-            50.706599301
-          ],
-          [
-            9.0555194,
-            50.705649301
-          ],
-          [
-            9.0546127,
-            50.705291901
-          ],
-          [
-            9.0543903,
-            50.705200401
-          ],
-          [
-            9.0535871,
-            50.704866101
-          ],
-          [
-            9.0527815,
-            50.704506301
-          ],
-          [
-            9.0517967,
-            50.704024201
-          ],
-          [
-            9.050838,
-            50.703522101
-          ],
-          [
-            9.0500188,
-            50.703050601
-          ],
-          [
-            9.0493277,
-            50.702615901
-          ],
-          [
-            9.0491841,
-            50.702530901
-          ],
-          [
-            9.0487295,
-            50.702224301
-          ],
-          [
-            9.0482757,
-            50.701905301
-          ],
-          [
-            9.0478912,
-            50.701621701
-          ],
-          [
-            9.0474333,
-            50.701277101
-          ],
-          [
-            9.0469264,
-            50.700862001
-          ],
-          [
-            9.046471,
-            50.700471501
-          ],
-          [
-            9.046038,
-            50.700084101
-          ],
-          [
-            9.0454674,
-            50.699522301
-          ],
-          [
-            9.0451228,
-            50.699173001
-          ],
-          [
-            9.0445889,
-            50.698576501
+            9.044296232,
+            50.698211569
           ],
           [
             9.0440855,
@@ -3231,8 +2415,416 @@
             50.657713901
           ],
           [
-            9.015798296,
-            50.65743074
+            9.0157621,
+            50.657397201
+          ],
+          [
+            9.0153525,
+            50.657045601
+          ],
+          [
+            9.0150064,
+            50.656756101
+          ],
+          [
+            9.0142469,
+            50.656156601
+          ],
+          [
+            9.0136948,
+            50.655761601
+          ],
+          [
+            9.0131757,
+            50.655405201
+          ],
+          [
+            9.0123291,
+            50.654858301
+          ],
+          [
+            9.0112368,
+            50.654192601
+          ],
+          [
+            9.0108703,
+            50.653975001
+          ],
+          [
+            9.0077236,
+            50.652062301
+          ],
+          [
+            9.0068138,
+            50.651509201
+          ],
+          [
+            9.0057188,
+            50.650849701
+          ],
+          [
+            9.0044287,
+            50.650067201
+          ],
+          [
+            9.0030904,
+            50.649257401
+          ],
+          [
+            9.0011215,
+            50.648050201
+          ],
+          [
+            9.0008404,
+            50.647883801
+          ],
+          [
+            8.9999929,
+            50.647362401
+          ],
+          [
+            8.9991184,
+            50.646834301
+          ],
+          [
+            8.9981874,
+            50.646262801
+          ],
+          [
+            8.9974554,
+            50.645868301
+          ],
+          [
+            8.9969678,
+            50.645625301
+          ],
+          [
+            8.9963422,
+            50.645345601
+          ],
+          [
+            8.9957662,
+            50.645114201
+          ],
+          [
+            8.9951329,
+            50.644893701
+          ],
+          [
+            8.9946745,
+            50.644742601
+          ],
+          [
+            8.9941748,
+            50.644599201
+          ],
+          [
+            8.9934697,
+            50.644422001
+          ],
+          [
+            8.9928163,
+            50.644274601
+          ],
+          [
+            8.9924641,
+            50.644205001
+          ],
+          [
+            8.9915658,
+            50.644027301
+          ],
+          [
+            8.9911272,
+            50.643940701
+          ],
+          [
+            8.9902743,
+            50.643772901
+          ],
+          [
+            8.9896163,
+            50.643637501
+          ],
+          [
+            8.9881892,
+            50.643344101
+          ],
+          [
+            8.9866315,
+            50.643028201
+          ],
+          [
+            8.9861549,
+            50.642936101
+          ],
+          [
+            8.9854931,
+            50.642810601
+          ],
+          [
+            8.9847437,
+            50.642694701
+          ],
+          [
+            8.9838907,
+            50.642563301
+          ],
+          [
+            8.9818645,
+            50.642264601
+          ],
+          [
+            8.9798086,
+            50.641969101
+          ],
+          [
+            8.976975,
+            50.641558901
+          ],
+          [
+            8.9766893,
+            50.641519201
+          ],
+          [
+            8.973263,
+            50.641023301
+          ],
+          [
+            8.9702911,
+            50.640592101
+          ],
+          [
+            8.9693099,
+            50.640472601
+          ],
+          [
+            8.968364817,
+            50.64036376
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-09_11-57-00-000_010.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.2971544703113,8.625544441284335,49.26896758970112,8.611954610146555",
+      "point": "49.2971544703113,8.625544441284335",
+      "startLcPosition": "1000",
+      "display_type": "WARNING",
+      "subtitle": " Heidelberg -> Karlsruhe",
+      "title": "A5 | Verkehrsmeldung",
+      "startTimestamp": "2026-08-09T11:57:00Z",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20",
+      "coordinate": {
+        "lat": 49.2971544703113,
+        "long": 8.625544441284335
+      },
+      "description": [
+        "Beginn: 09.08.26 um 13:57 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 09.08.2026, 11:57",
+        "Von A5: Heidelberg -> Karlsruhe, zwischen 0.5 km hinter AS Walldorf/Wiesloch und AK Walldorf nach Auffahrt auf die A5: AK Walldorf (aus Richtung Walldorf/Wiesloch)",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 7 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.625544441,
+            49.29715447
+          ],
+          [
+            8.6254863,
+            49.296913801
+          ],
+          [
+            8.6252128,
+            49.295753301
+          ],
+          [
+            8.6250388,
+            49.295014801
+          ],
+          [
+            8.6249479,
+            49.294628501
+          ],
+          [
+            8.6246552,
+            49.293385101
+          ],
+          [
+            8.6246035,
+            49.293149301
+          ],
+          [
+            8.6245832,
+            49.293056501
+          ],
+          [
+            8.6243908,
+            49.292247501
+          ],
+          [
+            8.6242673,
+            49.291728501
+          ],
+          [
+            8.6239904,
+            49.290627801
+          ],
+          [
+            8.6239442,
+            49.290441801
+          ],
+          [
+            8.6237211,
+            49.289544701
+          ],
+          [
+            8.6235825,
+            49.288987501
+          ],
+          [
+            8.6234974,
+            49.288671101
+          ],
+          [
+            8.6234223,
+            49.288391201
+          ],
+          [
+            8.6232306,
+            49.287763001
+          ],
+          [
+            8.6229616,
+            49.286881801
+          ],
+          [
+            8.622843,
+            49.286748001
+          ],
+          [
+            8.6225889,
+            49.286106601
+          ],
+          [
+            8.6223042,
+            49.285458301
+          ],
+          [
+            8.6222236,
+            49.285290301
+          ],
+          [
+            8.6219726,
+            49.284766801
+          ],
+          [
+            8.6219386,
+            49.284677201
+          ],
+          [
+            8.6215435,
+            49.283712801
+          ],
+          [
+            8.6211127,
+            49.282723201
+          ],
+          [
+            8.6207522,
+            49.281957401
+          ],
+          [
+            8.6204893,
+            49.281412901
+          ],
+          [
+            8.6201471,
+            49.280742101
+          ],
+          [
+            8.6200629,
+            49.280590401
+          ],
+          [
+            8.6198511,
+            49.280188601
+          ],
+          [
+            8.6195044,
+            49.279564401
+          ],
+          [
+            8.6191212,
+            49.278891501
+          ],
+          [
+            8.6187323,
+            49.278233601
+          ],
+          [
+            8.6184623,
+            49.277793601
+          ],
+          [
+            8.6182118,
+            49.277342401
+          ],
+          [
+            8.6180768,
+            49.277107101
+          ],
+          [
+            8.6179047,
+            49.276788401
+          ],
+          [
+            8.6176311,
+            49.276290201
+          ],
+          [
+            8.6174532,
+            49.275999901
+          ],
+          [
+            8.617429,
+            49.275879601
+          ],
+          [
+            8.6165515,
+            49.274645701
+          ],
+          [
+            8.6154655,
+            49.273230701
+          ],
+          [
+            8.6142279,
+            49.271710301
+          ],
+          [
+            8.613231,
+            49.270519901
+          ],
+          [
+            8.61195461,
+            49.26896759
           ]
         ]
       }
