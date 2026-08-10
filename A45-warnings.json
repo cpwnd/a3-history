@@ -1,32 +1,34 @@
 {
   "warning": [
     {
-      "identifier": "INRIX--vi-avl.2026-08-10_07-22-00-000_006.de0",
+      "identifier": "INRIX--vi-avl.2026-08-10_11-36-00-000_012.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06890763040589,9.037943027045003,50.04144559233455,9.056975758609639",
-      "point": "50.06890763040589,9.037943027045003",
-      "startLcPosition": "4",
+      "extent": "50.045106753536686,9.0545335600519,50.039487904663,9.05775462405071",
+      "point": "50.045106753536686,9.0545335600519",
+      "startLcPosition": "3",
       "display_type": "WARNING",
       "subtitle": " Gießen -> Aschaffenburg",
-      "title": "A45 | Alzenau-Mitte - Kleinostheim",
-      "startTimestamp": "2026-08-10T07:22:00Z",
-      "delayTimeValue": "20",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "title": "A45 | Karlstein - Kleinostheim",
+      "startTimestamp": "2026-08-10T11:36:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
-        "lat": 50.06890763040589,
-        "long": 9.037943027045003
+        "lat": 50.045106753536686,
+        "long": 9.0545335600519
       },
       "description": [
-        "Beginn: 10.08.26 um 09:22 Uhr",
+        "Beginn: 10.08.26 um 13:36 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 10.08.2026, 07:22",
-        "A45: Gießen -> Aschaffenburg, zwischen 1.9 km hinter AS Alzenau-Mitte und 2.4 km vor AS Kleinostheim",
+        "Angespannte Verkehrslage, seit 10.08.2026, 11:36",
+        "A45: Gießen -> Aschaffenburg, zwischen 0.2 km hinter AS Karlstein und 2.2 km vor AS Kleinostheim",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 20 Minuten (zunehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 10 km/h",
+        "- Reisezeitverlust: 4 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,16 +38,102 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.037943027,
-            50.06890763
+            9.05453356,
+            50.045106754
           ],
           [
-            9.0384167,
-            50.067700001
+            9.054811,
+            50.044762001
           ],
           [
-            9.0387812,
-            50.066849401
+            9.0552223,
+            50.044216101
+          ],
+          [
+            9.05553,
+            50.043794601
+          ],
+          [
+            9.0558459,
+            50.043349601
+          ],
+          [
+            9.0561836,
+            50.042837301
+          ],
+          [
+            9.0563596,
+            50.042557901
+          ],
+          [
+            9.0565125,
+            50.042306801
+          ],
+          [
+            9.0568607,
+            50.041682801
+          ],
+          [
+            9.0570943,
+            50.041201201
+          ],
+          [
+            9.0572932,
+            50.040776801
+          ],
+          [
+            9.0575511,
+            50.040115701
+          ],
+          [
+            9.0577086,
+            50.039644901
+          ],
+          [
+            9.057754624,
+            50.039487905
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-10_07-22-00-000_006.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "50.066099267021244,9.039120564523659,50.04873567013652,9.051546814055062",
+      "point": "50.066099267021244,9.039120564523659",
+      "startLcPosition": "4",
+      "display_type": "WARNING",
+      "subtitle": " Gießen -> Aschaffenburg",
+      "title": "A45 | Alzenau-Mitte - Karlstein",
+      "startTimestamp": "2026-08-10T07:22:00Z",
+      "delayTimeValue": "11",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 50.066099267021244,
+        "long": 9.039120564523659
+      },
+      "description": [
+        "Beginn: 10.08.26 um 09:22 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 10.08.2026, 07:22",
+        "A45: Gießen -> Aschaffenburg, zwischen 2.2 km hinter AS Alzenau-Mitte und 0.3 km vor AS Karlstein",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Reisezeitverlust: 11 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.039120565,
+            50.066099267
           ],
           [
             9.039322,
@@ -148,68 +236,8 @@
             50.049986101
           ],
           [
-            9.051677,
-            50.048580201
-          ],
-          [
-            9.051953,
-            50.048244701
-          ],
-          [
-            9.0525021,
-            50.047565001
-          ],
-          [
-            9.0529111,
-            50.047093201
-          ],
-          [
-            9.0540131,
-            50.045760201
-          ],
-          [
-            9.0542983,
-            50.045398401
-          ],
-          [
-            9.0545332,
-            50.045107201
-          ],
-          [
-            9.054811,
-            50.044762001
-          ],
-          [
-            9.0552223,
-            50.044216101
-          ],
-          [
-            9.05553,
-            50.043794601
-          ],
-          [
-            9.0558459,
-            50.043349601
-          ],
-          [
-            9.0561836,
-            50.042837301
-          ],
-          [
-            9.0563596,
-            50.042557901
-          ],
-          [
-            9.0565125,
-            50.042306801
-          ],
-          [
-            9.0568607,
-            50.041682801
-          ],
-          [
-            9.056975759,
-            50.041445592
+            9.051546814,
+            50.04873567
           ]
         ]
       }
@@ -449,7 +477,7 @@
       }
     },
     {
-      "identifier": "NLW_2026_002576--vi-hind.2026-08-10_10-57-00-385.de0",
+      "identifier": "NLW_2026_002576--vi-hind.2026-08-10_11-59-00-279.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -502,250 +530,6 @@
           [
             8.708483647,
             50.479442421
-          ]
-        ]
-      }
-    },
-    {
-      "identifier": "INRIX--vi-avl.2026-08-10_08-37-00-000_006.de0",
-      "icon": "101",
-      "isBlocked": "false",
-      "future": false,
-      "extent": "51.402175808557296,7.53890548670377,51.428838288371,7.541248966442039",
-      "point": "51.402175808557296,7.53890548670377",
-      "startLcPosition": "100",
-      "display_type": "WARNING",
-      "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Im Busch - Westhofener Kreuz",
-      "startTimestamp": "2026-08-10T08:37:00Z",
-      "delayTimeValue": "4",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "35",
-      "coordinate": {
-        "lat": 51.402175808557296,
-        "long": 7.53890548670377
-      },
-      "description": [
-        "Beginn: 10.08.26 um 10:37 Uhr",
-        "",
-        "Angespannte Verkehrslage, seit 10.08.2026, 08:37",
-        "A45: Hagen -> Dortmund, zwischen 0.7 km hinter Im Busch und 0.8 km vor AK Westhofener Kreuz",
-        "",
-        "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 35 km/h",
-        "- Reisezeitverlust: 4 Minuten (zunehmend)"
-      ],
-      "routeRecommendation": [],
-      "footer": [],
-      "lorryParkingFeatureIcons": [],
-      "source": "inrix",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.538905487,
-            51.402175809
-          ],
-          [
-            7.5398404,
-            51.402609301
-          ],
-          [
-            7.5406986,
-            51.403004101
-          ],
-          [
-            7.5413105,
-            51.403301801
-          ],
-          [
-            7.5420249,
-            51.403646001
-          ],
-          [
-            7.5437359,
-            51.404532201
-          ],
-          [
-            7.5447786,
-            51.405118501
-          ],
-          [
-            7.5453769,
-            51.405474401
-          ],
-          [
-            7.5457823,
-            51.405741901
-          ],
-          [
-            7.5462173,
-            51.406019701
-          ],
-          [
-            7.5472225,
-            51.406750601
-          ],
-          [
-            7.5475617,
-            51.407029901
-          ],
-          [
-            7.5483779,
-            51.407750901
-          ],
-          [
-            7.5488388,
-            51.408211101
-          ],
-          [
-            7.5491861,
-            51.408633301
-          ],
-          [
-            7.5495349,
-            51.409040401
-          ],
-          [
-            7.5500046,
-            51.409641901
-          ],
-          [
-            7.5504078,
-            51.410250501
-          ],
-          [
-            7.550667,
-            51.410687001
-          ],
-          [
-            7.5508289,
-            51.411006501
-          ],
-          [
-            7.5509907,
-            51.411326001
-          ],
-          [
-            7.5513024,
-            51.412072301
-          ],
-          [
-            7.5514895,
-            51.412625801
-          ],
-          [
-            7.551622,
-            51.413095701
-          ],
-          [
-            7.5516971,
-            51.413455401
-          ],
-          [
-            7.5517917,
-            51.414074201
-          ],
-          [
-            7.5518584,
-            51.414784401
-          ],
-          [
-            7.5518594,
-            51.415362701
-          ],
-          [
-            7.5518344,
-            51.415832801
-          ],
-          [
-            7.5517872,
-            51.416286601
-          ],
-          [
-            7.5516299,
-            51.417052901
-          ],
-          [
-            7.5516011,
-            51.417202501
-          ],
-          [
-            7.5512863,
-            51.418181401
-          ],
-          [
-            7.5510321,
-            51.418800801
-          ],
-          [
-            7.5507485,
-            51.419415801
-          ],
-          [
-            7.5502167,
-            51.420383301
-          ],
-          [
-            7.5494981,
-            51.421477701
-          ],
-          [
-            7.5487667,
-            51.422500001
-          ],
-          [
-            7.5479704,
-            51.423412001
-          ],
-          [
-            7.54726,
-            51.424194401
-          ],
-          [
-            7.5471205,
-            51.424336801
-          ],
-          [
-            7.5464577,
-            51.424984901
-          ],
-          [
-            7.5464488,
-            51.424993701
-          ],
-          [
-            7.5455564,
-            51.425800601
-          ],
-          [
-            7.5447858,
-            51.426422801
-          ],
-          [
-            7.5444386,
-            51.426689501
-          ],
-          [
-            7.5441664,
-            51.426902301
-          ],
-          [
-            7.5433922,
-            51.427461001
-          ],
-          [
-            7.5426181,
-            51.427989901
-          ],
-          [
-            7.5419639,
-            51.428415801
-          ],
-          [
-            7.541248966,
-            51.428838288
           ]
         ]
       }
