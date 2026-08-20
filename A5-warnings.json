@@ -1,19 +1,20 @@
 {
   "warning": [
     {
-      "identifier": "INRIX--vi-avl.2026-08-20_00-35-00-000_009.de0",
+      "identifier": "INRIX--vi-avl.2026-08-20_00-35-00-000_010.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.81136410775639,7.550906990784317,47.801753003311816,7.544409471365202",
+      "extent": "47.81136410775639,7.550906990784317,47.799653001577596,7.543163723562819",
       "point": "47.81136410775639,7.550906990784317",
       "startLcPosition": "13",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
       "title": "A5 | Müllheim/Neuenburg - Weidengrien",
       "startTimestamp": "2026-08-20T00:35:00Z",
-      "delayTimeValue": "10",
+      "delayTimeValue": "7",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
         "lat": 47.81136410775639,
         "long": 7.550906990784317
@@ -22,11 +23,12 @@
         "Beginn: 20.08.26 um 02:35 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.08.2026, 00:35",
-        "A5: Karlsruhe -> Basel, zwischen 0.3 km hinter AS Müllheim/Neuenburg und 1.4 km vor Weidengrien",
+        "A5: Karlsruhe -> Basel, zwischen 0.3 km hinter AS Müllheim/Neuenburg und 1.1 km vor Weidengrien",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten"
+        "- Durchschnittsgeschwindigkeit: 10 km/h",
+        "- Reisezeitverlust: 7 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -68,8 +70,12 @@
             47.801905701
           ],
           [
-            7.544409471,
-            47.801753003
+            7.5438564,
+            47.800836301
+          ],
+          [
+            7.543163724,
+            47.799653002
           ]
         ]
       }
@@ -79,28 +85,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "47.867225572942885,7.566937641564674,47.816003100948194,7.554288299999114",
-      "point": "47.867225572942885,7.566937641564674",
-      "startLcPosition": "15",
+      "extent": "47.88275203562916,7.5754683167926995,47.816003100948194,7.554288299999114",
+      "point": "47.88275203562916,7.5754683167926995",
+      "startLcPosition": "17",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Basel",
-      "title": "A5 | Streitkopf - Müllheim/Neuenburg",
+      "title": "A5 | Hartheim/Heitersheim - Müllheim/Neuenburg",
       "startTimestamp": "2026-08-20T03:23:00Z",
-      "delayTimeValue": "38",
+      "delayTimeValue": "43",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 47.867225572942885,
-        "long": 7.566937641564674
+        "lat": 47.88275203562916,
+        "long": 7.5754683167926995
       },
       "description": [
         "Beginn: 20.08.26 um 05:23 Uhr",
         "",
         "Angespannte Verkehrslage, seit 20.08.2026, 03:23",
-        "A5: Karlsruhe -> Basel, zwischen 0.7 km hinter Streitkopf und 0.3 km vor AS Müllheim/Neuenburg",
+        "A5: Karlsruhe -> Basel, zwischen 3.0 km hinter AS Hartheim/Heitersheim und 0.3 km vor AS Müllheim/Neuenburg",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 38 Minuten (zunehmend)"
+        "- Reisezeitverlust: 43 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -110,8 +116,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.566937642,
-            47.867225573
+            7.575468317,
+            47.882752036
+          ],
+          [
+            7.5744458,
+            47.881547801
+          ],
+          [
+            7.5736107,
+            47.880503101
+          ],
+          [
+            7.5733511,
+            47.880163101
+          ],
+          [
+            7.5726829,
+            47.879264701
+          ],
+          [
+            7.5717287,
+            47.877829901
+          ],
+          [
+            7.5706298,
+            47.876113801
+          ],
+          [
+            7.5696796,
+            47.874400501
+          ],
+          [
+            7.5695191,
+            47.874063501
+          ],
+          [
+            7.5688584,
+            47.872689401
+          ],
+          [
+            7.5684113,
+            47.871647501
+          ],
+          [
+            7.5683269,
+            47.871450901
+          ],
+          [
+            7.5678741,
+            47.870237701
+          ],
+          [
+            7.5673779,
+            47.868752001
+          ],
+          [
+            7.566985,
+            47.867417701
           ],
           [
             7.5667918,
@@ -269,34 +331,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-20_05-33-00-000_016.de0",
+      "identifier": "INRIX--vi-avl.2026-08-20_06-34-00-000_022.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.61986324423534,8.62168503917393,49.57431725994696,8.63491208300528",
-      "point": "49.61986324423534,8.62168503917393",
+      "extent": "49.6124377689185,8.627338444701001,49.58301181392308,8.634681678920026",
+      "point": "49.6124377689185,8.627338444701001",
       "startLcPosition": "81",
       "display_type": "WARNING",
       "subtitle": " Darmstadt -> Heidelberg",
       "title": "A5 | Fuchsbuckel - Weinheim",
-      "startTimestamp": "2026-08-20T05:33:00Z",
-      "delayTimeValue": "9",
+      "startTimestamp": "2026-08-20T06:34:00Z",
+      "delayTimeValue": "3",
       "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "25",
+      "averageSpeed": "40",
       "coordinate": {
-        "lat": 49.61986324423534,
-        "long": 8.62168503917393
+        "lat": 49.6124377689185,
+        "long": 8.627338444701001
       },
       "description": [
-        "Beginn: 20.08.26 um 07:33 Uhr",
+        "Beginn: 20.08.26 um 08:34 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 20.08.2026, 05:33",
-        "A5: Darmstadt -> Heidelberg, zwischen 0.2 km hinter Fuchsbuckel und 2.9 km vor AK Weinheim",
+        "Angespannte Verkehrslage, seit 20.08.2026, 06:34",
+        "A5: Darmstadt -> Heidelberg, zwischen 1.2 km hinter Fuchsbuckel und 3.8 km vor AK Weinheim",
         "",
         "Ereignismeldung:",
         "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 25 km/h",
-        "- Reisezeitverlust: 9 Minuten (zunehmend)"
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
+        "- Reisezeitverlust: 3 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -306,56 +368,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.621685039,
-            49.619863244
-          ],
-          [
-            8.6219942,
-            49.619531001
-          ],
-          [
-            8.6232297,
-            49.618182701
-          ],
-          [
-            8.6236056,
-            49.617755901
-          ],
-          [
-            8.6243748,
-            49.616826301
-          ],
-          [
-            8.625348,
-            49.615549701
-          ],
-          [
-            8.6255379,
-            49.615270801
-          ],
-          [
-            8.6258481,
-            49.614815201
-          ],
-          [
-            8.626136,
-            49.614389601
-          ],
-          [
-            8.6262285,
-            49.614252801
-          ],
-          [
-            8.6263584,
-            49.614060801
-          ],
-          [
-            8.6268163,
-            49.613330101
-          ],
-          [
-            8.6272591,
-            49.612582301
+            8.627338445,
+            49.612437769
           ],
           [
             8.6276296,
@@ -474,58 +488,637 @@
             49.583774601
           ],
           [
-            8.6346849,
-            49.582998001
-          ],
-          [
-            8.6348139,
-            49.582360801
-          ],
-          [
-            8.6350298,
-            49.580966201
-          ],
-          [
-            8.6351266,
-            49.580059301
-          ],
-          [
-            8.6351768,
-            49.579329401
-          ],
-          [
-            8.6351952,
-            49.578955301
-          ],
-          [
-            8.6352146,
-            49.578148301
-          ],
-          [
-            8.6351922,
-            49.577048101
-          ],
-          [
-            8.6351588,
-            49.576408401
-          ],
-          [
-            8.6350641,
-            49.575403901
-          ],
-          [
-            8.6349819,
-            49.574759501
-          ],
-          [
-            8.634912083,
-            49.57431726
+            8.634681679,
+            49.583011814
           ]
         ]
       }
     },
     {
-      "identifier": "NLW_2026_002476--vi-hind.2026-08-20_05-47-00-478.de0",
+      "identifier": "INRIX--vi-avl.2026-08-20_06-34-00-000_024.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.657976177940434,8.60817904731132,49.639935147961424,8.609425670862068",
+      "point": "49.657976177940434,8.60817904731132",
+      "startLcPosition": "83",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Kälberpfad - Fuchsbuckel",
+      "startTimestamp": "2026-08-20T06:34:00Z",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "UNSPECIFIED_ABNORMAL_TRAFFIC",
+      "coordinate": {
+        "lat": 49.657976177940434,
+        "long": 8.60817904731132
+      },
+      "description": [
+        "Beginn: 20.08.26 um 08:34 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.08.2026, 06:34",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.6 km hinter Kälberpfad und 2.2 km vor Fuchsbuckel",
+        "",
+        "Ereignismeldung:",
+        "- Reisezeitverlust: 2 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.608179047,
+            49.657976178
+          ],
+          [
+            8.6083154,
+            49.657681101
+          ],
+          [
+            8.6085131,
+            49.657188301
+          ],
+          [
+            8.6086986,
+            49.656676801
+          ],
+          [
+            8.6088846,
+            49.656174301
+          ],
+          [
+            8.6090454,
+            49.655652901
+          ],
+          [
+            8.6093637,
+            49.654369301
+          ],
+          [
+            8.6094476,
+            49.653898601
+          ],
+          [
+            8.6095244,
+            49.653420701
+          ],
+          [
+            8.6095779,
+            49.653014301
+          ],
+          [
+            8.6096209,
+            49.652553601
+          ],
+          [
+            8.6096409,
+            49.652287301
+          ],
+          [
+            8.6096421,
+            49.652207901
+          ],
+          [
+            8.6096603,
+            49.651874901
+          ],
+          [
+            8.609687,
+            49.651370801
+          ],
+          [
+            8.6096891,
+            49.650564701
+          ],
+          [
+            8.609686,
+            49.650499001
+          ],
+          [
+            8.6096817,
+            49.650091601
+          ],
+          [
+            8.609624,
+            49.648814201
+          ],
+          [
+            8.6095866,
+            49.648252901
+          ],
+          [
+            8.6095563,
+            49.647745701
+          ],
+          [
+            8.6093639,
+            49.645423501
+          ],
+          [
+            8.6092645,
+            49.643091701
+          ],
+          [
+            8.6092634,
+            49.643031001
+          ],
+          [
+            8.6093027,
+            49.641237901
+          ],
+          [
+            8.6093634,
+            49.640476801
+          ],
+          [
+            8.609425671,
+            49.639935148
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-20_06-40-00-000_012.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.69094415502086,8.602781824768941,49.663344493567,8.604991866438123",
+      "point": "49.69094415502086,8.602781824768941",
+      "startLcPosition": "86",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Scheidweg - Kälberpfad",
+      "startTimestamp": "2026-08-20T06:40:00Z",
+      "delayTimeValue": "4",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "30",
+      "coordinate": {
+        "lat": 49.69094415502086,
+        "long": 8.602781824768941
+      },
+      "description": [
+        "Beginn: 20.08.26 um 08:40 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.08.2026, 06:40",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.7 km hinter Scheidweg und Kälberpfad",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 30 km/h",
+        "- Reisezeitverlust: 4 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.602781825,
+            49.690944155
+          ],
+          [
+            8.6027526,
+            49.690795601
+          ],
+          [
+            8.6025962,
+            49.690065801
+          ],
+          [
+            8.6024852,
+            49.689666201
+          ],
+          [
+            8.6023665,
+            49.689239001
+          ],
+          [
+            8.6022198,
+            49.688778601
+          ],
+          [
+            8.6021436,
+            49.688539301
+          ],
+          [
+            8.6014893,
+            49.686791601
+          ],
+          [
+            8.6010819,
+            49.685817801
+          ],
+          [
+            8.6007092,
+            49.684917701
+          ],
+          [
+            8.6003308,
+            49.683907301
+          ],
+          [
+            8.6001434,
+            49.683391101
+          ],
+          [
+            8.5999304,
+            49.682736501
+          ],
+          [
+            8.5997474,
+            49.682092701
+          ],
+          [
+            8.5995976,
+            49.681498301
+          ],
+          [
+            8.5994578,
+            49.680809301
+          ],
+          [
+            8.5993713,
+            49.680260101
+          ],
+          [
+            8.5993114,
+            49.679751901
+          ],
+          [
+            8.5992515,
+            49.679213601
+          ],
+          [
+            8.5992149,
+            49.678662301
+          ],
+          [
+            8.5991995,
+            49.678259501
+          ],
+          [
+            8.599214,
+            49.677698201
+          ],
+          [
+            8.5992213,
+            49.677556101
+          ],
+          [
+            8.5992267,
+            49.677089101
+          ],
+          [
+            8.5992628,
+            49.676623001
+          ],
+          [
+            8.5993394,
+            49.676003401
+          ],
+          [
+            8.5994388,
+            49.675337401
+          ],
+          [
+            8.5995697,
+            49.674594101
+          ],
+          [
+            8.5997327,
+            49.673804001
+          ],
+          [
+            8.5999516,
+            49.673050001
+          ],
+          [
+            8.6000398,
+            49.672786701
+          ],
+          [
+            8.600112,
+            49.672512101
+          ],
+          [
+            8.6002767,
+            49.672005201
+          ],
+          [
+            8.6006881,
+            49.670878301
+          ],
+          [
+            8.6009327,
+            49.670257701
+          ],
+          [
+            8.6016898,
+            49.668656201
+          ],
+          [
+            8.6020659,
+            49.667954401
+          ],
+          [
+            8.6021487,
+            49.667804801
+          ],
+          [
+            8.6025686,
+            49.667056301
+          ],
+          [
+            8.6030782,
+            49.666225101
+          ],
+          [
+            8.6032147,
+            49.666022501
+          ],
+          [
+            8.603854,
+            49.665030101
+          ],
+          [
+            8.604991866,
+            49.663344494
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-20_06-29-00-000_009.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.724789495176516,8.593177980661553,49.70282105763856,8.600596030263176",
+      "point": "49.724789495176516,8.593177980661553",
+      "startLcPosition": "88",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Nachtweide - Scheidweg",
+      "startTimestamp": "2026-08-20T06:29:00Z",
+      "delayTimeValue": "10",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "coordinate": {
+        "lat": 49.724789495176516,
+        "long": 8.593177980661553
+      },
+      "description": [
+        "Beginn: 20.08.26 um 08:29 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.08.2026, 06:29",
+        "A5: Darmstadt -> Heidelberg, zwischen 0.9 km hinter Nachtweide und 0.7 km vor Scheidweg",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Reisezeitverlust: 10 Minuten (abnehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.593177981,
+            49.724789495
+          ],
+          [
+            8.5937316,
+            49.722594701
+          ],
+          [
+            8.5939308,
+            49.721825501
+          ],
+          [
+            8.594266,
+            49.720556701
+          ],
+          [
+            8.5946948,
+            49.719068901
+          ],
+          [
+            8.5950105,
+            49.718027401
+          ],
+          [
+            8.5956712,
+            49.715781701
+          ],
+          [
+            8.5960976,
+            49.714521301
+          ],
+          [
+            8.5961376,
+            49.714410601
+          ],
+          [
+            8.5965671,
+            49.713078401
+          ],
+          [
+            8.5974762,
+            49.710548901
+          ],
+          [
+            8.5976219,
+            49.710143401
+          ],
+          [
+            8.59828,
+            49.708336201
+          ],
+          [
+            8.5990611,
+            49.706439301
+          ],
+          [
+            8.5996933,
+            49.704882601
+          ],
+          [
+            8.60059603,
+            49.702821058
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-20_06-38-00-000_010.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "49.760235973218194,8.596880314176099,49.73204829637999,8.591882443227021",
+      "point": "49.760235973218194,8.596880314176099",
+      "startLcPosition": "90",
+      "display_type": "WARNING",
+      "subtitle": " Darmstadt -> Heidelberg",
+      "title": "A5 | Erlensee - Zwingenberg",
+      "startTimestamp": "2026-08-20T06:38:00Z",
+      "delayTimeValue": "8",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20",
+      "coordinate": {
+        "lat": 49.760235973218194,
+        "long": 8.596880314176099
+      },
+      "description": [
+        "Beginn: 20.08.26 um 08:38 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 20.08.2026, 06:38",
+        "A5: Darmstadt -> Heidelberg, zwischen 1.0 km hinter Erlensee und 1.0 km vor AS Zwingenberg",
+        "",
+        "Ereignismeldung:",
+        "- Im Stillstand",
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 8 Minuten"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.596880314,
+            49.760235973
+          ],
+          [
+            8.596759,
+            49.760038801
+          ],
+          [
+            8.5962953,
+            49.759211601
+          ],
+          [
+            8.5958807,
+            49.758395801
+          ],
+          [
+            8.5954861,
+            49.757541401
+          ],
+          [
+            8.5951145,
+            49.756679401
+          ],
+          [
+            8.5947568,
+            49.755761901
+          ],
+          [
+            8.5942641,
+            49.754370201
+          ],
+          [
+            8.5940536,
+            49.753706001
+          ],
+          [
+            8.5937873,
+            49.752808101
+          ],
+          [
+            8.5935201,
+            49.751862301
+          ],
+          [
+            8.5932676,
+            49.750917301
+          ],
+          [
+            8.5931116,
+            49.750282001
+          ],
+          [
+            8.5929235,
+            49.749476201
+          ],
+          [
+            8.5927607,
+            49.748775401
+          ],
+          [
+            8.5924247,
+            49.747057501
+          ],
+          [
+            8.5922749,
+            49.746156701
+          ],
+          [
+            8.5921724,
+            49.745493801
+          ],
+          [
+            8.5920331,
+            49.744529901
+          ],
+          [
+            8.5919288,
+            49.743622901
+          ],
+          [
+            8.5918399,
+            49.742840901
+          ],
+          [
+            8.5917493,
+            49.741913501
+          ],
+          [
+            8.5916586,
+            49.740511101
+          ],
+          [
+            8.5915946,
+            49.738448401
+          ],
+          [
+            8.591593,
+            49.738120101
+          ],
+          [
+            8.5915879,
+            49.737069401
+          ],
+          [
+            8.5916058,
+            49.736294301
+          ],
+          [
+            8.5916826,
+            49.734532401
+          ],
+          [
+            8.5917304,
+            49.733822101
+          ],
+          [
+            8.5918235,
+            49.732747901
+          ],
+          [
+            8.591882443,
+            49.732048296
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "NLW_2026_002476--vi-hind.2026-08-20_06-18-00-778.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
