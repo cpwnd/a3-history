@@ -1,32 +1,34 @@
 {
   "warning": [
     {
-      "identifier": "INRIX--vi-avl.2026-08-22_19-07-00-000_002.de0",
+      "identifier": "INRIX--vi-avl.2026-08-22_19-07-00-000_003.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.44030105289179,13.375564996608212,48.458790648542696,13.3754325220727",
-      "point": "48.44030105289179,13.375564996608212",
+      "extent": "48.44503006759278,13.375445182673843,48.458790648542696,13.3754325220727",
+      "point": "48.44503006759278,13.375445182673843",
       "startLcPosition": "2",
       "display_type": "WARNING",
       "subtitle": " Linz -> Passau",
       "title": "A3 | Pocking - Rottal-Ost",
       "startTimestamp": "2026-08-22T19:07:00Z",
-      "delayTimeValue": "10",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "10",
       "coordinate": {
-        "lat": 48.44030105289179,
-        "long": 13.375564996608212
+        "lat": 48.44503006759278,
+        "long": 13.375445182673843
       },
       "description": [
         "Beginn: 22.08.26 um 21:07 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.08.2026, 19:07",
-        "A3: Linz -> Passau, zwischen 0.5 km hinter AS Pocking und 0.1 km vor Rottal-Ost",
+        "A3: Linz -> Passau, zwischen 1.1 km hinter AS Pocking und 0.1 km vor Rottal-Ost",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten (abnehmend)"
+        "- Durchschnittsgeschwindigkeit: 10 km/h",
+        "- Reisezeitverlust: 9 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,20 +38,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.375564997,
-            48.440301053
-          ],
-          [
-            13.3755273,
-            48.440532001
-          ],
-          [
-            13.3753399,
-            48.442335601
-          ],
-          [
-            13.375356,
-            48.443530001
+            13.375445183,
+            48.445030068
           ],
           [
             13.3754472,
@@ -131,7 +121,7 @@
       }
     },
     {
-      "identifier": "NLSB_2026_002581--vi-hind.2026-08-22_20-34-00-225.de0",
+      "identifier": "NLSB_2026_002581--vi-hind.2026-08-22_21-06-00-202.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
@@ -177,28 +167,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "50.06756083500801,8.82381222214661,50.06035046259132,8.8655048169701",
-      "point": "50.06756083500801,8.82381222214661",
+      "extent": "50.06763615807625,8.822953833248302,50.06035046259132,8.8655048169701",
+      "point": "50.06763615807625,8.822953833248302",
       "startLcPosition": "153",
       "display_type": "WARNING",
       "subtitle": " Frankfurt -> Würzburg",
       "title": "A3 | Hainbach - Hanau",
       "startTimestamp": "2026-08-22T18:32:00Z",
-      "delayTimeValue": "15",
+      "delayTimeValue": "19",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 50.06756083500801,
-        "long": 8.82381222214661
+        "lat": 50.06763615807625,
+        "long": 8.822953833248302
       },
       "description": [
         "Beginn: 22.08.26 um 20:32 Uhr",
         "",
         "Angespannte Verkehrslage, seit 22.08.2026, 18:32",
-        "A3: Frankfurt -> Würzburg, zwischen 4.3 km hinter Hainbach und 1.9 km vor AS Hanau",
+        "A3: Frankfurt -> Würzburg, zwischen 4.2 km hinter Hainbach und 1.9 km vor AS Hanau",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 15 Minuten (abnehmend)"
+        "- Reisezeitverlust: 19 Minuten"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -208,8 +198,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.823812222,
-            50.067560835
+            8.822953833,
+            50.067636158
+          ],
+          [
+            8.8233924,
+            50.067598701
+          ],
+          [
+            8.823753,
+            50.067567101
           ],
           [
             8.8244212,
