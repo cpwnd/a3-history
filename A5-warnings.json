@@ -12,8 +12,9 @@
       "subtitle": " Basel -> Karlsruhe",
       "title": "A5 | Efringen-Kirchen - Bad Bellingen",
       "startTimestamp": "2026-08-25T11:42:00Z",
-      "delayTimeValue": "10",
+      "delayTimeValue": "9",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "averageSpeed": "20",
       "coordinate": {
         "lat": 47.68177046256755,
         "long": 7.522905281233073
@@ -26,7 +27,8 @@
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 10 Minuten (abnehmend)"
+        "- Durchschnittsgeschwindigkeit: 20 km/h",
+        "- Reisezeitverlust: 9 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -199,32 +201,34 @@
       }
     },
     {
-      "identifier": "INRIX--vi-avl.2026-08-25_12-12-00-000_005.de0",
+      "identifier": "INRIX--vi-avl.2026-08-25_14-44-00-000_015.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "48.130156943530984,7.78003502339636,48.20550897047217,7.7458372138805585",
-      "point": "48.130156943530984,7.78003502339636",
+      "extent": "48.12776934930937,7.781529455451341,48.146365335247246,7.767036793427733",
+      "point": "48.12776934930937,7.781529455451341",
       "startLcPosition": "30",
       "display_type": "WARNING",
       "subtitle": " Basel -> Karlsruhe",
-      "title": "A5 | Teningen - Herbolzheim",
-      "startTimestamp": "2026-08-25T12:12:00Z",
-      "delayTimeValue": "30",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "title": "A5 | Teningen - Riegel",
+      "startTimestamp": "2026-08-25T14:44:00Z",
+      "delayTimeValue": "2",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35",
       "coordinate": {
-        "lat": 48.130156943530984,
-        "long": 7.78003502339636
+        "lat": 48.12776934930937,
+        "long": 7.781529455451341
       },
       "description": [
-        "Beginn: 25.08.26 um 14:12 Uhr",
+        "Beginn: 25.08.26 um 16:44 Uhr",
         "",
-        "Angespannte Verkehrslage, seit 25.08.2026, 12:12",
-        "A5: Basel -> Karlsruhe, zwischen 1.8 km hinter AS Teningen und 2.5 km vor AS Herbolzheim",
+        "Angespannte Verkehrslage, seit 25.08.2026, 14:44",
+        "A5: Basel -> Karlsruhe, zwischen 1.5 km hinter AS Teningen und 1.0 km vor AS Riegel",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 30 Minuten (abnehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 2 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -234,8 +238,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.780035023,
-            48.130156944
+            7.781529455,
+            48.127769349
+          ],
+          [
+            7.7808388,
+            48.128907301
+          ],
+          [
+            7.7802504,
+            48.129828501
           ],
           [
             7.7788976,
@@ -298,128 +310,52 @@
             48.145437101
           ],
           [
-            7.7667762,
-            48.146636201
-          ],
+            7.767036793,
+            48.146365335
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "INRIX--vi-avl.2026-08-25_14-38-00-000_021.de0",
+      "icon": "101",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "48.172433102585856,7.751199879827494,48.23367424904873,7.751726607577408",
+      "point": "48.172433102585856,7.751199879827494",
+      "startLcPosition": "31",
+      "display_type": "WARNING",
+      "subtitle": " Basel -> Karlsruhe",
+      "title": "A5 | Riegel - Rust",
+      "startTimestamp": "2026-08-25T14:38:00Z",
+      "delayTimeValue": "7",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "35",
+      "coordinate": {
+        "lat": 48.172433102585856,
+        "long": 7.751199879827494
+      },
+      "description": [
+        "Beginn: 25.08.26 um 16:38 Uhr",
+        "",
+        "Angespannte Verkehrslage, seit 25.08.2026, 14:38",
+        "A5: Basel -> Karlsruhe, zwischen 2.1 km hinter AS Riegel und 2.1 km vor AS Rust",
+        "",
+        "Ereignismeldung:",
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 35 km/h",
+        "- Reisezeitverlust: 7 Minuten (zunehmend)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "source": "inrix",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            7.7653838,
-            48.148092101
-          ],
-          [
-            7.7647439,
-            48.148777001
-          ],
-          [
-            7.7645058,
-            48.149036301
-          ],
-          [
-            7.7644139,
-            48.149140901
-          ],
-          [
-            7.7637286,
-            48.149895801
-          ],
-          [
-            7.7632552,
-            48.150441001
-          ],
-          [
-            7.7628452,
-            48.150915201
-          ],
-          [
-            7.7625947,
-            48.151213301
-          ],
-          [
-            7.7622098,
-            48.151690401
-          ],
-          [
-            7.7613742,
-            48.152748001
-          ],
-          [
-            7.760809,
-            48.153507301
-          ],
-          [
-            7.7603486,
-            48.154143101
-          ],
-          [
-            7.760136,
-            48.154432301
-          ],
-          [
-            7.7600667,
-            48.154527401
-          ],
-          [
-            7.7592258,
-            48.155805701
-          ],
-          [
-            7.7589517,
-            48.156209801
-          ],
-          [
-            7.7581752,
-            48.157476701
-          ],
-          [
-            7.7575999,
-            48.158467401
-          ],
-          [
-            7.7570594,
-            48.159454201
-          ],
-          [
-            7.7563047,
-            48.160910201
-          ],
-          [
-            7.7555527,
-            48.162376201
-          ],
-          [
-            7.7545209,
-            48.164512501
-          ],
-          [
-            7.7542727,
-            48.165017501
-          ],
-          [
-            7.754008,
-            48.165558601
-          ],
-          [
-            7.7537488,
-            48.166129501
-          ],
-          [
-            7.7535719,
-            48.166533001
-          ],
-          [
-            7.7535022,
-            48.166686201
-          ],
-          [
-            7.7532316,
-            48.167324901
-          ],
-          [
-            7.7524631,
-            48.169150301
-          ],
-          [
-            7.7518865,
-            48.170596101
+            7.75119988,
+            48.172433103
           ],
           [
             7.7509968,
@@ -490,8 +426,96 @@
             48.205241401
           ],
           [
-            7.745837214,
-            48.20550897
+            7.7458778,
+            48.206468801
+          ],
+          [
+            7.746021,
+            48.208699501
+          ],
+          [
+            7.7461956,
+            48.210638301
+          ],
+          [
+            7.7462395,
+            48.211115001
+          ],
+          [
+            7.7463375,
+            48.212018601
+          ],
+          [
+            7.7465318,
+            48.213712001
+          ],
+          [
+            7.7467831,
+            48.215342001
+          ],
+          [
+            7.7470183,
+            48.216757001
+          ],
+          [
+            7.7472776,
+            48.218157301
+          ],
+          [
+            7.7475465,
+            48.219592901
+          ],
+          [
+            7.7475729,
+            48.219691101
+          ],
+          [
+            7.7475802,
+            48.219750101
+          ],
+          [
+            7.747916,
+            48.221279901
+          ],
+          [
+            7.7485277,
+            48.223797701
+          ],
+          [
+            7.7491439,
+            48.226040701
+          ],
+          [
+            7.7494681,
+            48.227150201
+          ],
+          [
+            7.7498292,
+            48.228313501
+          ],
+          [
+            7.7498937,
+            48.228512501
+          ],
+          [
+            7.7501764,
+            48.229371901
+          ],
+          [
+            7.7505936,
+            48.230639001
+          ],
+          [
+            7.7509681,
+            48.231690401
+          ],
+          [
+            7.7513013,
+            48.232598701
+          ],
+          [
+            7.751726608,
+            48.233674249
           ]
         ]
       }
@@ -501,28 +525,28 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "49.16952243363278,8.573315648338847,49.26461177498096,8.608605933990704",
-      "point": "49.16952243363278,8.573315648338847",
+      "extent": "49.179291465996876,8.578726874740935,49.26461177498096,8.608605933990704",
+      "point": "49.179291465996876,8.578726874740935",
       "startLcPosition": "65",
       "display_type": "WARNING",
       "subtitle": " Karlsruhe -> Heidelberg",
       "title": "A5 | Bruchsal - Walldorf",
       "startTimestamp": "2026-08-25T10:17:00Z",
-      "delayTimeValue": "84",
+      "delayTimeValue": "110",
       "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 49.16952243363278,
-        "long": 8.573315648338847
+        "lat": 49.179291465996876,
+        "long": 8.578726874740935
       },
       "description": [
         "Beginn: 25.08.26 um 12:17 Uhr",
         "",
         "Angespannte Verkehrslage, seit 25.08.2026, 10:17",
-        "A5: Karlsruhe -> Heidelberg, zwischen 1.3 km hinter Bruchsal und 2.0 km vor AK Walldorf",
+        "A5: Karlsruhe -> Heidelberg, zwischen 2.5 km hinter Bruchsal und 2.0 km vor AK Walldorf",
         "",
         "Ereignismeldung:",
         "- Im Stillstand",
-        "- Reisezeitverlust: 84 Minuten (zunehmend)"
+        "- Reisezeitverlust: 110 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -532,52 +556,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.573315648,
-            49.169522434
-          ],
-          [
-            8.5733206,
-            49.169531601
-          ],
-          [
-            8.5733834,
-            49.169644801
-          ],
-          [
-            8.5738145,
-            49.170446201
-          ],
-          [
-            8.5742502,
-            49.171244301
-          ],
-          [
-            8.5744049,
-            49.171525401
-          ],
-          [
-            8.5744115,
-            49.171538001
-          ],
-          [
-            8.5752154,
-            49.172975001
-          ],
-          [
-            8.5760848,
-            49.174570401
-          ],
-          [
-            8.5767482,
-            49.175776101
-          ],
-          [
-            8.5769471,
-            49.176125501
-          ],
-          [
-            8.5779557,
-            49.177975001
+            8.578726875,
+            49.179291466
           ],
           [
             8.57873,
@@ -1039,7 +1019,7 @@
       }
     },
     {
-      "identifier": "NLW_2026_002476--vi-hind.2026-08-25_13-36-00-340.de0",
+      "identifier": "NLW_2026_002476--vi-hind.2026-08-25_14-39-00-396.de0",
       "icon": "101",
       "isBlocked": "false",
       "future": false,
