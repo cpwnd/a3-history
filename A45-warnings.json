@@ -5,19 +5,18 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.376879266178804,7.524152518252783,51.42826849273407,7.5421901735148555",
-      "point": "51.376879266178804,7.524152518252783",
+      "extent": "51.376158818845454,7.5238949703140054,51.428739698746725,7.541415801737414",
+      "point": "51.376158818845454,7.5238949703140054",
       "startLcPosition": "98",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
       "title": "A45 | Hagen - Westhofener Kreuz",
       "startTimestamp": "2026-09-09T09:52:00Z",
-      "delayTimeValue": "8",
-      "abnormalTrafficType": "SLOW_TRAFFIC",
-      "averageSpeed": "30",
+      "delayTimeValue": "16",
+      "abnormalTrafficType": "QUEUING_TRAFFIC",
       "coordinate": {
-        "lat": 51.376879266178804,
-        "long": 7.524152518252783
+        "lat": 51.376158818845454,
+        "long": 7.5238949703140054
       },
       "description": [
         "Beginn: 09.09.26 um 11:52 Uhr",
@@ -26,9 +25,8 @@
         "A45: Hagen -> Dortmund, zwischen 1.0 km hinter AK Hagen und 0.8 km vor AK Westhofener Kreuz",
         "",
         "Ereignismeldung:",
-        "- Stockender Verkehr",
-        "- Durchschnittsgeschwindigkeit: 30 km/h",
-        "- Reisezeitverlust: 8 Minuten (zunehmend)"
+        "- Im Stillstand",
+        "- Reisezeitverlust: 16 Minuten (zunehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -38,8 +36,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.524152518,
-            51.376879266
+            7.52389497,
+            51.376158819
+          ],
+          [
+            7.5239302,
+            51.376239201
+          ],
+          [
+            7.5240111,
+            51.376444601
+          ],
+          [
+            7.5241484,
+            51.376864501
           ],
           [
             7.5242205,
@@ -366,8 +376,12 @@
             51.427989901
           ],
           [
-            7.542190174,
-            51.428268493
+            7.5419639,
+            51.428415801
+          ],
+          [
+            7.541415802,
+            51.428739699
           ]
         ]
       }
