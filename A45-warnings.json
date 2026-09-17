@@ -5,28 +5,30 @@
       "icon": "101",
       "isBlocked": "false",
       "future": false,
-      "extent": "51.3855743699533,7.525404377837393,51.42826849273407,7.5421901735148555",
-      "point": "51.3855743699533,7.525404377837393",
-      "startLcPosition": "99",
+      "extent": "51.37742630559797,7.5242929490036365,51.42664758803181,7.54449316413797",
+      "point": "51.37742630559797,7.5242929490036365",
+      "startLcPosition": "98",
       "display_type": "WARNING",
       "subtitle": " Hagen -> Dortmund",
-      "title": "A45 | Lennetalbrücke - Westhofener Kreuz",
+      "title": "A45 | Hagen - Westhofener Kreuz",
       "startTimestamp": "2026-09-17T04:35:00Z",
-      "delayTimeValue": "11",
-      "abnormalTrafficType": "QUEUING_TRAFFIC",
+      "delayTimeValue": "5",
+      "abnormalTrafficType": "SLOW_TRAFFIC",
+      "averageSpeed": "40",
       "coordinate": {
-        "lat": 51.3855743699533,
-        "long": 7.525404377837393
+        "lat": 51.37742630559797,
+        "long": 7.5242929490036365
       },
       "description": [
         "Beginn: 17.09.26 um 06:35 Uhr",
         "",
         "Angespannte Verkehrslage, seit 17.09.2026, 04:35",
-        "A45: Hagen -> Dortmund, zwischen 0.3 km hinter Lennetalbrücke und 0.8 km vor AK Westhofener Kreuz",
+        "A45: Hagen -> Dortmund, zwischen 1.1 km hinter AK Hagen und 1.1 km vor AK Westhofener Kreuz",
         "",
         "Ereignismeldung:",
-        "- Im Stillstand",
-        "- Reisezeitverlust: 11 Minuten (abnehmend)"
+        "- Stockender Verkehr",
+        "- Durchschnittsgeschwindigkeit: 40 km/h",
+        "- Reisezeitverlust: 5 Minuten (abnehmend)"
       ],
       "routeRecommendation": [],
       "footer": [],
@@ -36,8 +38,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.525404378,
-            51.38557437
+            7.524292949,
+            51.377426306
+          ],
+          [
+            7.524301,
+            51.377464501
+          ],
+          [
+            7.5243328,
+            51.377593501
+          ],
+          [
+            7.5243815,
+            51.377828501
+          ],
+          [
+            7.5245455,
+            51.378987701
           ],
           [
             7.5256993,
@@ -324,24 +342,8 @@
             51.426422801
           ],
           [
-            7.5444386,
-            51.426689501
-          ],
-          [
-            7.5441664,
-            51.426902301
-          ],
-          [
-            7.5433922,
-            51.427461001
-          ],
-          [
-            7.5426181,
-            51.427989901
-          ],
-          [
-            7.542190174,
-            51.428268493
+            7.544493164,
+            51.426647588
           ]
         ]
       }
